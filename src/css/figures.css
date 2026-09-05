@@ -11,7 +11,8 @@ figure.fig svg { width: 100%; height: auto; max-height: 520px; display: block; m
 figure.fig svg.narrow { max-width: 460px; }
 
 /* Titre au-dessus, note en dessous : la disposition des mémoires. */
-figure.fig .fig-cap { display: block; font-size: var(--fs-sm); line-height: 1.45; margin: 0 0 8px; color: var(--ink); }
+figure.fig .fig-cap { display: flex; align-items: baseline; gap: 10px; font-size: var(--fs-sm); line-height: 1.45; margin: 0 0 8px; color: var(--ink); }
+figure.fig .fig-lib { flex: 1 1 auto; min-width: 0; }
 figure.fig .fig-n { font-weight: 700; font-family: var(--font-sans); letter-spacing: 0.01em; }
 figure.fig .fig-n::after { content: "."; }
 figure.fig .fig-t { font-family: var(--font-serif); font-style: italic; margin-left: 0.4em; }
@@ -26,14 +27,16 @@ a.figref::before { content: "("; }
 a.figref::after { content: ")"; }
 a.figref:hover, a.figref:focus-visible { background: var(--primary-tint); }
 
-/* Bouton d'agrandissement : discret, présent au clavier, invisible à l'impression. */
-.fig-zoom { position: absolute; right: 10px; top: 10px; display: inline-flex; align-items: center; gap: 6px;
-  border: 1px solid var(--line-ui); background: var(--surface); color: var(--ink-2); border-radius: 999px;
-  padding: 5px 11px 5px 9px; font-size: var(--fs-xs); cursor: zoom-in; opacity: 0; transition: opacity var(--dur) var(--ease), border-color var(--dur-fast) var(--ease); }
-.fig-zoom svg { width: 15px; height: 15px; min-width: 0; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
-figure.fig:hover .fig-zoom, .fig-zoom:focus-visible { opacity: 1; }
-.fig-zoom:hover { border-color: var(--primary); color: var(--ink); }
-@media (hover: none) { .fig-zoom { opacity: 1; } }
+/* Bouton d'agrandissement : une icône nue au bout de la ligne de légende, hors du dessin.
+   Toute la boîte est cliquable ; le bouton n'est là que pour l'annoncer. Zone tactile de 44 px. */
+.fig-zoom { position: relative; flex: none; align-self: center; width: 26px; height: 26px; display: grid; place-items: center;
+  border: 0; background: none; color: var(--ink-3); padding: 0; cursor: zoom-in;
+  transition: color var(--dur-fast) var(--ease); }
+.fig-zoom::after { content: ""; position: absolute; inset: -9px; }   /* zone tactile de 44 px, sans boîte visible */
+.fig-zoom svg { width: 17px; height: 17px; min-width: 0; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; }
+.fig-zoom:hover, .fig-zoom:focus-visible { color: var(--primary); }
+figure.fig .fig-box .fig-zoom { position: absolute; right: 8px; top: 8px; align-self: auto; }  /* figure sans titre : dans le coin */
+figure.fig .fig-box { cursor: zoom-in; }
 @media print { .fig-zoom { display: none; } }
 
 /* Plein écran : le dessin occupe l'écran, se déplace et se grossit. */

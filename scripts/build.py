@@ -237,14 +237,14 @@ def expand_figures(body, page):
         return numeros[cle]
 
     def bloc(name, classes, n, svg, title, visible):
-        cap = (f'<figcaption class="fig-cap"><span class="fig-n">Figure&nbsp;{n}</span>'
-               f'<span class="fig-t">{esc(title)}</span></figcaption>') if title else ''
+        # Le bouton d'agrandissement se pose sur la ligne de légende, jamais sur le dessin.
+        agrandir = ('<button type="button" class="fig-zoom" title="Agrandir" aria-label="Agrandir la figure ' + esc(title or str(n))
+                    + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 15v5h-5M4 15v5h5M20 9V4h-5"/></svg></button>')
+        cap = (f'<figcaption class="fig-cap"><span class="fig-lib"><span class="fig-n">Figure&nbsp;{n}</span>'
+               f'<span class="fig-t">{esc(title)}</span></span>{agrandir}</figcaption>') if title else ''
         note = f'<p class="fig-note"><span class="fig-note-l">Note.</span> {esc(visible)}</p>' if visible else ''
-        agrandir = ('<button type="button" class="fig-zoom" aria-label="Agrandir la figure ' + esc(title or str(n))
-                    + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 15v5h-5M4 15v5h5M20 9V4h-5"/></svg>'
-                    '<span>Agrandir</span></button>')
         return (f'<figure class="fig {classes}" id="fig-{slugify(name)}" data-fig-n="{n}">{cap}'
-                f'<div class="fig-box">{svg}{agrandir}</div>{note}</figure>')
+                f'<div class="fig-box">{svg}{"" if title else agrandir}</div>{note}</figure>')
 
     def marker(m):
         name = m.group(1).strip()
