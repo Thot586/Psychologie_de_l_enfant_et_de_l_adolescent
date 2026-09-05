@@ -350,3 +350,19 @@ details { border: 0; }
 .pagenav .links a[aria-current="page"] { background: var(--primary-soft); border-color: var(--primary); color: var(--primary-2); box-shadow: none; }
 .pagenav .links a[aria-current="page"]:hover { transform: none; box-shadow: none; }
 .foot .pagenav { margin: var(--sp-4) 0 0; }
+
+/* ---------- en-tête de tableau maintenu à l'écran ----------
+   Doublon visuel du <thead>, affiché seulement pendant que le tableau traverse le haut de la
+   fenêtre. Le conteneur .tw défile horizontalement, ce qui empêche « position: sticky » de
+   fonctionner ; tables.js aligne cette barre sur le tableau et suit son défilement. */
+.thead-float {
+  position: fixed; z-index: 55; overflow: hidden; pointer-events: none;
+  border-bottom: 1px solid var(--line); box-shadow: var(--shadow-sm);
+  background: var(--surface);
+}
+.thead-float table { border-collapse: collapse; margin: 0; min-width: 0; }
+.thead-float th {
+  background: var(--primary-tint); color: var(--primary-2); font-weight: 700; font-size: var(--fs-xs);
+  letter-spacing: 0.01em; text-align: left; padding: 9px 11px; border-bottom: 1px solid var(--line-2);
+}
+@media print { .thead-float { display: none !important; } }

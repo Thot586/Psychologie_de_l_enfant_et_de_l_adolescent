@@ -311,6 +311,7 @@ const imp = (name) => import(`./${name}.js${V ? '?v=' + V : ''}`).catch((e) => c
 if ($('a.term') || $('#gloss-data')) imp('glossary');
 if ($('a.cite')) imp('cite');
 if ($('.qz')) imp('quiz');
+if ($('.tw table thead')) imp('tables');
 if ($('.wiz[data-start]')) imp('wizard');
 if ($('[data-sort], [data-sim], [data-compare], [data-radar], [data-engagement], .agebar')) imp('interactives');
 const q = $('#q');

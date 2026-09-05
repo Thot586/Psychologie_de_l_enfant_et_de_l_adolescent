@@ -171,7 +171,9 @@ def build_page_list():
 
 
 # ------------------------------------------------------------------ figures
-FIG_ALIASES = load_json(SRC / 'figures' / 'aliases.json', {}) if (SRC / 'figures' / 'aliases.json').exists() else {}
+FIG_ALIASES = load_json(SRC / 'figures' / 'aliases.json', {})
+# Légende visible : une phrase. La description complète reste dans le <desc> du SVG, pour les lecteurs d'écran.
+FIG_LEGENDES = load_json(DATA / 'legendes.json', {})
 
 
 def load_figure(name):
@@ -207,7 +209,8 @@ def expand_figures(body, page):
         if svg is None:
             err(f'{page["out"]} : figure introuvable « {name} »')
             return f'<!-- figure manquante : {name} -->'
-        cap = f'<figcaption><b>{esc(title)}</b>{(" " + esc(desc)) if desc else ""}</figcaption>' if title else ''
+        visible = FIG_LEGENDES.get(FIG_ALIASES.get(name, name), desc)
+        cap = f'<figcaption><b>{esc(title)}</b>{(" " + esc(visible)) if visible else ""}</figcaption>' if title else ''
         return f'<figure class="fig {classes}" id="fig-{slugify(name)}"><div class="fig-box">{svg}</div>{cap}</figure>'
     body = re.sub(r'<!--\s*figure:\s*([\w./-]+)(?:\s+([\w\s-]+))?\s*-->', marker, body)
 
