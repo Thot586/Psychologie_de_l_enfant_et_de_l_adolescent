@@ -11,6 +11,9 @@ const SCOPE = self.registration.scope;
 const abs = (p) => new URL(p, SCOPE).href;
 
 self.addEventListener('install', (event) => {
+  // On prend la main sans attendre : un ancien service worker qui reste aux commandes sert d'anciennes
+  // ressources à des pages neuves. Le contenu n'a aucun état à préserver, la bascule est sans risque.
+  self.skipWaiting();
   event.waitUntil(
     caches.open(SHELL).then((c) => c.addAll(PRECACHE.map(abs)))
   );
@@ -27,6 +30,18 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('message', (event) => {
   const d = event.data || {};
   if (d.type === 'SKIP_WAITING') self.skipWaiting();
+  if (d.type === 'CACHE_PAGE' && d.url) {
+    // La toute première page d'une visite est chargée avant que ce service worker ne contrôle
+    // l'onglet : sans cela elle serait la seule à manquer hors ligne.
+    event.waitUntil((async () => {
+      try {
+        const c = await caches.open(PAGES);
+        if (await c.match(d.url)) return;
+        const r = await fetch(d.url, { cache: 'no-cache' });
+        if (r.ok) await c.put(d.url, r);
+      } catch (e) { /* réseau absent */ }
+    })());
+  }
   if (d.type === 'PRECACHE_ALL') {
     event.waitUntil((async () => {
       const c = await caches.open(PAGES);

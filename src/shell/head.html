@@ -23,6 +23,10 @@
 <link rel="preload" href="{{root}}assets/fonts/literata-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{root}}assets/css/styles.css?v={{build_id}}">
 <script>(function(){try{var d=document.documentElement,L=function(k){var v=localStorage.getItem(k);return v===null?'':(''+v).replace(/^"|"$/g,'');},t=L('theme');if(t==='light'||t==='dark'){d.dataset.theme=t;d.style.colorScheme=t;}var f=L('fs');if(f==='s'||f==='l'||f==='xl')d.dataset.fs=f;if(L('reading')==='essentiel')d.dataset.reading='essentiel';}catch(e){}})();</script>
+<!-- Feuille de styles périmée : le HTML est toujours servi par le réseau, ce contrôle est donc
+     le seul qui fonctionne quand un ancien service worker sert d'anciennes ressources. Le script
+     s'exécute après le <link>, donc la feuille est déjà appliquée. -->
+<script>(function(){try{var d=document.documentElement,a=d.getAttribute('data-build')||'';if(!a)return;var c=(getComputedStyle(d).getPropertyValue('--build')||'').trim().replace(/^"|"$/g,'');if(!c||c===a)return;if(sessionStorage.getItem('pea:css')===a)return;sessionStorage.setItem('pea:css',a);var f=function(){location.reload();},p=[];if(window.caches)p.push(caches.keys().then(function(k){return Promise.all(k.filter(function(x){return x.indexOf('pea-')===0;}).map(function(x){return caches.delete(x);}));}));if(navigator.serviceWorker&&navigator.serviceWorker.getRegistrations)p.push(navigator.serviceWorker.getRegistrations().then(function(r){return Promise.all(r.map(function(x){return x.unregister();}));}));Promise.all(p).then(f,f);}catch(e){}})();</script>
 <!-- généré par scripts/build.py ({{build_id}}) : ne pas éditer, modifier src/ et data/ puis relancer le build -->
 </head>
 <body class="{{body_class}}">

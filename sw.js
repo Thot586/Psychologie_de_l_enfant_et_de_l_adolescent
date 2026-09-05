@@ -1,16 +1,19 @@
-/* Service worker · généré par scripts/build.py · version 2026-09-05.2249
+/* Service worker · généré par scripts/build.py · version 2026-09-05.2314
    Coquille et données : cache d'abord. Pages HTML : réseau d'abord, avec délai de garde
    de 3 s seulement si une copie en cache existe ; repli hors-ligne.html sinon.
    Toutes les URL sont relatives à la portée d'enregistrement (self.registration.scope). */
-const VERSION = '2026-09-05.2249';
+const VERSION = '2026-09-05.2314';
 const SHELL = 'pea-shell-' + VERSION;
 const PAGES = 'pea-pages-' + VERSION;
-const PRECACHE = ["./", "index.html", "hors-ligne.html", "assets/css/styles.css", "manifest.webmanifest", "data/search-index.json", "assets/icons/favicon.svg", "assets/js/app.js", "assets/js/cite.js", "assets/js/evidence.js", "assets/js/figview.js", "assets/js/glossary.js", "assets/js/interactives.js", "assets/js/pwa.js", "assets/js/quiz.js", "assets/js/search.js", "assets/js/tables.js", "assets/js/wizard.js", "assets/fonts/literata-italic-latin-ext.woff2", "assets/fonts/literata-italic-latin.woff2", "assets/fonts/literata-normal-latin-ext.woff2", "assets/fonts/literata-normal-latin.woff2", "assets/fonts/public-sans-italic-latin-ext.woff2", "assets/fonts/public-sans-italic-latin.woff2", "assets/fonts/public-sans-normal-latin-ext.woff2", "assets/fonts/public-sans-normal-latin.woff2", "harcelement-scolaire/index.html", "glossaire.html", "references.html"];
+const PRECACHE = ["./", "index.html", "hors-ligne.html", "assets/css/styles.css?v=2026-09-05.2314", "manifest.webmanifest", "data/search-index.json", "assets/icons/favicon.svg", "assets/js/app.js?v=2026-09-05.2314", "assets/js/cite.js?v=2026-09-05.2314", "assets/js/evidence.js?v=2026-09-05.2314", "assets/js/figview.js?v=2026-09-05.2314", "assets/js/glossary.js?v=2026-09-05.2314", "assets/js/interactives.js?v=2026-09-05.2314", "assets/js/pwa.js?v=2026-09-05.2314", "assets/js/quiz.js?v=2026-09-05.2314", "assets/js/search.js?v=2026-09-05.2314", "assets/js/tables.js?v=2026-09-05.2314", "assets/js/wizard.js?v=2026-09-05.2314", "assets/fonts/literata-italic-latin-ext.woff2", "assets/fonts/literata-italic-latin.woff2", "assets/fonts/literata-normal-latin-ext.woff2", "assets/fonts/literata-normal-latin.woff2", "assets/fonts/public-sans-italic-latin-ext.woff2", "assets/fonts/public-sans-italic-latin.woff2", "assets/fonts/public-sans-normal-latin-ext.woff2", "assets/fonts/public-sans-normal-latin.woff2", "harcelement-scolaire/index.html", "glossaire.html", "references.html"];
 const ALL_PAGES = ["harcelement-scolaire/01-grandir.html", "harcelement-scolaire/02-besoins-emotions-corps.html", "harcelement-scolaire/03-traumatisme-et-resilience.html", "harcelement-scolaire/04-harcelement-ou-conflit.html", "harcelement-scolaire/05-nommer-la-violence-madagascar.html", "harcelement-scolaire/06-selon-l-age.html", "harcelement-scolaire/07-chiffres-et-solidite.html", "harcelement-scolaire/08-consequences.html", "harcelement-scolaire/09-qui-est-expose.html", "harcelement-scolaire/10-ecrans-et-vie-en-ligne.html", "harcelement-scolaire/11-reperer.html", "harcelement-scolaire/12-parler-et-ecouter.html", "harcelement-scolaire/13-mon-enfant-est-concerne.html", "harcelement-scolaire/14-demander-de-l-aide.html", "harcelement-scolaire/15-prevenir-ce-qui-marche.html", "harcelement-scolaire/16-kit-de-sensibilisation.html", "harcelement-scolaire/17-ressources.html", "harcelement-scolaire/18-consolider.html", "harcelement-scolaire/methode-et-limites.html", "harcelement-scolaire/ethique-et-confidentialite.html"];
 const SCOPE = self.registration.scope;
 const abs = (p) => new URL(p, SCOPE).href;
 
 self.addEventListener('install', (event) => {
+  // On prend la main sans attendre : un ancien service worker qui reste aux commandes sert d'anciennes
+  // ressources à des pages neuves. Le contenu n'a aucun état à préserver, la bascule est sans risque.
+  self.skipWaiting();
   event.waitUntil(
     caches.open(SHELL).then((c) => c.addAll(PRECACHE.map(abs)))
   );
@@ -27,6 +30,18 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('message', (event) => {
   const d = event.data || {};
   if (d.type === 'SKIP_WAITING') self.skipWaiting();
+  if (d.type === 'CACHE_PAGE' && d.url) {
+    // La toute première page d'une visite est chargée avant que ce service worker ne contrôle
+    // l'onglet : sans cela elle serait la seule à manquer hors ligne.
+    event.waitUntil((async () => {
+      try {
+        const c = await caches.open(PAGES);
+        if (await c.match(d.url)) return;
+        const r = await fetch(d.url, { cache: 'no-cache' });
+        if (r.ok) await c.put(d.url, r);
+      } catch (e) { /* réseau absent */ }
+    })());
+  }
   if (d.type === 'PRECACHE_ALL') {
     event.waitUntil((async () => {
       const c = await caches.open(PAGES);

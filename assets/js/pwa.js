@@ -25,9 +25,18 @@ navigator.serviceWorker.register(swUrl.href, { scope, updateViaCache: 'none' }).
   });
 }).catch(() => { /* enregistrement impossible : le site fonctionne en ligne */ });
 
+/* Un service worker qui prend la main pour la première fois n'a rien changé à ce qui est affiché :
+   recharger n'aurait servi qu'à faire clignoter la page. On ne recharge que sur un vrai remplacement. */
+const avaitUnControleur = !!navigator.serviceWorker.controller;
+// dès qu'un service worker contrôle l'onglet, il enregistre la page où l'on se trouve
+navigator.serviceWorker.ready.then(() => {
+  const envoyer = () => { if (navigator.serviceWorker.controller) navigator.serviceWorker.controller.postMessage({ type: 'CACHE_PAGE', url: location.href }); };
+  if (navigator.serviceWorker.controller) envoyer();
+  else navigator.serviceWorker.addEventListener('controllerchange', envoyer, { once: true });
+});
 let reloading = false;
 navigator.serviceWorker.addEventListener('controllerchange', () => {
-  if (reloading) return;
+  if (!avaitUnControleur || reloading) return;
   reloading = true;
   if (store.get('offlineAll')) store.set('offlineStale', true);
   location.reload();

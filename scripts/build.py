@@ -1058,8 +1058,10 @@ def main():
     changed += write_if_changed(ROOT / 'hors-ligne.html', fill(off, {'title': 'Hors ligne', 'site_title': esc(S['title']), 'heading': 'Vous êtes hors ligne', 'text': 'Cette page n\'a pas encore été enregistrée sur votre appareil. Les pages déjà consultées restent disponibles ; reconnectez-vous pour ouvrir celle-ci, ou rendez toute la session disponible hors ligne depuis les réglages.', 'base_path': S['base_path'], 'author': esc(S['author'])}))
     changed += write_if_changed(ROOT / '404.html', fill(off, {'title': 'Page introuvable', 'site_title': esc(S['title']), 'heading': 'Page introuvable', 'text': 'L\'adresse demandée n\'existe pas ou a changé. Utilisez les liens ci-dessous ou la recherche du site.', 'base_path': S['base_path'], 'author': esc(S['author'])}))
     # service worker
-    precache = ['./', 'index.html', 'hors-ligne.html', 'assets/css/styles.css', 'manifest.webmanifest', 'data/search-index.json', 'assets/icons/favicon.svg'] + \
-               [f'assets/js/{p.name}' for p in sorted((SRC / 'js').glob('*.js'))] + [f'assets/fonts/{p.name}' for p in sorted((ROOT / 'assets' / 'fonts').glob('*.woff2'))]
+    # Les pages demandent la feuille et les modules avec « ?v=BUILD_ID » : on pré-cache exactement
+    # ces URL, sinon une première visite hors ligne les chercherait sous une adresse absente du cache.
+    precache = ['./', 'index.html', 'hors-ligne.html', f'assets/css/styles.css?v={BUILD_ID}', 'manifest.webmanifest', 'data/search-index.json', 'assets/icons/favicon.svg'] + \
+               [f'assets/js/{p.name}?v={BUILD_ID}' for p in sorted((SRC / 'js').glob('*.js'))] + [f'assets/fonts/{p.name}' for p in sorted((ROOT / 'assets' / 'fonts').glob('*.woff2'))]
     precache += [o for o in generated_outs if o.endswith('index.html') or o in ('glossaire.html', 'references.html')]
     precache = list(dict.fromkeys(precache))  # Cache.addAll() refuse les doublons : dédoublonner en gardant l'ordre
     all_pages = [o for o in generated_outs if o not in precache]
