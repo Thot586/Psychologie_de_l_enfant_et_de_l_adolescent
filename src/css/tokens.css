@@ -41,6 +41,8 @@
   --paper: #F7F3EC;
   --surface: #FFFDF9;
   --surface-2: #F2EDE4;
+  --raised: #FFFDF9;   /* fond d'un élément en relief : le ton le plus clair en thème clair */
+  --band: #F2EDE4;     /* bande de pied de page, distincte du corps */
   --ink: #1E2433;
   --ink-2: #4B5364;
   --ink-3: #5C6474;
@@ -88,6 +90,8 @@
     --paper: #14161C;
     --surface: #1C1F27;
     --surface-2: #232732;
+    --raised: #232732;
+    --band: #1C1F27;
     --ink: #ECE6DA;
     --ink-2: #BDB7AB;
     --ink-3: #928D84;
@@ -136,6 +140,8 @@
   --paper: #14161C;
   --surface: #1C1F27;
   --surface-2: #232732;
+  --raised: #232732;
+  --band: #1C1F27;
   --ink: #ECE6DA;
   --ink-2: #BDB7AB;
   --ink-3: #928D84;

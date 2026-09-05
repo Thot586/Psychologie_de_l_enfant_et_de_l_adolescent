@@ -1,62 +1,322 @@
 {
-  "site": {
-    "title": "Psychologie de l'enfant et de l'adolescent",
-    "short_title": "Psy enfant-ado",
-    "description": "Outils pédagogiques fondés sur les preuves pour comprendre les enfants et les adolescents, et agir avec eux : sessions de formation, glossaire sourcé, bibliographie.",
-    "lang": "fr",
-    "base_path": "/Psychologie_de_l_enfant_et_de_l_adolescent/",
-    "base_url": "https://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent",
-    "author": "Dr. FENOHASINA Toto Jean Felicien - Psychiatre - Analyste de donnée - Développeur d'application web",
-    "author_short": "Dr. FENOHASINA Toto Jean Felicien",
-    "license": { "name": "CC BY-NC-SA 4.0", "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" },
-    "repo_url": "https://github.com/Thot586/Psychologie_de_l_enfant_et_de_l_adolescent",
-    "partner_label": "",
-    "forbidden_names": ["SHSM", "Stop Harcèlement Scolaire Madagascar", "Stop Harcelement Scolaire Madagascar", "Stop-Harcèlement-Scolaire"],
-    "theme_color_light": "#F7F3EC",
-    "theme_color_dark": "#14161C"
+ "site": {
+  "title": "Psychologie de l'enfant et de l'adolescent",
+  "short_title": "Psy enfant-ado",
+  "description": "Comprendre les enfants et les adolescents, et savoir quoi faire quand quelque chose ne va pas. Sessions à lire, glossaire, bibliographie, lecture hors ligne.",
+  "lang": "fr",
+  "base_path": "/Psychologie_de_l_enfant_et_de_l_adolescent/",
+  "base_url": "https://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent",
+  "author": "Dr. FENOHASINA Toto Jean Felicien - Psychiatre - Analyste de donnée - Développeur d'application web",
+  "author_short": "Dr. FENOHASINA Toto Jean Felicien",
+  "license": {
+   "name": "CC BY-NC-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"
   },
-  "shared_pages": [
-    { "slug": "glossaire", "out": "glossaire.html", "type": "glossaire", "title": "Glossaire", "description": "Définitions sourcées des termes techniques utilisés dans les sessions, avec liens vers Wikipédia ou les définitions officielles." },
-    { "slug": "references", "out": "references.html", "type": "references", "title": "Bibliographie", "description": "Toutes les références citées dans les sessions, au format APA 7, avec DOI ou URL vérifiés." }
+  "repo_url": "https://github.com/Thot586/Psychologie_de_l_enfant_et_de_l_adolescent",
+  "partner_label": "",
+  "forbidden_names": [
+   "SHSM",
+   "Stop Harcèlement Scolaire Madagascar",
+   "Stop Harcelement Scolaire Madagascar",
+   "Stop-Harcèlement-Scolaire"
   ],
-  "sessions": [
+  "theme_color_light": "#F7F3EC",
+  "theme_color_dark": "#14161C"
+ },
+ "shared_pages": [
+  {
+   "slug": "glossaire",
+   "out": "glossaire.html",
+   "type": "glossaire",
+   "title": "Glossaire",
+   "description": "Définitions sourcées des termes techniques utilisés dans les sessions, avec liens vers Wikipédia ou les définitions officielles."
+  },
+  {
+   "slug": "references",
+   "out": "references.html",
+   "type": "references",
+   "title": "Bibliographie",
+   "description": "Toutes les références citées dans les sessions, au format APA 7, avec DOI ou URL vérifiés."
+  }
+ ],
+ "sessions": [
+  {
+   "slug": "harcelement-scolaire",
+   "title": "Comprendre et agir face au harcèlement scolaire",
+   "short_title": "Harcèlement scolaire",
+   "date": "2026-09-05",
+   "date_label": "Session du 5 septembre 2026",
+   "description": "Comprendre l'enfant et l'adolescent, reconnaître le harcèlement, savoir quoi faire et comment en parler, à Madagascar.",
+   "steps": [
     {
-      "slug": "harcelement-scolaire",
-      "title": "Comprendre et agir face au harcèlement scolaire",
-      "short_title": "Harcèlement scolaire",
-      "date": "2026-09-05",
-      "date_label": "Session du 5 septembre 2026",
-      "description": "Comprendre l'enfant et l'adolescent, reconnaître le harcèlement, savoir quoi faire et comment en parler, à Madagascar.",
-      "steps": [
-        { "key": "A", "title": "Comprendre l'enfant", "modules": ["01-grandir", "02-besoins-emotions-corps", "03-traumatisme-et-resilience"] },
-        { "key": "B", "title": "Comprendre le harcèlement", "modules": ["04-harcelement-ou-conflit", "05-nommer-la-violence-madagascar", "06-selon-l-age", "07-chiffres-et-solidite"] },
-        { "key": "C", "title": "Ce que ça fait, qui est exposé", "modules": ["08-consequences", "09-qui-est-expose", "10-ecrans-et-vie-en-ligne"] },
-        { "key": "D", "title": "Agir", "modules": ["11-reperer", "12-parler-et-ecouter", "13-mon-enfant-est-concerne", "14-demander-de-l-aide"] },
-        { "key": "E", "title": "Transmettre", "modules": ["15-prevenir-ce-qui-marche", "16-kit-de-sensibilisation", "17-ressources", "18-consolider"] }
-      ],
-      "pages": [
-        { "slug": "index", "type": "session-index", "title": "Comprendre et agir face au harcèlement scolaire", "description": "Sommaire de la session : à qui s'adresse cet outil, par où commencer selon votre situation, les cinq étapes, comment lire." },
-        { "slug": "01-grandir", "type": "module", "num": 1, "step": "A", "title": "Grandir, comment ça marche", "short": "Grandir", "description": "Les repères du développement de 0 à 18 ans : corps, langage, pensée, émotions, vie sociale ; ce qui est normal et ce qui doit alerter.", "research_plans": ["developpement"] },
-        { "slug": "02-besoins-emotions-corps", "type": "module", "num": 2, "step": "A", "title": "Derrière un comportement, un besoin", "short": "Besoins, émotions, corps", "description": "Lire les comportements difficiles comme l'expression d'un besoin ou d'une émotion ; le corps qui change ; encadrer sans violence.", "research_plans": ["developpement"] },
-        { "slug": "03-traumatisme-et-resilience", "type": "module", "num": 3, "step": "A", "title": "Quand ça blesse en profondeur : traumatisme et résilience", "short": "Traumatisme et résilience", "description": "Ce qu'est un traumatisme chez l'enfant, comment il se manifeste selon l'âge, ce qui soutient la reconstruction, quand orienter.", "research_plans": ["traumatisme"], "sensitive": true },
-        { "slug": "04-harcelement-ou-conflit", "type": "module", "num": 4, "step": "B", "title": "Harcèlement ou conflit ? La question centrale", "short": "Harcèlement ou conflit", "description": "Trois critères, quatre formes, quatre rôles ; distinguer harcèlement, conflit, agression isolée, châtiment et discipline.", "research_plans": [] },
-        { "slug": "05-nommer-la-violence-madagascar", "type": "module", "num": 5, "step": "B", "title": "Nommer la violence à Madagascar", "short": "Nommer la violence", "description": "Le mot manque, les concepts ne voyagent pas seuls : parler du harcèlement dans le contexte malgache.", "research_plans": [] },
-        { "slug": "06-selon-l-age", "type": "module", "num": 6, "step": "B", "title": "Ça ne se passe pas pareil à 7 ans et à 17 ans", "short": "Selon l'âge", "description": "Par tranche d'âge : développement, formes de harcèlement, signaux d'alerte, leviers et mots à employer.", "research_plans": [] },
-        { "slug": "07-chiffres-et-solidite", "type": "module", "num": 7, "step": "B", "title": "Les chiffres, et comment savoir s'ils tiennent", "short": "Chiffres", "description": "Monde, Afrique subsaharienne, Madagascar : les chiffres de référence, comment juger leur solidité, ce que l'on ne sait pas.", "research_plans": [] },
-        { "slug": "08-consequences", "type": "module", "num": 8, "step": "C", "title": "Ce que ça laisse", "short": "Conséquences", "description": "Conséquences à court et long terme, idées suicidaires et automutilation, ce que prouvent vraiment les études.", "research_plans": [], "sensitive": true },
-        { "slug": "09-qui-est-expose", "type": "module", "num": 9, "step": "C", "title": "Qui est le plus exposé, et pourquoi", "short": "Qui est exposé", "description": "Une lecture systémique : l'enfant, la famille, l'école, la société ; les stigmatisations propres à Madagascar ; le genre.", "research_plans": [] },
-        { "slug": "10-ecrans-et-vie-en-ligne", "type": "module", "num": 10, "step": "C", "title": "Écrans, sommeil et vie en ligne", "short": "Écrans et vie en ligne", "description": "Adolescence et numérique : ce que disent les preuves, le cyberharcèlement, la sextorsion, préserver une preuve, signaler.", "research_plans": ["adolescence_numerique"] },
-        { "slug": "11-reperer", "type": "module", "num": 11, "step": "D", "title": "Repérer : ce qui doit vous alerter", "short": "Repérer", "description": "Les 3 R, les signaux par âge et par lieu, croiser les sources, observer sans conclure ; l'assistant de repérage.", "research_plans": [] },
-        { "slug": "12-parler-et-ecouter", "type": "module", "num": 12, "step": "D", "title": "Parler à un enfant, écouter sans juger", "short": "Parler et écouter", "description": "Préparer, ouvrir, écouter, ne pas promettre l'impossible, aborder les idées noires, adapter selon l'âge.", "research_plans": ["parents"] },
-        { "slug": "13-mon-enfant-est-concerne", "type": "module", "num": 13, "step": "D", "title": "Mon enfant est harcelé, harcèle, est témoin, ou j'encadre un groupe", "short": "Mon enfant est concerné", "description": "Six chemins selon votre position, une règle commune : protéger d'abord, qualifier ensuite ; coopérer avec l'école.", "research_plans": ["parents"] },
-        { "slug": "14-demander-de-l-aide", "type": "module", "num": 14, "step": "D", "title": "Quand et à qui demander de l'aide", "short": "Demander de l'aide", "description": "Reconnaître l'urgence, connaître les dispositifs malgaches, savoir ce que dit la loi, savoir quoi faire si personne ne répond.", "research_plans": ["ressources"] },
-        { "slug": "15-prevenir-ce-qui-marche", "type": "module", "num": 15, "step": "E", "title": "Prévenir : ce qui marche vraiment, et où", "short": "Prévenir", "description": "Ce qui a des preuves, où elles ont été produites, ce qui reste à tester à Madagascar ; adapter, pas copier.", "research_plans": [] },
-        { "slug": "16-kit-de-sensibilisation", "type": "module", "num": 16, "step": "E", "title": "Sensibiliser : le kit pour votre association", "short": "Kit de sensibilisation", "description": "Cadre, messages clés sourcés, activités par âge, réponses aux objections, protocole si un enfant se confie.", "research_plans": ["sensibilisation"] },
-        { "slug": "17-ressources", "type": "module", "num": 17, "step": "E", "title": "Ressources et contacts", "short": "Ressources", "description": "Urgence et signalement, structures de soins, organisations, ressources en ligne fiables, lectures, outils d'évaluation.", "research_plans": ["ressources"] },
-        { "slug": "18-consolider", "type": "module", "num": 18, "step": "E", "title": "Consolider : ce que vous savez maintenant", "short": "Consolider", "description": "Récapitulatif des cinq étapes, auto-évaluation finale, dix phrases à retenir, un engagement.", "research_plans": [] },
-        { "slug": "methode-et-limites", "type": "page", "title": "Méthode et limites", "description": "Niveaux de preuve, ce que l'on sait et ce que l'on ignore, le vide de recherche malgache, phrases à dire en public." },
-        { "slug": "ethique-et-confidentialite", "type": "page", "title": "Éthique, confidentialité et données", "description": "Consentement, images, secret, conservation des notes, lois malgaches, communication sur le suicide, position de l'auteur." }
-      ]
+     "key": "A",
+     "title": "Comprendre l'enfant",
+     "modules": [
+      "01-grandir",
+      "02-besoins-emotions-corps",
+      "03-traumatisme-et-resilience"
+     ]
+    },
+    {
+     "key": "B",
+     "title": "Comprendre le harcèlement",
+     "modules": [
+      "04-harcelement-ou-conflit",
+      "05-nommer-la-violence-madagascar",
+      "06-selon-l-age",
+      "07-chiffres-et-solidite"
+     ]
+    },
+    {
+     "key": "C",
+     "title": "Ce que ça fait, qui est exposé",
+     "modules": [
+      "08-consequences",
+      "09-qui-est-expose",
+      "10-ecrans-et-vie-en-ligne"
+     ]
+    },
+    {
+     "key": "D",
+     "title": "Agir",
+     "modules": [
+      "11-reperer",
+      "12-parler-et-ecouter",
+      "13-mon-enfant-est-concerne",
+      "14-demander-de-l-aide"
+     ]
+    },
+    {
+     "key": "E",
+     "title": "Transmettre",
+     "modules": [
+      "15-prevenir-ce-qui-marche",
+      "16-kit-de-sensibilisation",
+      "17-ressources",
+      "18-consolider"
+     ]
     }
-  ]
+   ],
+   "pages": [
+    {
+     "slug": "index",
+     "type": "session-index",
+     "title": "Comprendre et agir face au harcèlement scolaire",
+     "description": "Sommaire de la session : à qui s'adresse cet outil, par où commencer selon votre situation, les cinq étapes, comment lire."
+    },
+    {
+     "slug": "01-grandir",
+     "type": "module",
+     "num": 1,
+     "step": "A",
+     "title": "Grandir, comment ça marche",
+     "short": "Grandir",
+     "description": "Les repères du développement de 0 à 18 ans : corps, langage, pensée, émotions, vie sociale ; ce qui est normal et ce qui doit alerter.",
+     "research_plans": [
+      "developpement"
+     ]
+    },
+    {
+     "slug": "02-besoins-emotions-corps",
+     "type": "module",
+     "num": 2,
+     "step": "A",
+     "title": "Derrière un comportement, un besoin",
+     "short": "Besoins, émotions, corps",
+     "description": "Lire les comportements difficiles comme l'expression d'un besoin ou d'une émotion ; le corps qui change ; encadrer sans violence.",
+     "research_plans": [
+      "developpement"
+     ]
+    },
+    {
+     "slug": "03-traumatisme-et-resilience",
+     "type": "module",
+     "num": 3,
+     "step": "A",
+     "title": "Quand ça blesse en profondeur : traumatisme et résilience",
+     "short": "Traumatisme et résilience",
+     "description": "Ce qu'est un traumatisme chez l'enfant, comment il se manifeste selon l'âge, ce qui soutient la reconstruction, quand orienter.",
+     "research_plans": [
+      "traumatisme"
+     ],
+     "sensitive": true
+    },
+    {
+     "slug": "04-harcelement-ou-conflit",
+     "type": "module",
+     "num": 4,
+     "step": "B",
+     "title": "Harcèlement ou conflit ? La question centrale",
+     "short": "Harcèlement ou conflit",
+     "description": "Trois critères, quatre formes, quatre rôles ; distinguer harcèlement, conflit, agression isolée, châtiment et discipline.",
+     "research_plans": []
+    },
+    {
+     "slug": "05-nommer-la-violence-madagascar",
+     "type": "module",
+     "num": 5,
+     "step": "B",
+     "title": "Nommer la violence à Madagascar",
+     "short": "Nommer la violence",
+     "description": "Le mot manque, les concepts ne voyagent pas seuls : parler du harcèlement dans le contexte malgache.",
+     "research_plans": []
+    },
+    {
+     "slug": "06-selon-l-age",
+     "type": "module",
+     "num": 6,
+     "step": "B",
+     "title": "Ça ne se passe pas pareil à 7 ans et à 17 ans",
+     "short": "Selon l'âge",
+     "description": "Par tranche d'âge : développement, formes de harcèlement, signaux d'alerte, leviers et mots à employer.",
+     "research_plans": []
+    },
+    {
+     "slug": "07-chiffres-et-solidite",
+     "type": "module",
+     "num": 7,
+     "step": "B",
+     "title": "Les chiffres, et comment savoir s'ils tiennent",
+     "short": "Chiffres",
+     "description": "Monde, Afrique subsaharienne, Madagascar : les chiffres de référence, comment juger leur solidité, ce que l'on ne sait pas.",
+     "research_plans": []
+    },
+    {
+     "slug": "08-consequences",
+     "type": "module",
+     "num": 8,
+     "step": "C",
+     "title": "Ce que ça laisse",
+     "short": "Conséquences",
+     "description": "Conséquences à court et long terme, idées suicidaires et automutilation, ce que prouvent vraiment les études.",
+     "research_plans": [],
+     "sensitive": true
+    },
+    {
+     "slug": "09-qui-est-expose",
+     "type": "module",
+     "num": 9,
+     "step": "C",
+     "title": "Qui est le plus exposé, et pourquoi",
+     "short": "Qui est exposé",
+     "description": "Une lecture systémique : l'enfant, la famille, l'école, la société ; les stigmatisations propres à Madagascar ; le genre.",
+     "research_plans": []
+    },
+    {
+     "slug": "10-ecrans-et-vie-en-ligne",
+     "type": "module",
+     "num": 10,
+     "step": "C",
+     "title": "Écrans, sommeil et vie en ligne",
+     "short": "Écrans et vie en ligne",
+     "description": "Adolescence et numérique : ce que disent les preuves, le cyberharcèlement, la sextorsion, préserver une preuve, signaler.",
+     "research_plans": [
+      "adolescence_numerique"
+     ]
+    },
+    {
+     "slug": "11-reperer",
+     "type": "module",
+     "num": 11,
+     "step": "D",
+     "title": "Repérer : ce qui doit vous alerter",
+     "short": "Repérer",
+     "description": "Les 3 R, les signaux par âge et par lieu, croiser les sources, observer sans conclure ; l'assistant de repérage.",
+     "research_plans": []
+    },
+    {
+     "slug": "12-parler-et-ecouter",
+     "type": "module",
+     "num": 12,
+     "step": "D",
+     "title": "Parler à un enfant, écouter sans juger",
+     "short": "Parler et écouter",
+     "description": "Préparer, ouvrir, écouter, ne pas promettre l'impossible, aborder les idées noires, adapter selon l'âge.",
+     "research_plans": [
+      "parents"
+     ]
+    },
+    {
+     "slug": "13-mon-enfant-est-concerne",
+     "type": "module",
+     "num": 13,
+     "step": "D",
+     "title": "Mon enfant est harcelé, harcèle, est témoin, ou j'encadre un groupe",
+     "short": "Mon enfant est concerné",
+     "description": "Six chemins selon votre position, une règle commune : protéger d'abord, qualifier ensuite ; coopérer avec l'école.",
+     "research_plans": [
+      "parents"
+     ]
+    },
+    {
+     "slug": "14-demander-de-l-aide",
+     "type": "module",
+     "num": 14,
+     "step": "D",
+     "title": "Quand et à qui demander de l'aide",
+     "short": "Demander de l'aide",
+     "description": "Reconnaître l'urgence, connaître les dispositifs malgaches, savoir ce que dit la loi, savoir quoi faire si personne ne répond.",
+     "research_plans": [
+      "ressources"
+     ]
+    },
+    {
+     "slug": "15-prevenir-ce-qui-marche",
+     "type": "module",
+     "num": 15,
+     "step": "E",
+     "title": "Prévenir : ce qui marche vraiment, et où",
+     "short": "Prévenir",
+     "description": "Ce qui a des preuves, où elles ont été produites, ce qui reste à tester à Madagascar ; adapter, pas copier.",
+     "research_plans": []
+    },
+    {
+     "slug": "16-kit-de-sensibilisation",
+     "type": "module",
+     "num": 16,
+     "step": "E",
+     "title": "Sensibiliser : le kit pour votre association",
+     "short": "Kit de sensibilisation",
+     "description": "Cadre, messages clés sourcés, activités par âge, réponses aux objections, protocole si un enfant se confie.",
+     "research_plans": [
+      "sensibilisation"
+     ]
+    },
+    {
+     "slug": "17-ressources",
+     "type": "module",
+     "num": 17,
+     "step": "E",
+     "title": "Ressources et contacts",
+     "short": "Ressources",
+     "description": "Urgence et signalement, structures de soins, organisations, ressources en ligne fiables, lectures, outils d'évaluation.",
+     "research_plans": [
+      "ressources"
+     ]
+    },
+    {
+     "slug": "18-consolider",
+     "type": "module",
+     "num": 18,
+     "step": "E",
+     "title": "Consolider : ce que vous savez maintenant",
+     "short": "Consolider",
+     "description": "Récapitulatif des cinq étapes, auto-évaluation finale, dix phrases à retenir, un engagement.",
+     "research_plans": []
+    },
+    {
+     "slug": "methode-et-limites",
+     "type": "page",
+     "title": "Méthode et limites",
+     "description": "Niveaux de preuve, ce que l'on sait et ce que l'on ignore, le vide de recherche malgache, phrases à dire en public."
+    },
+    {
+     "slug": "ethique-et-confidentialite",
+     "type": "page",
+     "title": "Éthique, confidentialité et données",
+     "description": "Consentement, images, secret, conservation des notes, lois malgaches, communication sur le suicide, position de l'auteur."
+    }
+   ]
+  }
+ ]
 }

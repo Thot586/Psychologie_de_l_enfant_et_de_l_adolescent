@@ -327,8 +327,26 @@ details { border: 0; }
 .flash-anchor { animation: anchorflash 2s var(--ease); }
 @keyframes anchorflash { 0%, 55% { background: var(--accent-soft); box-shadow: 0 0 0 6px var(--accent-soft); } 100% { background: transparent; box-shadow: none; } }
 
-/* ---------- rendu différé des blocs hors écran (coût de mise en page divisé par 3 sur les pages longues) ---------- */
+/* ---------- rendu différé, réservé aux entrées du glossaire ----------
+   Les sections de module en sont exclues : le saut vers une ancre (#section, « Revoir la section »
+   du quiz, « Utilisé dans » du glossaire) atterrissait plusieurs milliers de pixels à côté, la hauteur
+   réelle des sections n'étant connue qu'après leur rendu. app.js corrige la même dérive pour le glossaire. */
 .gl-entry { content-visibility: auto; contain-intrinsic-size: auto 240px; }
-article.page > section:not(:first-of-type) { content-visibility: auto; contain-intrinsic-size: auto 900px; }
 
 .gl-entry .also a, .gl-entry .used a, .reflist .cited a { display: inline-block; padding: 3px 0; }  /* cibles tactiles ≥ 24 px */
+
+/* ---------- barre de pages : seule navigation de l'accueil, et rappel en pied ---------- */
+.pagenav { margin: var(--sp-5) 0 var(--sp-7); }
+.pagenav .links { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; max-width: none; }
+.pagenav .links a {
+  display: inline-flex; align-items: center; min-height: 40px; padding: 8px 15px;
+  border: 1px solid var(--line); border-radius: 11px; background: var(--raised); color: var(--ink-2);
+  font-size: var(--fs-sm); font-weight: 600; text-decoration: none; box-shadow: var(--shadow-sm);
+  transition: transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease),
+              background-color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
+.pagenav .links a:hover { background: var(--primary-tint); border-color: var(--primary); color: var(--primary-2); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.pagenav .links a:active { transform: translateY(0) scale(0.985); box-shadow: var(--shadow-sm); }
+.pagenav .links a[aria-current="page"] { background: var(--primary-soft); border-color: var(--primary); color: var(--primary-2); box-shadow: none; }
+.pagenav .links a[aria-current="page"]:hover { transform: none; box-shadow: none; }
+.foot .pagenav { margin: var(--sp-4) 0 0; }

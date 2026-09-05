@@ -1,6 +1,6 @@
 # Psychologie de l'enfant et de l'adolescent
 
-Outils pédagogiques fondés sur les preuves, pour comprendre les enfants et les adolescents et agir avec eux.
+Comprendre les enfants et les adolescents, et savoir quoi faire quand quelque chose ne va pas.
 Site statique, en français, destiné d'abord aux parents, aux bénévoles d'association et aux personnes qui
 encadrent des jeunes, à Madagascar.
 

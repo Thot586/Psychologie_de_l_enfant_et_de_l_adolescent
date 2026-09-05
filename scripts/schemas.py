@@ -165,36 +165,72 @@ def r_timeline(name, s):
             parts.append(f'<rect class="{FILL.get(z.get("tone"), "f1")} area" x="{x_of(z["from"]):.1f}" y="{y - 12}" width="{x_of(z["to"]) - x_of(z["from"]):.1f}" height="16" rx="3"/>')
             parts.append(f'<text class="t-sm" x="{(x_of(z["from"]) + x_of(z["to"])) / 2:.1f}" y="{y}" text-anchor="middle">{esc(z["label"])}</text>')
         y += 22
-    lane_h = s.get('lane_height', 54) + 14
-    for i, ln in enumerate(lanes):
-        ly = y + i * lane_h
+    base_h = s.get('lane_height', 54) + 14
+    ly = y
+    for ln in lanes:
+        # 1) placer les étiquettes : autant de rangées qu'il en faut pour qu'aucune ne se chevauche
+        placed, rows = [], []
+        for e in sorted(ln.get('events', []), key=lambda e: e['at']):
+            ex = x_of(e['at'])
+            width = len(e['label']) * 6.4
+            anchor = 'start' if ex + 6 + width < x1 else 'end'
+            x_start = ex + 6 if anchor == 'start' else ex - 6 - width
+            row = next((r for r, occupied in enumerate(rows) if x_start > occupied + 8), len(rows))
+            if row == len(rows):
+                rows.append(-1e9)
+            rows[row] = x_start + width
+            placed.append((e, ex, anchor, row))
+        # 2) la piste est aussi haute qu'il le faut pour ces rangées
+        lane_h = max(base_h, 30 + max(0, len(rows) - 1) * 13 + 26)
         parts.append(f'<rect class="{TONE.get(ln.get("tone"), "box")}" x="{x0}" y="{ly}" width="{x1 - x0}" height="{lane_h - 6}" rx="6"/>')
         parts.append(f'<text class="t-b" x="{x0 + 8}" y="{ly + 16}">{esc(ln["title"])}</text>')
-        evs = sorted(ln.get('events', []), key=lambda e: e['at'])
-        last_end = [-1e9, -1e9, -1e9]
-        for j, e in enumerate(evs):
-            ex = x_of(e['at'])
-            anchor = 'start' if ex < W - 170 else 'end'
-            width = len(e['label']) * 6.4
-            x_start = ex + 6 if anchor == 'start' else ex - 6 - width
-            row = next((r for r in range(3) if x_start > last_end[r] + 8), j % 3)
-            last_end[row] = x_start + width
+        for e, ex, anchor, row in placed:
             ey = ly + 30 + row * 13
             parts.append(f'<circle class="{FILL.get(ln.get("tone") or e.get("tone"), "f1")}" cx="{ex:.1f}" cy="{ly + lane_h - 12}" r="4"/>')
             parts.append(f'<line class="line-soft" x1="{ex:.1f}" y1="{ey + 3}" x2="{ex:.1f}" y2="{ly + lane_h - 16}"/>')
             parts.append(f'<text class="t-sm" x="{ex + (6 if anchor == "start" else -6):.1f}" y="{ey:.1f}" text-anchor="{anchor}">{esc(e["label"])}</text>')
-    y += lane_h * len(lanes) + 4
+        ly += lane_h
+    y = ly + 4
     parts.append(f'<line class="line" x1="{x0}" y1="{y}" x2="{x1}" y2="{y}"/>')
+    last_tick = -1e9
     for t in ax['ticks']:
-        parts.append(f'<line class="line" x1="{x_of(t):.1f}" y1="{y - 4}" x2="{x_of(t):.1f}" y2="{y + 4}"/><text class="t-sm" x="{x_of(t):.1f}" y="{y + 18}" text-anchor="middle">{esc(ax.get("format", "{}").format(t))}</text>')
+        tx = x_of(t)
+        parts.append(f'<line class="line" x1="{tx:.1f}" y1="{y - 4}" x2="{tx:.1f}" y2="{y + 4}"/>')
+        if tx - last_tick < 34:      # deux graduations trop proches : on garde le trait, pas l'année
+            continue
+        last_tick = tx
+        parts.append(f'<text class="t-sm" x="{tx:.1f}" y="{y + 18}" text-anchor="middle">{esc(ax.get("format", "{}").format(t))}</text>')
     y += 24
-    for m in s.get('milestones', []):
-        mx = x_of(m['at'])
-        parts.append(f'<circle class="{FILL.get(m.get("tone"), "f2")}" cx="{mx:.1f}" cy="{y + 4}" r="5"/>')
-        tb, nl = text_block(mx, y + 20, m['label'], 22, 't-sm', 'middle', 13)
-        parts.append(tb)
-    if s.get('milestones'):
-        y += 20 + 13 * max(len(wrap(m['label'], 22)) for m in s['milestones']) + 4
+    ms = sorted(s.get('milestones', []), key=lambda m: m['at'])
+    if ms:
+        # empilement adaptatif : un jalon descend d'une rangée tant qu'il en croiserait un autre
+        placed, rows = [], []
+        for m in ms:
+            lines = wrap(m['label'], 22)
+            w = max(len(l) for l in lines) * 6.4
+            mx = x_of(m['at'])
+            left = mx - w / 2
+            row = next((r for r, occupied in enumerate(rows) if left > occupied + 10), len(rows))
+            if row == len(rows):
+                rows.append(-1e9)
+            rows[row] = left + w
+            placed.append((m, mx, lines, row))
+        heights = {}
+        for _, _, lines, row in placed:
+            heights[row] = max(heights.get(row, 0), len(lines))
+        offset, acc = {}, 0
+        for r in sorted(heights):
+            offset[r] = acc
+            acc += heights[r] * 13 + 6
+        for m, mx, lines, row in placed:
+            ty = y + 20 + offset[row]
+            half = max(len(l) for l in lines) * 3.2
+            tx = min(max(mx, x0 + half), x1 - half)   # jamais coupé par le bord du cadre
+            parts.append(f'<circle class="{FILL.get(m.get("tone"), "f2")}" cx="{mx:.1f}" cy="{y + 4}" r="5"/>')
+            if offset[row]:
+                parts.append(f'<line class="line-soft" x1="{mx:.1f}" y1="{y + 10}" x2="{tx:.1f}" y2="{ty - 9:.1f}"/>')
+            parts.append(text_block(tx, ty, m['label'], 22, 't-sm', 'middle', 13)[0])
+        y += 20 + acc
     if s.get('note'):
         parts.append(note(y + 6, s['note']))
         y += 16 * len(wrap(s['note'], 95)) + 6

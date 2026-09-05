@@ -376,6 +376,7 @@ def expand_markers(body, page):
     body = re.sub(r'<!--\s*sort:\s*([\w-]+)\s*-->', lambda m: render_sort(m.group(1), page), body)
     body = re.sub(r'<!--\s*simulator:\s*([\w-]+)\s*-->', lambda m: render_simulator(m.group(1), page), body)
     body = re.sub(r'<!--\s*compare:\s*([\w-]+)\s*-->', lambda m: render_compare(m.group(1), page), body)
+    body = body.replace('<!-- pagenav -->', render_pagenav(page))
     return body
 
 
@@ -670,12 +671,30 @@ def bottom_link(page, target, kind):
     return f'<a href="{rel(page["out"], target["out"])}" rel="{kind}">{ico}{label}</a>'
 
 
+def shared_links(page):
+    """Les pages partagées, dans l'ordre où on les cherche."""
+    s = (page['session'] or site['sessions'][0])['slug']
+    return [('index.html', 'Accueil'), (f'{s}/index.html', 'Sommaire de la session'),
+            ('glossaire.html', 'Glossaire'), ('references.html', 'Bibliographie'),
+            (f'{s}/methode-et-limites.html', 'Méthode et limites'),
+            (f'{s}/ethique-et-confidentialite.html', 'Éthique et confidentialité')]
+
+
+def nav_items(page):
+    out = []
+    for target, label in shared_links(page):
+        cur = ' aria-current="page"' if target == page['out'] else ''
+        out.append(f'<li><a href="{rel(page["out"], target)}"{cur}>{esc(label)}</a></li>')
+    return ''.join(out)
+
+
 def footer_links(page):
-    sess = page['session'] or site['sessions'][0]
-    links = [(rel(page['out'], 'index.html'), 'Accueil'), (rel(page['out'], f'{sess["slug"]}/index.html'), 'Sommaire de la session'),
-             (rel(page['out'], 'glossaire.html'), 'Glossaire'), (rel(page['out'], 'references.html'), 'Bibliographie'),
-             (rel(page['out'], f'{sess["slug"]}/methode-et-limites.html'), 'Méthode et limites'), (rel(page['out'], f'{sess["slug"]}/ethique-et-confidentialite.html'), 'Éthique et confidentialité')]
-    return ''.join(f'<li><a href="{h}">{t}</a></li>' for h, t in links)
+    return nav_items(page)
+
+
+def render_pagenav(page):
+    """Barre de pages : la seule navigation de l'accueil, qui n'a pas de rail."""
+    return f'<nav class="pagenav" aria-label="Pages du site"><ul class="links">{nav_items(page)}</ul></nav>'
 
 
 def title_tag(page):

@@ -107,6 +107,28 @@ async function clearAllData() {
 }
 $$('#clearData, [data-clear-data]').forEach((b) => b.addEventListener('click', () => { if (confirm('Effacer la progression, les réglages et la copie hors ligne enregistrés sur cet appareil ?')) clearAllData(); }));
 
+/* ---------- saut vers une ancre : recaler après le rendu ----------
+   Les entrées de glossaire sont rendues à la demande (content-visibility) : leur hauteur réelle
+   n'est connue qu'une fois peintes, et la cible peut avoir glissé. On repositionne à la frame
+   suivante, puis une fois de plus, sans toucher au défilement si le lecteur a déjà bougé. */
+function settleHash() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (!id) return;
+  const el = document.getElementById(id);
+  if (!el) return;
+  let y = -1;
+  const place = () => {
+    if (y >= 0 && Math.abs(window.scrollY - y) > 4) return;   // le lecteur a repris la main
+    el.scrollIntoView();
+    y = window.scrollY;
+  };
+  requestAnimationFrame(() => requestAnimationFrame(place));
+  setTimeout(place, 250);
+  setTimeout(place, 700);
+}
+window.addEventListener('hashchange', settleHash);
+if (location.hash) { settleHash(); window.addEventListener('load', settleHash); }
+
 /* ---------- tiroir (rail) ---------- */
 const rail = $('#rail');
 const scrim = $('#scrim');
@@ -128,7 +150,7 @@ function closeRail(fromPop) {
   railPushed = false;
   menuBtn && menuBtn.focus({ preventScroll: true });
 }
-menuBtn && menuBtn.addEventListener('click', () => (rail.classList.contains('open') ? closeRail() : openRail()));
+menuBtn && menuBtn.addEventListener('click', () => (rail && rail.classList.contains('open') ? closeRail() : openRail()));
 $('#bbMenu') && $('#bbMenu').addEventListener('click', () => (rail && rail.classList.contains('open') ? closeRail() : openRail()));
 scrim && scrim.addEventListener('click', () => { closeRail(); document.dispatchEvent(new CustomEvent('pea:scrim')); });
 window.addEventListener('popstate', () => { if (rail && rail.classList.contains('open')) { railPushed = false; closeRail(true); } });

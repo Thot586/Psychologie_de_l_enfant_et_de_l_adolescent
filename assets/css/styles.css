@@ -1,4 +1,4 @@
-/* généré par scripts/build.py 2026-09-05.1412 : modifier src/css/ */
+/* généré par scripts/build.py 2026-09-05.1454 : modifier src/css/ */
 /* Polices auto-hébergées : Literata et Public Sans (SIL OFL 1.1). Généré par scripts/fetch_fonts.py */
 @font-face {
   font-family: 'Literata';
@@ -109,6 +109,8 @@
   --paper: #F7F3EC;
   --surface: #FFFDF9;
   --surface-2: #F2EDE4;
+  --raised: #FFFDF9;   /* fond d'un élément en relief : le ton le plus clair en thème clair */
+  --band: #F2EDE4;     /* bande de pied de page, distincte du corps */
   --ink: #1E2433;
   --ink-2: #4B5364;
   --ink-3: #5C6474;
@@ -156,6 +158,8 @@
     --paper: #14161C;
     --surface: #1C1F27;
     --surface-2: #232732;
+    --raised: #232732;
+    --band: #1C1F27;
     --ink: #ECE6DA;
     --ink-2: #BDB7AB;
     --ink-3: #928D84;
@@ -204,6 +208,8 @@
   --paper: #14161C;
   --surface: #1C1F27;
   --surface-2: #232732;
+  --raised: #232732;
+  --band: #1C1F27;
   --ink: #ECE6DA;
   --ink-2: #BDB7AB;
   --ink-3: #928D84;
@@ -369,6 +375,7 @@ th:first-child, td:first-child { font-weight: 600; }
   transition: transform var(--dur-slow) var(--ease), background-color var(--dur-slow) var(--ease);
 }
 .top.is-hidden { transform: translateY(-100%); }
+body.no-rail #menuBtn, body.no-rail #bbMenu { display: none; }
 .brand { display: flex; align-items: center; gap: var(--sp-2); min-width: 0; text-decoration: none; color: var(--ink); }
 .brand:hover { color: var(--ink); }
 .brand .mark { width: 32px; height: 32px; border-radius: 9px; background: var(--primary); color: var(--on-primary); display: grid; place-items: center; font-family: var(--font-serif); font-weight: 700; font-size: 1.05rem; flex: none; transition: transform var(--dur) var(--ease); }
@@ -478,14 +485,20 @@ th:first-child, td:first-child { font-weight: 600; }
 @media (max-width: 480px) { .pager { grid-template-columns: 1fr; } .pager a.next, .pager a.prev { grid-column: auto; } }
 
 /* ---------- pied de page ---------- */
-.foot { border-top: 1px solid var(--line); margin-top: var(--sp-8); padding: var(--sp-6) var(--sp-4) calc(var(--sp-8) + 56px); color: var(--ink-2); font-size: var(--fs-sm); background: var(--surface); }
+.foot { border-top: 1px solid var(--line); margin-top: var(--sp-8); padding: var(--sp-6) var(--sp-4) calc(var(--sp-8) + 56px); color: var(--ink-2); font-size: var(--fs-sm); background: var(--band); }
 .foot .inner { max-width: var(--measure); margin: 0 auto; }
 .foot .author { font-family: var(--font-serif); color: var(--ink); font-weight: 600; margin: 0 0 var(--sp-2); }
 .foot .lic { margin: 0 0 var(--sp-2); }
-.foot .links { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: var(--sp-3) 0 0; padding: 0; list-style: none; }
-.foot .links a { color: var(--ink-2); display: inline-block; padding: 4px 0; }  /* cible tactile ≥ 24 px */
 .foot .build { font-size: 0.74rem; color: var(--ink-2); margin-top: var(--sp-3); }
-.foot .clear { margin-top: var(--sp-3); }
+.foot .clear { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: var(--sp-4); }
+.foot .clear .lnk {
+  border: 1px solid var(--line); background: transparent; color: var(--ink-3); border-radius: 11px;
+  padding: 8px 14px; min-height: 40px; font-weight: 600; text-decoration: none; box-shadow: var(--shadow-sm);
+  transition: transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease),
+              background-color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
+.foot .clear .lnk:hover { border-color: var(--brick); color: var(--brick); background: var(--brick-soft); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.foot .clear .lnk:active { transform: translateY(0) scale(0.985); box-shadow: var(--shadow-sm); }
 
 /* ---------- barre basse mobile ---------- */
 .bottombar {
@@ -887,11 +900,29 @@ details { border: 0; }
 .flash-anchor { animation: anchorflash 2s var(--ease); }
 @keyframes anchorflash { 0%, 55% { background: var(--accent-soft); box-shadow: 0 0 0 6px var(--accent-soft); } 100% { background: transparent; box-shadow: none; } }
 
-/* ---------- rendu différé des blocs hors écran (coût de mise en page divisé par 3 sur les pages longues) ---------- */
+/* ---------- rendu différé, réservé aux entrées du glossaire ----------
+   Les sections de module en sont exclues : le saut vers une ancre (#section, « Revoir la section »
+   du quiz, « Utilisé dans » du glossaire) atterrissait plusieurs milliers de pixels à côté, la hauteur
+   réelle des sections n'étant connue qu'après leur rendu. app.js corrige la même dérive pour le glossaire. */
 .gl-entry { content-visibility: auto; contain-intrinsic-size: auto 240px; }
-article.page > section:not(:first-of-type) { content-visibility: auto; contain-intrinsic-size: auto 900px; }
 
 .gl-entry .also a, .gl-entry .used a, .reflist .cited a { display: inline-block; padding: 3px 0; }  /* cibles tactiles ≥ 24 px */
+
+/* ---------- barre de pages : seule navigation de l'accueil, et rappel en pied ---------- */
+.pagenav { margin: var(--sp-5) 0 var(--sp-7); }
+.pagenav .links { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; max-width: none; }
+.pagenav .links a {
+  display: inline-flex; align-items: center; min-height: 40px; padding: 8px 15px;
+  border: 1px solid var(--line); border-radius: 11px; background: var(--raised); color: var(--ink-2);
+  font-size: var(--fs-sm); font-weight: 600; text-decoration: none; box-shadow: var(--shadow-sm);
+  transition: transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease),
+              background-color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
+.pagenav .links a:hover { background: var(--primary-tint); border-color: var(--primary); color: var(--primary-2); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.pagenav .links a:active { transform: translateY(0) scale(0.985); box-shadow: var(--shadow-sm); }
+.pagenav .links a[aria-current="page"] { background: var(--primary-soft); border-color: var(--primary); color: var(--primary-2); box-shadow: none; }
+.pagenav .links a[aria-current="page"]:hover { transform: none; box-shadow: none; }
+.foot .pagenav { margin: var(--sp-4) 0 0; }
 
 
 /* ==========================================================================
@@ -955,7 +986,8 @@ figure.fig.scroll svg { min-width: 560px; }
    Impression : lisible, en noir et blanc, sans navigation ; deux niveaux dépliés
    ========================================================================== */
 @media print {
-  .gl-entry, article.page > section { content-visibility: visible; contain-intrinsic-size: none; }
+  .pagenav, .foot .clear { display: none; }
+  .gl-entry { content-visibility: visible; contain-intrinsic-size: none; }
   @page { margin: 1.4cm; }
   html { font-size: 11pt; scroll-padding-top: 0; }
   html, body { background: #fff !important; color: #111 !important; }

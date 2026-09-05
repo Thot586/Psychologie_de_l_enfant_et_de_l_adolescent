@@ -12,6 +12,7 @@
   transition: transform var(--dur-slow) var(--ease), background-color var(--dur-slow) var(--ease);
 }
 .top.is-hidden { transform: translateY(-100%); }
+body.no-rail #menuBtn, body.no-rail #bbMenu { display: none; }
 .brand { display: flex; align-items: center; gap: var(--sp-2); min-width: 0; text-decoration: none; color: var(--ink); }
 .brand:hover { color: var(--ink); }
 .brand .mark { width: 32px; height: 32px; border-radius: 9px; background: var(--primary); color: var(--on-primary); display: grid; place-items: center; font-family: var(--font-serif); font-weight: 700; font-size: 1.05rem; flex: none; transition: transform var(--dur) var(--ease); }
@@ -121,14 +122,20 @@
 @media (max-width: 480px) { .pager { grid-template-columns: 1fr; } .pager a.next, .pager a.prev { grid-column: auto; } }
 
 /* ---------- pied de page ---------- */
-.foot { border-top: 1px solid var(--line); margin-top: var(--sp-8); padding: var(--sp-6) var(--sp-4) calc(var(--sp-8) + 56px); color: var(--ink-2); font-size: var(--fs-sm); background: var(--surface); }
+.foot { border-top: 1px solid var(--line); margin-top: var(--sp-8); padding: var(--sp-6) var(--sp-4) calc(var(--sp-8) + 56px); color: var(--ink-2); font-size: var(--fs-sm); background: var(--band); }
 .foot .inner { max-width: var(--measure); margin: 0 auto; }
 .foot .author { font-family: var(--font-serif); color: var(--ink); font-weight: 600; margin: 0 0 var(--sp-2); }
 .foot .lic { margin: 0 0 var(--sp-2); }
-.foot .links { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: var(--sp-3) 0 0; padding: 0; list-style: none; }
-.foot .links a { color: var(--ink-2); display: inline-block; padding: 4px 0; }  /* cible tactile ≥ 24 px */
 .foot .build { font-size: 0.74rem; color: var(--ink-2); margin-top: var(--sp-3); }
-.foot .clear { margin-top: var(--sp-3); }
+.foot .clear { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: var(--sp-4); }
+.foot .clear .lnk {
+  border: 1px solid var(--line); background: transparent; color: var(--ink-3); border-radius: 11px;
+  padding: 8px 14px; min-height: 40px; font-weight: 600; text-decoration: none; box-shadow: var(--shadow-sm);
+  transition: transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease),
+              background-color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
+.foot .clear .lnk:hover { border-color: var(--brick); color: var(--brick); background: var(--brick-soft); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.foot .clear .lnk:active { transform: translateY(0) scale(0.985); box-shadow: var(--shadow-sm); }
 
 /* ---------- barre basse mobile ---------- */
 .bottombar {
