@@ -38,10 +38,13 @@ function construire() {
 }
 
 function peindre() {
+  const ajuste = etat.z <= MIN + 0.001;
   vue.style.setProperty('--fv-z', etat.z);
-  vue.querySelector('.fv-niveau').textContent = `${Math.round(etat.z * 100)} %`;
-  vue.querySelector('.fv-moins').disabled = etat.z <= MIN + 0.001;
+  vue.classList.toggle('fv-fit', ajuste);   // au repos la figure entière est visible, hauteur comprise
+  vue.querySelector('.fv-niveau').textContent = ajuste ? 'entière' : `${Math.round(etat.z * 100)} %`;
+  vue.querySelector('.fv-moins').disabled = ajuste;
   vue.querySelector('.fv-plus').disabled = etat.z >= MAX - 0.001;
+  vue.querySelector('.fv-stage').style.cursor = ajuste ? 'zoom-in' : 'grab';
 }
 
 function poser(z, ancre) {

@@ -115,9 +115,6 @@ def r_fork(name, s):
     parts.append(b)
     for (by, bh) in ybs:
         parts.append(f'<path class="arrow-soft" d="M{x0 + 190},{ry + rh2 / 2:.1f} C{x0 + 250},{ry + rh2 / 2:.1f} {xb - 60},{by + bh / 2:.1f} {xb - 2},{by + bh / 2:.1f}" marker-end="url(#{name}-arr)"/>')
-    if s.get('note'):
-        parts.append(note(y + 6, s['note']))
-        y += 16 * len(wrap(s['note'], 95)) + 6
     return svg(name, y + 10, ''.join(parts))
 
 
@@ -146,9 +143,6 @@ def r_columns(name, s):
         for i in range(n - 1):
             x = 20 + (i + 1) * (cw + gap) - gap
             parts2.append(arrow(name, x + 1, 16 + hmax / 2, x + gap - 1, 16 + hmax / 2))
-    if s.get('note'):
-        parts2.append(note(y + 6, s['note']))
-        y += 16 * len(wrap(s['note'], 95)) + 6
     return svg(name, y + 10, ''.join(parts2))
 
 
@@ -244,9 +238,6 @@ def r_timeline(name, s):
                 parts.append(f'<line class="line-soft" x1="{mx:.1f}" y1="{y + 10}" x2="{tx:.1f}" y2="{ty - 9:.1f}"/>')
             parts.append(text_block(tx, ty, m['label'], 22, 't-sm', 'middle', 13)[0])
         y += 20 + acc
-    if s.get('note'):
-        parts.append(note(y + 6, s['note']))
-        y += 16 * len(wrap(s['note'], 95)) + 6
     return svg(name, y + 10, ''.join(parts), 'scroll' if s.get('scroll') else '')
 
 
@@ -288,9 +279,7 @@ def r_venn(name, s, n):
         parts.append(tb)
     h = (max(380, int(y_extra) + 10)) if n == 2 else 470
     if s.get('note'):
-        ny = (int(y_extra) + 10) if n == 2 else h - 22
-        parts.append(note(ny, s['note']))
-        h = ny + 16 * len(wrap(s['note'], 95)) + 6
+        h = ((int(y_extra) + 10) if n == 2 else h - 22)
     return svg(name, h, ''.join(parts))
 
 
@@ -321,9 +310,6 @@ def r_rings(name, s):
                 ly += 14
         ly += 8
     h = max(460, ly + 10)
-    if s.get('note'):
-        parts.append(note(h - 6, s['note']))
-        h += 16 * len(wrap(s['note'], 95))
     return svg(name, h, ''.join(parts))
 
 
@@ -360,9 +346,6 @@ def r_cycle(name, s):
         if c.get('title'):
             parts.append(f'<text class="t-b" x="{cx:.1f}" y="{cy + R + 66}" text-anchor="middle">{esc(c["title"])}</text>')
         h = max(h, cy + R + 84)
-    if s.get('note'):
-        parts.append(note(h, s['note']))
-        h += 16 * len(wrap(s['note'], 95))
     return svg(name, h + 6, ''.join(parts))
 
 
@@ -398,9 +381,6 @@ def r_chain(name, s):
             parts.append(tb)
             h += 18 + 14 * nl
         yb = by + h
-    if s.get('note'):
-        parts.append(note(yb + 12, s['note']))
-        yb += 16 * len(wrap(s['note'], 95)) + 12
     return svg(name, yb + 12, ''.join(parts))
 
 
@@ -441,9 +421,6 @@ def r_curves(name, s):
         tb, _ = text_block(lx + 8, ly + 4, se['label'], 16, 't-sm', 'start', 13)
         parts.append(tb)
     h = y0 + 46
-    if s.get('note'):
-        parts.append(note(h, s['note']))
-        h += 16 * len(wrap(s['note'], 95))
     return svg(name, h + 6, ''.join(parts))
 
 
@@ -472,9 +449,6 @@ def r_bands(name, s):
             parts.append(f'<circle class="halo" cx="{mx:.1f}" cy="{my:.1f}" r="8"/><circle class="f2" cx="{mx:.1f}" cy="{my:.1f}" r="5"/>')
             tb, _ = text_block(mx, my - 12, m['label'], 20, 't-sm', 'middle', 12)
             parts.append(tb)
-    if s.get('note'):
-        parts.append(note(y + 8, s['note']))
-        y += 16 * len(wrap(s['note'], 95)) + 8
     return svg(name, y + 10, ''.join(parts))
 
 
@@ -495,9 +469,6 @@ def r_stairs(name, s):
         tb, _ = text_block(x + 8, top + 18 + nl * 15 + 4, st.get('line', ''), int((sw - 16) / 6.5), 't-sm', 'start', 13)
         parts.append(tb)
     h = base + 8
-    if s.get('note'):
-        parts.append(note(h, s['note']))
-        h += 16 * len(wrap(s['note'], 95))
     return svg(name, h + 6, ''.join(parts))
 
 
@@ -516,9 +487,6 @@ def r_triangle(name, s):
         b, h = titled_box(230, 224, 180, s['center'].get('title', ''), s['center'].get('lines', []), s['center'].get('tone', 'b'))
         parts.append(b)
     h = 436
-    if s.get('note'):
-        parts.append(note(h, s['note']))
-        h += 16 * len(wrap(s['note'], 95))
     return svg(name, h + 6, ''.join(parts))
 
 
@@ -540,9 +508,6 @@ def r_matrix(name, s):
             tb, _ = text_block(x + 10, y + 40, cell.get('line', ''), int((cw - 20) / 6.6), 't-sm', 'start', 13)
             parts.append(tb)
     h = y0 + ch * 2 + 10
-    if s.get('note'):
-        parts.append(note(h + 4, s['note']))
-        h += 16 * len(wrap(s['note'], 95)) + 4
     return svg(name, h + 6, ''.join(parts))
 
 
@@ -565,9 +530,6 @@ def r_iceberg(name, s):
     for i, b in enumerate(below):
         parts.append(f'<text x="320" y="{wl + 34 + i * 24}" text-anchor="middle">{esc(b)}</text>')
     h = wl + bot_h + 14
-    if s.get('note'):
-        parts.append(note(h, s['note']))
-        h += 16 * len(wrap(s['note'], 95))
     return svg(name, h + 6, ''.join(parts))
 
 
@@ -585,9 +547,6 @@ def r_balance(name, s):
         b, h = titled_box(sx - 105, dy - 10, 210, pan.get('title', ''), pan.get('items', []), pan.get('tone', 'b' if side == 'left' else 's'))
         parts.append(b)
     h = top + 240
-    if s.get('note'):
-        parts.append(note(h, s['note']))
-        h += 16 * len(wrap(s['note'], 95))
     return svg(name, h + 6, ''.join(parts))
 
 
@@ -616,9 +575,6 @@ def r_grid(name, s):
             tb, _ = text_block(x0 + cw * j + 8, y + 16, txt, int(cw / 6.6), 't-sm', 'start', 13)
             parts.append(tb)
         y += hmax + 6
-    if s.get('note'):
-        parts.append(note(y + 8, s['note']))
-        y += 16 * len(wrap(s['note'], 95)) + 8
     return svg(name, y + 10, ''.join(parts))
 
 
@@ -650,9 +606,6 @@ def r_flow(name, s):
         if i < len(steps) - 1:
             parts.append(arrow(name, x0 + bw / 2, y + 2, x0 + bw / 2, y + 16))
             y += 20
-    if s.get('note'):
-        parts.append(note(y + 12, s['note']))
-        y += 16 * len(wrap(s['note'], 95)) + 12
     return svg(name, y + 12, ''.join(parts))
 
 
@@ -664,6 +617,7 @@ n = 0
 for name, spec in SPECS.items():
     out = RENDER[spec['type']](name, spec).replace('__T__', esc(spec['title'])).replace('__D__', esc(spec['desc']))
     (OUT / f'{name}.svg').write_text(out, encoding='utf-8')
-    (OUT / f'{name}.txt').write_text(spec['title'] + '\n' + spec['desc'] + '\n', encoding='utf-8')
+    # la note de figure (sources, mises en garde) n'est plus dessinée : troisième ligne du jumeau, rendue sous la figure
+    (OUT / f'{name}.txt').write_text(spec['title'] + '\n' + spec['desc'] + '\n' + (spec.get('note') or '') + chr(10), encoding='utf-8')
     n += 1
 print(f'{n} schémas générés dans {OUT.relative_to(ROOT)}')

@@ -1,4 +1,4 @@
-/* généré par scripts/build.py 2026-09-05.1804 : modifier src/css/ */
+/* généré par scripts/build.py 2026-09-05.1822 : modifier src/css/ */
 /* Polices auto-hébergées : Literata et Public Sans (SIL OFL 1.1). Généré par scripts/fetch_fonts.py */
 @font-face {
   font-family: 'Literata';
@@ -982,10 +982,10 @@ details { border: 0; }
 figure.fig { margin: var(--sp-5) 0 var(--sp-6); max-width: var(--measure); }
 figure.fig.wide { max-width: none; }
 figure.fig .fig-box { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 14px 16px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-/* Un plancher de largeur : sous cette taille le dessin défile plutôt que de rapetisser
-   son texte au point de ne plus se lire. Le plein écran prend le relais pour le détail. */
-figure.fig svg { width: 100%; min-width: 480px; height: auto; max-height: 520px; display: block; margin: 0 auto; color: var(--ink); font-family: var(--font-sans); }
-figure.fig svg.narrow { max-width: 460px; min-width: 0; }
+/* Le dessin tient toujours dans sa boîte : rien à faire défiler pour voir la figure entière.
+   Le détail se lit en plein écran, où l'on peut grossir. */
+figure.fig svg { width: 100%; height: auto; max-height: 520px; display: block; margin: 0 auto; color: var(--ink); font-family: var(--font-sans); }
+figure.fig svg.narrow { max-width: 460px; }
 
 /* Titre au-dessus, note en dessous : la disposition des mémoires. */
 figure.fig .fig-cap { display: block; font-size: var(--fs-sm); line-height: 1.45; margin: 0 0 8px; color: var(--ink); }
@@ -1025,7 +1025,9 @@ figure.fig:hover .fig-zoom, .fig-zoom:focus-visible { opacity: 1; }
 .figview button[disabled] { opacity: 0.45; }
 .figview .fv-close { font-size: 1.35rem; line-height: 1; }
 .figview .fv-stage { overflow: auto; -webkit-overflow-scrolling: touch; background: var(--surface); display: grid; place-items: center; touch-action: pan-x pan-y pinch-zoom; }
+/* Au niveau initial la figure entière tient dans l'écran ; au-delà elle déborde et l'on s'y déplace. */
 .figview .fv-stage svg { display: block; width: calc(var(--fv-z, 1) * 100%); min-width: 0; max-width: none; max-height: none; height: auto; color: var(--ink); font-family: var(--font-sans); margin: auto; }
+.figview.fv-fit .fv-stage svg { width: auto; height: auto; max-width: 100%; max-height: 100%; }
 .figview .fv-astuce { margin: 0; padding: 8px 14px; background: var(--primary-tint); color: var(--ink); font-size: var(--fs-xs); text-align: center; border-top: 1px solid var(--line); }
 .figview .fv-note { padding: 10px 14px; border-top: 1px solid var(--line); background: var(--surface); font-size: var(--fs-xs); color: var(--ink-2); max-height: 30vh; overflow: auto; }
 .figview .fv-note b { color: var(--ink); }

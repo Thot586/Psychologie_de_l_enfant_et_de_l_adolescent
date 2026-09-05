@@ -205,6 +205,7 @@ for name, d in FIG.items():
     CUR['name'] = name
     svg = RENDER[d['type']](d)
     (OUT / f'{name}.svg').write_text(svg, encoding='utf-8')
-    (OUT / f'{name}.txt').write_text(d['title'] + '\n' + d['desc'] + '\n', encoding='utf-8')
+    # la note de figure (sources, mises en garde) n'est plus dessinée : troisième ligne du jumeau, rendue sous la figure
+    (OUT / f'{name}.txt').write_text(d['title'] + '\n' + d['desc'] + '\n' + (d.get('note') or '') + chr(10), encoding='utf-8')
     n += 1
 print(f'{n} figures générées dans {OUT.relative_to(ROOT)}')

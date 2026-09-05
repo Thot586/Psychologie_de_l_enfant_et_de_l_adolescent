@@ -197,10 +197,15 @@ def load_figure(name):
             svg = read(cand).strip()
             txt = cand.with_suffix('.txt')
             title, desc = '', ''
+            note = ''
             if txt.exists():
                 lines = read(txt).strip().splitlines()
                 title = lines[0].strip() if lines else ''
-                desc = ' '.join(x.strip() for x in lines[1:]).strip()
+                desc = lines[1].strip() if len(lines) > 1 else ''
+                # troisième ligne : la note de figure, sources et mises en garde
+                note = ' '.join(x.strip() for x in lines[2:]).strip()
+                if not note and len(lines) > 2:
+                    desc = ' '.join(x.strip() for x in lines[1:]).strip()
             svg = re.sub(r'<\?xml[^>]*>\s*', '', svg)
             if '<title' not in svg and title:
                 tid = f'fig-{slugify(name)}-t'
@@ -211,8 +216,8 @@ def load_figure(name):
                 svg = re.sub(r'<svg\b', '<svg role="img"' + labelled, svg, count=1)
             elif 'role=' not in svg[:200]:
                 svg = re.sub(r'<svg\b', '<svg role="img"', svg, count=1)
-            return svg, title, desc
-    return None, '', ''
+            return svg, title, desc, note
+    return None, '', '', ''
 
 
 def expand_figures(body, page):
@@ -244,18 +249,20 @@ def expand_figures(body, page):
     def marker(m):
         name = m.group(1).strip()
         classes = (m.group(2) or '').strip()
-        svg, title, desc = load_figure(name)
+        svg, title, desc, note_fig = load_figure(name)
         if svg is None:
             err(f'{page["out"]} : figure introuvable « {name} »')
             return f'<!-- figure manquante : {name} -->'
         visible = FIG_LEGENDES.get(name) or FIG_LEGENDES.get(FIG_ALIASES.get(name, name)) or desc
+        if note_fig:
+            visible = (visible + ' ' + note_fig).strip()
         return bloc(name, classes, prochain(name), svg, title, visible)
     body = re.sub(r'<!--\s*figure:\s*([\w./-]+)(?:\s+([\w\s-]+))?\s*-->', marker, body)
 
     def explicit(m):
         attrs, inner = m.group(1), m.group(2)
         name = tag_attr('<figure' + attrs + '>', 'data-figure')
-        svg, title, desc = load_figure(name)
+        svg, title, desc, note_fig = load_figure(name)
         if svg is None:
             err(f'{page["out"]} : figure introuvable « {name} »')
             return m.group(0)
