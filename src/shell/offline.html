@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{title}} · {{site_title}}</title>
 <meta name="robots" content="noindex">
+<meta name="description" content="{{text}}">
+<link rel="icon" href="{{base_path}}assets/icons/favicon.svg" type="image/svg+xml">
 <style>
   :root{color-scheme:light dark;--paper:#F7F3EC;--ink:#1E2433;--ink-2:#4B5364;--line:#E3DDD2;--primary:#3B4B8C;--surface:#FFFDF9}
   @media (prefers-color-scheme:dark){:root{--paper:#14161C;--ink:#ECE6DA;--ink-2:#BDB7AB;--line:#2C303B;--primary:#A5AEEA;--surface:#1C1F27}}
@@ -17,7 +19,7 @@
 </style>
 </head>
 <body>
-<div class="card">
+<main class="card">
   <h1>{{heading}}</h1>
   <p>{{text}}</p>
   <div class="links">
@@ -26,6 +28,6 @@
     <a href="{{base_path}}glossaire.html">Glossaire</a>
   </div>
   <p style="margin-top:16px;font-size:.85rem">{{author}}</p>
-</div>
+</main>
 </body>
 </html>

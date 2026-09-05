@@ -1,10 +1,12 @@
 """Serveur local qui reproduit le sous-chemin GitHub Pages.
     python scripts/serve.py [port]   ->  http://localhost:8765/Psychologie_de_l_enfant_et_de_l_adolescent/
 """
-import http.server, json, pathlib, sys, functools
+import gzip, http.server, json, pathlib, sys, functools
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BASE = json.loads((ROOT / 'src' / 'site.json').read_text(encoding='utf-8'))['site']['base_path'].rstrip('/')
-PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8765
+PORT = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 8765
+GZIP = '--no-gzip' not in sys.argv  # python scripts/serve.py 8765 --no-gzip pour servir sans compression
+TEXT_TYPES = {'text/html', 'text/css', 'text/javascript', 'application/json', 'application/manifest+json', 'image/svg+xml', 'text/plain', 'application/xml', 'text/xml'}
 
 class H(http.server.SimpleHTTPRequestHandler):
     def translate_path(self, path):
@@ -22,16 +24,27 @@ class H(http.server.SimpleHTTPRequestHandler):
         if target.is_dir():
             target = target / 'index.html'
         if not target.is_file():  # même comportement que GitHub Pages : 404.html servie avec le statut 404
-            body = (ROOT / '404.html').read_bytes()
-            self.send_response(404)
-            self.send_header('Content-Type', 'text/html; charset=utf-8')
-            self.send_header('Content-Length', str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
+            self._send(404, 'text/html; charset=utf-8', (ROOT / '404.html').read_bytes())
+            return
+        ctype = self.guess_type(str(target))
+        if ctype.split(';')[0] in TEXT_TYPES:  # GitHub Pages compresse les textes : on fait de même pour des mesures locales fidèles
+            self._send(200, ctype + ('; charset=utf-8' if 'charset' not in ctype else ''), target.read_bytes())
             return
         super().do_GET()
+
+    def _send(self, status, ctype, body):
+        gz = GZIP and 'gzip' in (self.headers.get('Accept-Encoding') or '')
+        data = gzip.compress(body, 6) if gz else body
+        self.send_response(status)
+        self.send_header('Content-Type', ctype)
+        if gz:
+            self.send_header('Content-Encoding', 'gzip')
+            self.send_header('Vary', 'Accept-Encoding')
+        self.send_header('Content-Length', str(len(data)))
+        self.end_headers()
+        self.wfile.write(data)
     def end_headers(self):
-        self.send_header('Cache-Control', 'no-store')
+        self.send_header('Cache-Control', 'no-cache')  # revalidation à chaque fois, corps conservé (outils de mesure)
         self.send_header('Service-Worker-Allowed', BASE + '/')
         super().end_headers()
     def log_message(self, *a):

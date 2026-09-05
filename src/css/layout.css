@@ -126,7 +126,7 @@
 .foot .author { font-family: var(--font-serif); color: var(--ink); font-weight: 600; margin: 0 0 var(--sp-2); }
 .foot .lic { margin: 0 0 var(--sp-2); }
 .foot .links { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: var(--sp-3) 0 0; padding: 0; list-style: none; }
-.foot .links a { color: var(--ink-2); }
+.foot .links a { color: var(--ink-2); display: inline-block; padding: 4px 0; }  /* cible tactile ≥ 24 px */
 .foot .build { font-size: 0.74rem; color: var(--ink-2); margin-top: var(--sp-3); }
 .foot .clear { margin-top: var(--sp-3); }
 

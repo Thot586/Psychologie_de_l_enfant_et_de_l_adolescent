@@ -326,3 +326,9 @@ details { border: 0; }
 .timeline li b { font-family: var(--font-serif); color: var(--primary); }
 .flash-anchor { animation: anchorflash 2s var(--ease); }
 @keyframes anchorflash { 0%, 55% { background: var(--accent-soft); box-shadow: 0 0 0 6px var(--accent-soft); } 100% { background: transparent; box-shadow: none; } }
+
+/* ---------- rendu différé des blocs hors écran (coût de mise en page divisé par 3 sur les pages longues) ---------- */
+.gl-entry { content-visibility: auto; contain-intrinsic-size: auto 240px; }
+article.page > section:not(:first-of-type) { content-visibility: auto; contain-intrinsic-size: auto 900px; }
+
+.gl-entry .also a, .gl-entry .used a, .reflist .cited a { display: inline-block; padding: 3px 0; }  /* cibles tactiles ≥ 24 px */

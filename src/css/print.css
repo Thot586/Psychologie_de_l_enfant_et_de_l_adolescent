@@ -2,6 +2,7 @@
    Impression : lisible, en noir et blanc, sans navigation ; deux niveaux dépliés
    ========================================================================== */
 @media print {
+  .gl-entry, article.page > section { content-visibility: visible; contain-intrinsic-size: none; }
   @page { margin: 1.4cm; }
   html { font-size: 11pt; scroll-padding-top: 0; }
   html, body { background: #fff !important; color: #111 !important; }
