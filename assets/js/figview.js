@@ -21,12 +21,11 @@ function construire() {
   d.innerHTML = `<div class="fv-bar">
       <p class="fv-title" id="fv-title"></p>
       <button type="button" class="fv-moins" aria-label="Réduire">−</button>
-      <span class="fv-niveau" aria-live="polite" style="min-width:3.2em;text-align:center;font-size:var(--fs-xs);color:var(--ink-2)"></span>
+      <span class="fv-niveau" aria-live="polite"></span>
       <button type="button" class="fv-plus" aria-label="Grossir">+</button>
       <button type="button" class="fv-close" aria-label="Fermer le plein écran">✕</button>
     </div>
-    <div class="fv-stage" tabindex="0"></div>
-    <p class="fv-astuce" hidden>Tournez votre téléphone : cette figure est plus large que haute.</p>
+    <div class="fv-stage" tabindex="0"><p class="fv-astuce" hidden>Tournez votre téléphone : cette figure est plus large que haute.</p></div>
     <p class="fv-note"></p>`;
   d.setAttribute('aria-labelledby', 'fv-title');
   document.body.appendChild(d);
@@ -118,7 +117,9 @@ function ouvrir(figure) {
   zoneNote.hidden = !zoneNote.textContent;
 
   const scene = vue.querySelector('.fv-stage');
+  const astuce = scene.querySelector('.fv-astuce');
   scene.innerHTML = '';
+  scene.appendChild(astuce);
   const copie = svg.cloneNode(true);
   copie.removeAttribute('id');
   copie.querySelectorAll('[id]').forEach((x) => x.removeAttribute('id'));
@@ -143,7 +144,8 @@ function surRetour() { if (vue && !vue.hidden) fermer(true); }
 function fermer(depuisHistorique) {
   if (!vue || vue.hidden) return;
   vue.hidden = true;
-  vue.querySelector('.fv-stage').innerHTML = '';
+  const sv = vue.querySelector('.fv-stage svg');
+  if (sv) sv.remove();
   document.body.classList.remove('fv-open');
   removeEventListener('keydown', clavier);
   removeEventListener('popstate', surRetour);

@@ -243,52 +243,44 @@
   "title": "Comportement attendu ou signal d'alerte : ce n'est pas le comportement qui alerte, c'est la trajectoire",
   "desc": "Grille par tranche d'âge : comportements attendus à 2-5 ans (colères, morsures, peurs du noir), 6-8 ans (mensonges, disputes, peur de l'école les premiers jours), 9-12 ans (souci de l'apparence, secrets, contestation des règles), 13-18 ans (opposition, besoin d'intimité, coucher tardif). Pour tous les âges, trois critères d'alerte communs : cela dure dans le temps, l'enfant perd des acquis déjà installés, le sommeil, l'école, les repas ou les relations en souffrent. Règle d'orientation : des signes dans au moins deux domaines de vie, qui durent, justifient un avis (HAS, 2020).",
   "cols": [
-   "Comportements attendus à cet âge",
-   "Ce qui doit alerter, à tout âge"
+   "Comportements attendus à cet âge"
   ],
   "rows": [
    {
     "label": "2-5 ans",
     "cells": [
-     "Colères, morsures, peurs du noir",
-     {
-      "text": "Cela dure dans le temps",
-      "tone": "b"
-     }
+     "Colères, morsures, peurs du noir"
     ]
    },
    {
     "label": "6-8 ans",
     "cells": [
-     "Mensonges, disputes, peur de l'école les premiers jours",
-     {
-      "text": "L'enfant perd des acquis déjà installés",
-      "tone": "b"
-     }
+     "Mensonges, disputes, peur de l'école les premiers jours"
     ]
    },
    {
     "label": "9-12 ans",
     "cells": [
-     "Souci de l'apparence, secrets, contestation des règles",
-     {
-      "text": "Le sommeil, l'école, les repas ou les relations en souffrent",
-      "tone": "b"
-     }
+     "Souci de l'apparence, secrets, contestation des règles"
     ]
    },
    {
     "label": "13-18 ans",
     "cells": [
-     "Opposition, besoin d'intimité, coucher tardif",
-     {
-      "text": "Des signes dans au moins deux domaines de vie, qui durent : demander un avis",
-      "tone": "a"
-     }
+     "Opposition, besoin d'intimité, coucher tardif"
     ]
    }
   ],
-  "note": "Le comportement seul n'alerte pas ; sa durée, la perte d'acquis et le retentissement sur la vie quotidienne, oui (HAS, 2020 ; OMS, 2025)."
+  "note": "Le comportement seul n'alerte pas ; sa durée, la perte d'acquis et le retentissement sur la vie quotidienne, oui (HAS, 2020 ; OMS, 2025). Des signes dans au moins deux domaines de vie, qui durent : demander un avis",
+  "aside": {
+   "title": "Ce qui doit alerter, à tout âge",
+   "lines": [
+    "Cela dure dans le temps",
+    "L'enfant perd des acquis déjà installés",
+    "Le sommeil, l'école, les repas ou les relations en souffrent"
+   ],
+   "tone": "b"
+  }
  },
  "besoins-cercle": {
   "type": "columns",
@@ -1690,11 +1682,11 @@
    },
    {
     "title": "2018 · violences envers les enfants : plus d'un jeune sur deux à l'école",
-    "tone": "p",
+    "tone": "b",
     "events": [
      {
       "at": 2018,
-      "label": "preuve établie · 701 jeunes, 12 sites"
+      "label": "preuve faible · 701 jeunes, 12 sites"
      }
     ]
    },
@@ -3581,8 +3573,8 @@
      "violences subies à l'école et en famille : plus de la moitié des jeunes en déclarent une",
      "le harcèlement au sens des trois critères",
      {
-      "text": "Preuve établie",
-      "tone": "s"
+      "text": "Preuve faible",
+      "tone": "b"
      }
     ]
    },

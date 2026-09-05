@@ -41,63 +41,85 @@ figure.fig .fig-box { cursor: zoom-in; }
 
 /* Plein écran : le dessin occupe l'écran, se déplace et se grossit. */
 .figview[hidden] { display: none; }
-.figview { position: fixed; inset: 0; z-index: 120; background: var(--paper); display: grid; grid-template-rows: auto 1fr auto auto; }
+.figview { position: fixed; inset: 0; z-index: 120; background: var(--paper); display: grid;
+  grid-template-rows: auto 1fr auto;
+  /* la colonne ne doit jamais prendre la largeur du dessin : sinon la barre sort de l'écran */
+  grid-template-columns: minmax(0, 1fr); }
+.figview > * { min-width: 0; max-width: 100%; }
 .figview:fullscreen { background: var(--paper); }
-.figview .fv-bar { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-bottom: 1px solid var(--line); background: var(--surface); }
+/* Barre de commandes : collée en haut de la vue, elle ne quitte jamais l'écran ; sa hauteur suit
+   celle de l'écran, et sur un téléphone elle se réduit à l'essentiel — fermer, et le niveau de zoom. */
+.figview .fv-bar { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; gap: 6px;
+  padding: max(6px, env(safe-area-inset-top)) max(8px, env(safe-area-inset-right)) 6px 10px;
+  border-bottom: 1px solid var(--line); background: var(--surface); }
 .figview .fv-title { flex: 1 1 auto; min-width: 0; font-size: var(--fs-sm); color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .figview .fv-title b { font-weight: 700; }
-.figview button { min-width: var(--tap); min-height: var(--tap); border: 1px solid var(--line-ui); background: var(--surface); color: var(--ink); border-radius: 10px; font-size: 1rem; display: grid; place-items: center; }
+.figview button { flex: none; width: clamp(36px, 9vmin, 44px); height: clamp(36px, 9vmin, 44px);
+  border: 1px solid var(--line-ui); background: var(--surface); color: var(--ink); border-radius: 10px;
+  font-size: clamp(0.95rem, 3.4vmin, 1.15rem); line-height: 1; display: grid; place-items: center; }
 .figview button:hover { border-color: var(--primary); background: var(--primary-tint); }
 .figview button[disabled] { opacity: 0.45; }
-.figview .fv-close { font-size: 1.35rem; line-height: 1; }
-.figview .fv-stage { overflow: auto; -webkit-overflow-scrolling: touch; background: var(--surface); display: grid; place-items: center; touch-action: pan-x pan-y pinch-zoom; }
+.figview .fv-close { margin-left: 2px; }
+.figview .fv-niveau { min-width: 4.2em; text-align: center; font-size: var(--fs-xs); color: var(--ink-2); white-space: nowrap; }
+@media (max-width: 420px), (max-height: 420px) {
+  .figview .fv-title { font-size: var(--fs-xs); }
+  .figview button { width: 34px; height: 34px; }
+  /* le niveau reste annoncé aux lecteurs d'écran, mais cesse de disputer la place au titre */
+  .figview .fv-niveau { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); min-width: 0; }
+}
+.figview .fv-stage { position: relative; min-width: 0; overflow: auto; -webkit-overflow-scrolling: touch; background: var(--surface); display: grid; place-items: center; touch-action: pan-x pan-y pinch-zoom; }
 /* Au niveau initial la figure entière tient dans l'écran ; au-delà elle déborde et l'on s'y déplace. */
 .figview .fv-stage svg { display: block; width: calc(var(--fv-z, 1) * 100%); min-width: 0; max-width: none; max-height: none; height: auto; color: var(--ink); font-family: var(--font-sans); margin: auto; }
 .figview.fv-fit .fv-stage svg { width: auto; height: auto; max-width: 100%; max-height: 100%; }
-.figview .fv-astuce { margin: 0; padding: 8px 14px; background: var(--primary-tint); color: var(--ink); font-size: var(--fs-xs); text-align: center; border-top: 1px solid var(--line); }
-.figview .fv-note { padding: 10px 14px; border-top: 1px solid var(--line); background: var(--surface); font-size: var(--fs-xs); color: var(--ink-2); max-height: 30vh; overflow: auto; }
+.figview .fv-astuce { position: absolute; left: 12px; right: 12px; bottom: 12px; z-index: 2; margin: 0; padding: 8px 14px;
+  background: var(--primary-soft); color: var(--ink); font-size: var(--fs-xs); text-align: center;
+  border: 1px solid var(--primary); border-radius: var(--r-md); box-shadow: var(--shadow-md); }
+.figview .fv-note { padding: 10px 14px max(10px, env(safe-area-inset-bottom)); border-top: 1px solid var(--line); background: var(--surface); font-size: var(--fs-xs); color: var(--ink-2); max-height: min(30vh, 220px); overflow: auto; }
 .figview .fv-note b { color: var(--ink); }
 body.fv-open { overflow: hidden; }
 figure.fig figcaption .src { display: block; font-size: var(--fs-xs); color: var(--ink-2); margin-top: 3px; }
 figure.fig .fig-alt { font-size: var(--fs-xs); color: var(--ink-2); margin-top: 6px; }
 
-/* primitives : classes utilisées dans les SVG */
-.fig svg text { fill: currentColor; font-size: 13px; }
-.fig svg .t-sm { font-size: 12px; fill: var(--ink-2); }
-.fig svg .t-b { font-weight: 700; }
-.fig svg .t-serif { font-family: var(--font-serif); font-size: 15px; }
-.fig svg .t-num { font-variant-numeric: tabular-nums; font-weight: 700; }
-.fig svg .t-muted { fill: var(--ink-2); }
-.fig svg .line { stroke: currentColor; stroke-width: 1.5; fill: none; }
-.fig svg .line-soft { stroke: var(--line); stroke-width: 1; fill: none; }
-.fig svg .grid { stroke: var(--d-grid); stroke-width: 1; fill: none; }
-.fig svg .ref { stroke: var(--d-ref); stroke-width: 1; stroke-dasharray: 4 4; fill: none; }
-.fig svg .arrow { stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
-.fig svg .arrow-soft { stroke: var(--ink-2); stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
-.fig svg .box { fill: var(--surface-2); stroke: var(--line); stroke-width: 1; }
-.fig svg .box-p { fill: var(--primary-tint); stroke: var(--primary); stroke-width: 1.2; }
-.fig svg .box-a { fill: var(--accent-soft); stroke: var(--accent-ink); stroke-width: 1.2; }
-.fig svg .box-s { fill: var(--sage-soft); stroke: var(--sage); stroke-width: 1.2; }
-.fig svg .box-b { fill: var(--brick-soft); stroke: var(--brick); stroke-width: 1.2; }
-.fig svg .f1 { fill: var(--d1); } .fig svg .f2 { fill: var(--d2); } .fig svg .f3 { fill: var(--d3); }
-.fig svg .f4 { fill: var(--d4); } .fig svg .f5 { fill: var(--d5); } .fig svg .f6 { fill: var(--d6); }
-.fig svg .s1 { stroke: var(--d1); } .fig svg .s2 { stroke: var(--d2); } .fig svg .s3 { stroke: var(--d3); }
-.fig svg .s4 { stroke: var(--d4); } .fig svg .s5 { stroke: var(--d5); } .fig svg .s6 { stroke: var(--d6); }
-.fig svg .fa1 { fill: var(--a1); } .fig svg .fa2 { fill: var(--a2); } .fig svg .fa3 { fill: var(--a3); } .fig svg .fa4 { fill: var(--a4); }
-.fig svg .fa1s { fill: var(--a1-soft); } .fig svg .fa2s { fill: var(--a2-soft); } .fig svg .fa3s { fill: var(--a3-soft); } .fig svg .fa4s { fill: var(--a4-soft); }
-.fig svg .dot { fill: var(--d-muted); }
-.fig svg .dot.on { fill: var(--d1); }
-.fig svg .ci { stroke: var(--d1); stroke-width: 2; fill: none; }
-.fig svg .curve { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
-.fig svg .area { opacity: 0.16; }
+/* primitives : classes utilisées dans les SVG.
+   Le sélecteur couvre la figure dans la page ET son clone en plein écran, sans quoi
+   l'agrandissement perdrait toutes les couleurs. */
+:is(.fig, .fv-stage) svg text { fill: currentColor; font-size: 13px; }
+:is(.fig, .fv-stage) svg .t-sm { font-size: 12px; fill: var(--ink-2); }
+:is(.fig, .fv-stage) svg .t-b { font-weight: 700; }
+:is(.fig, .fv-stage) svg .t-serif { font-family: var(--font-serif); font-size: 15px; }
+:is(.fig, .fv-stage) svg .t-num { font-variant-numeric: tabular-nums; font-weight: 700; }
+:is(.fig, .fv-stage) svg .t-muted { fill: var(--ink-2); }
+:is(.fig, .fv-stage) svg .line { stroke: currentColor; stroke-width: 1.5; fill: none; }
+:is(.fig, .fv-stage) svg .line-soft { stroke: var(--line); stroke-width: 1; fill: none; }
+:is(.fig, .fv-stage) svg .grid { stroke: var(--d-grid); stroke-width: 1; fill: none; }
+:is(.fig, .fv-stage) svg .ref { stroke: var(--d-ref); stroke-width: 1; stroke-dasharray: 4 4; fill: none; }
+:is(.fig, .fv-stage) svg .arrow { stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+:is(.fig, .fv-stage) svg .arrow-soft { stroke: var(--ink-2); stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+:is(.fig, .fv-stage) svg .box { fill: var(--surface-2); stroke: var(--line); stroke-width: 1; }
+:is(.fig, .fv-stage) svg .box-p { fill: var(--primary-tint); stroke: var(--primary); stroke-width: 1.2; }
+:is(.fig, .fv-stage) svg .box-a { fill: var(--accent-soft); stroke: var(--accent-ink); stroke-width: 1.2; }
+:is(.fig, .fv-stage) svg .box-s { fill: var(--sage-soft); stroke: var(--sage); stroke-width: 1.2; }
+:is(.fig, .fv-stage) svg .box-b { fill: var(--brick-soft); stroke: var(--brick); stroke-width: 1.2; }
+:is(.fig, .fv-stage) svg .f1 { fill: var(--d1); } :is(.fig, .fv-stage) svg .f2 { fill: var(--d2); } :is(.fig, .fv-stage) svg .f3 { fill: var(--d3); }
+:is(.fig, .fv-stage) svg .f4 { fill: var(--d4); } :is(.fig, .fv-stage) svg .f5 { fill: var(--d5); } :is(.fig, .fv-stage) svg .f6 { fill: var(--d6); }
+:is(.fig, .fv-stage) svg .s1 { stroke: var(--d1); } :is(.fig, .fv-stage) svg .s2 { stroke: var(--d2); } :is(.fig, .fv-stage) svg .s3 { stroke: var(--d3); }
+:is(.fig, .fv-stage) svg .s4 { stroke: var(--d4); } :is(.fig, .fv-stage) svg .s5 { stroke: var(--d5); } :is(.fig, .fv-stage) svg .s6 { stroke: var(--d6); }
+:is(.fig, .fv-stage) svg .fa1 { fill: var(--a1); } :is(.fig, .fv-stage) svg .fa2 { fill: var(--a2); } :is(.fig, .fv-stage) svg .fa3 { fill: var(--a3); } :is(.fig, .fv-stage) svg .fa4 { fill: var(--a4); }
+:is(.fig, .fv-stage) svg .fa1s { fill: var(--a1-soft); } :is(.fig, .fv-stage) svg .fa2s { fill: var(--a2-soft); } :is(.fig, .fv-stage) svg .fa3s { fill: var(--a3-soft); } :is(.fig, .fv-stage) svg .fa4s { fill: var(--a4-soft); }
+:is(.fig, .fv-stage) svg .dot { fill: var(--d-muted); }
+:is(.fig, .fv-stage) svg .dot-ring { fill: var(--surface); stroke: var(--d-muted); stroke-width: 3; }
+:is(.fig, .fv-stage) svg .dot.on { fill: var(--d1); }
+:is(.fig, .fv-stage) svg .ci { stroke: var(--d1); stroke-width: 2; fill: none; }
+:is(.fig, .fv-stage) svg .curve { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+:is(.fig, .fv-stage) svg .area { opacity: 0.16; }
 /* Bande de période traversant un graphique : la couleur y désigne la tranche d'âge, rien d'autre. */
-.fig svg .band { opacity: 0.85; }
-.fig svg .ta1 { fill: var(--a1-ink); } .fig svg .ta2 { fill: var(--a2-ink); }
-.fig svg .ta3 { fill: var(--a3-ink); } .fig svg .ta4 { fill: var(--a4-ink); }
-.fig svg .dot-ink { fill: var(--ink-2); }
-.fig svg .on-fill { fill: var(--on-primary); }
-.fig svg .halo { fill: var(--surface); stroke: var(--line); }
-.fig svg .lbl-bg { fill: var(--surface); opacity: 0.9; }
+:is(.fig, .fv-stage) svg .band { opacity: 0.85; }
+:is(.fig, .fv-stage) svg .ta1 { fill: var(--a1-ink); } :is(.fig, .fv-stage) svg .ta2 { fill: var(--a2-ink); }
+:is(.fig, .fv-stage) svg .ta3 { fill: var(--a3-ink); } :is(.fig, .fv-stage) svg .ta4 { fill: var(--a4-ink); }
+:is(.fig, .fv-stage) svg .dot-ink { fill: var(--ink-2); }
+:is(.fig, .fv-stage) svg .on-fill { fill: var(--on-primary); }
+:is(.fig, .fv-stage) svg .halo { fill: var(--surface); stroke: var(--line); }
+:is(.fig, .fv-stage) svg .lbl-bg { fill: var(--surface); opacity: 0.9; }
 
 /* frise horizontale à défilement interne sous 480 px */
 figure.fig.scroll .fig-box { padding: 10px 6px; }

@@ -112,15 +112,15 @@
     "value": 15.5,
     "lo": 15,
     "hi": 16,
-    "range_label": "15 à 16 %",
+    "range_label": "15 à 16 % selon les études",
     "src": "Gaffney et al., 2021a"
    },
    {
     "label": "Perpétration · réduction",
-    "value": 19.5,
-    "lo": 19,
-    "hi": 20,
-    "range_label": "18 à 19 %",
+    "value": 18.5,
+    "lo": 18,
+    "hi": 19,
+    "range_label": "18 à 19 % selon les études",
     "src": "Gaffney et al., 2021a"
    }
   ]
@@ -133,11 +133,15 @@
   "max": 60,
   "items": [
    {
-    "label": "Écoles témoins → écoles avec le programme",
+    "label": "Violence physique du personnel, une semaine",
     "from": 48.7,
     "to": 31.0,
     "src": "Devries et al., 2015"
    }
+  ],
+  "series": [
+   "Écoles témoins",
+   "Écoles avec le programme"
   ]
  },
  "rapports-de-cotes": {

@@ -232,11 +232,18 @@ def r_timeline(name, s):
         for m, mx, lines, row in placed:
             ty = y + 20 + offset[row]
             half = max(len(l) for l in lines) * 3.2
-            tx = min(max(mx, x0 + half), x1 - half)   # jamais coupé par le bord du cadre
+            # Près d'un bord, on cale le texte sur le point au lieu de le décaler latéralement :
+            # un jalon recentré de force tirait une diagonale qui barrait le bloc voisin.
+            if mx - half < x0:
+                tx, anchor = mx, 'start'
+            elif mx + half > x1:
+                tx, anchor = mx, 'end'
+            else:
+                tx, anchor = mx, 'middle'
             parts.append(f'<circle class="{FILL.get(m.get("tone"), "f2")}" cx="{mx:.1f}" cy="{y + 4}" r="5"/>')
             if offset[row]:
-                parts.append(f'<line class="line-soft" x1="{mx:.1f}" y1="{y + 10}" x2="{tx:.1f}" y2="{ty - 9:.1f}"/>')
-            parts.append(text_block(tx, ty, m['label'], 22, 't-sm', 'middle', 13)[0])
+                parts.append(f'<line class="line-soft" x1="{mx:.1f}" y1="{y + 10}" x2="{mx:.1f}" y2="{ty - 9:.1f}"/>')
+            parts.append(text_block(tx, ty, m['label'], 22, 't-sm', anchor, 13)[0])
         y += 20 + acc
     return svg(name, y + 10, ''.join(parts), 'scroll' if s.get('scroll') else '')
 
@@ -253,7 +260,9 @@ def r_venn(name, s, n):
         cy = [170, 170, 320]
         r = 125
     for i in range(n):
-        parts.append(f'<circle class="{FILL.get(sets[i].get("tone"), f"f{i + 1}")} area" cx="{cx[i]}" cy="{cy[i]}" r="{r}"/><circle class="s{i + 1}" fill="none" stroke-width="1.5" cx="{cx[i]}" cy="{cy[i]}" r="{r}"/>')
+        # le contour reprend la couleur du remplissage : un disque = une couleur, sinon on croit à un quatrième ensemble
+        f = FILL.get(sets[i].get('tone'), f'f{i + 1}')
+        parts.append(f'<circle class="{f} area" cx="{cx[i]}" cy="{cy[i]}" r="{r}"/><circle class="s{f[1:]}" fill="none" stroke-width="1.5" cx="{cx[i]}" cy="{cy[i]}" r="{r}"/>')
     lab_pos = [(cx[0] - r + 20, cy[0] - r + 26), (cx[1] + r - 20, cy[1] - r + 26)] + ([(cx[2], cy[2] + r - 16)] if n == 3 else [])
     anchors = ['start', 'end', 'middle']
     for i in range(n):
@@ -515,9 +524,12 @@ def r_iceberg(name, s):
     parts = [marker_defs(name)]
     above = s.get('above', [])
     below = s.get('below', [])
-    top_h = 24 + len(above) * 22
+    # on coupe les lignes ici : sans cela il fallait couper les phrases à la main dans les données
+    lignes_h = [wrap(x, 34) for x in above]
+    lignes_b = [wrap(x, 46) for x in below]
+    top_h = 24 + sum(len(l) for l in lignes_h) * 22
     wl = top_h + 26
-    bot_h = 40 + len(below) * 24
+    bot_h = 40 + sum(len(l) for l in lignes_b) * 22
     # partie émergée : trapèze
     parts.append(f'<polygon class="box" points="205,{wl} 435,{wl} 395,{wl - top_h} 245,{wl - top_h}"/>')
     # partie immergée : trapèze large
@@ -525,10 +537,16 @@ def r_iceberg(name, s):
     parts.append(f'<line class="ref" x1="20" y1="{wl}" x2="620" y2="{wl}"/>')
     parts.append(f'<text class="t-sm" x="24" y="{wl - 8}">{esc(s.get("above_label", "ce que je vois"))}</text>')
     parts.append(f'<text class="t-sm" x="24" y="{wl + 18}">{esc(s.get("below_label", "ce qui se passe dessous"))}</text>')
-    for i, a in enumerate(above):
-        parts.append(f'<text class="t-b" x="320" y="{wl - top_h + 24 + i * 22}" text-anchor="middle">{esc(a)}</text>')
-    for i, b in enumerate(below):
-        parts.append(f'<text x="320" y="{wl + 34 + i * 24}" text-anchor="middle">{esc(b)}</text>')
+    yy = wl - top_h + 24
+    for lignes in lignes_h:
+        for l in lignes:
+            parts.append(f'<text class="t-b" x="320" y="{yy}" text-anchor="middle">{esc(l)}</text>')
+            yy += 22
+    yy = wl + 34
+    for lignes in lignes_b:
+        for l in lignes:
+            parts.append(f'<text x="320" y="{yy}" text-anchor="middle">{esc(l)}</text>')
+            yy += 22
     h = wl + bot_h + 14
     return svg(name, h + 6, ''.join(parts))
 
@@ -551,10 +569,15 @@ def r_balance(name, s):
 
 
 def r_grid(name, s):
+    """Grille par ligne. Le champ « aside » pose à droite un encadré unique, sans lignes internes :
+    on s'en sert quand son contenu vaut pour toutes les lignes et non pour l'une d'elles."""
     cols = s['cols']
     rows = s['rows']
+    aside = s.get('aside')
     x0 = 130
-    cw = (W - x0 - 20) / len(cols)
+    aw = 236 if aside else 0
+    gap = 14 if aside else 0
+    cw = (W - x0 - 20 - aw - gap) / len(cols)
     parts = []
     y = 30
     for j, c in enumerate(cols):
@@ -575,6 +598,16 @@ def r_grid(name, s):
             tb, _ = text_block(x0 + cw * j + 8, y + 16, txt, int(cw / 6.6), 't-sm', 'start', 13)
             parts.append(tb)
         y += hmax + 6
+    if aside:
+        ay = 54
+        parts.append(box(W - 20 - aw, ay, aw, y - 6 - ay, aside.get('tone', ''), 8))
+        tb, nl = text_block(W - 20 - aw + 10, ay + 18, aside['title'], int((aw - 20) / 6.4), 't-b', 'start', 14)
+        parts.append(tb)
+        ly = ay + 18 + nl * 14 + 10
+        for l in aside.get('lines', []):
+            tb, nl = text_block(W - 20 - aw + 10, ly, '• ' + l, int((aw - 20) / 6.4), 't-sm', 'start', 13)
+            parts.append(tb)
+            ly += nl * 13 + 10
     return svg(name, y + 10, ''.join(parts))
 
 
