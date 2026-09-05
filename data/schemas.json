@@ -1331,34 +1331,6 @@
   },
   "note": "Les 3 R reformulent les critères d'Olweus en langage de terrain ; un seul incident sans déséquilibre relève du conflit."
  },
- "escalier-ecoute": {
-  "type": "stairs",
-  "title": "L'escalier de l'écoute",
-  "desc": "Cinq marches : accueillir (merci de m'en parler) ; écouter sans couper (raconte-moi) ; reformuler (si je comprends bien…) ; ne pas promettre le secret (je ne garderai pas ça pour moi si tu es en danger) ; orienter et revenir (on va voir ensemble qui peut aider).",
-  "steps": [
-   {
-    "title": "Accueillir",
-    "line": "« merci de m'en parler »"
-   },
-   {
-    "title": "Écouter sans couper",
-    "line": "« raconte-moi »"
-   },
-   {
-    "title": "Reformuler",
-    "line": "« si je comprends bien… »"
-   },
-   {
-    "title": "Ne pas promettre le secret",
-    "line": "« je ne garderai pas ça pour moi si tu es en danger »"
-   },
-   {
-    "title": "Orienter et revenir",
-    "line": "« on va voir ensemble qui peut aider »"
-   }
-  ],
-  "note": "Cinq gestes qui ouvrent la parole ; aucun ne demande de compétence technique."
- },
  "arbre-decisionnel": {
   "type": "flow",
   "title": "Du signal au signalement",
