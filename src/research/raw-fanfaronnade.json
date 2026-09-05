@@ -1,0 +1,799 @@
+{
+  "summary": "Lecture seule : reperer dans tout le site les phrases ou il se vante lui-meme, et proposer une formulation modeste",
+  "agentCount": 14,
+  "logs": [
+    "33 signalements avant critique",
+    "9 retenus, 24 ecartes"
+  ],
+  "result": {
+    "brut": [
+      {
+        "fichier": "src/body/harcelement-scolaire/index.html",
+        "citation": "Un document de référence, à lire dans l'ordre ou par la porte qui correspond à votre situation.",
+        "genre": "qualite auto-decernee",
+        "pourquoi": "Le site se decerne le titre de « document de reference » dans le chapeau de la session : c'est exactement la formule que l'auteur a fait retirer ailleurs. L'information utile (deux facons de lire) est conservee sans le titre.",
+        "geste": "remplacer",
+        "proposition": "À lire dans l'ordre ou par la porte qui correspond à votre situation.",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/index.html",
+        "citation": "Le texte principal est complet : tout ce qu'il faut savoir pour agir s'y trouve.",
+        "genre": "grandiloquence",
+        "pourquoi": "« complet » et « tout ce qu'il faut savoir pour agir » promettent l'exhaustivite et ce que le lecteur y gagnera. La formulation sobre deja employee sur la page d'accueil (« Le texte principal se suffit à lui-même. ») dit la meme chose utile : on peut lire le texte principal seul, sans les encadres.",
+        "geste": "remplacer",
+        "proposition": "Le texte principal se suffit à lui-même.",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/index.html",
+        "citation": "La conduite à tenir pas à pas et les contacts vérifiés à Madagascar sont dans le module",
+        "genre": "promesse de methode",
+        "pourquoi": "« vérifiés » qualifie le travail du site, pas le contact : meme adjectif et meme usage que « des sources vérifiées », deja retire. Le renvoi reste entier sans lui.",
+        "geste": "remplacer",
+        "proposition": "La conduite à tenir pas à pas et les contacts à Madagascar sont dans le module",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/index.html",
+        "citation": "Le parcours complet, dans l'ordre, reste le plus sûr : chaque étape s'appuie sur la précédente.",
+        "genre": "qualite auto-decernee",
+        "pourquoi": "« le plus sûr » est un superlatif que le site s'applique a lui-meme ; la raison qui suit (chaque etape s'appuie sur la precedente) suffit a justifier la lecture dans l'ordre. Discutable : la phrase sert surtout a orienter le lecteur.",
+        "geste": "remplacer",
+        "proposition": "Les modules se lisent aussi dans l'ordre : chaque étape s'appuie sur la précédente.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/site.json",
+        "citation": "au format APA 7, avec DOI ou URL vérifiés.",
+        "genre": "promesse de methode",
+        "pourquoi": "C'est mot pour mot la formule que l'auteur vient de retirer ailleurs : annoncer que ses propres references ont ete verifiees, c'est se decerner un brevet de serieux. Un DOI ou une URL est donne ou ne l'est pas ; dire qu'il est verifie n'ajoute aucune information au lecteur.",
+        "geste": "remplacer",
+        "proposition": "au format APA 7, avec DOI ou URL.",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "src/site.json",
+        "citation": "Définitions sourcées des termes techniques",
+        "genre": "promesse de methode",
+        "pourquoi": "Meme mecanisme : le site qualifie sa propre production plutot que de la decrire. La suite de la phrase (« avec liens vers Wikipédia ou les définitions officielles ») dit deja factuellement d'ou viennent les definitions, donc rien n'est perdu.",
+        "geste": "remplacer",
+        "proposition": "Définitions des termes techniques",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/site.json",
+        "citation": "Cadre, messages clés sourcés, activités par âge",
+        "genre": "promesse de methode",
+        "pourquoi": "« sourcés » est un argument de serieux adresse au lecteur, pas une information sur le contenu du kit : le sommaire annonce des messages cles, le fait qu'ils portent leurs references se constate en les lisant.",
+        "geste": "remplacer",
+        "proposition": "Cadre, messages clés, activités par âge",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "README.md",
+        "citation": "- **Chaque affirmation scientifique porte sa source**, au format APA 7, avec DOI ou URL vérifiée, et un",
+        "genre": "promesse de methode",
+        "pourquoi": "Meme formule que celle deja retiree ailleurs (« Chaque affirmation renvoie a une source verifiable ») : le « chaque » et le « verifiee » servent a annoncer la rigueur du site plutot qu'a informer. L'information utile (APA 7, DOI ou URL, niveau de preuve) survit sans eux.",
+        "geste": "remplacer",
+        "proposition": "- **Les sources sont donnees au format APA 7**, avec DOI ou URL, et un",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "README.md",
+        "citation": "- **Chaque terme technique est défini.** Les termes sont liés automatiquement à leur entrée de glossaire :",
+        "genre": "promesse de methode",
+        "pourquoi": "Le « chaque » affirme une exhaustivite que le site se decerne a lui-meme, dans la meme forme que la phrase retiree. La suite de l'entree (liaison automatique, survol, retour a la position de lecture) decrit la fonction et suffit.",
+        "geste": "remplacer",
+        "proposition": "- **Les termes techniques sont définis.** Les termes sont liés automatiquement à leur entrée de glossaire :",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "README.md",
+        "citation": "sources vérifiées, liens contrôlés à la main, rapports de relecture",
+        "genre": "promesse de methode",
+        "pourquoi": "« sources verifiees » est exactement la formule ecartee ; « controles a la main » ajoute le merite du travail au lieu de dire ce que contient le repertoire. Le contenu reste identifiable sans ces qualificatifs.",
+        "geste": "remplacer",
+        "proposition": "sources, contrôle des liens, rapports de relecture",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "README.md",
+        "citation": "construit `data/references.json` depuis les sources vérifiées et les corrections manuelles",
+        "genre": "promesse de methode",
+        "pourquoi": "Deuxieme occurrence de « sources verifiees » ; a corriger avec la precedente sous peine de laisser la formule dans le tableau des outils. Le role du script est le meme sans l'adjectif.",
+        "geste": "remplacer",
+        "proposition": "construit `data/references.json` depuis les sources et les corrections manuelles",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/methode-et-limites.html",
+        "citation": "Ce site n'est pas un résumé de lectures.",
+        "genre": "qualite auto-decernee",
+        "pourquoi": "Le site se distingue lui-meme, par contraste, d'une compilation de seconde main : il s'attribue un serieux superieur avant meme de decrire quoi que ce soit. La phrase suivante (« Chaque phrase qui affirme un fait a ete rattachee a une source precise... ») porte deja toute l'information de methode ; la supprimer ne fait rien perdre.",
+        "geste": "supprimer",
+        "proposition": "",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/methode-et-limites.html",
+        "citation": "Sources vérifiées les 3 et 4 septembre 2026.",
+        "genre": "promesse de methode",
+        "pourquoi": "C'est mot pour mot la formule « des sources verifiees » que l'auteur vient de faire retirer : on se decerne le controle de ses propres sources. Le fait daté (quand le travail a ete fait) reste utile dans un journal des versions ; c'est le mot « verifiees » qui se vante. Le texte de la page dit d'ailleurs ailleurs « Les dates de consultation figurent dans la bibliographie », ce qui rend « consultees » plus coherent.",
+        "geste": "remplacer",
+        "proposition": "Sources consultées les 3 et 4 septembre 2026.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/methode-et-limites.html",
+        "citation": "Chaque affirmation de ce site porte sa source et son niveau de preuve. Vous pouvez donc la vérifier, la discuter et demander sa correction.",
+        "genre": "promesse de methode",
+        "pourquoi": "Jumelle de la formule retiree « Chaque affirmation renvoie a une source verifiable » : garantie donnee sur soi (« chaque ») puis annonce au lecteur de ce qu'il va pouvoir faire du document. La description de la convention (source + pastille) et la possibilite de signaler une erreur restent utiles ; c'est la garantie et l'adresse au lecteur qui se font valoir. Reformulation sobre, sans rien ajouter.",
+        "geste": "remplacer",
+        "proposition": "Les affirmations de ce site portent leur source et leur niveau de preuve, et une erreur peut être signalée.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/methode-et-limites.html",
+        "citation": "Le texte principal contient tout ce qu'il faut pour comprendre et pour agir.",
+        "genre": "qualite auto-decernee",
+        "pourquoi": "« tout ce qu'il faut » est une exhaustivite que le site s'attribue. L'information reellement utile — les encadres « Approfondir » sont facultatifs et n'ajoutent aucune action — est portee par les deux phrases qui suivent (« Aucun encadre n'ajoute une action nouvelle... vous n'avez rien perdu d'important »). La formulation proposee dit la meme chose sans se noter.",
+        "geste": "remplacer",
+        "proposition": "Le texte principal se lit seul.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/01-grandir.html",
+        "citation": "Là où l'on ne sait pas, dites-le : c'est ce qui rend crédible tout le reste.",
+        "genre": "qualite auto-decernee",
+        "pourquoi": "La consigne adressée au lecteur (dire ce que l'on ne sait pas) est utile et parfaitement sobre ; c'est la seconde moitié qui bascule. Placée juste après l'aveu que le module n'a pas de repères malgaches, « tout le reste » désigne le reste du document : la phrase transforme un aveu de lacune en argument de crédibilité pour le site lui-même. On ne se décerne pas sa propre crédibilité, surtout pas au moment où l'on reconnaît une limite.",
+        "geste": "remplacer",
+        "proposition": "Là où l'on ne sait pas, dites-le.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/05-nommer-la-violence-madagascar.html",
+        "citation": "Ce module donne de quoi en parler juste ici",
+        "genre": "grandiloquence",
+        "pourquoi": "Annonce au lecteur ce qu'il saura faire apres lecture, et en qualifie d'avance le resultat (« en parler juste »). C'est le meme geste que « des sessions de formation a lire en ligne » : une promesse du document sur lui-meme. La description du sujet suffit ; le lecteur jugera si cela l'aide.",
+        "geste": "remplacer",
+        "proposition": "Ce module porte sur les mots a employer ici",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/07-chiffres-et-solidite.html",
+        "citation": "Une petite pastille accompagne chaque affirmation importante pour indiquer sa solidité.",
+        "genre": "promesse de methode",
+        "pourquoi": "Meme forme que la formule retiree « Chaque affirmation renvoie a une source verifiable » : le « chaque » transforme la description d'une convention de lecture en engagement totalisant du site sur sa propre rigueur. La phrase informe utilement (elle ouvre la section qui apprend a lire les pastilles), donc seul le « chaque » est en cause ; le retirer ne coute aucune information. Signalement discutable : en contexte, il s'agit d'abord d'une description de fonction.",
+        "geste": "remplacer",
+        "proposition": "Une petite pastille accompagne les affirmations importantes pour indiquer sa solidité.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/09-qui-est-expose.html",
+        "citation": "La position de ce site est étroite et volontairement modeste :",
+        "genre": "qualite auto-decernee",
+        "pourquoi": "Le site se décerne une vertu (la modestie) en parlant de lui-même. La restriction utile au lecteur est déjà portée par « étroite » et par la phrase qui suit ; « volontairement modeste » n'ajoute aucune information, seulement un compliment que l'auteur s'adresse.",
+        "geste": "remplacer",
+        "proposition": "La position de ce site est étroite :",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/09-qui-est-expose.html",
+        "citation": "Ce que cela change pour vous, dès demain",
+        "genre": "grandiloquence",
+        "pourquoi": "Le titre annonce au lecteur ce que la page va lui rapporter, et avec quelle rapidité — même registre que « des sessions de formation à lire en ligne » qui a été retiré. La section elle-même précise que ces propositions n'ont pas été évaluées : « dès demain » promet plus que ce que le texte assume.",
+        "geste": "remplacer",
+        "proposition": "Ce que cela change pour vous",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/10-ecrans-et-vie-en-ligne.html",
+        "citation": "Le dire est plus honnête et plus utile que de plaquer un chiffre européen sur une classe malgache.",
+        "genre": "promesse de methode",
+        "pourquoi": "La phrase commente l'aveu de lacune que le site vient de faire et le qualifie d'« honnête » : c'est le site qui se félicite de sa propre méthode, comme le faisait « des sources vérifiées ». Le conseil reste entier sans l'adjectif.",
+        "geste": "remplacer",
+        "proposition": "Mieux vaut le dire que de plaquer un chiffre européen sur une classe malgache.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/12-parler-et-ecouter.html",
+        "citation": "Il faut le dire honnêtement : l'offre de soins psychiques est très limitée à Madagascar",
+        "genre": "promesse de methode",
+        "pourquoi": "Le site annonce sa propre honnêteté avant de livrer l'information. Le constat qui suit est un aveu de manque, parfaitement à sa place ; c'est seulement l'amorce qui se retourne sur l'auteur, dans la même logique que « des sources vérifiées » : on le fait, pas la peine de le dire. La suppression de l'amorce ne retire aucune information.",
+        "geste": "remplacer",
+        "proposition": "L'offre de soins psychiques est très limitée à Madagascar",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/16-kit-de-sensibilisation.html",
+        "citation": "et les contenus qui tiennent debout devant des élèves, des parents et des enseignants.",
+        "genre": "qualite auto-decernee",
+        "pourquoi": "Le chapeau qualifie lui-même le contenu du module comme solide (\"qui tiennent debout\") : c'est le site qui se décerne la robustesse, comme dans « outils pédagogiques fondés sur les preuves ». L'information utile — il y a des contenus à porter devant ces trois publics — se dit sans l'adjectif.",
+        "geste": "remplacer",
+        "proposition": "et les contenus à porter devant des élèves, des parents et des enseignants.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/16-kit-de-sensibilisation.html",
+        "citation": "énoncer dix messages clés sourcés, en français et en malgache",
+        "genre": "promesse de methode",
+        "pourquoi": "\"sourcés\" annonce que les messages du site sont appuyés sur des références — exactement la formule « des sources vérifiées » déjà retirée. Le tableau qui suit porte une colonne « Sur quoi il repose » avec les citations : cela se voit, il n'est pas nécessaire de l'annoncer.",
+        "geste": "remplacer",
+        "proposition": "énoncer dix messages clés, en français et en malgache",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/15-prevenir-ce-qui-marche.html",
+        "citation": "Un document honnête dit aussi ce qu'il ne peut pas affirmer.",
+        "genre": "qualite auto-decernee",
+        "pourquoi": "Le module se range implicitement parmi les documents honnêtes au moment même où il énumère ses limites : la qualité est auto-attribuée par la maxime. La liste des six limites qui suit, elle, ne se touche pas — seule l'étiquette de vertu est en cause.",
+        "geste": "remplacer",
+        "proposition": "Il faut aussi dire ce que ce module ne peut pas affirmer.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/16-kit-de-sensibilisation.html",
+        "citation": "Rien d'électronique n'est nécessaire, et c'est un avantage : votre kit fonctionne dans une école sans électricité.",
+        "genre": "auto-satisfaction",
+        "pourquoi": "\"et c'est un avantage\" ajoute une appréciation valorisante sur le matériel que le module lui-même propose. Le fait — le kit fonctionne sans électricité — se suffit et parle de lui-même.",
+        "geste": "remplacer",
+        "proposition": "Rien d'électronique n'est nécessaire : votre kit fonctionne dans une école sans électricité.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/17-ressources.html",
+        "citation": "Chaque coordonnée est donnée avec sa source et sa date de vérification ; quand nous n'avons pas pu vérifier, nous l'écrivons noir sur blanc.",
+        "genre": "promesse de methode",
+        "pourquoi": "Construction identique a la formule deja retiree (« chaque affirmation renvoie a une source verifiable ») : le chapeau annonce la rigueur du site avant de dire quoi que ce soit. Le « noir sur blanc » ajoute une emphase sur sa propre franchise. L'aveu des coordonnees non verifiees, lui, est utile et doit rester, mais dit platement.",
+        "geste": "remplacer",
+        "proposition": "Les coordonnées sont datées, et celles que nous n'avons pas pu vérifier sont signalées comme telles.",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/17-ressources.html",
+        "citation": "Voici une sélection courte, choisie parce qu'elle change la manière de conduire une action de sensibilisation.",
+        "genre": "grandiloquence",
+        "pourquoi": "Promesse sur l'effet que produira la lecture de la selection maison. Le critere de choix peut se dire sans annoncer au lecteur qu'il sera transforme.",
+        "geste": "remplacer",
+        "proposition": "Voici une sélection courte, utile pour préparer une action de sensibilisation.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/18-consolider.html",
+        "citation": "les dix phrases qui changent réellement une conduite",
+        "genre": "grandiloquence",
+        "pourquoi": "Le site certifie l'efficacite de son propre contenu, avec un « reellement » qui appuie encore. Le titre de section plus bas dit deja la meme chose sobrement : « Les dix phrases a retenir ».",
+        "geste": "remplacer",
+        "proposition": "les dix phrases à retenir",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/18-consolider.html",
+        "citation": ", et c'est ce qui distingue une formation sérieuse d'une campagne de communication",
+        "genre": "qualite auto-decernee",
+        "pourquoi": "Le site se range implicitement du cote de la « formation serieuse » contre la communication : c'est un titre qu'il se decerne. La premiere moitie de la phrase (« ce n'est pas un aveu de faiblesse : c'est une information utile ») porte deja toute l'idee.",
+        "geste": "supprimer",
+        "proposition": "",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/18-consolider.html",
+        "citation": "C'est une position honnête, et c'est aussi la plus solide devant un directeur d'établissement.",
+        "genre": "qualite auto-decernee",
+        "pourquoi": "Le site qualifie sa propre position d'honnete et de « la plus solide ». Les phrases precedentes disent deja ce que vaut une intervention unique et a quoi elle sert ; le paragraphe se tient sans ce commentaire sur soi.",
+        "geste": "supprimer",
+        "proposition": "",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/18-consolider.html",
+        "citation": ", mais elles tiennent debout seules, et c'est exactement ce dont on a besoin dans une conversation de cinq minutes",
+        "genre": "auto-satisfaction",
+        "pourquoi": "« C'est exactement ce dont on a besoin » est un satisfecit que le site s'adresse a lui-meme. L'information utile — ces phrases s'emploient isolement, en cinq minutes — se garde sans le compliment.",
+        "geste": "remplacer",
+        "proposition": ", mais elles tiennent debout seules dans une conversation de cinq minutes",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/18-consolider.html",
+        "citation": "avec la date à laquelle chaque information a été vérifiée",
+        "genre": "promesse de methode",
+        "pourquoi": "Meme tournure « chaque … verifiee » que la formule retiree, reprise ici dans un simple rappel du module precedent. La date affichee est un fait a mentionner, sans le « chaque » qui en fait un gage.",
+        "geste": "remplacer",
+        "proposition": "avec leur date de vérification",
+        "gravite": "discutable"
+      }
+    ],
+    "retenus": [
+      {
+        "fichier": "src/body/harcelement-scolaire/index.html",
+        "citation": "Un document de référence, à lire dans l'ordre ou par la porte qui correspond à votre situation.",
+        "geste": "remplacer",
+        "proposition": "À lire dans l'ordre ou par la porte qui correspond à votre situation.",
+        "pourquoi": "C'est mot pour mot le titre que l'auteur vient de faire retirer ailleurs, ici dans le chapeau de la session. L'information utile — deux façons de lire — subsiste intégralement.",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/index.html",
+        "citation": "Le texte principal est complet : tout ce qu'il faut savoir pour agir s'y trouve.",
+        "geste": "remplacer",
+        "proposition": "Le texte principal se suffit à lui-même.",
+        "pourquoi": "« Complet » figure en toutes lettres parmi les qualités auto-décernées, et « tout ce qu'il faut savoir pour agir » annonce au lecteur ce qu'il y gagnera. La formule de remplacement est celle que l'auteur emploie déjà dans le README : elle dit la même chose utile — on peut lire le texte principal sans les encadrés — sans se noter.",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/index.html",
+        "citation": "La conduite à tenir pas à pas et les contacts vérifiés à Madagascar sont dans le module",
+        "geste": "remplacer",
+        "proposition": "La conduite à tenir pas à pas et les contacts à Madagascar sont dans le module",
+        "pourquoi": "Même adjectif et même usage que « des sources vérifiées » : ici « vérifiés » rassure sur le travail du site plutôt qu'il ne renseigne sur le contact. Le renvoi reste entier sans lui.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/site.json",
+        "citation": "au format APA 7, avec DOI ou URL vérifiés.",
+        "geste": "remplacer",
+        "proposition": "au format APA 7, avec DOI ou URL.",
+        "pourquoi": "Reprise exacte de la formule écartée. Un DOI ou une URL est donné ou ne l'est pas ; annoncer qu'il a été vérifié n'ajoute rien au lecteur et se décerne un brevet de sérieux. Le reste de la description (« Toutes les références citées dans les sessions ») porte l'information.",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "README.md",
+        "citation": "- **Chaque affirmation scientifique porte sa source**, au format APA 7, avec DOI ou URL vérifiée, et un",
+        "geste": "remplacer",
+        "proposition": "- **Chaque affirmation scientifique porte sa source**, au format APA 7, avec DOI ou URL, et un",
+        "pourquoi": "Seul « vérifiée » est en cause : c'est la formule retirée ailleurs. J'ai corrigé la proposition du premier tour, qui supprimait aussi le principe « Chaque affirmation scientifique porte sa source » : dans une section « Principes », cet énoncé décrit une règle de fabrication que le build fait respecter, au même titre que « Ce qu'on ne sait pas est dit. » — le retirer ferait perdre une information sans rien corriger.",
+        "gravite": "flagrant"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/methode-et-limites.html",
+        "citation": "Ce site n'est pas un résumé de lectures.",
+        "geste": "supprimer",
+        "proposition": "",
+        "pourquoi": "Le site se distingue par contraste d'une compilation de seconde main : il s'attribue un sérieux supérieur avant d'avoir rien décrit. Rien n'est perdu — la phrase suivante (« Chaque phrase qui affirme un fait a été rattachée à une source précise, et chaque source a été ouverte avant d'être citée. ») ouvre parfaitement le paragraphe et porte toute la méthode.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/methode-et-limites.html",
+        "citation": "Le texte principal contient tout ce qu'il faut pour comprendre et pour agir.",
+        "geste": "remplacer",
+        "proposition": "Le texte principal se suffit à lui-même.",
+        "pourquoi": "Même exhaustivité auto-attribuée que dans le chapeau de la session, à traiter avec elle sous peine d'incohérence. Ce que la phrase doit dire — on peut ne lire que le texte principal — est porté par la formule maison du README, et la fin du paragraphe l'explicite déjà (« Aucun encadré n'ajoute une action nouvelle… vous n'avez rien perdu d'important »).",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/16-kit-de-sensibilisation.html",
+        "citation": "et les contenus qui tiennent debout devant des élèves, des parents et des enseignants.",
+        "geste": "remplacer",
+        "proposition": "et les contenus à porter devant des élèves, des parents et des enseignants.",
+        "pourquoi": "Le chapeau décerne au module sa propre robustesse (« qui tiennent debout » devant un auditoire = qui résistent à la contestation), dans le registre d'« outils pédagogiques fondés sur les preuves ». L'information — il y a des contenus à porter devant ces trois publics — se dit sans l'adjectif, et le reste du chapeau (« ce qu'elle ne doit surtout pas promettre ») garde son ton.",
+        "gravite": "discutable"
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/18-consolider.html",
+        "citation": "les dix phrases qui changent réellement une conduite",
+        "geste": "remplacer",
+        "proposition": "les dix phrases à retenir",
+        "pourquoi": "Le site certifie l'efficacité de son propre contenu, avec un « réellement » qui appuie — alors qu'il refuse partout ailleurs de promettre un effet non évalué (« Promettre un résultat » figure dans sa colonne « à éviter »). Le titre de la section concernée dit déjà sobrement « Les dix phrases à retenir ».",
+        "gravite": "flagrant"
+      }
+    ],
+    "rejetes": [
+      {
+        "fichier": "src/body/harcelement-scolaire/index.html",
+        "citation": "Le parcours complet, dans l'ordre, reste le plus sûr : chaque étape s'appuie sur la précédente.",
+        "motif": "Consigne de navigation, pas qualité auto-décernée : « le plus sûr » compare deux façons de lire, il ne qualifie ni le site ni son sérieux, et la raison suit immédiatement. La proposition (« Les modules se lisent aussi dans l'ordre ») supprime la recommandation elle-même, donc de l'information."
+      },
+      {
+        "fichier": "src/site.json",
+        "citation": "Définitions sourcées des termes techniques",
+        "motif": "« Sourcé » décrit factuellement une propriété du contenu (l'entrée porte sa référence), il ne revendique aucun travail de vérification. Ce que l'auteur a retiré, c'est « vérifiées », pas « sourcées »."
+      },
+      {
+        "fichier": "src/site.json",
+        "citation": "Cadre, messages clés sourcés, activités par âge",
+        "motif": "Même raison : un sommaire qui annonce des messages porteurs de références décrit le contenu. Retirer « sourcés » ferait perdre une distinction réelle entre les messages du kit et de simples slogans."
+      },
+      {
+        "fichier": "README.md",
+        "citation": "- **Chaque terme technique est défini.** Les termes sont liés automatiquement à leur entrée de glossaire :",
+        "motif": "Énoncé d'une règle de fabrication dans une section « Principes », de même forme que « Ce qu'on ne sait pas est dit. » : c'est une contrainte que l'auteur s'impose, pas un compliment qu'il s'adresse. Le build refuse d'ailleurs une page dont un terme est inconnu."
+      },
+      {
+        "fichier": "README.md",
+        "citation": "sources vérifiées, liens contrôlés à la main, rapports de relecture",
+        "motif": "Ligne d'un tableau d'arborescence : elle nomme ce que contient `src/research/` pour un développeur. « À la main » distingue les corrections manuelles du contrôle automatique de `check_links.py` — c'est une information technique, pas un mérite affiché au lecteur du site."
+      },
+      {
+        "fichier": "README.md",
+        "citation": "construit `data/references.json` depuis les sources vérifiées et les corrections manuelles",
+        "motif": "Même registre : description de l'entrée d'un script dans le tableau des outils. « Sources vérifiées » y désigne un répertoire de travail, pas une promesse faite au lecteur."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/methode-et-limites.html",
+        "citation": "Sources vérifiées les 3 et 4 septembre 2026.",
+        "motif": "Cellule d'un journal des versions : consigner à quelle date le travail a été fait est la fonction même d'un changelog. « Consultées » serait d'ailleurs moins exact que « vérifiées » ici, puisque la page décrit précisément un travail de confirmation (DOI, pages éditeurs, dépositaires officiels)."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/methode-et-limites.html",
+        "citation": "Chaque affirmation de ce site porte sa source et son niveau de preuve. Vous pouvez donc la vérifier, la discuter et demander sa correction.",
+        "motif": "La première phrase décrit la convention de lecture (citation + pastille), comme le fait l'index sans que personne s'en émeuve. La seconde n'annonce pas un bénéfice : elle invite le lecteur à contredire l'auteur et à demander correction — c'est le contraire d'une fanfaronnade, et la page ouvre effectivement une section « Signaler une erreur »."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/01-grandir.html",
+        "citation": "Là où l'on ne sait pas, dites-le : c'est ce qui rend crédible tout le reste.",
+        "motif": "Consigne au lecteur, dans la continuité de l'impératif précédent (« Utilisez-les comme des ordres de grandeur ») : « tout le reste » désigne ce que le lecteur dira devant un public, pas le document. Même argument que « Une limite reconnue à voix haute renforce votre crédibilité » dans Méthode et limites. Le passage est de surcroît un aveu de lacune, terrain protégé."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/05-nommer-la-violence-madagascar.html",
+        "citation": "Ce module donne de quoi en parler juste ici",
+        "motif": "Convention de chapeau appliquée partout sur le site (« Cette page donne la grille qui permet de dire… », « Cette page vous donne une façon de lire… ») : elle annonce le sujet, pas un résultat garanti. « Juste » qualifie la façon de nommer, sujet même du module."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/07-chiffres-et-solidite.html",
+        "citation": "Une petite pastille accompagne chaque affirmation importante pour indiquer sa solidité.",
+        "motif": "Description neutre d'une fonction de lecture, expressément hors périmètre : la pastille qualifie la source, pas le site. La proposition casserait de plus l'accord (« les affirmations… sa solidité »)."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/09-qui-est-expose.html",
+        "citation": "La position de ce site est étroite et volontairement modeste :",
+        "motif": "Restriction de périmètre, pas décoration : « modeste » signifie ici « limitée », et « volontairement » indique que l'omission est délibérée et non un oubli — information utile au lecteur. C'est une limite assumée, à ne pas toucher."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/09-qui-est-expose.html",
+        "citation": "Ce que cela change pour vous, dès demain",
+        "motif": "Titre de section pratique : « dès demain » dit que les cinq gestes listés sont immédiatement réalisables, ce qui est vrai et vérifiable en lisant la liste. Rien n'y qualifie le site, et le paragraphe d'ouverture précise honnêtement que ces propositions n'ont pas été évaluées."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/10-ecrans-et-vie-en-ligne.html",
+        "citation": "Le dire est plus honnête et plus utile que de plaquer un chiffre européen sur une classe malgache.",
+        "motif": "Phrase logée dans un encadré « ce qu'on ne sait pas », juste après une pastille Lacune : elle justifie l'aveu d'ignorance et enchaîne sur un conseil à l'association du lecteur. Aveu de limite, terrain explicitement protégé."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/12-parler-et-ecouter.html",
+        "citation": "Il faut le dire honnêtement : l'offre de soins psychiques est très limitée à Madagascar",
+        "motif": "Amorce annonçant une mauvaise nouvelle sur le monde extérieur, pas une qualité du site. Ce qui suit est un constat de manque, sourcé (atlas OMS) : c'est l'inverse d'une fanfaronnade."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/15-prevenir-ce-qui-marche.html",
+        "citation": "Un document honnête dit aussi ce qu'il ne peut pas affirmer.",
+        "motif": "Phrase d'ouverture d'une section « Limites et mises en garde » qui énumère ensuite six limites, dont trois pastilles Lacune. Le site n'y revendique rien : il annonce qu'il va se restreindre. Y toucher reviendrait à raboter un aveu."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/16-kit-de-sensibilisation.html",
+        "citation": "énoncer dix messages clés sourcés, en français et en malgache",
+        "motif": "Objectif pédagogique « À la fin de ce module, je saurai », convention assumée du site, et qui ne promet ici ni maîtrise ni exhaustivité — il promet même l'inverse (« sans leur faire dire plus qu'ils ne disent »)."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/16-kit-de-sensibilisation.html",
+        "citation": "Rien d'électronique n'est nécessaire, et c'est un avantage : votre kit fonctionne dans une école sans électricité.",
+        "motif": "L'appréciation porte sur le kit de l'association du lecteur (« votre kit ») et sur une contrainte de terrain, pas sur le site. Le membre supprimé sert de charnière argumentative vers la raison, donnée aussitôt après."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/17-ressources.html",
+        "citation": "Chaque coordonnée est donnée avec sa source et sa date de vérification ; quand nous n'avons pas pu vérifier, nous l'écrivons noir sur blanc.",
+        "motif": "Mode d'emploi des tableaux qui suivent : la date de vérification est une colonne réelle, décisive pour un numéro d'urgence, et la seconde moitié est un aveu d'échec (le module écrit effectivement « à confirmer »). La proposition perdrait « avec sa source ». Description de fonction + limite assumée."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/17-ressources.html",
+        "citation": "Voici une sélection courte, choisie parce qu'elle change la manière de conduire une action de sensibilisation.",
+        "motif": "Ce qui « change la manière » ce sont les lectures citées (Sandron, Régnier, Randriamasitiana…), pas le site : c'est le critère de sélection d'ouvrages extérieurs, chacun référencé. Affirmation sur le monde extérieur, hors périmètre."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/18-consolider.html",
+        "citation": ", et c'est ce qui distingue une formation sérieuse d'une campagne de communication",
+        "motif": "Argument destiné à défendre l'aveu d'ignorance devant un public — même fonction que « Une limite reconnue à voix haute renforce votre crédibilité ». Il ouvre la section où le site énumère ce qu'il ignore : on ne rabote pas la justification d'un aveu."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/18-consolider.html",
+        "citation": "C'est une position honnête, et c'est aussi la plus solide devant un directeur d'établissement.",
+        "motif": "La « position » est celle que le lecteur adoptera devant un chef d'établissement (présenter son intervention unique comme une porte d'entrée et non comme une méthode prouvée), pas celle du site. C'est un conseil tactique, appuyé sur les méta-analyses citées juste avant."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/18-consolider.html",
+        "citation": ", mais elles tiennent debout seules, et c'est exactement ce dont on a besoin dans une conversation de cinq minutes",
+        "motif": "« Tiennent debout seules » dit l'autonomie des phrases (lisibles sans les modules), pas leur solidité ; la fin précise le cas d'usage. Satisfecit trop ténu pour justifier une retouche, et la phrase informe."
+      },
+      {
+        "fichier": "src/body/harcelement-scolaire/18-consolider.html",
+        "citation": "avec la date à laquelle chaque information a été vérifiée",
+        "motif": "Rappel de ce que contient le module 17 : la date est une donnée effectivement affichée dans ses tableaux. Description d'une fonction, non promesse."
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Relecture"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Critique"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "relire:index",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "a54b9689d0648c158",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615097821,
+      "queuedAt": 1788615097728,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615170185,
+      "tokens": 38699,
+      "toolCalls": 5,
+      "durationMs": 72352,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"src/body/harcelement-scolaire/index.html\",\"citation\":\"Un document de référence, à lire dans l'ordre ou par la porte qui correspond à votre situation.\",\"genre\":\"qualite auto-decernee\",\"pourquoi\":\"Le site se decerne le titre de « document de reference » dans le chapeau de la session : c'est exactement la formule que l'auteur a fait retirer ailleurs. L'information utile (d…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "relire:head",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "a569773603e780136",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615097824,
+      "queuedAt": 1788615097730,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615161680,
+      "tokens": 44915,
+      "toolCalls": 7,
+      "durationMs": 58963,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"src/site.json\",\"citation\":\"au format APA 7, avec DOI ou URL vérifiés.\",\"genre\":\"promesse de methode\",\"pourquoi\":\"C'est mot pour mot la formule que l'auteur vient de retirer ailleurs : annoncer que ses propres references ont ete verifiees, c'est se decerner un brevet de serieux. Un DOI ou une URL est donne ou ne l'est pas ; dire qu'il est verifie n'ajoute aucune informat…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "relire:glossaire-intro",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "aa8a0468d007b7acc",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615097826,
+      "queuedAt": 1788615097730,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615178864,
+      "tokens": 38361,
+      "toolCalls": 5,
+      "durationMs": 76146,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"README.md\",\"citation\":\"- **Chaque affirmation scientifique porte sa source**, au format APA 7, avec DOI ou URL vérifiée, et un\",\"genre\":\"promesse de methode\",\"pourquoi\":\"Meme formule que celle deja retiree ailleurs (« Chaque affirmation renvoie a une source verifiable ») : le « chaque » et le « verifiee » servent a annoncer la rigueur du site plutot qu'a informer. L'inf…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "relire:methode-et-limites",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "a3ad46adcb109955c",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615097828,
+      "queuedAt": 1788615097731,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615253319,
+      "tokens": 68370,
+      "toolCalls": 7,
+      "durationMs": 150600,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"src/body/harcelement-scolaire/methode-et-limites.html\",\"citation\":\"Ce site n'est pas un résumé de lectures.\",\"genre\":\"qualite auto-decernee\",\"pourquoi\":\"Le site se distingue lui-meme, par contraste, d'une compilation de seconde main : il s'attribue un serieux superieur avant meme de decrire quoi que ce soit. La phrase suivante (« Chaque phrase qui affirme un fait a ete …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "relire:01-grandir",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "a64389c5fb4e8ae1d",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615097830,
+      "queuedAt": 1788615097731,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615179688,
+      "tokens": 67333,
+      "toolCalls": 4,
+      "durationMs": 76968,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"src/body/harcelement-scolaire/01-grandir.html\",\"citation\":\"Là où l'on ne sait pas, dites-le : c'est ce qui rend crédible tout le reste.\",\"genre\":\"qualite auto-decernee\",\"pourquoi\":\"La consigne adressée au lecteur (dire ce que l'on ne sait pas) est utile et parfaitement sobre ; c'est la seconde moitié qui bascule. Placée juste après l'aveu que le module n'a pas de repère…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "relire:03-traumatisme-et-resilience",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "a9ab5461a95ccc8ea",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615097831,
+      "queuedAt": 1788615097731,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615204259,
+      "tokens": 78204,
+      "toolCalls": 4,
+      "durationMs": 101538,
+      "resultPreview": "{\"trouvailles\":[]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "relire:05-nommer-la-violence-madagascar",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "a58b5f749c903a802",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615161688,
+      "queuedAt": 1788615097731,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615244280,
+      "tokens": 74214,
+      "toolCalls": 4,
+      "durationMs": 82592,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"src/body/harcelement-scolaire/05-nommer-la-violence-madagascar.html\",\"citation\":\"Ce module donne de quoi en parler juste ici\",\"genre\":\"grandiloquence\",\"pourquoi\":\"Annonce au lecteur ce qu'il saura faire apres lecture, et en qualifie d'avance le resultat (« en parler juste »). C'est le meme geste que « des sessions de formation a lire en ligne » : une promesse du documen…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "relire:07-chiffres-et-solidite",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "a61f97953cee1e1c3",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615170187,
+      "queuedAt": 1788615097732,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615280375,
+      "tokens": 64947,
+      "toolCalls": 5,
+      "durationMs": 110188,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"src/body/harcelement-scolaire/07-chiffres-et-solidite.html\",\"citation\":\"Une petite pastille accompagne chaque affirmation importante pour indiquer sa solidité.\",\"genre\":\"promesse de methode\",\"pourquoi\":\"Meme forme que la formule retiree « Chaque affirmation renvoie a une source verifiable » : le « chaque » transforme la description d'une convention de lecture en engagem…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "relire:09-qui-est-expose",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "aa5f5ba418f618346",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615178866,
+      "queuedAt": 1788615097732,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615305634,
+      "tokens": 82313,
+      "toolCalls": 6,
+      "durationMs": 126768,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"src/body/harcelement-scolaire/09-qui-est-expose.html\",\"citation\":\"La position de ce site est étroite et volontairement modeste :\",\"genre\":\"qualite auto-decernee\",\"pourquoi\":\"Le site se décerne une vertu (la modestie) en parlant de lui-même. La restriction utile au lecteur est déjà portée par « étroite » et par la phrase qui suit ; « volontairement modeste » n'ajoute auc…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "relire:11-reperer",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "ab7964887ea2b7752",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615179690,
+      "queuedAt": 1788615097732,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615266075,
+      "tokens": 65020,
+      "toolCalls": 5,
+      "durationMs": 86385,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"src/body/harcelement-scolaire/12-parler-et-ecouter.html\",\"citation\":\"Il faut le dire honnêtement : l'offre de soins psychiques est très limitée à Madagascar\",\"genre\":\"promesse de methode\",\"pourquoi\":\"Le site annonce sa propre honnêteté avant de livrer l'information. Le constat qui suit est un aveu de manque, parfaitement à sa place ; c'est seulement l'amorce qui se reto…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "relire:13-mon-enfant-est-concerne",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "a55881329ab3a9dad",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615204260,
+      "queuedAt": 1788615097732,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615307945,
+      "tokens": 73388,
+      "toolCalls": 4,
+      "durationMs": 103685,
+      "resultPreview": "{\"trouvailles\":[]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "relire:15-prevenir-ce-qui-marche",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "a0494c728d61d6fc0",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615244281,
+      "queuedAt": 1788615097733,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615335080,
+      "tokens": 69956,
+      "toolCalls": 4,
+      "durationMs": 90798,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"src/body/harcelement-scolaire/16-kit-de-sensibilisation.html\",\"citation\":\"et les contenus qui tiennent debout devant des élèves, des parents et des enseignants.\",\"genre\":\"qualite auto-decernee\",\"pourquoi\":\"Le chapeau qualifie lui-même le contenu du module comme solide (\\\"qui tiennent debout\\\") : c'est le site qui se décerne la robustesse, comme dans « outils pédagogique…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "relire:17-ressources",
+      "phaseIndex": 1,
+      "phaseTitle": "Relecture",
+      "agentId": "afaea64d5d74bfe5b",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615253323,
+      "queuedAt": 1788615097733,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615403381,
+      "tokens": 67523,
+      "toolCalls": 6,
+      "durationMs": 150058,
+      "resultPreview": "{\"trouvailles\":[{\"fichier\":\"src/body/harcelement-scolaire/17-ressources.html\",\"citation\":\"Chaque coordonnée est donnée avec sa source et sa date de vérification ; quand nous n'avons pas pu vérifier, nous l'écrivons noir sur blanc.\",\"genre\":\"promesse de methode\",\"pourquoi\":\"Construction identique a la formule deja retiree (« chaque affirmation renvoie a une source verifiable ») : le chapeau annonce…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "critique",
+      "phaseIndex": 2,
+      "phaseTitle": "Critique",
+      "agentId": "add7418cdd0bbd036",
+      "model": "claude-opus-5[1m]",
+      "state": "done",
+      "startedAt": 1788615403412,
+      "queuedAt": 1788615403393,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "CONTEXTE. Un site pedagogique ecrit par un psychiatre malgache, publie a\nhttps://thot586.github.io/Psychologie_de_l_enfant_et_de_l_adolescent/. L'auteur est explicite :\nil est humble, et il ne veut aucune phrase ou le site se vante lui-meme. Il vient de faire retirer\ntrois formules, qui donnent la mesure exacte de ce qu'il refuse :\n  - « Outils pedagogiques FONDES SUR LES PREUVES » (annonce sa pro…",
+      "lastProgressAt": 1788615811181,
+      "tokens": 101909,
+      "toolCalls": 18,
+      "durationMs": 407768,
+      "resultPreview": "{\"rejetes\":[{\"fichier\":\"src/body/harcelement-scolaire/index.html\",\"citation\":\"Le parcours complet, dans l'ordre, reste le plus sûr : chaque étape s'appuie sur la précédente.\",\"motif\":\"Consigne de navigation, pas qualité auto-décernée : « le plus sûr » compare deux façons de lire, il ne qualifie ni le site ni son sérieux, et la raison suit immédiatement. La proposition (« Les modules se lisent auss…"
+    }
+  ],
+  "totalTokens": 935152,
+  "totalToolCalls": 84
+}

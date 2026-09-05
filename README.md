@@ -14,7 +14,7 @@ en 5 étapes, avec glossaire sourcé, bibliographie APA 7 et fonctionnement hors
 - **Deux niveaux de lecture dans la même page.** Le texte principal se suffit à lui-même. Les encadrés
   « Approfondir » donnent la source, la méthode et le chiffre exact. Aucun accordéon, aucun « lire plus » :
   tout est visible, et un réglage global permet de masquer les encadrés pour tout le site.
-- **Chaque affirmation scientifique porte sa source**, au format APA 7, avec DOI ou URL vérifiée, et un
+- **Chaque affirmation scientifique porte sa source**, au format APA 7, avec DOI ou URL, et un
   niveau de preuve explicite (preuve établie, consensus, hypothèse, opinion d'expert, preuve faible, lacune).
 - **Chaque terme technique est défini.** Les termes sont liés automatiquement à leur entrée de glossaire :
   survol pour la définition courte, ouverture pour la définition complète et sa source, puis retour exact

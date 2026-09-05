@@ -36,7 +36,7 @@
    "out": "references.html",
    "type": "references",
    "title": "Bibliographie",
-   "description": "Toutes les références citées dans les sessions, au format APA 7, avec DOI ou URL vérifiés."
+   "description": "Toutes les références citées dans les sessions, avec leur DOI ou leur URL."
   }
  ],
  "sessions": [

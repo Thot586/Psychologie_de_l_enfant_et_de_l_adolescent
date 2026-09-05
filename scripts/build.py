@@ -532,7 +532,7 @@ def render_refs_section(used):
         return ''
     items = sorted(used.values(), key=lambda r: strip_accents(strip_tags(r['apa7'])).lower())
     out = ['<section class="refs" id="references" aria-labelledby="refs-h"><h2 id="refs-h">Références</h2>',
-           '<p class="small">Références citées dans cette page, au format APA (7<sup>e</sup> édition). Toute la bibliographie est réunie sur la <a href="__REFS__">page Bibliographie</a>.</p>',
+           '<p class="small">Références citées dans cette page. Toute la bibliographie est réunie sur la <a href="__REFS__">page Bibliographie</a>.</p>',
            '<ol class="reflist">']
     for r in items:
         out.append(render_ref_li(r))
@@ -807,14 +807,14 @@ def render_references_page(page, ref_usage):
         f'<li><button type="button" class="chip" data-type="{esc(t)}" aria-pressed="false">{esc(t)} ({n})</button></li>' for t, n in sorted(types.items())) + '</ul>'
     out = [f'<header class="mhead"><p class="kicker">{esc(S["title"])}</p><h1>Bibliographie</h1><p class="lead">{esc(page["description"])}</p></header>',
            '<div class="backbar" id="backbar" hidden><a href="#" id="backlink">← Retour au texte</a><button type="button" class="x" id="backx" aria-label="Masquer">×</button></div>',
-           intro, f'<p class="small">{len(REFS)} références. Les DOI ont été vérifiés auprès de Crossref, les pages institutionnelles ouvertes une à une ; date de dernière vérification indiquée par entrée quand elle est connue.</p>', chips,
+           intro, f'<p class="small">{len(REFS)} références.</p>', chips,
            '<div class="search" id="refsearch"><input type="search" id="refq" placeholder="Filtrer par auteur, année, titre…" aria-label="Filtrer la bibliographie" autocomplete="off"></div>',
            '<ol class="reflist" id="reflist">']
     for r in sorted(REFS, key=lambda r: strip_accents(strip_tags(r['apa7'])).lower()):
         cited = ''
         if ref_usage.get(r['key']):
             cited = '<span class="cited">Cité dans : ' + ' · '.join(f'<a href="{rel(page["out"], o)}#ref-{esc(r["key"])}">{esc(lbl)}</a>' for o, lbl in sorted(ref_usage[r['key']])) + '</span>'
-        ver = f'<span class="cited">Vérifié le {esc(r["verifie_le"])}</span>' if r.get('verifie_le') else ''
+        ver = ''   # la date de vérification est une information de fabrication : le lecteur ouvre le lien lui-même
         li = render_ref_li(r, cited + ver)
         li = li.replace('<li ', f'<li data-type="{esc(r.get("type", "autre"))}" data-search="{esc(strip_accents(strip_tags(r["apa7"])).lower())}" ', 1)
         out.append(li)
