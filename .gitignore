@@ -14,5 +14,5 @@ desktop.ini
 *.tmp
 *.bak
 .claude/
-# pages de test locales
-_*.html
+# documents de travail (relecture, tests) : régénérables, jamais publiés
+_*

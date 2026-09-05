@@ -35,7 +35,7 @@ src/site.json                  manifeste : sessions, étapes, pages
 src/shell/                     coquille commune (head, en-tête, navigation, pied)
 src/body/                      corps des pages, en HTML
 src/css/  src/js/  src/figures/  sources du design system, des modules ES et des figures
-src/research/                  sources vérifiées, plans de contenu, rapports de vérification
+src/research/                  sources vérifiées, liens contrôlés à la main, rapports de relecture
 scripts/                       build.py et les outils d'assemblage
 manifest.webmanifest  sw.js    application web installable, hors ligne
 ```
@@ -66,10 +66,13 @@ ni section de références.
 | `build_references.py` | construit `data/references.json` depuis les sources vérifiées et les corrections manuelles |
 | `check_links.py` | vérifie les DOI auprès de Crossref et les URL par requête HTTP |
 | `fetch_fonts.py` | télécharge les polices Literata et Public Sans en WOFF2 auto-hébergés |
-| `merge_figspecs.py`, `assemble_content.py`, `assemble_glossary.py`, `extract_research.py` | intégration des contenus produits en amont |
-| `apply_verifications.py`, `assemble_quiz.py` | intégration des relectures adversariales des modules et des quiz |
-| `compare_legacy.py` | contrôle de migration de l'ancien outil monofichier (références, glossaire, assistant, quiz, sections) |
+| `serve.py` | sert le dépôt sous le sous-chemin de GitHub Pages, avec gzip et vrais 404 |
+| `extract_malgache.py` | page de relecture des 54 passages en malgache, avec leur contexte français |
 | `pwa_offline_test.py`, `viewport_check.py` | Chrome headless indépendant : service worker hors ligne ; aucun défilement horizontal de 280 à 768 px et à 200 % de zoom texte |
+
+Les outils qui ont servi une fois à fabriquer le contenu — extraction des recherches, préparation des
+entrées d'agents, intégration de leurs sorties, contrôle de migration de l'ancien outil — ont été retirés
+avec leurs fichiers de travail après publication. Ils restent dans l'historique git (`git show d86f281 --stat`).
 
 ## Choix techniques
 

@@ -1,6 +1,6 @@
 """Page de relecture des passages en malgache : extrait chaque fragment lang="mg" du site
 avec son contexte français, son module et sa section, et écrit _relecture-malgache.html
-(page de travail, non publiée : la racine ignore les fichiers _*.html).
+(pages de travail, hors dépôt : la racine ignore les fichiers _*).
 
 Usage : python scripts/extract_malgache.py
 """
@@ -16,7 +16,7 @@ BODY = ROOT / 'src' / 'body' / 'harcelement-scolaire'
 SITE = json.loads((ROOT / 'src' / 'site.json').read_text(encoding='utf-8'))
 BASE = SITE['site']['base_path']
 OUT = ROOT / '_relecture-malgache.html'
-TXT = ROOT / 'src' / 'research' / 'malgache-a-relire.md'
+TXT = ROOT / '_malgache-a-relire.md'  # document de travail : hors dépôt, régénérable
 
 TITLES = {}
 for sess in SITE.get('sessions', []):
@@ -189,9 +189,9 @@ for g in gl_items:
     md += [f'- **{g["terme"]}** ({", ".join(g["variantes"][:5])}) : {g["court"]}']
 TXT.write_text('\n'.join(md) + '\n', encoding='utf-8', newline='\n')
 
-IDX = ROOT / 'src' / 'research' / 'malgache-index.json'
+IDX = ROOT / '_malgache-index.json'
 IDX.write_text(json.dumps({str(it['n']): {'slug': it['slug'], 'mg': it['mg'], 'raw': it['raw']} for it in items},
                           ensure_ascii=False, indent=1), encoding='utf-8', newline='\n')
 
 print(f'{len(items)} fragments ({len(phrases)} phrases, {len(mots)} mots) + {len(gl_items)} entrées de glossaire')
-print(f'→ {OUT.name} et {TXT.relative_to(ROOT)}')
+print(f'→ {OUT.name}, {TXT.name} et {IDX.name} (documents de travail, hors dépôt)')

@@ -1,5 +1,6 @@
 """Construit data/references.json à partir de :
   - src/research/references-legacy.json (72 références de l'ancien outil) + src/research/audit-references.json (7 corrections)
+  - src/research/legacy-short-cites.json (formes courtes « auteur, année » relevées dans l'ancien outil)
   - src/research/sources.json (sources vérifiées des deux workflows de recherche)
   - data/references-overrides.json (corrections manuelles : auteurs_court, annee, url, etiquette, type, apa7)
 
@@ -19,7 +20,6 @@ from collections import OrderedDict
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 R = ROOT / 'src' / 'research'
 DATA = ROOT / 'data'
-LEGACY_HTML = ROOT / '05-septembre-2026' / 'Psychologie_de_l_enfant.html'
 VERIF_DATE = '2026-09-03'
 
 legacy = json.load(open(R / 'references-legacy.json', encoding='utf-8'))
@@ -107,15 +107,11 @@ TYPE_MAP = {'article': 'article', 'meta-analyse': 'méta-analyse', 'revue system
             'cohorte': 'cohorte', 'recommandation officielle': 'recommandation officielle', 'rapport institutionnel': 'rapport institutionnel',
             'livre': 'livre', 'chapitre': 'chapitre', 'page web': 'page web', 'enquete': 'enquête', 'these': 'thèse', 'autre': 'autre', 'rapport': 'rapport institutionnel'}
 
-# ---------------------------------------------------------------- formes courtes de l'ancien HTML
-legacy_short = {}
-if LEGACY_HTML.exists():
-    h = LEGACY_HTML.read_text(encoding='utf-8')
-    for rid, txt in re.findall(r'<a class="cite" href="#(r-[^"]+)">([^<]+)</a>', h):
-        txt = htmlmod.unescape(txt)
-        m = re.match(r'(.+?), (\d{4}[a-z]?|s\. d\.(?:-[a-z])?)$', txt)
-        if m and rid not in legacy_short:
-            legacy_short[rid] = (m.group(1), m.group(2))
+# ---------------------------------------------------------------- formes courtes des références migrées
+# Relevées une fois dans les liens de citation de l'ancien outil monofichier, puis figées ici : elles
+# portent les co-auteurs (« Gastineau & Gathier », « INSTAT & UNICEF ») qu'une analyse de la chaîne APA
+# ne retrouve pas. L'ancien fichier a été supprimé après migration ; ce JSON en tient lieu.
+legacy_short = {rid: tuple(v) for rid, v in json.load(open(R / 'legacy-short-cites.json', encoding='utf-8')).items()}
 
 entries = OrderedDict()   # ident -> entry
 key_index = {}
