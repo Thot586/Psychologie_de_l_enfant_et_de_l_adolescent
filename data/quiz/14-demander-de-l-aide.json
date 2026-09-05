@@ -17,7 +17,7 @@
     "Non : la ligne accueille l'appel d'un adulte témoin autant que celui d'un enfant, et c'est souvent l'adulte qui appelle.",
     "Oui : gratuité, disponibilité permanente, réception du signalement et orientation, c'est exactement son périmètre."
    ],
-   "x": "La Ligne Verte 147 est gratuite et joignable 24 heures sur 24 et 7 jours sur 7 depuis les trois opérateurs du pays, pour signaler qu'un enfant subit une violence <a class=\"cite\" data-ref=\"moov2026ligne147,arozaza147\"></a>. Elle reçoit le signalement, conseille et oriente : elle ne soigne pas, elle ne remplace pas la police et elle ne suit pas l'enfant. L'erreur tentante est d'annoncer plus que ce que la ligne peut tenir, ce qui décourage durablement une famille. Voir <a href=\"#dispositifs-h\">Les dispositifs malgaches</a>.",
+   "x": "La Ligne Verte 147 est gratuite et joignable 24 heures sur 24 et 7 jours sur 7 depuis les trois opérateurs du pays, pour signaler qu'un enfant subit une violence <a class=\"cite\" data-ref=\"moov2026ligne147,arozaza147\"></a>. Elle reçoit le signalement, conseille et oriente : elle ne soigne pas, elle ne remplace pas la police et elle ne suit pas l'enfant. L'erreur tentante est d'annoncer plus que ce que la ligne peut tenir, ce qui décourage durablement une famille. Voir <a href=\"#dispositifs-h\">Les dispositifs malagasy</a>.",
    "kind": "comprendre",
    "section": "dispositifs-h"
   },
@@ -81,19 +81,19 @@
   {
    "q": "Une mère vous dit que son fils a été frappé avec une règle par son enseignant. Sur quoi peut-elle s'appuyer, et que faut-il lui dire honnêtement ?",
    "o": [
-    "Sur une infraction de harcèlement scolaire prévue par le code pénal malgache, qui rend la plainte automatique.",
+    "Sur une infraction de harcèlement scolaire prévue par le code pénal malagasy, qui rend la plainte automatique.",
     "Sur rien de précis : la punition physique est licite partout à Madagascar, y compris dans la salle de classe.",
     "Sur une interdiction générale des punitions physiques, à l'école comme au domicile, posée par la loi de 2007 mais peu appliquée.",
     "Sur l'interdiction des punitions physiques à l'école, fondée sur un arrêté de 1996 rappelé en 2017, application très inégale."
    ],
    "a": 3,
    "why": [
-    "Non : il n'existe pas d'infraction spécifique de harcèlement scolaire en droit malgache, ce sont les qualifications ordinaires qui servent.",
+    "Non : il n'existe pas d'infraction spécifique de harcèlement scolaire en droit malagasy, ce sont les qualifications ordinaires qui servent.",
     "Non : à l'école la punition physique est interdite par un texte précis, même si c'est un arrêté et non une loi.",
     "Non : l'interdiction ne vaut qu'à l'école, le domicile n'est pas couvert, et ce n'est pas la loi de 2007 qui la pose.",
     "Oui : un texte précis à citer, et une réserve à dire dans le même souffle pour ne jamais promettre qu'une plainte aboutira."
    ],
-   "x": "Les punitions physiques sont interdites à l'école par l'arrêté ministériel n° 5246-96 MEN, rappelé par la note n° 234/MEN/SG du 4 avril 2017, alors qu'elles restent licites au domicile <a class=\"cite\" data-ref=\"endcorporalpunishment2019mg\"></a>. La loi n° 2007-023 protège l'enfant, mais le Comité des droits de l'enfant en déplore une application insuffisante : citez ces textes comme un appui, jamais comme une garantie <a class=\"cite\" data-ref=\"loi2007023,crc2022\"></a>. Voir <a href=\"#droit-h\">Ce que dit le droit malgache</a>.",
+   "x": "Les punitions physiques sont interdites à l'école par l'arrêté ministériel n° 5246-96 MEN, rappelé par la note n° 234/MEN/SG du 4 avril 2017, alors qu'elles restent licites au domicile <a class=\"cite\" data-ref=\"endcorporalpunishment2019mg\"></a>. La loi n° 2007-023 protège l'enfant, mais le Comité des droits de l'enfant en déplore une application insuffisante : citez ces textes comme un appui, jamais comme une garantie <a class=\"cite\" data-ref=\"loi2007023,crc2022\"></a>. Voir <a href=\"#droit-h\">Ce que dit le droit malagasy</a>.",
    "kind": "appliquer",
    "section": "droit-h"
   },
@@ -131,7 +131,7 @@
     "Non : la ligne est joignable depuis les trois opérateurs ; c'est sa portée locale, pas l'accès téléphonique, qui varie.",
     "Non : la sous-déclaration reste la règle, et un nombre d'appels ne mesure pas les situations qui ne sont jamais signalées."
    ],
-   "x": "En 2025, la ligne a reçu 405 471 appels pour 680 cas de violence confirmés et référés vers des structures compétentes <a class=\"cite\" data-ref=\"moov2026ligne147,2424mg2026\"></a>. La sous-déclaration reste la règle : dans la région Atsimo-Andrefana, le Réseau de Protection de l'Enfant a recensé 375 mineurs victimes en 2019 alors que la police n'enregistrait que 31 plaintes <a class=\"cite\" data-ref=\"tribune2020vonjy\"></a>. L'erreur tentante est de lire un grand nombre d'appels comme une preuve de prise en charge. Voir <a href=\"#dispositifs-h\">Les dispositifs malgaches</a>.",
+   "x": "En 2025, la ligne a reçu 405 471 appels pour 680 cas de violence confirmés et référés vers des structures compétentes <a class=\"cite\" data-ref=\"moov2026ligne147,2424mg2026\"></a>. La sous-déclaration reste la règle : dans la région Atsimo-Andrefana, le Réseau de Protection de l'Enfant a recensé 375 mineurs victimes en 2019 alors que la police n'enregistrait que 31 plaintes <a class=\"cite\" data-ref=\"tribune2020vonjy\"></a>. L'erreur tentante est de lire un grand nombre d'appels comme une preuve de prise en charge. Voir <a href=\"#dispositifs-h\">Les dispositifs malagasy</a>.",
    "kind": "trancher",
    "section": "dispositifs-h"
   },

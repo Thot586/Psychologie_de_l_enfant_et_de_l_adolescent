@@ -60,21 +60,21 @@
    "section": "quatre-couches-h"
   },
   {
-   "q": "Vous prenez la parole devant une association de parents et vous voulez citer un seul chiffre, solide et malgache, sur le harcèlement scolaire. Lequel ?",
+   "q": "Vous prenez la parole devant une association de parents et vous voulez citer un seul chiffre, solide et malagasy, sur le harcèlement scolaire. Lequel ?",
    "o": [
-    "Environ 39 % des élèves malgaches sont harcelés, selon l'enquête scolaire de l'OMS en Afrique.",
+    "Environ 39 % des élèves malagasy sont harcelés, selon l'enquête scolaire de l'OMS en Afrique.",
     "27,2 % des élèves de 13 à 17 ans ont été harcelés à l'école dans l'année, selon l'OMS en 2025.",
     "83 % des enfants harcelés finissent par présenter un trouble psychique, selon une étude sud-africaine.",
-    "Quatre élèves malgaches sur dix subissent des violences sexuelles à l'école, d'après la presse."
+    "Quatre élèves malagasy sur dix subissent des violences sexuelles à l'école, d'après la presse."
    ],
    "a": 1,
    "why": [
     "Non : les 38,8 % viennent d'une analyse de onze pays africains dont Madagascar ne fait pas partie ; c'est un chiffre étranger présenté comme national.",
-    "Oui : c'est le chiffre malgache de référence, mesuré auprès des élèves de 13 à 17 ans sur l'année écoulée.",
-    "Non : ces 83 % décrivent un cumul très particulier — harcèlement, pauvreté et stigmatisation chez des enfants orphelins du sida — et ne sont ni un pronostic ni un chiffre malgache.",
+    "Oui : c'est le chiffre malagasy de référence, mesuré auprès des élèves de 13 à 17 ans sur l'année écoulée.",
+    "Non : ces 83 % décrivent un cumul très particulier — harcèlement, pauvreté et stigmatisation chez des enfants orphelins du sida — et ne sont ni un pronostic ni un chiffre malagasy.",
     "Non : les quatre sur dix concernent des personnes se disant victimes de corruption en milieu scolaire dans une enquête de presse, pas des élèves victimes de violences sexuelles."
    ],
-   "x": "Le chiffre malgache disponible est celui de l'enquête scolaire de l'OMS : 27,2 % des 13-17 ans harcelés à l'école dans l'année <a class=\"cite\" data-ref=\"who2025\"></a>. Les 38,8 % proviennent d'une analyse multipays africaine qui n'inclut pas Madagascar <a class=\"cite\" data-ref=\"aboagye2021a\"></a>, et les 83 % d'une étude sud-africaine de 2009 sur l'effet de cumul chez des enfants orphelins du sida <a class=\"cite\" data-ref=\"cluver2009\"></a>. Un chiffre étranger cité comme s'il était malgache impressionne sur le moment et fragilise tout le reste de votre propos. Voir <a href=\"#terrain-madagascar-h\">À Madagascar, un terrain déjà fragile</a>.",
+   "x": "Le chiffre malagasy disponible est celui de l'enquête scolaire de l'OMS : 27,2 % des 13-17 ans harcelés à l'école dans l'année <a class=\"cite\" data-ref=\"who2025\"></a>. Les 38,8 % proviennent d'une analyse multipays africaine qui n'inclut pas Madagascar <a class=\"cite\" data-ref=\"aboagye2021a\"></a>, et les 83 % d'une étude sud-africaine de 2009 sur l'effet de cumul chez des enfants orphelins du sida <a class=\"cite\" data-ref=\"cluver2009\"></a>. Un chiffre étranger cité comme s'il était malagasy impressionne sur le moment et fragilise tout le reste de votre propos. Voir <a href=\"#terrain-madagascar-h\">À Madagascar, un terrain déjà fragile</a>.",
    "kind": "appliquer",
    "section": "terrain-madagascar-h"
   },

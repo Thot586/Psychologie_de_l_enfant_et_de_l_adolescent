@@ -5553,10 +5553,10 @@
  {
   "key": "policenationale_vbg",
   "aliases": [],
-  "auteurs_court": "Police nationale malgache",
+  "auteurs_court": "Police nationale malagasy",
   "annee": "s. d.",
   "suffixe": "",
-  "apa7": "Police nationale malgache. (s. d.). Plateforme nationale de signalement : violences basées sur le genre, enfants disparus, personnes disparues. Ministère de la Sécurité publique. Consulté le 4 septembre 2026, à l'adresse.",
+  "apa7": "Police nationale malagasy. (s. d.). <i>Plateforme nationale de signalement : violences basées sur le genre, enfants disparus, personnes disparues</i>. Ministère de la Sécurité publique. Consulté le 4 septembre 2026.",
   "type": "page web officielle",
   "doi": "",
   "url": "https://www.vbg.pn.gov.mg/",
@@ -5570,7 +5570,8 @@
   "apport": "",
   "modules_cibles": [
    "14-demander-de-l-aide"
-  ]
+  ],
+  "note": "« malagasy » plutôt que « malgache », comme dans tout le site ; ce libellé d'auteur institutionnel est de notre fait, ce n'est pas un titre publié."
  },
  {
   "key": "pouwels2018",

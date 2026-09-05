@@ -22,7 +22,7 @@
    "section": "trois-criteres-h"
   },
   {
-   "q": "Vous préparez une réunion de parents et vous voulez citer un chiffre malgache sans vous tromper. Lequel de ces énoncés est exact ?",
+   "q": "Vous préparez une réunion de parents et vous voulez citer un chiffre malagasy sans vous tromper. Lequel de ces énoncés est exact ?",
    "o": [
     "27,2 % des élèves de 13 à 17 ans déclarent un harcèlement à l'école dans l'année",
     "29,4 % des élèves de 13 à 17 ans déclarent un harcèlement à l'école dans l'année",
@@ -112,7 +112,7 @@
     "Oui : réparer le mur est une conséquence logique ; frapper la main vise l'obéissance par la douleur.",
     "Non : c'est l'inverse ; nettoyer ce qu'on a sali n'est pas un châtiment, et frapper n'est pas de la fermeté."
    ],
-   "x": "La ligne de partage n'est pas la sévérité mais ce que l'adulte cherche : la discipline pose une règle connue, applique une conséquence liée à l'acte et laisse la relation intacte, tandis que le châtiment corporel vise à faire mal pour obtenir l'obéissance. À Madagascar, le châtiment corporel demeure licite au domicile et serait interdit à l'école par voie réglementaire depuis un arrêté de 1996 complété en 2017, une interdiction dont la formulation explicite reste à confirmer <a class=\"cite\" data-ref=\"endcorporalpunishment2019mg,endcp2022mdg\"></a>. La pratique, elle, est massive : environ neuf enfants malgaches sur dix subissent une discipline violente <a class=\"cite\" data-ref=\"instat2019mics\"></a>. Il ne s'agit pas de désigner des adultes fautifs, mais de dire ce que la recherche observe sur les effets et de proposer ce qui marche mieux pour le même objectif <a class=\"cite\" data-ref=\"gershoff2016\"></a>.",
+   "x": "La ligne de partage n'est pas la sévérité mais ce que l'adulte cherche : la discipline pose une règle connue, applique une conséquence liée à l'acte et laisse la relation intacte, tandis que le châtiment corporel vise à faire mal pour obtenir l'obéissance. À Madagascar, le châtiment corporel demeure licite au domicile et serait interdit à l'école par voie réglementaire depuis un arrêté de 1996 complété en 2017, une interdiction dont la formulation explicite reste à confirmer <a class=\"cite\" data-ref=\"endcorporalpunishment2019mg,endcp2022mdg\"></a>. La pratique, elle, est massive : environ neuf enfants malagasy sur dix subissent une discipline violente <a class=\"cite\" data-ref=\"instat2019mics\"></a>. Il ne s'agit pas de désigner des adultes fautifs, mais de dire ce que la recherche observe sur les effets et de proposer ce qui marche mieux pour le même objectif <a class=\"cite\" data-ref=\"gershoff2016\"></a>.",
    "kind": "trancher",
    "section": "cinq-situations-h"
   },

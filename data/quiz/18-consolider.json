@@ -22,12 +22,12 @@
    "section": "parcours-h"
   },
   {
-   "q": "Vous préparez une réunion de quartier en malgache et vous cherchez comment y dire « harcèlement ». Quelle position tenez-vous ?",
+   "q": "Vous préparez une réunion de quartier en malagasy et vous cherchez comment y dire « harcèlement ». Quelle position tenez-vous ?",
    "o": [
     "La périphrase employée à l'école couvre plus large que ce que mesurent les questionnaires.",
     "Le mot se traduit terme à terme, et les enquêtes internationales sont donc directement comparables entre elles.",
     "Mieux vaut garder le mot français, que toutes les familles présentes comprendront exactement de la même façon.",
-    "Il n'existe aucune façon de nommer en malgache les violences entre élèves à l'école."
+    "Il n'existe aucune façon de nommer en malagasy les violences entre élèves à l'école."
    ],
    "a": 0,
    "why": [
@@ -36,14 +36,14 @@
     "Non : garder le mot français fait porter tout le poids de la définition sur des personnes qui ne la partagent pas.",
     "Non : la langue dispose bien d'une façon de le dire, c'est son périmètre qui diffère, pas son existence."
    ],
-   "x": "Le mot voyage mal d'une langue à l'autre : la périphrase malgache employée pour la violence en milieu scolaire ne recouvre pas exactement ce que mesurent les questionnaires internationaux <a class=\"cite\" data-ref=\"smith2016,samara2019\"></a>. Ce n'est pas un détail de vocabulaire : c'est ce qui explique qu'on ne classe pas les pays entre eux. En réunion, nommez les trois signes plutôt que de chercher le mot juste, et vous serez compris.",
+   "x": "Le mot voyage mal d'une langue à l'autre : la périphrase malagasy employée pour la violence en milieu scolaire ne recouvre pas exactement ce que mesurent les questionnaires internationaux <a class=\"cite\" data-ref=\"smith2016,samara2019\"></a>. Ce n'est pas un détail de vocabulaire : c'est ce qui explique qu'on ne classe pas les pays entre eux. En réunion, nommez les trois signes plutôt que de chercher le mot juste, et vous serez compris.",
    "kind": "comprendre",
    "section": "parcours-h"
   },
   {
    "q": "Une journaliste vous demande, micro ouvert, le chiffre du harcèlement scolaire à Madagascar. Lequel citez-vous ?",
    "o": [
-    "58 % d'élèves harcelés, chiffre relayé depuis 2025 par la presse malgache.",
+    "58 % d'élèves harcelés, chiffre relayé depuis 2025 par la presse malagasy.",
     "46,35 % d'adolescents harcelés, prévalence groupée d'une méta-analyse africaine récente.",
     "38,8 % d'élèves harcelés, moyenne établie sur onze pays d'Afrique subsaharienne.",
     "27,2 % des élèves de 13 à 17 ans harcelés à l'école dans l'année, enquête nationale."
@@ -51,7 +51,7 @@
    "a": 3,
    "why": [
     "Non : ce chiffre vient d'une enquête associative dont la méthode n'a pas été publiée, il vous fragilise dès qu'on le conteste.",
-    "Non : cette prévalence groupée est régionale et très hétérogène, elle ne décrit pas les élèves malgaches.",
+    "Non : cette prévalence groupée est régionale et très hétérogène, elle ne décrit pas les élèves malagasy.",
     "Non : cette moyenne multi-pays donne un ordre de grandeur régional, pas une mesure prise à Madagascar.",
     "Oui : c'est la donnée nationale la plus solide, et vous pouvez en donner la source, l'âge et la période."
    ],
@@ -72,16 +72,16 @@
     "Non : appartenir à la région ne suffit pas, les écarts entre les pays de cette analyse sont eux-mêmes considérables.",
     "Non : arrondir ne corrige rien, c'est l'attribution du chiffre à Madagascar qui pose problème, pas sa décimale.",
     "Oui : le chiffre est valide pour ce qu'il mesure, à condition de dire de quels pays il vient.",
-    "Non : le chiffre est solide et utile pour dire que le phénomène n'est pas importé, il ne doit simplement pas être présenté comme malgache."
+    "Non : le chiffre est solide et utile pour dire que le phénomène n'est pas importé, il ne doit simplement pas être présenté comme malagasy."
    ],
-   "x": "L'analyse multi-pays donne 38,8 % d'élèves harcelés dans onze pays d'Afrique subsaharienne, avec de fortes différences d'un pays à l'autre, et Madagascar n'en fait pas partie <a class=\"cite\" data-ref=\"aboagye2021a\"></a>. Il sert à dire que le harcèlement n'est pas un problème importé ; pour parler des élèves malgaches, c'est la donnée nationale qu'on cite <a class=\"cite\" data-ref=\"who2025\"></a>. L'encadré de la section <a href=\"#dix-phrases-h\">les dix phrases à retenir</a> précise ce qu'il ne faut pas leur faire dire.",
+   "x": "L'analyse multi-pays donne 38,8 % d'élèves harcelés dans onze pays d'Afrique subsaharienne, avec de fortes différences d'un pays à l'autre, et Madagascar n'en fait pas partie <a class=\"cite\" data-ref=\"aboagye2021a\"></a>. Il sert à dire que le harcèlement n'est pas un problème importé ; pour parler des élèves malagasy, c'est la donnée nationale qu'on cite <a class=\"cite\" data-ref=\"who2025\"></a>. L'encadré de la section <a href=\"#dix-phrases-h\">les dix phrases à retenir</a> précise ce qu'il ne faut pas leur faire dire.",
    "kind": "appliquer",
    "section": "dix-phrases-h"
   },
   {
    "q": "Devant une assemblée de parents, vous citez le chiffre de 62,9 % d'adolescents dont les parents ne comprennent jamais ou rarement leurs soucis. Comment le commentez-vous ?",
    "o": [
-    "Il montre que beaucoup de parents malgaches se désintéressent aujourd'hui de leurs enfants.",
+    "Il montre que beaucoup de parents malagasy se désintéressent aujourd'hui de leurs enfants.",
     "Il dit qu'entre ce qu'un adolescent vit et ce qu'il arrive à en dire à la maison, il y a un écart.",
     "Il traduit surtout la tendance des adolescents à exagérer leurs difficultés à cet âge.",
     "Il justifie que les parents surveillent de plus près le téléphone de leurs enfants."
@@ -93,7 +93,7 @@
     "Non : c'est une façon de disqualifier la parole des jeunes, alors que ce sont eux qu'on a interrogés.",
     "Non : la surveillance ne comble pas un écart de parole, elle a plutôt tendance à le creuser."
    ],
-   "x": "Le chiffre vient de l'enquête nationale menée auprès de 2 440 élèves de 13 à 17 ans <a class=\"cite\" data-ref=\"who2025\"></a> et mesure ce que les adolescents disent de leurs parents, pas l'affection de ceux-ci. Il se lit à côté d'un autre constat malgache : en 2018, environ la moitié des personnels scolaires interrogés considéraient la violence physique entre élèves comme un jeu <a class=\"cite\" data-ref=\"ibcr2018\"></a>. Tant qu'aucun adulte ne prend au sérieux ce que vit l'enfant, celui-ci n'a personne à qui parler.",
+   "x": "Le chiffre vient de l'enquête nationale menée auprès de 2 440 élèves de 13 à 17 ans <a class=\"cite\" data-ref=\"who2025\"></a> et mesure ce que les adolescents disent de leurs parents, pas l'affection de ceux-ci. Il se lit à côté d'un autre constat malagasy : en 2018, environ la moitié des personnels scolaires interrogés considéraient la violence physique entre élèves comme un jeu <a class=\"cite\" data-ref=\"ibcr2018\"></a>. Tant qu'aucun adulte ne prend au sérieux ce que vit l'enfant, celui-ci n'a personne à qui parler.",
    "kind": "appliquer",
    "section": "chiffres-h"
   },
@@ -207,7 +207,7 @@
     "Non : c'est l'excès inverse, les programmes complets ont bien démontré des effets, modestes mais réels.",
     "Oui : c'est l'ordre de grandeur mesuré, et la condition posée est ce qui rend l'annonce crédible."
    ],
-   "x": "Les programmes complets réduisent d'environ 15 à 16 % le fait d'être victime et de 19 à 20 % le fait de harceler <a class=\"cite\" data-ref=\"gaffney2021a\"></a> ; ce qui compte le plus, ce sont des adultes formés, des règles travaillées et une durée suffisante <a class=\"cite\" data-ref=\"gaffney2021b\"></a>. Une intervention unique garde sa valeur comme porte d'entrée vers un partenariat avec l'école et comme occasion de repérage. Dire cela devant un directeur est la position la plus honnête, et aussi la plus solide.",
+   "x": "Les programmes complets réduisent d'environ 15 à 16 % le fait d'être victime et de 18 à 19 % le fait de harceler <a class=\"cite\" data-ref=\"gaffney2021a\"></a> ; ce qui compte le plus, ce sont des adultes formés, des règles travaillées et une durée suffisante <a class=\"cite\" data-ref=\"gaffney2021b\"></a>. Une intervention unique garde sa valeur comme porte d'entrée vers un partenariat avec l'école et comme occasion de repérage. Dire cela devant un directeur est la position la plus honnête, et aussi la plus solide.",
    "kind": "trancher",
    "section": "parcours-h"
   },
@@ -254,8 +254,8 @@
    "o": [
     "Que les programmes efficaces ailleurs produisent les mêmes effets ici, à condition d'être bien appliqués.",
     "Qu'on ne sait à peu près rien du harcèlement à Madagascar, faute de données disponibles.",
-    "Qu'aucun programme n'a été évalué à Madagascar, et qu'aucun outil de repérage n'a été validé en malgache.",
-    "Qu'une étude de suivi malgache montre ce que deviennent les enfants harcelés dix ans après."
+    "Qu'aucun programme n'a été évalué à Madagascar, et qu'aucun outil de repérage n'a été validé en malagasy.",
+    "Qu'une étude de suivi malagasy montre ce que deviennent les enfants harcelés dix ans après."
    ],
    "a": 2,
    "why": [
@@ -264,7 +264,7 @@
     "Oui : c'est la ligne de partage exacte, et l'annoncer d'emblée vaut mieux que de la découvrir en cours de projet.",
     "Non : cette étude de suivi n'existe pas à Madagascar, c'est justement l'une des lacunes identifiées."
    ],
-   "x": "On sait combien d'élèves malgaches déclarent avoir été harcelés <a class=\"cite\" data-ref=\"who2025\"></a> et quels composants de programme comptent le plus ailleurs <a class=\"cite\" data-ref=\"gaffney2021b\"></a>, mais aucun programme n'a été évalué à Madagascar <a class=\"cite\" data-ref=\"edwards2024\"></a> et aucun outil de repérage n'y a été traduit et validé <a class=\"cite\" data-ref=\"turner2024,smith2016\"></a>. Dire « on ne sait pas » n'est pas un aveu de faiblesse : c'est ce qui distingue une formation sérieuse d'une campagne de communication, comme le pose la section <a href=\"#sait-ignore-h\">ce que l'on sait, ce que l'on ignore</a>. Cela ouvre d'ailleurs la seule proposition sérieuse : adapter, appliquer et mesurer sur place.",
+   "x": "On sait combien d'élèves malagasy déclarent avoir été harcelés <a class=\"cite\" data-ref=\"who2025\"></a> et quels composants de programme comptent le plus ailleurs <a class=\"cite\" data-ref=\"gaffney2021b\"></a>, mais aucun programme n'a été évalué à Madagascar <a class=\"cite\" data-ref=\"edwards2024\"></a> et aucun outil de repérage n'y a été traduit et validé <a class=\"cite\" data-ref=\"turner2024,smith2016\"></a>. Dire « on ne sait pas » n'est pas un aveu de faiblesse : c'est ce qui distingue une formation sérieuse d'une campagne de communication, comme le pose la section <a href=\"#sait-ignore-h\">ce que l'on sait, ce que l'on ignore</a>. Cela ouvre d'ailleurs la seule proposition sérieuse : adapter, appliquer et mesurer sur place.",
    "kind": "trancher",
    "section": "sait-ignore-h"
   },

@@ -43,5 +43,10 @@
   "annee": "2016",
   "apa7": "Lewis-Fernández, R., Aggarwal, N. K., Hinton, L., Hinton, D. E., et Kirmayer, L. J. (dir.). (2016). <i>DSM-5 handbook on the Cultural Formulation Interview</i>. American Psychiatric Association Publishing. https://doi.org/10.1176/appi.books.9781615373567",
   "note": "URL de recherche Crossref remplacée par le DOI de l'ouvrage (Psychiatry Online), 5 septembre 2026"
+ },
+ "policenationale_vbg": {
+  "auteurs_court": "Police nationale malagasy",
+  "apa7": "Police nationale malagasy. (s. d.). <i>Plateforme nationale de signalement : violences basées sur le genre, enfants disparus, personnes disparues</i>. Ministère de la Sécurité publique. Consulté le 4 septembre 2026.",
+  "note": "« malagasy » plutôt que « malgache », comme dans tout le site ; ce libellé d'auteur institutionnel est de notre fait, ce n'est pas un titre publié."
  }
 }

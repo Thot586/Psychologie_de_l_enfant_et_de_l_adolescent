@@ -6,7 +6,7 @@
    "q": "Pendant une réunion de votre association, un bénévole tombe sur une phrase du site portant la pastille « Lacune » : aucun programme de prévention du harcèlement n'a été évalué à Madagascar. Que cette pastille vous autorise-t-elle à dire en public ?",
    "o": [
     "Qu'aucun programme n'a été évalué ici, et que nous mesurerons donc ce que nous faisons.",
-    "Que les programmes de prévention ne fonctionnent pas dans le contexte malgache.",
+    "Que les programmes de prévention ne fonctionnent pas dans le contexte malagasy.",
     "Que le sujet est trop incertain pour être abordé devant des parents d'élèves.",
     "Qu'en attendant, les résultats européens peuvent être présentés comme valables ici."
    ],
@@ -15,7 +15,7 @@
     "Oui : une lacune s'annonce comme une lacune, et elle ouvre naturellement sur l'engagement de mesurer votre propre action.",
     "Non : c'est confondre l'absence de preuve avec la preuve d'une absence d'effet ; rien n'a été testé ici, donc rien n'a échoué ici.",
     "Non : se taire n'est pas une lecture de la pastille ; l'incertitude se dit à voix haute, elle ne justifie pas de retirer le sujet.",
-    "Non : c'est exactement la transposition que la page interdit, un résultat étranger présenté comme s'il était malgache."
+    "Non : c'est exactement la transposition que la page interdit, un résultat étranger présenté comme s'il était malagasy."
    ],
    "x": "L'échelle à six niveaux est un outil de lecture propre à ce site, inspiré de la démarche GRADE qui sépare la qualité de la preuve de la force de la recommandation <a class=\"cite\" data-ref=\"grade2008\"></a>. L'efficacité moyenne des programmes complets est solidement établie, mais elle a été mesurée presque exclusivement en Europe et en Amérique du Nord <a class=\"cite\" data-ref=\"gaffney2021a\"></a>. Dire « nous ne savons pas ici » est donc exact, et non défaitiste. Voir <a href=\"#preuves-h\">Les six niveaux de preuve</a>.",
    "kind": "comprendre",
@@ -53,7 +53,7 @@
     "Non : c'est l'arrondi qui gonfle de présentation en présentation, du quart au tiers puis à la moitié, sans aucune source derrière.",
     "Non : ce chiffre circule sans rapport primaire, sans taille d'échantillon ni méthode publiée, et sa tranche d'âge diffère de l'enquête nationale.",
     "Oui : la période, la population et la source figurent ensemble, ce qui rend le pourcentage interprétable par qui vous écoute.",
-    "Non : présenter une moyenne régionale africaine comme un chiffre malgache est l'une des fautes de méthode les plus fréquentes."
+    "Non : présenter une moyenne régionale africaine comme un chiffre malagasy est l'une des fautes de méthode les plus fréquentes."
    ],
    "x": "L'enquête scolaire nationale de 2025, menée selon le protocole standardisé de l'OMS auprès de 2 440 élèves de 38 établissements, trouve 27,2 % d'élèves harcelés à l'école dans l'année <a class=\"cite\" data-ref=\"who2025\"></a>. Le chiffre de 58 % relayé par la presse ne dispose d'aucun rapport primaire ni méthode retrouvable <a class=\"cite\" data-ref=\"lexpress2025\"></a>, et l'analyse multipays qui donne 38,8 % ne comprend pas Madagascar <a class=\"cite\" data-ref=\"aboagye2021a\"></a>. Sans période ni population, un pourcentage ne veut rien dire (<a href=\"#chiffres-h\">Les chiffres qui circulent</a>).",
    "kind": "appliquer",
@@ -79,7 +79,7 @@
    "section": "madagascar-h"
   },
   {
-   "q": "Avant un temps d'échange avec des élèves d'une école publique, une bénévole propose de poser la question en malgache avec l'expression herisetra an-tsekoly, celle qu'emploient la presse et les campagnes. Que faites-vous ?",
+   "q": "Avant un temps d'échange avec des élèves d'une école publique, une bénévole propose de poser la question en malagasy avec l'expression herisetra an-tsekoly, celle qu'emploient la presse et les campagnes. Que faites-vous ?",
    "o": [
     "On garde l'expression telle quelle : c'est le terme que les campagnes nationales utilisent déjà.",
     "On garde le mot français « harcèlement », que les élèves finiront de toute façon par comprendre.",
@@ -93,7 +93,7 @@
     "Oui : décrire les trois critères, ou montrer des situations, remplace un mot que la langue ne porte pas.",
     "Non : un adverbe ajouté ne restitue pas le déséquilibre de pouvoir, qui est justement le critère le plus souvent perdu en traduction."
    ],
-   "x": "Dans une comparaison portant sur quatorze pays, le terme anglais qui désigne le harcèlement n'a pas d'équivalent exact dans la plupart des langues, les mots voisins recouvrant tantôt la bagarre, tantôt la moquerie, tantôt l'exclusion <a class=\"cite\" data-ref=\"smith2002\"></a> ; une équipe a mis au point une tâche par dessins qui montre les situations au lieu de les nommer <a class=\"cite\" data-ref=\"smith2016\"></a>. L'expression malgache employée par la presse signifie « violence à l'école » <a class=\"cite\" data-ref=\"newsmada2024\"></a>. Une synthèse de trente études qualitatives menées en Afrique subsaharienne montre d'ailleurs que les enfants n'emploient presque jamais le mot « violence » et décrivent les actes par ce qu'ils ressentent <a class=\"cite\" data-ref=\"turner2024\"></a> (<a href=\"#voyage-h\">Ce qui ne voyage pas</a>).",
+   "x": "Dans une comparaison portant sur quatorze pays, le terme anglais qui désigne le harcèlement n'a pas d'équivalent exact dans la plupart des langues, les mots voisins recouvrant tantôt la bagarre, tantôt la moquerie, tantôt l'exclusion <a class=\"cite\" data-ref=\"smith2002\"></a> ; une équipe a mis au point une tâche par dessins qui montre les situations au lieu de les nommer <a class=\"cite\" data-ref=\"smith2016\"></a>. L'expression malagasy employée par la presse signifie « violence à l'école » <a class=\"cite\" data-ref=\"newsmada2024\"></a>. Une synthèse de trente études qualitatives menées en Afrique subsaharienne montre d'ailleurs que les enfants n'emploient presque jamais le mot « violence » et décrivent les actes par ce qu'ils ressentent <a class=\"cite\" data-ref=\"turner2024\"></a> (<a href=\"#voyage-h\">Ce qui ne voyage pas</a>).",
    "kind": "appliquer",
    "section": "voyage-h"
   },

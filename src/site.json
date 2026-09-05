@@ -158,7 +158,7 @@
      "step": "B",
      "title": "Nommer la violence à Madagascar",
      "short": "Nommer la violence",
-     "description": "Le mot manque, les concepts ne voyagent pas seuls : parler du harcèlement dans le contexte malgache.",
+     "description": "Le mot manque, les concepts ne voyagent pas seuls : parler du harcèlement dans le contexte malagasy.",
      "research_plans": []
     },
     {
@@ -255,7 +255,7 @@
      "step": "D",
      "title": "Quand et à qui demander de l'aide",
      "short": "Demander de l'aide",
-     "description": "Reconnaître l'urgence, connaître les dispositifs malgaches, savoir ce que dit la loi, savoir quoi faire si personne ne répond.",
+     "description": "Reconnaître l'urgence, connaître les dispositifs malagasy, savoir ce que dit la loi, savoir quoi faire si personne ne répond.",
      "research_plans": [
       "ressources"
      ]
@@ -308,13 +308,13 @@
      "slug": "methode-et-limites",
      "type": "page",
      "title": "Méthode et limites",
-     "description": "Niveaux de preuve, ce que l'on sait et ce que l'on ignore, le vide de recherche malgache, phrases à dire en public."
+     "description": "Niveaux de preuve, ce que l'on sait et ce que l'on ignore, le vide de recherche malagasy, phrases à dire en public."
     },
     {
      "slug": "ethique-et-confidentialite",
      "type": "page",
      "title": "Éthique, confidentialité et données",
-     "description": "Consentement, images, secret, conservation des notes, lois malgaches, communication sur le suicide, position de l'auteur."
+     "description": "Consentement, images, secret, conservation des notes, lois malagasy, communication sur le suicide, position de l'auteur."
     }
    ]
   }

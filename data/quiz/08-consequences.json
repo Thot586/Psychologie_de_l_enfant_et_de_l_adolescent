@@ -98,12 +98,12 @@
    "section": "causalite-h"
   },
   {
-   "q": "Vous présentez la situation malgache à de nouveaux bénévoles. Quelle affirmation pouvez-vous tenir sans dépasser ce que les données permettent ?",
+   "q": "Vous présentez la situation malagasy à de nouveaux bénévoles. Quelle affirmation pouvez-vous tenir sans dépasser ce que les données permettent ?",
    "o": [
-    "L'enquête scolaire de 2025 donne un instantané — 27,2 % des élèves de 13 à 17 ans harcelés dans l'année — mais aucune étude n'a suivi des enfants malgaches dans la durée",
+    "L'enquête scolaire de 2025 donne un instantané — 27,2 % des élèves de 13 à 17 ans harcelés dans l'année — mais aucune étude n'a suivi des enfants malagasy dans la durée",
     "Les analyses multipays menées en Afrique subsaharienne incluent Madagascar, et montrent que ses élèves s'en sortent mieux que la moyenne du continent",
-    "L'étude menée auprès d'étudiants d'Antananarivo en 2020 montre ce que le harcèlement laisse aux collégiens malgaches quelques années plus tard",
-    "Le fihavanana protège les enfants malgaches des conséquences durables, ce que confirment les estimations de mortalité disponibles pour le pays"
+    "L'étude menée auprès d'étudiants d'Antananarivo en 2020 montre ce que le harcèlement laisse aux collégiens malagasy quelques années plus tard",
+    "Le fihavanana protège les enfants malagasy des conséquences durables, ce que confirment les estimations de mortalité disponibles pour le pays"
    ],
    "a": 0,
    "why": [
@@ -112,7 +112,7 @@
     "Non : cette étude portait sur des étudiants pendant une période exceptionnelle, et elle ne dit rien des collégiens ni des conséquences du harcèlement.",
     "Non : les estimations disponibles ne soutiennent pas cette idée rassurante, et un argument culturel ne remplace pas une donnée."
    ],
-   "x": "L'enquête scolaire malgache porte sur 2 440 élèves de 38 écoles âgés de 13 à 17 ans : c'est une photographie à un instant donné, qui ne dit pas ce qui cause quoi <a class=\"cite\" data-ref=\"who2025\"></a>. Les méta-analyses africaines fournissent des ordres de grandeur régionaux, et Madagascar n'y figure pas <a class=\"cite\" data-ref=\"bezie2025,aboagye2021a\"></a>. L'étude d'Antananarivo évaluait 182 étudiants d'une cité universitaire pendant le confinement de 2020, avec des échelles de dépistage et non des diagnostics <a class=\"cite\" data-ref=\"razafilisy2021\"></a>. Dire « on ne sait pas encore à Madagascar » est plus juste, et plus utile, que de transposer un résultat étranger (voir <a href=\"#madagascar-h\">Madagascar : ce qu'on sait</a>).",
+   "x": "L'enquête scolaire malagasy porte sur 2 440 élèves de 38 écoles âgés de 13 à 17 ans : c'est une photographie à un instant donné, qui ne dit pas ce qui cause quoi <a class=\"cite\" data-ref=\"who2025\"></a>. Les méta-analyses africaines fournissent des ordres de grandeur régionaux, et Madagascar n'y figure pas <a class=\"cite\" data-ref=\"bezie2025,aboagye2021a\"></a>. L'étude d'Antananarivo évaluait 182 étudiants d'une cité universitaire pendant le confinement de 2020, avec des échelles de dépistage et non des diagnostics <a class=\"cite\" data-ref=\"razafilisy2021\"></a>. Dire « on ne sait pas encore à Madagascar » est plus juste, et plus utile, que de transposer un résultat étranger (voir <a href=\"#madagascar-h\">Madagascar : ce qu'on sait</a>).",
    "kind": "trancher",
    "section": "madagascar-h"
   },

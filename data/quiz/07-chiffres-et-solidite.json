@@ -13,7 +13,7 @@
    "a": 2,
    "why": [
     "Non : 32 % est le chiffre mondial, toutes régions confondues, et il porte sur le dernier mois seulement.",
-    "Non : cette moyenne régionale repose sur onze pays dont Madagascar ne fait pas partie ; elle donne un ordre de grandeur, pas une mesure malgache.",
+    "Non : cette moyenne régionale repose sur onze pays dont Madagascar ne fait pas partie ; elle donne un ordre de grandeur, pas une mesure malagasy.",
     "Oui : c'est la seule mesure nationale disponible, et vous l'annoncez avec l'âge et la période, ce qui la rend vérifiable.",
     "Non : la prévalence groupée africaine mélange des définitions très différentes et n'inclut pas Madagascar."
    ],
@@ -93,7 +93,7 @@
     "Non : ce doublement est inventé ; on peut penser ces enfants plus exposés, mais aucune mesure ne le quantifie à Madagascar.",
     "Non : 10,5 % est le taux de cyberharcèlement chez ces mêmes élèves scolarisés, pas un taux pour les enfants hors école."
    ],
-   "x": "L'enquête de 2025 porte sur 2 440 élèves de 38 écoles tirées au sort, de 13 à 17 ans, sur les douze derniers mois <a class=\"cite\" data-ref=\"who2025\"></a>. Trois limites en découlent : les enfants non scolarisés sont invisibles, alors qu'une large part des élèves malgaches n'achève pas le cycle primaire <a class=\"cite\" data-ref=\"instat2026\"></a> ; tout repose sur la déclaration des élèves ; les moins de 13 ans ne sont pas couverts. Les enquêtes scolaires ne touchent d'ailleurs que les élèves présents le jour de la passation, ce qui exclut les plus absentéistes <a class=\"cite\" data-ref=\"aboagye2021a,osborne2023\"></a>. Voir <a href=\"#gshs-perimetre-h\">Ce que mesure, et ne mesure pas, l'enquête de 2025</a>.",
+   "x": "L'enquête de 2025 porte sur 2 440 élèves de 38 écoles tirées au sort, de 13 à 17 ans, sur les douze derniers mois <a class=\"cite\" data-ref=\"who2025\"></a>. Trois limites en découlent : les enfants non scolarisés sont invisibles, alors qu'une large part des élèves malagasy n'achève pas le cycle primaire <a class=\"cite\" data-ref=\"instat2026\"></a> ; tout repose sur la déclaration des élèves ; les moins de 13 ans ne sont pas couverts. Les enquêtes scolaires ne touchent d'ailleurs que les élèves présents le jour de la passation, ce qui exclut les plus absentéistes <a class=\"cite\" data-ref=\"aboagye2021a,osborne2023\"></a>. Voir <a href=\"#gshs-perimetre-h\">Ce que mesure, et ne mesure pas, l'enquête de 2025</a>.",
    "kind": "appliquer",
    "section": "gshs-perimetre-h"
   },
@@ -112,7 +112,7 @@
     "Oui : cette enquête porte sur la discipline dans la famille et ne dit rien du harcèlement entre élèves.",
     "Non : c'est l'enquête du Sud de 2012 qui est ancienne et régionale ; l'enquête auprès des ménages, elle, est récente et nationale."
    ],
-   "x": "L'enquête auprès des ménages, menée dans les 23 régions auprès de 19 785 foyers, montre qu'environ 85 % des enfants subissent une forme de discipline violente à la maison <a class=\"cite\" data-ref=\"instat2026\"></a>. C'est l'enquête par grappes de 2012, limitée au Sud, qui donne 64 % de châtiments corporels dans le mois écoulé <a class=\"cite\" data-ref=\"instat2012micssud,endcorporalpunishment2019mg\"></a>. Confondre ces sources avec une mesure du harcèlement entre élèves est l'erreur la plus fréquente ; la parade tient en une habitude : donner l'année et la zone à chaque fois. Voir <a href=\"#autres-sources-h\">Les autres sources malgaches</a>.",
+   "x": "L'enquête auprès des ménages, menée dans les 23 régions auprès de 19 785 foyers, montre qu'environ 85 % des enfants subissent une forme de discipline violente à la maison <a class=\"cite\" data-ref=\"instat2026\"></a>. C'est l'enquête par grappes de 2012, limitée au Sud, qui donne 64 % de châtiments corporels dans le mois écoulé <a class=\"cite\" data-ref=\"instat2012micssud,endcorporalpunishment2019mg\"></a>. Confondre ces sources avec une mesure du harcèlement entre élèves est l'erreur la plus fréquente ; la parade tient en une habitude : donner l'année et la zone à chaque fois. Voir <a href=\"#autres-sources-h\">Les autres sources malagasy</a>.",
    "kind": "appliquer",
    "section": "autres-sources-h"
   },
@@ -131,14 +131,14 @@
     "Non : une moyenne nationale n'est pas un diagnostic d'établissement, et l'enquête n'a pas été conçue pour descendre à ce niveau.",
     "Non : la taille de l'école ne garantit rien ; la proximité peut même rendre plus difficile de dénoncer un camarade ou un adulte connu."
    ],
-   "x": "Un nombre de signalements nul renseigne sur la capacité d'un établissement à détecter et à recueillir la parole des élèves, pas sur la réalité des faits ; le même écart s'observe à l'échelle du pays entre le très grand nombre d'appels reçus par la ligne nationale de signalement et le nombre de situations effectivement identifiées et suivies <a class=\"cite\" data-ref=\"moov2026ligne147,2424mg2026\"></a>. Transposer les 27,2 % à une école précise est l'erreur symétrique : la prévalence varie fortement d'un établissement à l'autre <a class=\"cite\" data-ref=\"who2025\"></a>. La proposition utile est un questionnaire anonyme court, repassé chaque année dans les mêmes classes. Voir <a href=\"#vide-recherche-h\">Le vide de recherche malgache</a>.",
+   "x": "Un nombre de signalements nul renseigne sur la capacité d'un établissement à détecter et à recueillir la parole des élèves, pas sur la réalité des faits ; le même écart s'observe à l'échelle du pays entre le très grand nombre d'appels reçus par la ligne nationale de signalement et le nombre de situations effectivement identifiées et suivies <a class=\"cite\" data-ref=\"moov2026ligne147,2424mg2026\"></a>. Transposer les 27,2 % à une école précise est l'erreur symétrique : la prévalence varie fortement d'un établissement à l'autre <a class=\"cite\" data-ref=\"who2025\"></a>. La proposition utile est un questionnaire anonyme court, repassé chaque année dans les mêmes classes. Voir <a href=\"#vide-recherche-h\">Le vide de recherche malagasy</a>.",
    "kind": "trancher",
    "section": "vide-recherche-h"
   },
   {
    "q": "Vous rédigez une fiche pour vos bénévoles et vous écrivez : « À Madagascar, la violence éducative à la maison nourrit le harcèlement entre élèves. » Quelle pastille de niveau de preuve mettez-vous ?",
    "o": [
-    "Preuve établie, puisque les enquêtes malgaches documentent séparément la violence éducative et le harcèlement",
+    "Preuve établie, puisque les enquêtes malagasy documentent séparément la violence éducative et le harcèlement",
     "Consensus, puisque les institutions internationales recommandent partout de réduire la violence éducative",
     "Preuve faible, puisque cette phrase circule surtout dans la presse et dans les témoignages de familles",
     "Hypothèse, puisque le lien est cohérent avec les données mais n'a pas été testé à Madagascar"

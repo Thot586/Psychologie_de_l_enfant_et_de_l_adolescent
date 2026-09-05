@@ -138,19 +138,19 @@
   {
    "q": "Lors d'une réunion de parents, un intervenant annonce : « à Madagascar, 38,8 % des élèves sont harcelés. » Vous prenez la parole juste après. Que dites-vous ?",
    "o": [
-    "Que c'est exact : ce taux vient de l'enquête scolaire malgache menée auprès de 2 440 élèves de 38 établissements.",
+    "Que c'est exact : ce taux vient de l'enquête scolaire malagasy menée auprès de 2 440 élèves de 38 établissements.",
     "Que ce taux compte les élèves témoins de scènes de harcèlement dans leur école, et non ceux qui l'ont subi.",
     "Que la source importe peu ici : ce qui compte est de frapper les esprits pour que les familles réagissent enfin.",
-    "Que c'est une moyenne de onze pays africains sur un mois ; le chiffre malgache disponible est de 27,2 % sur l'année."
+    "Que c'est une moyenne de onze pays africains sur un mois ; le chiffre malagasy disponible est de 27,2 % sur l'année."
    ],
    "a": 3,
    "why": [
-    "Non : l'enquête malgache existe bien, mais elle donne 27,2 % sur l'année, pas 38,8 % ; attribuer à Madagascar un chiffre étranger décrédibilise tout le reste de votre propos.",
+    "Non : l'enquête malagasy existe bien, mais elle donne 27,2 % sur l'année, pas 38,8 % ; attribuer à Madagascar un chiffre étranger décrédibilise tout le reste de votre propos.",
     "Non : les 38,8 % désignent bien des adolescents déclarant avoir été harcelés eux-mêmes ; l'erreur porte sur les pays et sur la période, pas sur qui est compté.",
     "Non : un chiffre gonflé se retourne contre vous dès qu'un participant vérifie, et fait douter des messages de prévention qui suivent.",
     "Oui : les deux chiffres sont vrais mais ne portent ni sur les mêmes pays ni sur la même période de rappel, un mois contre un an."
    ],
-   "x": "Les 38,8 % sont une moyenne de onze pays d'Afrique subsaharienne, portant sur le mois précédent et allant de 22,2 % à Maurice à 54,6 % en Sierra Leone ; Madagascar ne figurait pas dans cette analyse <a class=\"cite\" data-ref=\"aboagye2021a\"></a>. Le chiffre malgache disponible vient de l'enquête scolaire menée auprès de 2 440 élèves de 38 établissements : 27,2 % des 13-17 ans déclarent avoir été harcelés à l'école dans l'année <a class=\"cite\" data-ref=\"who2025\"></a>. Deux périodes de rappel différentes ne se comparent pas directement, et le dire en public renforce votre crédibilité au lieu de l'affaiblir (<a href=\"#repetition-h\">Un événement unique, des adversités qui se répètent</a>).",
+   "x": "Les 38,8 % sont une moyenne de onze pays d'Afrique subsaharienne, portant sur le mois précédent et allant de 22,2 % à Maurice à 54,6 % en Sierra Leone ; Madagascar ne figurait pas dans cette analyse <a class=\"cite\" data-ref=\"aboagye2021a\"></a>. Le chiffre malagasy disponible vient de l'enquête scolaire menée auprès de 2 440 élèves de 38 établissements : 27,2 % des 13-17 ans déclarent avoir été harcelés à l'école dans l'année <a class=\"cite\" data-ref=\"who2025\"></a>. Deux périodes de rappel différentes ne se comparent pas directement, et le dire en public renforce votre crédibilité au lieu de l'affaiblir (<a href=\"#repetition-h\">Un événement unique, des adversités qui se répètent</a>).",
    "kind": "trancher",
    "section": "repetition-h"
   }

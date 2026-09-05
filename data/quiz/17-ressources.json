@@ -101,7 +101,7 @@
    "q": "Un journaliste vous demande en direct : « Combien d'élèves sont harcelés à Madagascar ? » Quelle réponse est la plus juste ?",
    "o": [
     "Que le seul repère national est l'enquête scolaire de l'OMS : 27,2 % d'élèves de 13 à 17 ans harcelés à l'école dans l'année.",
-    "Que 38,8 % des élèves malgaches sont harcelés, comme le montre l'analyse portant sur onze pays d'Afrique subsaharienne.",
+    "Que 38,8 % des élèves malagasy sont harcelés, comme le montre l'analyse portant sur onze pays d'Afrique subsaharienne.",
     "Que près d'un élève sur deux est concerné, puisque la méta-analyse africaine donne une prévalence groupée de 46,35 %.",
     "Que la presse parle de 700 000 élèves concernés et de 58 % de victimes, et que ces chiffres font autorité localement."
    ],
@@ -112,7 +112,7 @@
     "Non : cette prévalence groupée vient d'une méta-analyse africaine dont Madagascar est absent, avec un intervalle large lié aux définitions.",
     "Non : ces chiffres de presse n'ont pas pu être remontés jusqu'à une étude publiée ; les répéter fragilise tout le reste de votre propos."
    ],
-   "x": "Madagascar ne figure ni dans l'analyse multi-pays d'Afrique subsaharienne <a class=\"cite\" data-ref=\"aboagye2021a\"></a>, ni dans la méta-analyse africaine la plus récente <a class=\"cite\" data-ref=\"rtbey2025\"></a> : reprendre ces pourcentages comme malgaches est une erreur d'attribution fréquente. La fiche de résultats de l'enquête scolaire de l'OMS porte sur 2 440 élèves de 13 à 17 ans dans 38 écoles et donne 27,2 % d'élèves harcelés à l'école dans l'année et 10,5 % de cyberharcelés <a class=\"cite\" data-ref=\"who2025\"></a>. Les chiffres qui circulent dans la presse malgache n'ont pas de source primaire identifiée <a class=\"cite\" data-ref=\"newsmada2024\"></a> : dire ce qu'on ne sait pas est plus solide que citer un chiffre invérifiable.",
+   "x": "Madagascar ne figure ni dans l'analyse multi-pays d'Afrique subsaharienne <a class=\"cite\" data-ref=\"aboagye2021a\"></a>, ni dans la méta-analyse africaine la plus récente <a class=\"cite\" data-ref=\"rtbey2025\"></a> : reprendre ces pourcentages comme malagasy est une erreur d'attribution fréquente. La fiche de résultats de l'enquête scolaire de l'OMS porte sur 2 440 élèves de 13 à 17 ans dans 38 écoles et donne 27,2 % d'élèves harcelés à l'école dans l'année et 10,5 % de cyberharcelés <a class=\"cite\" data-ref=\"who2025\"></a>. Les chiffres qui circulent dans la presse malagasy n'ont pas de source primaire identifiée <a class=\"cite\" data-ref=\"newsmada2024\"></a> : dire ce qu'on ne sait pas est plus solide que citer un chiffre invérifiable.",
    "kind": "appliquer",
    "section": "chiffres-h"
   },
@@ -131,7 +131,7 @@
     "Non : une page Facebook n'est pas une source datée et vérifiée, et vous n'avez pas appelé ce numéro vous-même.",
     "Oui : les documents du 3018 servent de modèle de procédure, et « à confirmer » reste écrit en clair tant que le contact local n'est pas vérifié."
    ],
-   "x": "Le 3018 est un numéro gratuit et confidentiel contre le cyberharcèlement, sept jours sur sept de neuf à vingt-trois heures, mais depuis la France <a class=\"cite\" data-ref=\"eenfance3018\"></a> : ses fiches et ses vidéos voyagent, sa ligne non. Pour les contacts malgaches, la règle tient en une phrase : un numéro ne s'affiche qu'avec une source datée et la mention « vérifié le… », sinon on écrit « à confirmer », en clair, à côté. C'est une information honnête, alors qu'un faux numéro ne l'est pas (voir <a href=\"#organisations-h\">Organisations à Madagascar</a>).",
+   "x": "Le 3018 est un numéro gratuit et confidentiel contre le cyberharcèlement, sept jours sur sept de neuf à vingt-trois heures, mais depuis la France <a class=\"cite\" data-ref=\"eenfance3018\"></a> : ses fiches et ses vidéos voyagent, sa ligne non. Pour les contacts malagasy, la règle tient en une phrase : un numéro ne s'affiche qu'avec une source datée et la date du relevé, sinon on écrit « à confirmer », en clair, à côté. C'est une information honnête, alors qu'un faux numéro ne l'est pas (voir <a href=\"#organisations-h\">Organisations à Madagascar</a>).",
    "kind": "trancher",
    "section": "organisations-h"
   },
@@ -141,7 +141,7 @@
     "Vous acceptez si les réponses sont anonymes : sans nom sur la feuille, aucun élève ne peut être étiqueté ensuite.",
     "Vous refusez l'usage collectif : ces questionnaires repèrent, ils ne diagnostiquent pas, et ne servent jamais à trier des élèves.",
     "Vous acceptez à condition que le chef d'établissement donne son accord écrit et reçoive ensuite la liste des scores.",
-    "Vous refusez pour l'instant, le temps de faire traduire les items en malgache, puis vous ferez passer le questionnaire à la classe."
+    "Vous refusez pour l'instant, le temps de faire traduire les items en malagasy, puis vous ferez passer le questionnaire à la classe."
    ],
    "a": 1,
    "why": [
@@ -150,7 +150,7 @@
     "Non : transmettre des scores à l'établissement sans l'accord de l'enfant et de sa famille revient à annoncer un résultat comme un diagnostic.",
     "Non : la traduction ne règle rien ici, puisque le passage resterait collectif ; et traduire au pied levé donne un questionnaire dont personne ne connaît la valeur."
    ],
-   "x": "Le questionnaire des points forts et des difficultés et le SCARED sont des outils de repérage, pas de diagnostic : ils se passent dans un cadre individuel, par un professionnel de santé ou du soin psychique, avec une explication à l'enfant et à sa famille <a class=\"cite\" data-ref=\"goodman1997,birmaher1997\"></a>. Un passage collectif transforme un outil d'aide en instrument de tri, et aucune validation malgache de ces échelles n'a été identifiée. Ce qui reste pleinement utile à un bénévole, c'est de croiser les regards — ce que dit l'enfant, ce que voient les parents, ce que voit l'école — puis d'orienter (voir <a href=\"#outils-h\">Outils de repérage</a>).",
+   "x": "Le questionnaire des points forts et des difficultés et le SCARED sont des outils de repérage, pas de diagnostic : ils se passent dans un cadre individuel, par un professionnel de santé ou du soin psychique, avec une explication à l'enfant et à sa famille <a class=\"cite\" data-ref=\"goodman1997,birmaher1997\"></a>. Un passage collectif transforme un outil d'aide en instrument de tri, et aucune validation malagasy de ces échelles n'a été identifiée. Ce qui reste pleinement utile à un bénévole, c'est de croiser les regards — ce que dit l'enfant, ce que voient les parents, ce que voit l'école — puis d'orienter (voir <a href=\"#outils-h\">Outils de repérage</a>).",
    "kind": "trancher",
    "section": "outils-h"
   }

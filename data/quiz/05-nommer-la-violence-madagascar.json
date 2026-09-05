@@ -8,16 +8,16 @@
     "Vérifier d'abord s'il existe des marques visibles ou un certificat médical",
     "Lui apprendre le mot « harcèlement » pour qu'elle emploie enfin le bon terme",
     "Demander si cela revient souvent et si son fils peut se défendre à armes égales",
-    "Conclure au harcèlement, puisque l'expression malgache le désigne déjà"
+    "Conclure au harcèlement, puisque l'expression malagasy le désigne déjà"
    ],
    "a": 2,
    "why": [
     "Non : attendre une trace physique fait disparaître la mise à l'écart et les moqueries, qui n'en laissent aucune.",
     "Non : imposer un mot technique interrompt la description précise que cette mère est justement en train de vous donner.",
-    "Oui : ce sont exactement les deux questions que l'expression malgache ne pose pas, la répétition et le déséquilibre de pouvoir.",
+    "Oui : ce sont exactement les deux questions que l'expression malagasy ne pose pas, la répétition et le déséquilibre de pouvoir.",
     "Non : l'expression signifie « violence à l'école » et couvre aussi bien une bagarre unique que la violence d'un adulte sur un élève."
    ],
-   "x": "L'expression est déjà employée par la presse malgache et son étendue est précieuse, mais elle ne contient ni l'idée de répétition ni celle de déséquilibre de pouvoir <a class=\"cite\" data-ref=\"newsmada2024\"></a>. Or ce sont ces deux idées qui séparent une bagarre d'un harcèlement <a class=\"cite\" data-ref=\"olweus1993,gaffney2021a\"></a>. Chaque fois que vous employez l'expression, ajoutez donc les deux questions manquantes (voir <a href=\"#herisetra-h\">ce que la périphrase perd</a>).",
+   "x": "L'expression est déjà employée par la presse malagasy et son étendue est précieuse, mais elle ne contient ni l'idée de répétition ni celle de déséquilibre de pouvoir <a class=\"cite\" data-ref=\"newsmada2024\"></a>. Or ce sont ces deux idées qui séparent une bagarre d'un harcèlement <a class=\"cite\" data-ref=\"olweus1993,gaffney2021a\"></a>. Chaque fois que vous employez l'expression, ajoutez donc les deux questions manquantes (voir <a href=\"#herisetra-h\">ce que la périphrase perd</a>).",
    "kind": "comprendre",
    "section": "herisetra-h"
   },
@@ -26,8 +26,8 @@
    "o": [
     "Depuis 2025, une enquête scolaire nationale trouve 27,2 % d'élèves de 13-17 ans harcelés dans l'année",
     "C'est exact : faute d'enquête ici, nous raisonnons par analogie avec les pays voisins",
-    "Une enquête nationale montre que 89,1 % des élèves malgaches sont harcelés à l'école chaque année",
-    "Le chiffre malgache est connu, environ 10 %, comme dans la plupart des enquêtes européennes"
+    "Une enquête nationale montre que 89,1 % des élèves malagasy sont harcelés à l'école chaque année",
+    "Le chiffre malagasy est connu, environ 10 %, comme dans la plupart des enquêtes européennes"
    ],
    "a": 0,
    "why": [
@@ -44,14 +44,14 @@
    "q": "Une bénévole prépare une affiche pour une réunion publique : « Madagascar 27,2 %, Finlande 5 % ». Que lui conseillez-vous ?",
    "o": [
     "Garder la comparaison, puisque le questionnaire employé est le même dans les deux pays",
-    "Afficher le chiffre malgache seul, comme repère à comparer aux prochaines enquêtes malgaches",
-    "Retirer le chiffre malgache : tant qu'il n'est pas comparable, il ne veut rien dire",
-    "Garder les deux taux, en précisant que le chiffre malgache est certainement sous-estimé"
+    "Afficher le chiffre malagasy seul, comme repère à comparer aux prochaines enquêtes malagasy",
+    "Retirer le chiffre malagasy : tant qu'il n'est pas comparable, il ne veut rien dire",
+    "Garder les deux taux, en précisant que le chiffre malagasy est certainement sous-estimé"
    ],
    "a": 1,
    "why": [
     "Non : un questionnaire identique ne garantit pas que les élèves de deux pays comprennent les mêmes mots de la même façon.",
-    "Oui : le chiffre malgache est solide pour se suivre lui-même dans le temps, et c'est son usage juste.",
+    "Oui : le chiffre malagasy est solide pour se suivre lui-même dans le temps, et c'est son usage juste.",
     "Non : un chiffre non comparable reste une mesure valable ici ; le retirer prive votre association de son seul repère national.",
     "Non : ajouter « sous-estimé » sans donnée est une supposition, et cela maintient la comparaison qui pose problème."
    ],
@@ -69,12 +69,12 @@
    ],
    "a": 3,
    "why": [
-    "Non : une étiquette se refuse en un mot, et beaucoup d'adultes d'école voient encore ces gestes comme un jeu.",
+    "Non : une étiquette se refuse en un mot, et ces gestes passent encore souvent pour un jeu entre élèves.",
     "Non : c'est un autre sujet, et cela transforme d'emblée l'entretien en mise en accusation de l'équipe.",
     "Non : la menace ferme la porte dès la première rencontre, alors que vous aurez besoin de cette école ensuite.",
     "Oui : des faits datés et répétés se discutent, et ils rendent visible la répétition que le mot masque."
    ],
-   "x": "Dans l'étude nationale sur les violences envers les enfants à Madagascar, 49 % du personnel scolaire perçoit la violence physique entre élèves comme un jeu <a class=\"cite\" data-ref=\"ibcr2018\"></a>. Devant cette perception, une étiquette ne produit qu'un refus poli, tandis qu'une description factuelle oblige à regarder la fréquence et les conséquences. C'est d'ailleurs ainsi que les enfants racontent eux-mêmes ce qu'ils vivent : par des situations, presque jamais par le mot « violence » <a class=\"cite\" data-ref=\"turner2024\"></a>.",
+   "x": "À l'école, la violence entre élèves passe souvent pour un jeu ou une manière de faire ordinaire : dans l'étude nationale sur les violences envers les enfants à Madagascar, 29 % des jeunes jugent le châtiment corporel acceptable en milieu scolaire <a class=\"cite\" data-ref=\"ibcr2018\"></a>. Devant ce regard, une étiquette ne produit qu'un refus poli, tandis qu'une description factuelle oblige à regarder la fréquence et les conséquences. C'est d'ailleurs ainsi que les enfants racontent eux-mêmes ce qu'ils vivent : par des situations, presque jamais par le mot « violence » <a class=\"cite\" data-ref=\"turner2024\"></a>.",
    "kind": "appliquer",
    "section": "frontiere-h"
   },
@@ -90,7 +90,7 @@
    "why": [
     "Oui : partir de son objectif garde la conversation ouverte et permet ensuite de proposer une alternative concrète et gratuite.",
     "Non : « ne frappez jamais » comme premier message, et devant le groupe, humilie la personne et fait perdre l'échange en trois phrases.",
-    "Non : opposer la tradition malgache et la science ferme la discussion, alors que le débat sur éduquer ou maltraiter est ici ancien et local.",
+    "Non : opposer la tradition malagasy et la science ferme la discussion, alors que le débat sur éduquer ou maltraiter est ici ancien et local.",
     "Non : c'est un excès qui laisse croire qu'un parent ayant frappé a abîmé son enfant pour toujours, ce que les données ne disent pas."
    ],
    "x": "Ce que montre la recherche tient en une phrase : la punition physique n'obtient pas l'obéissance durable qu'on en attend, et elle est associée à davantage de comportements agressifs et de difficultés émotionnelles <a class=\"cite\" data-ref=\"gershoff2016,heilmann2021\"></a>. Des programmes d'accompagnement des parents évalués en Afrique australe réduisent les punitions corporelles en quelques séances animées par des membres formés de la communauté <a class=\"cite\" data-ref=\"cluver2018\"></a>. Le proverbe exprime quelque chose de vrai, l'intention de bien faire : commencer par le contredire, c'est perdre son interlocuteur.",
@@ -107,7 +107,7 @@
    ],
    "a": 1,
    "why": [
-    "Non : une famille malgache ne commence presque jamais par là, et contourner les anciens coûte la confiance dont vous aurez besoin.",
+    "Non : une famille malagasy ne commence presque jamais par là, et contourner les anciens coûte la confiance dont vous aurez besoin.",
     "Oui : c'est le chemin réellement emprunté, à condition de garder la protection de l'enfant comme critère de la solution.",
     "Non : un dina peut être capté par les puissants du lieu ; un dispositif communautaire n'est pas protecteur par nature.",
     "Non : le responsable religieux est un partenaire précieux, mais s'en remettre à lui seul laisse l'enfant sans autre recours."

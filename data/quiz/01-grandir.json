@@ -119,8 +119,8 @@
   {
    "q": "Un directeur d'école vous répond : « Vos alternatives sont jolies, mais ici, sans coups, aucun élève n'écoute. » Quel argument est à la fois exact et utilisable devant lui ?",
    "o": [
-    "La loi malgache interdit désormais le châtiment corporel partout, y compris au domicile : il n'a donc pas le choix.",
-    "L'enquête nationale malgache montre que 65 % des personnes interrogées jugent déjà le châtiment corporel inacceptable.",
+    "La loi malagasy interdit désormais le châtiment corporel partout, y compris au domicile : il n'a donc pas le choix.",
+    "L'enquête nationale malagasy montre que 65 % des personnes interrogées jugent déjà le châtiment corporel inacceptable.",
     "Un essai randomisé mené dans 42 écoles primaires d'Ouganda a fait baisser d'environ moitié la violence du personnel envers les élèves.",
     "Frapper fonctionne assez bien avant 10 ans puis devient contre-productif : c'est donc au collège qu'il faut changer."
    ],
@@ -131,7 +131,7 @@
     "Oui : c'est le meilleur argument disponible face au « chez nous, c'est impossible », parce qu'il vient d'écoles à faibles ressources comparables aux siennes.",
     "Non : aucun âge ne rend la punition physique efficace ; elle interrompt le comportement sur le moment sans enseigner quoi faire à la place."
    ],
-   "x": "Une synthèse de 75 études portant sur plus de 160 000 enfants associe la punition corporelle à plus d'agressivité et de troubles du comportement, sans bénéfice sur l'obéissance à long terme <a class=\"cite\" data-ref=\"gershoff2016\"></a>, et la revue des études prospectives montre qu'elle précède l'aggravation du comportement plutôt qu'elle ne la suit <a class=\"cite\" data-ref=\"heilmann2021\"></a>. L'essai ougandais montre surtout que ces pratiques peuvent changer là où les ressources sont faibles <a class=\"cite\" data-ref=\"devries2015\"></a>. Le levier n'est pas la culpabilisation mais les représentations : dans une enquête nationale malgache auprès de 2 523 personnes, 65 % jugent le châtiment corporel acceptable <a class=\"cite\" data-ref=\"endcp2022mdg\"></a>.",
+   "x": "Une synthèse de 75 études portant sur plus de 160 000 enfants associe la punition corporelle à plus d'agressivité et de troubles du comportement, sans bénéfice sur l'obéissance à long terme <a class=\"cite\" data-ref=\"gershoff2016\"></a>, et la revue des études prospectives montre qu'elle précède l'aggravation du comportement plutôt qu'elle ne la suit <a class=\"cite\" data-ref=\"heilmann2021\"></a>. L'essai ougandais montre surtout que ces pratiques peuvent changer là où les ressources sont faibles <a class=\"cite\" data-ref=\"devries2015\"></a>. Le levier n'est pas la culpabilisation mais les représentations : dans une enquête nationale malagasy auprès de 2 523 personnes, 65 % jugent le châtiment corporel acceptable <a class=\"cite\" data-ref=\"endcp2022mdg\"></a>.",
    "kind": "trancher",
    "section": "conduites-h"
   },
@@ -150,7 +150,7 @@
     "Non : conditionner la place de l'enfant à la venue de ses parents le punit d'une organisation familiale qu'il n'a pas choisie.",
     "Oui : cette formulation fonctionne pour tous les enfants, et les ray aman-dreny disposent d'une légitimité reconnue pour éduquer et arbitrer."
    ],
-   "x": "Environ un tiers des enfants malgaches de moins de 18 ans ne vivent pas avec leurs deux parents, et la circulation des enfants — confiage à la parenté, rôle central des grands-parents, familles recomposées — est une organisation familiale ordinaire <a class=\"cite\" data-ref=\"andriamaro2013\"></a>. L'éducation quotidienne n'y est pas l'affaire des seuls parents biologiques <a class=\"cite\" data-ref=\"ottino1998\"></a>. Concrètement, comme le rappelle <a href=\"#madagascar-h\">la section malgache</a> : ne demandez pas systématiquement « tes parents », demandez « la personne qui s'occupe de toi », et n'interprétez pas une absence comme un désintérêt.",
+   "x": "Environ un tiers des enfants malagasy de moins de 18 ans ne vivent pas avec leurs deux parents, et la circulation des enfants — confiage à la parenté, rôle central des grands-parents, familles recomposées — est une organisation familiale ordinaire <a class=\"cite\" data-ref=\"andriamaro2013\"></a>. L'éducation quotidienne n'y est pas l'affaire des seuls parents biologiques <a class=\"cite\" data-ref=\"ottino1998\"></a>. Concrètement, comme le rappelle <a href=\"#madagascar-h\">la section malagasy</a> : ne demandez pas systématiquement « tes parents », demandez « la personne qui s'occupe de toi », et n'interprétez pas une absence comme un désintérêt.",
    "kind": "trancher",
    "section": "madagascar-h"
   }

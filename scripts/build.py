@@ -209,7 +209,7 @@ def expand_figures(body, page):
         if svg is None:
             err(f'{page["out"]} : figure introuvable « {name} »')
             return f'<!-- figure manquante : {name} -->'
-        visible = FIG_LEGENDES.get(FIG_ALIASES.get(name, name), desc)
+        visible = FIG_LEGENDES.get(name) or FIG_LEGENDES.get(FIG_ALIASES.get(name, name)) or desc
         cap = f'<figcaption><b>{esc(title)}</b>{(" " + esc(visible)) if visible else ""}</figcaption>' if title else ''
         return f'<figure class="fig {classes}" id="fig-{slugify(name)}"><div class="fig-box">{svg}</div>{cap}</figure>'
     body = re.sub(r'<!--\s*figure:\s*([\w./-]+)(?:\s+([\w\s-]+))?\s*-->', marker, body)
@@ -306,8 +306,8 @@ def render_ressources(key, page):
             out.append('</ul>')
         if it.get('note'):
             out.append(f'<p class="small">{it["note"]}</p>')
-        if it.get('verified'):
-            out.append(f'<p class="small muted">Vérifié le {esc(it["verified"])}{(" · " + it["source_html"]) if it.get("source_html") else ""}</p>')
+        if it.get('source_html'):
+            out.append(f'<p class="small muted">{it["source_html"]}</p>')
         out.append('</div>')
     out.append('</div>')
     return '\n'.join(out)

@@ -131,7 +131,7 @@
     ]
    }
   ],
-  "note": "Âges moyens indicatifs, pas des normes à atteindre : chaque enfant suit la même séquence à son rythme (Piaget ; Barrouillet, 2015 ; Bowlby ; Wellman et al., 2001 ; Pouwels et al., 2018)."
+  "note": "Le langage, cinquième ligne annoncée par le texte, n'est pas figuré ici : ses repères se lisent au tableau des signes d'alerte. Âges moyens indicatifs, pas des normes à atteindre : chaque enfant suit la même séquence à son rythme (Piaget ; Barrouillet, 2015 ; Bowlby ; Wellman et al., 2001 ; Pouwels et al., 2018)."
  },
  "cerveau-deux-vitesses": {
   "type": "curves",
@@ -589,7 +589,7 @@
     ]
    }
   ],
-  "note": "L'influence circule dans les deux sens ; la résilience se fabrique surtout autour de l'enfant (Masten et Barnes, 2018 ; Ungar, 2011). Ressources malgaches : opinion d'expert, non mesurées localement."
+  "note": "L'influence circule dans les deux sens ; la résilience se fabrique surtout autour de l'enfant (Masten et Barnes, 2018 ; Ungar, 2011). Ressources malagasy : opinion d'expert, non mesurées localement."
  },
  "quand-orienter": {
   "type": "flow",
@@ -716,7 +716,7 @@
  "fratrie-refuge-venn": {
   "type": "venn2",
   "title": "Quand il n'y a plus de refuge",
-  "desc": "Deux disques qui se recouvrent : harcelé à l'école, et harcelé par un frère, une sœur ou un enfant de la maison. L'intersection : plus aucun lieu sûr, détresse émotionnelle nettement plus forte. Le harcèlement dans la fratrie augmente la probabilité d'être ensuite impliqué dans le harcèlement entre camarades (Wolke, Tippett et Dantchev, 2015 ; Dantchev et Wolke, 2019 : cohorte de 6 988 jeunes, rapports de cotes 1,74 pour les conduites antisociales et 3,05 pour le cumul maison et école). Ces résultats viennent de cohortes britanniques ; aucune donnée malgache n'existe sur la fratrie.",
+  "desc": "Deux disques qui se recouvrent : harcelé à l'école, et harcelé par un frère, une sœur ou un enfant de la maison. L'intersection : plus aucun lieu sûr, détresse émotionnelle nettement plus forte. Le harcèlement dans la fratrie augmente la probabilité d'être ensuite impliqué dans le harcèlement entre camarades (Wolke, Tippett et Dantchev, 2015 ; Dantchev et Wolke, 2019 : cohorte de 6 988 jeunes, rapports de cotes 1,74 pour les conduites antisociales et 3,05 pour le cumul maison et école). Ces résultats viennent de cohortes britanniques ; aucune donnée malagasy n'existe sur la fratrie.",
   "sets": [
    {
     "label": "Harcelé à l'école",
@@ -735,12 +735,12 @@
     "label": "détresse émotionnelle nettement plus forte"
    }
   ],
-  "note": "Le harcèlement dans la fratrie augmente la probabilité d'être impliqué ensuite entre camarades (Wolke et al., 2015 ; Dantchev et Wolke, 2019, cohorte britannique de 6 988 jeunes). Lacune : aucune donnée malgache sur la fratrie."
+  "note": "Le harcèlement dans la fratrie augmente la probabilité d'être impliqué ensuite entre camarades (Wolke et al., 2015 ; Dantchev et Wolke, 2019, cohorte britannique de 6 988 jeunes). Lacune : aucune donnée malagasy sur la fratrie."
  },
  "mots-et-criteres": {
   "type": "grid",
   "title": "Ce que chaque mot met en avant, ce qu'il laisse de côté",
-  "desc": "Comparateur : herisetra an-tsekoly (malgache) met en avant la violence à l'école, toutes violences confondues, y compris celles des adultes ; ne dit ni la répétition ni le déséquilibre de pouvoir ; ajouter les deux questions : est-ce que cela se répète, peut-il se défendre. Bullying (anglais) : relation de domination répétée, bien reconnu en Europe du Nord, sans équivalent proche dans les langues latines ; ajouter une description de la scène. Harcèlement (français) : répétition et intention ; recouvre aussi le harcèlement au travail et sexuel, peut paraître juridique et effrayant ; ajouter le contexte scolaire. Ijime (japonais) : exclusion par le groupe, sens partiellement différent. « C'est un jeu » : absence d'intention supposée ; 49 % du personnel scolaire malgache le pense (IBCR et UNICEF, 2018) ; ajouter les trois critères (Smith et al., 2002 ; Smith et al., 2016 ; Olweus, 1993).",
+  "desc": "Comparateur : herisetra an-tsekoly (malagasy) met en avant la violence à l'école, toutes violences confondues, y compris celles des adultes ; ne dit ni la répétition ni le déséquilibre de pouvoir ; ajouter les deux questions : est-ce que cela se répète, peut-il se défendre. Bullying (anglais) : relation de domination répétée, bien reconnu en Europe du Nord, sans équivalent proche dans les langues latines ; ajouter une description de la scène. Harcèlement (français) : répétition et intention ; recouvre aussi le harcèlement au travail et sexuel, peut paraître juridique et effrayant ; ajouter le contexte scolaire. Ijime (japonais) : exclusion par le groupe, sens partiellement différent. « C'est un jeu » : absence d'intention supposée ; ajouter les trois critères (Smith et al., 2002 ; Smith et al., 2016 ; Olweus, 1993).",
   "cols": [
    "Ce que le mot met en avant",
    "Ce qu'il ne dit pas",
@@ -795,7 +795,7 @@
     "label": "« c'est un jeu »",
     "cells": [
      "L'absence d'intention supposée",
-     "49 % du personnel scolaire malgache le pense (IBCR et UNICEF, 2018)",
+     "Un geste sans intention supposée passe pour un jeu",
      {
       "text": "Les trois critères, énoncés à voix haute",
       "tone": "b"
@@ -805,10 +805,10 @@
   ],
   "note": "Sources : Smith et al. (2002) ; Smith et al. (2016) ; Newsmada (2024) ; Olweus (1993) ; Gaffney et al. (2021a) ; IBCR et UNICEF (2018)."
  },
- "frise-ecole-malgache": {
+ "frise-ecole-malagasy": {
   "type": "timeline",
   "scroll": true,
-  "title": "L'école malgache et ses habitudes de discipline : deux siècles",
+  "title": "L'école malagasy et ses habitudes de discipline : deux siècles",
   "desc": "Frise à jalons : 1810-1828, écoles des missions protestantes britanniques sous Radama Ier, naissance de l'école à Madagascar ; 1899, obligation scolaire proclamée par Gallieni, école coloniale formant des auxiliaires de l'administration, hiérarchies entre enseignants selon le sexe et l'origine ; années 1940, école missionnaire prise entre christianiser, franciser, malgachiser ; années 1970, malgachisation de l'enseignement ; 1996, arrêté ministériel 5246-96 MEN interdisant le châtiment corporel à l'école, complété par une note de 2017 ; 2018, étude nationale sur les violences envers les enfants ; 2025, première enquête GSHS. Le châtiment corporel reste licite au domicile (Rakotozafindrasambo, 2022 ; Duteil, 2011 ; Rosnes, 2017 ; Koerner, 1999 ; Randriamasinony, 2007 ; End Corporal Punishment, 2019 ; IBCR et UNICEF, 2018 ; OMS, 2025).",
   "axis": {
    "start": 1800,
@@ -973,7 +973,7 @@
  "courbes-victimisation-age": {
   "type": "curves",
   "title": "Ce qui baisse et ce qui ne baisse pas quand l'âge augmente (allure générale)",
-  "desc": "Deux courbes qualitatives de 11 à 15 ans, sans échelle chiffrée : déclarer être harcelé décroît avec l'âge ; déclarer harceler les autres reste stable ou augmente légèrement, surtout chez les garçons (Craig et al., 2009, enquêtes auprès d'élèves de 11, 13 et 15 ans dans une quarantaine de pays). Les formes changent : physique dominant chez les plus jeunes, indirect (rumeurs, mise à l'écart) au milieu, en ligne et à connotation sexuelle chez les plus âgés (López-Castro et al., 2023). Allure générale observée dans les enquêtes internationales ; pas de valeurs malgaches.",
+  "desc": "Deux courbes qualitatives de 11 à 15 ans, sans échelle chiffrée : déclarer être harcelé décroît avec l'âge ; déclarer harceler les autres reste stable ou augmente légèrement, surtout chez les garçons (Craig et al., 2009, enquêtes auprès d'élèves de 11, 13 et 15 ans dans une quarantaine de pays). Les formes changent : physique dominant chez les plus jeunes, indirect (rumeurs, mise à l'écart) au milieu, en ligne et à connotation sexuelle chez les plus âgés (López-Castro et al., 2023). Allure générale observée dans les enquêtes internationales ; pas de valeurs malagasy.",
   "x": {
    "start": 11,
    "end": 15,
@@ -1038,7 +1038,7 @@
     ]
    }
   ],
-  "note": "Allure générale observée dans les enquêtes internationales (Craig et al., 2009 ; López-Castro et al., 2023) ; pas de valeurs malgaches, pas d'échelle chiffrée."
+  "note": "Allure générale observée dans les enquêtes internationales (Craig et al., 2009 ; López-Castro et al., 2023) ; pas de valeurs malagasy, pas d'échelle chiffrée."
  },
  "transition-college": {
   "type": "chain",
@@ -1573,7 +1573,7 @@
  },
  "comparateur-27-58": {
   "type": "grid",
-  "title": "Deux chiffres malgaches, deux statuts",
+  "title": "Deux chiffres malagasy, deux statuts",
   "desc": "Tableau à deux colonnes comparant, ligne par ligne, l'enquête scolaire nationale de 2025 (27,2 % d'élèves harcelés) et le chiffre de 58 % qui circule dans la presse. Qui a été interrogé : 2 440 élèves de 13 à 17 ans dans 38 écoles, taux de réponse de 87,2 % pour l'enquête, contre des élèves de 10 à 21 ans d'effectif non précisé pour le chiffre de presse. Définition : harcèlement à l'école, question standardisée, contre non précisé. Période : les 12 derniers mois, contre non précisé. Méthode : tirage au sort à deux degrés, contre méthode non publiée. Publication : fiche de résultats publiée (OMS, 2025), contre aucun rapport primaire retrouvé, seulement des articles de presse (L'Express de Madagascar, 2025 ; Newsmada, 2024). Cinq réponses manquantes sur cinq à droite.",
   "cols": [
    "Enquête nationale 2025 · 27,2 %",
@@ -1682,10 +1682,10 @@
   ],
   "note": "Tout repose sur ce que les élèves déclarent eux-mêmes. Repère de contexte : 47 % des élèves achèvent le cycle primaire (INSTAT et UNICEF, 2026). Source de l'enquête : OMS, 2025."
  },
- "jalons-sources-malgaches": {
+ "jalons-sources-malagasy": {
   "type": "timeline",
   "title": "Ce dont on dispose à Madagascar, et depuis quand",
-  "desc": "Frise de 2010 à 2028 portant cinq sources malgaches, chacune avec sa date, ce qu'elle mesure et son niveau de preuve. 2012, enquête par grappes dans les régions du Sud : 64 % des enfants de 2 à 14 ans punis physiquement dans le mois et 84 % soumis à une punition physique ou psychologique, preuve établie (INSTAT et UNICEF, 2013 ; End Corporal Punishment, 2019). 2018, étude nationale sur les violences envers les enfants, 2 523 personnes et 701 jeunes sur 12 sites : plus d'un jeune sur deux déclare au moins une violence en milieu scolaire et 49 % du personnel scolaire y voit un jeu, preuve établie (IBCR et UNICEF, 2018). 2025, enquête scolaire nationale auprès de 2 440 élèves de 38 écoles : 27,2 % harcelés et 10,5 % cyberharcelés, preuve établie (OMS, 2025). 2026, enquête nationale auprès de 19 785 ménages dans les 23 régions : environ 85 % des enfants subissent une discipline violente, preuve établie (INSTAT et UNICEF, 2026). 2025, chiffre de presse de 58 %, méthode non publiée et aucun rapport primaire retrouvé, preuve faible (L'Express de Madagascar, 2025 ; Newsmada, 2024). Une bande traverse toute la frise : aucune publication scientifique malgache sur le harcèlement entre élèves n'a pu être identifiée.",
+  "desc": "Frise de 2010 à 2028 portant cinq sources malagasy, chacune avec sa date, ce qu'elle mesure et son niveau de preuve. 2012, enquête par grappes dans les régions du Sud : 64 % des enfants de 2 à 14 ans punis physiquement dans le mois et 84 % soumis à une punition physique ou psychologique, preuve établie (INSTAT et UNICEF, 2013 ; End Corporal Punishment, 2019). 2018, étude nationale sur les violences envers les enfants, 2 523 personnes et 701 jeunes sur 12 sites : plus d'un jeune sur deux déclare au moins une violence en milieu scolaire, preuve établie (IBCR et UNICEF, 2018). 2025, enquête scolaire nationale auprès de 2 440 élèves de 38 écoles : 27,2 % harcelés et 10,5 % cyberharcelés, preuve établie (OMS, 2025). 2026, enquête nationale auprès de 19 785 ménages dans les 23 régions : environ 85 % des enfants subissent une discipline violente, preuve établie (INSTAT et UNICEF, 2026). 2025, chiffre de presse de 58 %, méthode non publiée et aucun rapport primaire retrouvé, preuve faible (L'Express de Madagascar, 2025 ; Newsmada, 2024). Une bande traverse toute la frise : aucune publication scientifique malagasy sur le harcèlement entre élèves n'a pu être identifiée.",
   "axis": {
    "start": 2010,
    "end": 2028,
@@ -1700,7 +1700,7 @@
    {
     "from": 2010,
     "to": 2028,
-    "label": "aucune publication scientifique malgache sur le harcèlement entre élèves",
+    "label": "aucune publication scientifique malagasy sur le harcèlement entre élèves",
     "tone": ""
    }
   ],
@@ -1948,7 +1948,7 @@
  "albinisme-trois-reponses": {
   "type": "grid",
   "title": "Albinisme : trois problèmes, trois réponses",
-  "desc": "Tableau à trois lignes et deux colonnes : ce que vit l'enfant, ce que fait l'adulte. Apparence : moqueries sur la peau et les cheveux, surnoms ; l'adulte interdit les surnoms, nomme le fait et n'en fait pas un sujet public. Croyances : croyances magiques sur le corps, pouvant aller jusqu'au danger physique ; l'adulte parle avec les adultes de la communauté, ne ridiculise pas la croyance et sécurise les trajets. Basse vision : l'enfant ne lit pas le tableau de loin ; l'adulte le place devant, agrandit les documents et le protège du soleil. Ces trois problèmes sont distincts et n'appellent pas la même réponse : le troisième se règle en changeant l'enfant de place, les deux autres non (Tambala-Kaliati et Adomako, 2021 ; Cimpric, 2010). Ces élèves figurent souvent parmi les meilleurs de leur classe quand la stigmatisation ne les pousse pas au décrochage (Ayangma Bonoho, 2025) ; harcèlement et exclusion sont aussi rapportés en école inclusive (Stein et al., 2025). Les données viennent du Malawi, de Tanzanie, du Cameroun et du Congo ; la situation malgache n'a pas été étudiée (Comité des droits de l'enfant, 2022).",
+  "desc": "Tableau à trois lignes et deux colonnes : ce que vit l'enfant, ce que fait l'adulte. Apparence : moqueries sur la peau et les cheveux, surnoms ; l'adulte interdit les surnoms, nomme le fait et n'en fait pas un sujet public. Croyances : croyances magiques sur le corps, pouvant aller jusqu'au danger physique ; l'adulte parle avec les adultes de la communauté, ne ridiculise pas la croyance et sécurise les trajets. Basse vision : l'enfant ne lit pas le tableau de loin ; l'adulte le place devant, agrandit les documents et le protège du soleil. Ces trois problèmes sont distincts et n'appellent pas la même réponse : le troisième se règle en changeant l'enfant de place, les deux autres non (Tambala-Kaliati et Adomako, 2021 ; Cimpric, 2010). Ces élèves figurent souvent parmi les meilleurs de leur classe quand la stigmatisation ne les pousse pas au décrochage (Ayangma Bonoho, 2025) ; harcèlement et exclusion sont aussi rapportés en école inclusive (Stein et al., 2025). Les données viennent du Malawi, de Tanzanie, du Cameroun et du Congo ; la situation malagasy n'a pas été étudiée (Comité des droits de l'enfant, 2022).",
   "cols": [
    "Ce que vit l'enfant",
    "Ce que fait l'adulte"
@@ -1994,7 +1994,7 @@
     ]
    }
   ],
-  "note": "Données du Malawi, de Tanzanie, du Cameroun et du Congo ; la situation malgache n'a pas été étudiée (Comité des droits de l'enfant, 2022)."
+  "note": "Données du Malawi, de Tanzanie, du Cameroun et du Congo ; la situation malagasy n'a pas été étudiée (Comité des droits de l'enfant, 2022)."
  },
  "angles-morts-reperage": {
   "type": "iceberg",
@@ -2022,7 +2022,7 @@
   "type": "columns",
   "arrows": false,
   "title": "Filles et garçons : même fréquence, formes différentes",
-  "desc": "Trois colonnes. À gauche, les garçons : 26,3 % harcelés à l'école dans l'année, davantage de violences physiques, et l'injonction à se défendre seul, qui freine le signalement. Au centre, ce qui est commun : 27,2 % des élèves harcelés dans l'année, garçons et filles ensemble, donc une fréquence quasi identique, et un signalement rare des deux côtés pour des raisons différentes. À droite, les filles : 28,1 % harcelées à l'école dans l'année, des pressions à caractère sexuel très majoritairement subies par elles, et un retrait des rôles de responsabilité par crainte des représailles. Chiffres malgaches : OMS, 2025. Repères venus d'ailleurs : au Sénégal, 9,6 % de 2 707 collégiens et lycéens déclarent avoir été importunés pour des motifs sexuels, dont 62 % de filles (Coulibaly, 2013) ; en Afrique australe et orientale, deux directeurs d'école primaire sur cinq reconnaissent du harcèlement sexuel entre élèves (UNESCO, 2016 ; Sikhakhane et Muthukrishna, 2018) ; dans douze écoles primaires de six régions malgaches, filles et garçons ne reçoivent pas le même traitement (Gastineau, 2011) ; formes différenciées décrites au Cameroun (Ébonguè, 2025). Les données sénégalaises, camerounaises et régionales ne décrivent pas Madagascar.",
+  "desc": "Trois colonnes. À gauche, les garçons : 26,3 % harcelés à l'école dans l'année, davantage de violences physiques, et l'injonction à se défendre seul, qui freine le signalement. Au centre, ce qui est commun : 27,2 % des élèves harcelés dans l'année, garçons et filles ensemble, donc une fréquence quasi identique, et un signalement rare des deux côtés pour des raisons différentes. À droite, les filles : 28,1 % harcelées à l'école dans l'année, des pressions à caractère sexuel très majoritairement subies par elles, et un retrait des rôles de responsabilité par crainte des représailles. Chiffres malagasy : OMS, 2025. Repères venus d'ailleurs : au Sénégal, 9,6 % de 2 707 collégiens et lycéens déclarent avoir été importunés pour des motifs sexuels, dont 62 % de filles (Coulibaly, 2013) ; en Afrique australe et orientale, deux directeurs d'école primaire sur cinq reconnaissent du harcèlement sexuel entre élèves (UNESCO, 2016 ; Sikhakhane et Muthukrishna, 2018) ; dans douze écoles primaires de six régions malagasy, filles et garçons ne reçoivent pas le même traitement (Gastineau, 2011) ; formes différenciées décrites au Cameroun (Ébonguè, 2025). Les données sénégalaises, camerounaises et régionales ne décrivent pas Madagascar.",
   "columns": [
    {
     "title": "Garçons",
@@ -2135,7 +2135,7 @@
  "recouvrement-cyber-face-a-face": {
   "type": "venn2",
   "title": "Harcèlement en face à face et cyberharcèlement",
-  "desc": "Deux disques qui se recouvrent largement. À gauche, le harcèlement en face à face, nettement plus fréquent ; à droite, le cyberharcèlement, plus rare. La large intersection signifie que la majorité des enfants cyberharcelés sont aussi harcelés à l'école (Modecki et al., 2014). Trois aggravants sont propres au numérique : l'anonymat possible, la persistance des contenus et une audience potentiellement illimitée (Kowalski et al., 2014). Repères malgaches, élèves de 13 à 17 ans : 27,2 % harcelés à l'école dans l'année et 10,5 % cyberharcelés (OMS, 2025). Les tailles des disques sont schématiques et ne représentent pas une mesure exacte. Traiter l'écran sans traiter la cour et la classe est inefficace.",
+  "desc": "Deux disques qui se recouvrent largement. À gauche, le harcèlement en face à face, nettement plus fréquent ; à droite, le cyberharcèlement, plus rare. La large intersection signifie que la majorité des enfants cyberharcelés sont aussi harcelés à l'école (Modecki et al., 2014). Trois aggravants sont propres au numérique : l'anonymat possible, la persistance des contenus et une audience potentiellement illimitée (Kowalski et al., 2014). Repères malagasy, élèves de 13 à 17 ans : 27,2 % harcelés à l'école dans l'année et 10,5 % cyberharcelés (OMS, 2025). Les tailles des disques sont schématiques et ne représentent pas une mesure exacte. Traiter l'écran sans traiter la cour et la classe est inefficace.",
   "sets": [
    {
     "label": "Harcèlement en face à face",
@@ -2776,7 +2776,7 @@
  "triangle-sources": {
   "type": "venn3",
   "title": "Croiser trois sources avant de conclure",
-  "desc": "Trois disques qui se recouvrent. L'enfant lui-même : il connaît les faits, minimise souvent, manque de mots. Les autres enfants : ils savent presque toujours, ne dénoncent pas volontiers, mais répondent aux questions sur les lieux et les moments. Les adultes qui le côtoient, enseignant, voisin, entraîneur, personne qui l'accueille après l'école : chacun voit un morceau. La zone centrale de recouvrement est le faisceau d'indices : c'est là que l'on peut parler de harcèlement probable. Une source seule ne suffit pas, et les auteurs en particulier se déclarent peu. La triangulation entre l'élève, ses camarades et l'enseignant est une recommandation officielle (OMS, 2019 ; NASEM, 2016). Obstacle documenté à Madagascar : 49 % du personnel scolaire perçoit la violence physique entre élèves comme un jeu (IBCR et UNICEF, 2018).",
+  "desc": "Trois disques qui se recouvrent. L'enfant lui-même : il connaît les faits, minimise souvent, manque de mots. Les autres enfants : ils savent presque toujours, ne dénoncent pas volontiers, mais répondent aux questions sur les lieux et les moments. Les adultes qui le côtoient, enseignant, voisin, entraîneur, personne qui l'accueille après l'école : chacun voit un morceau. La zone centrale de recouvrement est le faisceau d'indices : c'est là que l'on peut parler de harcèlement probable. Une source seule ne suffit pas, et les auteurs en particulier se déclarent peu. La triangulation entre l'élève, ses camarades et l'enseignant est une recommandation officielle (OMS, 2019 ; NASEM, 2016).(IBCR et UNICEF, 2018).",
   "sets": [
    {
     "label": "L'enfant lui-même",
@@ -2794,7 +2794,7 @@
    }
   ],
   "center": "Faisceau d'indices : harcèlement probable",
-  "note": "Les autres adultes qui le côtoient — enseignant, voisin, entraîneur, personne qui l'accueille après l'école — voient chacun un morceau. Une source seule ne suffit pas ; les auteurs, en particulier, se déclarent peu. À Madagascar, 49 % du personnel scolaire perçoit la violence physique entre élèves comme un jeu (IBCR et UNICEF, 2018)."
+  "note": "Les autres adultes qui le côtoient — enseignant, voisin, entraîneur, personne qui l'accueille après l'école — voient chacun un morceau. Une source seule ne suffit pas ; les auteurs, en particulier, se déclarent peu.(IBCR et UNICEF, 2018)."
  },
  "trois-enfants-trois-reponses": {
   "type": "columns",
@@ -2838,7 +2838,7 @@
  "adapter-pas-copier": {
   "type": "fork",
   "title": "Adapter un programme, plutôt que le copier",
-  "desc": "Fourche partant d'un programme évalué ailleurs — environ 19 à 20 % de faits de harcèlement en moins et 15 à 16 % de victimes en moins, sur 100 évaluations presque toutes menées en Europe et en Amérique du Nord (Gaffney et al., 2021a). Bandeau commun : on adapte la forme, la langue, les exemples, le format des séances et le calendrier, jamais le mécanisme qui produit l'effet (Moore et al., 2021). Première branche, copier tel quel : au pays de Galles, 22 écoles et 3 214 élèves de 7 à 11 ans, aucun effet significatif sur la victimation (Axford et al., 2020) ; au Chili, 39 écoles socialement vulnérables, effet pour une seule version du programme, taille d'effet -0,13 (Valenzuela et al., 2022). Deuxième branche, adapter puis mesurer : analyser le contexte, décider des adaptations, tester à petite échelle, mesurer (Moore et al., 2021) ; en Ouganda, 42 écoles primaires, violence physique du personnel dans la semaine écoulée 48,7 % dans les écoles témoins contre 31,0 % dans les écoles d'intervention à 18 mois (Devries et al., 2015) ; en Tanzanie, 12 écoles primaires, 173 enseignants et 914 élèves, baisse de la discipline physique violente avec effet de débordement sur la violence entre élèves (Masath et al., 2023) ; aboutit à une décision fondée sur une mesure locale. Troisième branche, signaux d'alerte : travail par les pairs et médiation entre élèves associés à une hausse de la victimation dans des analyses corrélationnelles (Ttofi et Farrington, 2011) ; tolérance zéro et confrontation directe déconseillées (National Academies of Sciences, 2016) ; sensibilisation par la peur ayant aggravé les conduites visées dans un champ voisin (Petrosino et al., 2013).",
+  "desc": "Fourche partant d'un programme évalué ailleurs — environ 18 à 19 % de faits de harcèlement en moins et 15 à 16 % de victimes en moins, sur 100 évaluations presque toutes menées en Europe et en Amérique du Nord (Gaffney et al., 2021a). Bandeau commun : on adapte la forme, la langue, les exemples, le format des séances et le calendrier, jamais le mécanisme qui produit l'effet (Moore et al., 2021). Première branche, copier tel quel : au pays de Galles, 22 écoles et 3 214 élèves de 7 à 11 ans, aucun effet significatif sur la victimation (Axford et al., 2020) ; au Chili, 39 écoles socialement vulnérables, effet pour une seule version du programme, taille d'effet -0,13 (Valenzuela et al., 2022). Deuxième branche, adapter puis mesurer : analyser le contexte, décider des adaptations, tester à petite échelle, mesurer (Moore et al., 2021) ; en Ouganda, 42 écoles primaires, violence physique du personnel dans la semaine écoulée 48,7 % dans les écoles témoins contre 31,0 % dans les écoles d'intervention à 18 mois (Devries et al., 2015) ; en Tanzanie, 12 écoles primaires, 173 enseignants et 914 élèves, baisse de la discipline physique violente avec effet de débordement sur la violence entre élèves (Masath et al., 2023) ; aboutit à une décision fondée sur une mesure locale. Troisième branche, signaux d'alerte : travail par les pairs et médiation entre élèves associés à une hausse de la victimation dans des analyses corrélationnelles (Ttofi et Farrington, 2011) ; tolérance zéro et confrontation directe déconseillées (National Academies of Sciences, 2016) ; sensibilisation par la peur ayant aggravé les conduites visées dans un champ voisin (Petrosino et al., 2013).",
   "common": {
    "title": "On adapte la forme, jamais le mécanisme qui produit l'effet",
    "lines": [
@@ -2888,7 +2888,7 @@
  "arbre-decision-adulte": {
   "type": "fork",
   "title": "Je m'inquiète pour un enfant : par où commencer",
-  "desc": "Arbre de décision à une entrée et trois branches. Bandeau commun, valable avant tout le reste : devant des idées suicidaires, ne pas laisser l'enfant seul, écarter les moyens de se faire du mal, l'accompagner le jour même vers un service d'urgence ou de psychiatrie. Entrée : je m'inquiète pour un enfant. Première branche, danger immédiat — coups, menaces graves, enfant seul et en danger : appeler le 147, et la police au 17 ou la gendarmerie au 119 ; saisir la brigade spécialisée si l'enfant est victime d'une infraction. Deuxième branche, suspicion de violence sexuelle : 147, puis le Centre Vonjy le plus proche, gratuit, où médecin, travailleur social et policier travaillent au même endroit. Troisième branche, souffrance sans danger immédiat : écouter en privé sans promettre le secret, écrire les faits, saisir l'école par écrit, prévenir le Réseau de Protection de l'Enfant, proposer une consultation. Schéma de conduite à tenir ; appuis : le 147 signale et oriente (Moov.mg, 2026), le Centre Vonjy est un guichet unique gratuit (Nations Unies à Madagascar, 2020), le Réseau de Protection de l'Enfant coordonne à l'échelle régionale (Madagascar Tribune, 2016), police 17 et gendarmerie 119 (Consulat général de France à Antananarivo). Les questionnaires SDQ, SCARED et ADRS sont des outils de repérage et non de diagnostic (Goodman, 1997 ; Birmaher et al., 1997).",
+  "desc": "Arbre de décision à une entrée et trois branches. Bandeau commun, valable avant tout le reste : devant des idées suicidaires, ne pas laisser l'enfant seul, écarter les moyens de se faire du mal, l'accompagner le jour même vers un service d'urgence ou de psychiatrie. Entrée : je m'inquiète pour un enfant. Première branche, danger immédiat — coups, menaces graves, enfant seul et en danger : appeler le 147, et la police au 17 ou la gendarmerie au 119 ; saisir la brigade spécialisée si l'enfant est victime d'une infraction. Deuxième branche, suspicion de violence sexuelle : 147, puis le Centre Vonjy le plus proche, gratuit, où médecin, travailleur social et policier travaillent au même endroit. Troisième branche, souffrance sans danger immédiat : écouter en privé sans promettre le secret, écrire les faits, saisir l'école par écrit, prévenir le Réseau de Protection de l'Enfant, proposer une consultation. Schéma de conduite à tenir ; appuis : le 147 signale et oriente (Moov.mg, 2026), le Centre Vonjy est un guichet unique gratuit (Nations Unies à Madagascar, 2020), le Réseau de Protection de l'Enfant coordonne à l'échelle régionale (Madagascar Tribune, 2016), police 117 et gendarmerie 119 (Consulat général de France à Antananarivo). Les questionnaires SDQ, SCARED et ADRS sont des outils de repérage et non de diagnostic (Goodman, 1997 ; Birmaher et al., 1997).",
   "common": {
    "title": "Idées suicidaires : avant tout le reste",
    "lines": [
@@ -2908,7 +2908,7 @@
     "tone": "b",
     "lines": [
      "coups, menaces graves, enfant seul et en danger",
-     "appeler le 147, et la police 17 ou la gendarmerie 119",
+     "appeler le 147, et la police 117 ou la gendarmerie 119",
      "brigade spécialisée si l'enfant est victime d'une infraction"
     ]
    },
@@ -2935,7 +2935,7 @@
  "ou-appeler-madagascar": {
   "type": "fork",
   "title": "Où appeler, où aller à Madagascar",
-  "desc": "Schéma-annuaire : d'un point de départ, un enfant a besoin d'aide, partent quatre recours. Ligne Verte 147 : gratuite, jour et nuit, depuis les réseaux des trois opérateurs ; elle signale et oriente, ce n'est pas une ligne de crise suicidaire (Moov.mg, 2026 ; Arozaza.mg). Réseau de Protection de l'Enfant de votre région : environ 765 structures recensées en 2016, sous la tutelle du ministère chargé de la population (Madagascar Tribune, 2016). Centre Vonjy le plus proche : gratuit, soins médicaux, accompagnement psychosocial et démarche judiciaire au même endroit ; six centres, Antananarivo en 2015, Toamasina en 2016, Mahajanga et Nosy Be en 2017, Toliara et Tolagnaro en 2020 (Nations Unies à Madagascar, 2020). Forces de l'ordre et soins : police 17, gendarmerie 119, sapeurs-pompiers 118 depuis un téléphone mobile (Consulat général de France à Antananarivo) ; brigades spécialisées formées à l'audition de l'enfant victime avec l'appui de l'Organisation internationale de la Francophonie et de Francopol depuis 2019 (Organisation internationale de la Francophonie, 2022 ; Nations Unies Madagascar, 2017) ; soins psychiatriques, ordre de grandeur de 11 centres dont 6 dans la capitale et 4 avec hospitalisation, environ 26 psychiatres (Centre ressource de réhabilitation psychosociale, 2022 ; Raobelle et al., 2017). Informations vérifiées le 4 septembre 2026 ; adresses et lignes directes à confirmer localement.",
+  "desc": "Schéma-annuaire : d'un point de départ, un enfant a besoin d'aide, partent quatre recours. Ligne Verte 147 : gratuite, jour et nuit, depuis les réseaux des trois opérateurs ; elle signale et oriente, ce n'est pas une ligne de crise suicidaire (Moov.mg, 2026 ; Arozaza.mg). Réseau de Protection de l'Enfant de votre région : environ 765 structures recensées en 2016, sous la tutelle du ministère chargé de la population (Madagascar Tribune, 2016). Centre Vonjy le plus proche : gratuit, soins médicaux, accompagnement psychosocial et démarche judiciaire au même endroit ; six centres, Antananarivo en 2015, Toamasina en 2016, Mahajanga et Nosy Be en 2017, Toliara et Tolagnaro en 2020 (Nations Unies à Madagascar, 2020). Forces de l'ordre et soins : police 117, gendarmerie 119, sapeurs-pompiers 118 depuis un téléphone mobile (Consulat général de France à Antananarivo) ; brigades spécialisées formées à l'audition de l'enfant victime avec l'appui de l'Organisation internationale de la Francophonie et de Francopol depuis 2019 (Organisation internationale de la Francophonie, 2022 ; Nations Unies Madagascar, 2017) ; soins psychiatriques, ordre de grandeur de 11 centres dont 6 dans la capitale et 4 avec hospitalisation, environ 26 psychiatres (Centre ressource de réhabilitation psychosociale, 2022 ; Raobelle et al., 2017). Coordonnées relevées en septembre 2026 ; adresses et lignes directes à confirmer localement.",
   "root": {
    "title": "Un enfant a besoin d'aide",
    "lines": [],
@@ -2967,7 +2967,7 @@
     ]
    },
    {
-    "title": "Police 17, gendarmerie 119, pompiers 118 depuis un mobile",
+    "title": "Police 117, gendarmerie 119, pompiers 118 depuis un mobile",
     "tone": "a",
     "lines": [
      "brigades spécialisées formées à l'audition de l'enfant victime",
@@ -2975,13 +2975,13 @@
     ]
    }
   ],
-  "note": "Informations vérifiées le 4 septembre 2026 ; adresses et lignes directes des services locaux à confirmer avant diffusion. Sources : Moov.mg (2026) ; Arozaza.mg ; Madagascar Tribune (2016) ; Nations Unies à Madagascar (2020) ; Consulat général de France à Antananarivo ; Organisation internationale de la Francophonie (2022) ; Centre ressource de réhabilitation psychosociale (2022) ; Raobelle et al. (2017). Les chiffres de l'offre psychiatrique sont un ordre de grandeur de plaidoyer, sans méthode publiée."
+  "note": "Coordonnées relevées en septembre 2026 ; adresses et lignes directes des services locaux à confirmer avant diffusion. Sources : Moov.mg (2026) ; Arozaza.mg ; Madagascar Tribune (2016) ; Nations Unies à Madagascar (2020) ; Consulat général de France à Antananarivo ; Organisation internationale de la Francophonie (2022) ; Centre ressource de réhabilitation psychosociale (2022) ; Raobelle et al. (2017). Les chiffres de l'offre psychiatrique sont un ordre de grandeur de plaidoyer, sans méthode publiée."
  },
  "ce-qui-marche": {
   "type": "columns",
   "arrows": false,
   "title": "Ce qui marche, ce qui ne marche pas ou nuit",
-  "desc": "Deux colonnes. À gauche, associé à une baisse, chaque ligne précédée d'un signe plus : formation des adultes de l'école ; travail avec les parents ; règles de classe et gestion de classe ; discipline ferme mais non punitive ; vidéos et jeux de rôle ; plus d'une vingtaine d'heures étalées sur l'année scolaire ; procédure écrite de suivi des cas. À droite, sans effet ou nuisible, chaque ligne précédée d'un signe moins : rencontre unique d'information ; témoignage choc ou récit dramatique ; regroupement des élèves dits à problèmes ; médiation entre élèves sans adulte ; apport d'information seul. Un programme complet obtient environ 19 à 20 % de faits en moins et 15 à 16 % de victimes en moins, sur une centaine d'évaluations (Gaffney et al., 2021a ; composantes : Gaffney et al., 2021b ; Ttofi et Farrington, 2011). À droite : les programmes de type Scared Straight ont un effet nul ou négatif et augmentent les comportements visés (Petrosino et al., 2013) ; regrouper des jeunes en difficulté produit une contagion déviante (Dishion et McCord, 1999) ; le travail par les pairs non encadré est associé à une hausse de la victimisation (Ttofi et Farrington, 2011). Les signes plus et moins permettent de lire la figure sans couleur.",
+  "desc": "Deux colonnes. À gauche, associé à une baisse, chaque ligne précédée d'un signe plus : formation des adultes de l'école ; travail avec les parents ; règles de classe et gestion de classe ; discipline ferme mais non punitive ; vidéos et jeux de rôle ; plus d'une vingtaine d'heures étalées sur l'année scolaire ; procédure écrite de suivi des cas. À droite, sans effet ou nuisible, chaque ligne précédée d'un signe moins : rencontre unique d'information ; témoignage choc ou récit dramatique ; regroupement des élèves dits à problèmes ; médiation entre élèves sans adulte ; apport d'information seul. Un programme complet obtient environ 18 à 19 % de faits en moins et 15 à 16 % de victimes en moins, sur une centaine d'évaluations (Gaffney et al., 2021a ; composantes : Gaffney et al., 2021b ; Ttofi et Farrington, 2011). À droite : les programmes de type Scared Straight ont un effet nul ou négatif et augmentent les comportements visés (Petrosino et al., 2013) ; regrouper des jeunes en difficulté produit une contagion déviante (Dishion et McCord, 1999) ; le travail par les pairs non encadré est associé à une hausse de la victimisation (Ttofi et Farrington, 2011). Les signes plus et moins permettent de lire la figure sans couleur.",
   "columns": [
    {
     "title": "Associé à une baisse",
@@ -3207,8 +3207,8 @@
  },
  "sept-elements-rencontre": {
   "type": "flow",
-  "title": "Les sept éléments d'une rencontre de sensibilisation",
-  "desc": "Sept blocs numérotés et reliés, sans aucune indication de durée. 1, accueil et règles du groupe. 2, poser les trois critères : intention de nuire, répétition, déséquilibre de pouvoir. 3, activité de tri adaptée à l'âge : classer des situations en harcèlement, conflit ordinaire ou punition, puis justifier avec les critères. 4, le pouvoir du témoin, en jeu de rôle : ne pas rire, ne pas partager, aller vers la cible après, prévenir un adulte nommé à l'avance. 5, les messages clés, en français et en malgache, à faire relire par un locuteur. 6, à qui parler et comment : nommer des personnes réelles dans cette école et un recours si l'école ne répond pas. 7, temps calme et disponibilité en aparté, après la rencontre, dans un lieu visible mais hors de portée d'oreille. Le protocole de dévoilement est actif du début à la fin, écrit avant la rencontre et montré à l'école. Éléments issus des composantes associées à un effet (Gaffney et al., 2021b ; Ttofi et Farrington, 2011) ; protocole de dévoilement (Organisation mondiale de la Santé, 2019 et 2016) ; les trois critères (service-public.fr, 2025 ; Salmivalli, 2010 ; UNESCO, 2019). Aucun minutage : leur agencement est une proposition raisonnée, non un dispositif évalué.",
+  "title": "Le déroulé d'une rencontre, du cadre au temps d'après",
+  "desc": "Sept blocs numérotés et reliés, qui déroulent la rencontre, sans aucune indication de durée. 1, accueil et règles du groupe. 2, poser les trois critères : intention de nuire, répétition, déséquilibre de pouvoir. 3, activité de tri adaptée à l'âge : classer des situations en harcèlement, conflit ordinaire ou punition, puis justifier avec les critères. 4, le pouvoir du témoin, en jeu de rôle : ne pas rire, ne pas partager, aller vers la cible après, prévenir un adulte nommé à l'avance. 5, les messages clés, en français et en malagasy. 6, à qui parler et comment : nommer des personnes réelles dans cette école et un recours si l'école ne répond pas. 7, temps calme et disponibilité en aparté, après la rencontre, dans un lieu visible mais hors de portée d'oreille. Le protocole de dévoilement est actif du début à la fin, écrit avant la rencontre et montré à l'école. Éléments issus des composantes associées à un effet (Gaffney et al., 2021b ; Ttofi et Farrington, 2011) ; protocole de dévoilement (Organisation mondiale de la Santé, 2019 et 2016) ; les trois critères (service-public.fr, 2025 ; Salmivalli, 2010 ; UNESCO, 2019). Aucun minutage : leur agencement est une proposition raisonnée, non un dispositif évalué.",
   "steps": [
    {
     "title": "Accueil et règles du groupe",
@@ -3239,10 +3239,10 @@
     ]
    },
    {
-    "title": "Les messages clés, en français et en malgache",
+    "title": "Les messages clés, en français et en malagasy",
     "tone": "p",
     "lines": [
-     "formulations à faire relire par un locuteur"
+     "formulations dites dans la langue du groupe"
     ]
    },
    {
@@ -3428,7 +3428,7 @@
  "pyramide-preuve": {
   "type": "grid",
   "title": "Ce qui rend une affirmation solide",
-  "desc": "Six niveaux de preuve, du plus solide au plus fragile, avec pour chacun le type d'étude correspondant et un exemple tiré de ce site. Preuve établie : méta-analyses, essais randomisés, enquêtes nationales — environ 19 à 20 % de faits de harcèlement en moins et 15 à 16 % de victimes en moins, sur 100 évaluations (Gaffney et al., 2021a). Consensus : accord large des institutions — la définition en trois critères, intention de nuire, répétition, déséquilibre de pouvoir (Olweus, 1993 ; Centers for Disease Control and Prevention, 2024 ; UNESCO, 2019). Hypothèse : plausible mais non testé ici — transférer un programme finlandais à une école malgache (Moore et al., 2021). Opinion d'expert : bonne pratique non évaluée — la conduite à tenir lors d'un dévoilement (Organisation mondiale de la Santé, 2019 ; Haute Autorité de Santé, 2017). Preuve faible : presse, ONG, méthode non vérifiable — les 58 % relayés par la presse malgache (L'Express de Madagascar, 2025). Lacune : absence de donnée — aucune publication à comité de lecture sur le harcèlement entre élèves à Madagascar. Échelle de lecture propre à ce site, inspirée de la démarche GRADE (Guyatt et al., 2008) ; ce n'est pas une gradation officielle.",
+  "desc": "Six niveaux de preuve, du plus solide au plus fragile, avec pour chacun le type d'étude correspondant et un exemple tiré de ce site. Preuve établie : méta-analyses, essais randomisés, enquêtes nationales — environ 18 à 19 % de faits de harcèlement en moins et 15 à 16 % de victimes en moins, sur 100 évaluations (Gaffney et al., 2021a). Consensus : accord large des institutions — la définition en trois critères, intention de nuire, répétition, déséquilibre de pouvoir (Olweus, 1993 ; Centers for Disease Control and Prevention, 2024 ; UNESCO, 2019). Hypothèse : plausible mais non testé ici — transférer un programme finlandais à une école malagasy (Moore et al., 2021). Opinion d'expert : bonne pratique non évaluée — la conduite à tenir lors d'un dévoilement (Organisation mondiale de la Santé, 2019 ; Haute Autorité de Santé, 2017). Preuve faible : presse, ONG, méthode non vérifiable — les 58 % relayés par la presse malagasy (L'Express de Madagascar, 2025). Lacune : absence de donnée — aucune publication à comité de lecture sur le harcèlement entre élèves à Madagascar. Échelle de lecture propre à ce site, inspirée de la démarche GRADE (Guyatt et al., 2008) ; ce n'est pas une gradation officielle.",
   "cols": [
    "Type d'étude",
    "Exemple tiré de ce site"
@@ -3468,7 +3468,7 @@
       "tone": "a"
      },
      {
-      "text": "transférer un programme finlandais à une école malgache",
+      "text": "transférer un programme finlandais à une école malagasy",
       "tone": "a"
      }
     ]
@@ -3494,7 +3494,7 @@
       "tone": "b"
      },
      {
-      "text": "les 58 % relayés par la presse malgache",
+      "text": "les 58 % relayés par la presse malagasy",
       "tone": "b"
      }
     ]
@@ -3518,7 +3518,7 @@
  "sait-ignore-madagascar": {
   "type": "grid",
   "title": "Ce que l'on sait, ce que l'on ignore à Madagascar",
-  "desc": "Quatre thèmes, deux colonnes : ce qui est établi, et la lacune correspondante, en gris. Combien : 27,2 % des élèves de 13 à 17 ans harcelés à l'école dans l'année et 10,5 % cyberharcelés (OMS, 2025) ; aucune donnée par région, par âge fin, ni hors du milieu scolaire. Conséquences : association durable avec des troubles anxieux et dépressifs, dans les données internationales (Arseneault, 2018 ; Moore et al., 2017) ; aucune étude de suivi malgache. Ce qui marche : réduction d'environ 15 à 16 % de la victimation par des programmes complets, évalués surtout en Europe et en Amérique du Nord (Gaffney et al., 2021a), et 22 programmes de prévention des violences évalués en Afrique subsaharienne (Edwards et al., 2024) ; aucun programme anti-harcèlement évalué à Madagascar. Comment les enfants le disent : les enfants d'Afrique subsaharienne n'emploient presque jamais le mot violence et qualifient les actes à partir de leurs émotions (Turner et al., 2024) ; aucun outil de repérage traduit et validé en malgache (Smith et al., 2016). Une case grise n'est pas une opinion prudente, c'est une absence de donnée : la combler par de l'intuition serait une faute.",
+  "desc": "Quatre thèmes, deux colonnes : ce qui est établi, et la lacune correspondante, en gris. Combien : 27,2 % des élèves de 13 à 17 ans harcelés à l'école dans l'année et 10,5 % cyberharcelés (OMS, 2025) ; aucune donnée par région, par âge fin, ni hors du milieu scolaire. Conséquences : association durable avec des troubles anxieux et dépressifs, dans les données internationales (Arseneault, 2018 ; Moore et al., 2017) ; aucune étude de suivi malagasy. Ce qui marche : réduction d'environ 15 à 16 % de la victimation par des programmes complets, évalués surtout en Europe et en Amérique du Nord (Gaffney et al., 2021a), et 22 programmes de prévention des violences évalués en Afrique subsaharienne (Edwards et al., 2024) ; aucun programme anti-harcèlement évalué à Madagascar. Comment les enfants le disent : les enfants d'Afrique subsaharienne n'emploient presque jamais le mot violence et qualifient les actes à partir de leurs émotions (Turner et al., 2024) ; aucun outil de repérage traduit et validé en malagasy (Smith et al., 2016). Une case grise n'est pas une opinion prudente, c'est une absence de donnée : la combler par de l'intuition serait une faute.",
   "cols": [
    "Établi",
    "Lacune"
@@ -3545,7 +3545,7 @@
       "tone": "s"
      },
      {
-      "text": "aucune étude de suivi malgache",
+      "text": "aucune étude de suivi malagasy",
       "tone": ""
      }
     ]
@@ -3571,7 +3571,7 @@
       "tone": "s"
      },
      {
-      "text": "aucun outil de repérage traduit et validé en malgache",
+      "text": "aucun outil de repérage traduit et validé en malagasy",
       "tone": ""
      }
     ]
@@ -3581,8 +3581,8 @@
  },
  "sources-madagascar": {
   "type": "grid",
-  "title": "Ce que chaque source malgache mesure, et ce qu'elle ne mesure pas",
-  "desc": "Quatre sources malgaches et le vide qui reste, décrits par qui a été interrogé, ce que la source mesure vraiment, ce qu'elle ne mesure pas et son niveau de preuve. Enquête scolaire nationale de 2025, menée par l'Organisation mondiale de la Santé : 2 440 élèves de 38 écoles, de la classe de septième à la terminale, 13 à 17 ans, taux de réponse 87,2 % ; elle mesure le harcèlement déclaré à l'école dans l'année, 27,2 %, dont 26,3 % des garçons et 28,1 % des filles, et le cyberharcèlement, 10,5 % ; elle ne mesure ni les enfants déscolarisés ni le devenir à long terme ; preuve établie (OMS, 2025). Étude nationale sur les violences envers les enfants de 2018 : 2 523 personnes pour le volet quantitatif, 701 jeunes pour le volet qualitatif, 12 sites ; elle mesure les violences subies en milieu scolaire et familial, plus de la moitié des jeunes déclarant au moins une violence en milieu scolaire et 49 % du personnel scolaire percevant la violence physique entre élèves comme un jeu ; elle ne mesure pas le harcèlement au sens des trois critères ; preuve établie (IBCR et UNICEF, 2018). Enquêtes par grappes à indicateurs multiples, cycle 2025 diffusé en 2026 et cycle 2018 : ménages, enfants de 1 à 14 ans ; elles mesurent la discipline violente exercée par les adultes ; elles ne mesurent pas les violences entre élèves ; preuve établie (INSTAT et UNICEF, 2026 et 2019). Enquête par grappes du Sud de 2012 : enfants de 2 à 14 ans des régions du Sud, dont 64 % punis physiquement dans le mois précédent et 20 % sous une forme sévère ; portée régionale et non nationale ; preuve établie (INSTAT et UNICEF, 2013 ; End Corporal Punishment, 2022). Le vide, enfin : aucune publication à comité de lecture ni thèse identifiée sur le harcèlement entre élèves à Madagascar, aucun programme évalué, aucune donnée de suivi à long terme ; lacune.",
+  "title": "Ce que chaque source malagasy mesure, et ce qu'elle ne mesure pas",
+  "desc": "Quatre sources malagasy et le vide qui reste, décrits par qui a été interrogé, ce que la source mesure vraiment, ce qu'elle ne mesure pas et son niveau de preuve. Enquête scolaire nationale de 2025, menée par l'Organisation mondiale de la Santé : 2 440 élèves de 38 écoles, de la classe de septième à la terminale, 13 à 17 ans, taux de réponse 87,2 % ; elle mesure le harcèlement déclaré à l'école dans l'année, 27,2 %, dont 26,3 % des garçons et 28,1 % des filles, et le cyberharcèlement, 10,5 % ; elle ne mesure ni les enfants déscolarisés ni le devenir à long terme ; preuve établie (OMS, 2025). Étude nationale sur les violences envers les enfants de 2018 : 2 523 personnes pour le volet quantitatif, 701 jeunes pour le volet qualitatif, 12 sites ; elle mesure les violences subies en milieu scolaire et familial, plus de la moitié des jeunes déclarant au moins une violence en milieu scolaire ; elle ne mesure pas le harcèlement au sens des trois critères ; preuve faible (IBCR et UNICEF, 2018). Enquêtes par grappes à indicateurs multiples, cycle 2025 diffusé en 2026 et cycle 2018 : ménages, enfants de 1 à 14 ans ; elles mesurent la discipline violente exercée par les adultes ; elles ne mesurent pas les violences entre élèves ; preuve établie (INSTAT et UNICEF, 2026 et 2019). Enquête par grappes du Sud de 2012 : enfants de 2 à 14 ans des régions du Sud, dont 64 % punis physiquement dans le mois précédent et 20 % sous une forme sévère ; portée régionale et non nationale ; preuve établie (INSTAT et UNICEF, 2013 ; End Corporal Punishment, 2022). Le vide, enfin : aucune publication à comité de lecture ni thèse identifiée sur le harcèlement entre élèves à Madagascar, aucun programme évalué, aucune donnée de suivi à long terme ; lacune.",
   "cols": [
    "Qui a été interrogé",
    "Ce qu'elle mesure",
@@ -3606,7 +3606,7 @@
     "label": "Étude nationale sur les violences 2018 (IBCR et UNICEF)",
     "cells": [
      "2 523 personnes, 701 jeunes, 12 sites",
-     "violences subies à l'école et en famille : plus de la moitié des jeunes en déclarent une ; 49 % du personnel y voit un jeu",
+     "violences subies à l'école et en famille : plus de la moitié des jeunes en déclarent une",
      "le harcèlement au sens des trois critères",
      {
       "text": "Preuve établie",
@@ -3660,13 +3660,13 @@
     ]
    }
   ],
-  "note": "Sources : OMS (2025) ; IBCR et UNICEF (2018) ; INSTAT et UNICEF (2026 et 2019) ; INSTAT et UNICEF (2013) et End Corporal Punishment (2022). Les chiffres du Sud décrivent des régions durement éprouvées, pas la moyenne du pays : les citer comme des chiffres malgaches serait une faute de méthode."
+  "note": "Sources : OMS (2025) ; IBCR et UNICEF (2018) ; INSTAT et UNICEF (2026 et 2019) ; INSTAT et UNICEF (2013) et End Corporal Punishment (2022). Les chiffres du Sud décrivent des régions durement éprouvées, pas la moyenne du pays : les citer comme des chiffres malagasy serait une faute de méthode."
  },
  "frise-dispositifs": {
   "type": "timeline",
   "scroll": true,
-  "title": "Trente ans de construction des dispositifs malgaches",
-  "desc": "Frise chronologique à deux pistes. Piste protection de l'enfance : 1996, arrêté ministériel n° 5246-96 MEN interdisant les punitions physiques à l'école ; 2007, loi n° 2007-023 sur les droits et la protection des enfants ; 2012, création du comité national de protection de l'enfant ; 2015, premier Centre Vonjy à Antananarivo ; 2016, Centre Vonjy de Toamasina et environ 765 structures de Réseaux de protection de l'enfance recensées ; 2017, Centres Vonjy de Mahajanga et Nosy Be, note n° 234/MEN/SG rappelant l'interdiction scolaire et inauguration du service de protection de l'enfant et des mœurs de la gendarmerie ; 2020, Centres Vonjy de Toliara et Tolagnaro, 5 067 enfants pris en charge depuis 2015 ; 2022, formation des brigades spécialisées avec l'appui de l'Organisation internationale de la Francophonie et de Francopol ; 2025, 405 471 appels reçus par la Ligne Verte 147. Piste santé mentale et société civile : 1987, arrivée d'une organisation internationale de solidarité intervenant sur le handicap et le soutien psychosocial ; 2025, première enquête scolaire nationale, 27,2 % d'élèves harcelés. Sources : End Corporal Punishment (2019) ; République de Madagascar (2007) ; Comité des droits de l'enfant (2022) ; Nations Unies à Madagascar (2020) ; Madagascar Tribune (2016) ; Nations Unies Madagascar (2017) ; Organisation internationale de la Francophonie (2022) ; Moov.mg (2026) ; Humanité et Inclusion ; OMS (2025). Photographie des sources disponibles en septembre 2026 ; certains dispositifs ont pu évoluer.",
+  "title": "Trente ans de construction des dispositifs malagasy",
+  "desc": "Frise chronologique à deux pistes. Piste protection de l'enfance : 1996, arrêté ministériel n° 5246-96 MEN interdisant les punitions physiques à l'école ; 2007, loi n° 2007-023 sur les droits et la protection des enfants ; 2012, création du comité national de protection de l'enfant ; 2015, premier Centre Vonjy à Antananarivo ; 2016, Centre Vonjy de Toamasina et environ 765 structures de Réseaux de protection de l'enfance recensées ; 2017, Centres Vonjy de Mahajanga et Nosy Be, note n° 234/MEN/SG rappelant l'interdiction scolaire et inauguration du service de protection de l'enfant et des mœurs de la gendarmerie ; 2020, Centres Vonjy de Toliara et Tolagnaro, 5 067 enfants pris en charge depuis 2015 ; 2022, aboutissement de la formation des brigades spécialisées engagée en 2019 avec l'appui de l'Organisation internationale de la Francophonie et de Francopol ; 2025, 405 471 appels reçus par la Ligne Verte 147. Piste santé mentale et société civile : 1987, arrivée d'une organisation internationale de solidarité intervenant sur le handicap et le soutien psychosocial ; 2025, première enquête scolaire nationale, 27,2 % d'élèves harcelés. Sources : End Corporal Punishment (2019) ; République de Madagascar (2007) ; Comité des droits de l'enfant (2022) ; Nations Unies à Madagascar (2020) ; Madagascar Tribune (2016) ; Nations Unies Madagascar (2017) ; Organisation internationale de la Francophonie (2022) ; Moov.mg (2026) ; Humanité et Inclusion ; OMS (2025). Photographie des sources disponibles en septembre 2026 ; certains dispositifs ont pu évoluer.",
   "axis": {
    "start": 1985,
    "end": 2027,
@@ -3715,7 +3715,7 @@
      },
      {
       "at": 2022,
-      "label": "brigades formées"
+      "label": "brigades formées depuis 2019"
      },
      {
       "at": 2025,
@@ -3744,7 +3744,7 @@
  "cercles-qui-sait-quoi": {
   "type": "rings",
   "title": "Qui peut savoir quoi, et pourquoi",
-  "desc": "Quatre cercles emboîtés, du centre vers l'extérieur. L'enfant détient tout ce qui le concerne et est informé de chaque transmission. L'adulte référent, un seul, reçoit le récit complet : faits, dates, mots exacts. Le responsable de la structure et l'école reçoivent les faits, les dates et la mesure demandée, mais pas les confidences qui ne leur sont pas nécessaires. Les services — Ligne Verte 147, Réseau de Protection de l'Enfant, santé, police ou gendarmerie — reçoivent ce qui est nécessaire au signalement et à la protection. Hors des cercles, les autres parents, les voisins, les groupes de messagerie et les réseaux sociaux ne reçoivent rien. Principes tirés de la Convention relative aux droits de l'enfant (Nations Unies, 1989) et de la loi malgache n° 2014-038 sur la protection des données à caractère personnel.",
+  "desc": "Quatre cercles emboîtés, du centre vers l'extérieur. L'enfant détient tout ce qui le concerne et est informé de chaque transmission. L'adulte référent, un seul, reçoit le récit complet : faits, dates, mots exacts. Le responsable de la structure et l'école reçoivent les faits, les dates et la mesure demandée, mais pas les confidences qui ne leur sont pas nécessaires. Les services — Ligne Verte 147, Réseau de Protection de l'Enfant, santé, police ou gendarmerie — reçoivent ce qui est nécessaire au signalement et à la protection. Hors des cercles, les autres parents, les voisins, les groupes de messagerie et les réseaux sociaux ne reçoivent rien. Principes tirés de la Convention relative aux droits de l'enfant (Nations Unies, 1989) et de la loi malagasy n° 2014-038 sur la protection des données à caractère personnel.",
   "rings": [
    {
     "title": "L'enfant",
@@ -3783,7 +3783,7 @@
  "jalons-vie-d-une-note": {
   "type": "chain",
   "title": "La vie d'une note : cinq jalons",
-  "desc": "Cinq étapes du cycle de vie d'un écrit concernant un enfant. Écrire : les faits, les dates, les lieux, les personnes présentes, les mots de l'enfant entre guillemets, sans interprétation ni diagnostic ni jugement sur la famille. Ranger : un support unique, sous clé ou protégé par un mot de passe, jamais sur un appareil partagé ni dans un groupe de messagerie. Donner accès : la personne référente et le responsable de la structure ; la famille peut consulter et faire corriger une erreur. Transmettre : seulement ce qui est nécessaire, seulement aux services qui peuvent agir, avec une trace de la remise. Détruire : à la date fixée à l'avance, à la fin de l'accompagnement. D'après la loi malgache n° 2014-038 du 9 janvier 2015 sur la protection des données à caractère personnel.",
+  "desc": "Cinq étapes du cycle de vie d'un écrit concernant un enfant. Écrire : les faits, les dates, les lieux, les personnes présentes, les mots de l'enfant entre guillemets, sans interprétation ni diagnostic ni jugement sur la famille. Ranger : un support unique, sous clé ou protégé par un mot de passe, jamais sur un appareil partagé ni dans un groupe de messagerie. Donner accès : la personne référente et le responsable de la structure ; la famille peut consulter et faire corriger une erreur. Transmettre : seulement ce qui est nécessaire, seulement aux services qui peuvent agir, avec une trace de la remise. Détruire : à la date fixée à l'avance, à la fin de l'accompagnement. D'après la loi malagasy n° 2014-038 du 9 janvier 2015 sur la protection des données à caractère personnel.",
   "steps": [
    {
     "title": "1. Écrire",

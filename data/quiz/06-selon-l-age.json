@@ -25,18 +25,18 @@
    "q": "Vous préparez une intervention devant des parents. Un bénévole vous propose d'annoncer « à Madagascar, un élève sur deux est harcelé ». Quels chiffres citez-vous à la place ?",
    "o": [
     "27,2 % des élèves de 13-17 ans harcelés à l'école dans l'année, 10,5 % cyberharcelés.",
-    "Un élève sur deux, chiffre issu de l'enquête nationale menée dans les écoles malgaches.",
+    "Un élève sur deux, chiffre issu de l'enquête nationale menée dans les écoles malagasy.",
     "10,5 % harcelés à l'école et 27,2 % cyberharcelés, chez les élèves de 13 à 17 ans.",
-    "Aucun chiffre malgache n'existe : on cite donc les résultats des enquêtes internationales."
+    "Aucun chiffre malagasy n'existe : on cite donc les résultats des enquêtes internationales."
    ],
    "a": 0,
    "why": [
-    "Oui : ce sont les deux chiffres malgaches disponibles, datés, sourçables et vérifiables par n'importe qui dans la salle.",
+    "Oui : ce sont les deux chiffres malagasy disponibles, datés, sourçables et vérifiables par n'importe qui dans la salle.",
     "Non : « un sur deux » ne vient d'aucune enquête ; un chiffre gonflé fait perdre la confiance de la salle dès qu'on le vérifie.",
     "Non : les deux chiffres sont intervertis ; c'est le cyberharcèlement qui est le plus faible des deux.",
-    "Non : une enquête nationale existe bien chez les 13-17 ans ; la lacune malgache porte sur l'évolution avec l'âge, pas sur l'existence d'un chiffre."
+    "Non : une enquête nationale existe bien chez les 13-17 ans ; la lacune malagasy porte sur l'évolution avec l'âge, pas sur l'existence d'un chiffre."
    ],
-   "x": "L'enquête nationale conduite auprès d'élèves malgaches de 13 à 17 ans trouve 27,2 % d'élèves harcelés à l'école au cours de l'année et 10,5 % de cyberharcelés <a class=\"cite\" data-ref=\"who2025\"></a>. Les taux sont proches entre garçons et filles pour le harcèlement à l'école. Ce que ces chiffres mesurent, et ce qu'ils laissent de côté, est discuté dans le module sur la solidité des chiffres. Voir <a href=\"#ce-qui-change-h\">ce qui change entre 7 et 17 ans</a>.",
+   "x": "L'enquête nationale conduite auprès d'élèves malagasy de 13 à 17 ans trouve 27,2 % d'élèves harcelés à l'école au cours de l'année et 10,5 % de cyberharcelés <a class=\"cite\" data-ref=\"who2025\"></a>. Les taux sont proches entre garçons et filles pour le harcèlement à l'école. Ce que ces chiffres mesurent, et ce qu'ils laissent de côté, est discuté dans le module sur la solidité des chiffres. Voir <a href=\"#ce-qui-change-h\">ce qui change entre 7 et 17 ans</a>.",
    "kind": "comprendre",
    "section": "ce-qui-change-h"
   },

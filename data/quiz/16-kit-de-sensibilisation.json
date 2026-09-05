@@ -25,7 +25,7 @@
    "q": "Vous préparez avec deux bénévoles la réunion de rentrée d'un collège. L'un demande : « En Afrique, quel est notre argument le plus solide face à une équipe enseignante ? »",
    "o": [
     "La violence physique des adultes de l'école, réduite de 42 % par un essai mené en Ouganda",
-    "Le cyberharcèlement, qui est aujourd'hui la forme la plus fréquente chez les élèves malgaches",
+    "Le cyberharcèlement, qui est aujourd'hui la forme la plus fréquente chez les élèves malagasy",
     "Les programmes finlandais, dont les résultats se transposent directement aux écoles africaines",
     "Les campagnes d'affichage, qui touchent tous les élèves de l'école pour un coût presque nul"
    ],
@@ -74,7 +74,7 @@
     "Non : dans une école, des initiales et une classe suffisent à identifier un élève ; cette anonymisation est illusoire.",
     "Non : cette exigence bloquerait la transmission d'une inquiétude au référent, qui doit se faire le jour même."
    ],
-   "x": "Les données que vous recueillez sont protégées par la loi malgache sur les données à caractère personnel, qui pose la licéité, la finalité déterminée, la proportionnalité et la sécurité du traitement <a class=\"cite\" data-ref=\"loi2014038\"></a> ; le droit de l'enfant à la vie privée figure aussi dans la Convention relative aux droits de l'enfant <a class=\"cite\" data-ref=\"un1989\"></a>. La bonne pratique tient en trois gestes : noter les faits utiles, transmettre le jour même à la personne nommée, détruire ensuite. Le <a href=\"#cadre-h\">cadre à poser avant d'entrer</a> prévoit justement de désigner cette personne à l'avance.",
+   "x": "Les données que vous recueillez sont protégées par la loi malagasy sur les données à caractère personnel, qui pose la licéité, la finalité déterminée, la proportionnalité et la sécurité du traitement <a class=\"cite\" data-ref=\"loi2014038\"></a> ; le droit de l'enfant à la vie privée figure aussi dans la Convention relative aux droits de l'enfant <a class=\"cite\" data-ref=\"un1989\"></a>. La bonne pratique tient en trois gestes : noter les faits utiles, transmettre le jour même à la personne nommée, détruire ensuite. Le <a href=\"#cadre-h\">cadre à poser avant d'entrer</a> prévoit justement de désigner cette personne à l'avance.",
    "kind": "appliquer",
    "section": "cadre-h"
   },
@@ -138,7 +138,7 @@
   {
    "q": "Vous relisez le diaporama d'un bénévole avant une réunion de parents. Quatre phrases chiffrées y figurent. Laquelle pouvez-vous garder telle quelle ?",
    "o": [
-    "« 58 % des élèves malgaches sont harcelés : c'est le chiffre national de référence »",
+    "« 58 % des élèves malagasy sont harcelés : c'est le chiffre national de référence »",
     "« Former les témoins fait baisser le harcèlement de 20 % dans les écoles évaluées »",
     "« À Madagascar, 27,2 % des élèves de 13 à 17 ans déclarent avoir été harcelés à l'école dans l'année »",
     "« En Afrique, un élève sur deux est harcelé chaque mois, la méta-analyse le prouve »"

@@ -102,7 +102,7 @@
  },
  "points-100-harceles-madagascar": {
   "type": "dots100",
-  "title": "Sur 100 élèves malgaches de 13 à 17 ans, 27 disent avoir été harcelés à l'école dans l'année",
+  "title": "Sur 100 élèves malagasy de 13 à 17 ans, 27 disent avoir été harcelés à l'école dans l'année",
   "desc": "Pictogramme de 100 points dont 27 colorés. Source : OMS, 2025 (27,2 %).",
   "value": 27,
   "src": "OMS, 2025"
@@ -110,7 +110,7 @@
  "effet-programmes": {
   "type": "hbar",
   "title": "De combien un programme anti-harcèlement fait baisser le harcèlement",
-  "desc": "Barres horizontales : réduction de la victimisation d'environ 15 à 16 %, réduction de la perpétration d'environ 19 à 20 % (méta-analyse Campbell de 100 évaluations, Gaffney et al. 2021a, surtout en Europe et en Amérique du Nord).",
+  "desc": "Barres horizontales : réduction de la victimisation d'environ 15 à 16 %, réduction de la perpétration d'environ 18 à 19 % (méta-analyse Campbell de 100 évaluations, Gaffney et al. 2021a, surtout en Europe et en Amérique du Nord).",
   "unit": "%",
   "max": 30,
   "items": [
@@ -127,7 +127,7 @@
     "value": 19.5,
     "lo": 19,
     "hi": 20,
-    "range_label": "19 à 20 %",
+    "range_label": "18 à 19 %",
     "src": "Gaffney et al., 2021a"
    }
   ]
@@ -355,7 +355,7 @@
  },
  "exposition-madagascar-gshs": {
   "type": "hbar",
-  "title": "Ce que dit l'enquête scolaire malgache",
+  "title": "Ce que dit l'enquête scolaire malagasy",
   "desc": "Barres horizontales d'une seule couleur, classées par valeur décroissante, en pourcentage d'élèves : 62,9 % disent que leurs parents ou tuteurs ne comprennent jamais ou rarement leurs soucis ; 29,4 % ont été impliqués dans une bagarre ; 27,2 % ont été harcelés à l'école dans l'année, soit 26,3 % des garçons et 28,1 % des filles ; 24,6 % ont manqué l'école sans permission ; 3,5 % n'ont aucun ami proche. Enquête scolaire GSHS auprès de 2 440 élèves de 13 à 17 ans, 38 écoles, Madagascar (OMS, 2025). Chaque barre répond à une question différente : aucune n'est un total et elles ne s'additionnent pas.",
   "unit": "%",
   "max": 70,
@@ -533,7 +533,7 @@
  "prevalences-comparees": {
   "type": "hbar",
   "title": "Combien d'élèves déclarent être harcelés ?",
-  "desc": "Barres horizontales classées de la plus faible à la plus forte, en pourcentage d'élèves déclarant avoir été harcelés : Maurice 22,2 (Aboagye et al., 2021a) ; Madagascar 27,2, seule donnée nationale malgache, élèves de 13 à 17 ans harcelés à l'école dans l'année, 2 440 élèves et 38 écoles (OMS, 2025) ; Afrique australe 32,73 (Rtbey et al., 2025) ; monde 32, soit environ un élève sur trois au cours du mois écoulé, 144 pays (UNESCO, 2019) ; Afrique subsaharienne 38,8, 11 pays et 25 454 élèves (Aboagye et al., 2021a) ; méta-analyse africaine 46,35, intervalle de confiance à 95 % de 41,45 à 51,24, 25 études et 41 716 adolescents (Rtbey et al., 2025) ; Afrique de l'Est 49,17 (Rtbey et al., 2025) ; Sierra Leone 54,6 (Aboagye et al., 2021a). Les périodes interrogées diffèrent, mois écoulé ou année écoulée : ces chiffres ne sont pas strictement comparables entre eux.",
+  "desc": "Barres horizontales classées de la plus faible à la plus forte, en pourcentage d'élèves déclarant avoir été harcelés : Maurice 22,2 (Aboagye et al., 2021a) ; Madagascar 27,2, seule donnée nationale malagasy, élèves de 13 à 17 ans harcelés à l'école dans l'année, 2 440 élèves et 38 écoles (OMS, 2025) ; Afrique australe 32,73 (Rtbey et al., 2025) ; monde 32, soit environ un élève sur trois au cours du mois écoulé, 144 pays (UNESCO, 2019) ; Afrique subsaharienne 38,8, 11 pays et 25 454 élèves (Aboagye et al., 2021a) ; méta-analyse africaine 46,35, intervalle de confiance à 95 % de 41,45 à 51,24, 25 études et 41 716 adolescents (Rtbey et al., 2025) ; Afrique de l'Est 49,17 (Rtbey et al., 2025) ; Sierra Leone 54,6 (Aboagye et al., 2021a). Les périodes interrogées diffèrent, mois écoulé ou année écoulée : ces chiffres ne sont pas strictement comparables entre eux.",
   "unit": "%",
   "max": 60,
   "items": [
@@ -543,7 +543,7 @@
     "src": "Aboagye et al., 2021a"
    },
    {
-    "label": "Madagascar · dans l'année, seule donnée nationale malgache",
+    "label": "Madagascar · dans l'année, seule donnée nationale malagasy",
     "value": 27.2,
     "src": "OMS, 2025"
    },
@@ -624,7 +624,7 @@
  },
  "chiffres-madagascar-gshs": {
   "type": "hbar",
-  "title": "Ce que déclarent les élèves malgaches de 13 à 17 ans",
+  "title": "Ce que déclarent les élèves malagasy de 13 à 17 ans",
   "desc": "Barres horizontales d'une seule couleur, classées par valeur décroissante, en pourcentage d'élèves : 62,9 % disent que leurs parents ne comprennent jamais ou rarement leurs soucis ; 54,6 % dorment moins de 8 heures par nuit ; 29,4 % ont été impliqués dans une bagarre ; 27,2 % ont été harcelés à l'école dans l'année, 26,3 % des garçons et 28,1 % des filles ; 24,6 % se sont absentés sans permission ; 10,5 % ont été cyberharcelés ; 3,5 % n'ont aucun ami proche. Enquête nationale en milieu scolaire auprès de 2 440 élèves de 13 à 17 ans dans 38 écoles ; déclarations portant sur les 12 derniers mois (OMS, 2025).",
   "unit": "%",
   "max": 100,
