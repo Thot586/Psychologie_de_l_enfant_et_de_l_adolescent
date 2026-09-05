@@ -77,7 +77,7 @@ for path in sorted(BODY.glob('*.html')):
         ctx = full.replace(mg, ' ⟦…⟧ ').strip()
         say = 'class="say"' in src[max(0, m.start() - 400):m.start()]
         items.append({'slug': slug, 'num': num, 'title': title, 'etape': etape, 'sec_id': sec[0], 'sec': sec[1],
-                      'mg': mg, 'ctx': ctx, 'tag': name, 'say': say,
+                      'mg': mg, 'ctx': ctx, 'tag': name, 'say': say, 'raw': m.group(4),
                       'kind': 'phrase à dire à un enfant' if say else ('phrase' if (len(mg.split()) >= 4 or mg.rstrip()[-1:] in '?.!') else 'mot ou expression')})
 
 # glossaire : entrées dont le terme ou les variantes sont en malgache
@@ -188,6 +188,10 @@ md += ['## Entrées de glossaire malgaches', '']
 for g in gl_items:
     md += [f'- **{g["terme"]}** ({", ".join(g["variantes"][:5])}) : {g["court"]}']
 TXT.write_text('\n'.join(md) + '\n', encoding='utf-8', newline='\n')
+
+IDX = ROOT / 'src' / 'research' / 'malgache-index.json'
+IDX.write_text(json.dumps({str(it['n']): {'slug': it['slug'], 'mg': it['mg'], 'raw': it['raw']} for it in items},
+                          ensure_ascii=False, indent=1), encoding='utf-8', newline='\n')
 
 print(f'{len(items)} fragments ({len(phrases)} phrases, {len(mots)} mots) + {len(gl_items)} entrées de glossaire')
 print(f'→ {OUT.name} et {TXT.relative_to(ROOT)}')
