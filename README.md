@@ -72,7 +72,8 @@ ni section de références.
 
 Les outils qui ont servi une fois à fabriquer le contenu — extraction des recherches, préparation des
 entrées d'agents, intégration de leurs sorties, contrôle de migration de l'ancien outil — ont été retirés
-avec leurs fichiers de travail après publication. Ils restent dans l'historique git (`git show d86f281 --stat`).
+du dépôt et de son historique après publication, avec leurs fichiers de travail : ce qui reste ici suffit
+à reconstruire le site à l'identique.
 
 ## Choix techniques
 
