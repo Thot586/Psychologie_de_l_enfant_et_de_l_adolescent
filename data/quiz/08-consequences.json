@@ -1,0 +1,139 @@
+{
+ "title": "Vérifier ce qu'on saura dire, et ce qu'on saura faire ce soir",
+ "intro": "Sept situations : une enseignante qui doute du silence d'un élève, une réunion de parents où il faut expliquer un chiffre, un directeur prêt à sanctionner une absence, un comité qui demande quoi faire d'un enfant auteur, un collègue qui lance « ce n'est pas prouvé », une présentation à de nouveaux bénévoles, et une soirée où une adolescente confie des idées noires. Répondez avant de lire la correction : chercher la réponse ancre mieux que relire la page.",
+ "questions": [
+  {
+   "q": "Une enseignante vous dit à propos de Naina, 11 ans : « S'il était vraiment harcelé, il l'aurait dit. Il ne se plaint jamais et il a l'air normal en classe. » Que répondez-vous ?",
+   "o": [
+    "Qu'elle a raison sur ce point : un enfant réellement en danger finit toujours par alerter un adulte bienveillant",
+    "Que l'enfant se tait uniquement par peur des représailles de l'auteur, et qu'il parlera si on protège son anonymat",
+    "Que beaucoup d'enfants se taisent par honte, en venant à croire qu'ils ont mérité ça : le silence n'indique pas une situation légère",
+    "Qu'il faut lui poser la question devant la classe, pour qu'il ose enfin parler avec le soutien du groupe"
+   ],
+   "a": 2,
+   "why": [
+    "Non : c'est exactement le raisonnement qui laisse des situations durer des mois, car le silence est fréquent et il ne dit rien de la gravité.",
+    "Non : la peur des représailles existe, mais s'y arrêter fait manquer la honte, qui fait taire l'enfant même là où il ne risque rien.",
+    "Oui : la honte fait taire l'enfant y compris devant des adultes bienveillants, donc l'absence de plainte ne rassure pas.",
+    "Non : interroger un enfant devant ses camarades l'expose au regard du groupe et le pousse à démentir pour se protéger."
+   ],
+   "x": "Beaucoup d'enfants harcelés finissent par penser qu'ils sont « le problème », et c'est pour cela qu'ils se taisent ; le silence est souvent l'inverse d'un signe rassurant. Les enfants harcelés présentent pourtant davantage de symptômes d'anxiété, davantage de symptômes dépressifs et une santé générale décrite comme moins bonne <a class=\"cite\" data-ref=\"moore2017\"></a>. Ce qu'on observe se lit donc dans le corps et le quotidien — sommeil, ventre, affaires perdues, envie de ne pas y aller — plus que dans une plainte formulée (voir <a href=\"#court-terme-h\">À court terme : ce que l'enfant vit</a>).",
+   "kind": "comprendre",
+   "section": "court-terme-h"
+  },
+  {
+   "q": "Vous préparez une réunion de parents et vous devez expliquer la phrase « les enfants harcelés ont environ deux fois plus d'idées suicidaires ». Quelle formulation est à la fois juste et utile ?",
+   "o": [
+    "Le risque de départ est bas ; multiplié par environ deux il reste bas, mais cela fait des enfants réels, donc un adulte informé pose la question",
+    "Un enfant harcelé sur deux aura des idées suicidaires au cours de l'année : c'est pourquoi il faut réagir sans attendre",
+    "Environ deux enfants harcelés sur cent y pensent, et les autres n'ont aucun risque particulier tant que le harcèlement dure",
+    "Ce chiffre vient d'enquêtes où tout est mesuré en même temps, et il tombe dès qu'on suit les enfants dans le temps"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : on garde la vraie ampleur du risque sans affoler, et on en tire la seule conduite qui compte, poser la question.",
+    "Non : « deux fois plus » est confondu avec « une chance sur deux », erreur qui affole des parents dont l'enfant va s'en sortir.",
+    "Non : ce chiffre ne correspond à aucune donnée, et déclarer les autres enfants sans risque rassure à tort ceux qui devraient agir aujourd'hui.",
+    "Non : le résultat tient précisément quand on ne garde que les études qui ont mesuré le harcèlement avant les idées suicidaires."
+   ],
+   "x": "Les enfants harcelés déclarent environ deux fois plus souvent des idées suicidaires et environ deux fois et demie plus souvent une tentative <a class=\"cite\" data-ref=\"vangeel2014\"></a>, et ce résultat se maintient dans les études où le harcèlement a été mesuré avant les idées suicidaires <a class=\"cite\" data-ref=\"vangeel2022\"></a>. Un rapport de cotes multiplie un risque de départ, il ne le remplace pas : la très grande majorité des enfants harcelés ne feront jamais de tentative. C'est cette double phrase — risque doublé, issue très majoritairement favorable — qui évite à la fois de dramatiser et de minimiser (voir <a href=\"#idees-noires-h\">Idées noires et gestes contre soi</a>).",
+   "kind": "comprendre",
+   "section": "idees-noires-h"
+  },
+  {
+   "q": "Miora, 13 ans, s'est absentée six fois ce mois-ci. Le directeur vous annonce qu'il va la sanctionner pour absentéisme et prévenir sa mère. Que proposez-vous en premier ?",
+   "o": [
+    "Accepter la sanction, puis organiser un rattrapage des cours manqués pour qu'elle ne perde pas son année scolaire",
+    "Retirer Miora de l'établissement dès la semaine prochaine et l'inscrire ailleurs, le temps que les choses se calment",
+    "Réunir Miora et les élèves qu'elle évite pour qu'ils s'expliquent devant un adulte et repartent sur de bonnes bases",
+    "Demander avant toute sanction ce qui se passe à l'école en ce moment, et ce que Miora évite : un lieu, un moment, un trajet"
+   ],
+   "a": 3,
+   "why": [
+    "Non : sanctionner d'abord revient à punir précisément l'enfant qui fuit un danger, et le rattrapage ne change rien à ce danger.",
+    "Non : changer d'école dans l'urgence, sans que rien n'ait été dit ni tracé, laisse la situation entière derrière soi et fragilise l'enfant.",
+    "Non : la confrontation entre enfant ciblé et enfants auteurs est l'une des conduites à éviter, car elle se retourne contre la cible.",
+    "Oui : l'absence répétée est un signal à comprendre avant d'être un manquement à sanctionner."
+   ],
+   "x": "La synthèse internationale de l'UNESCO, construite à partir des grandes enquêtes scolaires menées dans 144 pays, décrit une séquence régulière : concentration en baisse, résultats qui chutent, absences de plus en plus fréquentes, évitement de l'établissement, parfois décrochage <a class=\"cite\" data-ref=\"unesco2019fr\"></a>. La sanction pour absentéisme frappe donc souvent l'enfant qui fuit quelque chose. La question utile n'est pas « pourquoi n'es-tu pas allée en classe » mais « qu'est-ce qui se passe à l'école en ce moment » (voir <a href=\"#ecole-h\">Ce que ça coûte à la scolarité</a>).",
+   "kind": "appliquer",
+   "section": "ecole-h"
+  },
+  {
+   "q": "Votre association suit une école où Tojo, 12 ans, frappe et humilie un camarade depuis des mois. Le comité demande quelle réponse construire. Que dites-vous ?",
+   "o": [
+    "Le sanctionner fermement et s'en tenir là : protéger l'enfant ciblé est la seule chose qui mérite du temps et des moyens",
+    "Deux réponses menées en parallèle : la protection non négociable de l'enfant ciblé, et un accompagnement de Tojo",
+    "Comprendre d'abord ses difficultés familiales, et suspendre les mesures de protection le temps de ce travail avec lui",
+    "Le changer de classe et considérer l'affaire close, sans jamais revenir avec lui sur ce qu'il a fait à son camarade"
+   ],
+   "a": 1,
+   "why": [
+    "Non : un enfant qu'on se contente d'exclure ne devient pas un enfant qui protège les autres, et sa propre situation reste entière.",
+    "Oui : les deux réponses sont simultanées, et l'accompagnement commence par nommer le comportement, sans jamais négocier la protection de la cible.",
+    "Non : la protection de l'enfant ciblé n'est jamais suspendue, et comprendre l'auteur ne passe pas avant la sécurité de l'autre enfant.",
+    "Non : déplacer l'enfant sans lui faire nommer ce qu'il a fait laisse le comportement intact, et il se réinstalle ailleurs."
+   ],
+   "x": "Les enfants qui harcèlent présentent en moyenne plus de difficultés que les autres : moins de compétences sociales, un climat familial et scolaire plus difficile, un regard négatif sur eux-mêmes et sur les autres <a class=\"cite\" data-ref=\"cook2010\"></a>. Les enfants à la fois auteurs et cibles cumulent les risques et présentent les valeurs les plus élevées pour les gestes contre soi <a class=\"cite\" data-ref=\"huang2022,holt2015\"></a>. Cela n'oblige personne à être indulgent : cela impose simplement deux réponses au lieu d'une (voir <a href=\"#auteurs-h\">Les auteurs souffrent aussi</a>).",
+   "kind": "appliquer",
+   "section": "auteurs-h"
+  },
+  {
+   "q": "Un enseignant vous coupe en réunion : « Ces enfants-là allaient déjà mal avant. Le harcèlement n'y est pour rien, ce n'est pas prouvé. » Quelle réponse est la plus exacte ?",
+   "o": [
+    "Qu'il se trompe, et que comparer des enfants harcelés à des enfants qui ne le sont pas prouve que le harcèlement provoque la dépression",
+    "Qu'il a raison sur le fond, et qu'il vaut donc mieux soigner ces enfants que s'occuper de ce qui se passe dans la cour",
+    "Que l'objection tient en partie, mais que les comparaisons de jumeaux discordants penchent pour un effet propre du harcèlement",
+    "Que la question est tranchée depuis que de grandes cohortes ont suivi les mêmes personnes pendant plusieurs décennies"
+   ],
+   "a": 2,
+   "why": [
+    "Non : les études d'observation montrent une association forte, et c'est pour cela que les chercheurs écrivent « augmente le risque de » et non « provoque ».",
+    "Non : cela revient à traiter la souffrance en laissant intacte la situation qui l'entretient, alors que la durée est ce qui pèse le plus lourd.",
+    "Oui : on reconnaît ce qui est vrai dans l'objection, on lui oppose l'argument le plus solide disponible, et la conduite à tenir ne change pas pour autant.",
+    "Non : un suivi dans le temps, même long, ne suffit pas à démontrer une cause, et les auteurs de ces synthèses le disent eux-mêmes."
+   ],
+   "x": "Un enfant déjà triste, anxieux ou isolé est plus souvent pris pour cible : dans les études africaines, solitude, anxiété et gestes suicidaires sont fortement liés au fait d'être harcelé sans qu'on puisse dire ce qui est venu en premier <a class=\"cite\" data-ref=\"aboagye2021a,rtbey2025\"></a>. Pour contourner ce piège, on compare des jumeaux identiques élevés ensemble dont un seul a été harcelé : les écarts observés sont compatibles avec une contribution causale, et ils s'atténuent avec le temps <a class=\"cite\" data-ref=\"singham2017\"></a>. Ce qui pèse le plus n'est pas d'avoir été harcelé une fois, mais de l'être longtemps <a class=\"cite\" data-ref=\"bowes2013\"></a> : dans les trois cas, faire cesser le harcèlement reste utile (voir <a href=\"#causalite-h\">Corrélation n'est pas causalité</a>).",
+   "kind": "trancher",
+   "section": "causalite-h"
+  },
+  {
+   "q": "Vous présentez la situation malgache à de nouveaux bénévoles. Quelle affirmation pouvez-vous tenir sans dépasser ce que les données permettent ?",
+   "o": [
+    "L'enquête scolaire de 2025 donne un instantané — 27,2 % des élèves de 13 à 17 ans harcelés dans l'année — mais aucune étude n'a suivi des enfants malgaches dans la durée",
+    "Les analyses multipays menées en Afrique subsaharienne incluent Madagascar, et montrent que ses élèves s'en sortent mieux que la moyenne du continent",
+    "L'étude menée auprès d'étudiants d'Antananarivo en 2020 montre ce que le harcèlement laisse aux collégiens malgaches quelques années plus tard",
+    "Le fihavanana protège les enfants malgaches des conséquences durables, ce que confirment les estimations de mortalité disponibles pour le pays"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : on donne le chiffre disponible et on dit franchement ce qu'il ne mesure pas, ce qui est la position la plus solide en réunion.",
+    "Non : Madagascar ne fait partie d'aucune de ces analyses multipays, donc on ne peut ni le comparer ni le classer par rapport au continent.",
+    "Non : cette étude portait sur des étudiants pendant une période exceptionnelle, et elle ne dit rien des collégiens ni des conséquences du harcèlement.",
+    "Non : les estimations disponibles ne soutiennent pas cette idée rassurante, et un argument culturel ne remplace pas une donnée."
+   ],
+   "x": "L'enquête scolaire malgache porte sur 2 440 élèves de 38 écoles âgés de 13 à 17 ans : c'est une photographie à un instant donné, qui ne dit pas ce qui cause quoi <a class=\"cite\" data-ref=\"who2025\"></a>. Les méta-analyses africaines fournissent des ordres de grandeur régionaux, et Madagascar n'y figure pas <a class=\"cite\" data-ref=\"bezie2025,aboagye2021a\"></a>. L'étude d'Antananarivo évaluait 182 étudiants d'une cité universitaire pendant le confinement de 2020, avec des échelles de dépistage et non des diagnostics <a class=\"cite\" data-ref=\"razafilisy2021\"></a>. Dire « on ne sait pas encore à Madagascar » est plus juste, et plus utile, que de transposer un résultat étranger (voir <a href=\"#madagascar-h\">Madagascar : ce qu'on sait</a>).",
+   "kind": "trancher",
+   "section": "madagascar-h"
+  },
+  {
+   "q": "Ce soir, chez vous, Fanja, 15 ans, vous dit qu'elle pense à mourir. Vous êtes seul avec elle. Que faites-vous en premier ?",
+   "o": [
+    "Vous appelez le 147 et vous appliquez ce qu'on vous indiquera, en la laissant se reposer dans sa chambre pendant l'appel",
+    "Vous lui faites promettre de ne rien faire cette nuit, et vous prenez pour elle un rendez-vous médical la semaine prochaine",
+    "Vous lui demandez de raconter en détail tout ce qui s'est passé à l'école depuis le début de l'année, pour bien comprendre",
+    "Vous restez auprès d'elle sans la laisser seule, vous écoutez sans discuter ses raisons, et vous l'accompagnez vers un service de soins"
+   ],
+   "a": 3,
+   "why": [
+    "Non : le 147 est une ligne de signalement et d'orientation, pas une ligne de crise, et laisser l'adolescente seule pendant l'appel est le vrai danger.",
+    "Non : une promesse arrachée ne protège personne et un rendez-vous lointain laisse la nuit sans réponse, alors que l'inquiétude est là maintenant.",
+    "Non : faire revivre les faits en détail dans l'heure qui suit la confidence n'aide pas et peut nuire ; ce n'est pas le moment du récit.",
+    "Oui : rester, écouter et accompagner sont les trois gestes qui ne demandent ni diplôme ni matériel, et ils viennent avant tout le reste."
+   ],
+   "x": "Être présent, écouter sans forcer le récit et mettre en lien avec de l'aide concrète est le cœur des premiers secours psychologiques <a class=\"cite\" data-ref=\"oms2011psp\"></a> ; mettre calmement hors de portée ce qui pourrait servir à se faire du mal fait partie des mesures de prévention les mieux établies <a class=\"cite\" data-ref=\"mhgap2023\"></a>. Le 147 est une ligne de signalement des violences faites aux enfants et d'orientation, joignable gratuitement, et non une ligne de crise suicidaire <a class=\"cite\" data-ref=\"moov2026ligne147\"></a>. On n'envoie pas l'adolescente y aller seule : on l'accompagne, le soir même si l'inquiétude est forte (voir <a href=\"#ce-soir-h\">Ce soir, si un enfant parle d'idées noires</a>).",
+   "kind": "trancher",
+   "section": "ce-soir-h"
+  }
+ ]
+}

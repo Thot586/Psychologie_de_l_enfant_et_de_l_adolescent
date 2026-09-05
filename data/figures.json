@@ -1,0 +1,717 @@
+{
+ "prevalence-monde-afrique-madagascar": {
+  "type": "hbar",
+  "title": "Part d'élèves harcelés : monde, Afrique subsaharienne, Madagascar",
+  "desc": "Barres horizontales : 32 % dans le monde (harcelés dans le mois, UNESCO 2019, 144 pays et territoires) ; 38,8 % en Afrique subsaharienne (30 jours, 11 pays, Aboagye et al. 2021a, de 22,2 % à 54,6 % selon les pays) ; 27,2 % à Madagascar harcelés à l'école dans l'année (intervalle de confiance 20,8 à 34,7, OMS 2025) ; 10,5 % cyberharcelés dans l'année à Madagascar (8,9 à 12,4, OMS 2025). Les périodes de référence diffèrent : les chiffres ne se comparent pas terme à terme.",
+  "unit": "%",
+  "max": 60,
+  "items": [
+   {
+    "label": "Monde · harcelés dans le mois",
+    "value": 32,
+    "src": "UNESCO, 2019"
+   },
+   {
+    "label": "Afrique subsaharienne · 30 jours, 11 pays",
+    "value": 38.8,
+    "lo": 22.2,
+    "hi": 54.6,
+    "range_label": "22,2 à 54,6 selon le pays",
+    "src": "Aboagye et al., 2021a"
+   },
+   {
+    "label": "Madagascar · harcelés à l'école dans l'année",
+    "value": 27.2,
+    "lo": 20.8,
+    "hi": 34.7,
+    "range_label": "IC 95 % : 20,8 à 34,7",
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Madagascar · cyberharcelés dans l'année",
+    "value": 10.5,
+    "lo": 8.9,
+    "hi": 12.4,
+    "range_label": "IC 95 % : 8,9 à 12,4",
+    "src": "OMS, 2025"
+   }
+  ]
+ },
+ "gshs-madagascar-par-sexe": {
+  "type": "gbar",
+  "title": "Madagascar, 13-17 ans scolarisés, 2025 : garçons et filles",
+  "desc": "Barres groupées par sexe, en pourcentage d'élèves sur les 12 derniers mois (bagarre, harcèlement, cyberharcèlement, idées suicidaires, tentative) ou sur les 30 derniers jours (sans ami proche, parents qui ne comprennent pas). Harcelés à l'école : garçons 26,3, filles 28,1. Cyberharcelés : 11,1 et 9,8. Bagarre : 29,4 et 29,5. Idées suicidaires sérieuses : 5,8 et 13,5. Tentative de suicide : 7,8 et 8,8. Sans ami proche : 2,4 et 4,4. Parents qui ne comprennent jamais ou rarement leurs soucis : 65,2 et 60,8. Source : OMS, 2025 (GSHS Madagascar, 2 440 élèves).",
+  "unit": "%",
+  "max": 70,
+  "series": [
+   "Garçons",
+   "Filles"
+  ],
+  "items": [
+   {
+    "label": "Harcelés à l'école",
+    "values": [
+     26.3,
+     28.1
+    ]
+   },
+   {
+    "label": "Cyberharcelés",
+    "values": [
+     11.1,
+     9.8
+    ]
+   },
+   {
+    "label": "Bagarre",
+    "values": [
+     29.4,
+     29.5
+    ]
+   },
+   {
+    "label": "Idées suicidaires sérieuses",
+    "values": [
+     5.8,
+     13.5
+    ]
+   },
+   {
+    "label": "Tentative de suicide",
+    "values": [
+     7.8,
+     8.8
+    ]
+   },
+   {
+    "label": "Sans ami proche",
+    "values": [
+     2.4,
+     4.4
+    ]
+   },
+   {
+    "label": "Parents qui ne comprennent pas leurs soucis",
+    "values": [
+     65.2,
+     60.8
+    ]
+   }
+  ],
+  "src": "OMS, 2025"
+ },
+ "points-100-personnel-jeu": {
+  "type": "dots100",
+  "title": "Sur 100 membres du personnel scolaire, 49 perçoivent la violence physique entre élèves comme un jeu",
+  "desc": "Pictogramme de 100 points dont 49 colorés. Source : IBCR et UNICEF, 2018, étude nationale sur les violences envers les enfants à Madagascar.",
+  "value": 49,
+  "src": "IBCR et UNICEF, 2018"
+ },
+ "points-100-harceles-madagascar": {
+  "type": "dots100",
+  "title": "Sur 100 élèves malgaches de 13 à 17 ans, 27 disent avoir été harcelés à l'école dans l'année",
+  "desc": "Pictogramme de 100 points dont 27 colorés. Source : OMS, 2025 (27,2 %).",
+  "value": 27,
+  "src": "OMS, 2025"
+ },
+ "points-100-discipline-violente": {
+  "type": "dots100",
+  "title": "Sur 100 enfants de 1 à 14 ans, 85 ont subi une discipline violente dans le mois",
+  "desc": "Pictogramme de 100 points dont 85 colorés. Source : INSTAT et UNICEF, 2026, résultats préliminaires de l'enquête MICS-7 2025.",
+  "value": 85,
+  "src": "INSTAT et UNICEF, 2026"
+ },
+ "effet-programmes": {
+  "type": "hbar",
+  "title": "De combien un programme anti-harcèlement fait baisser le harcèlement",
+  "desc": "Barres horizontales : réduction de la victimisation d'environ 15 à 16 %, réduction de la perpétration d'environ 19 à 20 % (méta-analyse Campbell de 100 évaluations, Gaffney et al. 2021a, surtout en Europe et en Amérique du Nord).",
+  "unit": "%",
+  "max": 30,
+  "items": [
+   {
+    "label": "Victimisation · réduction",
+    "value": 15.5,
+    "lo": 15,
+    "hi": 16,
+    "range_label": "15 à 16 %",
+    "src": "Gaffney et al., 2021a"
+   },
+   {
+    "label": "Perpétration · réduction",
+    "value": 19.5,
+    "lo": 19,
+    "hi": 20,
+    "range_label": "19 à 20 %",
+    "src": "Gaffney et al., 2021a"
+   }
+  ]
+ },
+ "good-school-toolkit": {
+  "type": "dumbbell",
+  "title": "Good School Toolkit (Ouganda) : violence physique du personnel dans la semaine, à 18 mois",
+  "desc": "Deux points reliés : 48,7 % dans les écoles témoins, 31,0 % dans les écoles ayant reçu le programme (essai randomisé en grappes, 42 écoles primaires, Devries et al. 2015).",
+  "unit": "%",
+  "max": 60,
+  "items": [
+   {
+    "label": "Écoles témoins → écoles avec le programme",
+    "from": 48.7,
+    "to": 31.0,
+    "src": "Devries et al., 2015"
+   }
+  ]
+ },
+ "rapports-de-cotes": {
+  "type": "dotplot",
+  "title": "Rapports de cotes : combien de fois plus de chances, par rapport aux enfants non concernés",
+  "desc": "Points sur une échelle avec une ligne de référence à 1 (aucune différence). Idées suicidaires chez les victimes : 2,23 ; tentatives de suicide : 2,55 (van Geel et al. 2014). Automutilation non suicidaire : victimes 2,46, auteurs 2,12, auteurs-victimes 2,98 (Huang et al. 2022). Un rapport de cotes de 2 ne signifie pas un risque doublé quand l'événement est fréquent.",
+  "max": 4,
+  "items": [
+   {
+    "label": "Idées suicidaires · victimes",
+    "value": 2.23,
+    "src": "van Geel et al., 2014"
+   },
+   {
+    "label": "Tentatives de suicide · victimes",
+    "value": 2.55,
+    "src": "van Geel et al., 2014"
+   },
+   {
+    "label": "Automutilation · victimes",
+    "value": 2.46,
+    "src": "Huang et al., 2022"
+   },
+   {
+    "label": "Automutilation · auteurs",
+    "value": 2.12,
+    "src": "Huang et al., 2022"
+   },
+   {
+    "label": "Automutilation · auteurs-victimes",
+    "value": 2.98,
+    "src": "Huang et al., 2022"
+   }
+  ]
+ },
+ "trajectoires-pepler": {
+  "type": "hbar",
+  "title": "Quatre trajectoires de harcèlement chez 871 élèves suivis pendant 7 ans",
+  "desc": "Barres horizontales : 41,6 % ne harcèlent presque jamais ; 35,1 % restent à un niveau modéré ; 13,4 % commencent modérément puis arrêtent ; 9,9 % harcèlent de façon élevée et stable (Pepler et al. 2008).",
+  "unit": "%",
+  "max": 50,
+  "items": [
+   {
+    "label": "Presque jamais",
+    "value": 41.6,
+    "src": "Pepler et al., 2008"
+   },
+   {
+    "label": "Niveau modéré stable",
+    "value": 35.1,
+    "src": "Pepler et al., 2008"
+   },
+   {
+    "label": "Modéré puis arrêt",
+    "value": 13.4,
+    "src": "Pepler et al., 2008"
+   },
+   {
+    "label": "Élevé et stable",
+    "value": 9.9,
+    "src": "Pepler et al., 2008"
+   }
+  ]
+ },
+ "harcelement-onze-pays": {
+  "type": "hbar",
+  "title": "Élèves harcelés dans le mois : onze pays d'Afrique subsaharienne (Madagascar non inclus)",
+  "desc": "Barres horizontales classées par valeur croissante, en pourcentage d'adolescents scolarisés harcelés au cours des 30 derniers jours (Aboagye et al., 2021a, enquêtes GSHS 2010-2017) : Maurice 22,2 ; Tanzanie 23,7 ; Eswatini 29,8 ; Bénin 41,1 ; Mozambique 42,7 ; Namibie 43,5 ; Seychelles 43,5 ; Mauritanie 43,6 ; Liberia 44,5 ; Ghana 49,3 ; Sierra Leone 54,6 ; moyenne des onze pays 38,8. Madagascar ne figure pas dans cette analyse ; son chiffre (27,2 % harcelés à l'école dans l'année, OMS 2025) porte sur une autre période et ne se compare pas directement.",
+  "unit": "%",
+  "max": 60,
+  "refline": {
+   "value": 38.8,
+   "label": "moyenne des onze pays : 38,8 %"
+  },
+  "items": [
+   {
+    "label": "Maurice",
+    "value": 22.2,
+    "src": "Aboagye et al., 2021a"
+   },
+   {
+    "label": "Tanzanie",
+    "value": 23.7
+   },
+   {
+    "label": "Eswatini",
+    "value": 29.8
+   },
+   {
+    "label": "Bénin",
+    "value": 41.1
+   },
+   {
+    "label": "Mozambique",
+    "value": 42.7
+   },
+   {
+    "label": "Namibie",
+    "value": 43.5
+   },
+   {
+    "label": "Seychelles",
+    "value": 43.5
+   },
+   {
+    "label": "Mauritanie",
+    "value": 43.6
+   },
+   {
+    "label": "Liberia",
+    "value": 44.5
+   },
+   {
+    "label": "Ghana",
+    "value": 49.3
+   },
+   {
+    "label": "Sierra Leone",
+    "value": 54.6
+   }
+  ]
+ },
+ "attachement-repartition": {
+  "type": "hbar",
+  "title": "Répartition des profils d'attachement dans 285 études (20 720 enfants)",
+  "desc": "Barres horizontales : sécurisant 51,6 % ; désorganisé 23,5 % ; évitant 14,7 % ; résistant 10,2 % (Madigan et al., 2023, méta-analyse). Ce sont des catégories de recherche issues de la procédure de la Situation étrange : ni un diagnostic ni un trait de caractère ; le profil désorganisé ne signifie pas maltraitance.",
+  "unit": "%",
+  "max": 60,
+  "items": [
+   {
+    "label": "Sécurisant",
+    "value": 51.6,
+    "src": "Madigan et al., 2023"
+   },
+   {
+    "label": "Désorganisé",
+    "value": 23.5
+   },
+   {
+    "label": "Évitant",
+    "value": 14.7
+   },
+   {
+    "label": "Résistant (ambivalent)",
+    "value": 10.2
+   }
+  ]
+ },
+ "punition-madagascar": {
+  "type": "hbar",
+  "title": "Punition physique des enfants à Madagascar : ce que vivent les enfants, ce que pensent les adultes",
+  "desc": "Barres horizontales issues de trois enquêtes qui ne portent pas sur la même population. Enfants de 2 à 14 ans punis physiquement dans le mois précédent, régions du Sud, MICS 2012 : 64 % ; dont punition sévère : 20 %. Enfants de 1 à 14 ans soumis à une discipline violente, national, MICS-7 2025, résultats préliminaires : 85 %. Adultes qui estiment le châtiment corporel fréquent à la maison, enquête nationale 2018 auprès de 2 523 répondants : 86 % ; qui le jugent acceptable : 65 %. Le châtiment corporel reste licite au domicile.",
+  "unit": "%",
+  "max": 100,
+  "items": [
+   {
+    "label": "Punis physiquement dans le mois · 2-14 ans, Sud, 2012",
+    "value": 64,
+    "src": "INSTAT et UNICEF, 2013"
+   },
+   {
+    "label": "dont punition sévère · 2-14 ans, Sud, 2012",
+    "value": 20
+   },
+   {
+    "label": "Discipline violente dans le mois · 1-14 ans, national, 2025 (préliminaire)",
+    "value": 85,
+    "src": "INSTAT et UNICEF, 2026"
+   },
+   {
+    "label": "Adultes : « le châtiment corporel est fréquent à la maison » · 2018",
+    "value": 86,
+    "src": "End Corporal Punishment, 2022"
+   },
+   {
+    "label": "Adultes : « le châtiment corporel est acceptable » · 2018",
+    "value": 65
+   }
+  ]
+ },
+ "barres-afrique-suicidalite": {
+  "type": "dotplot",
+  "title": "Ce que trouvent les études africaines",
+  "desc": "Points placés sur une échelle de rapports de cotes allant de 0 à 3, avec une ligne de référence à 1 qui signifie « aucune différence ». Chez les élèves harcelés, les idées suicidaires sont plus fréquentes : rapport de cotes 1,68 (intervalle de confiance à 95 % : 1,56 à 1,81), sur 16 études, 34 007 participants et 11 pays africains (Bezie et al., 2025). Dans une réanalyse de onze enquêtes scolaires d'Afrique subsaharienne portant sur 25 454 adolescents scolarisés, les jeunes qui déclarent une tentative de suicide ont 1,86 fois plus de risque d'être harcelés, ceux qui consomment du cannabis 1,59 fois plus, ceux qui sont anxieux 1,53 fois plus (Aboagye et al., 2021a). Ce sont des associations mesurées à un instant donné : elles ne disent pas ce qui est venu en premier. Madagascar n'est inclus dans aucune de ces analyses, ni dans la synthèse de 25 études et 41 716 adolescents de 16 pays africains (Rtbey et al., 2025).",
+  "max": 3,
+  "items": [
+   {
+    "label": "Élèves harcelés · idées suicidaires",
+    "value": 1.68,
+    "src": "Bezie et al., 2025"
+   },
+   {
+    "label": "Tentative de suicide · risque d'être harcelé",
+    "value": 1.86,
+    "src": "Aboagye et al., 2021a"
+   },
+   {
+    "label": "Cannabis · risque d'être harcelé",
+    "value": 1.59,
+    "src": "Aboagye et al., 2021a"
+   },
+   {
+    "label": "Anxiété · risque d'être harcelé",
+    "value": 1.53,
+    "src": "Aboagye et al., 2021a"
+   }
+  ]
+ },
+ "exposition-madagascar-gshs": {
+  "type": "hbar",
+  "title": "Ce que dit l'enquête scolaire malgache",
+  "desc": "Barres horizontales d'une seule couleur, classées par valeur décroissante, en pourcentage d'élèves : 62,9 % disent que leurs parents ou tuteurs ne comprennent jamais ou rarement leurs soucis ; 29,4 % ont été impliqués dans une bagarre ; 27,2 % ont été harcelés à l'école dans l'année, soit 26,3 % des garçons et 28,1 % des filles ; 24,6 % ont manqué l'école sans permission ; 3,5 % n'ont aucun ami proche. Enquête scolaire GSHS auprès de 2 440 élèves de 13 à 17 ans, 38 écoles, Madagascar (OMS, 2025). Chaque barre répond à une question différente : aucune n'est un total et elles ne s'additionnent pas.",
+  "unit": "%",
+  "max": 70,
+  "items": [
+   {
+    "label": "Parents qui ne comprennent pas leurs soucis",
+    "value": 62.9,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Impliqués dans une bagarre",
+    "value": 29.4,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Harcelés à l'école dans l'année",
+    "value": 27.2,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Ont manqué l'école sans permission",
+    "value": 24.6,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Sans ami proche",
+    "value": 3.5,
+    "src": "OMS, 2025"
+   }
+  ]
+ },
+ "surexposition-handicap": {
+  "type": "dotplot",
+  "title": "Handicap : la surexposition la mieux documentée",
+  "desc": "Points placés sur une échelle dont la ligne de référence à 1 représente le risque des autres enfants. Les enfants en situation de handicap ont environ deux fois plus de risques de subir des violences, d'après une revue mondiale (Eldred et al., 2025). Au Burkina Faso, une enquête auprès de 2 222 adolescents de 10 à 19 ans dans quatre régions trouve un risque de violences physiques multiplié par 6,5 (Musizvingoza et al., 2022). Deux repères accompagnent ces valeurs : environ 240 millions d'enfants dans le monde, près d'un sur dix, vivent avec un handicap (UNICEF, 2021) ; et la plupart des programmes de prévention en milieu scolaire ne sont ni conçus ni évalués pour ces enfants (Eldred et al., 2025). Madagascar : aucune donnée disponible, aucune barre n'est tracée pour le pays (Comité des droits de l'enfant, 2022).",
+  "max": 8,
+  "items": [
+   {
+    "label": "Toutes violences · revue mondiale",
+    "value": 2,
+    "src": "Eldred et al., 2025"
+   },
+   {
+    "label": "Violences physiques · Burkina Faso, 10-19 ans",
+    "value": 6.5,
+    "src": "Musizvingoza et al., 2022"
+   }
+  ]
+ },
+ "numerique-madagascar-2025": {
+  "type": "hbar",
+  "title": "Le numérique à Madagascar, janvier 2025",
+  "desc": "Barres horizontales en pourcentage. Madagascar, janvier 2025 : 18,2 millions de connexions mobiles, soit 56,2 % de la population, dont 84,6 % compatibles haut débit ; 6,60 millions d'internautes, soit 20,4 % ; 3,90 millions d'identités sur les réseaux sociaux, soit 12,1 %. Audiences des plateformes : Facebook 3,90 millions, Messenger 1,20 million, LinkedIn 520 000, Instagram 218 000, X 34 600 (Kemp, 2025). Comparaisons : 50 % des 15-24 ans utilisent internet en Afrique contre 82 % dans le monde (UIT, 2024) ; l'accès à internet concerne 23 % de la population dans les pays à faible revenu contre 94 % dans les pays à revenu élevé (UIT, 2025). Le cyberharcèlement concerne aujourd'hui une minorité connectée, plutôt urbaine et scolarisée.",
+  "unit": "%",
+  "max": 100,
+  "items": [
+   {
+    "label": "Connexions mobiles · 18,2 millions",
+    "value": 56.2,
+    "src": "Kemp, 2025"
+   },
+   {
+    "label": "Internautes · 6,60 millions",
+    "value": 20.4,
+    "src": "Kemp, 2025"
+   },
+   {
+    "label": "Réseaux sociaux · 3,90 millions d'identités",
+    "value": 12.1,
+    "src": "Kemp, 2025"
+   },
+   {
+    "label": "15-24 ans connectés · Afrique",
+    "value": 50,
+    "src": "UIT, 2024"
+   },
+   {
+    "label": "15-24 ans connectés · monde",
+    "value": 82,
+    "src": "UIT, 2024"
+   },
+   {
+    "label": "Accès à internet · pays à faible revenu",
+    "value": 23,
+    "src": "UIT, 2025"
+   },
+   {
+    "label": "Accès à internet · pays à revenu élevé",
+    "value": 94,
+    "src": "UIT, 2025"
+   }
+  ]
+ },
+ "usage-problematique-hbsc": {
+  "type": "hbar",
+  "title": "Usage problématique en Europe, Asie centrale et Canada",
+  "desc": "Barres horizontales en pourcentage d'élèves de 11, 13 et 15 ans, en trois blocs. Évolution des réseaux sociaux : usage problématique de 7 % en 2018 et de 11 % en 2022. Par sexe en 2022 : 13 % des filles et 9 % des garçons. Jeu vidéo problématique : 12 % de l'ensemble, 16 % des garçons et 7 % des filles ; parmi ceux qui jouent, 22 % jouent quatre heures ou plus les jours de jeu. Enquête menée en Europe, en Asie centrale et au Canada (OMS Europe, 2024 ; Boniel-Nissim et al., 2024). Ces données ne décrivent pas Madagascar : elles viennent de pays où presque tous les jeunes sont connectés.",
+  "unit": "%",
+  "max": 25,
+  "items": [
+   {
+    "label": "Réseaux sociaux · usage problématique, 2018",
+    "value": 7,
+    "src": "OMS Europe, 2024"
+   },
+   {
+    "label": "Réseaux sociaux · usage problématique, 2022",
+    "value": 11,
+    "src": "OMS Europe, 2024"
+   },
+   {
+    "label": "Réseaux sociaux 2022 · filles",
+    "value": 13,
+    "src": "OMS Europe, 2024"
+   },
+   {
+    "label": "Réseaux sociaux 2022 · garçons",
+    "value": 9,
+    "src": "OMS Europe, 2024"
+   },
+   {
+    "label": "Jeu vidéo problématique · ensemble",
+    "value": 12,
+    "src": "OMS Europe, 2024"
+   },
+   {
+    "label": "Jeu vidéo problématique · garçons",
+    "value": 16,
+    "src": "OMS Europe, 2024"
+   },
+   {
+    "label": "Jeu vidéo problématique · filles",
+    "value": 7,
+    "src": "OMS Europe, 2024"
+   },
+   {
+    "label": "Joueurs jouant 4 h ou plus les jours de jeu",
+    "value": 22,
+    "src": "OMS Europe, 2024"
+   }
+  ]
+ },
+ "ici-et-ailleurs": {
+  "type": "hbar",
+  "title": "Le harcèlement subi : à Madagascar et ailleurs",
+  "desc": "Barres horizontales par ordre décroissant, en pourcentage d'élèves déclarant avoir été harcelés. Madagascar, donnée associative non revue par les pairs : 58 % d'élèves de 10 à 21 ans se déclarant victimes, étude associative Imaso-Ivoho 2023-2024 rapportée par la presse, méthode non publiée (L'Express, 2025). Afrique subsaharienne : 38,8 % en moyenne sur onze pays, de 22,2 % à l'île Maurice à 54,6 % en Sierra Leone, enquêtes de 2010 à 2017, Madagascar non inclus (Aboagye et al., 2021a). Monde : 32 % d'élèves harcelés au moins une fois au cours du mois écoulé, 144 pays (UNESCO, 2019). Madagascar : 27,2 % harcelés à l'école dans l'année, 2 440 élèves de 13 à 17 ans dans 38 écoles, garçons 26,3 % et filles 28,1 % (OMS, 2025). Les périodes de rappel ne sont pas identiques d'une source à l'autre : ces chiffres ne se lisent pas comme un classement.",
+  "unit": "%",
+  "max": 60,
+  "items": [
+   {
+    "label": "Madagascar · donnée associative, non revue par les pairs",
+    "value": 58,
+    "src": "L'Express, 2025"
+   },
+   {
+    "label": "Afrique subsaharienne · onze pays, 2010-2017",
+    "value": 38.8,
+    "lo": 22.2,
+    "hi": 54.6,
+    "range_label": "22,2 à 54,6 selon le pays",
+    "src": "Aboagye et al., 2021a"
+   },
+   {
+    "label": "Monde · harcelés dans le mois, 144 pays",
+    "value": 32,
+    "src": "UNESCO, 2019"
+   },
+   {
+    "label": "Madagascar · harcelés à l'école dans l'année",
+    "value": 27.2,
+    "src": "OMS, 2025"
+   }
+  ]
+ },
+ "prevalences-comparees": {
+  "type": "hbar",
+  "title": "Combien d'élèves déclarent être harcelés ?",
+  "desc": "Barres horizontales classées de la plus faible à la plus forte, en pourcentage d'élèves déclarant avoir été harcelés : Maurice 22,2 (Aboagye et al., 2021a) ; Madagascar 27,2, seule donnée nationale malgache, élèves de 13 à 17 ans harcelés à l'école dans l'année, 2 440 élèves et 38 écoles (OMS, 2025) ; Afrique australe 32,73 (Rtbey et al., 2025) ; monde 32, soit environ un élève sur trois au cours du mois écoulé, 144 pays (UNESCO, 2019) ; Afrique subsaharienne 38,8, 11 pays et 25 454 élèves (Aboagye et al., 2021a) ; méta-analyse africaine 46,35, intervalle de confiance à 95 % de 41,45 à 51,24, 25 études et 41 716 adolescents (Rtbey et al., 2025) ; Afrique de l'Est 49,17 (Rtbey et al., 2025) ; Sierra Leone 54,6 (Aboagye et al., 2021a). Les périodes interrogées diffèrent, mois écoulé ou année écoulée : ces chiffres ne sont pas strictement comparables entre eux.",
+  "unit": "%",
+  "max": 60,
+  "items": [
+   {
+    "label": "Maurice · dans le mois",
+    "value": 22.2,
+    "src": "Aboagye et al., 2021a"
+   },
+   {
+    "label": "Madagascar · dans l'année, seule donnée nationale malgache",
+    "value": 27.2,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Monde · dans le mois, 144 pays",
+    "value": 32,
+    "src": "UNESCO, 2019"
+   },
+   {
+    "label": "Afrique australe · 25 études",
+    "value": 32.73,
+    "src": "Rtbey et al., 2025"
+   },
+   {
+    "label": "Afrique subsaharienne · 11 pays, 25 454 élèves",
+    "value": 38.8,
+    "src": "Aboagye et al., 2021a"
+   },
+   {
+    "label": "Afrique · méta-analyse de 25 études, 41 716 adolescents",
+    "value": 46.35,
+    "lo": 41.45,
+    "hi": 51.24,
+    "range_label": "IC 95 % : 41,45 à 51,24",
+    "src": "Rtbey et al., 2025"
+   },
+   {
+    "label": "Afrique de l'Est · 25 études",
+    "value": 49.17,
+    "src": "Rtbey et al., 2025"
+   },
+   {
+    "label": "Sierra Leone · dans le mois",
+    "value": 54.6,
+    "src": "Aboagye et al., 2021a"
+   }
+  ]
+ },
+ "comparateur-prevalences": {
+  "type": "hbar",
+  "title": "Des chiffres qui ne se comparent pas terme à terme",
+  "desc": "Barres horizontales de prévalence déclarée, chaque étiquette portant la population et la période interrogée. Madagascar, enquête scolaire nationale de 2025 : 27,2 % d'élèves de 13 à 17 ans harcelés à l'école dans l'année (OMS, 2025). Monde : 32 % d'élèves harcelés au cours du mois écoulé, 144 pays et territoires (UNESCO, 2019). Afrique subsaharienne : 38,8 % de victimation chez 25 454 adolescents scolarisés de 11 pays, de 22,2 % à Maurice à 54,6 % en Sierra Leone, Madagascar non inclus (Aboagye et al., 2021a). Afrique, synthèse de 25 études et 41 716 adolescents : 46,35 %, intervalle de 41,45 à 51,24 (Rtbey et al., 2025). Madagascar, estimation associative de 2023-2024 relayée par la presse : 58 % d'élèves de 10 à 21 ans, sans rapport primaire ni méthode publiée (L'Express de Madagascar, 2025). Les périodes de rappel diffèrent, mois ou année, les populations aussi : les comparaisons directes ne sont pas justifiées, et la dernière barre est une estimation associative, pas une donnée d'enquête.",
+  "unit": "%",
+  "max": 60,
+  "items": [
+   {
+    "label": "Madagascar · 13-17 ans scolarisés, dans l'année",
+    "value": 27.2,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Monde · élèves, dans le mois, 144 pays",
+    "value": 32,
+    "src": "UNESCO, 2019"
+   },
+   {
+    "label": "Afrique subsaharienne · 25 454 élèves de 11 pays, dans le mois",
+    "value": 38.8,
+    "lo": 22.2,
+    "hi": 54.6,
+    "range_label": "22,2 à 54,6 selon le pays",
+    "src": "Aboagye et al., 2021a"
+   },
+   {
+    "label": "Afrique · 41 716 adolescents, 25 études, périodes variables",
+    "value": 46.35,
+    "lo": 41.45,
+    "hi": 51.24,
+    "range_label": "IC 95 % : 41,45 à 51,24",
+    "src": "Rtbey et al., 2025"
+   },
+   {
+    "label": "Madagascar · 10-21 ans, estimation associative, méthode non publiée",
+    "value": 58,
+    "src": "L'Express de Madagascar, 2025"
+   }
+  ]
+ },
+ "chiffres-madagascar-gshs": {
+  "type": "hbar",
+  "title": "Ce que déclarent les élèves malgaches de 13 à 17 ans",
+  "desc": "Barres horizontales d'une seule couleur, classées par valeur décroissante, en pourcentage d'élèves : 62,9 % disent que leurs parents ne comprennent jamais ou rarement leurs soucis ; 54,6 % dorment moins de 8 heures par nuit ; 29,4 % ont été impliqués dans une bagarre ; 27,2 % ont été harcelés à l'école dans l'année, 26,3 % des garçons et 28,1 % des filles ; 24,6 % se sont absentés sans permission ; 10,5 % ont été cyberharcelés ; 3,5 % n'ont aucun ami proche. Enquête nationale en milieu scolaire auprès de 2 440 élèves de 13 à 17 ans dans 38 écoles ; déclarations portant sur les 12 derniers mois (OMS, 2025).",
+  "unit": "%",
+  "max": 100,
+  "items": [
+   {
+    "label": "Parents qui ne comprennent jamais ou rarement leurs soucis",
+    "value": 62.9,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Dorment moins de 8 heures par nuit",
+    "value": 54.6,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Impliqués dans une bagarre",
+    "value": 29.4,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Harcelés à l'école dans l'année",
+    "value": 27.2,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Absents sans permission",
+    "value": 24.6,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Cyberharcelés",
+    "value": 10.5,
+    "src": "OMS, 2025"
+   },
+   {
+    "label": "Sans ami proche",
+    "value": 3.5,
+    "src": "OMS, 2025"
+   }
+  ]
+ },
+ "premier-recours-antananarivo": {
+  "type": "hbar",
+  "title": "Vers qui les familles se tournent d'abord",
+  "desc": "Barres horizontales des premiers recours thérapeutiques devant un trouble psychique : traitement religieux 40 % ; recours psychiatrique 32,5 % ; recours mixte 7,5 % ; médecine générale 5 % ; tradipraticien seul 2,5 %. Étude rétrospective portant sur 217 patients du service de psychiatrie du centre hospitalier universitaire Joseph Raseta Befelatanana, à Antananarivo, de janvier 2014 à avril 2015 (Bakohariliva et al., 2018). Dans la même série, 75 % des patients pris en charge d'emblée en psychiatrie s'amélioraient en moins de dix jours. Étude d'un seul service, rétrospective : la sévérité du trouble influence à la fois le chemin suivi et la durée du séjour. Il ne s'agit pas d'opposer les recours entre eux : on peut prier et consulter.",
+  "unit": "%",
+  "max": 50,
+  "items": [
+   {
+    "label": "Traitement religieux",
+    "value": 40,
+    "src": "Bakohariliva et al., 2018"
+   },
+   {
+    "label": "Recours psychiatrique",
+    "value": 32.5,
+    "src": "Bakohariliva et al., 2018"
+   },
+   {
+    "label": "Recours mixte",
+    "value": 7.5,
+    "src": "Bakohariliva et al., 2018"
+   },
+   {
+    "label": "Médecine générale",
+    "value": 5,
+    "src": "Bakohariliva et al., 2018"
+   },
+   {
+    "label": "Tradipraticien seul",
+    "value": 2.5,
+    "src": "Bakohariliva et al., 2018"
+   }
+  ]
+ }
+}

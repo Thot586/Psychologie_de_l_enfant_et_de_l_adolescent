@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr" data-page="{{slug}}" data-session="{{session}}" data-type="{{type}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>{{title_tag}}</title>
+<meta name="description" content="{{description}}">
+<meta name="author" content="{{author_short}}">
+<link rel="canonical" href="{{canonical}}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{title_tag}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="{{site_title}}">
+<meta name="theme-color" content="{{theme_light}}" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="{{theme_dark}}" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="{{root}}assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{root}}assets/icons/icon-192.png">
+<link rel="manifest" href="{{root}}manifest.webmanifest">
+<link rel="preload" href="{{root}}assets/fonts/public-sans-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{root}}assets/fonts/literata-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{root}}assets/css/styles.css?v={{build_id}}">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('theme');if(t==='light'||t==='dark')d.dataset.theme=t;var f=localStorage.getItem('fs');if(f)d.dataset.fs=f;var r=localStorage.getItem('reading');if(r==='essentiel')d.dataset.reading=r;}catch(e){}})();</script>
+<!-- généré par scripts/build.py ({{build_id}}) : ne pas éditer, modifier src/ et data/ puis relancer le build -->
+</head>
+<body class="{{body_class}}">
+<a class="skip" href="#main">Aller au contenu</a>

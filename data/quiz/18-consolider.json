@@ -1,0 +1,291 @@
+{
+ "title": "Ce que vous emportez de tout le parcours",
+ "intro": "Quinze situations, dans l'ordre de la page. Elles vérifient moins ce que vous avez lu que ce que vous saurez dire et faire devant un parent, un directeur ou un jeune. Répondez avant de lire la correction : se remémorer activement ancre mieux que relire, et chaque erreur vous indique exactement la page à rouvrir.",
+ "questions": [
+  {
+   "q": "Un directeur vous dit : « Il n'y a jamais eu de coup dans cette classe, donc ce n'est pas du harcèlement. » Sur quoi vous appuyez-vous pour lui répondre ?",
+   "o": [
+    "Il a raison : sans violence physique, on reste dans la moquerie ordinaire.",
+    "Il faut une plainte écrite de la famille avant de pouvoir qualifier la situation.",
+    "Trois signes réunis font le harcèlement : intention, répétition, rapport de force inégal.",
+    "Dès qu'un enfant dit se sentir mal à l'école, la qualification est acquise."
+   ],
+   "a": 2,
+   "why": [
+    "Non : la gravité du coup n'est pas un critère, un harcèlement peut être entièrement verbal ou relationnel.",
+    "Non : la plainte de la famille est une démarche, pas un des trois signes qui définissent la situation.",
+    "Oui : ce sont bien ces trois signes réunis, et non la violence visible, qui font la qualification.",
+    "Non : le mal-être compte comme signal d'alerte, mais il ne remplace ni la répétition ni le déséquilibre de pouvoir."
+   ],
+   "x": "La grille tient en trois signes qui doivent être réunis, et non en la gravité d'un acte isolé <a class=\"cite\" data-ref=\"olweus1993\"></a> ; c'est la définition qu'utilisent les méta-analyses qui évaluent les programmes <a class=\"cite\" data-ref=\"gaffney2021a\"></a>. L'erreur du directeur est fréquente parce que le coup se voit et que les rumeurs ne se voient pas. Toute la suite du parcours découle de cette grille, rappelée en tête de la section <a href=\"#parcours-h\">les cinq étapes en une page</a>.",
+   "kind": "comprendre",
+   "section": "parcours-h"
+  },
+  {
+   "q": "Vous préparez une réunion de quartier en malgache et vous cherchez comment y dire « harcèlement ». Quelle position tenez-vous ?",
+   "o": [
+    "La périphrase employée à l'école couvre plus large que ce que mesurent les questionnaires.",
+    "Le mot se traduit terme à terme, et les enquêtes internationales sont donc directement comparables entre elles.",
+    "Mieux vaut garder le mot français, que toutes les familles présentes comprendront exactement de la même façon.",
+    "Il n'existe aucune façon de nommer en malgache les violences entre élèves à l'école."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : la périphrase couvre plus large que le concept mesuré, et cet écart doit être dit avant de citer un chiffre.",
+    "Non : c'est précisément l'illusion de comparabilité contre laquelle met en garde la recherche sur la traduction des termes.",
+    "Non : garder le mot français fait porter tout le poids de la définition sur des personnes qui ne la partagent pas.",
+    "Non : la langue dispose bien d'une façon de le dire, c'est son périmètre qui diffère, pas son existence."
+   ],
+   "x": "Le mot voyage mal d'une langue à l'autre : la périphrase malgache employée pour la violence en milieu scolaire ne recouvre pas exactement ce que mesurent les questionnaires internationaux <a class=\"cite\" data-ref=\"smith2016,samara2019\"></a>. Ce n'est pas un détail de vocabulaire : c'est ce qui explique qu'on ne classe pas les pays entre eux. En réunion, nommez les trois signes plutôt que de chercher le mot juste, et vous serez compris.",
+   "kind": "comprendre",
+   "section": "parcours-h"
+  },
+  {
+   "q": "Une journaliste vous demande, micro ouvert, le chiffre du harcèlement scolaire à Madagascar. Lequel citez-vous ?",
+   "o": [
+    "58 % d'élèves harcelés, chiffre relayé depuis 2025 par la presse malgache.",
+    "46,35 % d'adolescents harcelés, prévalence groupée d'une méta-analyse africaine récente.",
+    "38,8 % d'élèves harcelés, moyenne établie sur onze pays d'Afrique subsaharienne.",
+    "27,2 % des élèves de 13 à 17 ans harcelés à l'école dans l'année, enquête nationale."
+   ],
+   "a": 3,
+   "why": [
+    "Non : ce chiffre vient d'une enquête associative dont la méthode n'a pas été publiée, il vous fragilise dès qu'on le conteste.",
+    "Non : cette prévalence groupée est régionale et très hétérogène, elle ne décrit pas les élèves malgaches.",
+    "Non : cette moyenne multi-pays donne un ordre de grandeur régional, pas une mesure prise à Madagascar.",
+    "Oui : c'est la donnée nationale la plus solide, et vous pouvez en donner la source, l'âge et la période."
+   ],
+   "x": "L'enquête nationale porte sur 2 440 élèves de 13 à 17 ans dans 38 écoles et rapporte 27,2 % de harcèlement à l'école dans l'année et 10,5 % en ligne <a class=\"cite\" data-ref=\"who2025\"></a>. Le taux de 58 % qui circule provient d'une enquête associative sans méthode publiée <a class=\"cite\" data-ref=\"lexpress2025\"></a> : le citer expose tout votre discours le jour où quelqu'un le vérifie. Un chiffre juste, daté et sourcé vaut mieux que dix chiffres frappants, comme le détaille la section <a href=\"#chiffres-h\">les chiffres que vous pouvez citer</a>.",
+   "kind": "appliquer",
+   "section": "chiffres-h"
+  },
+  {
+   "q": "Un bénévole vous montre l'affiche qu'il a préparée : « À Madagascar, 38,8 % des élèves sont harcelés. » Que lui dites-vous ?",
+   "o": [
+    "C'est juste : Madagascar est un pays d'Afrique subsaharienne comme les dix autres de l'analyse.",
+    "C'est acceptable si l'on arrondit à 39 % et qu'on écrit la source en petits caractères.",
+    "Ce chiffre vient de onze pays qui n'incluent pas Madagascar : c'est un ordre de grandeur régional.",
+    "Ce chiffre est faux et il ne faut le citer dans aucune circonstance."
+   ],
+   "a": 2,
+   "why": [
+    "Non : appartenir à la région ne suffit pas, les écarts entre les pays de cette analyse sont eux-mêmes considérables.",
+    "Non : arrondir ne corrige rien, c'est l'attribution du chiffre à Madagascar qui pose problème, pas sa décimale.",
+    "Oui : le chiffre est valide pour ce qu'il mesure, à condition de dire de quels pays il vient.",
+    "Non : le chiffre est solide et utile pour dire que le phénomène n'est pas importé, il ne doit simplement pas être présenté comme malgache."
+   ],
+   "x": "L'analyse multi-pays donne 38,8 % d'élèves harcelés dans onze pays d'Afrique subsaharienne, avec de fortes différences d'un pays à l'autre, et Madagascar n'en fait pas partie <a class=\"cite\" data-ref=\"aboagye2021a\"></a>. Il sert à dire que le harcèlement n'est pas un problème importé ; pour parler des élèves malgaches, c'est la donnée nationale qu'on cite <a class=\"cite\" data-ref=\"who2025\"></a>. L'encadré de la section <a href=\"#dix-phrases-h\">les dix phrases à retenir</a> précise ce qu'il ne faut pas leur faire dire.",
+   "kind": "appliquer",
+   "section": "dix-phrases-h"
+  },
+  {
+   "q": "Devant une assemblée de parents, vous citez le chiffre de 62,9 % d'adolescents dont les parents ne comprennent jamais ou rarement leurs soucis. Comment le commentez-vous ?",
+   "o": [
+    "Il montre que beaucoup de parents malgaches se désintéressent aujourd'hui de leurs enfants.",
+    "Il dit qu'entre ce qu'un adolescent vit et ce qu'il arrive à en dire à la maison, il y a un écart.",
+    "Il traduit surtout la tendance des adolescents à exagérer leurs difficultés à cet âge.",
+    "Il justifie que les parents surveillent de plus près le téléphone de leurs enfants."
+   ],
+   "a": 1,
+   "why": [
+    "Non : lire ce chiffre comme un désintérêt accuse les familles présentes et ferme la discussion au lieu de l'ouvrir.",
+    "Oui : c'est un écart de parole, et c'est exactement ce qu'une association qui forme des adultes à écouter peut réduire.",
+    "Non : c'est une façon de disqualifier la parole des jeunes, alors que ce sont eux qu'on a interrogés.",
+    "Non : la surveillance ne comble pas un écart de parole, elle a plutôt tendance à le creuser."
+   ],
+   "x": "Le chiffre vient de l'enquête nationale menée auprès de 2 440 élèves de 13 à 17 ans <a class=\"cite\" data-ref=\"who2025\"></a> et mesure ce que les adolescents disent de leurs parents, pas l'affection de ceux-ci. Il se lit à côté d'un autre constat malgache : en 2018, environ la moitié des personnels scolaires interrogés considéraient la violence physique entre élèves comme un jeu <a class=\"cite\" data-ref=\"ibcr2018\"></a>. Tant qu'aucun adulte ne prend au sérieux ce que vit l'enfant, celui-ci n'a personne à qui parler.",
+   "kind": "appliquer",
+   "section": "chiffres-h"
+  },
+  {
+   "q": "Dans votre club de jeunes, un garçon de 13 ans humilie régulièrement deux plus petits, et il est lui-même la cible d'un groupe de plus grands. Un encadrant propose de l'exclure. Que répondez-vous ?",
+   "o": [
+    "C'est le profil le plus à risque de difficultés : il a besoin d'aide autant que d'un cadre.",
+    "C'est le profil le plus solide du groupe, puisqu'il sait manifestement se défendre seul.",
+    "Il a cessé d'être une victime : la priorité est maintenant de le sanctionner comme auteur.",
+    "Il faut attendre de savoir quel rôle il tient vraiment avant de décider quoi que ce soit."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : les enfants à la fois victimes et auteurs cumulent les facteurs de risque et sont ceux qui vont le plus mal.",
+    "Non : se défendre en faisant subir n'est pas un signe de solidité, c'est le signe d'un cumul de difficultés.",
+    "Non : c'est exactement l'erreur la plus fréquente, punir ce profil au lieu de l'aider, alors qu'il faut les deux.",
+    "Non : attendre laisse durer la situation pour les deux plus petits, alors que la protection ne se met pas en attente."
+   ],
+   "x": "Les enfants à la fois victimes et auteurs présentent le tableau le plus lourd <a class=\"cite\" data-ref=\"cook2010\"></a>, et le harcèlement est par ailleurs associé à l'automutilation non suicidaire <a class=\"cite\" data-ref=\"huang2022\"></a>. Poser un cadre pour protéger les plus petits et proposer une aide à ce garçon ne s'opposent pas : c'est la même décision. L'exclusion seule règle la gêne de l'adulte, pas la situation de l'enfant.",
+   "kind": "appliquer",
+   "section": "dix-phrases-h"
+  },
+  {
+   "q": "Une mère vous appelle : elle vient d'apprendre le nom de l'élève qui harcèle son fils et veut téléphoner ce soir à la famille de cet élève. Que lui conseillez-vous ?",
+   "o": [
+    "D'appeler la famille dès ce soir pour régler la chose entre adultes, avant que cela s'aggrave.",
+    "De demander à l'école d'organiser une rencontre entre les deux enfants pour qu'ils s'expliquent.",
+    "D'attendre de savoir précisément qui a commencé avant de prendre la moindre mesure.",
+    "De sécuriser d'abord son fils et de passer par l'école, sans contacter l'auteur ni sa famille."
+   ],
+   "a": 3,
+   "why": [
+    "Non : contacter soi-même la famille de l'auteur expose l'enfant à des représailles et met l'école hors du circuit.",
+    "Non : la confrontation entre l'enfant et celui qui lui fait du mal est précisément ce qu'il ne faut jamais organiser.",
+    "Non : chercher qui a commencé avant de protéger inverse l'ordre, et c'est pendant ce temps que la situation dure.",
+    "Oui : protéger d'abord, qualifier ensuite, et faire porter la démarche par l'institution scolaire."
+   ],
+   "x": "La règle commune à toutes les situations est la même : protéger d'abord, qualifier ensuite, sans jamais organiser de face-à-face entre l'enfant et l'auteur, et sans contacter soi-même l'auteur ou sa famille <a class=\"cite\" data-ref=\"nasem2016,defenseurdesdroits2023\"></a>. L'appel du soir est tentant parce qu'il donne l'impression d'agir vite ; il déplace en réalité le conflit entre deux familles. Écrire et dater ce que l'enfant a rapporté, puis saisir l'école, protège mieux et laisse une trace.",
+   "kind": "appliquer",
+   "section": "dix-phrases-h"
+  },
+  {
+   "q": "Un adolescent harcelé depuis des mois vous dit à voix basse qu'il pense à mourir. Quelle est la conduite immédiate ?",
+   "o": [
+    "Attendre quelques jours pour vérifier que ce n'était pas une parole dite sous le coup de l'émotion.",
+    "Ne pas le laisser seul, écarter les moyens dangereux, l'accompagner vers un service d'urgence.",
+    "Appeler la ligne 147 et s'en tenir à l'orientation qui vous sera indiquée par téléphone.",
+    "Lui promettre que vous n'en parlerez à personne, pour qu'il continue de se confier à vous."
+   ],
+   "a": 1,
+   "why": [
+    "Non : attendre pour voir laisse l'adolescent seul au moment précis où la présence d'un adulte compte le plus.",
+    "Oui : ce sont les trois gestes, dans cet ordre, et ils ne demandent aucune compétence spécialisée.",
+    "Non : le 147 est une ligne de signalement des violences et d'orientation, ce n'est pas une ligne de crise suicidaire.",
+    "Non : promettre le secret est une promesse qu'on ne pourra pas tenir et qui empêche d'aller chercher de l'aide."
+   ],
+   "x": "La conduite tient en trois gestes : rester avec lui, retirer les moyens dangereux, accompagner sans attendre vers un service d'urgence ou de psychiatrie. Il n'existe pas à Madagascar de ligne nationale de crise ; la Ligne Verte 147 est une ligne de signalement des violences et d'orientation, gratuite et joignable en permanence <a class=\"cite\" data-ref=\"moov2026ligne147\"></a>. Le harcèlement subi augmente le risque d'idées suicidaires, ce qui est une raison d'agir tôt et non une fatalité <a class=\"cite\" data-ref=\"vangeel2022,bezie2025\"></a>.",
+   "kind": "trancher",
+   "section": "dix-phrases-h"
+  },
+  {
+   "q": "Dans la cour, un élève est humilié chaque récréation devant un groupe qui rit. L'école vous demande par quoi commencer. Que proposez-vous ?",
+   "o": [
+    "Conseiller à la cible de ne plus montrer aucune réaction pour que les autres finissent par se lasser.",
+    "Punir collectivement la classe entière, afin que le groupe fasse lui-même cesser la scène.",
+    "Travailler avec les témoins : s'ils cessent de rire et vont vers la cible, l'auteur perd son public.",
+    "Attendre qu'un coup soit porté, parce que rien n'est encore qualifiable en l'état actuel."
+   ],
+   "a": 2,
+   "why": [
+    "Non : faire porter la solution par la cible revient à lui demander de régler seule une situation de groupe.",
+    "Non : la punition collective soude le groupe contre la victime, que l'on soupçonne d'avoir parlé.",
+    "Oui : le harcèlement est un phénomène de groupe, et l'attitude des témoins fait basculer la scène.",
+    "Non : attendre le coup applique un critère de gravité physique qui ne fait pas partie de la définition."
+   ],
+   "x": "Le harcèlement se joue devant un public et pour un public : quand les témoins cessent de rire et se tournent vers la cible, l'auteur perd ce qu'il venait chercher <a class=\"cite\" data-ref=\"salmivalli2010\"></a>. Les rôles observés dans la cour ne se réduisent d'ailleurs pas à l'auteur et à la victime : renforçateurs, assistants, défenseurs et témoins passifs y ont chacun leur place <a class=\"cite\" data-ref=\"salmivalli1996\"></a>. C'est ce qui rend le travail sur le groupe plus efficace que l'action sur un seul élève.",
+   "kind": "appliquer",
+   "section": "dix-phrases-h"
+  },
+  {
+   "q": "Après une réunion, un père vous dit : « Chez nous une bonne gifle, ça calme et ça fait obéir. » Que lui répondez-vous, sans le juger ?",
+   "o": [
+    "Que la punition physique est associée à davantage d'agressivité, sans le bénéfice éducatif espéré.",
+    "Qu'elle fonctionne sur le moment, et que c'est seulement à long terme qu'elle perd son effet.",
+    "Qu'elle n'a été étudiée qu'en Europe, et qu'on ne peut donc rien en conclure ici.",
+    "Qu'elle est sans effet mesurable, ni bénéfique ni nuisible, sur le comportement de l'enfant."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : c'est le résultat convergent des synthèses, et il se discute par ses effets, pas par la morale.",
+    "Non : concéder une efficacité immédiate laisse croire qu'il s'agit d'un arbitrage, alors que les effets vont dans un seul sens.",
+    "Non : des programmes d'appui aux parents ont été évalués en Afrique australe, la recherche ne s'arrête pas à l'Europe.",
+    "Non : l'absence d'effet n'est pas ce que trouvent les synthèses, qui retrouvent des associations défavorables."
+   ],
+   "x": "Les synthèses portant sur des dizaines d'études, y compris des suivis dans le temps, retrouvent des associations défavorables et jamais l'obéissance durable espérée <a class=\"cite\" data-ref=\"gershoff2016,heilmann2021\"></a>. Des façons de faire autrement ont été évaluées en Afrique australe, animées par des membres formés de la communauté <a class=\"cite\" data-ref=\"cluver2018\"></a>. Proposer une alternative concrète marche mieux que reprocher un geste : la discipline violente reste très répandue dans les familles <a class=\"cite\" data-ref=\"instat2019mics,instat2026\"></a>.",
+   "kind": "appliquer",
+   "section": "dix-phrases-h"
+  },
+  {
+   "q": "Un directeur d'établissement vous écoute puis demande : « Concrètement, ça marche vos programmes ? » Quelle réponse est à la fois honnête et solide ?",
+   "o": [
+    "Promettre une baisse d'environ 50 % des cas dès la première année d'application.",
+    "Répondre qu'une journée de sensibilisation bien conduite suffit à faire baisser le harcèlement.",
+    "Reconnaître qu'aucun programme n'a jamais démontré le moindre effet où que ce soit.",
+    "Annoncer des effets réels mais modestes, environ 15 à 16 % de victimes en moins, si le travail est long et collectif."
+   ],
+   "a": 3,
+   "why": [
+    "Non : annoncer 50 % vous fera perdre la confiance du directeur dès la première évaluation décevante.",
+    "Non : aucune intervention unique n'a montré qu'elle faisait baisser durablement le harcèlement.",
+    "Non : c'est l'excès inverse, les programmes complets ont bien démontré des effets, modestes mais réels.",
+    "Oui : c'est l'ordre de grandeur mesuré, et la condition posée est ce qui rend l'annonce crédible."
+   ],
+   "x": "Les programmes complets réduisent d'environ 15 à 16 % le fait d'être victime et de 19 à 20 % le fait de harceler <a class=\"cite\" data-ref=\"gaffney2021a\"></a> ; ce qui compte le plus, ce sont des adultes formés, des règles travaillées et une durée suffisante <a class=\"cite\" data-ref=\"gaffney2021b\"></a>. Une intervention unique garde sa valeur comme porte d'entrée vers un partenariat avec l'école et comme occasion de repérage. Dire cela devant un directeur est la position la plus honnête, et aussi la plus solide.",
+   "kind": "trancher",
+   "section": "parcours-h"
+  },
+  {
+   "q": "Vous préparez une demande de financement et vous voulez citer le programme ougandais d'école entière évalué par essai randomisé. Que pouvez-vous en dire sans vous tromper ?",
+   "o": [
+    "Que le même programme coûterait environ quinze dollars par élève et par an dans votre association.",
+    "Qu'il visait la violence des adultes de l'école, dans un essai financé : à adapter et à réévaluer ici.",
+    "Qu'il a fait reculer de moitié le harcèlement entre élèves dans les écoles participantes.",
+    "Qu'il ne vous apprend rien d'utile, puisqu'il a été conduit dans un autre pays que le vôtre."
+   ],
+   "a": 1,
+   "why": [
+    "Non : ce coût a été observé dans un essai financé et supervisé, il ne se transpose pas tel quel à une association sans financement extérieur.",
+    "Oui : la cible et les conditions doivent être dites, et c'est ce qui rend la référence utilisable.",
+    "Non : l'essai portait sur la violence physique du personnel envers les élèves, pas sur le harcèlement entre pairs.",
+    "Non : c'est une preuve africaine de haut niveau, qui indique une direction ; l'écarter revient à se priver de l'argument le plus fort."
+   ],
+   "x": "L'essai a réduit la violence physique du personnel scolaire envers les élèves dans des écoles primaires à faibles ressources <a class=\"cite\" data-ref=\"devries2015\"></a>, pour un coût d'environ quinze dollars par élève et par an dans les conditions de l'étude <a class=\"cite\" data-ref=\"greco2018\"></a>. Le cadre ADAPT résume la conduite à tenir : on adapte le contenu, on garde la logique d'action, on réévalue sur place <a class=\"cite\" data-ref=\"mooreg2021\"></a>. Une bonne demande de financement cite la preuve et nomme l'écart de contexte.",
+   "kind": "trancher",
+   "section": "dix-phrases-h"
+  },
+  {
+   "q": "Un enseignant vous met en difficulté : « Vous dites 38,8 %, mais j'ai lu 46,35 % dans une autre étude africaine. Qui ment ? » Que lui expliquez-vous ?",
+   "o": [
+    "Que les définitions, les périodes de rappel et les modes de recueil diffèrent d'une étude à l'autre.",
+    "Que l'une des deux équipes a nécessairement commis une erreur de calcul dans son analyse.",
+    "Que le harcèlement a fortement augmenté entre les deux enquêtes, ce qui explique tout l'écart.",
+    "Qu'il faut retenir le chiffre le plus élevé, plus prudent quand on veut alerter les familles."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : c'est la vraie raison, et c'est aussi pourquoi on ne classe pas les pays les uns par rapport aux autres.",
+    "Non : supposer une erreur de calcul évite la vraie question, qui est de savoir ce que chaque chiffre mesure.",
+    "Non : rien ne permet d'attribuer cet écart à une évolution dans le temps, les deux mesures ne sont pas comparables.",
+    "Non : choisir le chiffre le plus élevé n'est pas de la prudence, c'est un biais que l'on vous reprochera."
+   ],
+   "x": "Une méta-analyse africaine portant sur 25 études et 41 716 adolescents trouve une prévalence groupée de 46,35 % avec une hétérogénéité extrême entre les études incluses <a class=\"cite\" data-ref=\"rtbey2025\"></a>, tandis que l'analyse multi-pays donne 38,8 % <a class=\"cite\" data-ref=\"aboagye2021a\"></a>. L'écart ne traduit pas une contradiction entre chercheurs mais des définitions, des périodes de rappel et des modes de recueil différents <a class=\"cite\" data-ref=\"barchi2025,benyishay2024\"></a>. La question à poser devant tout chiffre reste : de quoi parle-t-il exactement, et sur quelle période ?",
+   "kind": "trancher",
+   "section": "chiffres-h"
+  },
+  {
+   "q": "Un directeur vous demande : « Donnez-moi le programme dont on a prouvé qu'il marche à Madagascar, je l'applique dès la rentrée. » Quelle réponse est honnête ?",
+   "o": [
+    "Que les programmes efficaces ailleurs produisent les mêmes effets ici, à condition d'être bien appliqués.",
+    "Qu'on ne sait à peu près rien du harcèlement à Madagascar, faute de données disponibles.",
+    "Qu'aucun programme n'a été évalué à Madagascar, et qu'aucun outil de repérage n'a été validé en malgache.",
+    "Qu'une étude de suivi malgache montre ce que deviennent les enfants harcelés dix ans après."
+   ],
+   "a": 2,
+   "why": [
+    "Non : c'est précisément la généralisation que les données ne permettent pas, aucun de ces programmes n'a été évalué ici.",
+    "Non : c'est excessif et cela vous décrédibilise, puisqu'on dispose d'une enquête nationale solide sur la prévalence.",
+    "Oui : c'est la ligne de partage exacte, et l'annoncer d'emblée vaut mieux que de la découvrir en cours de projet.",
+    "Non : cette étude de suivi n'existe pas à Madagascar, c'est justement l'une des lacunes identifiées."
+   ],
+   "x": "On sait combien d'élèves malgaches déclarent avoir été harcelés <a class=\"cite\" data-ref=\"who2025\"></a> et quels composants de programme comptent le plus ailleurs <a class=\"cite\" data-ref=\"gaffney2021b\"></a>, mais aucun programme n'a été évalué à Madagascar <a class=\"cite\" data-ref=\"edwards2024\"></a> et aucun outil de repérage n'y a été traduit et validé <a class=\"cite\" data-ref=\"turner2024,smith2016\"></a>. Dire « on ne sait pas » n'est pas un aveu de faiblesse : c'est ce qui distingue une formation sérieuse d'une campagne de communication, comme le pose la section <a href=\"#sait-ignore-h\">ce que l'on sait, ce que l'on ignore</a>. Cela ouvre d'ailleurs la seule proposition sérieuse : adapter, appliquer et mesurer sur place.",
+   "kind": "trancher",
+   "section": "sait-ignore-h"
+  },
+  {
+   "q": "À la fin de la formation, chaque participant écrit une chose qu'il change chez lui. Quelle formulation répond le mieux à la consigne ?",
+   "o": [
+    "« Sensibiliser tout mon quartier au harcèlement scolaire dans les mois qui viennent. »",
+    "« Devenir un adulte plus à l'écoute et plus bienveillant avec les jeunes au quotidien. »",
+    "« Relire l'ensemble des modules du site une deuxième fois d'ici la fin de l'année. »",
+    "« Demander chaque soir comment s'est passée la récréation, à partir de lundi. »"
+   ],
+   "a": 3,
+   "why": [
+    "Non : l'intention est généreuse mais l'objectif est trop vaste pour être tenu, et rien ne permettra de vérifier qu'il l'a été.",
+    "Non : c'est une qualité, pas un geste : on ne saura pas dans quinze jours si l'engagement a été tenu.",
+    "Non : relire est un projet de lecture, pas un changement dans la façon de faire avec un enfant.",
+    "Oui : petit, concret, daté et vérifiable dans les quinze jours, c'est exactement le format demandé."
+   ],
+   "x": "Ce qui fait la différence n'est pas la quantité d'information transmise mais le fait que des adultes changent quelque chose dans leur pratique quotidienne <a class=\"cite\" data-ref=\"gaffney2021b\"></a>. Un engagement se rédige donc petit, concret et vérifiable dans les quinze jours : demander comment s'est passée la récréation plutôt que si les devoirs sont faits, ou noter et dater ce qu'un enfant a confié. Les intentions vastes rassurent sur le moment et ne survivent pas à la semaine suivante ; la section <a href=\"#engagement-h\">mon engagement</a> propose d'en écrire deux, pas dix.",
+   "kind": "trancher",
+   "section": "engagement-h"
+  }
+ ]
+}

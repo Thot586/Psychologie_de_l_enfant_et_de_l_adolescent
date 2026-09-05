@@ -1,0 +1,71 @@
+{
+ "intro": "Six situations, à classer comme vous le feriez faire à un groupe. Pour chacune, dites de quoi il s'agit, puis cochez les critères présents : la répétition, le déséquilibre de pouvoir, et le retentissement sur l'enfant, c'est-à-dire le fait qu'il ne puisse pas se défendre et qu'il en souffre.",
+ "options": [
+  "Harcèlement entre élèves",
+  "Conflit ordinaire entre enfants",
+  "Châtiment corporel infligé par un adulte",
+  "Discipline sans violence"
+ ],
+ "items": [
+  {
+   "sit": "Un élève est bousculé chaque matin à l'entrée de l'école par trois plus grands, qui rient avec les autres.",
+   "a": 0,
+   "why": "Les trois critères sont réunis : cela se répète, ils sont trois contre un et plus âgés, et l'enfant ne peut pas se défendre. Le rire des autres est un renforcement, pas un détail.",
+   "crit": {
+    "rep": true,
+    "pow": true,
+    "ret": true
+   }
+  },
+  {
+   "sit": "Deux élèves du même âge se battent une fois, après un désaccord au jeu, et se reparlent le lendemain.",
+   "a": 1,
+   "why": "Un épisode unique, à forces comparables, sans emprise durable : c'est un conflit. Il demande une réponse éducative, pas une procédure de protection.",
+   "crit": {
+    "rep": false,
+    "pow": false,
+    "ret": false
+   }
+  },
+  {
+   "sit": "Un enseignant frappe un élève qui n'a pas fait ses devoirs.",
+   "a": 2,
+   "why": "C'est une violence exercée par un adulte de l'école, et non du harcèlement entre élèves. En Afrique, cette violence-là est au moins aussi centrale que celle entre pairs, et c'est sur elle que porte la preuve d'efficacité la plus solide du continent.",
+   "crit": {
+    "rep": false,
+    "pow": true,
+    "ret": true
+   }
+  },
+  {
+   "sit": "Un enseignant fait rester un élève après la classe pour refaire un travail bâclé, et le lui explique.",
+   "a": 3,
+   "why": "Une exigence claire, expliquée, sans douleur infligée : c'est de la discipline. La distinguer explicitement du châtiment corporel évite de braquer les enseignants avant même de commencer.",
+   "crit": {
+    "rep": false,
+    "pow": false,
+    "ret": false
+   }
+  },
+  {
+   "sit": "Depuis trois semaines, un groupe de la classe publie chaque soir des photos moquant l'apparence d'une élève, et d'autres partagent.",
+   "a": 0,
+   "why": "Répétition, audience élargie et impossibilité de se soustraire : le numérique ne crée pas un problème nouveau, il retire le refuge du soir et de la maison.",
+   "crit": {
+    "rep": true,
+    "pow": true,
+    "ret": true
+   }
+  },
+  {
+   "sit": "Une élève est régulièrement exclue des jeux et des groupes de travail par les mêmes camarades, sans qu'un mot soit prononcé contre elle.",
+   "a": 0,
+   "why": "La mise à l'écart répétée est une forme de harcèlement, souvent invisible pour les adultes parce qu'elle ne fait aucun bruit. C'est la situation la plus fréquemment classée à tort en « il n'y a rien ».",
+   "crit": {
+    "rep": true,
+    "pow": true,
+    "ret": true
+   }
+  }
+ ]
+}

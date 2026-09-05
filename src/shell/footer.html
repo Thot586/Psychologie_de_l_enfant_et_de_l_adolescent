@@ -1,0 +1,35 @@
+</div><!-- .wrap -->
+<footer class="foot" id="foot">
+  <div class="inner">
+    <p class="author">{{author}}</p>
+    <p class="lic">Contenu sous licence <a href="{{license_url}}" target="_blank" rel="noopener license">{{license_name}}</a> : partage et adaptation libres pour un usage non commercial, avec attribution et sous la même licence. Cet outil pédagogique ne remplace pas une consultation.</p>
+    <ul class="links">{{footer_links}}</ul>
+    <p class="clear"><button type="button" class="lnk" data-clear-data>Effacer mes données sur cet appareil</button> <span class="small">(progression, réglages, copie hors ligne)</span></p>
+    <p class="build">Version {{build_id}} · <a href="{{repo_url}}" target="_blank" rel="noopener" class="plain">code source</a></p>
+  </div>
+</footer>
+<nav class="bottombar" id="bottombar" aria-label="Navigation rapide">
+  {{bottom_prev}}
+  <button type="button" id="bbMenu" aria-label="Ouvrir le sommaire"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Sommaire</button>
+  <button type="button" id="bbTop" aria-label="Retour en haut"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>Haut</button>
+  {{bottom_next}}
+</nav>
+<button type="button" class="totop" id="totop" aria-label="Retour en haut"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<div class="pop" id="pop" role="dialog" aria-label="Référence" aria-modal="false">
+  <button class="x" id="popx" type="button" aria-label="Fermer">×</button>
+  <div class="pt">Référence</div>
+  <div id="popb"></div>
+  <div class="pa"><a href="#" id="popsrc" target="_blank" rel="noopener">Ouvrir la source</a><a href="{{root}}references.html" id="popbib">Voir dans la bibliographie</a></div>
+</div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" tabindex="-1">
+  <div class="grip" aria-hidden="true"></div>
+  <div class="sh"><span class="kind" id="sheetKind">Glossaire</span><button class="x" id="sheetx" type="button" aria-label="Fermer et revenir à la lecture">×</button></div>
+  <div class="sb" id="sheetBody"><h2 id="sheetTitle"></h2></div>
+  <div class="sf" id="sheetFoot"></div>
+</div>
+<div class="banner" id="banner" role="status" aria-live="polite"></div>
+<script type="application/json" id="refs-data">{{refs_json}}</script>
+<script type="application/json" id="gloss-data">{{gloss_json}}</script>
+<script type="module" src="{{root}}assets/js/app.js?v={{build_id}}"></script>
+</body>
+</html>

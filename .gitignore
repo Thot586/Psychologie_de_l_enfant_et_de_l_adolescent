@@ -1,0 +1,18 @@
+# captures et fichiers de travail jamais publiés
+*.jpeg
+*.jpg
+*.png.tmp
+05-septembre-2026/
+# python
+__pycache__/
+*.pyc
+# système
+.DS_Store
+Thumbs.db
+desktop.ini
+# temporaires
+*.tmp
+*.bak
+.claude/
+# pages de test locales
+_*.html

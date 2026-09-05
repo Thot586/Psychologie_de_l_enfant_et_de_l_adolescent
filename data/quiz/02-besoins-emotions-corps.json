@@ -1,0 +1,158 @@
+{
+ "title": "Lire un comportement avant d'y répondre",
+ "intro": "Huit situations de terrain. Chacune vérifie non pas ce que vous avez lu, mais ce que vous feriez dans les trente secondes qui suivent. Répondez avant d'ouvrir la correction : chercher la réponse ancre mieux que relire la page.",
+ "questions": [
+  {
+   "q": "Il est 11 h 30. Fara, 5 ans, renverse sa chaise et jette son cahier par terre. Vous arrêtez le geste, puis vous vous posez une question. Laquelle est la plus utile ?",
+   "o": [
+    "« Qui a commencé ? » : identifier la fautive avant de décider de la sanction.",
+    "« A-t-elle un trouble du comportement qu'il faudrait faire évaluer ? »",
+    "« De quoi a-t-elle besoin maintenant, et que ne sait-elle pas encore faire ? »",
+    "« Comment obtenir qu'elle obéisse et reprenne son travail tout de suite ? »"
+   ],
+   "a": 2,
+   "why": [
+    "Non : chercher la coupable rétablit l'ordre du groupe mais ne dit rien de ce qui a fait déborder Fara, et la scène se rejouera demain à la même heure.",
+    "Non : un épisode isolé n'est pas un signe de trouble ; ce sont la durée, la perte d'acquis et le retentissement quotidien qui feraient réfléchir, pas une crise de fin de matinée.",
+    "Oui : c'est la question qui descend sous la pointe de l'iceberg, vers la faim, la fatigue, la honte, ou une compétence qui n'est pas encore là.",
+    "Non : « comment la faire obéir ? » est justement la question que la page propose de remplacer ; elle règle la minute qui vient et laisse entier ce qui a fait déborder Fara."
+   ],
+   "x": "Le comportement est la seule partie visible ; dessous il y a un besoin, une émotion ou une compétence manquante, et beaucoup de crises de fin de matinée s'expliquent simplement par la faim ou la fatigue. Nommer ce que l'on ressent et se calmer s'apprennent, d'abord avec un adulte <a class=\"cite\" data-ref=\"compas2017,spf2022cps\"></a>, et à 5 ans le contrôle volontaire de ses réactions est encore en construction <a class=\"cite\" data-ref=\"rothbart2007\"></a>. Arrêter le geste reste nécessaire : lire le besoin n'est pas une excuse, c'est un changement de question (voir <a href=\"#iceberg-h\">L'iceberg</a>).",
+   "kind": "comprendre",
+   "section": "iceberg-h"
+  },
+  {
+   "q": "Dans votre association, un bénévole propose : « Occupons-nous d'abord de ce qu'ils mangent. Les félicitations et le sentiment d'être quelqu'un, on verra quand les familles iront mieux. » Que lui répondez-vous ?",
+   "o": [
+    "Les besoins coexistent : un enfant qui a faim a aussi besoin, aujourd'hui, d'être reconnu.",
+    "Il a raison : tant que le ventre est vide, l'estime de soi ne peut pas se construire.",
+    "Cela dépend de l'âge : le matériel prime chez les petits, l'estime compte à l'adolescence.",
+    "L'ordre est bon, mais il faut placer la sécurité avant l'estime dans la pyramide."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : les besoins ne s'empilent pas, ils coexistent, et une félicitation précise ne coûte rien ni n'attend l'amélioration matérielle.",
+    "Non : c'est la lecture en pyramide, commode à enseigner mais que les données internationales ne confirment pas.",
+    "Non : l'âge ne crée pas de hiérarchie des besoins ; compter pour quelqu'un se retrouve à tout âge, y compris chez le tout-petit.",
+    "Non : réordonner les étages conserve le postulat erroné, celui d'un ordre obligatoire de satisfaction."
+   ],
+   "x": "L'étude de référence, menée auprès de personnes de 123 pays, confirme l'existence de besoins universels mais infirme la hiérarchie : estime, appartenance et autonomie contribuent au bien-être même lorsque les besoins matériels ne sont pas satisfaits <a class=\"cite\" data-ref=\"tay2011\"></a>. Le cadre international des soins attentifs retient d'ailleurs cinq composantes indissociables, et non superposées <a class=\"cite\" data-ref=\"whounicef2018nurturingcare,who2020ecd\"></a>. En contexte de pauvreté durable, reporter le besoin d'estime revient à le reporter indéfiniment (voir <a href=\"#besoins-h\">Les besoins ne s'empilent pas</a>).",
+   "kind": "comprendre",
+   "section": "besoins-h"
+  },
+  {
+   "q": "Nirina, 8 ans : un camarade s'est moqué de ses chaussures et il vient de le frapper. Il pleure de rage. Quelle réaction d'adulte tient le cadre sans nier ce qu'il ressent ?",
+   "o": [
+    "« Calme-toi d'abord, on parlera quand tu seras calme », et vous l'attendez à distance.",
+    "« On ne se met pas en colère pour si peu, il plaisantait », et vous les renvoyez jouer.",
+    "« Si tu ne supportes pas, défends-toi autrement la prochaine fois », et vous les séparez.",
+    "« Tu as le droit d'être en colère. Tu n'as pas le droit de frapper. On cherche quoi faire. »"
+   ],
+   "a": 3,
+   "why": [
+    "Non : à 8 ans, se calmer s'apprend encore avec un adulte présent ; renvoyé à lui-même, Nirina apprend surtout que l'adulte s'éloigne quand ça déborde.",
+    "Non : décréter que l'émotion est disproportionnée ne la fait pas disparaître, et cela enseigne que se plaindre d'une moquerie ne sert à rien.",
+    "Non : renvoyer l'enfant à sa propre défense laisse la moquerie sans réponse et fait de la force le mode de règlement admis dans le groupe.",
+    "Oui : l'émotion est accueillie, le comportement est encadré, et la phrase ouvre déjà sur ce qui sera fait de cette colère."
+   ],
+   "x": "On ne décide pas de ce que l'on ressent ; on apprend à en faire quelque chose, et c'est cette distinction qui permet d'être ferme sans être dur. Nommer l'émotion ne l'augmente pas : c'est le premier des gestes que l'on apprend pour la réguler, et les stratégies actives — résoudre le problème, chercher du soutien, réévaluer la situation — sont associées à moins de symptômes anxieux et dépressifs, alors que l'évitement et la rumination sont associés à davantage <a class=\"cite\" data-ref=\"compas2017\"></a>. Ces gestes s'enseignent explicitement, ils ne viennent pas tout seuls <a class=\"cite\" data-ref=\"spf2022cps\"></a>.",
+   "kind": "appliquer",
+   "section": "emotions-h"
+  },
+  {
+   "q": "Tiana, 9 ans, arrive tôt, s'assoit au bord du terrain et regarde les autres jouer toute la récréation. Il vous dit qu'il aimerait bien jouer avec eux. Que mettez-vous en place lundi ?",
+   "o": [
+    "Vous l'encouragez devant le groupe à aller demander lui-même s'il peut jouer.",
+    "Vous lui confiez une tâche à deux avec un enfant nommé, et vous restez à côté au début.",
+    "Vous demandez à trois enfants populaires d'aller le chercher et de l'intégrer au jeu.",
+    "Vous le laissez tranquille : certains enfants préfèrent vraiment être seuls."
+   ],
+   "a": 1,
+   "why": [
+    "Non : demander à entrer est justement ce qu'il n'ose pas faire, et l'exiger en public ajoute le risque d'un refus devant témoins.",
+    "Oui : on baisse le coût d'entrée par un partenaire désigné, une tâche concrète et un adulte proche, au lieu d'exiger la compétence qui manque.",
+    "Non : déléguer l'accueil à des enfants de statut élevé installe Tiana en protégé et rend son lien dépendant de leur bon vouloir.",
+    "Non : c'est confondre le goût de la solitude avec la timidité ; ici le désir de contact est dit, c'est la peur qui bloque."
+   ],
+   "x": "« Il n'a pas d'amis » recouvre des situations très différentes — isolement sans agresseur, timidité, goût réel de la solitude, codes sociaux non appris — qui n'appellent pas la même réponse <a class=\"cite\" data-ref=\"rubin2009\"></a>. Entrer dans un groupe, attendre son tour, perdre : ces habiletés s'enseignent explicitement <a class=\"cite\" data-ref=\"spf2022cps\"></a>. À Madagascar, 3,5 % des élèves de 13-17 ans déclarent n'avoir aucun ami proche, soit environ deux élèves dans une classe de soixante <a class=\"cite\" data-ref=\"who2025\"></a> (voir <a href=\"#entourage-h\">Six situations</a>).",
+   "kind": "appliquer",
+   "section": "entourage-h"
+  },
+  {
+   "q": "Rentrée des classes. Six enfants sur quarante n'ont ni chaussures correctes ni goûter, et cela se voit. Vous avez trois minutes avant de commencer l'activité. Quelle conduite protège le mieux ces six-là ?",
+   "o": [
+    "Régler chaque situation à part, plus tard et à voix basse, avec l'enfant ou sa famille.",
+    "Demander à voix haute qui n'a rien apporté, afin d'organiser un partage équitable.",
+    "Expliquer au groupe que la pauvreté n'est pas une honte, en prenant ces enfants en exemple.",
+    "Annoncer devant tous qu'aucune moquerie sur les chaussures ne sera tolérée aujourd'hui."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : ne jamais faire de l'objet manquant un sujet public est la règle qui coûte le moins et protège le plus.",
+    "Non : l'appel à voix haute désigne exactement les six enfants qu'il fallait ne pas désigner, malgré l'intention généreuse du partage.",
+    "Non : le propos est juste mais l'exemple est une exposition ; on parle de dignité en fabriquant une humiliation publique.",
+    "Non : interdire la moquerie en nommant son motif attire l'attention sur les chaussures et indique au groupe où frapper."
+   ],
+   "x": "La pauvreté qui se voit — uniforme trop court, chaussures trouées, pas de goûter — devient un signe que les autres enfants lisent immédiatement. Pauvreté, stigmatisation et harcèlement ne s'additionnent pas, ils se multiplient : chez des enfants d'Afrique australe, leur cumul élève la probabilité de trouble psychologique bien au-delà de la somme de leurs effets isolés <a class=\"cite\" data-ref=\"cluver2009\"></a>. La règle pratique tient en une phrase : on règle cela à part, à voix basse, plus tard (voir <a href=\"#corps-h\">Le corps qui change</a>).",
+   "kind": "appliquer",
+   "section": "corps-h"
+  },
+  {
+   "q": "Haja, 14 ans, était le plus bavard du groupe. Depuis deux mois il ne parle plus, a lâché le foot qu'il adorait, dort mal et manque l'école. Sa mère vous dit : « c'est l'adolescence ». Que faites-vous ?",
+   "o": [
+    "Vous la rassurez : opposition et repli sont fréquents à cet âge et passent en général seuls.",
+    "Vous posez à Haja quelques questions ciblées pour savoir s'il s'agit d'une dépression.",
+    "Vous décrivez à la mère ce que vous avez remarqué et vous proposez une orientation.",
+    "Vous attendez la fin du trimestre pour voir si les résultats scolaires remontent."
+   ],
+   "a": 2,
+   "why": [
+    "Non : le repli est effectivement fréquent à l'adolescence, mais la durée, la perte d'une activité investie et le retentissement sur le sommeil et l'école changent la lecture.",
+    "Non : repérer n'est pas diagnostiquer ; interroger un adolescent comme on remplit une grille vous met hors de votre rôle et referme souvent la porte.",
+    "Oui : remarquer, dire ce que l'on a remarqué, orienter — c'est exactement le rôle d'un adulte qui encadre, et il s'arrête là.",
+    "Non : attendre un signal scolaire fait perdre des semaines alors que les trois critères d'alerte sont déjà réunis."
+   ],
+   "x": "Ce qui alerte n'est pas le comportement lui-même mais trois choses : sa durée, la perte de capacités que l'enfant avait déjà, et son retentissement sur le sommeil, l'école, les repas et les liens <a class=\"cite\" data-ref=\"has2020tnd,oms2025adosantementale\"></a>. Environ un adolescent sur sept présente un trouble mental, et la plupart de ces troubles ne sont ni repérés ni pris en charge <a class=\"cite\" data-ref=\"oms2025adosantementale\"></a>. À Madagascar, 62,9 % des élèves de 13-17 ans estiment que leurs parents ne comprennent jamais ou rarement leurs soucis : un adulte disponible en dehors de la famille n'est pas un luxe <a class=\"cite\" data-ref=\"who2025\"></a>.",
+   "kind": "trancher",
+   "section": "entourage-h"
+  },
+  {
+   "q": "Réunion de parents. Une mère raconte qu'elle corrige son fils à la ceinture, sur la tête, plusieurs fois par semaine, et qu'il en garde des marques. Que fait l'adulte qui anime ?",
+   "o": [
+    "Il rappelle que la loi malgache interdit toute punition physique au domicile depuis des années.",
+    "Il lui propose les mêmes alternatives qu'aux autres : règle annoncée avant, réparation, félicitation.",
+    "Il note la situation et attend un deuxième récit avant d'en parler à qui que ce soit.",
+    "Il traite cela comme une maltraitance : cela appelle une protection, pas un conseil éducatif."
+   ],
+   "a": 3,
+   "why": [
+    "Non : à Madagascar le châtiment corporel demeure licite au domicile, et invoquer une interdiction qui n'existe pas décrédibilise tout le reste du message.",
+    "Non : une gifle et une correction répétée avec un objet, sur la tête, laissant des marques ne sont pas deux degrés d'une même chose.",
+    "Non : attendre un second récit fait porter le délai à l'enfant, alors que la répétition et les marques suffisent déjà à trancher.",
+    "Oui : au-delà de cette frontière, l'intention éducative annoncée ne change rien à ce qui doit être fait."
+   ],
+   "x": "La punition corporelle ordinaire est associée à plus d'agressivité et à aucun bénéfice sur l'obéissance à long terme, et l'objection de causalité inverse a été testée : elle précède et prédit l'aggravation du comportement <a class=\"cite\" data-ref=\"gershoff2016,heilmann2021\"></a>. Mais la correction avec un objet, répétée et laissant des marques, relève de la maltraitance et appelle une protection et un signalement <a class=\"cite\" data-ref=\"has2017maltraitance\"></a>. Le rappel du cadre doit rester exact : le châtiment corporel demeure licite au domicile, et 65 % des personnes interrogées dans une enquête nationale le jugent acceptable — c'est pourquoi cela se change collectivement et non par le reproche <a class=\"cite\" data-ref=\"endcp2022mdg\"></a>.",
+   "kind": "trancher",
+   "section": "sans-violence-h"
+  },
+  {
+   "q": "Samedi, quarante enfants de 6 à 14 ans, un terrain, aucun matériel. Deux grands prennent d'eux-mêmes la direction du jeu. Quelle organisation empêche le mieux une hiérarchie de s'installer ?",
+   "o": [
+    "Un jeu à éliminations : la règle est la même pour tous et les éliminés attendent la manche suivante.",
+    "Des équipes qui changent, un rôle pour chacun, et un rôle explicite confié aux deux grands.",
+    "Séparer grands et petits sur deux terrains, pour que chacun joue enfin à son niveau.",
+    "Laisser les deux grands organiser : c'est ainsi qu'ils apprennent à prendre des responsabilités."
+   ],
+   "a": 1,
+   "why": [
+    "Non : la règle est identique mais l'effet ne l'est pas ; le premier sorti est souvent le plus fragile, et le statut de perdant se fixe devant tout le monde.",
+    "Oui : on donne à la différence de force une autre forme, et un grand à qui l'on confie un rôle vérifié ne prend pas celui de chef.",
+    "Non : séparer contourne le problème sans rien enseigner, prive les petits d'un appui et les grands d'un rôle utile.",
+    "Non : la responsabilité ne s'improvise pas ; un rôle ni défini ni vérifié se transforme vite en pouvoir sur les autres."
+   ],
+   "x": "Quand des grands et des petits sont ensemble, la différence de force devient une hiérarchie si personne ne lui donne une autre forme : un grand sans rôle prend celui de chef. Félicitez ensuite précisément — « tu as expliqué la règle à un petit sans t'énerver » plutôt que « tu es gentil » — car la félicitation descriptive du comportement attendu est l'un des ingrédients des programmes de soutien à la parentalité dont l'efficacité a été mesurée par essais contrôlés <a class=\"cite\" data-ref=\"menting2013,jeong2021\"></a>. C'est ce qui rend le rôle tenable la fois suivante (voir <a href=\"#groupe-h\">Encadrer un groupe</a>).",
+   "kind": "trancher",
+   "section": "groupe-h"
+  }
+ ]
+}

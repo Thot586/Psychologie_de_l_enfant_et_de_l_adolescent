@@ -1,0 +1,54 @@
+{
+  "intro": "Huit observations rapportées par des parents ou des encadrants. Pour chacune, décidez ce que vous en faites, puis lisez la correction.",
+  "options": ["Comportement d'âge", "Signal à explorer", "Urgence"],
+  "items": [
+    {
+      "sit": "Un garçon de 7 ans se dispute avec un camarade à la récréation ; il pleure, puis ils rejouent ensemble dix minutes plus tard.",
+      "a": 0,
+      "why": "Un conflit ponctuel entre deux enfants de force comparable, suivi d'une réconciliation spontanée, est une scène ordinaire de la vie d'un groupe. Il n'y a ni répétition, ni déséquilibre, ni retentissement : on peut accompagner, on ne signale pas.",
+      "crit": { "rep": false, "pow": false, "ret": false }
+    },
+    {
+      "sit": "Une fille de 11 ans a mal au ventre chaque dimanche soir depuis six semaines, et seulement le dimanche soir.",
+      "a": 1,
+      "why": "La régularité et le lien avec le retour à l'école font de cette plainte physique un signal, pas une maladie. Un seul indice ne conclut à rien : il faut croiser avec ce que disent l'école, la fratrie et l'enfant lui-même.",
+      "crit": { "rep": true, "pow": false, "ret": true }
+    },
+    {
+      "sit": "Un garçon de 13 ans ferme la porte de sa chambre, répond sèchement et veut sortir avec ses amis sans ses parents.",
+      "a": 0,
+      "why": "Besoin d'intimité, opposition, importance des pairs : ce sont des marqueurs attendus de cet âge. Ils ne deviennent des signaux que s'ils s'accompagnent d'un changement durable dans le sommeil, l'école, l'appétit ou les relations.",
+      "crit": { "rep": false, "pow": false, "ret": false }
+    },
+    {
+      "sit": "Une élève de 15 ans demande de l'argent chaque semaine pour « une cotisation de classe » dont l'établissement n'a pas connaissance.",
+      "a": 1,
+      "why": "Des demandes d'argent répétées et non expliquées sont un motif classique de racket. La répétition est là, le déséquilibre est probable : on explore, calmement et sans accuser, en croisant avec l'école.",
+      "crit": { "rep": true, "pow": true, "ret": false }
+    },
+    {
+      "sit": "Un garçon de 14 ans dit à son entraîneur qu'il « n'a plus envie de rien » et qu'il « ne servirait à personne de toute façon ».",
+      "a": 2,
+      "why": "Ces mots expriment une souffrance qui peut aller jusqu'aux idées suicidaires : on ne remet pas cette conversation à plus tard. On reste avec lui, on lui demande simplement et directement ce qu'il pense faire, et on l'accompagne le jour même vers un adulte responsable et vers des soins.",
+      "crit": { "rep": false, "pow": false, "ret": true }
+    },
+    {
+      "sit": "Un enfant de 9 ans rentre trois fois en un mois avec des affaires abîmées et raconte chaque fois une histoire différente.",
+      "a": 1,
+      "why": "La répétition, l'atteinte matérielle et les explications qui ne tiennent pas forment un faisceau. L'enfant qui change de version cherche souvent à protéger quelqu'un, ou à éviter que l'adulte n'aggrave la situation.",
+      "crit": { "rep": true, "pow": true, "ret": false }
+    },
+    {
+      "sit": "Une élève de 16 ans découvre qu'une photo intime d'elle circule dans un groupe de discussion de la classe.",
+      "a": 2,
+      "why": "La diffusion d'une image intime d'une mineure est une infraction et le retentissement peut être immédiat. On protège d'abord : on ne rediffuse pas l'image, on conserve les traces de la conversation sans conserver l'image, on prévient l'établissement et on signale.",
+      "crit": { "rep": false, "pow": true, "ret": true }
+    },
+    {
+      "sit": "Un garçon de 12 ans, brillant jusque-là, passe de bonnes notes à des devoirs non rendus en deux mois, et ne parle plus de personne à l'école.",
+      "a": 1,
+      "why": "La chute des résultats et la disparition des noms d'amis dans les conversations sont deux des signaux les plus fréquents. Ils ne disent pas ce qui se passe : ils disent qu'il faut aller voir, en croisant l'école et la maison.",
+      "crit": { "rep": true, "pow": false, "ret": true }
+    }
+  ]
+}

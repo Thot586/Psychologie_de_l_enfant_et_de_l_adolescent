@@ -1,0 +1,578 @@
+[
+ {
+  "id": "r-2424mg2026",
+  "status": "ok",
+  "url_checked": "https://2424.mg/droits-humains-680-cas-de-violence-envers-des-enfants-identifies-en-2025-grace-a-la-ligne-verte-147/",
+  "notes": "Page accessible. Titre exact confirme : 'DROITS HUMAINS - 680 cas de violence envers des enfants identifies en 2025 grace a la ligne verte \"147\"'. Date de publication 19 juillet 2026, conforme a la reference. Contenu : 680 cas verifies sur 405 471 appels en 2025, dons d'equipement UNICEF au centre d'appels, plan d'action multisectoriel UNICEF/CUA. Auteur institutionnel (site de presse 2424.mg) et annee corrects.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-aboagye2021a",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1186/s12888-021-03337-5 (via https://api.crossref.org/works/10.1186/s12888-021-03337-5 et api.semanticscholar.org)",
+  "notes": "DOI valide. Crossref confirme : Aboagye R. G., Seidu A.-A., Hagan J. E. Jr., Frimpong J. B., Budu E., Adu C., Ayilu R. K., Ahinkorah B. O. (2021), BMC Psychiatry, vol. 21, article 325. Semantic Scholar confirme le titre complet incluant le sous-titre 'evidence from the global school-based health survey' (PMID 34210264, PMC8252267). Auteurs, ordre, annee, revue, volume et numero d'article correspondent exactement a la reference ecrite. Le suffixe 'a' est coherent avec la presence d'un second Aboagye 2021.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-aboagye2021b",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1016/j.ssmph.2021.100929 (via https://api.crossref.org/works/10.1016/j.ssmph.2021.100929)",
+  "notes": "DOI valide. Crossref confirme : Aboagye R. G., Seidu A.-A., Adu C., Cadri A., Mireku D. O., Ahinkorah B. O. (2021), 'Interpersonal violence among in-school adolescents in sub-Saharan Africa: Assessing the prevalence and predictors from the Global School-based health survey', SSM - Population Health, vol. 16, article 100929. Tous les elements (auteurs, ordre, annee, revue, volume, numero d'article) correspondent. Seule divergence purement typographique : capitalisation de 'health survey' dans le titre editeur.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-allafrica2022",
+  "status": "ok",
+  "url_checked": "https://fr.allafrica.com/stories/202211130070.html",
+  "notes": "WebFetch renvoie HTTP 403 (allAfrica bloque les agents automatises), mais la verification par recherche web confirme l'existence de l'URL exacte et le titre exact : 'Madagascar: Corruption sexuelle dans les ecoles - Une enseignante se dit etre victime de harcelement de son superieur'. Date 13 novembre 2022, coherente avec l'identifiant 202211130070. Contenu : etude Transparency International-Initiative Madagascar (phase 2, regions Atsimo Atsinanana et Boeny). Lien vivant pour un navigateur ordinaire.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-allafrica2025",
+  "status": "ok",
+  "url_checked": "https://fr.allafrica.com/stories/202508070176.html",
+  "notes": "WebFetch renvoie HTTP 403 (blocage anti-bot allAfrica), mais la recherche web confirme l'URL exacte et le titre : 'Madagascar: La corruption a l'ecole, un fleau profondement enracine'. Date du 7 aout 2025 coherente avec l'identifiant 202508070176 et avec l'atelier Transparency International/MIARINA du 4 aout 2025 evoque dans l'article. Lien accessible en navigation normale.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-allafrica2026",
+  "status": "ok",
+  "url_checked": "https://fr.allafrica.com/stories/202604160469.html",
+  "notes": "Page accessible et contenu recupere. Titre confirme : 'Madagascar: Violence educative - Les denonciations de harcelement scolaire se multiplient', date du 16 avril 2026, republie par allAfrica depuis L'Express de Madagascar (Antananarivo). Correspond a la reference. Precision APA possible mais non obligatoire : mentionner l'editeur d'origine (L'Express de Madagascar) puisque allAfrica est un agregateur.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-apa2013",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1176/appi.books.9780890425596 (via https://api.crossref.org/works/10.1176/appi.books.9780890425596)",
+  "notes": "DOI valide et enregistre chez Crossref comme monographie : 'Diagnostic and Statistical Manual of Mental Disorders', American Psychiatric Association, 2013. Correspond au DSM-5 (5e edition), conforme a la reference. Forme APA 7 standard respectee.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-arozaza-147",
+  "status": "ok",
+  "url_checked": "https://arozaza.mg/ligne-verte-147/",
+  "notes": "WebFetch echoue avec une erreur DNS locale (getaddrinfo ENOTFOUND arozaza.mg) - probleme de resolution depuis l'environnement d'audit, pas necessairement un lien mort. La recherche web retourne l'URL exacte avec le titre 'Ligne Verte 147 - Arozaza', et plusieurs sources institutionnelles (UNICEF Madagascar, Child Helpline International, avis de consultance UNICEF portant sur 'les utilisateurs de la ligne verte 147 et du site Arozaza') confirment que le site arozaza.mg est la plateforme de signalement soutenue par l'UNICEF et le ministere en charge de la Population. Metadonnees de la reference plausibles et coherentes. A revalider depuis un reseau permettant la resolution DNS du domaine .mg.",
+  "corrected_apa7": "",
+  "alternative_url": "https://childhelplineinternational.org/madagascar-ligne-verte-147-madagascar/"
+ },
+ {
+  "id": "r-arseneault2017",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1002/wps.20399 (via https://api.crossref.org/works/10.1002/wps.20399)",
+  "notes": "Crossref confirme : Louise Arseneault (2017), 'The long-term impact of bullying victimization on mental health', World Psychiatry, 16(1), 27-28. Tous les elements (auteur, annee, titre, revue, volume, numero, pages) correspondent exactement a la reference ecrite. Article en libre acces (aussi PMC5269489).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-arseneault2018",
+  "status": "broken_link",
+  "url_checked": "https://doi.org/10.1111/jcpp.12841 (via https://api.crossref.org/works/10.1111/jcpp.12841) ; https://www.eriskstudy.com/media/1256/arseneault_2018.pdf",
+  "notes": "Le DOI est valide : Crossref confirme Arseneault, L., 'Annual Research Review: The persistent and pervasive impact of being bullied in childhood and adolescence: implications for policy and practice', Journal of Child Psychology and Psychiatry, 59(4), 405-421 (date en ligne 2017, numero date 2018 : l'annee 2018 de la reference est correcte en APA). En revanche le second lien 'texte integral' vers eriskstudy.com est mort : echec TLS (OPENSSL WRONG_VERSION_NUMBER) sur https://www.eriskstudy.com/ et sur le PDF ; le site E-Risk semble avoir ete retire/migre (contenus desormais sur louise-arseneault.com). Remplacer par la version PMC en libre acces.",
+  "corrected_apa7": "Arseneault, L. (2018). Annual Research Review: The persistent and pervasive impact of being bullied in childhood and adolescence: Implications for policy and practice. Journal of Child Psychology and Psychiatry, 59(4), 405–421. https://doi.org/10.1111/jcpp.12841",
+  "alternative_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6542665/"
+ },
+ {
+  "id": "r-axford2020",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1007/s11121-020-01103-9 (via https://api.crossref.org/works/10.1007/s11121-020-01103-9)",
+  "notes": "Crossref confirme : Axford, N., Bjornstad, G., Clarkson, S., Ukoumunne, O. C., Wrigley, Z., Matthews, J., Berry, V., & Hutchings, J. (2020). 'The Effectiveness of the KiVa Bullying Prevention Program in Wales, UK: Results from a Pragmatic Cluster Randomized Controlled Trial', Prevention Science, 21(5), 615-626. Liste d'auteurs, ordre, annee, volume, numero et pages identiques a la reference ecrite.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-ball2008",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1111/j.1469-7610.2007.01821.x (via https://api.crossref.org/works/10.1111/j.1469-7610.2007.01821.x)",
+  "notes": "Crossref confirme : Ball, H. A., Arseneault, L., Taylor, A., Maughan, B., Caspi, A., & Moffitt, T. E. — 'Genetic and environmental influences on victims, bullies and bully-victims in childhood', Journal of Child Psychology and Psychiatry, 49(1), 104-112. Crossref indique 2007 comme date de publication en ligne, mais le numero (vol. 49, n°1) est date de janvier 2008 : l'annee 2008 retenue dans la reference est la bonne en APA 7. Aucune divergence.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-barker2008",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1097/CHI.0b013e31817eec98 (via https://api.crossref.org/works/10.1097/CHI.0b013e31817eec98)",
+  "notes": "Crossref confirme : Barker, E. D., Arseneault, L., Brendgen, M., Fontaine, N., & Maughan, B. (2008). 'Joint Development of Bullying and Victimization in Adolescence: Relations to Delinquency and Self-Harm', Journal of the American Academy of Child & Adolescent Psychiatry, 47(9), 1030-1038. Correspondance complete avec la reference ecrite.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-bowes2013",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1017/S0954579412001095 (via https://api.crossref.org/works/10.1017/S0954579412001095)",
+  "notes": "Crossref confirme : Bowes, L., Maughan, B., Ball, H., Shakoor, S., Ouellet-Morin, I., Caspi, A., Moffitt, T. E., & Arseneault, L. (2013). 'Chronic bullying victimization across school transitions: The role of genetic and environmental influences', Development and Psychopathology, 25(2), 333-346. Les huit auteurs, l'ordre, l'annee, le volume, le numero et les pages correspondent.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-unhrc2017",
+  "status": "ok",
+  "url_checked": "https://docs.un.org/CCPR/C/MDG/CO/4",
+  "notes": "L'URL docs.un.org repond (page de selection linguistique du Systeme de diffusion des documents de l'ONU pour la cote CCPR/C/MDG/CO/4). L'existence du document est confirmee par ailleurs : Comite des droits de l'homme, 'Observations finales concernant le quatrieme rapport periodique de Madagascar', CCPR/C/MDG/CO/4, adoptees a la 120e session, datees du 22-25 juillet 2017. Annee, organe, cote et titre de la reference sont exacts. Remarque : docs.un.org ne sert pas directement le PDF (interstitiel de langue) ; une URL editeur plus stable est disponible sur OHCHR si l'on veut un lien direct.",
+  "corrected_apa7": "",
+  "alternative_url": "https://www.ohchr.org/en/documents/concluding-observations/ccprcmdgco4-human-rights-committee-concluding-observations-fourth"
+ },
+ {
+  "id": "r-cook2010",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1037/a0020149 (via https://api.crossref.org/works/10.1037/a0020149)",
+  "notes": "Crossref confirme : Cook, C. R., Williams, K. R., Guerra, N. G., Kim, T. E., & Sadek, S. (2010). 'Predictors of bullying and victimization in childhood and adolescence: A meta-analytic investigation', School Psychology Quarterly, 25(2), 65-83. Correspondance complete (auteurs, ordre, annee, revue APA, volume, numero, pages).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-craig2009",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1007/s00038-009-5413-9",
+  "notes": "Crossref confirme : Craig W., Harel-Fisch Y., Fogel-Grinvald H., Dostaler S., Hetland J., Simons-Morton B., Molcho M., Gaspar de Mato M., Overpeck M., Due P., Pickett W., avec les groupes collectifs 'HBSC Bullying Writing Group' et 'HBSC Violence & Injuries Prevention Focus Group'. Titre, annee 2009, International Journal of Public Health, 54(S2/Suppl. 2), 216-224 : tout correspond. Seule remarque mineure : Crossref orthographie 'Gaspar de Mato' (le nom reel de l'auteure portugaise est Gaspar de Matos) et un second groupe collectif n'est pas cite dans la reference ; sans incidence.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-devries2015",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1016/S2214-109X(15)00060-1",
+  "notes": "Crossref confirme integralement : Devries, Knight, Child, Mirembe, Nakuti, Jones, Sturgess, Allen, Kyegombe, Parkes, Walakira, Elbourne, Watts, Naker (2015), 'The Good School Toolkit for reducing physical violence from school staff to primary school students: a cluster-randomised controlled trial in Uganda', The Lancet Global Health, 3(7), e378-e386. Liste d'auteurs, ordre, revue, volume, numero et pages identiques a la reference ecrite.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-eduscol",
+  "status": "metadata_mismatch",
+  "url_checked": "https://eduscol.education.fr/974/le-harcelement-entre-eleves",
+  "notes": "L'URL citee renvoie un HTTP 301 vers https://eduscol.education.gouv.fr/5028/lutter-contre-le-harcelement-entre-eleves (changement de domaine eduscol.education.fr -> eduscol.education.gouv.fr et de numero de page 974 -> 5028). La page cible existe et traite bien du harcelement entre eleves (dispositif pHARe, Journee nationale, prix Non au harcelement, barometre annuel, formation Magistere), mais son titre actuel est 'Lutter contre le harcelement entre eleves' et non 'Le harcelement entre eleves'. La page est editee par la DGESCO / Ministere de l'Education nationale. Le lien reste fonctionnel via la redirection, mais l'URL et le titre cites sont perimes. Acces direct bloque par WebFetch (403 anti-bot) ; existence et titre confirmes par recherche web.",
+  "corrected_apa7": "Éduscol. (s. d.). Lutter contre le harcèlement entre élèves. Ministère de l'Éducation nationale, Direction générale de l'enseignement scolaire. https://eduscol.education.gouv.fr/5028/lutter-contre-le-harcelement-entre-eleves",
+  "alternative_url": "https://eduscol.education.gouv.fr/5028/lutter-contre-le-harcelement-entre-eleves"
+ },
+ {
+  "id": "r-gaete2021",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.3389/fpsyg.2021.578661",
+  "notes": "Crossref confirme : Gaete J., Valenzuela D., Godoy M. I., Rojas-Barahona C. A., Salmivalli C., Araya R. (2021), 'Validation of the Revised Olweus Bully/Victim Questionnaire (OBVQ-R) Among Adolescents in Chile', Frontiers in Psychology, vol. 12, numero d'article 578661. Auteurs, annee, titre, revue, volume et numero d'article conformes.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-gaffney2021a",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1002/cl2.1143",
+  "notes": "Crossref confirme : Gaffney H., Ttofi M. M., Farrington D. P. (2021), 'Effectiveness of school-based programs to reduce bullying perpetration and victimization: An updated systematic review and meta-analysis', Campbell Systematic Reviews, 17(2), article e1143 (identifiant Crossref cl2.1143). Contenu coherent (meta-analyse de 100 evaluations de programmes anti-harcelement scolaire). Le suffixe '2021a' est justifie par la coexistence avec Gaffney et al. 2021b.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-gaffney2021b",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1016/j.jsp.2020.12.002",
+  "notes": "Crossref confirme : Gaffney H., Ttofi M. M., Farrington D. P. (2021), 'What works in anti-bullying programs? Analysis of effective intervention components', Journal of School Psychology, vol. 85, p. 37-56. Auteurs, annee, titre, revue, volume et pages identiques a la reference ecrite. Le suffixe '2021b' est coherent.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-gastineau2012",
+  "status": "ok",
+  "url_checked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3325061/",
+  "notes": "PMC3325061 confirme : Gastineau B. & Gathier L. (2012), 'Violences conjugales à Antananarivo (Madagascar) : un enjeu de santé publique', Pan African Medical Journal, vol. 11, article 23. Auteurs, annee, titre, revue, volume et numero d'article conformes. Suggestion d'amelioration APA 7 (facultative) : ajouter le DOI de l'article PAMJ (10.11604/pamj.2012.11.23.1345) plutot que le seul lien PMC.",
+  "corrected_apa7": "",
+  "alternative_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325061/"
+ },
+ {
+  "id": "r-globalinitiative2022",
+  "status": "ok",
+  "url_checked": "https://www.endcorporalpunishment.org/wp-content/uploads/country-reports/Madagascar.pdf",
+  "notes": "Le PDF existe et est accessible. Page de titre : 'Corporal punishment of children in Madagascar', 'LAST UPDATED March 2022' (metadonnees PDF : creation/modification 28 mars 2022), publie sous la double marque 'End Violence Against Children | End Corporal Punishment'. Titre, pays et date de mise a jour correspondent exactement a la reference. Le lien secondaire francais (endcorporalpunishment.org/reports-on-every-state-and-territory/madagascar-fr/) existe aussi : 'Châtiments corporels des enfants à Madagascar', mais sa derniere mise a jour affichee est avril 2019 (donc plus ancienne que le PDF anglais de mars 2022) ; a signaler si l'on cite les deux comme equivalents. Remarque de forme : l'organisation, anciennement 'Global Initiative to End All Corporal Punishment of Children', se nomme depuis 2020 'End Corporal Punishment' (initiative hebergee par End Violence Against Children) ; l'auteur corporatif pourrait etre actualise.",
+  "corrected_apa7": "End Corporal Punishment (anciennement Global Initiative to End All Corporal Punishment of Children). (2022). Corporal punishment of children in Madagascar (rapport pays, mis à jour en mars 2022). https://www.endcorporalpunishment.org/wp-content/uploads/country-reports/Madagascar.pdf",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-gonultas2022",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.3389/fpsyg.2022.815639 (via https://api.crossref.org/works/10.3389/fpsyg.2022.815639)",
+  "notes": "Crossref confirme : Seçil Gönültaş & Kelly Lynn Mulvey (2022), 'Theory of Mind as a Correlate of Bystanders' Reasoning About Intergroup Bullying of Syrian Refugee Youth', Frontiers in Psychology, 13, article 815639. Auteurs, annee, titre, revue, volume et numero d'article correspondent exactement a la reference ecrite. DOI actif.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-holt2015",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1542/peds.2014-1864 (via https://api.crossref.org/works/10.1542/peds.2014-1864)",
+  "notes": "Crossref confirme : Holt, Vivolo-Kantor, Polanin, Holland, DeGue, Matjasko, Wolfe & Reid (2015), 'Bullying and Suicidal Ideation and Behaviors: A Meta-Analysis', Pediatrics, 135(2), e496-e509. Les huit auteurs, l'annee, le titre, la revue, le volume, le numero et la pagination correspondent exactement.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-huang2022",
+  "status": "metadata_mismatch",
+  "url_checked": "https://doi.org/10.1038/s41598-022-22122-2 (via https://api.crossref.org/works/10.1038/s41598-022-22122-2)",
+  "notes": "Le DOI est valide et les auteurs (Huang, Ding, Wan, Liang, Zhang, Lu, Chen), l'annee, le titre et la revue (Scientific Reports, vol. 12) correspondent. Mais la reference ecrite s'arrete a 'Scientific Reports, 12.' et omet le numero d'article 17285 (Crossref : volume 12, issue 1, article 17285), obligatoire en APA 7 pour un article de revue en ligne sans pagination continue. Erreur de completude et non de fond.",
+  "corrected_apa7": "Huang, H., Ding, Y., Wan, X., Liang, Y., Zhang, Y., Lu, G., & Chen, C. (2022). A meta-analysis of the relationship between bullying and non-suicidal self-injury among children and adolescents. Scientific Reports, 12, 17285. https://doi.org/10.1038/s41598-022-22122-2",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-ibcr2018",
+  "status": "unverifiable",
+  "url_checked": "https://www.ibcr.org/wp-content/uploads/2018/07/Etude-sur-les-violences-envers-les-enfants-a-Madagascar_.pdf ; https://www.ibcr.org/fr/projets/recherche-sur-les-violences-faites-aux-enfants-madagascar/ ; https://www.unicef.org/madagascar/rapports/la-violence-envers-les-enfants-%C3%A0-madagascar",
+  "notes": "Les trois URL renvoient HTTP 403 a l'agent de recuperation (ibcr.org et unicef.org bloquent les robots) : impossible de confirmer directement le fichier. La recherche web confirme en revanche que l'etude existe bien : 'La violence envers les enfants a Madagascar', IBCR en partenariat avec l'UNICEF et le Ministere de la Population, de la Protection sociale et de la Promotion de la Femme, 2018 (Programme de protection de l'enfant 2015-2019), plus de 2 500 personnes rencontrees sur 12 sites ; resultat cle coherent avec l'usage fait dans le document (1 jeune sur 2 declare des violences en milieu scolaire, pres de 9 sur 10 des chatiments corporels dans la famille). Deux reserves : (a) seuls des PDF indexes du type '...-a-Madagascar-Brochure.pdf' et '...-Brochure-1-compressed.pdf' apparaissent dans les index, le fichier exact avec le suffixe '_' n'est pas confirme ; (b) la mention 'realise avec l'Institut national de la statistique pour le Comite national de protection de l'enfant' n'est corroboree par aucune source consultee — le partenaire cite est le Ministere de la Population. A verifier manuellement en ouvrant le PDF dans un navigateur.",
+  "corrected_apa7": "Bureau international des droits des enfants, & UNICEF Madagascar. (2018). La violence envers les enfants a Madagascar. IBCR. https://www.ibcr.org/fr/projets/recherche-sur-les-violences-faites-aux-enfants-madagascar/",
+  "alternative_url": "https://www.ibcr.org/wp-content/uploads/2018/07/Etude-sur-les-violences-envers-les-enfants-a-Madagascar-Brochure.pdf"
+ },
+ {
+  "id": "r-instat2026",
+  "status": "ok",
+  "url_checked": "https://www.instat.mg/p/enquete-par-grappes-a-indicateurs-multiples-mics-7-2025",
+  "notes": "HTTP 403 a la recuperation directe (instat.mg bloque les robots), mais l'URL exacte est indexee et remonte en recherche avec le titre 'Enquete par grappes a indicateurs multiples (MICS-7) 2025' : la page existe. Metadonnees coherentes : enquete INSTAT avec appui technique et financier de l'UNICEF, 19 785 a 21 000 menages, 23 regions, collecte de decembre 2024 au 9 mai 2025, resultats lances officiellement le 2 mars 2026 — l'annee de publication 2026 indiquee dans la reference est donc correcte. Sources corroborantes : communique UNICEF Madagascar et Nations Unies a Madagascar.",
+  "corrected_apa7": "",
+  "alternative_url": "https://www.unicef.org/madagascar/media/15561/file/MICS%207%20Factsheet.pdf"
+ },
+ {
+  "id": "r-karna2011",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1111/j.1467-8624.2010.01557.x (via https://api.crossref.org/works/10.1111/j.1467-8624.2010.01557.x)",
+  "notes": "Crossref confirme : Karna, Voeten, Little, Poskiparta, Kaljonen & Salmivalli (2011), 'A Large-Scale Evaluation of the KiVa Antibullying Program: Grades 4-6', Child Development, 82(1), 311-330. Correspondance complete avec la reference ecrite.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-lexpress2025",
+  "status": "ok",
+  "url_checked": "https://www.lexpress.mg/2025/08/violences-briser-le-silence-autour-du.html",
+  "notes": "Page accessible et article confirme : 'VIOLENCES - Briser le silence autour du harcelement scolaire', L'Express de Madagascar, aout 2025 (chemin d'URL /2025/08/). Contenu coherent avec l'usage : etude 2023-2024 citant 58 % des eleves de 10 a 21 ans concernes, evenement de sensibilisation organise par Psy-Kozy Madagascar, temoignages de victimes, consequences psychologiques (isolement, abandon des etudes). Seule reserve mineure de forme : le jour exact du mois n'est pas indique dans la reference ni lisible sur la page recuperee ; APA 7 admet '(2025, aout)' faute de date complete.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-lopezcastro2023",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1016/j.avb.2023.101888 (via https://api.crossref.org/works/10.1016/j.avb.2023.101888)",
+  "notes": "Crossref confirme : Lopez-Castro, Smith, Robinson & Gorzig (2023), 'Age differences in bullying victimisation and perpetration: Evidence from cross-cultural surveys', Aggression and Violent Behavior, 73, article 101888. Auteurs, annee, titre, revue, volume et numero d'article correspondent exactement.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-masath2023",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1007/s11121-023-01550-0 (via https://api.crossref.org/works/10.1007/s11121-023-01550-0)",
+  "notes": "Crossref confirme : Masath, F. B., Mattonet, K., Hermenau, K., Nkuba, M., & Hecker, T. (2023). Reducing Violent Discipline by Teachers: a Matched Cluster-Randomized Controlled Trial in Tanzanian Public Primary Schools. Prevention Science, 24(5), 999-1010. Auteurs, annee, titre, revue, volume, numero et pages correspondent exactement a la reference ecrite (seule difference : casse du titre, normale en APA sentence case).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-men-plan",
+  "status": "ok",
+  "url_checked": "https://education.gouv.fr/plan-interministeriel-de-lutte-contre-le-harcelement-l-ecole-379551",
+  "notes": "WebFetch direct renvoie HTTP 403 (blocage anti-robot du site education.gouv.fr, pas un lien mort). Existence confirmee par un instantane Wayback Machine avec statut 200 : http://web.archive.org/web/20250908150343/https://www.education.gouv.fr/plan-interministeriel-de-lutte-contre-le-harcelement-l-ecole-379551. La page porte bien sur le Plan interministeriel de lutte contre le harcelement a l'ecole (presente le 27 septembre 2023). Remarque non bloquante : la mention (s. d.) est defendable pour une page institutionnelle sans date affichee, mais le plan est date de 2023 ; une version plus recente de la page existe aussi sous l'identifiant 468072 (https://www.education.gouv.fr/plan-interministeriel-de-lutte-contre-le-harcelement-l-ecole-468072). Ajout recommande d'une date de consultation.",
+  "corrected_apa7": "",
+  "alternative_url": "http://web.archive.org/web/20250908150343/https://www.education.gouv.fr/plan-interministeriel-de-lutte-contre-le-harcelement-l-ecole-379551"
+ },
+ {
+  "id": "r-men-phare",
+  "status": "ok",
+  "url_checked": "https://www.education.gouv.fr/non-au-harcelement/phare-un-dispositif-de-lutte-contre-le-harcelement-l-ecole-323435",
+  "notes": "WebFetch direct renvoie HTTP 403 (blocage anti-robot). Existence et titre confirmes par recherche web : la page officielle s'intitule exactement 'pHARe : un dispositif de lutte contre le harcelement a l'ecole | Ministere de l'Education nationale' a cette URL. Contenu conforme (programme pHARe, generalise ecoles/colleges 2022, lycees 2023). Titre, editeur et URL correspondent a la reference ecrite. Une variante de la meme URL circule avec 'programme' au lieu de 'dispositif' (meme identifiant 323435).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-modecki2014",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1016/j.jadohealth.2014.06.007 (via https://api.crossref.org/works/10.1016/j.jadohealth.2014.06.007)",
+  "notes": "Crossref confirme : Modecki, K. L., Minchin, J., Harbaugh, A. G., Guerra, N. G., & Runions, K. C. (2014). Bullying Prevalence Across Contexts: A Meta-analysis Measuring Cyber and Traditional Bullying. Journal of Adolescent Health, 55(5), 602-611. Correspondance complete avec la reference ecrite.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-mooreg2021",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1136/bmj.n1679 (via https://api.crossref.org/works/10.1136/bmj.n1679)",
+  "notes": "Crossref confirme : Moore, G., Campbell, M., Copeland, L., Craig, P., Movsisyan, A., Hoddinott, P., Littlecott, H., O'Cathain, A., Pfadenhauer, L., Rehfuess, E., Segrott, J., Hawe, P., Kee, F., Couturiaux, D., Hallingberg, B., & Evans, R. (2021). Adapting interventions to new contexts - the ADAPT guidance. BMJ, 374, n1679. Les 16 auteurs, leur ordre, l'annee, le titre, la revue, le volume et le numero d'article correspondent exactement.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-moore2017",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.5498/wjp.v7.i1.60 (via https://api.crossref.org/works/10.5498/wjp.v7.i1.60)",
+  "notes": "Crossref confirme : Moore, S. E., Norman, R. E., Suetani, S., Thomas, H. J., Sly, P. D., & Scott, J. G. (2017). Consequences of bullying victimization in childhood and adolescence: A systematic review and meta-analysis. World Journal of Psychiatry, 7(1), page de debut 60. Crossref n'enregistre que la premiere page ; la pagination 60-76 indiquee dans la reference correspond a l'article publie. Aucune divergence. Texte integral libre disponible sur PMC (PMC5329147).",
+  "corrected_apa7": "",
+  "alternative_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5329147/"
+ },
+ {
+  "id": "r-un1989",
+  "status": "ok",
+  "url_checked": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child",
+  "notes": "WebFetch direct renvoie HTTP 403 (blocage anti-robot du site OHCHR). Existence confirmee par recherche web (page officielle 'Convention on the Rights of the Child | OHCHR' a cette URL exacte) et par un instantane Wayback Machine statut 200 : http://web.archive.org/web/20260825183221/https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child. Convention adoptee par la resolution 44/25 de l'Assemblee generale du 20 novembre 1989 : l'annee 1989 de la reference est correcte, tout comme l'attribution au HCDH.",
+  "corrected_apa7": "",
+  "alternative_url": "http://web.archive.org/web/20260825183221/https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child"
+ },
+ {
+  "id": "r-newhumanitarian2011",
+  "status": "ok",
+  "url_checked": "https://www.thenewhumanitarian.org/report/94124/madagascar-twins-taboo-splits-community",
+  "notes": "WebFetch direct renvoie HTTP 403 (blocage anti-robot). Existence confirmee par recherche web (article 'Twins taboo splits a community', publie le 3 novembre 2011, sur le tabou des jumeaux a Mananjary, Madagascar) et par un instantane Wayback Machine statut 200 du 1er juillet 2026. Auteur institutionnel, annee, titre et URL correspondent. Deux ameliorations APA possibles : preciser la date complete (2011, 3 novembre) et signaler que l'article a paru a l'origine sous la banniere IRIN, devenue The New Humanitarian.",
+  "corrected_apa7": "The New Humanitarian. (2011, 3 novembre). Twins taboo splits a community. https://www.thenewhumanitarian.org/report/94124/madagascar-twins-taboo-splits-community",
+  "alternative_url": "http://web.archive.org/web/20260701164915/https://www.thenewhumanitarian.org/report/94124/madagascar-twins-taboo-splits-community"
+ },
+ {
+  "id": "r-newsmada2024",
+  "status": "ok",
+  "url_checked": "https://newsmada.com/2024/04/12/herisetra-an-tsekoly-mitarika-ratram-po-ho-anny-mpianatra/",
+  "notes": "Page accessible. Titre malgache 'Herisetra an-tsekoly : mitarika ratram-po ho an'ny mpianatra', date du 12 avril 2024, sujet = harcelement scolaire a Madagascar (evoque ~700 000 eleves concernes, 58% de victimes). Concorde avec la reference ecrite. Source de presse, non evaluee par les pairs (tag Presse deja present).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-ngalomba2016",
+  "status": "ok",
+  "url_checked": "https://theconversation.com/taunts-and-bullying-drive-children-with-albinism-from-tanzanian-schools-63559",
+  "notes": "Page vivante. Titre exact identique, auteur Simon Ngalomba (University of Dar es Salaam), publie le 10 aout 2016. Concorde. Remarque de forme APA 7 : pour un article de The Conversation, la date complete est recommandee -> 'Ngalomba, S. (2016, 10 aout).' Non bloquant.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-nkuba2018",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1371/journal.pone.0201362",
+  "notes": "DOI valide (Crossref). Auteurs Nkuba, Hermenau, Goessmann, Hecker ; 2018 ; PLOS ONE, 13(8), e0201362 ; titre identique a la reference. Tous les elements (auteurs, annee, titre, revue, volume, numero, article) concordent.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-oguine2025",
+  "status": "ok",
+  "url_checked": "https://arxiv.org/abs/2507.08914",
+  "notes": "Prepublication arXiv accessible. Titre identique ('Teens Need to Be Educated on the Danger': Digital Access, Online Risks, and Safety Practices Among Nigerian Adolescents), auteurs M. B. Oguine, O. C. Oguine, K. Badillo-Urquiola, O. A. Okunade, soumission 11 juillet 2025. Concorde. Statut de prepublication correctement signale par le tag. Idealement ajouter l'identifiant arXiv dans la reference (arXiv:2507.08914).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-olweus1993",
+  "status": "ok",
+  "url_checked": "",
+  "notes": "Reference sans lien (ouvrage imprime). Existence confirmee : Olweus, D. (1993). Bullying at school: What we know and what we can do. Blackwell (Wiley-Blackwell), collection Understanding Children's Worlds, ISBN 978-0631192411, publie le 7 octobre 1993. Auteur, annee, titre et editeur concordent. Copie consultable en ligne (pret) : https://archive.org/details/bullyingatschool00dano",
+  "corrected_apa7": "",
+  "alternative_url": "https://archive.org/details/bullyingatschool00dano"
+ },
+ {
+  "id": "r-who2025",
+  "status": "ok",
+  "url_checked": "https://cdn.who.int/media/docs/default-source/ncds/ncd-surveillance/data-reporting/madagascar/2025-madagascar-gshs-factsheet-(english).pdf?sfvrsn=4028d44_1",
+  "notes": "Le PDF est bien present sur le CDN de l'OMS (telechargement effectif, 108 Ko ; le contenu texte n'a pas pu etre extrait par l'outil car binaire). Titre confirme par indexation : 'Global School-based Student Health Survey Madagascar 2025 Fact Sheet' (taux de reponse ecoles 100%, eleves 87,2%, n=2 440). Concorde avec la reference. Le lien affiche dans le HTML omet le parametre ?sfvrsn=4028d44_1 present dans le href : verifier que la version sans parametre reste servie par le CDN OMS ; sinon conserver l'URL complete.",
+  "corrected_apa7": "",
+  "alternative_url": "https://www.who.int/teams/noncommunicable-diseases/surveillance/systems-tools/global-school-based-student-health-survey"
+ },
+ {
+  "id": "r-osborne2023",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1371/journal.pgph.0002498",
+  "notes": "DOI valide (Crossref). PLOS Global Public Health, 3(12), e0002498, 2023 ; titre identique ; auteurs Osborne A., James P. B., Bangura C., Tom Williams S. M., Kangbai J. B., Lebbie A. Concordance complete.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-paruk2022",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.4102/sajpsychiatry.v28i0.1755",
+  "notes": "DOI valide (Crossref). South African Journal of Psychiatry, 28, article 1755, 2022 ; titre identique ; auteurs M. E. Paruk et R. Nassen. Concordance complete. Convention AOSIS : le numero d'article s'ecrit parfois 'a1755' (variante de style, non bloquante).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-pepler2008",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1111/j.1467-8624.2007.01128.x",
+  "notes": "Crossref confirme : Pepler, D., Jiang, D., Craig, W., & Connolly, J. (2008). Developmental Trajectories of Bullying and Associated Factors. Child Development, 79(2), 325-338. Auteurs, annee, titre, revue, volume, numero et pages correspondent exactement a la reference ecrite.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-persson2018",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1007/s11121-018-0893-6",
+  "notes": "Crossref confirme : Persson, M., Wennberg, L., Beckman, L., Salmivalli, C., & Svensson, M. (2018). The Cost-Effectiveness of the KiVa Antibullying Program: Results from a Decision-Analytic Model. Prevention Science, 19(6), 728-737. Concordance complete (le titre Crossref ecrit 'Kiva' ; la casse 'KiVa' de la reference est celle de la marque, sans consequence).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-pouwels2018",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1111/cdev.12794",
+  "notes": "Crossref confirme : Pouwels, J. L., Salmivalli, C., Saarento, S., van den Berg, Y. H. M., Lansu, T. A. M., & Cillessen, A. H. N. (2018). Predicting Adolescents' Bullying Participation from Developmental Trajectories of Social Status and Behavior. Child Development, 89(4), 1157-1176. Tous les elements correspondent.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-saitis2022",
+  "status": "broken_link",
+  "url_checked": "https://journal.rais.education/index.php/raiss/article/view/160",
+  "notes": "La reference elle-meme est exacte et verifiee (Marcel Saitis, 2022, 'Twins Taboo in Mananjary: An Ancestral Tradition of the Dead that Strongly Dominates the Lives of the Living', RAIS Journal for Social Sciences, 6(1), 26-36 ; aucun DOI depose). En revanche le lien HTTPS echoue : le certificat TLS du serveur ne couvre pas l'hote 'journal.rais.education' (altnames : DNS:rais.education uniquement), donc la page est inaccessible en HTTPS sans avertissement de securite. Page de reference stable disponible sur RePEc/IDEAS, qui pointe aussi vers le PDF integral (http://journal.rais.education/index.php/raiss/article/view/160/129).",
+  "corrected_apa7": "Saitis, M. (2022). Twins taboo in Mananjary: An ancestral tradition of the dead that strongly dominates the lives of the living. RAIS Journal for Social Sciences, 6(1), 26–36. https://ideas.repec.org/a/smo/jornl1/v6y2022i1p26-36.html",
+  "alternative_url": "https://ideas.repec.org/a/smo/jornl1/v6y2022i1p26-36.html"
+ },
+ {
+  "id": "r-salmivalli1996",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1002/(SICI)1098-2337(1996)22:1<1::AID-AB1>3.0.CO;2-T",
+  "notes": "DOI valide et resolu via Crossref : Salmivalli, C., Lagerspetz, K., Bjorkqvist, K., Osterman, K., & Kaukiainen, A. Bullying as a group process: Participant roles and their relations to social status within the group. Aggressive Behavior, 22(1), 1-15. Le champ 'issued' de Crossref indique 1998 (artefact de depot retrospectif de Wiley) alors que le volume 22, numero 1 est bien celui de 1996, annee universellement citee et coherente avec le suffixe DOI '(1996)22:1'. Aucune correction necessaire.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-samara2019",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.3389/fpsyg.2019.01621",
+  "notes": "Crossref confirme : Samara, M., Foody, M., Gobel, K., Altawil, M., & Scheithauer, H. (2019). Do Cross-National and Ethnic Group Bullying Comparisons Represent Reality? Testing Instruments for Structural Equivalence and Structural Isomorphism. Frontiers in Psychology, 10, article 1621. Le DOI redirige vers frontiersin.org/article/10.3389/fpsyg.2019.01621/full. Concordance complete.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-scharpf2021",
+  "status": "metadata_mismatch",
+  "url_checked": "https://doi.org/10.1186/s12889-021-11950-y",
+  "notes": "L'article existe et auteurs, annee, titre, revue et volume correspondent (Scharpf, Kirika, Masath, Mkinga, Ssenyonga, Nyarko-Tetteh, Nkuba, Karikari, & Hecker, 2021, BMC Public Health, 21). Seul defaut : le numero d'article manque dans la reference. Crossref indique volume 21, numero 1, article 1930. En APA 7 pour une revue en ligne a numerotation d'article, il faut faire figurer l'identifiant d'article (1930).",
+  "corrected_apa7": "Scharpf, F., Kirika, A., Masath, F. B., Mkinga, G., Ssenyonga, J., Nyarko-Tetteh, E., Nkuba, M., Karikari, A. K., & Hecker, T. (2021). Reducing physical and emotional violence by teachers using the intervention Interaction Competencies with Children – for Teachers (ICC-T): Study protocol of a multi-country cluster randomized controlled trial in Ghana, Tanzania, and Uganda. BMC Public Health, 21(1), 1930. https://doi.org/10.1186/s12889-021-11950-y",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-singham2017",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1001/jamapsychiatry.2017.2678",
+  "notes": "Crossref confirme : Singham, T., Viding, E., Schoeler, T., Arseneault, L., Ronald, A., Cecil, C. M., McCrory, E., Rijsdijk, F., & Pingault, J.-B. (2017). Concurrent and Longitudinal Contribution of Exposure to Bullying in Childhood to Mental Health: The Role of Vulnerability and Resilience. JAMA Psychiatry, 74(11), premiere page 1112 (pagination complete 1112-1119). Tous les elements de la reference correspondent.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-smith2002",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1111/1467-8624.00461 (verifie via https://api.crossref.org/works/10.1111/1467-8624.00461)",
+  "notes": "DOI actif. Crossref confirme : Child Development, 2002, vol. 73, n. 4, p. 1119-1133, titre exact 'Definitions of Bullying: A Comparison of Terms Used, and Age and Gender Differences, in a Fourteen-Country International Comparison'. Nuance : Crossref liste 21 noms (Smith, Cowie, Olafsson, Liefooghe, Almeida, Araki, del Barrio, Costabile, Dekleva, Houndoumadi, Kim, Olafsson R. P., Ortega, Pain, Pateraki, Schafer, Singer, Smorti, Toda, Tomasson, Wenxin). La page de titre publiee credite les 4 premiers 'with' les autres, donc la forme abregee a 4 auteurs est admise dans l'usage courant ; si l'on veut la stricte conformite APA 7 (20 auteurs + ... + dernier), la liste complete est a utiliser.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-smith2016",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1017/CBO9781139410878.017 (verifie via https://api.crossref.org/works/10.1017/CBO9781139410878.017)",
+  "notes": "DOI actif. Crossref confirme le chapitre 'Linguistic issues in studying bullying-related phenomena: Data from a revised cartoon task', auteurs Smith, Kwak, Hanif, Kanetsuna, Mahdavi, Lin, Olafsson, Ucanok ; ouvrage 'School Bullying in Different Cultures' (sous-titre 'Eastern and Western Perspectives'), Cambridge University Press, p. 280-298. Annee 2016 coherente. Directeurs (Smith, Kwak, Toda) correctement indiques.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-stein2025",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.5772/intechopen.1012227 (verifie via https://api.crossref.org/works/10.5772/intechopen.1012227)",
+  "notes": "DOI actif. Crossref confirme : Margit Stein, Stefanie Kleine Bornhorst, Felista Tangi, 2025, chapitre 'Bullying and Exclusion of Children with Albinism in the School Systems of Sub-Saharan Africa: An Exploratory Study at an Inclusive Model School in Tanzania', ouvrage 'Bullying Today - Power, Pain and Prevention in the Context of the 21st Century', IntechOpen. Seule reserve mineure : la reference n'indique pas les directeurs de l'ouvrage ni la pagination du chapitre (souvent absente chez IntechOpen), ce qui reste acceptable.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-studiosifaka2020",
+  "status": "ok",
+  "url_checked": "https://www.studiosifaka.org/articles/item/885-violence-sur-mineur-qui-aime-bien-chatie-bien.html",
+  "notes": "Page accessible. Titre exact 'Violence sur mineur : \"Qui aime bien chatie bien\" ?', date du jeudi 4 juin 2020, editeur Studio Sifaka. Contenu coherent (chatiment corporel a Madagascar, donnees UNICEF 9 personnes sur 10). Concordance complete avec la reference ecrite.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-sutton1999",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1348/026151099165384 (verifie via https://api.crossref.org/works/10.1348/026151099165384)",
+  "notes": "DOI actif. Crossref confirme : Sutton, J., Smith, P. K., & Swettenham, J. (1999), 'Social cognition and bullying: Social inadequacy or skilled manipulation?', British Journal of Developmental Psychology, 17(3), 435-450. Concordance complete.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-ttofi2011",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.1007/s11292-010-9109-1 (verifie via https://api.crossref.org/works/10.1007/s11292-010-9109-1)",
+  "notes": "DOI actif. Crossref confirme : Ttofi & Farrington, 'Effectiveness of school-based programs to reduce bullying: a systematic and meta-analytic review', Journal of Experimental Criminology, 7(1), 27-56. Crossref affiche 2010 comme annee de mise en ligne (online first, dec. 2010) ; le fascicule imprime 7(1) est date de mars 2011, donc l'annee 2011 de la reference est correcte et conforme a l'usage APA.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-twaddle2026",
+  "status": "ok",
+  "url_checked": "https://doi.org/10.4102/sajim.v28i1.2132 (verifie via https://api.crossref.org/works/10.4102/sajim.v28i1.2132)",
+  "notes": "DOI actif. Crossref confirme : Camryn L. Twaddle & Daniel B. le Roux, 2026, 'The prevalence and correlates of cyberbullying among South African adolescents', South African Journal of Information Management, 28(1), article a2132. Concordance complete (resultat rapporte : 63,9 % d'implication dans le cyberharcelement).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-unesco2019",
+  "status": "ok",
+  "url_checked": "https://unesdoc.unesco.org/ark:/48223/pf0000366483 ; https://www.unesco.org/en/articles/behind-numbers-ending-school-violence-and-bullying",
+  "notes": "L'URL unesdoc renvoie un HTTP 403 au robot (protection anti-bot), mais l'identifiant ark est confirme valide : la page UNESCO officielle pointe vers https://unesdoc.unesco.org/ark:/48223/pf0000366483_eng et la recherche web confirme le PDF (366483eng.pdf). Titre, editeur (UNESCO) et annee (2019) concordent avec la reference. Lien de secours deja present dans la notice (page unesco.org). Non un lien mort.",
+  "corrected_apa7": "",
+  "alternative_url": "https://unesdoc.unesco.org/ark:/48223/pf0000366483_eng"
+ },
+ {
+  "id": "r-unicefmg-arozaza",
+  "status": "metadata_mismatch",
+  "url_checked": "https://www.unicef.org/madagascar/en/press-releases/launch-international-reporting-portal-online-sexual-abuse-and-exploitation",
+  "notes": "URL valide (WebFetch renvoie 403 = blocage anti-bot du CDN unicef.org, pas un lien mort ; la page est indexee et resolue par recherche). Deux ecarts : (1) le titre reel est \"Launch of the international reporting portal for online sexual abuse and exploitation in Madagascar\" et non \"Launch of an international reporting portal for online sexual abuse and exploitation\" ; (2) la date n'est pas indeterminee : le communique correspond au lancement du portail IWF pour Madagascar en aout 2020 (confirme par UK Safer Internet Centre, billet du 26 aout 2020, et par IWF). Recommande de remplacer (s. d.) par (2020, aout).",
+  "corrected_apa7": "UNICEF Madagascar. (2020, aout). Launch of the international reporting portal for online sexual abuse and exploitation in Madagascar [communique de presse]. https://www.unicef.org/madagascar/en/press-releases/launch-international-reporting-portal-online-sexual-abuse-and-exploitation",
+  "alternative_url": "https://www.iwf.org.uk/news-media/news/madagascar-steps-up-to-tackle-intolerable-online-child-sexual-abuse-material/"
+ },
+ {
+  "id": "r-unicefmg-cp",
+  "status": "ok",
+  "url_checked": "https://www.unicef.org/madagascar/en/programme/child-protection",
+  "notes": "WebFetch renvoie 403 (blocage anti-bot du CDN unicef.org) mais la page existe bien : titre \"Child protection | UNICEF\", page programme UNICEF Madagascar decrivant la prevention communautaire et scolaire, les mecanismes de signalement, la protection en ligne et la strategie nationale contre le mariage des enfants (donnees citees : 2 filles sur 5 mariees avant 18 ans, 47 % d'enfants 5-17 ans au travail, 9 enfants sur 10 subissant une discipline violente). Le (s. d.) est approprie pour une page programme non datee. Pages connexes utiles : /en/topics/child-protection et /en/topics/child-protection-systems.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-valenzuela2022",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1007/s11121-022-01379-z",
+  "notes": "Crossref confirme integralement : Valenzuela, D., Turunen, T., Gana, S., Rojas-Barahona, C. A., Araya, R., Salmivalli, C., & Gaete, J. (2022). Effectiveness of the KiVa Antibullying Program with and without the Online Game in Chile: A Three-Arm Cluster Randomized Controlled Trial. Prevention Science, 23(8), 1470-1482. Auteurs, ordre, annee, revue, volume, numero et pagination correspondent exactement.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-vangeel2014",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1001/jamapediatrics.2013.4143",
+  "notes": "Crossref confirme : van Geel, M., Vedder, P., & Tanilon, J. (2014). Relationship Between Peer Victimization, Cyberbullying, and Suicide in Children and Adolescents: A Meta-analysis. JAMA Pediatrics, 168(5), premiere page 435 (pagination complete 435-442 conforme a la notice editeur/PubMed). Aucun ecart.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-vangeel2022",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1016/j.avb.2021.101577",
+  "notes": "Crossref confirme : van Geel, M., Goemans, A., Zwaanswijk, W., & Vedder, P. (2022). Does peer victimization predict future suicidal ideation? A meta-analysis on longitudinal studies. Aggression and Violent Behavior, 64, 101577. Auteurs, annee, titre, revue, volume et numero d'article correspondent exactement.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-wellman2001",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1111/1467-8624.00304",
+  "notes": "Crossref confirme : Wellman, H. M., Cross, D., & Watson, J. (2001). Meta-Analysis of Theory-of-Mind Development: The Truth about False Belief. Child Development, 72(3), 655-684. Correspondance complete (le DOI a ete redepose en ligne en 2003, sans incidence sur l'annee de publication imprimee 2001).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-wilson2023",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1002/jad.12097",
+  "notes": "Crossref confirme : Wilson, E., Crudgington, H., Morgan, C., Hirsch, C., Prina, M., & Gayer-Anderson. Journal of Adolescence, 95(1), 5-33. Publication en ligne le 9 octobre 2022, fascicule imprime janvier 2023 (published-print et journal-issue = 2023-01) : l'annee APA 2023 retenue dans la reference est correcte (version of record). Titre et pagination identiques.",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ },
+ {
+  "id": "r-zhou2024",
+  "status": "ok",
+  "url_checked": "https://api.crossref.org/works/10.1186/s41155-024-00313-2",
+  "notes": "Crossref confirme : Zhou, Y., Deng, X., Wang, S., & Shi, L. (2024). Theory of Mind and physical bullying in preschool children: the role of peer rejection and gender differences. Psicologia: Reflexao e Critica, 37, article 29. Auteurs, annee, titre, revue, volume et numero d'article correspondent (revue en libre acces, pagination par numero d'article, conforme a l'usage APA).",
+  "corrected_apa7": "",
+  "alternative_url": ""
+ }
+]

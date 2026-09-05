@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Figures SVG inline : conteneur, légende, styles partagés des primitives
+   Les SVG utilisent currentColor et les variables --d1…--d6 pour suivre le thème.
+   ========================================================================== */
+figure.fig { margin: var(--sp-5) 0 var(--sp-6); max-width: var(--measure); }
+figure.fig.wide { max-width: none; }
+figure.fig .fig-box { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 14px 16px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+figure.fig svg { width: 100%; height: auto; max-height: 520px; display: block; margin: 0 auto; color: var(--ink); font-family: var(--font-sans); }
+figure.fig svg.narrow { max-width: 460px; }
+figure.fig figcaption { font-size: var(--fs-sm); color: var(--ink-2); margin-top: 10px; line-height: 1.5; }
+figure.fig figcaption b { color: var(--ink); }
+figure.fig figcaption .src { display: block; font-size: var(--fs-xs); color: var(--ink-3); margin-top: 3px; }
+figure.fig .fig-alt { font-size: var(--fs-xs); color: var(--ink-3); margin-top: 6px; }
+
+/* primitives : classes utilisées dans les SVG */
+.fig svg text { fill: currentColor; font-size: 13px; }
+.fig svg .t-sm { font-size: 11px; fill: var(--ink-3); }
+.fig svg .t-b { font-weight: 700; }
+.fig svg .t-serif { font-family: var(--font-serif); font-size: 15px; }
+.fig svg .t-num { font-variant-numeric: tabular-nums; font-weight: 700; }
+.fig svg .t-muted { fill: var(--ink-3); }
+.fig svg .line { stroke: currentColor; stroke-width: 1.5; fill: none; }
+.fig svg .line-soft { stroke: var(--line); stroke-width: 1; fill: none; }
+.fig svg .grid { stroke: var(--d-grid); stroke-width: 1; fill: none; }
+.fig svg .ref { stroke: var(--d-ref); stroke-width: 1; stroke-dasharray: 4 4; fill: none; }
+.fig svg .arrow { stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.fig svg .arrow-soft { stroke: var(--ink-3); stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.fig svg .box { fill: var(--surface-2); stroke: var(--line); stroke-width: 1; }
+.fig svg .box-p { fill: var(--primary-tint); stroke: var(--primary); stroke-width: 1.2; }
+.fig svg .box-a { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.2; }
+.fig svg .box-s { fill: var(--sage-soft); stroke: var(--sage); stroke-width: 1.2; }
+.fig svg .box-b { fill: var(--brick-soft); stroke: var(--brick); stroke-width: 1.2; }
+.fig svg .f1 { fill: var(--d1); } .fig svg .f2 { fill: var(--d2); } .fig svg .f3 { fill: var(--d3); }
+.fig svg .f4 { fill: var(--d4); } .fig svg .f5 { fill: var(--d5); } .fig svg .f6 { fill: var(--d6); }
+.fig svg .s1 { stroke: var(--d1); } .fig svg .s2 { stroke: var(--d2); } .fig svg .s3 { stroke: var(--d3); }
+.fig svg .s4 { stroke: var(--d4); } .fig svg .s5 { stroke: var(--d5); } .fig svg .s6 { stroke: var(--d6); }
+.fig svg .fa1 { fill: var(--a1); } .fig svg .fa2 { fill: var(--a2); } .fig svg .fa3 { fill: var(--a3); } .fig svg .fa4 { fill: var(--a4); }
+.fig svg .fa1s { fill: var(--a1-soft); } .fig svg .fa2s { fill: var(--a2-soft); } .fig svg .fa3s { fill: var(--a3-soft); } .fig svg .fa4s { fill: var(--a4-soft); }
+.fig svg .dot { fill: var(--d-muted); }
+.fig svg .dot.on { fill: var(--d1); }
+.fig svg .ci { stroke: var(--d1); stroke-width: 2; fill: none; }
+.fig svg .curve { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig svg .area { opacity: 0.16; }
+.fig svg .on-fill { fill: var(--on-primary); }
+.fig svg .halo { fill: var(--surface); stroke: var(--line); }
+.fig svg .lbl-bg { fill: var(--surface); opacity: 0.9; }
+
+/* frise horizontale à défilement interne sous 480 px */
+figure.fig.scroll .fig-box { padding: 10px 6px; }
+figure.fig.scroll svg { min-width: 560px; }
+@media (max-width: 480px) { figure.fig.scroll .fig-box::after { content: "← faites défiler →"; display: block; text-align: center; font-size: 0.7rem; color: var(--ink-3); margin-top: 4px; } }
+
+/* radar (composant JS) */
+.radar { display: grid; grid-template-columns: minmax(min(200px, 100%), 320px) 1fr; gap: var(--sp-4); align-items: center; margin: var(--sp-4) 0; }
+@media (max-width: 560px) { .radar { grid-template-columns: 1fr; } }

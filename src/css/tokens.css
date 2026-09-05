@@ -1,0 +1,180 @@
+/* ==========================================================================
+   Tokens — identité « papier et encre »
+   Clair : papier chaud, encre bleu-nuit. Sombre : ardoise profonde, encre crème.
+   Primaire indigo profond · accent safran · sauge (positif) · brique (alerte).
+   ========================================================================== */
+:root {
+  color-scheme: light dark;
+
+  /* typographie */
+  --font-serif: 'Literata', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Public Sans', 'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif;
+  --fs-base: 1.0625rem;      /* 17 px */
+  --fs-sm: 0.9rem;
+  --fs-xs: 0.8rem;
+  --fs-md: 1.2rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 1.95rem;
+  --fs-2xl: 2.4rem;
+  --lh: 1.65;
+  --measure: 68ch;
+
+  /* espacements */
+  --sp-1: 0.25rem; --sp-2: 0.5rem; --sp-3: 0.75rem; --sp-4: 1rem; --sp-5: 1.5rem;
+  --sp-6: 2rem; --sp-7: 2.5rem; --sp-8: 3rem; --sp-10: 4rem;
+
+  /* rayons, ombres, mouvement */
+  --r-sm: 6px; --r-md: 10px; --r-lg: 14px; --r-xl: 20px;
+  --shadow-sm: 0 1px 2px rgba(30, 36, 51, 0.06), 0 1px 1px rgba(30, 36, 51, 0.04);
+  --shadow-md: 0 6px 18px rgba(30, 36, 51, 0.10);
+  --shadow-lg: 0 14px 40px rgba(30, 36, 51, 0.16);
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-fast: 120ms; --dur: 180ms; --dur-slow: 260ms;
+
+  /* mise en page */
+  --head-h: 56px;
+  --rail-w: 272px;
+  --aside-w: 20rem;
+  --tap: 44px;
+
+  /* ---- couleurs (clair) ---- */
+  --paper: #F7F3EC;
+  --surface: #FFFDF9;
+  --surface-2: #F2EDE4;
+  --ink: #1E2433;
+  --ink-2: #4B5364;
+  --ink-3: #6E7686;
+  --line: #E3DDD2;
+  --line-2: #EEE9E0;
+
+  --primary: #3B4B8C;
+  --primary-2: #2C3A70;
+  --primary-soft: #E4E8F5;
+  --primary-tint: #F1F3FA;
+  --on-primary: #FFFFFF;
+
+  --accent: #D08A1C;
+  --accent-ink: #7A4E07;
+  --accent-soft: #FBEFD9;
+
+  --sage: #3F7D5C;
+  --sage-soft: #E2F0E8;
+  --brick: #B0432F;
+  --brick-soft: #F8E4DF;
+
+  --a1: #3F7D5C; --a2: #2E7F94; --a3: #5B5FB8; --a4: #8E4E8E;
+  --a1-soft: #E2F0E8; --a2-soft: #E0F0F4; --a3-soft: #E8E8F7; --a4-soft: #F2E6F2;
+
+  --ev-est: #2F6E4A; --ev-est-bg: #E1F1E6;
+  --ev-cons: #2A5D9C; --ev-cons-bg: #E2EAF6;
+  --ev-hyp: #9A6300; --ev-hyp-bg: #FBEFD2;
+  --ev-exp: #5B4F8F; --ev-exp-bg: #ECE8F6;
+  --ev-low: #A03A2A; --ev-low-bg: #F8E3DE;
+  --ev-gap: #55606A; --ev-gap-bg: #E9ECEE;
+
+  --mark: #FFE9A8;
+  --focus: #D08A1C;
+  --focus-ring: rgba(208, 138, 28, 0.35);
+  --scrim: rgba(30, 36, 51, 0.42);
+
+  /* données (figures) : dérivées des tokens, contraste AA sur --surface */
+  /* palette de données validée (dataviz) : ordre fixe, 4 séries au plus par graphique */
+  --d1: #3B4B8C; --d2: #B8760F; --d3: #A0489E; --d4: #1E8449; --d5: #B0432F; --d6: #1F7A8C;
+  --d-muted: #C9C3B8; --d-grid: #E3DDD2; --d-ref: #6E7686;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #14161C;
+    --surface: #1C1F27;
+    --surface-2: #232732;
+    --ink: #ECE6DA;
+    --ink-2: #BDB7AB;
+    --ink-3: #928D84;
+    --line: #2C303B;
+    --line-2: #252833;
+
+    --primary: #A5AEEA;
+    --primary-2: #C3C9F3;
+    --primary-soft: #2A3052;
+    --primary-tint: #1F2438;
+    --on-primary: #14161C;
+
+    --accent: #E3A544;
+    --accent-ink: #F0C97F;
+    --accent-soft: #3A2C12;
+
+    --sage: #86C2A0;
+    --sage-soft: #1E3328;
+    --brick: #E8887A;
+    --brick-soft: #3B1F1A;
+
+    --a1: #86C2A0; --a2: #79C1D3; --a3: #A9ACEC; --a4: #CD97CD;
+    --a1-soft: #1E3328; --a2-soft: #1A3138; --a3-soft: #262A48; --a4-soft: #3A2438;
+
+    --ev-est: #9BD3B2; --ev-est-bg: #1F3A2B;
+    --ev-cons: #9FC0EC; --ev-cons-bg: #1F2F49;
+    --ev-hyp: #E8C06A; --ev-hyp-bg: #3D2E0E;
+    --ev-exp: #C3B8F0; --ev-exp-bg: #2E2848;
+    --ev-low: #EFA394; --ev-low-bg: #3E211B;
+    --ev-gap: #B3BAC3; --ev-gap-bg: #2A2F36;
+
+    --mark: #5A4A14;
+    --focus: #E3A544;
+    --focus-ring: rgba(227, 165, 68, 0.4);
+    --scrim: rgba(0, 0, 0, 0.55);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+    --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.6);
+
+    --d1: #6F7FD3; --d2: #C28829; --d3: #B26DB2; --d4: #3F9C67; --d5: #D26A4E; --d6: #3FA7BF;
+    --d-muted: #4A4F5A; --d-grid: #2C303B; --d-ref: #928D84;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #14161C;
+  --surface: #1C1F27;
+  --surface-2: #232732;
+  --ink: #ECE6DA;
+  --ink-2: #BDB7AB;
+  --ink-3: #928D84;
+  --line: #2C303B;
+  --line-2: #252833;
+
+  --primary: #A5AEEA;
+  --primary-2: #C3C9F3;
+  --primary-soft: #2A3052;
+  --primary-tint: #1F2438;
+  --on-primary: #14161C;
+
+  --accent: #E3A544;
+  --accent-ink: #F0C97F;
+  --accent-soft: #3A2C12;
+
+  --sage: #86C2A0;
+  --sage-soft: #1E3328;
+  --brick: #E8887A;
+  --brick-soft: #3B1F1A;
+
+  --a1: #86C2A0; --a2: #79C1D3; --a3: #A9ACEC; --a4: #CD97CD;
+  --a1-soft: #1E3328; --a2-soft: #1A3138; --a3-soft: #262A48; --a4-soft: #3A2438;
+
+  --ev-est: #9BD3B2; --ev-est-bg: #1F3A2B;
+  --ev-cons: #9FC0EC; --ev-cons-bg: #1F2F49;
+  --ev-hyp: #E8C06A; --ev-hyp-bg: #3D2E0E;
+  --ev-exp: #C3B8F0; --ev-exp-bg: #2E2848;
+  --ev-low: #EFA394; --ev-low-bg: #3E211B;
+  --ev-gap: #B3BAC3; --ev-gap-bg: #2A2F36;
+
+  --mark: #5A4A14;
+  --focus: #E3A544;
+  --focus-ring: rgba(227, 165, 68, 0.4);
+  --scrim: rgba(0, 0, 0, 0.55);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.6);
+
+  --d1: #6F7FD3; --d2: #C28829; --d3: #B26DB2; --d4: #3F9C67; --d5: #D26A4E; --d6: #3FA7BF;
+  --d-muted: #4A4F5A; --d-grid: #2C303B; --d-ref: #928D84;
+}

@@ -1,0 +1,47 @@
+{
+ "olweus1993": {
+  "url": "https://www.wiley.com/en-us/Bullying+at+School%3A+What+We+Know+and+What+We+Can+Do-p-9780631192411",
+  "type": "livre",
+  "langue": "en"
+ },
+ "instat2018mics": {
+  "auteurs_court": "INSTAT et UNICEF"
+ },
+ "instat2012micssud": {
+  "auteurs_court": "INSTAT et UNICEF"
+ },
+ "unesco2019-afriquea": {
+  "rename": "unesco2019fr",
+  "auteurs_court": "UNESCO",
+  "note_verification": "Édition française du rapport Behind the numbers (unesco2019)."
+ },
+ "unesco2019-2": {
+  "merge_into": "unesco2019-afriquea"
+ },
+ "arozaza147": {
+  "auteurs_court": "UNICEF Madagascar",
+  "annee": "2026",
+  "url": "https://www.unicef.org/madagascar/communiqu%C3%A9s-de-presse/lunicef-et-la-commune-urbaine-dantananarivo-signent-un-plan-daction",
+  "type": "communique",
+  "etiquette": "Institution",
+  "apa7": "UNICEF Madagascar. (2026, 14 juillet). <i>L'UNICEF et la Commune Urbaine d'Antananarivo signent un plan d'action multisectoriel et renforcent le centre d'appel de la Ligne Verte 147</i> [communiqué de presse]. https://www.unicef.org/madagascar/communiqu%C3%A9s-de-presse/lunicef-et-la-commune-urbaine-dantananarivo-signent-un-plan-daction",
+  "note": "arozaza.mg ne résout plus (DNS) le 5 septembre 2026 ; remplacé par le communiqué UNICEF qui documente la gratuité, le 24 h/24 et les trois opérateurs."
+ },
+ "menplan": {
+  "url": "https://www.education.gouv.fr/plan-interministeriel-de-lutte-contre-le-harcelement-l-ecole-468072",
+  "note": "redirection 379551 → 468072 constatée le 5 septembre 2026"
+ },
+ "nichter1981": {
+  "url": "https://doi.org/10.1007/BF00054782",
+  "apa7": "Nichter, M. (1981). Idioms of distress: Alternatives in the expression of psychosocial distress. A case study from South India. <i>Culture, Medicine and Psychiatry, 5</i>(4), 379–408. https://doi.org/10.1007/BF00054782",
+  "annee": "1981",
+  "auteurs_court": "Nichter",
+  "note": "l'URL de recherche Crossref a été remplacée par le DOI de l'article, 5 septembre 2026"
+ },
+ "lewisfernandez2015": {
+  "url": "https://doi.org/10.1176/appi.books.9781615373567",
+  "annee": "2016",
+  "apa7": "Lewis-Fernández, R., Aggarwal, N. K., Hinton, L., Hinton, D. E., et Kirmayer, L. J. (dir.). (2016). <i>DSM-5 handbook on the Cultural Formulation Interview</i>. American Psychiatric Association Publishing. https://doi.org/10.1176/appi.books.9781615373567",
+  "note": "URL de recherche Crossref remplacée par le DOI de l'ouvrage (Psychiatry Online), 5 septembre 2026"
+ }
+}

@@ -1,0 +1,48 @@
+{
+  "start": "danger",
+  "intro": "Répondez aux questions pour situer la situation. Cet assistant aide à raisonner ; il ne remplace ni votre jugement ni l'avis d'un professionnel.",
+  "nodes": {
+    "danger": {
+      "q": "1. Y a-t-il un danger immédiat : l'enfant exprime des idées suicidaires, a subi des violences sexuelles, ou des violences graves ?",
+      "o": [["Oui", "out_urg"], ["Non", "rep"]]
+    },
+    "rep": {
+      "q": "2. Répétition : la situation se reproduit-elle dans le temps ?",
+      "o": [["Oui", "pow"], ["Non, c'est arrivé une fois", "pow1"], ["Je ne sais pas", "out_info"]]
+    },
+    "pow": {
+      "q": "3. Rapport de force : l'enfant peut-il se défendre à armes égales (force, nombre, âge, statut, popularité) ?",
+      "o": [["Non, il y a un déséquilibre", "ret"], ["Oui, forces comparables", "out_conflit_rep"]]
+    },
+    "pow1": {
+      "q": "3. Rapport de force : l'enfant peut-il se défendre à armes égales ?",
+      "o": [["Non, il y a un déséquilibre", "out_agr1"], ["Oui, forces comparables", "out_conflit1"]]
+    },
+    "ret": {
+      "q": "4. Retentissement : observez-vous une souffrance, un évitement, une chute des résultats, un changement de comportement ?",
+      "o": [["Oui", "out_harc"], ["Non, ou pas encore évalué", "out_harc_eval"]]
+    },
+    "out_urg": {
+      "urg": true,
+      "t": "<b>Urgence : la sécurité passe avant la qualification.</b> Ne laissez pas l'enfant seul et mettez-le à l'abri de l'auteur présumé. S'il exprime des idées suicidaires, retirez ce qui pourrait servir à se faire du mal, restez avec lui et accompagnez-le sans délai vers un service d'urgence ou de psychiatrie. En cas de violence sexuelle ou de violence grave, signalez à la Ligne Verte 147 (signalement et orientation), à la police ou à la gendarmerie et au Réseau de Protection de l'Enfant ; conservez les éléments sans jamais transférer d'image intime d'un mineur. Notez par écrit, avec la date, ce que l'enfant a dit. Ne l'obligez pas à raconter plusieurs fois et ne le confrontez pas à l'auteur présumé. La conduite à tenir détaillée et les contacts vérifiés sont dans le module <a href=\"14-demander-de-l-aide.html\">Quand et à qui demander de l'aide</a>."
+    },
+    "out_info": {
+      "t": "<b>Information insuffisante.</b> Avant de conclure, croisez les sources : l'enfant, ses camarades, l'enseignant, la famille. Ne concluez jamais sur un incident isolé, ni sur la seule parole d'un adulte pressé. Fixez une date pour réévaluer, et notez ce que vous observez d'ici là (voir le module <a href=\"11-reperer.html\">Repérer</a>)."
+    },
+    "out_conflit1": {
+      "t": "<b>Conflit ponctuel probable.</b> Un incident unique entre enfants de force comparable relève d'une médiation éducative et d'un suivi léger : on aide les deux à dire ce qui s'est passé et à réparer. Réévaluez à date fixe : la répétition changerait la lecture."
+    },
+    "out_agr1": {
+      "t": "<b>Agression isolée avec rapport de force.</b> Traitez l'incident comme tel : protection de l'enfant visé, cadre et conséquences pour l'auteur, information des adultes responsables. Surveillez la récurrence et réévaluez sous deux semaines : si cela se répète, c'est du harcèlement."
+    },
+    "out_conflit_rep": {
+      "t": "<b>Conflit répété entre égaux.</b> Ce n'est pas un harcèlement au sens strict, mais une dynamique à régler : règles claires, médiation éducative possible puisque les forces sont comparables, et suivi. Restez attentif : un conflit qui s'installe peut basculer si l'un des deux perd ses appuis."
+    },
+    "out_harc": {
+      "t": "<b>Harcèlement présumé.</b> Les trois critères sont réunis. Protégez d'abord, qualifiez ensuite : informez la direction de l'école par écrit ; assurez la sécurité de l'enfant visé ; travaillez avec l'auteur (responsabiliser, sans humilier) ; mobilisez les témoins ; associez les parents sans organiser de face-à-face entre familles. Signalez au Réseau de Protection de l'Enfant si nécessaire, et sur arozaza.mg si la situation comporte une dimension en ligne ou sexuelle. Fixez un suivi daté. Les chemins concrets selon votre position sont dans le module <a href=\"13-mon-enfant-est-concerne.html\">Mon enfant est concerné</a>."
+    },
+    "out_harc_eval": {
+      "t": "<b>Harcèlement présumé, retentissement à évaluer.</b> Répétition et déséquilibre sont réunis. Approfondissez l'entretien avec l'enfant (module <a href=\"12-parler-et-ecouter.html\">Parler et écouter</a>), croisez les sources, cherchez les signes de tristesse durable, de repli ou d'idées noires, puis lancez le plan d'action décrit dans le module <a href=\"13-mon-enfant-est-concerne.html\">Mon enfant est concerné</a>."
+    }
+  }
+}

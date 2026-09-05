@@ -1,0 +1,82 @@
+{
+ "row_label": "Source",
+ "columns": [
+  "Qui l'a produite",
+  "Qui a été interrogé",
+  "Ce qu'elle mesure vraiment",
+  "Ce qu'elle ne permet pas de dire",
+  "Niveau de preuve"
+ ],
+ "rows": [
+  {
+   "label": "Enquête scolaire nationale, Madagascar, 2025",
+   "values": [
+    "Organisation mondiale de la santé, protocole standardisé",
+    "2 440 élèves de 38 écoles, 13-17 ans, taux de réponse 87,2 %",
+    "Le harcèlement déclaré à l'école dans l'année : 27,2 % ; le cyberharcèlement : 10,5 %",
+    "Rien sur les enfants déscolarisés, rien sur le devenir à long terme, rien sur les causes",
+    "Preuve établie"
+   ]
+  },
+  {
+   "label": "Étude nationale sur les violences envers les enfants, 2018",
+   "values": [
+    "Étude commandée par l'UNICEF, réalisée avec le Bureau international des droits des enfants",
+    "2 523 personnes pour le volet quantitatif, 701 jeunes pour le volet qualitatif, 12 sites",
+    "Les violences subies à l'école et en famille ; 49 % du personnel scolaire voit la violence physique entre élèves comme un jeu",
+    "Rien sur le harcèlement au sens des trois critères : la catégorie « violences » est plus large",
+    "Preuve établie"
+   ]
+  },
+  {
+   "label": "Enquêtes par grappes à indicateurs multiples (2018, 2025)",
+   "values": [
+    "Institut national de la statistique, avec l'appui de l'UNICEF",
+    "Ménages, enfants de 1 à 14 ans",
+    "La discipline violente exercée par les adultes sur les enfants",
+    "Rien sur les violences entre élèves : ce n'est pas l'objet de l'enquête",
+    "Preuve établie"
+   ]
+  },
+  {
+   "label": "Enquête par grappes du Sud, 2012",
+   "values": [
+    "Institut national de la statistique et partenaires",
+    "Ménages des régions du Sud",
+    "64 % des enfants de 2 à 14 ans punis physiquement dans le mois précédent, dont 20 % sévèrement",
+    "Rien au niveau national : c'est un chiffre régional, dans des régions durement éprouvées",
+    "Preuve établie"
+   ]
+  },
+  {
+   "label": "Estimation associative relayée par la presse, 2023-2024",
+   "values": [
+    "Une association malgache, chiffre repris par la presse",
+    "Élèves de 10 à 21 ans, effectif inconnu",
+    "Un ordre de grandeur déclaré : 58 %",
+    "Rien de comparable aux enquêtes : ni rapport primaire, ni méthode, ni période de référence publiés",
+    "Preuve faible"
+   ]
+  },
+  {
+   "label": "Analyse multi-pays d'Afrique subsaharienne, 11 pays",
+   "values": [
+    "Équipe universitaire, à partir des enquêtes scolaires de l'OMS 2010-2017",
+    "25 454 adolescents scolarisés",
+    "38,8 % de victimation, de 22,2 % à Maurice à 54,6 % en Sierra Leone",
+    "Rien sur Madagascar : le pays n'est pas inclus dans cette analyse",
+    "Preuve établie"
+   ]
+  },
+  {
+   "label": "Synthèse africaine de 25 études",
+   "values": [
+    "Équipe universitaire, méta-analyse",
+    "41 716 adolescents, 16 pays",
+    "46,35 % de victimation, intervalle de 41,45 % à 51,24 %",
+    "Rien de précis : les définitions et les périodes de rappel varient fortement d'une étude à l'autre",
+    "Preuve établie, forte hétérogénéité"
+   ]
+  }
+ ]
+}

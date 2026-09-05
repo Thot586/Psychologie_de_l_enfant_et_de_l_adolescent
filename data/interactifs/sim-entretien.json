@@ -1,0 +1,86 @@
+{
+ "intro": "Vous venez de terminer une rencontre dans une classe de cinquième. Un élève reste, attend que les autres sortent, et vous dit à voix basse : « C'est ce que vous avez dit. Ça m'arrive. » Quatre décisions vous attendent. Il n'y a pas de piège : chaque bonne réponse est celle qui protège l'enfant et votre association.",
+ "turns": [
+  {
+   "prompt": "Il vous parle dans le couloir, des élèves passent encore. Que faites-vous en premier ?",
+   "choices": [
+    {
+     "text": "Vous lui proposez de venir dans une salle voisine avec vous et l'enseignante qui était présente, porte ouverte.",
+     "reaction": "C'est la bonne conduite : un lieu à l'écart des oreilles mais visible, et deux adultes dont un de l'école. Vous protégez l'enfant, et vous vous protégez vous-même.",
+     "good": true
+    },
+    {
+     "text": "Vous l'écoutez sur place, pour ne pas perdre le moment.",
+     "reaction": "L'intention est bonne, mais un couloir de passage n'est pas un lieu où un enfant peut dire ce qui lui coûte. Et ce qu'il dira pourra être entendu par ceux qui lui font du mal.",
+     "good": false
+    },
+    {
+     "text": "Vous l'emmenez seul dans une salle vide et vous fermez la porte.",
+     "reaction": "Ne restez jamais seul avec un enfant dans un lieu fermé. Cette règle protège l'enfant, et elle vous protège de toute mise en cause ultérieure.",
+     "good": false
+    }
+   ]
+  },
+  {
+   "prompt": "Avant qu'il ne commence, il demande : « Vous promettez que vous ne le direz à personne ? »",
+   "choices": [
+    {
+     "text": "« Je te le promets, sinon tu ne parleras pas. »",
+     "reaction": "C'est la promesse la plus tentante et la plus dommageable. Vous ne pourrez pas la tenir, et l'enfant vivra la transmission comme une trahison — ce qui rendra plus difficile toute confidence future, à vous comme à un autre adulte.",
+     "good": false
+    },
+    {
+     "text": "« Je ne peux pas te le promettre, parce que je dois te protéger. Je vais en parler à une personne précise, et je te dirai laquelle avant de le faire. »",
+     "reaction": "Exactement. On ne promet jamais le secret absolu. Annoncer à qui vous parlerez, et le faire savoir à l'enfant avant, transforme une transmission subie en démarche partagée.",
+     "good": true
+    },
+    {
+     "text": "Vous ne répondez pas et vous le laissez parler.",
+     "reaction": "Le silence vaut consentement pour l'enfant : il croira que vous avez promis. Le cadre se pose avant le récit, jamais après.",
+     "good": false
+    }
+   ]
+  },
+  {
+   "prompt": "Il raconte que trois camarades le frappent depuis des semaines et lui prennent son goûter. Que faites-vous ensuite ?",
+   "choices": [
+    {
+     "text": "Vous notez les faits, les dates approximatives, les lieux et qui était présent, sans écrire vos interprétations.",
+     "reaction": "Oui. Des faits datés et situés permettent à l'école d'agir ; vos hypothèses sur les motivations des uns et des autres, non. Ce carnet reste sous clé et sera détruit une fois la situation transmise.",
+     "good": true
+    },
+    {
+     "text": "Vous allez chercher les trois élèves désignés pour entendre leur version.",
+     "reaction": "Non. Votre association ne mène pas d'enquête, n'interroge pas les élèves désignés comme auteurs et n'organise aucune confrontation. C'est le rôle de l'école, avec sa procédure.",
+     "good": false
+    },
+    {
+     "text": "Vous demandez à l'enfant de raconter la même chose devant la classe pour que les autres comprennent.",
+     "reaction": "Jamais. Faire raconter en public expose l'enfant à des représailles et peut aggraver sa situation dès la sortie.",
+     "good": false
+    }
+   ]
+  },
+  {
+   "prompt": "La rencontre est finie, vous partez. Qu'est-ce qui doit être fait avant la fin de la journée ?",
+   "choices": [
+    {
+     "text": "Rien d'urgent : vous en parlerez à la prochaine visite, dans quinze jours.",
+     "reaction": "Non. Un dévoilement se transmet le jour même. Un enfant qui a parlé et n'a rien vu changer conclut que parler ne sert à rien, et il ne recommencera pas.",
+     "good": false
+    },
+    {
+     "text": "Vous appelez vous-même les parents des trois élèves pour crever l'abcès.",
+     "reaction": "Non. Contacter des familles de votre propre initiative vous met hors du cadre convenu, expose l'enfant à des représailles et fragilise votre association.",
+     "good": false
+    },
+    {
+     "text": "Vous informez le jour même le référent de l'école et l'adulte responsable, vous notez ce que vous avez transmis et à qui, et vous prévoyez de vérifier ce qui a été fait.",
+     "reaction": "C'est cela. La transmission le jour même, la trace écrite de ce qui a été transmis, et surtout la vérification quelques jours plus tard : c'est ce dernier point que les associations oublient le plus souvent.",
+     "good": true
+    }
+   ]
+  }
+ ],
+ "end": "Vous venez de dérouler l'essentiel du protocole : deux adultes, un lieu à l'écart mais visible, aucune promesse de secret, des faits notés sans interprétation, aucune enquête ni contact des familles, une transmission le jour même et une vérification ensuite. Écrivez ces sept points sur une fiche et emportez-la : le jour où un enfant vous prendra à part, vous n'aurez pas le temps de réfléchir."
+}

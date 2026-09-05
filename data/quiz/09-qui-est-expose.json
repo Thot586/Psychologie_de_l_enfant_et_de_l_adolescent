@@ -1,0 +1,158 @@
+{
+ "title": "Savoir qui est exposé, et agir sur ce qui l'expose",
+ "intro": "Huit situations que vous rencontrerez : une phrase d'enseignant, un chiffre à citer devant des parents, une insulte lancée en pleine classe. Répondez avant de lire la correction : chercher la réponse ancre mieux que relire la page.",
+ "questions": [
+  {
+   "q": "Dans la salle des maîtres, un enseignant vous dit d'un élève visé depuis des mois : « Il faut dire qu'il est bizarre, aussi. » Que lui répondez-vous ?",
+   "o": [
+    "Qu'il a raison sur un point : un enfant timide attire les moqueries, et qu'il faut l'aider à s'affirmer.",
+    "Que le plus simple est de changer cet élève de classe, pour que le groupe finisse par l'oublier.",
+    "Que ces traits pèsent peu, et que ce qui fait durer, c'est le groupe et la réaction des adultes.",
+    "Que chacun a sa part : l'un provoque, les autres réagissent trop, il faut les reprendre ensemble."
+   ],
+   "a": 2,
+   "why": [
+    "Non : c'est le portrait-type de la victime, et il inverse le sens du lien — un enfant devient isolé parce qu'on le harcèle, au moins autant que l'inverse.",
+    "Non : déplacer l'enfant laisse intact le fonctionnement de groupe, et l'enfant emporte avec lui le message qu'il était le problème.",
+    "Oui : la question utile n'est pas « qu'a-t-il de particulier ? » mais « qui, autour de lui, rend cela possible ? ».",
+    "Non : symétriser, c'est traiter la situation comme un conflit entre égaux, alors que le harcèlement suppose un déséquilibre de pouvoir."
+   ],
+   "x": "Les caractéristiques individuelles associées à la victimation existent bien, mais elles expliquent une part modeste et sont souvent autant conséquence que cause <a class=\"cite\" data-ref=\"cook2010\"></a>. Le harcèlement est un fonctionnement de groupe où chacun tient un rôle : celui qui frappe, celui qui rit, celui qui s'éloigne <a class=\"cite\" data-ref=\"salmivalli2010\"></a>. Dire « il l'a cherché » est un raisonnement de désengagement moral, associé au passage à l'acte <a class=\"cite\" data-ref=\"gini2014\"></a> : repris par un adulte, il ne décrit pas la situation, il la valide. Voir <a href=\"#pas-sa-faute-h\">Personne ne « cherche » le harcèlement</a>.",
+   "kind": "comprendre",
+   "section": "pas-sa-faute-h"
+  },
+  {
+   "q": "Un directeur vous écoute puis conclut : « Tant que le pays sera pauvre, il y aura de la violence dans mon école. » Qu'apporte la lecture par couches face à cette objection ?",
+   "o": [
+    "Que trois des quatre couches sont modifiables par des adultes ordinaires, et que le climat ne suit pas le budget.",
+    "Qu'il a raison sur le fond : tant que la pauvreté n'aura pas reculé, le climat d'une école ne changera pas.",
+    "Que la seule couche qui compte est l'enfant lui-même, et qu'il faut travailler sur les élèves fragiles.",
+    "Que la famille est la couche décisive, et qu'il faut convoquer les parents des enfants visés."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : l'intérêt de cette lecture est pratique, elle désigne ce sur quoi vous avez prise dès demain.",
+    "Non : c'est le fatalisme économique ; une école pauvre peut avoir un climat excellent et une école bien dotée un climat détestable.",
+    "Non : c'est revenir au portrait-type de la victime, alors que les prédicteurs les plus solides sont contextuels.",
+    "Non : les pratiques parentales pèsent peu et jamais comme une faute ; convoquer les parents de l'enfant visé revient à lui faire porter la responsabilité."
+   ],
+   "x": "Les synthèses lisent l'exposition en quatre cercles emboîtés — l'enfant, la famille, l'école, la société — et les meilleurs prédicteurs y sont contextuels autant qu'individuels <a class=\"cite\" data-ref=\"cook2010\"></a>. Ce qui change le climat d'un établissement, ce sont des règles claires, des adultes qui réagissent et des lieux surveillés, pas le budget <a class=\"cite\" data-ref=\"crc2022,masath2023\"></a>. Voir <a href=\"#quatre-couches-h\">Quatre couches autour d'un enfant</a>.",
+   "kind": "comprendre",
+   "section": "quatre-couches-h"
+  },
+  {
+   "q": "Votre association obtient une heure avec le directeur d'un collège de six cents élèves, et une seule mesure sera retenue. Laquelle a le plus de chances de faire baisser le harcèlement ?",
+   "o": [
+    "Faire poser une affiche « Stop au harcèlement » à l'entrée et dans chaque salle de classe.",
+    "Demander à chaque enseignant la liste des élèves timides ou isolés, pour les suivre à part.",
+    "Organiser une réunion avec les parents des élèves connus pour être les plus turbulents.",
+    "Demander aux élèves où ils ne se sentent pas en sécurité, et faire surveiller ces endroits."
+   ],
+   "a": 3,
+   "why": [
+    "Non : une affiche ne change ni la surveillance des lieux ni la réaction des adultes, et le harcèlement se produit aux mêmes endroits.",
+    "Non : établir une liste d'enfants « à risque » désigne des cibles et fait porter l'action sur eux au lieu du contexte.",
+    "Non : cela cible les familles au lieu de l'organisation, et transforme une question de climat scolaire en question de discipline individuelle.",
+    "Oui : le harcèlement a une géographie, et une géographie relève de décisions d'organisation, pas de moyens."
+   ],
+   "x": "Interrogés, les élèves désignent partout les mêmes endroits : les toilettes, les salles sans surveillance, les coins de cour, les abords de l'établissement et les arrêts de transport <a class=\"cite\" data-ref=\"sikhakhane2018,ngidi2018\"></a>. Ce sont des lieux, donc des décisions d'organisation accessibles sans budget. L'erreur tentante est de chercher qui surveiller plutôt que quoi surveiller. Voir <a href=\"#quatre-couches-h\">Quatre couches autour d'un enfant</a>.",
+   "kind": "appliquer",
+   "section": "quatre-couches-h"
+  },
+  {
+   "q": "Vous prenez la parole devant une association de parents et vous voulez citer un seul chiffre, solide et malgache, sur le harcèlement scolaire. Lequel ?",
+   "o": [
+    "Environ 39 % des élèves malgaches sont harcelés, selon l'enquête scolaire de l'OMS en Afrique.",
+    "27,2 % des élèves de 13 à 17 ans ont été harcelés à l'école dans l'année, selon l'OMS en 2025.",
+    "83 % des enfants harcelés finissent par présenter un trouble psychique, selon une étude sud-africaine.",
+    "Quatre élèves malgaches sur dix subissent des violences sexuelles à l'école, d'après la presse."
+   ],
+   "a": 1,
+   "why": [
+    "Non : les 38,8 % viennent d'une analyse de onze pays africains dont Madagascar ne fait pas partie ; c'est un chiffre étranger présenté comme national.",
+    "Oui : c'est le chiffre malgache de référence, mesuré auprès des élèves de 13 à 17 ans sur l'année écoulée.",
+    "Non : ces 83 % décrivent un cumul très particulier — harcèlement, pauvreté et stigmatisation chez des enfants orphelins du sida — et ne sont ni un pronostic ni un chiffre malgache.",
+    "Non : les quatre sur dix concernent des personnes se disant victimes de corruption en milieu scolaire dans une enquête de presse, pas des élèves victimes de violences sexuelles."
+   ],
+   "x": "Le chiffre malgache disponible est celui de l'enquête scolaire de l'OMS : 27,2 % des 13-17 ans harcelés à l'école dans l'année <a class=\"cite\" data-ref=\"who2025\"></a>. Les 38,8 % proviennent d'une analyse multipays africaine qui n'inclut pas Madagascar <a class=\"cite\" data-ref=\"aboagye2021a\"></a>, et les 83 % d'une étude sud-africaine de 2009 sur l'effet de cumul chez des enfants orphelins du sida <a class=\"cite\" data-ref=\"cluver2009\"></a>. Un chiffre étranger cité comme s'il était malgache impressionne sur le moment et fragilise tout le reste de votre propos. Voir <a href=\"#terrain-madagascar-h\">À Madagascar, un terrain déjà fragile</a>.",
+   "kind": "appliquer",
+   "section": "terrain-madagascar-h"
+  },
+  {
+   "q": "Une élève atteinte d'albinisme recopie mal le tableau depuis le fond de la classe, et des camarades lui donnent des surnoms sur sa peau. Que faites-vous ?",
+   "o": [
+    "Expliquer l'albinisme à toute la classe en la prenant comme exemple, pour que les moqueries cessent.",
+    "La placer au premier rang : quand elle suivra normalement, les surnoms perdront leur objet.",
+    "La placer devant pour qu'elle voie le tableau, et faire cesser les surnoms tout de suite, à part.",
+    "Ne rien dire pour l'instant : à cet âge, les surnoms s'éteignent seuls si l'on n'y réagit pas."
+   ],
+   "a": 2,
+   "why": [
+    "Non : faire d'un enfant exposé un cas public ajoute une humiliation à l'autre, même avec une bonne intention pédagogique.",
+    "Non : c'est confondre deux problèmes distincts ; la place dans la classe règle la vue, elle ne retire pas l'autorisation de moquer.",
+    "Oui : trois problèmes différents appellent trois réponses différentes, et un seul se règle en changeant l'enfant de place.",
+    "Non : les surnoms qui visent le corps installent la cible avant les coups ; ne pas réagir vaut autorisation."
+   ],
+   "x": "La stigmatisation liée à l'albinisme mêle trois choses qui n'appellent pas la même réponse : des moqueries sur l'apparence, des croyances sur le corps, et une difficulté bien réelle à voir le tableau <a class=\"cite\" data-ref=\"tambala2021,cimpric2010\"></a>. Seul le troisième problème se règle en changeant l'enfant de place. Les travaux de terrain menés en Afrique centrale relèvent que ces élèves figurent souvent parmi les meilleurs de leur classe, quand la stigmatisation ne les pousse pas au décrochage <a class=\"cite\" data-ref=\"ayangma2025\"></a> : la perte n'est pas seulement humaine, elle est scolaire. Voir <a href=\"#stigmatisations-h\">Les enfants que la société marque déjà</a>.",
+   "kind": "appliquer",
+   "section": "stigmatisations-h"
+  },
+  {
+   "q": "En pleine classe, un élève lance à un camarade une insulte sur l'origine supposée de sa famille, et plusieurs élèves rient. Que faites-vous dans la minute qui suit ?",
+   "o": [
+    "Vous rétablissez la vérité devant tous en expliquant que la famille de cet élève n'est pas d'origine servile.",
+    "Vous faites cesser les mots immédiatement sans commenter l'origine, puis vous parlez à l'élève visé en privé.",
+    "Vous demandez aux deux élèves de s'expliquer devant la classe, pour que chacun entende ce que l'autre ressent.",
+    "Vous laissez passer : ces questions d'origine relèvent des familles, et l'école n'a pas à s'en mêler."
+   ],
+   "a": 1,
+   "why": [
+    "Non : discuter publiquement de l'origine d'un enfant, même pour le défendre, prolonge l'atteinte et valide l'idée qu'il y aurait une honte à démentir.",
+    "Oui : arrêter les mots tout de suite, traiter le fait comme grave, et ne jamais faire de cet élève un cas public.",
+    "Non : c'est une confrontation devant témoins ; elle place la cible en position de se justifier devant le groupe qui vient de rire.",
+    "Non : ne pas réagir laisse au groupe l'autorisation de recommencer, et l'insulte touche la place de toute une famille."
+   ],
+   "x": "À Madagascar, l'origine servile continue d'être rappelée par des mécanismes sociaux précis : discours généalogiques lors des funérailles, enquêtes menées avant un mariage, refus d'enterrement dans le tombeau <a class=\"cite\" data-ref=\"regnier2014,regnier2015\"></a>. Une insulte à l'école sur l'origine ne vise donc jamais le seul élève : elle touche la place de toute sa famille. La règle tient en une phrase : faire cesser les mots, parler à l'enfant en privé, ne jamais nommer publiquement son origine. Voir <a href=\"#stigmatisations-h\">Les enfants que la société marque déjà</a>.",
+   "kind": "appliquer",
+   "section": "stigmatisations-h"
+  },
+  {
+   "q": "Le père d'un garçon de 13 ans harcelé depuis la rentrée vous dit : « Qu'il apprenne à se défendre, sinon ça ne s'arrêtera jamais. » Que lui répondez-vous ?",
+   "o": [
+    "Que cette attente est ce qui empêche les garçons de parler, et que sa sécurité ne dépend pas de sa force.",
+    "Qu'il n'a pas tort dans les faits : un garçon qui riposte une fois est en général laissé tranquille ensuite.",
+    "Que les garçons sont bien moins harcelés que les filles à Madagascar, et que le cas de son fils est rare.",
+    "Qu'il faut réunir son fils et les élèves qui le visent, pour que chacun s'explique devant un adulte."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : retirer cette attente à un garçon, c'est lui rendre la possibilité de demander de l'aide.",
+    "Non : c'est le raccourci le plus répandu ; il expose l'enfant à une sanction ou à une escalade, et fait de sa protection sa propre responsabilité.",
+    "Non : les proportions sont proches entre garçons et filles à Madagascar ; c'est la forme de la violence et le signalement qui diffèrent.",
+    "Non : la confrontation entre l'enfant visé et ceux qui le visent est une conduite à éviter, elle ajoute une humiliation devant témoins."
+   ],
+   "x": "À Madagascar, la proportion d'élèves harcelés dans l'année est proche chez les garçons et chez les filles, 26,3 % contre 28,1 % <a class=\"cite\" data-ref=\"who2025\"></a> : le genre change peu le « combien », il change le « quoi ». Un garçon harcelé qui demande de l'aide risque une double peine, la moquerie des camarades et le reproche des adultes de ne pas être assez fort, et c'est l'une des raisons pour lesquelles les garçons signalent peu <a class=\"cite\" data-ref=\"ebongue2025\"></a>. Voir <a href=\"#genre-h\">Filles et garçons : la même école, pas la même violence</a>.",
+   "kind": "trancher",
+   "section": "genre-h"
+  },
+  {
+   "q": "Votre association veut repérer les enfants les plus exposés d'un quartier et prévoit pour cela de passer dans les classes de trois écoles. Quelle limite devez-vous anticiper ?",
+   "o": [
+    "Aucune limite sérieuse : le harcèlement se produisant à l'école, les enfants concernés y sont présents.",
+    "Le principal risque est que les enseignants répondent à la place des élèves pendant votre passage.",
+    "Il faudrait d'abord réunir les statistiques nationales par groupe stigmatisé, publiées depuis 2022.",
+    "Les enfants déjà sortis de l'école — qui travaillent, confiés, absents — seront manqués par ce repérage."
+   ],
+   "a": 3,
+   "why": [
+    "Non : le harcèlement ne s'arrête pas au portail, et l'enfant qui a quitté l'école reste exposé sans être compté nulle part.",
+    "Non : c'est un problème de méthode réel mais mineur ; la limite majeure est de ne jamais rencontrer les enfants absents.",
+    "Non : ces statistiques par groupe n'existent pas à Madagascar, et attendre reviendrait à ne rien faire.",
+    "Oui : un repérage qui ne va pas vers ceux qui manquent les manque, par construction."
+   ],
+   "x": "Toutes les enquêtes citées interrogent des enfants présents à l'école le jour de l'enquête ; or ne pas être scolarisé est en soi un facteur d'exposition <a class=\"cite\" data-ref=\"morano2022\"></a>. À Madagascar, 24,6 % des élèves déclarent avoir manqué l'école sans permission, et certains ne sèchent pas, ils fuient <a class=\"cite\" data-ref=\"who2025\"></a> ; le travail des enfants creuse par ailleurs un écart de scolarisation de trente points <a class=\"cite\" data-ref=\"instat2007ente\"></a>. Aucune enquête publiée ne mesure encore le harcèlement subi par les enfants les plus stigmatisés du pays <a class=\"cite\" data-ref=\"crc2022\"></a>. Voir <a href=\"#angles-morts-h\">Les enfants que le repérage ne voit pas</a>.",
+   "kind": "trancher",
+   "section": "angles-morts-h"
+  }
+ ]
+}

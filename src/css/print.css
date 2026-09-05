@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Impression : lisible, en noir et blanc, sans navigation ; deux niveaux dépliés
+   ========================================================================== */
+@media print {
+  @page { margin: 1.4cm; }
+  html { font-size: 11pt; scroll-padding-top: 0; }
+  html, body { background: #fff !important; color: #111 !important; }
+  .top, .rail, .scrim, .bottombar, .banner, .totop, .settings, .search, .pop, .sheet, .backbar, .skip, .pager, .crumb, .wtools, .foot .clear, .gl-nav, .agebar, .chips { display: none !important; }
+  .wrap { padding-top: 0; display: block; }
+  .main { margin: 0 !important; padding: 0 !important; }
+  .page, .page.has-margin { max-width: none; padding: 0; }
+  .page.has-margin aside.deep { float: none; width: auto; margin: 0.4cm 0; }
+  aside.deep { background: #fff !important; border: 1px solid #999; border-left: 3px solid #333; page-break-inside: avoid; }
+  aside.deep .lab::before { content: "ⓘ "; }
+  html[data-reading="essentiel"] aside.deep { display: block; }
+  .box, .card, .kf .k, .qz, .wiz, .age, .toc-step, .session-card, .door, .sort .item { background: #fff !important; border-color: #999 !important; box-shadow: none !important; page-break-inside: avoid; }
+  .retenir, .keep, .warn { border-left-width: 3px; }
+  .safety { border: 2px solid #333; }
+  .ev, .tag { border: 1px solid #666; background: #fff !important; color: #111 !important; }
+  a { color: #111 !important; text-decoration: none; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; color: #555; word-break: break-all; }
+  a.term::after, a.cite::after, .reflist a::after, .pager a::after, .crumb a::after { content: none; }
+  a.term { text-decoration: underline dotted #666; }
+  a.cite { border-bottom: 0; }
+  .reflist li { font-size: 9.5pt; line-height: 1.4; border-bottom: 1px dotted #ccc; }
+  .reflist a::after { content: none !important; }
+  h1, h2, h3, h4 { page-break-after: avoid; color: #111; }
+  h2 { margin-top: 0.7cm; }
+  figure.fig { page-break-inside: avoid; }
+  figure.fig .fig-box { border: 1px solid #999; background: #fff; overflow: visible; }
+  figure.fig svg { color: #111; }
+  figure.fig.scroll svg { min-width: 0; }
+  figure.fig.scroll .fig-box::after { content: none; }
+  .tw { border: 1px solid #999; overflow: visible; }
+  table { min-width: 0; font-size: 9.5pt; }
+  th { background: #eee !important; color: #111 !important; }
+  .qz .qo button { border: 1px solid #999; background: #fff; }
+  .qz .fb { display: block !important; border-left-color: #333; background: #fff; }
+  .qz .fb::before { content: "Réponse : "; font-weight: 700; }
+  .wiz .wnode { display: block !important; }
+  .foot { border-top: 1px solid #999; margin-top: 1cm; padding: 0.4cm 0 0; background: #fff; font-size: 9pt; }
+  .foot .links { display: none; }
+  .foot .build { color: #555; }
+}

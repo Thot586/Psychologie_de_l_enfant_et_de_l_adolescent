@@ -1,0 +1,158 @@
+{
+ "title": "Vérifier ce que votre association peut promettre et tenir",
+ "intro": "Huit situations d'entrée dans une école, du rendez-vous avec le directeur jusqu'à la confidence reçue dans la cour. Répondez avant de lire la correction : se souvenir activement ancre mieux que relire.",
+ "questions": [
+  {
+   "q": "Le directeur d'une école primaire vous reçoit et demande : « Si vous venez animer une matinée, de combien le harcèlement va-t-il baisser chez nous ? » Que répondez-vous ?",
+   "o": [
+    "D'environ 20 %, c'est le chiffre obtenu par les programmes anti-harcèlement évalués dans le monde",
+    "Rien du tout : aucune recherche sérieuse n'existe sur la prévention du harcèlement à l'école",
+    "D'aucun pourcentage annonçable : une matinée ouvre une porte, elle ne fait pas baisser les faits",
+    "De beaucoup, si nous projetons un témoignage marquant qui frappe durablement les élèves"
+   ],
+   "a": 2,
+   "why": [
+    "Non : les 15 à 20 % viennent de programmes de plusieurs dizaines d'heures étalées sur l'année, pas d'une matinée ; leur attribuer votre rencontre est le contresens le plus fréquent.",
+    "Non : la recherche est au contraire abondante ; ce qui n'est pas établi, c'est l'effet d'une rencontre unique et sa transposition à Madagascar.",
+    "Oui : vous promettez une porte d'entrée et un partenariat durable, c'est-à-dire exactement ce que vous pouvez tenir.",
+    "Non : le choc émotionnel est précisément la méthode qui, évaluée rigoureusement, a aggravé les comportements qu'elle prétendait prévenir."
+   ],
+   "x": "Les programmes qui obtiennent des résultats représentent plus d'une vingtaine d'heures pour les élèves et autant pour les adultes, étalées sur l'année, pour des effets de l'ordre de 15 à 20 % <a class=\"cite\" data-ref=\"gaffney2021a,ttofi2011\"></a>. Ce qui marche est une approche école entière : règles claires, formation des adultes, surveillance des lieux à risque, implication des parents, procédure écrite <a class=\"cite\" data-ref=\"gaffney2021b,oms2019manuel\"></a>. Annoncer cette limite vous-même, comme le décrit <a href=\"#promesse-h\">la première section</a>, est la meilleure entrée en matière possible.",
+   "kind": "comprendre",
+   "section": "promesse-h"
+  },
+  {
+   "q": "Vous préparez avec deux bénévoles la réunion de rentrée d'un collège. L'un demande : « En Afrique, quel est notre argument le plus solide face à une équipe enseignante ? »",
+   "o": [
+    "La violence physique des adultes de l'école, réduite de 42 % par un essai mené en Ouganda",
+    "Le cyberharcèlement, qui est aujourd'hui la forme la plus fréquente chez les élèves malgaches",
+    "Les programmes finlandais, dont les résultats se transposent directement aux écoles africaines",
+    "Les campagnes d'affichage, qui touchent tous les élèves de l'école pour un coût presque nul"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : c'est le résultat le plus solide disponible pour un contexte africain à faibles ressources, et il vise les adultes autant que les élèves.",
+    "Non : à Madagascar, 10,5 % des élèves déclarent un cyberharcèlement contre 27,2 % un harcèlement à l'école ; en faire l'axe principal détourne de l'essentiel.",
+    "Non : presque tous ces essais viennent de pays à revenu élevé et leurs réplications sont variables, la transposition n'est pas démontrée.",
+    "Non : le simple apport d'information ne suffit pas, et l'affichage seul ne change pas les pratiques de l'école."
+   ],
+   "x": "En Afrique, la violence exercée par les adultes de l'école est au moins aussi centrale que celle entre élèves <a class=\"cite\" data-ref=\"devries2015,masath2023,oms2019manuel\"></a>. Le Good School Toolkit, évalué par essai randomisé en grappes en Ouganda, a réduit de 42 % la violence physique des personnels envers les élèves <a class=\"cite\" data-ref=\"devries2015\"></a>, pour environ 15 dollars par élève et par an <a class=\"cite\" data-ref=\"greco2018\"></a>. Une sensibilisation qui ne parle qu'aux enfants passe donc à côté de l'essentiel.",
+   "kind": "comprendre",
+   "section": "objections-h"
+  },
+  {
+   "q": "Une directrice vous propose : « Je vous réunis vingt élèves qui posent problème, vous leur parlez une heure, ce sera plus efficace. » Que faites-vous ?",
+   "o": [
+    "Vous acceptez, à condition qu'une enseignante reste dans la salle du début à la fin",
+    "Vous refusez ce groupe et proposez de recevoir chacun de ces élèves seul, dans un bureau",
+    "Vous acceptez et ajoutez le témoignage d'un ancien élève harcelé pour marquer le groupe",
+    "Vous refusez ce groupe et proposez de travailler avec une classe entière, telle qu'elle est"
+   ],
+   "a": 3,
+   "why": [
+    "Non : la présence d'un adulte est une bonne règle, mais elle n'empêche pas la contagion produite par le regroupement lui-même.",
+    "Non : rester seul avec un enfant dans un lieu fermé et le désigner comme un cas font partie de ce qu'une association ne fait pas.",
+    "Non : vous cumulez deux mécanismes documentés comme nuisibles, le regroupement de jeunes en difficulté et le témoignage choc.",
+    "Oui : le groupe ordinaire est le bon cadre, car c'est le comportement de tout le groupe qui fait durer ou cesser la situation."
+   ],
+   "x": "Réunir en groupe des jeunes déjà en difficulté de comportement produit une contagion déviante et aggrave les problèmes <a class=\"cite\" data-ref=\"dishion1999\"></a>, et les approches par la peur ont augmenté les comportements qu'elles prétendaient prévenir <a class=\"cite\" data-ref=\"petrosino2013\"></a>. L'offre est tentante parce qu'elle semble concentrer l'effort là où il est utile. Le levier réel est le groupe entier, témoins compris <a class=\"cite\" data-ref=\"salmivalli2010\"></a>.",
+   "kind": "appliquer",
+   "section": "pieges-h"
+  },
+  {
+   "q": "De retour de la rencontre, un bénévole a noté sur son carnet les noms de neuf élèves « à surveiller » et propose d'envoyer la liste à l'école par messagerie. Que lui dites-vous ?",
+   "o": [
+    "C'est acceptable si le carnet reste chez lui, sous clé, et n'est jamais montré aux familles",
+    "Non : pas de liste d'enfants repérés ; on transmet au référent nommé, puis on détruit la note",
+    "C'est acceptable si les prénoms sont remplacés par des initiales avant l'envoi du message",
+    "Non : il faut d'abord obtenir l'accord écrit des neuf familles avant toute transmission"
+   ],
+   "a": 1,
+   "why": [
+    "Non : le problème n'est pas le lieu de rangement, c'est l'existence même d'une liste d'enfants étiquetés.",
+    "Oui : on n'écrit que ce qui sert l'orientation, on transmet à la personne nommée dans la convention, et on ne conserve rien ensuite.",
+    "Non : dans une école, des initiales et une classe suffisent à identifier un élève ; cette anonymisation est illusoire.",
+    "Non : cette exigence bloquerait la transmission d'une inquiétude au référent, qui doit se faire le jour même."
+   ],
+   "x": "Les données que vous recueillez sont protégées par la loi malgache sur les données à caractère personnel, qui pose la licéité, la finalité déterminée, la proportionnalité et la sécurité du traitement <a class=\"cite\" data-ref=\"loi2014038\"></a> ; le droit de l'enfant à la vie privée figure aussi dans la Convention relative aux droits de l'enfant <a class=\"cite\" data-ref=\"un1989\"></a>. La bonne pratique tient en trois gestes : noter les faits utiles, transmettre le jour même à la personne nommée, détruire ensuite. Le <a href=\"#cadre-h\">cadre à poser avant d'entrer</a> prévoit justement de désigner cette personne à l'avance.",
+   "kind": "appliquer",
+   "section": "cadre-h"
+  },
+  {
+   "q": "Vous intervenez une heure dans un lycée. Les élèves vous disent qu'ils ont déjà entendu trois fois l'exposé « c'est quoi le harcèlement ». Que faites-vous de cette heure ?",
+   "o": [
+    "Reprendre les trois critères en détail, parce qu'ils sont mal retenus à cet âge",
+    "Faire raconter à un élève volontaire ce qu'il a subi, pour que le groupe comprenne",
+    "Consacrer l'heure à la loi et aux sanctions encourues par les auteurs de harcèlement",
+    "Confier la norme aux élèves que les autres écoutent déjà, et rendre leur engagement public"
+   ],
+   "a": 3,
+   "why": [
+    "Non : l'apport d'information seul ne suffit pas, et l'efficacité des programmes chute nettement à partir de 13 ou 14 ans.",
+    "Non : le témoignage brut d'un élève encore en souffrance l'expose devant sa classe et n'est pas un format de sensibilisation.",
+    "Non : la menace de sanction ne change pas une norme de groupe, et elle vous place dans un rôle d'autorité qui n'est pas le vôtre.",
+    "Oui : avec les grands, on ne cherche pas à expliquer le harcèlement, on leur confie la norme du groupe."
+   ],
+   "x": "L'efficacité des programmes anti-harcèlement diminue nettement à partir de 13 ou 14 ans <a class=\"cite\" data-ref=\"yeager2015\"></a>, alors que l'effet sur l'intervention des témoins est plus fort chez les lycéens (0,43) que chez les plus jeunes (0,14) <a class=\"cite\" data-ref=\"polanin2012\"></a>. Dans un essai randomisé mené dans 56 collèges, confier le message à des élèves réellement influents dans le réseau de l'établissement a réduit d'environ 30 % les signalements de conflits <a class=\"cite\" data-ref=\"paluck2016\"></a>. Rendre l'engagement visible — bracelet, affiche signée, prise de parole — fait partie du dispositif <a class=\"cite\" data-ref=\"salmivalli2010\"></a>.",
+   "kind": "appliquer",
+   "section": "contenu-h"
+  },
+  {
+   "q": "À la fin de la rencontre, une élève de 12 ans vous suit dans la cour : « Ne le répétez à personne, mais trois filles me frappent tous les matins. » Quelle est votre première phrase ?",
+   "o": [
+    "« Je ne peux pas te promettre le secret, parce que je dois te protéger ; je te dirai à qui j'en parle »",
+    "« D'accord, cela reste entre nous : raconte-moi tout, tu peux me faire entièrement confiance »",
+    "« Viens, on va voir ces trois filles tout de suite avec la surveillante pour tirer cela au clair »",
+    "« Donne-moi le numéro de tes parents, je les appelle ce soir pour leur expliquer la situation »"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : annoncer d'emblée la limite du secret protège l'enfant, et l'expérience montre que cela n'empêche pas la parole.",
+    "Non : le secret absolu est une promesse qu'on ne pourra pas tenir, et la rompre ensuite abîme durablement la confiance.",
+    "Non : confronter l'enfant aux élèves désignées est une conduite à risque, et l'enquête n'appartient pas à votre association.",
+    "Non : contacter une famille de votre propre initiative sort de votre rôle ; c'est le référent de l'école qui organise ce contact."
+   ],
+   "x": "Le protocole se décide avant, par écrit, et il tient en peu de gestes : écouter en aparté à deux adultes, ne pas promettre le secret, noter les faits et non vos interprétations, informer le référent le jour même puis vérifier que quelque chose a été fait <a class=\"cite\" data-ref=\"oms2019manuel,oms2016inspire\"></a>. Toute rencontre fait remonter des confidences : c'est l'un de ses effets les plus certains, et l'improvisation est ce qui fait les dégâts. Voir <a href=\"#devoilement-h\">Si un enfant se confie</a>.",
+   "kind": "appliquer",
+   "section": "devoilement-h"
+  },
+  {
+   "q": "Pendant l'activité, un garçon de 15 ans dit devant vous qu'il pense parfois qu'il vaudrait mieux qu'il disparaisse. Quelle est la conduite prioritaire ?",
+   "o": [
+    "Vous notez son nom et vous en reparlerez à l'école lors de votre prochaine venue dans l'établissement",
+    "Vous ne le laissez pas seul, vous prévenez le jour même l'école et sa famille, et vous l'orientez vers un soin",
+    "Vous lui donnez le numéro de la ligne verte 147, qui prend en charge les crises suicidaires des jeunes",
+    "Vous lui demandez de raconter devant le groupe ce qu'il traverse, pour que les autres l'entourent et le soutiennent"
+   ],
+   "a": 1,
+   "why": [
+    "Non : reporter à une prochaine visite laisse l'adolescent sans protection pendant plusieurs jours.",
+    "Oui : ne pas laisser seul, prévenir les adultes responsables le jour même et orienter vers un soin, c'est la conduite attendue.",
+    "Non : le 147 est une ligne de signalement des violences et d'orientation, pas une ligne de crise suicidaire, et elle ne remplace pas un service de soins.",
+    "Non : faire raconter devant le groupe expose l'adolescent et va contre les règles de sécurité d'une rencontre."
+   ],
+   "x": "La conduite est de ne pas laisser l'adolescent seul, de retirer les moyens à sa portée, de prévenir le jour même l'adulte responsable de l'école et sa famille, puis de l'accompagner vers un service d'urgence ou de psychiatrie. La ligne verte 147 sert au signalement des violences et à l'orientation <a class=\"cite\" data-ref=\"arozaza147,2424mg2026\"></a> : c'est une ressource utile, mais pas celle-là. Les recommandations internationales demandent par ailleurs de ne jamais décrire de méthode ni de raconter un passage à l'acte, et de toujours donner une issue et une ressource <a class=\"cite\" data-ref=\"oms2023suicidemedias\"></a>.",
+   "kind": "trancher",
+   "section": "pieges-h"
+  },
+  {
+   "q": "Vous relisez le diaporama d'un bénévole avant une réunion de parents. Quatre phrases chiffrées y figurent. Laquelle pouvez-vous garder telle quelle ?",
+   "o": [
+    "« 58 % des élèves malgaches sont harcelés : c'est le chiffre national de référence »",
+    "« Former les témoins fait baisser le harcèlement de 20 % dans les écoles évaluées »",
+    "« À Madagascar, 27,2 % des élèves de 13 à 17 ans déclarent avoir été harcelés à l'école dans l'année »",
+    "« En Afrique, un élève sur deux est harcelé chaque mois, la méta-analyse le prouve »"
+   ],
+   "a": 2,
+   "why": [
+    "Non : ce chiffre vient d'une étude locale relayée par la presse ; on peut le citer comme estimation non validée, jamais comme statistique nationale.",
+    "Non : augmenter l'intervention des témoins n'est pas la même chose que faire baisser le harcèlement, et les deux effets ne se recouvrent pas.",
+    "Oui : le pourcentage, la tranche d'âge, la période et le pays sont précisés, ce qui rend la phrase défendable devant des parents.",
+    "Non : la méta-analyse africaine donne 46,4 % avec un intervalle large et des périodes de rappel très variables ; ce n'est ni « chaque mois » ni « prouvé »."
+   ],
+   "x": "L'enquête scolaire menée à Madagascar auprès de 2 440 élèves de 13 à 17 ans donne 27,2 % de harcèlement à l'école dans l'année et 10,5 % de cyberharcèlement <a class=\"cite\" data-ref=\"who2025\"></a> ; le chiffre de 58 % est une estimation locale relayée par la presse <a class=\"cite\" data-ref=\"lexpress2025\"></a>. Les chiffres africains ne se comparent pas directement, car les périodes de rappel diffèrent : 38,8 % dans onze pays enquêtés et 46,4 % en méta-analyse, avec un intervalle de 41,5 à 51,2 % <a class=\"cite\" data-ref=\"aboagye2021a,rtbey2025\"></a>. Enfin, l'effet mesuré sur les témoins ne se traduit pas automatiquement en baisse de prévalence <a class=\"cite\" data-ref=\"polanin2012,gaffney2021a\"></a>.",
+   "kind": "trancher",
+   "section": "chiffres-h"
+  }
+ ]
+}

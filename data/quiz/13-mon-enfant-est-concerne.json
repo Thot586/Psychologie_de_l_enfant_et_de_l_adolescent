@@ -1,0 +1,158 @@
+{
+ "title": "Vérifier que les réflexes de chaque chemin sont bien en main",
+ "intro": "Huit situations, dans l'ordre où elles se présentent vraiment : ce qu'on fait le soir même, ce qu'on écrit dans la semaine, et ce qu'on refuse de faire. Répondez avant de lire la correction : chercher la réponse ancre mieux que relire la page.",
+ "questions": [
+  {
+   "q": "Votre fils de 12 ans vous dit qu'un groupe l'attend depuis des semaines sur le trajet de l'école. Vous n'êtes pas encore sûr qu'il faille parler de harcèlement. Que faites-vous ce soir ?",
+   "o": [
+    "Réduire tout de suite l'exposition : savoir où et quand cela arrive, et faire qu'il n'y soit plus seul",
+    "Vérifier d'abord que les trois critères du harcèlement sont réunis avant de changer quoi que ce soit",
+    "Attendre l'avis de l'école sur le mot à employer avant de modifier les habitudes de votre fils",
+    "Lui demander de tenir seul un carnet des incidents pendant deux semaines, puis décider de la suite"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : on repère le lieu et l'heure, et on fait en sorte qu'il n'y soit plus seul, avant même de nommer la situation.",
+    "Non : qualifier avant d'agir laisse l'enfant exposé pendant qu'on discute des critères entre adultes.",
+    "Non : attendre le mot de l'école transforme une protection immédiate en démarche administrative de plusieurs jours.",
+    "Non : faire porter le carnet par l'enfant seul, sans rien changer autour de lui, le laisse deux semaines de plus dans la situation."
+   ],
+   "x": "La première question des adultes est presque toujours « est-ce vraiment du harcèlement ? » — c'est une bonne question, mais ce n'est pas la première chose à faire. On identifie le lieu et le moment (trajet, récréation, toilettes, groupe de discussion de la classe) et on organise l'accompagnement, puis on qualifie avec l'école en vérifiant l'intention de nuire, la répétition dans la durée et le déséquilibre de pouvoir <a class=\"cite\" data-ref=\"nasem2016,unesco2019fr,cdc2024bullying\"></a>. Consigner reste utile, mais c'est l'adulte qui tient les traces, pas l'enfant. Voir <a href=\"#regle-commune-h\">la règle commune</a>.",
+   "kind": "comprendre",
+   "section": "regle-commune-h"
+  },
+  {
+   "q": "Un père vous raconte : « mon fils s'est battu une fois à la sortie avec un camarade de sa taille, ils ont crié, puis ils rejouent ensemble depuis. » Comment situer cette scène ?",
+   "o": [
+    "C'est du harcèlement, parce que la bagarre a été violente et qu'un adulte a dû intervenir",
+    "C'est du harcèlement, parce qu'un des deux enfants en a réellement souffert ce jour-là",
+    "C'est un conflit ponctuel : il manque la répétition dans la durée et le déséquilibre de pouvoir",
+    "C'est impossible à trancher : seul un professionnel formé peut dire s'il s'agit de harcèlement"
+   ],
+   "a": 2,
+   "why": [
+    "Non : c'est la gravité d'un incident qui est confondue avec sa répétition ; un coup unique entre égaux reste un conflit.",
+    "Non : la souffrance ressentie ne suffit pas à qualifier, sinon toute dispute deviendrait du harcèlement.",
+    "Oui : les trois critères doivent être réunis, et ici deux manquent — la durée et le rapport de force inégal.",
+    "Non : renvoyer la qualification à un expert retarde la réponse alors que les trois critères sont utilisables par tout adulte."
+   ],
+   "x": "Qualifier, c'est vérifier trois critères réunis : l'intention de nuire, la répétition dans la durée et le déséquilibre de pouvoir qui empêche l'enfant visé de se défendre à armes égales <a class=\"cite\" data-ref=\"nasem2016,unesco2019fr,catheline2023\"></a>. La distinction n'est pas une querelle de mots : un conflit peut se parler et se réparer entre les deux enfants, une situation de harcèlement non, et les médiations entre pairs ne sont pas recommandées dans ce cas <a class=\"cite\" data-ref=\"nasem2016,defenseurdesdroits2023\"></a>. Se tromper de qualification, c'est se tromper de réponse.",
+   "kind": "comprendre",
+   "section": "regle-commune-h"
+  },
+  {
+   "q": "Votre fille de 11 ans finit par parler, le soir, en pleurant. Vous lui avez dit : « je te crois, ce n'est pas ta faute, tu as bien fait de m'en parler. » Que faites-vous dans les minutes qui suivent ?",
+   "o": [
+    "Vous posez des questions fermées et précises pour établir vite les faits : « c'est Naina ? il t'a frappée ? »",
+    "Vous écoutez plus que vous ne parlez, avec des questions ouvertes, et vous supportez les silences",
+    "Vous lui proposez aussitôt un plan en trois points pour qu'elle voie que la situation est sous contrôle",
+    "Vous appelez son enseignante devant elle, pour qu'elle constate que vous agissez immédiatement"
+   ],
+   "a": 1,
+   "why": [
+    "Non : les questions fermées referment le récit et orientent l'enfant vers la réponse que vous attendez.",
+    "Oui : « raconte-moi », « qu'est-ce qui s'est passé ensuite ? », « qui était là ? » — l'émotion s'accueille avant les solutions.",
+    "Non : proposer un plan tout de suite coupe la parole et fait passer votre soulagement avant son récit.",
+    "Non : appeler devant elle lui retire le contrôle de ce qui va être dit, et beaucoup d'enfants se rétractent ensuite."
+   ],
+   "x": "Un enfant qui parle a souvent attendu des semaines, et ce qu'il guette dans les premières secondes, c'est votre réaction. Après les trois phrases qui ouvrent, on écoute plus qu'on ne parle : les questions ouvertes ouvrent le récit, les questions fermées le referment <a class=\"cite\" data-ref=\"defenseurdesdroits2023,who2023parenting\"></a>. Les solutions viennent après, et elles se décident avec l'école, pas dans l'urgence de la soirée <a class=\"cite\" data-ref=\"nasem2016,defenseurdesdroits2023\"></a>.",
+   "kind": "appliquer",
+   "section": "chemin-1-h"
+  },
+  {
+   "q": "Vous avez écrit à la direction et obtenu un rendez-vous. La mère de l'élève qui agit est votre voisine et vous la croisez chaque matin au puits. Que faites-vous d'ici le rendez-vous ?",
+   "o": [
+    "Vous lui en parlez calmement, entre mères, pour régler l'affaire sans avoir à mêler l'école",
+    "Vous lui montrez les captures d'écran, pour qu'elle voie de ses yeux ce que son fils écrit",
+    "Vous lui proposez de réunir les deux enfants chez vous, un dimanche, pour qu'ils s'expliquent",
+    "Vous ne l'abordez pas, et vous demandez par écrit à l'école des mesures et une date de point"
+   ],
+   "a": 3,
+   "why": [
+    "Non : régler « entre mères » transforme un problème d'enfants en conflit d'adultes, souvent en conflit de voisinage durable.",
+    "Non : sortir les preuves hors de tout cadre expose votre enfant à des représailles et affaiblit la démarche auprès de l'école.",
+    "Non : remettre face à face l'enfant visé et celui qui a le pouvoir sur lui est précisément ce qu'il ne faut pas organiser.",
+    "Oui : on passe par un tiers, l'école saisie par écrit, et on demande des mesures de protection avec une date de vérification."
+   ],
+   "x": "Convoquer les parents de l'autre enfant, ou aller les voir, transforme un problème d'enfants en conflit d'adultes dont l'enfant paiera le prix ; on passe par l'école d'abord, puis si nécessaire par le fokontany ou le réseau de protection de l'enfant <a class=\"cite\" data-ref=\"defenseurdesdroits2023,nasem2016\"></a>. Ce qu'on demande à l'école n'est pas une punition mais une protection : surveillance renforcée aux lieux et heures identifiés, un adulte nommé, un travail avec le groupe classe, un point d'étape daté à huit ou quinze jours <a class=\"cite\" data-ref=\"gaffney2021b\"></a>. Voir <a href=\"#ecole-h\">coopérer avec l'école</a>.",
+   "kind": "appliquer",
+   "section": "ecole-h"
+  },
+  {
+   "q": "Le directeur vous apprend que votre fils de 13 ans a pris trois fois le goûter d'un camarade et l'a filmé. À la maison, il répond : « c'était pour rire, tout le monde le faisait. » Que faites-vous ?",
+   "o": [
+    "Vous lui donnez une correction ferme le jour même, pour qu'il sente enfin ce que l'autre a senti",
+    "Vous laissez l'école le sanctionner et vous n'en reparlez pas, pour ne pas l'humilier deux fois",
+    "Vous décrivez l'acte et son effet, refusez la justification, et fixez une réparation avec l'école",
+    "Vous demandez son changement d'établissement, avant que toute l'histoire ne s'ébruite au quartier"
+   ],
+   "a": 2,
+   "why": [
+    "Non : la punition corporelle est associée à plus d'agressivité et à une relation dégradée, jamais à l'arrêt du comportement.",
+    "Non : se taire à la maison laisse intactes les justifications, qui sont justement ce qui rend le geste répétable.",
+    "Oui : on nomme le comportement et non l'enfant, on casse l'excuse, et la réparation est concrète et tenue par un adulte.",
+    "Non : le changement d'établissement déplace le problème sans rien travailler, et enseigne que le silence règle tout."
+   ],
+   "x": "« Il l'avait cherché », « tout le monde le faisait », « c'était pour rire » ne sont pas des excuses d'enfant : ce sont les raisonnements qui rendent le mal supportable à celui qui le fait, et le désengagement moral est un corrélat robuste des conduites agressives chez les 8-18 ans (r = 0,28 sur 27 échantillons) <a class=\"cite\" data-ref=\"gini2014\"></a>. Frapper n'y change rien : la méta-analyse portant sur près de 161 000 enfants montre davantage d'agressivité, de problèmes de comportement et une relation parent-enfant dégradée, sans bénéfice identifié <a class=\"cite\" data-ref=\"gershoff2016\"></a>. Si votre objectif est qu'il arrête, c'est le moyen qui échoue, pas vous : nommer, refuser la justification, réparer, puis chercher ce que cela dit.",
+   "kind": "appliquer",
+   "section": "chemin-2-h"
+  },
+  {
+   "q": "Votre fille de 10 ans vous raconte qu'à la récréation, un groupe se moque chaque jour d'un camarade, et qu'elle reste à côté sans rien dire parce qu'elle a peur d'être la suivante. Que lui proposez-vous ?",
+   "o": [
+    "Ne pas rire ni filmer, aller vers l'enfant visé après coup, et prévenir un enseignant nommé à l'avance",
+    "S'interposer et dire au groupe d'arrêter, puisque le silence des témoins est ce qui fait durer la scène",
+    "Ne rien faire elle-même : à 10 ans, ce n'est pas à elle de porter une histoire qui ne la concerne pas",
+    "Filmer discrètement une scène pour avoir une preuve, puis vous l'apporter le soir même à la maison"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : trois gestes sûrs — ne pas alimenter le public, aller vers l'enfant visé seul à seul, prévenir un adulte nommé.",
+    "Non : lui demander de s'interposer la met en danger et lui fait porter la responsabilité de faire cesser la situation.",
+    "Non : lui dire de ne rien faire la laisse dans le groupe des spectateurs, dont la présence est justement le carburant.",
+    "Non : filmer, même « pour la preuve », alimente le public et fait circuler l'humiliation de l'enfant visé."
+   ],
+   "x": "Un témoin n'est jamais neutre : rire, filmer, s'éloigner ou défendre, chacune de ces attitudes fait durer ou cesser la situation <a class=\"cite\" data-ref=\"salmivalli1996,salmivalli2010\"></a>. Mais lui demander d'intervenir physiquement, c'est le mettre en danger et lui imposer une injonction qu'il ne pourra pas tenir <a class=\"cite\" data-ref=\"nasem2016\"></a>. Il reste un point à dire tôt, avant qu'il ne serve : prévenir un adulte n'est pas dénoncer, c'est protéger quelqu'un. Voir <a href=\"#chemin-3-h\">le chemin du témoin</a>.",
+   "kind": "appliquer",
+   "section": "chemin-3-h"
+  },
+  {
+   "q": "Vous encadrez un groupe de jeunes le samedi. Une adolescente vous confie qu'un adulte de son école l'humilie devant la classe et lui fait des remarques sur son corps, et elle vous supplie de n'en parler à personne. Que faites-vous ?",
+   "o": [
+    "Vous promettez le secret pour qu'elle continue de parler, et vous verrez ensuite ce que vous en faites",
+    "Vous lui demandez de raconter les faits en détail devant le groupe, pour que rien ne se perde",
+    "Vous convoquez l'adulte mis en cause pour entendre sa version avant de transmettre quoi que ce soit",
+    "Vous ne promettez pas le secret, vous écrivez les faits le jour même et vous dites à qui vous transmettez"
+   ],
+   "a": 3,
+   "why": [
+    "Non : promettre le secret absolu est une promesse qu'il faudra rompre, et la rupture coûte plus cher que le refus expliqué.",
+    "Non : faire répéter les détails, a fortiori devant le groupe, l'expose sans rien apporter à sa protection.",
+    "Non : entendre l'adulte mis en cause, c'est enquêter — ce n'est pas votre rôle, et cela le prévient.",
+    "Oui : pas de secret absolu, on explique à qui on parle et pourquoi, et on écrit avec les mots de l'adolescente."
+   ],
+   "x": "Quatre règles tiennent toute la conduite : écouter en privé sans forcer le récit, ne jamais promettre le secret absolu mais expliquer à qui vous allez parler et pourquoi, écrire les faits le jour même avec les mots de l'enfant, transmettre à la personne prévue et rester disponible <a class=\"cite\" data-ref=\"oms2019manuel,oms2011psp\"></a>. Les premiers secours psychologiques ajoutent une règle contre-intuitive : ne pas faire raconter l'événement en détail <a class=\"cite\" data-ref=\"oms2011psp\"></a>. Pour un fait à caractère sexuel ou sexiste, on signale sans attendre par la Ligne verte 147, gratuite et joignable jour et nuit, et on se tourne vers un service spécialisé <a class=\"cite\" data-ref=\"arozaza147\"></a> — voir <a href=\"#autres-h\">quand l'auteur est un adulte de l'école</a>. Votre association repère, accompagne et oriente ; elle n'enquête pas.",
+   "kind": "trancher",
+   "section": "chemin-4-h"
+  },
+  {
+   "q": "Un adolescent que vous suivez depuis deux mois vous dit, très calmement, qu'il pense parfois à mourir depuis que les moqueries ont commencé. Que faites-vous en premier ?",
+   "o": [
+    "Vous appelez la Ligne verte 147, qui est la ligne prévue pour prendre en charge ce genre de crise",
+    "Vous ne le laissez pas seul, écartez médicaments et toxiques, et l'accompagnez le jour même aux urgences",
+    "Vous changez de sujet pour ne pas lui mettre d'idées en tête, et vous y revenez dans quelques jours",
+    "Vous attendez le rendez-vous prévu avec l'école la semaine prochaine, pour traiter d'abord la cause"
+   ],
+   "a": 1,
+   "why": [
+    "Non : le 147 signale les violences et oriente ; ce n'est pas une ligne de crise et il ne remplace pas un recours médical.",
+    "Oui : ne pas le laisser seul, écarter les moyens à portée, l'accompagner le jour même — dans cet ordre et sans attendre.",
+    "Non : éviter le sujet ne protège personne ; poser la question calmement n'augmente pas le risque.",
+    "Non : traiter d'abord la cause scolaire fait attendre une semaine alors que la conduite à tenir est immédiate."
+   ],
+   "x": "Interroger un adolescent harcelé sur ses idées noires n'est pas exagéré : dans seize études africaines portant sur 34 007 participants, la victimation est associée à une probabilité d'idées suicidaires environ 1,7 fois plus élevée — une association, pas une causalité démontrée <a class=\"cite\" data-ref=\"bezie2025\"></a>. Le délai, lui, pèse lourd : une étude menée sur dix ans dans un hôpital d'Antananarivo associe un délai de plus de quatre heures avant la prise en charge à une mortalité multipliée par 2,4 <a class=\"cite\" data-ref=\"rafamatanantsoa2023\"></a>. La Ligne verte 147 reste utile pour signaler une violence et orienter, mais elle ne remplace pas l'urgence médicale <a class=\"cite\" data-ref=\"arozaza147\"></a>. La conduite détaillée est dans le module Demander de l'aide.",
+   "kind": "trancher",
+   "section": "tenir-h"
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "title": "Vérifier que la grille des trois critères tient devant des cas réels",
+ "intro": "Sept situations, sept décisions à prendre. Répondez avant de lire la correction : chercher la réponse soi-même ancre bien mieux que relire la page.",
+ "questions": [
+  {
+   "q": "Un père vous décrit la scène : depuis la rentrée, trois élèves plus âgés prennent chaque matin le goûter de son fils, qui n'ose rien dire. Qu'est-ce qui, dans cette description, permet de parler de harcèlement et non d'agression isolée ?",
+   "o": [
+    "La gravité du geste : prendre la nourriture d'un enfant est déjà grave en soi",
+    "Le fait que les auteurs soient trois : le nombre suffit à parler de harcèlement",
+    "La répétition chaque matin, jointe au fait que l'enfant ne peut pas faire cesser",
+    "Le silence de l'enfant, qui prouve à lui seul qu'il subit un harcèlement"
+   ],
+   "a": 2,
+   "why": [
+    "Non : la gravité d'un fait ne suffit jamais à qualifier un harcèlement, sinon toute agression isolée en serait un.",
+    "Non : être plusieurs crée souvent le déséquilibre, mais le nombre seul ne dit rien de la répétition.",
+    "Oui : la répétition et l'impossibilité de faire cesser sont deux des trois critères, réunis ici en même temps.",
+    "Non : le silence est un signal fréquent, pas un critère ; beaucoup d'enfants se taisent aussi après un fait unique."
+   ],
+   "x": "Les trois critères — intention de nuire, répétition, rapport de force inégal — doivent être réunis en même temps <a class=\"cite\" data-ref=\"olweus1993,gaffney2021a\"></a>. Ici, la répétition quotidienne et l'écart d'âge et de nombre font basculer la situation du côté du harcèlement. La troisième question de terrain, le retentissement sur la vie de l'enfant, ne fait pas partie de la définition scientifique mais décide de l'urgence de votre réponse (voir <a href=\"#trois-criteres-h\">les trois critères</a>).",
+   "kind": "comprendre",
+   "section": "trois-criteres-h"
+  },
+  {
+   "q": "Vous préparez une réunion de parents et vous voulez citer un chiffre malgache sans vous tromper. Lequel de ces énoncés est exact ?",
+   "o": [
+    "27,2 % des élèves de 13 à 17 ans déclarent un harcèlement à l'école dans l'année",
+    "29,4 % des élèves de 13 à 17 ans déclarent un harcèlement à l'école dans l'année",
+    "10,5 % des élèves déclarent un harcèlement, dont un tiers par téléphone",
+    "27,2 % des élèves déclarent un harcèlement à l'école dans les trente derniers jours"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : c'est bien le résultat de l'enquête scolaire de l'OMS, sur une période de rappel d'un an.",
+    "Non : 29,4 % est la proportion d'élèves impliqués dans une bagarre, et une bagarre n'est pas un harcèlement.",
+    "Non : 10,5 % est le chiffre du cyberharcèlement, mesuré par une question distincte, et non une part des 27,2 %.",
+    "Non : la période de rappel est l'année écoulée, pas trente jours ; l'erreur fausse toute comparaison."
+   ],
+   "x": "L'enquête scolaire de l'OMS à Madagascar, menée auprès de 2 440 élèves de 13 à 17 ans dans 38 établissements, trouve 27,2 % d'élèves harcelés à l'école dans l'année, 10,5 % cyberharcelés et 29,4 % impliqués dans une bagarre <a class=\"cite\" data-ref=\"who2025\"></a>. Confondre la bagarre et le harcèlement est exactement la confusion que cette page cherche à lever. La période de rappel compte tout autant : ces chiffres ne se comparent pas terme à terme avec un chiffre européen ou un chiffre portant sur trente jours <a class=\"cite\" data-ref=\"samara2019\"></a>.",
+   "kind": "comprendre",
+   "section": "quatre-formes-h"
+  },
+  {
+   "q": "Une mère vous dit : « le problème est entièrement sur le téléphone, à l'école tout se passe bien ». Que lui répondez-vous à partir de ce que montre la recherche ?",
+   "o": [
+    "Qu'elle a raison : chez les adolescents, le cyberharcèlement a pris le relais de la cour",
+    "Qu'il faut supprimer le compte de l'enfant, et que le reste se réglera de lui-même",
+    "Que c'est moins grave qu'en face à face, puisqu'aucun coup n'est porté à l'enfant",
+    "Que le face-à-face reste environ deux fois plus fréquent, et qu'il va avec l'écran"
+   ],
+   "a": 3,
+   "why": [
+    "Non : le harcèlement en face à face reste environ deux fois plus fréquent que le cyberharcèlement.",
+    "Non : couper le compte laisse la scène de la cour intacte et supprime les traces utiles.",
+    "Non : l'absence de marques ne mesure rien ; les messages atteignent l'enfant jusque dans sa chambre.",
+    "Oui : un enfant cyberharcelé est le plus souvent aussi harcelé sur place, il faut regarder les deux."
+   ],
+   "x": "Le harcèlement en face à face reste environ deux fois plus fréquent que le cyberharcèlement, et les deux sont fortement liés <a class=\"cite\" data-ref=\"modecki2014,kowalski2014\"></a>. À Madagascar, 10,5 % des élèves déclarent un cyberharcèlement dans l'année, contre 27,2 % un harcèlement à l'école <a class=\"cite\" data-ref=\"who2025\"></a>. Chercher l'auteur uniquement derrière un écran fait donc manquer l'essentiel de la scène.",
+   "kind": "appliquer",
+   "section": "quatre-formes-h"
+  },
+  {
+   "q": "Dans une classe, quatre ou cinq élèves rient et filment chaque fois qu'un camarade est bousculé à la sortie. Où porter l'effort en priorité ?",
+   "o": [
+    "Sur l'auteur seul : une sanction assez ferme fera cesser tout le reste",
+    "Sur les témoins : la scène s'éteint quand le public se retire ou bascule",
+    "Sur la victime : l'aider à mieux réagir pour qu'on cesse de la choisir",
+    "Sur la classe entière : une punition collective responsabilise tout le monde"
+   ],
+   "a": 1,
+   "why": [
+    "Non : sanctionner l'auteur seul laisse en place le public, et c'est le public qui fait durer la scène.",
+    "Oui : les témoins occupent des rôles repérables, et en faire basculer deux ou trois change la situation.",
+    "Non : demander à la victime de mieux réagir lui confie précisément ce qu'elle ne peut pas faire.",
+    "Non : la punition collective soude le groupe contre la victime, désignée comme responsable de la sanction."
+   ],
+   "x": "Les travaux finlandais sur les rôles montrent que les témoins ne sont pas neutres — assistant, renforçateur, spectateur passif, défenseur — et qu'un harcèlement se nourrit du public qu'il obtient <a class=\"cite\" data-ref=\"salmivalli1996,salmivalli2010\"></a>. C'est pour cette raison que le programme scolaire finlandais le plus évalué travaille d'abord sur le groupe, et non sur le seul face-à-face auteur-victime <a class=\"cite\" data-ref=\"karna2011\"></a>. Agir sur deux ou trois témoins influents modifie la situation plus sûrement que sanctionner l'auteur seul <a class=\"cite\" data-ref=\"salmivalli2010,pouwels2018\"></a>.",
+   "kind": "appliquer",
+   "section": "quatre-roles-h"
+  },
+  {
+   "q": "Un directeur propose de réunir dans son bureau l'enfant harcelé et celui qui le harcèle, « pour qu'ils s'expliquent et se serrent la main ». Que lui répondez-vous ?",
+   "o": [
+    "Qu'on écoute chacun séparément et qu'on agit sur le groupe, sans face-à-face",
+    "Que la rencontre convient si les parents des deux enfants y assistent aussi",
+    "Que des élèves médiateurs formés animeraient mieux cet échange qu'un adulte",
+    "Qu'il faut d'abord sanctionner l'auteur, puis organiser la poignée de main"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : on n'organise pas de face-à-face ; on écoute chacun seul et on travaille le groupe.",
+    "Non : ajouter les familles ne rétablit aucune égalité entre les enfants et grossit l'auditoire.",
+    "Non : confier la scène à des élèves médiateurs est justement la composante qui a fait l'objet d'une alerte.",
+    "Non : la sanction ne supprime pas le rapport de force ; le face-à-face reste à éviter, avant comme après."
+   ],
+   "x": "Remettre la victime face à son harceleur la place en position de parler sous le regard de celui qui lui fait peur : le rapport de synthèse des académies américaines déconseille explicitement la médiation entre victime et auteur, ainsi que les politiques de tolérance zéro <a class=\"cite\" data-ref=\"nasem2016\"></a>. Certaines composantes fondées sur le travail entre pairs, dont la médiation par les pairs, ont même été associées à une augmentation de la victimation : c'est un signal d'alerte sérieux, pas une démonstration <a class=\"cite\" data-ref=\"ttofi2011,gaffney2021b\"></a>. Devant un conflit, en revanche, faire parler les deux enfants avec un adulte reste utile (voir <a href=\"#conflit-h\">la section sur le conflit</a>).",
+   "kind": "appliquer",
+   "section": "conflit-h"
+  },
+  {
+   "q": "Dans la même école, un enseignant fait nettoyer le mur qu'un élève a tagué ; un autre frappe la main d'un élève qui n'a pas fait ses devoirs. Comment situer ces deux scènes ?",
+   "o": [
+    "Les deux sont de la discipline : une règle connue et une conséquence à chaque fois",
+    "Les deux relèvent du harcèlement scolaire, puisqu'un adulte s'en prend à un enfant",
+    "La première est une mesure de discipline, la seconde un châtiment corporel",
+    "La première est un châtiment déguisé, la seconde une fermeté admise à l'école"
+   ],
+   "a": 2,
+   "why": [
+    "Non : la discipline applique une conséquence liée à l'acte, elle ne cherche pas à faire mal pour obtenir l'obéissance.",
+    "Non : le harcèlement scolaire désigne ce qui se passe entre élèves ; l'acte d'un adulte relève d'une autre catégorie.",
+    "Oui : réparer le mur est une conséquence logique ; frapper la main vise l'obéissance par la douleur.",
+    "Non : c'est l'inverse ; nettoyer ce qu'on a sali n'est pas un châtiment, et frapper n'est pas de la fermeté."
+   ],
+   "x": "La ligne de partage n'est pas la sévérité mais ce que l'adulte cherche : la discipline pose une règle connue, applique une conséquence liée à l'acte et laisse la relation intacte, tandis que le châtiment corporel vise à faire mal pour obtenir l'obéissance. À Madagascar, le châtiment corporel demeure licite au domicile et serait interdit à l'école par voie réglementaire depuis un arrêté de 1996 complété en 2017, une interdiction dont la formulation explicite reste à confirmer <a class=\"cite\" data-ref=\"endcorporalpunishment2019mg,endcp2022mdg\"></a>. La pratique, elle, est massive : environ neuf enfants malgaches sur dix subissent une discipline violente <a class=\"cite\" data-ref=\"instat2019mics\"></a>. Il ne s'agit pas de désigner des adultes fautifs, mais de dire ce que la recherche observe sur les effets et de proposer ce qui marche mieux pour le même objectif <a class=\"cite\" data-ref=\"gershoff2016\"></a>.",
+   "kind": "trancher",
+   "section": "cinq-situations-h"
+  },
+  {
+   "q": "Une famille accueille sa nièce de 11 ans : elle mange après les autres, fait la plupart des corvées, et les enfants du foyer se moquent d'elle chaque soir. Un bénévole dit : « ce n'est pas l'école, ça ne nous regarde pas ». Que répondez-vous ?",
+   "o": [
+    "Qu'il a raison : la grille des trois critères ne vaut que dans le cadre scolaire",
+    "Que les trois mêmes questions se posent ici, et qu'un enfant sans refuge va plus mal",
+    "Que c'est un arrangement familial et qu'il ne faut pas s'immiscer dans la coutume",
+    "Qu'il faut réunir des preuves écrites des faits avant de s'intéresser au cas"
+   ],
+   "a": 1,
+   "why": [
+    "Non : les trois critères valent partout où un enfant subit, pas seulement derrière le portail de l'école.",
+    "Oui : posez les mêmes questions, en sachant que l'enfant visé à la maison comme à l'école n'a plus de refuge.",
+    "Non : la circulation des enfants entre foyers est courante et respectable, mais elle n'autorise pas une position basse durable.",
+    "Non : on note les faits pour agir, on n'attend pas une preuve écrite pour s'intéresser à un enfant."
+   ],
+   "x": "Les moqueries et humiliations répétées entre enfants d'une même maison sont fréquentes et longtemps tenues pour normales ; l'enfant visé à la fois chez lui et à l'école va nettement plus mal, faute de refuge <a class=\"cite\" data-ref=\"wolke2015\"></a>. À Madagascar, environ un tiers des enfants de moins de 18 ans ne vivent pas avec leurs deux parents, et la circulation des enfants entre grands-parents, oncles et familles recomposées est courante <a class=\"cite\" data-ref=\"andriamaro2013\"></a>. Un enfant confié peut se retrouver durablement en position basse dans la maison qui l'accueille : posez-y les trois mêmes questions (voir <a href=\"#cas-gris-h\">les cas gris</a>).",
+   "kind": "trancher",
+   "section": "cas-gris-h"
+  }
+ ]
+}

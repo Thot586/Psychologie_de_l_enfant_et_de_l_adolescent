@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-labelledby="venn-trois-criteres-t venn-trois-criteres-d" font-family="Public Sans, Segoe UI, system-ui, sans-serif" font-size="13">
+<title id="venn-trois-criteres-t">Les trois critères du harcèlement</title>
+<desc id="venn-trois-criteres-d">Trois cercles qui se recoupent : intention de nuire, répétition, déséquilibre de pouvoir. Seule la zone centrale, où les trois critères sont réunis, est le harcèlement. Intention et déséquilibre sans répétition : agression isolée. Intention et répétition sans déséquilibre : conflit répété. Répétition et déséquilibre sans intention de nuire : domination sans intention de nuire, avec un point d'interrogation.</desc>
+<circle class="f1 area" cx="250" cy="175" r="120"/>
+<circle class="f2 area" cx="390" cy="175" r="120"/>
+<circle class="f3 area" cx="320" cy="296" r="120"/>
+<circle class="s1" fill="none" stroke-width="1.5" cx="250" cy="175" r="120"/>
+<circle class="s2" fill="none" stroke-width="1.5" cx="390" cy="175" r="120"/>
+<circle class="s3" fill="none" stroke-width="1.5" cx="320" cy="296" r="120"/>
+<text x="192" y="172" text-anchor="middle">intention</text>
+<text x="192" y="188" text-anchor="middle">de nuire</text>
+<text x="448" y="180" text-anchor="middle">répétition</text>
+<text x="320" y="352" text-anchor="middle">déséquilibre de pouvoir</text>
+<text class="t-b" x="320" y="212" text-anchor="middle">harcèlement</text>
+<text class="t-sm" x="320" y="140" text-anchor="middle">conflit</text>
+<text class="t-sm" x="320" y="154" text-anchor="middle">répété</text>
+<text class="t-sm" x="254" y="262" text-anchor="middle">agression</text>
+<text class="t-sm" x="254" y="276" text-anchor="middle">isolée</text>
+<text class="t-sm" x="386" y="262" text-anchor="middle">domination sans</text>
+<text class="t-sm" x="386" y="276" text-anchor="middle">intention de nuire ?</text>
+</svg>

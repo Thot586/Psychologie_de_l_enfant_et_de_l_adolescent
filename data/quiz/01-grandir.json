@@ -1,0 +1,158 @@
+{
+ "title": "Vérifier que vous sauriez agir, pas seulement réciter",
+ "intro": "Huit situations concrètes, comme celles que vous rencontrez. Répondez avant de lire la correction : se souvenir activement ancre mieux que relire. Chaque mauvaise option correspond à une erreur réellement commise sur le terrain, pas à une invention.",
+ "questions": [
+  {
+   "q": "À une réunion de votre association, une mère s'inquiète : son fils de 3 ans parle beaucoup moins que la voisine du même âge, mais il court, grimpe et joue avec les autres enfants. Que lui répondre ?",
+   "o": [
+    "Les âges des tableaux sont des moyennes : on regarde les cinq lignes ensemble avant de conclure, et on reste attentif au langage.",
+    "Un avis vaut mieux qu'un retard : un décalage du langage à 3 ans justifie à lui seul d'orienter vers un spécialiste.",
+    "Puisqu'il est en avance sur le corps, le langage rattrapera tout seul : il n'y a rien à surveiller de ce côté-là.",
+    "Il faut mesurer son niveau par rapport aux autres enfants du quartier pour savoir s'il est bien dans la norme."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : les repères d'âge sont des moyennes, et les cinq lignes n'avancent pas au même rythme chez un même enfant, ce qui n'empêche pas de continuer à observer le langage.",
+    "Non : la crainte du retard ne remplace pas le critère ; c'est l'accumulation de signes dans plusieurs domaines, et non un signe isolé, qui conduit à demander un avis.",
+    "Non : l'avance sur une ligne ne garantit rien sur une autre, et se rassurer ainsi est la façon la plus courante de passer à côté d'une difficulté réelle.",
+    "Non : comparer un enfant à ses voisins transforme une moyenne en note à obtenir, alors que ces tableaux ne sont pas des normes individuelles."
+   ],
+   "x": "Chaque enfant suit la même grande séquence, mais à son rythme : les âges des tableaux de développement sont des moyennes, pas des normes à atteindre <a class=\"cite\" data-ref=\"piaget2012,barrouillet2015\"></a>. Regarder <a href=\"#cinq-lignes-h\">les cinq lignes à la fois</a> — corps, langage, pensée, émotions, vie avec les autres — évite les deux erreurs symétriques : s'affoler pour un retard isolé, ou se rassurer parce que l'enfant réussit ailleurs. Ce qui déclenche une demande d'avis, c'est l'accumulation de signes dans plusieurs domaines <a class=\"cite\" data-ref=\"has2020tnd\"></a>.",
+   "kind": "comprendre",
+   "section": "cinq-lignes-h"
+  },
+  {
+   "q": "Un père bénévole travaille loin et ne voit son fils de 2 ans que le week-end. Il vous dit qu'il est forcément un mauvais père et que le lien est déjà abîmé. Que dit la recherche ?",
+   "o": [
+    "C'est surtout le nombre d'heures passées ensemble chaque semaine qui installe la sécurité affective de l'enfant.",
+    "C'est la régularité des réponses aux signaux de l'enfant qui compte, davantage que le volume d'heures partagées.",
+    "Tout se joue avant six mois : passé cet âge, la qualité du lien ne peut plus vraiment évoluer dans un sens ou l'autre.",
+    "Réserver le peu de temps disponible à des moments agréables, sans y mêler les règles ni les contrariétés."
+   ],
+   "a": 1,
+   "why": [
+    "Non : c'est confondre quantité et fiabilité ; l'attachement s'installe sur la régularité des réponses, pas sur un compte d'heures.",
+    "Oui : répondre de façon fiable aux signaux, et réparer après un conflit, est ce qui donne à l'enfant une base de sécurité pour explorer.",
+    "Non : c'est une croyance très répandue mais fausse ; le lien reste sensible aux changements de l'environnement bien après la première année.",
+    "Non : renoncer au cadre pour préserver l'ambiance prive l'enfant de la prévisibilité qui est justement ce qui le sécurise."
+   ],
+   "x": "Ce qui installe l'attachement, c'est la fiabilité des réponses d'au moins un adulte, pas sa perfection ni le nombre d'heures <a class=\"cite\" data-ref=\"bowlby1969,ainsworth1978,whounicef2018nurturingcare\"></a>. Aucun adulte ne répond bien à chaque fois : ce qui compte, c'est ce qui se passe le plus souvent, et ce qui se passe après une dispute <a class=\"cite\" data-ref=\"verhage2016\"></a>. Et cela s'apprend : une synthèse de 102 essais randomisés montre que les programmes qui apprennent aux adultes à repérer les signaux de l'enfant et à jouer avec lui améliorent son développement, y compris dans les pays à revenu faible ou intermédiaire <a class=\"cite\" data-ref=\"jeong2021\"></a>.",
+   "kind": "comprendre",
+   "section": "zero-six-h"
+  },
+  {
+   "q": "Pendant une activité de votre association, un garçon de 3 ans se jette au sol, hurle et tape parce qu'il faut ranger. Six autres enfants regardent la scène. Par quoi commencez-vous ?",
+   "o": [
+    "Lui expliquer posément, en le regardant dans les yeux, pourquoi ce comportement n'est pas acceptable dans le groupe.",
+    "Obtenir qu'il présente ses excuses au camarade bousculé avant de le laisser rejoindre les autres enfants.",
+    "Écarter ce qui peut blesser et éloigner les autres enfants, puis rester à côté de lui sans chercher à discuter.",
+    "L'installer seul dans une pièce à part, le temps que les cris s'arrêtent d'eux-mêmes et qu'il réfléchisse."
+   ],
+   "a": 2,
+   "why": [
+    "Non : pendant la crise, l'enfant ne peut pas entendre une explication ; c'est après, quand il est calmé, qu'il le pourra.",
+    "Non : exiger des excuses avant l'apaisement prolonge la crise et transforme la réparation en humiliation devant les autres.",
+    "Oui : sécuriser d'abord, puis rester présent avec une phrase courte répétée calmement — votre calme apaise plus que vos arguments.",
+    "Non : l'isolement seul ne lui apprend pas à se calmer, et il le prive de la présence adulte qui rend l'apaisement possible."
+   ],
+   "x": "Entre 2 et 4 ans, la colère résulte mécaniquement de trois choses : l'enfant veut très fort, n'a pas encore les mots pour demander, et ne sait pas se calmer seul ; ce n'est ni un caprice ni un défi à votre autorité <a class=\"cite\" data-ref=\"rothbart2007\"></a>. L'ordre des gestes est décrit dans <a href=\"#conduites-h\">la section sur les colères</a> : sécuriser, rester à côté sans mots inutiles, nommer l'émotion et non le caractère, attendre la fin de la crise pour parler, faire réparer plutôt que punir. Le contrôle volontaire des réactions se construit surtout entre 3 et 7 ans, d'abord avec l'adulte <a class=\"cite\" data-ref=\"compas2017\"></a>.",
+   "kind": "appliquer",
+   "section": "conduites-h"
+  },
+  {
+   "q": "Une fille de 9 ans, jusque-là à l'aise à l'école, a mal au ventre tous les matins depuis six semaines, évite le chemin de l'école et a perdu ses deux amies. Qu'est-ce qui justifie de demander un avis ?",
+   "o": [
+    "Rien pour l'instant : les maux de ventre du matin sont fréquents à cet âge et cèdent le plus souvent seuls.",
+    "Le fait que ses plaintes soient quotidiennes, visibles, et qu'elles perturbent le déroulement de la classe.",
+    "Uniquement la chute des résultats scolaires, si elle finit par se produire au trimestre prochain.",
+    "Cela dure depuis six semaines, elle perd ce qu'elle savait faire, et sa vie quotidienne en souffre."
+   ],
+   "a": 3,
+   "why": [
+    "Non : un mal de ventre isolé est banal, mais ici il dure et s'accompagne d'évitement du trajet et de perte d'amies.",
+    "Non : c'est le critère de la gêne pour l'adulte, pas celui de la souffrance de l'enfant ; une enfant discrète passerait alors inaperçue.",
+    "Non : attendre la chute des notes revient à laisser passer plusieurs mois alors que les signes sont déjà réunis.",
+    "Oui : c'est la réunion de la durée, de la perte d'acquis et du retentissement sur la vie quotidienne qui fait la différence."
+   ],
+   "x": "Ce qui alerte, ce n'est pas le comportement en lui-même, mais trois choses réunies : il dure, l'enfant perd des acquis, et la vie quotidienne — sommeil, école, repas, relations — en souffre <a class=\"cite\" data-ref=\"has2020tnd,oms2025adosantementale\"></a>. Le principe utilisable par tous, tiré du <a href=\"#alerte-h\">tableau par âge</a>, est l'accumulation de signes dans plusieurs domaines à la fois, et non le signe isolé <a class=\"cite\" data-ref=\"has2020tnd\"></a>. Environ un adolescent sur sept présente un trouble mental et la plupart de ces troubles ne sont ni repérés ni traités <a class=\"cite\" data-ref=\"oms2025adosantementale\"></a> : demander un avis n'est pas un excès de zèle.",
+   "kind": "appliquer",
+   "section": "alerte-h"
+  },
+  {
+   "q": "Une enseignante vous assure qu'il n'y a pas de harcèlement dans sa classe d'élèves de 11 ans : « aucun n'a de bleus, je vérifie tous les jours ». Qu'est-ce qui manque à sa façon de regarder ?",
+   "o": [
+    "Rien de particulier : sans trace physique, il s'agit bien de simples conflits passagers entre camarades.",
+    "Après 10 ans, ce sont les formes indirectes — rumeurs, mise à l'écart organisée — qui prennent le relais du visible.",
+    "La victimisation augmente régulièrement avec l'âge : les coups devraient donc être plus nombreux, et non moins.",
+    "À cet âge, seuls les garçons sont réellement concernés : c'est du côté des bagarres de cour qu'il faut regarder."
+   ],
+   "a": 1,
+   "why": [
+    "Non : c'est le raccourci le plus fréquent ; l'absence de marque ne dit rien des rumeurs ni de la mise à l'écart organisée.",
+    "Oui : avec l'âge, la violence entre enfants devient moins visible et passe par la réputation et l'exclusion du groupe.",
+    "Non : la victimisation déclarée diminue globalement avec l'âge ; ce sont ses formes qui changent, pas seulement son volume.",
+    "Non : filles et garçons sont concernés, et se concentrer sur les bagarres fait manquer ce qui se joue dans le groupe."
+   ],
+   "x": "Entre 6 et 10 ans, les violences entre enfants sont surtout directes et visibles ; ensuite la victimisation déclarée diminue globalement, tandis que les formes indirectes prennent le relais <a class=\"cite\" data-ref=\"craig2009\"></a>. Un adulte qui ne cherche que des bleus manquera l'essentiel après 10 ans, comme l'explique <a href=\"#six-douze-h\">la section sur les 6-12 ans</a>. C'est aussi l'âge où le statut dans le groupe devient central : une étude qui a suivi des élèves de 9 à 14 ans montre que la trajectoire de ce statut prédit le rôle occupé plus tard dans les situations de harcèlement <a class=\"cite\" data-ref=\"pouwels2018\"></a>.",
+   "kind": "appliquer",
+   "section": "six-douze-h"
+  },
+  {
+   "q": "Un garçon de 15 ans est irritable, s'endort en classe et se couche vers minuit. Son oncle conclut qu'il est devenu paresseux et veut le sanctionner. Que proposez-vous de regarder d'abord ?",
+   "o": [
+    "L'heure du coucher et le temps de sommeil : à la puberté l'endormissement se décale, mais le besoin reste de 8 à 10 heures.",
+    "La confiscation du téléphone pendant une semaine, pour lui apprendre le respect des adultes de la maison.",
+    "Une dépression probable : il vaut mieux l'adresser sans délai à un pédopsychiatre pour mettre en place un traitement.",
+    "Rien de particulier : à 15 ans, un jeune est capable d'organiser seul ses nuits et d'en assumer les conséquences."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : le décalage de l'horloge biologique est physiologique, et le manque de sommeil rend irritable et impulsif — cela se regarde avant le caractère.",
+    "Non : la sanction traite un symptôme sans jamais vérifier la durée réelle des nuits, et l'écran n'est pas la seule cause du décalage.",
+    "Non : sauter au diagnostic saute l'explication la plus simple et la plus fréquente ; une tristesse durable s'évaluera ensuite si elle persiste.",
+    "Non : la maturité psychosociale progresse encore après 16 ans, et c'est justement l'âge où un cadre sur le coucher aide le plus."
+   ],
+   "x": "À la puberté, l'horloge biologique se décale et l'endormissement devient naturellement plus tardif, alors que le besoin reste de 8 à 10 heures par nuit entre 13 et 18 ans <a class=\"cite\" data-ref=\"paruthi2016,crowley2018\"></a>. À Madagascar, 54,6 % des élèves de 13 à 17 ans interrogés déclarent dormir moins de 8 heures <a class=\"cite\" data-ref=\"who2025\"></a>. Un adolescent qui manque de sommeil est plus irritable, plus impulsif et moins disponible pour apprendre : avant de conclure à un problème de caractère, regardez l'heure du coucher (<a href=\"#ado-h\">section 12-18 ans</a>).",
+   "kind": "appliquer",
+   "section": "ado-h"
+  },
+  {
+   "q": "Un directeur d'école vous répond : « Vos alternatives sont jolies, mais ici, sans coups, aucun élève n'écoute. » Quel argument est à la fois exact et utilisable devant lui ?",
+   "o": [
+    "La loi malgache interdit désormais le châtiment corporel partout, y compris au domicile : il n'a donc pas le choix.",
+    "L'enquête nationale malgache montre que 65 % des personnes interrogées jugent déjà le châtiment corporel inacceptable.",
+    "Un essai randomisé mené dans 42 écoles primaires d'Ouganda a fait baisser d'environ moitié la violence du personnel envers les élèves.",
+    "Frapper fonctionne assez bien avant 10 ans puis devient contre-productif : c'est donc au collège qu'il faut changer."
+   ],
+   "a": 2,
+   "why": [
+    "Non : à Madagascar le châtiment corporel reste licite au domicile ; brandir une interdiction qui n'existe pas fragilise tout votre propos.",
+    "Non : le chiffre est retourné — dans cette enquête, 65 % jugent au contraire le châtiment corporel acceptable, et citer un chiffre faux vous décrédibilise.",
+    "Oui : c'est le meilleur argument disponible face au « chez nous, c'est impossible », parce qu'il vient d'écoles à faibles ressources comparables aux siennes.",
+    "Non : aucun âge ne rend la punition physique efficace ; elle interrompt le comportement sur le moment sans enseigner quoi faire à la place."
+   ],
+   "x": "Une synthèse de 75 études portant sur plus de 160 000 enfants associe la punition corporelle à plus d'agressivité et de troubles du comportement, sans bénéfice sur l'obéissance à long terme <a class=\"cite\" data-ref=\"gershoff2016\"></a>, et la revue des études prospectives montre qu'elle précède l'aggravation du comportement plutôt qu'elle ne la suit <a class=\"cite\" data-ref=\"heilmann2021\"></a>. L'essai ougandais montre surtout que ces pratiques peuvent changer là où les ressources sont faibles <a class=\"cite\" data-ref=\"devries2015\"></a>. Le levier n'est pas la culpabilisation mais les représentations : dans une enquête nationale malgache auprès de 2 523 personnes, 65 % jugent le châtiment corporel acceptable <a class=\"cite\" data-ref=\"endcp2022mdg\"></a>.",
+   "kind": "trancher",
+   "section": "conduites-h"
+  },
+  {
+   "q": "Un garçon de 8 ans inscrit à vos activités vient toujours accompagné de sa grand-mère ; ses parents ne se présentent à aucune réunion depuis la rentrée. Quelle conduite tenir ?",
+   "o": [
+    "Noter au dossier que la famille se désintéresse de l'enfant, afin d'en tenir compte dans le suivi ultérieur.",
+    "Signaler la situation comme un possible abandon parental auprès des services de protection de l'enfance.",
+    "Convoquer les parents par écrit et suspendre l'inscription tant qu'ils ne se sont pas présentés à une réunion.",
+    "Parler de « la personne qui s'occupe de toi » et travailler avec la grand-mère, dont la légitimité est reconnue."
+   ],
+   "a": 3,
+   "why": [
+    "Non : l'absence aux réunions ne mesure pas l'intérêt porté à l'enfant, et cette note orientera injustement tout son suivi.",
+    "Non : confier un enfant à la parenté est une organisation familiale courante et non un abandon ; le signalement est réservé aux situations de danger.",
+    "Non : conditionner la place de l'enfant à la venue de ses parents le punit d'une organisation familiale qu'il n'a pas choisie.",
+    "Oui : cette formulation fonctionne pour tous les enfants, et les ray aman-dreny disposent d'une légitimité reconnue pour éduquer et arbitrer."
+   ],
+   "x": "Environ un tiers des enfants malgaches de moins de 18 ans ne vivent pas avec leurs deux parents, et la circulation des enfants — confiage à la parenté, rôle central des grands-parents, familles recomposées — est une organisation familiale ordinaire <a class=\"cite\" data-ref=\"andriamaro2013\"></a>. L'éducation quotidienne n'y est pas l'affaire des seuls parents biologiques <a class=\"cite\" data-ref=\"ottino1998\"></a>. Concrètement, comme le rappelle <a href=\"#madagascar-h\">la section malgache</a> : ne demandez pas systématiquement « tes parents », demandez « la personne qui s'occupe de toi », et n'interprétez pas une absence comme un désintérêt.",
+   "kind": "trancher",
+   "section": "madagascar-h"
+  }
+ ]
+}

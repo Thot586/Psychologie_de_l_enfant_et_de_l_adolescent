@@ -1,0 +1,158 @@
+{
+ "title": "Choisir une action qui marche plutôt qu'une action qui rassure",
+ "intro": "Huit situations concrètes : une réunion avec un directeur, une demande de financement, un enfant qui parle à voix basse. Répondez avant de lire la correction : se souvenir activement ancre mieux que relire. L'objectif n'est pas de retenir des chiffres, mais de savoir écarter une action inutile ou risquée et d'expliquer pourquoi.",
+ "questions": [
+  {
+   "q": "Un directeur d'école vous reçoit et demande : « Si on met vraiment en place un programme, le harcèlement va disparaître de mon établissement ? » Que lui répondez-vous ?",
+   "o": [
+    "Oui, à condition d'appliquer le programme sans interruption pendant toute l'année scolaire",
+    "Non, aucun programme scolaire n'a jamais montré d'effet mesurable sur le harcèlement",
+    "Non : on peut attendre environ 15 % de victimes en moins, c'est utile mais partiel",
+    "Oui, si l'on y ajoute des sanctions fermes et automatiques contre les élèves qui harcèlent"
+   ],
+   "a": 2,
+   "why": [
+    "Non : promettre la disparition est le meilleur moyen de décevoir l'école et de faire abandonner le programme au premier cas signalé.",
+    "Non : c'est l'excès inverse, l'effet est petit mais il est bien démontré, et renoncer priverait des élèves d'une protection réelle.",
+    "Oui : un effet réel, modeste et chiffrable, c'est exactement ce qu'on peut promettre honnêtement à un directeur.",
+    "Non : les exclusions automatiques relèvent de la tolérance zéro, une approche explicitement déconseillée, pas d'un renfort d'efficacité."
+   ],
+   "x": "La synthèse la plus large, portant sur cent évaluations, trouve une baisse d'environ 15 à 16 % du fait d'être harcelé et de 19 à 20 % du fait de harceler <a class=\"cite\" data-ref=\"gaffney2021a\"></a>. Concrètement, dans une école où cent élèves sont harcelés dans l'année, un bon programme en épargnera une quinzaine et quatre-vingt-cinq resteront concernés (<a href=\"#ordre-de-grandeur-h\">voir l'ordre de grandeur</a>). C'est pourquoi prévenir ne dispense jamais de savoir repérer et accompagner un enfant déjà touché.",
+   "kind": "comprendre",
+   "section": "ordre-de-grandeur-h"
+  },
+  {
+   "q": "Votre association prépare une semaine anti-harcèlement : douze activités différentes en cinq jours, affiches, théâtre, concours de dessin, puis on passe au projet suivant. Quelle objection est fondée ?",
+   "o": [
+    "Ce n'est pas le nombre d'activités qui compte, mais quelques ingrédients tenus dans la durée",
+    "Douze activités, c'est trop peu : les programmes efficaces en comportent une vingtaine",
+    "Une semaine suffit largement si elle est intense et qu'elle marque durablement les élèves",
+    "Le vrai obstacle est le coût : ce type de semaine est hors de portée d'un établissement"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : mieux vaut trois éléments tenus toute l'année qu'un catalogue d'activités appliqué une semaine.",
+    "Non : c'est un chiffre inventé, et l'analyse des composants montre justement que leur nombre ne prédit pas l'efficacité.",
+    "Non : c'est le raisonnement de la séance choc unique, qui figure parmi les approches à écarter.",
+    "Non : l'objection financière ne tient pas ici, le dispositif africain le mieux évalué revient à environ quinze dollars par élève et par an."
+   ],
+   "x": "Les meilleurs résultats sont associés à une approche mobilisant tout l'établissement, une politique écrite, des règles de classe explicites, l'information des parents et l'implication des camarades, mais le nombre de composants ne prédit pas l'efficacité <a class=\"cite\" data-ref=\"gaffney2021b\"></a>. La durée et l'intensité, ainsi que la formation des enseignants, ressortent également <a class=\"cite\" data-ref=\"ttofi2011\"></a>. Une semaine spectaculaire rassure les adultes ; ce sont les mois qui suivent qui protègent les enfants (<a href=\"#composants-h\">voir les composants</a>).",
+   "kind": "comprendre",
+   "section": "composants-h"
+  },
+  {
+   "q": "Après un signalement, le directeur propose de réunir dans son bureau l'élève harcelé et celui qui le harcèle, pour qu'ils s'expliquent et se serrent la main. Que lui dites-vous ?",
+   "o": [
+    "Qu'un adulte doit rester présent tout du long, pour arbitrer et garantir l'équité de l'échange",
+    "Que la rencontre aurait plus de portée devant la classe, prise à témoin de l'engagement pris",
+    "Que des élèves médiateurs conduiraient cet échange mieux que le directeur lui-même",
+    "Que la rencontre est à éviter : on fait cesser l'exposition et on suit chacun séparément"
+   ],
+   "a": 3,
+   "why": [
+    "Non : la présence d'un adulte ne supprime pas le déséquilibre de pouvoir, qui est précisément ce qui distingue le harcèlement d'un conflit.",
+    "Non : exposer l'enfant harcelé devant le groupe ajoute une humiliation publique à ce qu'il subit déjà.",
+    "Non : confier la médiation à des élèves sans adulte formé derrière eux figure parmi les pratiques à écarter.",
+    "Oui : on fait cesser l'exposition et on accompagne chacun de son côté, sans jamais organiser le face-à-face."
+   ],
+   "x": "La tolérance zéro et la médiation entre victime et auteur sont explicitement déconseillées <a class=\"cite\" data-ref=\"nasem2016\"></a>, et le travail confié aux pairs a même été associé à une augmentation du fait d'être harcelé <a class=\"cite\" data-ref=\"ttofi2011\"></a>. Ce dernier résultat vient d'analyses corrélationnelles et non expérimentales <a class=\"cite\" data-ref=\"gaffney2021a\"></a> : c'est un signal d'alerte de plus, la mise en garde principale portant bien sur la médiation elle-même. La confrontation paraît juste parce qu'elle ressemble à une réconciliation entre égaux, or les deux enfants ne sont pas à égalité (<a href=\"#composants-h\">voir les composants</a>).",
+   "kind": "appliquer",
+   "section": "composants-h"
+  },
+  {
+   "q": "Devant un bailleur, vous voulez citer ce qui est démontré par essai avec tirage au sort en Afrique subsaharienne. Que pouvez-vous affirmer sans exagérer ?",
+   "o": [
+    "Qu'un programme ougandais a fait baisser d'environ 42 % le harcèlement entre élèves",
+    "Qu'un programme ougandais a réduit la violence du personnel scolaire, de 48,7 % à 31,0 %",
+    "Qu'un programme finlandais a été répliqué avec succès dans plusieurs pays africains",
+    "Qu'aucune intervention scolaire n'a encore été évaluée par tirage au sort sur le continent"
+   ],
+   "a": 1,
+   "why": [
+    "Non : le chiffre est exact mais la cible est mal attribuée, il concerne la violence des adultes de l'école, pas le harcèlement entre camarades.",
+    "Oui : c'est la formulation exacte de ce que l'essai a mesuré, et elle reste solide devant un bailleur exigeant.",
+    "Non : les réplications documentées du programme finlandais portent sur le Chili et le pays de Galles, pas sur l'Afrique.",
+    "Non : il existe au contraire des preuves africaines solides, c'est même l'argument le plus fort dont vous disposiez."
+   ],
+   "x": "En Ouganda, dans 42 écoles primaires tirées au sort, la proportion d'élèves ayant subi une violence physique d'un membre du personnel dans la semaine écoulée était de 31,0 % contre 48,7 % dans les écoles témoins après 18 mois <a class=\"cite\" data-ref=\"devries2015\"></a>. En Tanzanie, une formation courte des enseignants a réduit la discipline physique violente, avec un effet indirect sur la violence entre élèves <a class=\"cite\" data-ref=\"masath2023\"></a>. Ces essais ciblaient d'abord les adultes : dire l'inverse fragiliserait votre dossier le jour où on le vérifiera (<a href=\"#afrique-h\">voir la section</a>).",
+   "kind": "appliquer",
+   "section": "afrique-h"
+  },
+  {
+   "q": "Une commune veut agir vite contre les coups en classe : elle diffusera une circulaire rappelant que frapper un élève est interdit, et s'en tiendra là. Que suggère l'expérience documentée ?",
+   "o": [
+    "Que la circulaire suffira si elle est signée par une autorité suffisamment élevée",
+    "Que les enseignants trouveront d'eux-mêmes des solutions de remplacement, sans formation",
+    "Qu'interdire sans proposer ne suffit pas : il faut former les adultes et les outiller",
+    "Qu'il faut d'abord sanctionner publiquement quelques enseignants pour marquer le coup"
+   ],
+   "a": 2,
+   "why": [
+    "Non : la signature d'une autorité ne change pas les pratiques quotidiennes de quelqu'un qui ne connaît pas d'autre méthode.",
+    "Non : certains en inventent effectivement, mais on ignore si ces solutions réduisent la violence, et compter là-dessus laisse la majorité sans alternative.",
+    "Oui : les alternatives concrètes et une supervision qui dure sont ce qui transforme une interdiction en changement réel.",
+    "Non : viser quelques enseignants transforme la démarche en accusation et ferme la porte des salles de classe."
+   ],
+   "x": "Au Burkina Faso, le châtiment corporel à l'école est interdit depuis 1962, et pourtant 47 % des enseignants interrogés s'y déclarent favorables contre 23 % opposés <a class=\"cite\" data-ref=\"sore2019\"></a>. Ce qui fonctionne passe par la formation aux alternatives non violentes, avec une supervision régulière plutôt qu'une session unique <a class=\"cite\" data-ref=\"devries2015,cluver2018\"></a>. À Madagascar, environ neuf enfants sur dix subissent une discipline violente à la maison <a class=\"cite\" data-ref=\"instat2019mics\"></a> : beaucoup d'adultes n'ont simplement jamais vu d'autre méthode fonctionner, ce qui appelle un outillage et non un blâme (<a href=\"#adultes-h\">voir la section</a>).",
+   "kind": "appliquer",
+   "section": "adultes-h"
+  },
+  {
+   "q": "Une école souhaite utiliser le programme finlandais KiVa, mais l'emploi du temps ne permettra de tenir qu'un quart environ des séances prévues. Quelle est la bonne lecture de la situation ?",
+   "o": [
+    "Un programme fait en partie n'est pas un programme affaibli, il risque de n'avoir aucun effet",
+    "Un quart des séances devrait produire à peu près un quart de l'effet du programme complet",
+    "L'essentiel est de commencer : les élèves réclameront eux-mêmes la suite des séances",
+    "Le programme reste valable puisqu'il a fait ses preuves par tirage au sort en Finlande"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : la fidélité de mise en œuvre conditionne l'effet, et une version tronquée peut ne rien produire du tout.",
+    "Non : l'effet d'un programme n'est pas proportionnel au nombre de séances données, c'est une intuition arithmétique trompeuse.",
+    "Non : compter sur la demande des élèves revient à confier la fidélité du programme à ceux qu'il doit protéger.",
+    "Non : la preuve obtenue en Finlande porte sur le programme complet, dans un système scolaire très différent du vôtre."
+   ],
+   "x": "Au pays de Galles, dans 22 écoles et auprès de 3 214 élèves, aucun effet statistiquement significatif n'a été observé, dans un contexte où les élèves avaient reçu moins de leçons que ce que le programme prévoit <a class=\"cite\" data-ref=\"axford2020\"></a>. Au Chili, seule la version sans jeu en ligne a réduit le fait d'être harcelé, avec un effet modeste <a class=\"cite\" data-ref=\"valenzuela2022\"></a>, alors que l'essai finlandais d'origine améliorait 7 des 11 mesures suivies <a class=\"cite\" data-ref=\"karna2011\"></a>. La bonne question n'est donc pas « ce programme est-il bon ? » mais « pouvons-nous le tenir jusqu'au bout avec les personnes dont nous disposons ? » (<a href=\"#kiva-h\">voir la section</a>).",
+   "kind": "appliquer",
+   "section": "kiva-h"
+  },
+  {
+   "q": "Un trimestre après l'affichage de la règle et la désignation d'un adulte référent, l'établissement n'a enregistré aucun signalement. Que décidez-vous ?",
+   "o": [
+    "Vous concluez que la règle a fonctionné et vous engagez l'association sur un autre projet",
+    "Vous faites imprimer davantage d'affiches et vous en posez dans toutes les salles de classe",
+    "Vous demandez aux enseignants de désigner les élèves qu'ils soupçonnent d'être harcelés",
+    "Vous supposez une sous-détection et revoyez qui reçoit la parole des enfants, et comment"
+   ],
+   "a": 3,
+   "why": [
+    "Non : un registre vide n'est pas une preuve d'absence de faits, c'est d'abord une information sur votre dispositif de recueil.",
+    "Non : renforcer l'affichage traite le message alors que le problème se situe dans le circuit de parole.",
+    "Non : faire désigner des enfants par les adultes les expose et remplace leur parole par une supposition.",
+    "Oui : c'est le seuil de réévaluation écrit à l'avance, et il conduit à revoir l'accès à la parole plutôt que la communication."
+   ],
+   "x": "À Madagascar, 27,2 % des élèves de 13 à 17 ans déclarent avoir été harcelés à l'école au cours de l'année <a class=\"cite\" data-ref=\"who2025\"></a> : avec une prévalence de l'ordre d'un élève sur quatre, zéro signalement en un trimestre signale une sous-détection. La réponse utile est de vérifier qui est réellement accessible aux enfants et de contrôler les lieux à risque, à commencer par les toilettes et les zones sans surveillance <a class=\"cite\" data-ref=\"ngidi2018\"></a>. Écrire ce seuil avant de commencer évite de se rassurer après coup (<a href=\"#echelles-h\">voir les trois échéances</a>).",
+   "kind": "trancher",
+   "section": "echelles-h"
+  },
+  {
+   "q": "Pendant un atelier de prévention, un élève vous dit à voix basse qu'on lui prend son argent chaque semaine dans les toilettes de l'école. Quelle est votre première conduite ?",
+   "o": [
+    "Lui promettre que cela restera entre vous deux, pour qu'il ose continuer à vous parler",
+    "Faire cesser l'exposition et l'orienter vers l'adulte responsable, sans promettre le secret",
+    "Lui demander de raconter les faits en détail devant le groupe, pour sensibiliser les autres",
+    "Terminer l'atelier comme prévu et proposer une rencontre avec l'autre élève la semaine suivante"
+   ],
+   "a": 1,
+   "why": [
+    "Non : promettre le secret est une promesse qu'on ne pourra pas tenir, et la rompre ensuite abîme la confiance de l'enfant.",
+    "Oui : la protection passe avant la prévention, et l'enfant doit savoir dès maintenant à quel adulte nommé sa situation sera transmise.",
+    "Non : faire raconter les faits devant le groupe expose l'enfant et peut le remettre en danger dès la sortie de la salle.",
+    "Non : différer d'une semaine laisse l'exposition se poursuivre, et la rencontre proposée est justement la confrontation à écarter."
+   ],
+   "x": "Prévenir ne remplace jamais protéger : quand un enfant confie une situation en cours, la priorité passe immédiatement à faire cesser l'exposition, à écouter sans faire raconter les faits en détail devant le groupe, à ne pas promettre le secret et à orienter vers l'adulte responsable de l'établissement (<a href=\"#limites-h\">voir la mise en garde</a>). Les élèves décrivent les toilettes comme le lieu le plus dangereux de l'école, où se produisent agressions, rackets et menaces <a class=\"cite\" data-ref=\"ngidi2018\"></a> : ce récit est plausible et mérite d'être pris au sérieux tout de suite. Vous pourrez ensuite aider l'enfant à garder un ou deux camarades fiables, le soutien des pairs réduisant le risque d'être harcelé <a class=\"cite\" data-ref=\"aboagye2021a\"></a>.",
+   "kind": "trancher",
+   "section": "limites-h"
+  }
+ ]
+}

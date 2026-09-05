@@ -1,0 +1,158 @@
+{
+ "title": "Vérifier que les mots justes sont prêts avant d'en avoir besoin",
+ "intro": "Huit situations ordinaires : une conversation à préparer, un enfant qui parle, un secret demandé, une note à écrire. Répondez avant de lire la correction, et lisez-la même quand vous avez juste.",
+ "questions": [
+  {
+   "q": "Votre fille de 13 ans est plus silencieuse depuis quinze jours. Quatre occasions se présentent cette semaine. Laquelle réunit le mieux les conditions décrites dans le module ?",
+   "o": [
+    "Le soir dans la salle commune, pendant que ses frères et sœurs jouent juste à côté de vous",
+    "Juste après avoir découvert son bulletin, en la faisant asseoir en face de vous pour s'expliquer",
+    "En revenant du marché à pied, côte à côte, avec du temps devant vous et sans autre oreille",
+    "Cinq minutes avant le départ pour l'école, en lui annonçant que vous en reparlerez le soir"
+   ],
+   "a": 2,
+   "why": [
+    "Non : devant un frère, une sœur ou un voisin, l'enfant protège son image et minimise ce qu'il subit.",
+    "Non : l'instant qui suit une mauvaise note est justement un des moments à éviter, et le face-à-face met l'enfant en position d'accusé.",
+    "Oui : à l'écart, avec du temps, dans une activité latérale où les regards ne se croisent pas.",
+    "Non : ces cinq minutes ne laissent aucun temps, et annoncer un rendez-vous solennel installe l'angoisse pour la journée."
+   ],
+   "x": "Un enfant parle quand il se sent à l'abri du regard des autres, qu'il dispose de temps, et qu'il devine un adulte capable d'entendre sans s'effondrer. Le lieu calme et confidentiel est la première recommandation des guides destinés aux adultes qui reçoivent une révélation <a class=\"cite\" data-ref=\"defenseurdesdroits2023,oms2019manuel\"></a>. À Madagascar, le henatra règle en plus ce qui peut se dire et devant qui <a class=\"cite\" data-ref=\"rakotomalala2012\"></a>.",
+   "kind": "comprendre",
+   "section": "avant-h"
+  },
+  {
+   "q": "Bénévole dans une association, vous accompagnez un garçon de 12 ans que vous croyez visé par un groupe. Pourquoi ne pas ouvrir par « est-ce que tu es harcelé ? » ?",
+   "o": [
+    "Parce qu'en Afrique subsaharienne les jeunes n'emploient presque jamais ce mot : ils décrivent des situations",
+    "Parce que le mot est trop grave et risque de traumatiser un enfant qui ne subit finalement rien de sérieux",
+    "Parce qu'un enfant à qui l'on donne ce mot se croit victime et finit par s'installer dans ce rôle",
+    "Parce que ce mot ne prend un sens qu'à partir de 15 ans, âge où les jeunes le comprennent vraiment"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : les jeunes jugent les actes à partir de ce qu'ils leur font, pas à partir du vocabulaire des adultes.",
+    "Non : ce n'est pas le mot qui blesse ; le problème est qu'il ne correspond pas à la façon dont l'enfant vit et raconte la chose.",
+    "Non : nommer ce qu'un enfant subit ne l'installe pas dans un rôle ; l'obstacle est simplement que ce mot n'est pas le sien.",
+    "Non : il ne s'agit pas d'une capacité qui arriverait avec l'âge, mais d'un décalage de vocabulaire entre adultes et jeunes."
+   ],
+   "x": "Une synthèse de trente études qualitatives menées en Afrique subsaharienne montre que les enfants et les adolescents ne reprennent presque jamais le vocabulaire adulte pour nommer ce qu'ils subissent <a class=\"cite\" data-ref=\"turner2024\"></a>. Les mots du harcèlement ne se recouvrent d'ailleurs pas d'une langue à l'autre <a class=\"cite\" data-ref=\"smith2016\"></a>. On ouvre donc par la journée ordinaire : avec qui tu as mangé, où tu n'aimes pas aller.",
+   "kind": "comprendre",
+   "section": "ouvrir-h"
+  },
+  {
+   "q": "Un garçon de 10 ans vous dit en pleurant : « ils m'ont encore pris mon goûter, et tout le monde riait ». Quelle première phrase choisissez-vous ?",
+   "o": [
+    "« Pourquoi tu ne t'es pas défendu ? Tu es plus grand qu'eux, pourtant. »",
+    "« Bon, demain je vais voir la maîtresse et ce sera réglé, ne t'inquiète plus. »",
+    "« Attends, reprends depuis le début : qui, quel jour, combien de fois, sans rien oublier. »",
+    "« Tu as eu honte devant toute la classe. Raconte-moi ce qui s'est passé ensuite. »"
+   ],
+   "a": 3,
+   "why": [
+    "Non : le « pourquoi » accuse, et demander à l'enfant de se défendre lui apprend qu'il est seul et faible.",
+    "Non : sauter à la solution donne le sentiment qu'on veut clore la conversation, et la promesse de tout régler seul le laisse sans place.",
+    "Non : c'est un interrogatoire ; les faits précis se recueillent plus tard, une fois l'émotion reconnue.",
+    "Oui : nommer l'émotion d'abord, puis relancer par une question ouverte, c'est exactement l'ordre des réflexes d'écoute."
+   ],
+   "x": "Nommer l'émotion avant le problème permet à l'enfant de vérifier qu'il a été compris ; la question ouverte lui laisse la main sur son récit. Refléter l'émotion avant de chercher des solutions et tolérer les silences constitue la posture recommandée aux adultes <a class=\"cite\" data-ref=\"who2023parenting,oms2011psp\"></a>. Ces réflexes relèvent de la bonne pratique partagée, pas d'un traitement évalué : leur force est qu'ils s'apprennent en les répétant.",
+   "kind": "appliquer",
+   "section": "ecouter-h"
+  },
+  {
+   "q": "Votre fille de 14 ans raconte qu'un groupe la filme et diffuse les vidéos, puis vous supplie : « jure-moi que tu n'en parles à personne ». Que répondez-vous ?",
+   "o": [
+    "« Je te le jure, ça reste entre nous ; personne ne le saura, tu peux compter sur moi. »",
+    "« Je ne peux pas promettre de me taire, mon rôle est de te protéger ; mais je ne ferai rien sans t'en parler. »",
+    "« Je ne promets rien du tout ; demain matin je vais au collège, et ce n'est pas à toi d'en décider. »",
+    "« D'accord, mais alors tu me rends ton téléphone jusqu'à ce que toute cette affaire se calme. »"
+   ],
+   "a": 1,
+   "why": [
+    "Non : promettre le secret absolu puis le rompre, ce qui arrivera, détruit la confiance pour longtemps.",
+    "Oui : on ne promet pas le silence, on promet l'écoute, la transparence et de ne pas la laisser seule avec ça.",
+    "Non : refuser sèchement toute promesse et décider sans elle la fait fuir, même si l'action est la bonne.",
+    "Non : confisquer l'appareil est vécu comme une punition et la dissuadera d'en parler la fois suivante."
+   ],
+   "x": "La règle est de ne jamais promettre le secret absolu et d'expliquer l'obligation de protection, tout en s'engageant à ne rien faire sans prévenir l'enfant <a class=\"cite\" data-ref=\"has2017maltraitance,oms2019manuel\"></a>. Le téléphone n'est pas le coupable : mieux vaut sauvegarder les preuves et signaler que priver l'enfant <a class=\"cite\" data-ref=\"hbsc2024,eenfance3018\"></a>. Le secret que l'adulte doit tenir est ailleurs : ne pas raconter l'histoire aux voisins ni dans un groupe en ligne.",
+   "kind": "appliquer",
+   "section": "secret-h"
+  },
+  {
+   "q": "Vous encadrez un club de jeunes. Un garçon de 12 ans s'est mis à l'écart depuis la rentrée. Quelle approche correspond le mieux à son âge ?",
+   "o": [
+    "Lui demander devant le groupe s'il se sent bien, pour que les autres lui montrent leur soutien",
+    "Lui poser la question frontalement en tête-à-tête : « est-ce qu'on t'exclut, et qui exactement ? »",
+    "Passer par un détour : lui demander si quelqu'un, dans sa classe, se fait mettre à l'écart",
+    "Lui proposer de dessiner ce qui se passe pendant la récréation, pour contourner l'obstacle des mots"
+   ],
+   "a": 2,
+   "why": [
+    "Non : poser la question devant le groupe expose exactement ce que l'enfant cherche à cacher, et il dira que tout va bien.",
+    "Non : à cet âge, la question frontale est vécue comme une intrusion et referme la conversation.",
+    "Oui : parler d'un autre enfant ouvre la porte sans obliger l'adolescent à se déclarer victime.",
+    "Non : le dessin est l'outil des 6-10 ans, quand le vocabulaire manque ; à 12 ans il sera perçu comme infantilisant."
+   ],
+   "x": "Le harcèlement et la façon d'en parler changent avec l'âge : les formes évoluent et la victimation déclarée décline, alors que les conduites d'agression restent stables ou augmentent <a class=\"cite\" data-ref=\"lopezcastro2023\"></a>. Vers 11-14 ans, l'exclusion et les rumeurs prennent le relais des coups et le regard du groupe pèse le plus lourd : on passe par les autres, par les lieux et par les horaires, puis on laisse venir. Vers 15-18 ans, l'inverse : le détour serait pris pour de la manipulation, et c'est la franchise qui convient.",
+   "kind": "appliquer",
+   "section": "ages-h"
+  },
+  {
+   "q": "Votre fils de 11 ans vous donne enfin le nom de l'élève qui le frappe depuis des semaines. Le soir, chacun à la maison propose une action. Laquelle tenez-vous ?",
+   "o": [
+    "Écrire ce soir une note datée avec ses mots, puis demander par écrit un rendez-vous à la direction",
+    "Aller voir demain les parents de l'autre enfant, pour régler l'affaire entre adultes raisonnables",
+    "Demander à l'école de réunir les deux enfants dans un bureau pour qu'ils s'expliquent une bonne fois",
+    "Le changer d'établissement dès la semaine prochaine, le temps que les choses se tassent de ce côté-là"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : consigner les faits puis saisir l'école par écrit sont les deux gestes recommandés, dans cet ordre.",
+    "Non : contacter soi-même l'enfant auteur ou ses parents est déconseillé et expose souvent l'enfant à des représailles.",
+    "Non : la confrontation et la médiation entre pairs manquent de preuves d'efficacité et remettent l'enfant face à celui qui l'agresse.",
+    "Non : retirer l'enfant de l'école en première intention lui fait porter la sanction, sans que rien ne soit établi ni arrêté."
+   ],
+   "x": "Contacter l'enfant auteur ou sa famille, organiser une confrontation, ou déscolariser en première intention sont explicitement déconseillés : ces réponses aggravent souvent la situation <a class=\"cite\" data-ref=\"defenseurdesdroits2023,nasem2016\"></a>. L'erreur est tentante parce qu'elle paraît rapide et courageuse. Ce qui fait avancer, c'est une trace écrite et une demande adressée à l'institution qui a la responsabilité des élèves.",
+   "kind": "trancher",
+   "section": "jamais-h"
+  },
+  {
+   "q": "Un jeune de 16 ans que vous accompagnez vous dit, en fin d'après-midi, qu'il en a assez et qu'il aimerait « ne plus être là ». Vous êtes seul avec lui. Que faites-vous ?",
+   "o": [
+    "Vous évitez soigneusement le mot pour ne pas lui donner l'idée, et vous proposez d'en reparler la semaine prochaine",
+    "Vous appelez la Ligne verte 147, notez les conseils reçus, puis le laissez rentrer chez lui comme d'habitude",
+    "Vous lui faites promettre de ne rien faire, et vous promettez en échange de n'en parler à personne d'autre",
+    "Vous lui demandez s'il pense à mourir, vous ne le laissez pas seul et vous l'accompagnez le jour même"
+   ],
+   "a": 3,
+   "why": [
+    "Non : c'est l'inverse qui se produit, poser la question soulage le jeune, qui découvre qu'il peut en parler.",
+    "Non : le 147 est une ligne de signalement des violences et d'orientation, pas une réponse à un jeune en danger immédiat.",
+    "Non : la promesse arrachée ne protège pas, et c'est le seul point sur lequel le secret ne peut jamais être promis.",
+    "Oui : demander, ne pas laisser seul, retirer les moyens dangereux et accompagner le jour même vers un service de soins."
+   ],
+   "x": "Les recommandations destinées aux intervenants non spécialistes demandent de rechercher explicitement les idées suicidaires chez tout jeune en souffrance, sans attendre qu'il en parle <a class=\"cite\" data-ref=\"mhgap2023\"></a>. Le lien avec le harcèlement est documenté sur le continent africain, sur 16 études et 34 007 élèves de 11 pays <a class=\"cite\" data-ref=\"bezie2025\"></a>. On emploie des mots simples, on n'entre dans aucun détail, et on prévient un autre adulte de confiance pour ne pas porter cela seul.",
+   "kind": "trancher",
+   "section": "noires-h"
+  },
+  {
+   "q": "Le lendemain de l'échange, vous rédigez la note que l'école, puis peut-être la justice, pourront utiliser. Quelle formulation est la plus utile ?",
+   "o": [
+    "« Depuis la rentrée, mon fils est victime de harcèlement scolaire de la part d'un groupe de sa classe. »",
+    "« Le 12 mars à 17 h, à la maison : ils m'ont pris mon cahier et l'ont jeté dans les toilettes. Il cite trois élèves. »",
+    "« Il va très mal depuis des semaines, l'école ne fait rien, il faut agir avant qu'un drame n'arrive. »",
+    "« J'ai repris avec lui toute l'histoire depuis septembre, en lui faisant tout redire épisode par épisode. »"
+   ],
+   "a": 1,
+   "why": [
+    "Non : c'est votre conclusion, pas un fait ; une qualification sans date ni épisode ne permet à personne d'agir.",
+    "Oui : date, heure, lieu, mots de l'enfant entre guillemets et éléments repérables : la note est utilisable telle quelle.",
+    "Non : le jugement et la menace remplacent ici les faits, et la note perd toute valeur pour l'école comme pour la suite.",
+    "Non : faire re-raconter les faits en détail, encore et encore, n'aide pas et peut faire mal à l'enfant."
+   ],
+   "x": "Une note écrite le jour même, factuelle et datée, rapportant les mots de l'enfant et distinguant ce que vous savez de ce que vous supposez, est ce qui permettra ensuite d'agir <a class=\"cite\" data-ref=\"defenseurdesdroits2023,eenfance3018\"></a>. Les premiers secours psychologiques consistent à écouter sans forcer le récit, pas à reconstituer une chronologie complète <a class=\"cite\" data-ref=\"oms2011psp\"></a>. C'est votre note qui circule d'un adulte à l'autre, pas l'enfant.",
+   "kind": "trancher",
+   "section": "apres-h"
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "title": "Vérifier que les mots et les recours sont bien en main",
+ "intro": "Huit situations qui se produisent vraiment ici : une réunion de quartier, un bureau de directeur, un groupe de parents, un adolescent qui dit avoir mal au ventre. Répondez avant de lire la correction : chercher soi-même la réponse ancre mieux que relire la page.",
+ "questions": [
+  {
+   "q": "Lors d'une réunion de quartier, une mère emploie l'expression herisetra an-tsekoly pour ce que vit son fils à l'école. Que faites-vous d'abord pour savoir s'il s'agit d'un harcèlement ?",
+   "o": [
+    "Vérifier d'abord s'il existe des marques visibles ou un certificat médical",
+    "Lui apprendre le mot « harcèlement » pour qu'elle emploie enfin le bon terme",
+    "Demander si cela revient souvent et si son fils peut se défendre à armes égales",
+    "Conclure au harcèlement, puisque l'expression malgache le désigne déjà"
+   ],
+   "a": 2,
+   "why": [
+    "Non : attendre une trace physique fait disparaître la mise à l'écart et les moqueries, qui n'en laissent aucune.",
+    "Non : imposer un mot technique interrompt la description précise que cette mère est justement en train de vous donner.",
+    "Oui : ce sont exactement les deux questions que l'expression malgache ne pose pas, la répétition et le déséquilibre de pouvoir.",
+    "Non : l'expression signifie « violence à l'école » et couvre aussi bien une bagarre unique que la violence d'un adulte sur un élève."
+   ],
+   "x": "L'expression est déjà employée par la presse malgache et son étendue est précieuse, mais elle ne contient ni l'idée de répétition ni celle de déséquilibre de pouvoir <a class=\"cite\" data-ref=\"newsmada2024\"></a>. Or ce sont ces deux idées qui séparent une bagarre d'un harcèlement <a class=\"cite\" data-ref=\"olweus1993,gaffney2021a\"></a>. Chaque fois que vous employez l'expression, ajoutez donc les deux questions manquantes (voir <a href=\"#herisetra-h\">ce que la périphrase perd</a>).",
+   "kind": "comprendre",
+   "section": "herisetra-h"
+  },
+  {
+   "q": "Un directeur vous répond : « ce problème est importé, il n'existe aucun chiffre pour Madagascar ». Que lui répondez-vous ?",
+   "o": [
+    "Depuis 2025, une enquête scolaire nationale trouve 27,2 % d'élèves de 13-17 ans harcelés dans l'année",
+    "C'est exact : faute d'enquête ici, nous raisonnons par analogie avec les pays voisins",
+    "Une enquête nationale montre que 89,1 % des élèves malgaches sont harcelés à l'école chaque année",
+    "Le chiffre malgache est connu, environ 10 %, comme dans la plupart des enquêtes européennes"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : ce chiffre est national, daté et récent : c'est celui que vous pouvez citer en public sans risque.",
+    "Non : c'était vrai avant 2025 ; répéter qu'il n'y a rien donne raison à celui qui minimise.",
+    "Non : ce pourcentage est celui du châtiment corporel subi en famille, pas du harcèlement entre élèves.",
+    "Non : environ 10 % correspond au cyberharcèlement déclaré, et un taux étranger ne sert pas de repère ici."
+   ],
+   "x": "L'enquête scolaire de l'Organisation mondiale de la santé, menée auprès de 2 440 élèves dans 38 écoles, trouve 27,2 % d'élèves harcelés à l'école dans l'année et 10,5 % cyberharcelés <a class=\"cite\" data-ref=\"who2025\"></a>. Le chiffre de 89,1 % vient d'une autre étude et désigne les châtiments corporels subis en famille <a class=\"cite\" data-ref=\"ibcr2018\"></a>. Mélanger deux sources en public coûte cher : on perd la source en même temps que l'argument.",
+   "kind": "comprendre",
+   "section": "herisetra-h"
+  },
+  {
+   "q": "Une bénévole prépare une affiche pour une réunion publique : « Madagascar 27,2 %, Finlande 5 % ». Que lui conseillez-vous ?",
+   "o": [
+    "Garder la comparaison, puisque le questionnaire employé est le même dans les deux pays",
+    "Afficher le chiffre malgache seul, comme repère à comparer aux prochaines enquêtes malgaches",
+    "Retirer le chiffre malgache : tant qu'il n'est pas comparable, il ne veut rien dire",
+    "Garder les deux taux, en précisant que le chiffre malgache est certainement sous-estimé"
+   ],
+   "a": 1,
+   "why": [
+    "Non : un questionnaire identique ne garantit pas que les élèves de deux pays comprennent les mêmes mots de la même façon.",
+    "Oui : le chiffre malgache est solide pour se suivre lui-même dans le temps, et c'est son usage juste.",
+    "Non : un chiffre non comparable reste une mesure valable ici ; le retirer prive votre association de son seul repère national.",
+    "Non : ajouter « sous-estimé » sans donnée est une supposition, et cela maintient la comparaison qui pose problème."
+   ],
+   "x": "Un questionnaire de harcèlement testé auprès de 3 186 adolescents de quatre pays montre une structure interne comparable à l'intérieur de la plupart des groupes, mais pas d'un groupe culturel à l'autre : les auteurs concluent qu'aucune comparaison directe entre échantillons culturels n'était justifiée <a class=\"cite\" data-ref=\"samara2019\"></a>. Le mot lui-même ne voyage pas : bullying n'a pas d'équivalent proche dans les langues latines, et ijime au Japon recouvre autre chose <a class=\"cite\" data-ref=\"smith2002\"></a>. Un écart de quelques points entre deux pays peut refléter la traduction du questionnaire autant que le vécu des élèves.",
+   "kind": "appliquer",
+   "section": "concept-voyage-h"
+  },
+  {
+   "q": "Vous rencontrez le directeur d'un collège au sujet d'un élève bousculé et mis à l'écart depuis deux mois. Par quoi ouvrez-vous l'entretien ?",
+   "o": [
+    "Vous annoncez qu'il y a du harcèlement dans son établissement, afin de marquer la gravité",
+    "Vous rappelez que le châtiment corporel est en principe interdit à l'école depuis 1996",
+    "Vous annoncez que vous saisirez le fokontany si rien n'a changé d'ici la fin de la semaine",
+    "Vous décrivez qui fait quoi, depuis quand, combien de fois, et ce que l'élève ne fait plus"
+   ],
+   "a": 3,
+   "why": [
+    "Non : une étiquette se refuse en un mot, et beaucoup d'adultes d'école voient encore ces gestes comme un jeu.",
+    "Non : c'est un autre sujet, et cela transforme d'emblée l'entretien en mise en accusation de l'équipe.",
+    "Non : la menace ferme la porte dès la première rencontre, alors que vous aurez besoin de cette école ensuite.",
+    "Oui : des faits datés et répétés se discutent, et ils rendent visible la répétition que le mot masque."
+   ],
+   "x": "Dans l'étude nationale sur les violences envers les enfants à Madagascar, 49 % du personnel scolaire perçoit la violence physique entre élèves comme un jeu <a class=\"cite\" data-ref=\"ibcr2018\"></a>. Devant cette perception, une étiquette ne produit qu'un refus poli, tandis qu'une description factuelle oblige à regarder la fréquence et les conséquences. C'est d'ailleurs ainsi que les enfants racontent eux-mêmes ce qu'ils vivent : par des situations, presque jamais par le mot « violence » <a class=\"cite\" data-ref=\"turner2024\"></a>.",
+   "kind": "appliquer",
+   "section": "frontiere-h"
+  },
+  {
+   "q": "Devant un groupe de parents, un père déclare : « qui aime bien châtie bien, c'est comme cela qu'on m'a élevé ». Quelle entrée en matière choisissez-vous ?",
+   "o": [
+    "Lui demander ce qu'il veut que son enfant apprenne, puis regarder ensemble ce que la punition produit",
+    "Lui dire devant le groupe qu'il ne faut jamais frapper un enfant, c'est le message le plus clair",
+    "Lui expliquer que ce proverbe est une croyance ancienne que la recherche a définitivement écartée",
+    "Lui dire que les enfants frappés gardent des séquelles définitives, pour qu'il mesure la gravité"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : partir de son objectif garde la conversation ouverte et permet ensuite de proposer une alternative concrète et gratuite.",
+    "Non : « ne frappez jamais » comme premier message, et devant le groupe, humilie la personne et fait perdre l'échange en trois phrases.",
+    "Non : opposer la tradition malgache et la science ferme la discussion, alors que le débat sur éduquer ou maltraiter est ici ancien et local.",
+    "Non : c'est un excès qui laisse croire qu'un parent ayant frappé a abîmé son enfant pour toujours, ce que les données ne disent pas."
+   ],
+   "x": "Ce que montre la recherche tient en une phrase : la punition physique n'obtient pas l'obéissance durable qu'on en attend, et elle est associée à davantage de comportements agressifs et de difficultés émotionnelles <a class=\"cite\" data-ref=\"gershoff2016,heilmann2021\"></a>. Des programmes d'accompagnement des parents évalués en Afrique australe réduisent les punitions corporelles en quelques séances animées par des membres formés de la communauté <a class=\"cite\" data-ref=\"cluver2018\"></a>. Le proverbe exprime quelque chose de vrai, l'intention de bien faire : commencer par le contredire, c'est perdre son interlocuteur.",
+   "kind": "appliquer",
+   "section": "proverbe-h"
+  },
+  {
+   "q": "Dans un village, une famille vous demande de l'aide pour son fils moqué et frappé sur le chemin de l'école. Par où commencez-vous ?",
+   "o": [
+    "Par l'école puis la police, seules instances officielles capables de traiter réellement le problème",
+    "Par les ray aman-dreny et le fokontany, en vérifiant que la solution proposée protège l'enfant",
+    "Par un dina, car une règle communautaire écrite protège toujours mieux qu'une démarche isolée",
+    "Par le responsable religieux seul, puisque c'est le seul adulte que cette famille écoute vraiment"
+   ],
+   "a": 1,
+   "why": [
+    "Non : une famille malgache ne commence presque jamais par là, et contourner les anciens coûte la confiance dont vous aurez besoin.",
+    "Oui : c'est le chemin réellement emprunté, à condition de garder la protection de l'enfant comme critère de la solution.",
+    "Non : un dina peut être capté par les puissants du lieu ; un dispositif communautaire n'est pas protecteur par nature.",
+    "Non : le responsable religieux est un partenaire précieux, mais s'en remettre à lui seul laisse l'enfant sans autre recours."
+   ],
+   "x": "Le fokontany actuel est l'héritier administratif du fokonolona, communauté villageoise dotée de sa propre capacité à poser des règles : un conflit s'y règle d'abord entre voisins et anciens <a class=\"cite\" data-ref=\"condominas1961\"></a>. Le dina, convention écrite adoptée localement, peut être utile, mais il peut aussi devenir un instrument de domination <a class=\"cite\" data-ref=\"andriamalala2010,klein2024\"></a>. Se servir de ces recours plutôt que de les contourner, tout en vérifiant qu'ils protègent l'enfant, reste la conduite la plus efficace.",
+   "kind": "appliquer",
+   "section": "recours-h"
+  },
+  {
+   "q": "Un adolescent moqué sur son corps se plaint de maux de ventre. Sa grand-mère propose de le faire s'expliquer devant la famille réunie. Que faites-vous ?",
+   "o": [
+    "Vous acceptez : réuni, l'entourage lui montrera qu'il est soutenu par toute la famille",
+    "Vous demandez à la famille de s'écarter et traitez la question uniquement avec l'école",
+    "Vous lui parlez seul, à partir des faits, et lui demandez comment il appelle cela",
+    "Vous lui demandez devant tous s'il est victime de harcèlement, pour que chacun entende"
+   ],
+   "a": 2,
+   "why": [
+    "Non : la crainte du regard d'autrui rend la parole presque impossible en groupe, surtout lorsqu'il s'agit du corps.",
+    "Non : écarter la famille vous prive du recours que l'adolescent utilisera de toute façon après votre départ.",
+    "Oui : seul, sur des faits, et avec ses mots à lui : c'est ce qui produit une information exacte.",
+    "Non : le mot technique appelle un « non », et le poser en public ajoute l'humiliation à la question."
+   ],
+   "x": "Le henatra règle ce qui peut se dire ou non, en particulier sur le corps, et l'anthropologie décrit un langage détourné pour aborder ces sujets <a class=\"cite\" data-ref=\"rakotomalala2012\"></a>. Les enfants d'Afrique subsaharienne n'emploient presque jamais le mot « violence » : ils décrivent des émotions et des situations <a class=\"cite\" data-ref=\"turner2024\"></a>. Demander « toi, comment tu appelles ça ? » vous donne en plus le vocabulaire à réutiliser ensuite avec l'école et la famille (<a href=\"#poser-question-h\">poser la question dans sa langue</a>).",
+   "kind": "trancher",
+   "section": "poser-question-h"
+  },
+  {
+   "q": "Le soir, un adolescent que vous accompagnez vous dit qu'il ne veut plus vivre. Sa famille a déjà consulté son pasteur. Quelle conduite tenez-vous ?",
+   "o": [
+    "Vous appelez la ligne verte 147, qui est le numéro prévu pour les situations de crise suicidaire",
+    "Vous demandez à la famille de choisir clairement : soit le pasteur, soit le service de psychiatrie",
+    "Vous attendez la prochaine réunion du fokontany pour que les anciens décident de la conduite à tenir",
+    "Vous ne le laissez pas seul, écartez les moyens dangereux et l'accompagnez vers un service d'urgence"
+   ],
+   "a": 3,
+   "why": [
+    "Non : le 147 est une ligne de signalement des violences envers les enfants et d'orientation, pas une ligne de crise.",
+    "Non : obliger une famille à choisir entre prier et consulter la fait souvent renoncer aux deux.",
+    "Non : différer une situation qui demande une réponse le soir même ajoute du retard au danger.",
+    "Oui : ne pas laisser seul, retirer les moyens, accompagner vers un service : c'est ce qui protège dans l'immédiat."
+   ],
+   "x": "Le recours religieux est très fréquent : dans une série de patients suivis en psychiatrie à Antananarivo, le premier recours de soins était un traitement religieux dans 40 % des cas <a class=\"cite\" data-ref=\"bakohariliva2018\"></a>. Ce langage du malheur n'est pas un retard, et il se cumule très bien avec les soins : on peut prier et consulter <a class=\"cite\" data-ref=\"legrip2020,rosse2021\"></a>. Ce qui aggrave l'état d'un adolescent, ce n'est pas la croyance de ses parents, c'est le retard ; la marche à suivre détaillée figure dans <a href=\"14-demander-de-l-aide.html\">Demander de l'aide</a>.",
+   "kind": "trancher",
+   "section": "recours-h"
+  }
+ ]
+}

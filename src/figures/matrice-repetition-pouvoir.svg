@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="matrice-repetition-pouvoir-t matrice-repetition-pouvoir-d" font-family="Public Sans, Segoe UI, system-ui, sans-serif" font-size="13">
+<title id="matrice-repetition-pouvoir-t">Conflit ou harcèlement : deux questions, quatre situations</title>
+<desc id="matrice-repetition-pouvoir-d">Matrice à deux colonnes, forces comparables ou déséquilibre de pouvoir, et deux lignes, une fois ou répété. Une fois entre forces comparables : conflit ponctuel, par exemple deux amis qui se disputent un ballon puis se réconcilient. Une fois avec déséquilibre : agression isolée, un grand frappe un petit une seule fois. Répété entre forces comparables : conflit répété, deux élèves qui se chamaillent chaque semaine à forces égales. Répété avec déséquilibre : harcèlement, le même élève visé chaque jour par un groupe sans pouvoir se défendre.</desc>
+<text class="t-b" x="250" y="30" text-anchor="middle">forces comparables</text>
+<text class="t-sm" x="250" y="45" text-anchor="middle">chacun peut répondre à l'autre</text>
+<text class="t-b" x="502" y="30" text-anchor="middle">déséquilibre de pouvoir</text>
+<text class="t-sm" x="502" y="45" text-anchor="middle">l'un ne peut pas se défendre</text>
+<text class="t-b" x="118" y="108" text-anchor="end">une fois</text>
+<text class="t-sm" x="118" y="123" text-anchor="end">un seul épisode</text>
+<text class="t-b" x="118" y="224" text-anchor="end">répété</text>
+<text class="t-sm" x="118" y="239" text-anchor="end">cela se reproduit</text>
+<rect class="box-s" x="128" y="56" width="244" height="108" rx="6"/>
+<text class="t-b" x="250" y="102" text-anchor="middle">conflit ponctuel</text>
+<text class="t-sm" x="250" y="122" text-anchor="middle">deux amis se disputent un ballon,</text>
+<text class="t-sm" x="250" y="136" text-anchor="middle">puis se réconcilient</text>
+<rect class="box-a" x="380" y="56" width="244" height="108" rx="6"/>
+<text class="t-b" x="502" y="102" text-anchor="middle">agression isolée</text>
+<text class="t-sm" x="502" y="122" text-anchor="middle">un grand frappe un petit,</text>
+<text class="t-sm" x="502" y="136" text-anchor="middle">une seule fois</text>
+<rect class="box-a" x="128" y="172" width="244" height="108" rx="6"/>
+<text class="t-b" x="250" y="218" text-anchor="middle">conflit répété</text>
+<text class="t-sm" x="250" y="238" text-anchor="middle">deux élèves se chamaillent</text>
+<text class="t-sm" x="250" y="252" text-anchor="middle">chaque semaine, à forces égales</text>
+<rect class="box-b" x="380" y="172" width="244" height="108" rx="6"/>
+<text class="t-b" x="502" y="218" text-anchor="middle">harcèlement</text>
+<text class="t-sm" x="502" y="238" text-anchor="middle">le même élève est visé chaque jour</text>
+<text class="t-sm" x="502" y="252" text-anchor="middle">par un groupe, sans pouvoir se défendre</text>
+</svg>

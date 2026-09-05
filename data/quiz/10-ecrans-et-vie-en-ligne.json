@@ -1,0 +1,158 @@
+{
+ "title": "Savoir quoi faire quand la cour de récréation continue sur le téléphone",
+ "intro": "Huit situations, du soir à la maison à la réunion publique. Répondez avant de lire la correction : se souvenir activement ancre bien mieux que relire la page.",
+ "questions": [
+  {
+   "q": "Un père vous dit que son fils de 15 ans « fait exprès » de ne pas dormir : il est encore éveillé à 23 heures tous les soirs. Que lui répondez-vous d'abord ?",
+   "o": [
+    "Qu'un adolescent n'a en réalité besoin que de six à sept heures de sommeil, et que ce n'est donc pas très grave",
+    "Qu'il faut confisquer le téléphone chaque soir sans prévenir, jusqu'à ce que l'heure du coucher redevienne raisonnable",
+    "Qu'à la puberté l'heure d'endormissement recule biologiquement, et qu'il faut viser 8 à 10 heures de sommeil par nuit",
+    "Que ce retard vient des réseaux sociaux du soir, et qu'il suffira donc de supprimer les applications du téléphone"
+   ],
+   "a": 2,
+   "why": [
+    "Non : le besoin de sommeil entre 13 et 18 ans reste de 8 à 10 heures ; six ou sept heures, c'est déjà une dette installée.",
+    "Non : la confiscation par surprise fait surtout apparaître un second téléphone caché, et transforme le coucher en terrain de conflit.",
+    "Oui : on nomme le décalage biologique de l'endormissement avant de parler de règles, et on garde le repère des 8 à 10 heures.",
+    "Non : l'usage du soir pèse réellement sur le sommeil, mais tout lui attribuer fait oublier le retard d'horloge interne, qui, lui, ne se supprime pas."
+   ],
+   "x": "Entre 13 et 18 ans le besoin est de 8 à 10 heures par nuit, et la puberté retarde biologiquement l'heure d'endormissement <a class=\"cite\" data-ref=\"paruthi2016,crowley2018\"></a>. À Madagascar, 54,6 % des élèves de 13 à 17 ans dorment moins de huit heures <a class=\"cite\" data-ref=\"who2025\"></a>. Le levier concret n'est pas un discours sur les dangers d'internet mais un lieu de recharge unique hors des chambres, décidé ensemble et valable aussi pour les adultes (voir <a href=\"#sommeil-h\">Le sommeil</a>).",
+   "kind": "comprendre",
+   "section": "sommeil-h"
+  },
+  {
+   "q": "En réunion de parents, une mère brandit un article de journal : « Les réseaux sociaux rendent les jeunes dépressifs. » Quelle réponse est à la fois exacte et crédible ?",
+   "o": [
+    "Le lien existe mais il est très faible, et il va dans les deux sens : un jeune qui va mal se réfugie aussi davantage en ligne",
+    "Que rien n'est démontré : les études ne trouvent aucun lien, il s'agit d'une inquiétude d'adultes sur une génération",
+    "C'est exact, et c'est précisément pourquoi il faut supprimer les applications avant que le mal ne soit fait chez son enfant",
+    "Tout dépend du nombre d'heures : au-delà de deux heures d'écran par jour, le risque de dépression augmente nettement"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : effets petits et bidirectionnels, c'est la formulation qui résistera à l'article contraire que cette mère lira le mois prochain.",
+    "Non : nier tout lien est aussi faux que l'alarmisme ; la relation existe bel et bien, elle est simplement très faible.",
+    "Non : c'est la position alarmiste, celle qui fait perdre toute crédibilité au formateur dès qu'un parent trouve une étude rassurante.",
+    "Non : ce seuil de deux heures n'existe pas dans les données ; ce sont le contenu, le contexte et la vulnérabilité préalable qui comptent."
+   ],
+   "x": "Dans les grandes bases de données, le temps d'écran explique moins de 1 % des différences de bien-être <a class=\"cite\" data-ref=\"orben2019\"></a>. Les synthèses qui rassemblent les revues déjà publiées concluent à des effets petits, souvent bidirectionnels, dépendant du contenu, du contexte et de la fragilité préalable <a class=\"cite\" data-ref=\"sanders2024,valkenburg2022,odgers2020\"></a>. Dire « les effets moyens sont petits, mais certaines situations sont graves, et voici lesquelles » garde le public et va à l'essentiel (voir <a href=\"#preuves-reseaux-h\">Ce que disent vraiment les preuves</a>).",
+   "kind": "comprendre",
+   "section": "preuves-reseaux-h"
+  },
+  {
+   "q": "Deux jeunes de votre groupe passent chacun trois heures par jour sur leur téléphone. Qu'est-ce qui vous ferait parler d'usage problématique chez l'un d'eux ?",
+   "o": [
+    "Rien de plus : trois heures par jour est déjà le seuil au-delà duquel l'usage devient problématique",
+    "Qu'il consacre ces trois heures aux jeux vidéo, car le jeu rend dépendant bien plus vite que les réseaux sociaux",
+    "Qu'il utilise des applications que ses parents ne connaissent pas, ce qui montre qu'il a des choses à cacher",
+    "Qu'il mente sur son temps passé, s'énerve dès qu'il ne peut pas se connecter et ait laissé tomber le football"
+   ],
+   "a": 3,
+   "why": [
+    "Non : aucun seuil horaire ne fait basculer dans le pathologique, et un usage intensif peut rester parfaitement maîtrisé.",
+    "Non : le jeu vidéo problématique existe, mais c'est la perte de contrôle qui alerte, pas le support choisi par le jeune.",
+    "Non : une application inconnue des parents signale surtout leur méconnaissance des plateformes, pas un usage problématique.",
+    "Oui : mensonges sur le temps passé, irritabilité quand la connexion manque et abandon des autres activités sont trois des cinq signes."
+   ],
+   "x": "Le signal utile n'est pas la durée mais l'usage problématique : perte de contrôle, irritabilité quand on ne peut pas se connecter, mensonges, abandon des autres activités, conflits répétés <a class=\"cite\" data-ref=\"hbsc2024-adolesce,who2024teens,hcsp2021\"></a>. Ces cinq signes se repèrent sans aucun outil, en quelques questions posées calmement. Il n'existe pas de diagnostic scientifiquement reconnu d'« addiction aux écrans », et transformer un adolescent passionné en malade ferme la discussion (voir <a href=\"#usage-problematique-h\">Usage problématique</a>).",
+   "kind": "appliquer",
+   "section": "usage-problematique-h"
+  },
+  {
+   "q": "Deux élèves de troisième s'insultent par messages depuis deux jours, autant l'un que l'autre, et chacun peut arrêter quand il le veut. Quelle conduite tenez-vous ?",
+   "o": [
+    "Appliquer le protocole du cyberharcèlement : protéger, tracer, signaler, et surtout ne jamais mettre les deux élèves face à face",
+    "Reconnaître un conflit à force égale, qu'on peut traiter en réunissant les deux élèves, tout en surveillant que le rapport ne bascule pas",
+    "Ne rien faire : entre adolescents, les insultes échangées par message finissent toujours par se régler d'elles-mêmes en quelques jours",
+    "Publier un rappel à l'ordre dans le groupe de discussion de la classe, pour que chacun assume publiquement les propos qu'il a écrits"
+   ],
+   "a": 1,
+   "why": [
+    "Non : appliquer le protocole du harcèlement à un conflit à force égale prive ces deux élèves d'une réconciliation qui était possible.",
+    "Oui : force équilibrée et échange qui peut cesser, c'est la définition du conflit ; on peut réunir, en restant attentif au basculement.",
+    "Non : laisser faire permet justement au rapport de force de s'installer, et c'est ainsi qu'un conflit se transforme en harcèlement.",
+    "Non : un rappel public dans le groupe de classe ajoute une audience, c'est-à-dire l'aggravant même qui caractérise le cyberharcèlement."
+   ],
+   "x": "Le cyberharcèlement reprend les trois critères du harcèlement — intention de nuire, répétition, déséquilibre de pouvoir — et y ajoute l'anonymat possible, la persistance des contenus et une audience potentiellement illimitée <a class=\"cite\" data-ref=\"modecki2014,kowalski2014\"></a>. Dans le conflit, le rapport de force est équilibré et l'échange peut s'arrêter : on peut réunir et réconcilier. Devant du harcèlement, on protège d'abord, on trace, on signale, et on n'organise pas de face-à-face (voir <a href=\"#cyberharcelement-h\">Le cyberharcèlement</a>).",
+   "kind": "appliquer",
+   "section": "cyberharcelement-h"
+  },
+  {
+   "q": "Une élève vous montre sur son téléphone trois semaines de messages insultants envoyés par un compte anonyme. Quel est votre tout premier geste concret ?",
+   "o": [
+    "Faire avec elle des captures d'écran laissant voir le pseudonyme, la date et l'heure, puis bloquer le compte ensuite",
+    "Lui faire bloquer le compte tout de suite et supprimer la conversation, pour qu'elle cesse enfin de relire ces messages",
+    "Répondre depuis son compte pour demander à l'auteur anonyme de se nommer et de venir s'expliquer devant un adulte",
+    "Attendre d'avoir la preuve de l'identité réelle de l'auteur avant d'en parler à la direction de l'établissement"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : capturer d'abord, bloquer ensuite ; et une capture n'est exploitable que si le pseudonyme, la date et l'heure y sont visibles.",
+    "Non : bloquer et effacer avant d'avoir capturé la prive de tout recours, il ne restera rien à montrer à l'école ni à la police.",
+    "Non : répondre relance l'échange, expose davantage l'élève et ne produit aucune preuve utilisable devant qui que ce soit.",
+    "Non : attendre un nom retarde la protection ; on signale sur les faits constatés, pas sur une identité que l'on n'aura peut-être jamais."
+   ],
+   "x": "La séquence utile est capturer d'abord, bloquer ensuite : une fois le compte bloqué et les messages effacés, il ne reste rien à montrer <a class=\"cite\" data-ref=\"eenfance,weprotect2023\"></a>. À côté des captures, un simple carnet — ce qui a été dit, quand, par qui, devant combien de personnes, et ce que l'enfant a ressenti — vaut souvent davantage qu'une pile d'images sans contexte. Le signalement sur la plateforme elle-même reste ensuite la voie la plus rapide pour faire disparaître une publication (voir <a href=\"#preuve-signaler-h\">Préserver une preuve, signaler</a>).",
+   "kind": "appliquer",
+   "section": "preuve-signaler-h"
+  },
+  {
+   "q": "Un garçon de 15 ans a envoyé une photo intime à un inconnu qui menace de la diffuser et réclame de l'argent. Il veut vous montrer la photo « comme preuve ». Que faites-vous ?",
+   "o": [
+    "Vous enregistrez la photo sur votre téléphone : sans elle, personne ne le croira ni à l'établissement ni au commissariat",
+    "Vous transférez la photo à un collègue expérimenté de votre association, pour qu'il donne son avis avant que vous agissiez",
+    "Vous ne conservez pas l'image : vous gardez les messages, le pseudonyme, les dates, les heures et l'adresse de la page",
+    "Vous lui demandez de tout effacer immédiatement, la photo comme les messages, pour qu'il ne reste plus aucune trace"
+   ],
+   "a": 2,
+   "why": [
+    "Non : enregistrer l'image intime d'un mineur est interdit à un adulte, même de bonne foi et même « pour prouver » quelque chose.",
+    "Non : transférer cette image, c'est la diffuser une fois de plus ; un avis de collègue se demande sans faire circuler la photo.",
+    "Oui : on conserve le contexte — messages, pseudonyme, dates, heures, adresse de la page — et jamais l'image elle-même.",
+    "Non : tout effacer supprime les messages, qui sont justement la preuve utilisable, et laisse le maître chanteur sans aucune trace."
+   ],
+   "x": "Un adulte ne doit jamais enregistrer, copier ni transférer l'image intime d'un mineur ; le retrait de l'image relève du portail international de signalement et des services compétents <a class=\"cite\" data-ref=\"iwf2020,unicefmgarozaza\"></a>. La règle à enseigner tient en six gestes : arrêter de payer, ne pas supprimer les messages, capturer les preuves, bloquer, signaler, et en parler à un adulte de confiance <a class=\"cite\" data-ref=\"weprotect2023\"></a>. Le message qui compte le plus reste que l'enfant n'est jamais le coupable : c'est la honte que l'auteur utilise pour le faire taire (voir <a href=\"#sextorsion-h\">Sextorsion</a>).",
+   "kind": "appliquer",
+   "section": "sextorsion-h"
+  },
+  {
+   "q": "Vous préparez une intervention publique à Antananarivo devant des parents et un directeur d'école. Quelle formulation pouvez-vous tenir sans risquer d'être démenti ?",
+   "o": [
+    "« 11 % des adolescents malgaches ont un usage problématique des réseaux sociaux, et cette proportion augmente d'année en année »",
+    "« Les signalements de sextorsion ont augmenté de 7 200 % : Madagascar est aujourd'hui submergée par ce phénomène nouveau »",
+    "« Le cyberharcèlement a remplacé le harcèlement de cour de récréation : c'est désormais là que l'effort doit porter en priorité »",
+    "« 10,5 % des élèves de 13 à 17 ans se disent cyberharcelés, contre 27,2 % harcelés à l'école : les deux problèmes se cumulent »"
+   ],
+   "a": 3,
+   "why": [
+    "Non : ces 11 % viennent d'enquêtes d'Europe, d'Asie centrale et du Canada, menées là où 90 à 98 % des jeunes sont connectés.",
+    "Non : cette hausse porte sur des signalements reçus par un centre américain ; la transposer à Madagascar revient à fabriquer une panique.",
+    "Non : le cyberharcèlement est nettement moins fréquent que le harcèlement en face à face et se superpose à lui, il ne le remplace pas.",
+    "Oui : deux chiffres malgaches issus de la même enquête, qui montrent que traiter l'écran seul ne suffira pas."
+   ],
+   "x": "À Madagascar, 10,5 % des élèves de 13 à 17 ans déclarent avoir été cyberharcelés dans l'année, contre 27,2 % harcelés à l'école <a class=\"cite\" data-ref=\"who2025\"></a>. Les chiffres d'usage problématique des 11-15 ans proviennent de pays bien plus connectés, alors que 20,4 % seulement de la population malgache utilise internet <a class=\"cite\" data-ref=\"who2024teens,kemp2025\"></a>. Quant à la hausse de 7 200 %, c'est une hausse de signalements, qui mêle phénomène réel et meilleure détection : un indicateur d'alerte, jamais une mesure de prévalence <a class=\"cite\" data-ref=\"weprotect2023\"></a> (voir <a href=\"#numerique-madagascar-h\">Le numérique à Madagascar</a>).",
+   "kind": "trancher",
+   "section": "numerique-madagascar-h"
+  },
+  {
+   "q": "Un père furieux veut publier sur Facebook le nom et la photo de l'élève qui harcèle sa fille, « pour que tout le monde sache ». Que lui dites-vous ?",
+   "o": [
+    "Qu'il peut le faire s'il détient des preuves solides : le droit malgache ne prévoit rien concernant les publications en ligne",
+    "Que ces publications relèvent d'infractions déjà punies à Madagascar et qu'elles peuvent parfaitement se retourner contre lui",
+    "Qu'une plainte pénale pour cyberharcèlement est la toute première démarche à engager, la publication ne venant qu'ensuite",
+    "Qu'il vaut mieux publier sans nommer l'élève, en décrivant simplement les faits, la classe et l'établissement concernés"
+   ],
+   "a": 1,
+   "why": [
+    "Non : la loi malgache punit déjà les menaces par support informatique, l'usurpation d'identité et l'injure envers un particulier.",
+    "Oui : ces mêmes textes peuvent viser celui qui dénonce publiquement, et c'est sa fille qui en paiera le prix à l'école.",
+    "Non : aucune infraction ne porte le nom de « cyberharcèlement » en droit malgache, et la plainte n'est pas la première réponse à proposer.",
+    "Non : décrire les faits et nommer l'établissement rend l'élève identifiable en quelques commentaires, le risque reste entier."
+   ],
+   "x": "Le droit malgache punit déjà les menaces par support informatique, l'usurpation d'identité, l'injure envers un particulier et l'injure discriminatoire, et ces mêmes textes peuvent se retourner contre celui qui dénonce publiquement <a class=\"cite\" data-ref=\"loi2014006\"></a>. Aucune infraction ne s'appelle « cyberharcèlement », et ces articles ont été critiqués pour leur usage contre la liberté d'expression : la plainte pénale ne se présente donc pas comme la première réponse à donner à une famille <a class=\"cite\" data-ref=\"hcc2016cyber,crc2022\"></a>. On oriente d'abord vers l'établissement, la ligne verte 147, le site arozaza.mg et le signalement sur la plateforme <a class=\"cite\" data-ref=\"arozaza147,unicefmgarozaza\"></a> (voir <a href=\"#preuve-signaler-h\">Préserver une preuve, signaler</a>).",
+   "kind": "trancher",
+   "section": "preuve-signaler-h"
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "title": "Ce que vous ferez la prochaine fois qu'un enfant va mal",
+ "intro": "Huit situations que vous rencontrerez vraiment : une phrase de parent, une élève qui change, une réunion, un adolescent qui parle en partant. Répondez avant de lire la correction, puis lisez les quatre commentaires, y compris ceux des options que vous n'avez pas choisies.",
+ "questions": [
+  {
+   "q": "Deux élèves de la même classe ont subi la même scène d'humiliation, filmée puis diffusée. Six mois plus tard, l'une a repris pied, l'autre ne dort plus et évite l'école. Un enseignant conclut : « c'est une question de caractère. » Qu'est-ce qui explique le mieux l'écart ?",
+   "o": [
+    "La gravité objective de la scène, qui a forcément été ressentie de la même façon par les deux.",
+    "Ce que chacune a vécu sur le moment, et surtout ce qui a suivi : soutien reçu, isolement, climat familial.",
+    "La force de caractère de chacune, repérable dès la petite enfance et stable ensuite tout au long de la vie.",
+    "Leur âge et leur milieu social, qui pèsent davantage que tout le reste dans ce type de situation."
+   ],
+   "a": 1,
+   "why": [
+    "Non : la gravité objective de l'événement prédit mal la suite ; ce qui compte est le vécu de peur intense, et il diffère d'un enfant à l'autre pour la même scène.",
+    "Oui : le vécu subjectif et surtout ce qui vient après — soutien perçu, retrait social, fonctionnement familial — sont les éléments les plus fortement associés à la survenue d'un trouble.",
+    "Non : faire de la différence un trait de caractère stable est précisément l'erreur que la recherche ne soutient pas, et cela dispense les adultes d'agir sur ce qui suit.",
+    "Non : les caractéristiques présentes avant l'événement, dont l'âge et le milieu social, ne pèsent que faiblement dans les études qui ont cherché les facteurs de risque."
+   ],
+   "x": "Ce qui prédit le mieux l'apparition d'un trouble de stress post-traumatique chez l'enfant n'est pas la gravité objective de l'événement, mais son vécu subjectif et ce qui se passe ensuite <a class=\"cite\" data-ref=\"trickey2012\"></a>. Les facteurs les plus fortement associés — faible soutien social perçu, retrait, mauvais fonctionnement familial — sont exactement ceux sur lesquels une famille, une école ou une association peuvent agir <a class=\"cite\" data-ref=\"trickey2012,harvardtoxicstress\"></a>. C'est une bonne nouvelle pratique : personne ne peut défaire la scène, tout le monde peut peser sur la suite (<a href=\"#mot-traumatisme-h\">Traumatisme : ce que le mot recouvre</a>).",
+   "kind": "comprendre",
+   "section": "mot-traumatisme-h"
+  },
+  {
+   "q": "Un père vous dit, agacé : « Mon fils s'est laissé insulter pendant des mois sans rien dire. Il aurait dû réagir, au moins une fois. » Que lui répondez-vous ?",
+   "o": [
+    "Que son fils s'est figé : quand la peur est très forte, le corps se bloque tout seul.",
+    "Que se taire aussi longtemps revient à accepter, et qu'il faut lui apprendre à se défendre seul.",
+    "Que c'est un tempérament timide, et que des exercices de confiance en soi suffiront à le corriger.",
+    "Qu'il est resté dans sa fenêtre de tolérance, donc que la situation restait supportable pour lui."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : le figement est la troisième réaction d'alarme du corps, à côté de la fuite et de la lutte ; le dire soulage une culpabilité très tenace.",
+    "Non : le silence n'est pas un consentement, et l'injonction à se défendre seul reporte sur l'enfant une charge qui revient aux adultes.",
+    "Non : cela transforme une réaction automatique du corps en trait de personnalité, et laisse le harcèlement continuer pendant qu'on travaille la confiance en soi.",
+    "Non : la fenêtre de tolérance désigne la zone où l'enfant peut encore penser et se laisser rassurer ; un enfant figé en est justement sorti."
+   ],
+   "x": "Devant un danger, trois issues sont possibles : fuir, lutter ou se figer, et la troisième est la plus mal comprise par l'entourage <a class=\"cite\" data-ref=\"cn2r2022,inserm2020\"></a>. Un enfant qui « s'est laissé faire » n'a ni consenti ni manqué de courage. Une phrase simple suffit souvent : « tu n'as pas été lâche, quand la peur est très forte le corps se bloque tout seul » (<a href=\"#corps-alarme-h\">Fuir, lutter, se figer</a>).",
+   "kind": "comprendre",
+   "section": "corps-alarme-h"
+  },
+  {
+   "q": "Une élève de 12 ans, jusque-là bavarde, fait un détour pour éviter certaines toilettes, se dit « nulle », a perdu ses amies et voit ses notes chuter. Sa mère dit : « c'est l'adolescence. » Qu'est-ce qui doit vous alerter ?",
+   "o": [
+    "Rien pour l'instant : sans larmes ni plainte précise, il n'y a pas d'élément objectif à signaler.",
+    "Uniquement la chute des notes, seul signe mesurable et vérifiable auprès de tous ses enseignants.",
+    "Le changement net par rapport à son fonctionnement habituel, sur plusieurs plans en même temps.",
+    "Son âge : vers 12 ans, l'évitement et la dévalorisation appartiennent au développement normal."
+   ],
+   "a": 2,
+   "why": [
+    "Non : à cet âge l'enfant a compris qu'il pouvait perdre la face en parlant, et choisit souvent le silence ; attendre une plainte claire revient à attendre longtemps.",
+    "Non : un signe isolé se prête à mille explications ; c'est l'accumulation, ici l'évitement, la honte, la perte du groupe et les notes, qui fait tableau.",
+    "Oui : à 12 ans, c'est la rupture par rapport au fonctionnement habituel qui alerte, plus que tel ou tel symptôme pris séparément.",
+    "Non : évitement de lieux précis, dévalorisation et perte du groupe d'amis ne sont pas des étapes normales du développement, et les banaliser fait perdre des mois."
+   ],
+   "x": "Vers 12 ans, le repli mêlé de honte domine : l'enfant évite un trajet, une cour, des toilettes, se dit « nul », perd ses amis, dort mal et voit ses résultats baisser <a class=\"cite\" data-ref=\"cn2r2022,inserm2020\"></a>. Ces signes ne ressemblent pas à l'image que l'on se fait d'un traumatisme, ce qui les rend faciles à attribuer à l'adolescence. La règle utile est de comparer l'enfant à lui-même, pas aux autres (<a href=\"#selon-age-h\">Comment cela se voit à 7, 12, 16 ans</a>).",
+   "kind": "appliquer",
+   "section": "selon-age-h"
+  },
+  {
+   "q": "Un garçon de 13 ans vous confie, à la fin d'une activité, qu'il est harcelé depuis la rentrée. Vous avez encore dix minutes avec lui. Que faites-vous de ce temps ?",
+   "o": [
+    "Vous demandez si d'autres choses le font souffrir ailleurs : à la maison, dans le quartier, sur son téléphone.",
+    "Vous lui faites raconter chaque épisode en détail, du premier au dernier, pour constituer un dossier complet.",
+    "Vous allez chercher les élèves concernés pour qu'ils s'expliquent avec lui avant la fin de la journée.",
+    "Vous lui promettez que cela restera entre vous deux, pour qu'il se sente en confiance et continue de parler."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : les enfants qui vont le plus mal cumulent souvent plusieurs formes de violence, et ne poser la question que du harcèlement scolaire fait manquer les plus vulnérables.",
+    "Non : exiger un récit détaillé n'est pas un soin et peut faire du mal ; le récit vient à son rythme, et il est inutile de le faire répéter à plusieurs adultes.",
+    "Non : confronter la victime à ceux qui la harcèlent pour « qu'ils s'expliquent » expose l'enfant à des représailles ; la priorité est d'arrêter l'exposition, pas de négocier.",
+    "Non : promettre le secret absolu est une promesse qu'on ne pourra pas tenir dès qu'il faudra protéger ; on dit plutôt ce qui va se passer et qui sera prévenu."
+   ],
+   "x": "Les enfants les plus en souffrance ne sont pas seulement ceux qui subissent une violence répétée, mais ceux qui en cumulent plusieurs, à la maison, à l'école, dans le quartier et en ligne <a class=\"cite\" data-ref=\"finkelhor2007,arseneault2018\"></a>. D'où la règle : quand un enfant parle de harcèlement, posez aussi la question des autres violences. À l'inverse, faire raconter les détails ne fait pas partie de l'aide utile des premiers jours <a class=\"cite\" data-ref=\"oms2011psp\"></a> (<a href=\"#repetition-h\">Un événement unique, des adversités qui se répètent</a>).",
+   "kind": "appliquer",
+   "section": "repetition-h"
+  },
+  {
+   "q": "Un directeur veut faire remplir par chaque enseignant une fiche comptant les adversités vécues par chaque élève, pour « repérer d'avance ceux qui vont mal tourner ». Que lui dites-vous ?",
+   "o": [
+    "Que la démarche tient, à condition de prévenir chaque famille de ce que son enfant risque de devenir.",
+    "Que ce décompte décrit des risques de groupe, ne prédit pas un enfant donné et ne sert pas de test de dépistage.",
+    "Que le lien entre adversités de l'enfance et santé à l'âge adulte n'est pas assez établi pour qu'on s'y intéresse.",
+    "Que le repérage devient fiable à partir de quatre adversités, seuil au-delà duquel le devenir de l'enfant est joué."
+   ],
+   "a": 1,
+   "why": [
+    "Non : annoncer à une famille ce que son enfant deviendra transforme une probabilité de groupe en verdict individuel, et enferme l'enfant dans ce pronostic.",
+    "Oui : ces travaux éclairent pourquoi certains enfants ont besoin de plus de protection, ils ne notent pas les enfants un par un.",
+    "Non : la relation entre le nombre d'adversités vécues et les problèmes de santé à l'âge adulte est au contraire l'un des résultats les plus constants du domaine.",
+    "Non : le seuil de quatre expériences sert à décrire un risque accru dans une population, il ne rend aucun destin individuel joué d'avance."
+   ],
+   "x": "La relation dose-effet entre le nombre d'expériences négatives de l'enfance et les problèmes de santé à l'âge adulte est solidement établie, dès 1998 sur plus de 9 000 adultes puis confirmée par méta-analyse <a class=\"cite\" data-ref=\"felitti1998,hughes2017\"></a>. Mais il s'agit de probabilités de groupe : la majorité des personnes concernées ne développent pas les troubles cités, et ce décompte n'est pas un outil de dépistage individuel <a class=\"cite\" data-ref=\"hughes2017,masten2018\"></a>. Ce qu'il permet, c'est de comprendre pourquoi certains enfants ont besoin de plus de protection (<a href=\"#experiences-negatives-h\">Les expériences négatives de l'enfance</a>).",
+   "kind": "appliquer",
+   "section": "experiences-negatives-h"
+  },
+  {
+   "q": "Un adolescent de 16 ans que vous suivez en atelier vous dit en partant : « parfois j'ai envie que tout s'arrête ». Il est 17 h, il rentre seul, sa famille habite loin. Que faites-vous ?",
+   "o": [
+    "Vous lui donnez le numéro de la ligne verte 147 et vous convenez de le rappeler dans la semaine.",
+    "Vous lui promettez de n'en parler à personne, pour qu'il ose vous en redire davantage la prochaine fois.",
+    "Vous notez la date et vous observez un mois : la plupart des adolescents récupèrent sans intervention.",
+    "Vous ne le laissez pas seul, vous écartez les moyens de se blesser et vous l'accompagnez vers un service d'urgence."
+   ],
+   "a": 3,
+   "why": [
+    "Non : le 147 est une ligne de signalement des violences et d'orientation, pas une ligne de crise ; ce renvoi laisserait l'adolescent seul ce soir.",
+    "Non : le secret absolu est une promesse qu'on ne peut pas tenir quand il faut protéger, et il vous interdit d'appeler l'aide dont il a besoin maintenant.",
+    "Non : le délai d'un mois vaut pour des symptômes qui persistent, jamais pour des idées suicidaires, qui ne relèvent pas de l'attente ni de la simple observation.",
+    "Oui : ne pas laisser seul, retirer les moyens de se blesser, parler sans juger et accompagner sans attendre : c'est la conduite, dans cet ordre."
+   ],
+   "x": "Les idées suicidaires figurent parmi les signes qui imposent d'orienter sans attendre, au même titre que les automutilations, la déscolarisation ou une souffrance qui empêche l'enfant de fonctionner <a class=\"cite\" data-ref=\"nice2018,mhgap2023,cn2r2022\"></a>. Un adolescent qui se met en danger cherche parfois moins à mourir qu'à faire cesser une douleur : cela s'entend et se prend au sérieux. L'absence de psychiatre ne ferme pas la porte : un médecin de centre de santé de base formé peut évaluer et suivre <a class=\"cite\" data-ref=\"mhgap2023\"></a> (<a href=\"#orienter-h\">Ce qu'un adulte peut faire, et quand orienter</a>).",
+   "kind": "trancher",
+   "section": "orienter-h"
+  },
+  {
+   "q": "En réunion d'équipe, une bénévole dit d'un élève harcelé depuis un an : « lui, il est costaud, il s'en sortira tout seul, ça va le forger. » Que répondez-vous ?",
+   "o": [
+    "Qu'elle a raison s'il a déjà surmonté des épreuves : une fois acquise, la résilience protège durablement.",
+    "Qu'on le saura en attendant encore quelques mois, puisque la majorité des enfants finissent par récupérer seuls.",
+    "Que la résilience dépend surtout de l'entourage : ce qu'il faut d'abord, c'est arrêter le harcèlement.",
+    "Que la résilience se juge après coup, à l'absence de séquelles visibles chez l'enfant devenu adulte."
+   ],
+   "a": 2,
+   "why": [
+    "Non : un même enfant peut tenir une année et s'effondrer la suivante sans avoir changé de caractère ; c'est son environnement qui a changé.",
+    "Non : ce résultat concerne des enfants dont l'exposition a cessé ; ici la menace revient chaque matin, et attendre ne fait que prolonger l'exposition.",
+    "Oui : la résilience est une propriété de l'environnement autant que de l'enfant et elle varie dans le temps ; la première ressource à lui rendre disponible est l'arrêt de ce qu'il subit.",
+    "Non : exiger l'absence de séquelles fait de la résilience une performance à réussir, et renvoie l'enfant qui va mal à sa propre insuffisance."
+   ],
+   "x": "La résilience n'est pas un trait de caractère mais la capacité d'un système — enfant, famille, école, communauté — à s'adapter, et elle varie dans le temps <a class=\"cite\" data-ref=\"masten2018,ungar2011\"></a>. L'idée que le harcèlement endurcirait est démentie par les cohortes : dans une cohorte britannique suivie sur cinq décennies, les personnes harcelées à 7 et 11 ans présentaient encore, vers 45-50 ans, davantage de dépression et d'anxiété <a class=\"cite\" data-ref=\"takizawa2014\"></a>, et une cohorte américaine retrouve un risque anxieux augmenté à l'âge adulte <a class=\"cite\" data-ref=\"copeland2013\"></a>. Un enfant harcelé n'a pas besoin d'endurance supplémentaire : il a besoin que cela s'arrête (<a href=\"#resilience-h\">La résilience : ni un don, ni une obligation</a>).",
+   "kind": "trancher",
+   "section": "resilience-h"
+  },
+  {
+   "q": "Lors d'une réunion de parents, un intervenant annonce : « à Madagascar, 38,8 % des élèves sont harcelés. » Vous prenez la parole juste après. Que dites-vous ?",
+   "o": [
+    "Que c'est exact : ce taux vient de l'enquête scolaire malgache menée auprès de 2 440 élèves de 38 établissements.",
+    "Que ce taux compte les élèves témoins de scènes de harcèlement dans leur école, et non ceux qui l'ont subi.",
+    "Que la source importe peu ici : ce qui compte est de frapper les esprits pour que les familles réagissent enfin.",
+    "Que c'est une moyenne de onze pays africains sur un mois ; le chiffre malgache disponible est de 27,2 % sur l'année."
+   ],
+   "a": 3,
+   "why": [
+    "Non : l'enquête malgache existe bien, mais elle donne 27,2 % sur l'année, pas 38,8 % ; attribuer à Madagascar un chiffre étranger décrédibilise tout le reste de votre propos.",
+    "Non : les 38,8 % désignent bien des adolescents déclarant avoir été harcelés eux-mêmes ; l'erreur porte sur les pays et sur la période, pas sur qui est compté.",
+    "Non : un chiffre gonflé se retourne contre vous dès qu'un participant vérifie, et fait douter des messages de prévention qui suivent.",
+    "Oui : les deux chiffres sont vrais mais ne portent ni sur les mêmes pays ni sur la même période de rappel, un mois contre un an."
+   ],
+   "x": "Les 38,8 % sont une moyenne de onze pays d'Afrique subsaharienne, portant sur le mois précédent et allant de 22,2 % à Maurice à 54,6 % en Sierra Leone ; Madagascar ne figurait pas dans cette analyse <a class=\"cite\" data-ref=\"aboagye2021a\"></a>. Le chiffre malgache disponible vient de l'enquête scolaire menée auprès de 2 440 élèves de 38 établissements : 27,2 % des 13-17 ans déclarent avoir été harcelés à l'école dans l'année <a class=\"cite\" data-ref=\"who2025\"></a>. Deux périodes de rappel différentes ne se comparent pas directement, et le dire en public renforce votre crédibilité au lieu de l'affaiblir (<a href=\"#repetition-h\">Un événement unique, des adversités qui se répètent</a>).",
+   "kind": "trancher",
+   "section": "repetition-h"
+  }
+ ]
+}

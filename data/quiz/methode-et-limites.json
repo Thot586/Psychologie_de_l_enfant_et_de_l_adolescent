@@ -1,0 +1,158 @@
+{
+ "title": "Ce que vos sources vous autorisent à dire",
+ "intro": "Huit situations concrètes : une réunion de parents, un directeur sceptique, un partenaire pressé, un jeune qui reste après la séance. Répondez avant de lire la correction : se souvenir activement ancre mieux que relire.",
+ "questions": [
+  {
+   "q": "Pendant une réunion de votre association, un bénévole tombe sur une phrase du site portant la pastille « Lacune » : aucun programme de prévention du harcèlement n'a été évalué à Madagascar. Que cette pastille vous autorise-t-elle à dire en public ?",
+   "o": [
+    "Qu'aucun programme n'a été évalué ici, et que nous mesurerons donc ce que nous faisons.",
+    "Que les programmes de prévention ne fonctionnent pas dans le contexte malgache.",
+    "Que le sujet est trop incertain pour être abordé devant des parents d'élèves.",
+    "Qu'en attendant, les résultats européens peuvent être présentés comme valables ici."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : une lacune s'annonce comme une lacune, et elle ouvre naturellement sur l'engagement de mesurer votre propre action.",
+    "Non : c'est confondre l'absence de preuve avec la preuve d'une absence d'effet ; rien n'a été testé ici, donc rien n'a échoué ici.",
+    "Non : se taire n'est pas une lecture de la pastille ; l'incertitude se dit à voix haute, elle ne justifie pas de retirer le sujet.",
+    "Non : c'est exactement la transposition que la page interdit, un résultat étranger présenté comme s'il était malgache."
+   ],
+   "x": "L'échelle à six niveaux est un outil de lecture propre à ce site, inspiré de la démarche GRADE qui sépare la qualité de la preuve de la force de la recommandation <a class=\"cite\" data-ref=\"grade2008\"></a>. L'efficacité moyenne des programmes complets est solidement établie, mais elle a été mesurée presque exclusivement en Europe et en Amérique du Nord <a class=\"cite\" data-ref=\"gaffney2021a\"></a>. Dire « nous ne savons pas ici » est donc exact, et non défaitiste. Voir <a href=\"#preuves-h\">Les six niveaux de preuve</a>.",
+   "kind": "comprendre",
+   "section": "preuves-h"
+  },
+  {
+   "q": "Un directeur vous objecte : « Vos élèves qui se disent harcelés étaient déjà fragiles avant ; c'est leur caractère, pas mon école. » Quelle réponse est à la fois honnête et solide ?",
+   "o": [
+    "« C'est faux : la recherche a démontré que le harcèlement provoque la dépression. »",
+    "« Vous nommez la causalité inverse, un piège réel ; les études de jumeaux aident à le desserrer. »",
+    "« Peu importe la cause : nous devons agir, et cette question scientifique ne nous regarde pas. »",
+    "« Vous avez raison : on ne peut donc rien conclure du lien entre harcèlement et dépression. »"
+   ],
+   "a": 1,
+   "why": [
+    "Non : le site écrit partout « augmente le risque de » et jamais « provoque » ; annoncer une démonstration vous expose au premier contradicteur informé.",
+    "Oui : vous reconnaissez le piège que votre interlocuteur vient de nommer, puis vous citez le dispositif d'étude qui permet de l'atténuer.",
+    "Non : esquiver la question fait perdre la crédibilité que la reconnaissance ouverte d'une limite vous aurait justement donnée.",
+    "Non : concéder tout revient à ignorer les travaux qui font de ce lien l'un des mieux étayés du domaine."
+   ],
+   "x": "Chez de vrais jumeaux élevés ensemble dont un seul a été harcelé, la famille, le milieu et le patrimoine génétique sont identiques, ce qui rend l'écart plus crédiblement attribuable au harcèlement, même si les effets s'atténuent avec les années <a class=\"cite\" data-ref=\"singham2017\"></a>. La synthèse qui a passé 165 études au crible de critères de causalité conclut que le lien avec la dépression, l'anxiété et les conduites suicidaires est le mieux étayé, sans être démontré comme on démontre en laboratoire <a class=\"cite\" data-ref=\"moore2017\"></a>. D'où la formulation employée partout ici (<a href=\"#causalite-h\">Corrélation n'est pas causalité</a>).",
+   "kind": "comprendre",
+   "section": "causalite-h"
+  },
+  {
+   "q": "Vous préparez une diapositive pour une réunion de parents. Une seule de ces formulations peut être affichée telle quelle. Laquelle ?",
+   "o": [
+    "« Un élève sur deux est harcelé à Madagascar », comme on l'entend souvent dire.",
+    "« 58 % des jeunes de 10 à 21 ans harcelés », d'après une enquête associative.",
+    "« 27,2 % des élèves de 13 à 17 ans harcelés à l'école dans l'année » (enquête nationale, 2025).",
+    "« 38,8 % des adolescents d'Afrique subsaharienne harcelés », donc autant chez nous."
+   ],
+   "a": 2,
+   "why": [
+    "Non : c'est l'arrondi qui gonfle de présentation en présentation, du quart au tiers puis à la moitié, sans aucune source derrière.",
+    "Non : ce chiffre circule sans rapport primaire, sans taille d'échantillon ni méthode publiée, et sa tranche d'âge diffère de l'enquête nationale.",
+    "Oui : la période, la population et la source figurent ensemble, ce qui rend le pourcentage interprétable par qui vous écoute.",
+    "Non : présenter une moyenne régionale africaine comme un chiffre malgache est l'une des fautes de méthode les plus fréquentes."
+   ],
+   "x": "L'enquête scolaire nationale de 2025, menée selon le protocole standardisé de l'OMS auprès de 2 440 élèves de 38 établissements, trouve 27,2 % d'élèves harcelés à l'école dans l'année <a class=\"cite\" data-ref=\"who2025\"></a>. Le chiffre de 58 % relayé par la presse ne dispose d'aucun rapport primaire ni méthode retrouvable <a class=\"cite\" data-ref=\"lexpress2025\"></a>, et l'analyse multipays qui donne 38,8 % ne comprend pas Madagascar <a class=\"cite\" data-ref=\"aboagye2021a\"></a>. Sans période ni population, un pourcentage ne veut rien dire (<a href=\"#chiffres-h\">Les chiffres qui circulent</a>).",
+   "kind": "appliquer",
+   "section": "chiffres-h"
+  },
+  {
+   "q": "Une directrice vous accueille en disant : « Chez nous, aucun cas de harcèlement signalé depuis trois ans. » Quelle lecture faites-vous de ce registre vide, et qu'annoncez-vous pour la suite ?",
+   "o": [
+    "L'établissement est probablement épargné : mieux vaut porter l'action vers d'autres écoles.",
+    "Le climat y est meilleur qu'ailleurs : il suffit de maintenir la discipline actuelle.",
+    "Le chiffre national de 27,2 % est sans doute surestimé pour ce type d'établissement.",
+    "Les enfants ne savent pas à qui parler : une action réussie fera monter les signalements."
+   ],
+   "a": 3,
+   "why": [
+    "Non : conclure que l'école est épargnée est exactement la conclusion contre laquelle la page met en garde, car un registre mesure la détection et non les faits.",
+    "Non : la discipline ne fait pas parler les enfants ; un établissement calme en apparence peut abriter un silence bien organisé.",
+    "Non : opposer un registre local à une enquête nationale représentative revient à opposer une non-mesure à une mesure.",
+    "Oui : la sous-détection est l'hypothèse la plus probable, et annoncer la hausse des signalements évite qu'on la prenne pour une aggravation."
+   ],
+   "x": "L'enquête nationale conduit à attendre environ un élève sur quatre concerné dans l'année <a class=\"cite\" data-ref=\"who2025\"></a> : un registre vide indique donc surtout que les enfants n'ont pas encore d'interlocuteur, ou n'osent pas. Le premier effet d'une action bien menée est une hausse des signalements, pas une baisse. Annoncer ce point avant de commencer protège votre travail des mauvaises interprétations (<a href=\"#madagascar-h\">Ce que l'on sait, ce que l'on ignore</a>).",
+   "kind": "appliquer",
+   "section": "madagascar-h"
+  },
+  {
+   "q": "Avant un temps d'échange avec des élèves d'une école publique, une bénévole propose de poser la question en malgache avec l'expression herisetra an-tsekoly, celle qu'emploient la presse et les campagnes. Que faites-vous ?",
+   "o": [
+    "On garde l'expression telle quelle : c'est le terme que les campagnes nationales utilisent déjà.",
+    "On garde le mot français « harcèlement », que les élèves finiront de toute façon par comprendre.",
+    "On énonce à voix haute les trois critères dans la langue de l'enfant avant de poser la question.",
+    "On ajoute simplement le mot « souvent » à l'expression pour y mettre l'idée de répétition."
+   ],
+   "a": 2,
+   "why": [
+    "Non : cette expression signifie « violence à l'école » et ne porte ni la répétition ni le déséquilibre de pouvoir, donc elle englobe aussi des bagarres isolées.",
+    "Non : le mot n'a pas d'équivalent exact dans la plupart des langues ; le laisser en français déplace la difficulté au lieu de la lever.",
+    "Oui : décrire les trois critères, ou montrer des situations, remplace un mot que la langue ne porte pas.",
+    "Non : un adverbe ajouté ne restitue pas le déséquilibre de pouvoir, qui est justement le critère le plus souvent perdu en traduction."
+   ],
+   "x": "Dans une comparaison portant sur quatorze pays, le terme anglais qui désigne le harcèlement n'a pas d'équivalent exact dans la plupart des langues, les mots voisins recouvrant tantôt la bagarre, tantôt la moquerie, tantôt l'exclusion <a class=\"cite\" data-ref=\"smith2002\"></a> ; une équipe a mis au point une tâche par dessins qui montre les situations au lieu de les nommer <a class=\"cite\" data-ref=\"smith2016\"></a>. L'expression malgache employée par la presse signifie « violence à l'école » <a class=\"cite\" data-ref=\"newsmada2024\"></a>. Une synthèse de trente études qualitatives menées en Afrique subsaharienne montre d'ailleurs que les enfants n'emploient presque jamais le mot « violence » et décrivent les actes par ce qu'ils ressentent <a class=\"cite\" data-ref=\"turner2024\"></a> (<a href=\"#voyage-h\">Ce qui ne voyage pas</a>).",
+   "kind": "appliquer",
+   "section": "voyage-h"
+  },
+  {
+   "q": "Vous voulez demander à un directeur de renoncer aux coups de règle en classe. Sur quel appui juridique vous fondez-vous sans risquer d'être démenti sur place ?",
+   "o": [
+    "Sur les textes ministériels cités par l'organisation spécialisée, à consulter avant de les lui opposer.",
+    "Sur la loi de 2019 contre les violences fondées sur le genre, qui viserait les punitions scolaires.",
+    "Sur la Convention relative aux droits de l'enfant, qui interdirait explicitement la fessée à Madagascar.",
+    "Sur le fait que tout châtiment corporel est désormais interdit partout, y compris au domicile."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : l'interdiction scolaire repose sur un arrêté et une note ministériels dont le caractère explicite n'a pas pu être confirmé, ce qui impose de les lire avant de les brandir.",
+    "Non : ce texte porte sur les violences fondées sur le genre et ne constitue pas la base de l'interdiction du châtiment corporel à l'école.",
+    "Non : la ratification engage l'État, mais elle ne crée pas à elle seule une interdiction explicite de la punition corporelle en droit interne.",
+    "Non : le châtiment corporel reste licite au domicile et dans les structures d'accueil, ce que deux comités des Nations unies ont précisément regretté."
+   ],
+   "x": "L'organisation internationale qui suit cette question cite un arrêté ministériel de 1996 et une note ministérielle de 2017, tout en précisant qu'elle n'a pas pu confirmer le caractère explicite de l'interdiction <a class=\"cite\" data-ref=\"globalinitiative2022,endcorporalpunishment2019mg\"></a>. Deux comités des Nations unies ont par ailleurs regretté que la prohibition ne couvre ni le domicile ni les structures d'accueil <a class=\"cite\" data-ref=\"unhrc2017,crc2022\"></a>. Le message pratique ne change pas — interdit à l'école, encore licite à la maison — mais la référence exacte se vérifie avant d'être opposée à une direction (<a href=\"#verifie-h\">Vérifié, à vérifier, à corriger</a>).",
+   "kind": "appliquer",
+   "section": "verifie-h"
+  },
+  {
+   "q": "Une association partenaire vous propose un dispositif : former des élèves médiateurs chargés de régler les cas entre eux, puis organiser une rencontre entre l'élève ciblé et celui qui le vise. Que répondez-vous ?",
+   "o": [
+    "Ajoutons plutôt une séance choc sur les conséquences dramatiques : la peur marque durablement les esprits.",
+    "Deux réserves : la médiation entre élèves et la confrontation directe sont des signaux d'alerte connus.",
+    "Excellente idée : entre eux, les élèves règlent ces affaires bien mieux qu'avec des adultes.",
+    "Refusons toute action tant qu'aucun programme de ce type n'a été évalué dans le pays."
+   ],
+   "a": 1,
+   "why": [
+    "Non : dans un champ voisin, les interventions de sensibilisation par la peur ont aggravé les conduites qu'elles visaient ; c'est un signal d'alerte, pas une amélioration.",
+    "Oui : vous nommez les deux signaux de prudence connus sans rejeter le partenariat, ce qui laisse la place à une version adaptée puis mesurée.",
+    "Non : c'est le raccourci le plus répandu, alors que le déséquilibre de pouvoir rend toute négociation entre pairs inéquitable par construction.",
+    "Non : l'absence d'évaluation locale oblige à mesurer ce que l'on fait, elle n'interdit pas d'agir en attendant."
+   ],
+   "x": "Une synthèse ancienne a associé le travail par les pairs et la médiation entre élèves à une augmentation de la victimation ; ce résultat vient d'analyses corrélationnelles et invite à la prudence plutôt qu'à une condamnation définitive <a class=\"cite\" data-ref=\"ttofi2011\"></a>. Le rapport de référence des académies américaines déconseille la tolérance zéro et la confrontation directe entre victime et auteur <a class=\"cite\" data-ref=\"nasem2016\"></a>, et les interventions par la peur, dans un champ voisin, ont aggravé les conduites visées <a class=\"cite\" data-ref=\"petrosino2013\"></a>. La voie praticable reste d'adapter méthodiquement, puis de mesurer <a class=\"cite\" data-ref=\"mooreg2021\"></a>.",
+   "kind": "trancher",
+   "section": "voyage-h"
+  },
+  {
+   "q": "À la fin d'une réunion publique, un adolescent reste dans la salle et vous confie qu'il pense parfois à mourir. Quelle conduite tenez-vous dans l'heure qui suit ?",
+   "o": [
+    "L'orienter vers la Ligne Verte 147, présentée comme la ligne nationale de crise suicidaire.",
+    "Attendre le lendemain pour prévenir sa famille, afin de ne pas dramatiser sur le moment.",
+    "Lui promettre le secret pour qu'il continue de se confier, et en reparler à la prochaine séance.",
+    "Ne pas le laisser seul, éloigner les moyens, prévenir sa famille et l'accompagner sans délai vers un service d'urgence."
+   ],
+   "a": 3,
+   "why": [
+    "Non : le 147 est une ligne de signalement des violences et d'orientation, utile pour cela, mais ce n'est pas une ligne de crise suicidaire.",
+    "Non : différer d'une nuit laisse le jeune seul pendant les heures où il est le plus exposé, pour un gain de discrétion illusoire.",
+    "Non : promettre le secret vous interdit de faire ce qui protège, et c'est une promesse que vous ne pourrez pas tenir.",
+    "Oui : cette conduite ne dépend d'aucun chiffre ni d'aucune estimation du risque, elle s'applique dès que le sujet est évoqué."
+   ],
+   "x": "La page rappelle que la conduite à tenir ne dépend d'aucune statistique : rester présent, éloigner les moyens de se faire du mal, prévenir la famille ou un adulte responsable, accompagner sans délai vers un service d'urgence ou de psychiatrie. La Ligne Verte 147 est une ligne de signalement des violences et d'orientation <a class=\"cite\" data-ref=\"arozaza147\"></a>. Ce site suit par ailleurs les recommandations internationales sur la manière de parler du suicide en public : jamais de méthode ni de récit détaillé, et toujours une issue et une ressource <a class=\"cite\" data-ref=\"oms2023suicidemedias\"></a> (<a href=\"#construction-h\">Comment ce site a été construit</a>).",
+   "kind": "trancher",
+   "section": "construction-h"
+  }
+ ]
+}

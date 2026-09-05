@@ -1,0 +1,158 @@
+{
+ "title": "Savoir vers qui aller, dans quel ordre, et quoi faire si personne ne répond",
+ "intro": "Huit situations concrètes. Répondez avant de lire la correction : chercher la réponse soi-même ancre mieux que relire la page. Une seule bonne réponse par question.",
+ "questions": [
+  {
+   "q": "Vous préparez une affiche pour le local de votre association. Quelle phrase sur la Ligne Verte 147 est exacte et ne trompera pas les familles ?",
+   "o": [
+    "Gratuite jour et nuit, elle prend l'enfant en charge au quotidien jusqu'à la fin de la procédure.",
+    "Gratuite jour et nuit, elle remplace l'appel aux urgences de l'hôpital quand un enfant est blessé.",
+    "Réservée aux enfants eux-mêmes, elle ne prend pas les appels des adultes témoins d'une violence.",
+    "Gratuite et joignable 24 h sur 24, elle reçoit le signalement d'une violence et oriente vers le service compétent."
+   ],
+   "a": 3,
+   "why": [
+    "Non : la ligne reçoit et oriente, elle ne suit pas l'enfant au quotidien ; ce suivi reste le vôtre et celui de l'école.",
+    "Non : ce n'est pas un service médical ; un enfant blessé va aux urgences, l'appel ne remplace pas les soins.",
+    "Non : la ligne accueille l'appel d'un adulte témoin autant que celui d'un enfant, et c'est souvent l'adulte qui appelle.",
+    "Oui : gratuité, disponibilité permanente, réception du signalement et orientation, c'est exactement son périmètre."
+   ],
+   "x": "La Ligne Verte 147 est gratuite et joignable 24 heures sur 24 et 7 jours sur 7 depuis les trois opérateurs du pays, pour signaler qu'un enfant subit une violence <a class=\"cite\" data-ref=\"moov2026ligne147,arozaza147\"></a>. Elle reçoit le signalement, conseille et oriente : elle ne soigne pas, elle ne remplace pas la police et elle ne suit pas l'enfant. L'erreur tentante est d'annoncer plus que ce que la ligne peut tenir, ce qui décourage durablement une famille. Voir <a href=\"#dispositifs-h\">Les dispositifs malgaches</a>.",
+   "kind": "comprendre",
+   "section": "dispositifs-h"
+  },
+  {
+   "q": "Quatre situations vous sont rapportées la même semaine dans le quartier. Laquelle fait partie de celles où l'on protège d'abord et où l'on cherche le service ensuite ?",
+   "o": [
+    "Un élève de 12 ans dit qu'il ne veut plus se réveiller le matin et qu'on serait mieux sans lui.",
+    "Deux élèves de même force se sont insultés une fois à la sortie et ne se parlent plus depuis.",
+    "Un élève est moqué sur son accent depuis trois semaines par le même petit groupe de camarades.",
+    "Une photo qui se moque d'un élève circule depuis hier soir dans le groupe de discussion de la classe."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : ce sont des propos suicidaires, l'une des trois situations où l'on n'attend pas et où l'on ne laisse pas l'enfant seul.",
+    "Non : une dispute unique entre deux enfants de force comparable est un conflit, il se travaille par la médiation éducative.",
+    "Non : c'est bien du harcèlement et il faut agir, mais il se traite dans la durée avec l'école, pas dans l'heure.",
+    "Non : la situation est sérieuse et se signale, mais elle n'entre pas dans les trois urgences qui font suspendre tout le reste."
+   ],
+   "x": "Trois situations font exception au travail dans la durée : un danger physique immédiat, une violence sexuelle, des idées suicidaires. Devant des propos suicidaires, la conduite recommandée aux intervenants non spécialistes est de ne pas laisser la personne seule, de mettre les moyens hors de portée et d'accompagner vers un soignant <a class=\"cite\" data-ref=\"mhgap2023\"></a>. Les autres options décrivent des faits réels à traiter, mais qui n'imposent pas de tout interrompre. Voir <a href=\"#urgences-h\">Trois situations où l'on n'attend pas</a>.",
+   "kind": "comprendre",
+   "section": "urgences-h"
+  },
+  {
+   "q": "Un adolescent que vous encadrez le samedi vous dit qu'il pense à mourir. Il est 18 h, sa mère rentre du travail à 21 h. Que faites-vous ?",
+   "o": [
+    "Vous appelez le 147, ligne nationale de crise suicidaire, qui prendra le relais jusqu'au retour de sa mère.",
+    "Vous lui faites promettre de ne rien faire cette nuit et vous repassez le voir demain matin.",
+    "Vous restez avec lui, vous éloignez médicaments et produits dangereux, et vous l'accompagnez vers un service d'urgence.",
+    "Vous évitez de prononcer le mot suicide pour ne pas lui donner l'idée et vous parlez d'autre chose."
+   ],
+   "a": 2,
+   "why": [
+    "Non : le 147 signale les violences et oriente, ce n'est pas une ligne de crise suicidaire et il ne prend le relais auprès de personne.",
+    "Non : une promesse arrachée ne protège personne et remplace la présence d'un adulte par un engagement que l'enfant ne peut pas tenir.",
+    "Oui : présence continue, mise à distance des moyens, accompagnement jusqu'au service, dans cet ordre et sans le laisser seul.",
+    "Non : poser la question directement n'induit pas l'idée, elle ouvre la porte ; éviter le mot laisse l'adolescent avec son silence."
+   ],
+   "x": "Il n'existe pas à Madagascar de ligne d'écoute nationale consacrée à la crise suicidaire, et le profil pays de l'Atlas de la santé mentale relève l'absence de plan national de prévention du suicide <a class=\"cite\" data-ref=\"oms2022atlasmdg\"></a>. Le recours passe donc par des personnes réelles : un adulte qui reste, puis un service de soins. La mise à distance des moyens fait partie des mesures recommandées aux intervenants non spécialistes <a class=\"cite\" data-ref=\"mhgap2023\"></a>. Voir <a href=\"#crise-h\">Quand un enfant parle de mourir</a>.",
+   "kind": "appliquer",
+   "section": "crise-h"
+  },
+  {
+   "q": "Une fille de 9 ans confie à une bénévole qu'un voisin l'a touchée hier soir. Elle porte encore les mêmes vêtements. Quelle conduite protège le mieux ?",
+   "o": [
+    "Lui faire raconter les faits en détail devant deux adultes, puis la laver et la changer avant de sortir.",
+    "Ne pas faire répéter le récit, ne pas laver les vêtements, et l'accompagner avec un parent au Centre Vonjy.",
+    "Convoquer le voisin devant le chef de fokontany pour entendre sa version avant d'engager quoi que ce soit.",
+    "Attendre d'avoir des preuves matérielles solides avant toute démarche, pour ne pas accuser un adulte à tort."
+   ],
+   "a": 1,
+   "why": [
+    "Non : faire répéter le récit et laver les vêtements ajoutent à la souffrance de l'enfant et effacent des éléments matériels.",
+    "Oui : un seul lieu, un seul récit, et la présence d'un adulte de confiance pendant tout le parcours de prise en charge.",
+    "Non : confronter l'enfant à la personne qu'il accuse, même indirectement, l'expose et ne relève pas des adultes de proximité.",
+    "Non : attendre des preuves laisse l'enfant sans soins ni protection, alors que c'est l'examen médical qui les recueille."
+   ],
+   "x": "Un Centre Vonjy est un guichet unique : soins médicaux, accompagnement psychosocial et démarche judiciaire réunis au même endroit et gratuitement pour un enfant victime de violences sexuelles, ce qui évite à la famille de multiplier les déplacements et à l'enfant de répéter son récit <a class=\"cite\" data-ref=\"onu2020vonjy,tribune2020vonjy\"></a>. Six centres étaient opérationnels fin 2020 et le nombre a pu changer : vérifiez le plus proche avant d'orienter une famille <a class=\"cite\" data-ref=\"onu2020vonjy\"></a>. Voir <a href=\"#urgences-h\">Trois situations où l'on n'attend pas</a>.",
+   "kind": "appliquer",
+   "section": "urgences-h"
+  },
+  {
+   "q": "Une mère vous dit que son fils a été frappé avec une règle par son enseignant. Sur quoi peut-elle s'appuyer, et que faut-il lui dire honnêtement ?",
+   "o": [
+    "Sur une infraction de harcèlement scolaire prévue par le code pénal malgache, qui rend la plainte automatique.",
+    "Sur rien de précis : la punition physique est licite partout à Madagascar, y compris dans la salle de classe.",
+    "Sur une interdiction générale des punitions physiques, à l'école comme au domicile, posée par la loi de 2007 mais peu appliquée.",
+    "Sur l'interdiction des punitions physiques à l'école, fondée sur un arrêté de 1996 rappelé en 2017, application très inégale."
+   ],
+   "a": 3,
+   "why": [
+    "Non : il n'existe pas d'infraction spécifique de harcèlement scolaire en droit malgache, ce sont les qualifications ordinaires qui servent.",
+    "Non : à l'école la punition physique est interdite par un texte précis, même si c'est un arrêté et non une loi.",
+    "Non : l'interdiction ne vaut qu'à l'école, le domicile n'est pas couvert, et ce n'est pas la loi de 2007 qui la pose.",
+    "Oui : un texte précis à citer, et une réserve à dire dans le même souffle pour ne jamais promettre qu'une plainte aboutira."
+   ],
+   "x": "Les punitions physiques sont interdites à l'école par l'arrêté ministériel n° 5246-96 MEN, rappelé par la note n° 234/MEN/SG du 4 avril 2017, alors qu'elles restent licites au domicile <a class=\"cite\" data-ref=\"endcorporalpunishment2019mg\"></a>. La loi n° 2007-023 protège l'enfant, mais le Comité des droits de l'enfant en déplore une application insuffisante : citez ces textes comme un appui, jamais comme une garantie <a class=\"cite\" data-ref=\"loi2007023,crc2022\"></a>. Voir <a href=\"#droit-h\">Ce que dit le droit malgache</a>.",
+   "kind": "appliquer",
+   "section": "droit-h"
+  },
+  {
+   "q": "Trois semaines après votre demande faite oralement, le directeur n'a rien changé et parle d'« enfantillages ». Quelle suite tient la route ?",
+   "o": [
+    "Aller voir les parents de l'élève auteur avec un témoin, pour trouver un arrangement direct entre les deux familles.",
+    "Publier les faits et une capture d'écran sur les réseaux sociaux, pour obliger l'établissement à réagir publiquement.",
+    "Reprendre les faits datés dans un courrier en deux exemplaires, en garder copie, puis saisir la zone administrative et pédagogique.",
+    "Écrire d'emblée au ministère de l'Éducation, seul niveau capable d'imposer une mesure à un chef d'établissement."
+   ],
+   "a": 2,
+   "why": [
+    "Non : contacter directement l'auteur ou sa famille est déconseillé, cela expose l'enfant et fait souvent monter le conflit.",
+    "Non : diffuser les faits en ligne expose l'enfant, complique la suite judiciaire et n'oblige personne à agir.",
+    "Oui : l'écrit daté transforme un désaccord en dossier, et l'on monte d'un cran à la fois en joignant les écrits précédents.",
+    "Non : sauter tous les échelons affaiblit la demande, car le ministère renverra à l'échelon local sans écrit à examiner."
+   ],
+   "x": "La démarche efficace tient en trois principes : écrire et dater, monter d'un cran à la fois du chef d'établissement jusqu'au ministère, et ne pas rester seul. Ce que vous demandez à l'école n'est pas une faveur : les programmes scolaires structurés de prévention réduisent significativement le harcèlement subi et agi <a class=\"cite\" data-ref=\"gaffney2021a\"></a>. Dans un établissement privé, la voie passe par le responsable puis son organisme de tutelle. Voir <a href=\"#blocage-h\">Si rien ne bouge</a>.",
+   "kind": "appliquer",
+   "section": "blocage-h"
+  },
+  {
+   "q": "En réunion de parents, quelqu'un affirme : « le 147 a reçu 405 471 appels en 2025, donc les cas sont pris en charge ». Que répondez-vous d'exact ?",
+   "o": [
+    "Que 680 cas de violence ont été confirmés et référés la même année : l'appel ouvre la porte, l'accompagnement reste à faire.",
+    "Que ces appels venaient surtout d'adultes, ce qui explique le faible nombre d'enfants réellement aidés.",
+    "Que le chiffre est trompeur, la ligne n'étant joignable que depuis un seul des opérateurs téléphoniques du pays.",
+    "Que ce volume d'appels prouve à lui seul que la sous-déclaration a disparu dans l'ensemble des régions du pays."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : l'écart entre le volume d'appels et les cas confirmés montre qu'un appel ne règle pas la situation à lui seul.",
+    "Non : la ligne accueille adultes et enfants, et l'origine des appels n'explique pas l'écart entre appels et cas confirmés.",
+    "Non : la ligne est joignable depuis les trois opérateurs ; c'est sa portée locale, pas l'accès téléphonique, qui varie.",
+    "Non : la sous-déclaration reste la règle, et un nombre d'appels ne mesure pas les situations qui ne sont jamais signalées."
+   ],
+   "x": "En 2025, la ligne a reçu 405 471 appels pour 680 cas de violence confirmés et référés vers des structures compétentes <a class=\"cite\" data-ref=\"moov2026ligne147,2424mg2026\"></a>. La sous-déclaration reste la règle : dans la région Atsimo-Andrefana, le Réseau de Protection de l'Enfant a recensé 375 mineurs victimes en 2019 alors que la police n'enregistrait que 31 plaintes <a class=\"cite\" data-ref=\"tribune2020vonjy\"></a>. L'erreur tentante est de lire un grand nombre d'appels comme une preuve de prise en charge. Voir <a href=\"#dispositifs-h\">Les dispositifs malgaches</a>.",
+   "kind": "trancher",
+   "section": "dispositifs-h"
+  },
+  {
+   "q": "Un enfant est harcelé et frappé par un camarade dont la famille est influente. Le fokontany propose de régler l'affaire par un arrangement local. Que faites-vous ?",
+   "o": [
+    "Refuser l'arrangement et saisir directement le tribunal, le fokontany n'ayant aucune compétence sur ces situations.",
+    "Accepter le passage par le fokontany, garder ouverte la voie de droit, et désigner un adulte référent qui écrit et suit.",
+    "Accepter l'accord communautaire comme règlement définitif : il engage les familles et évite d'humilier l'établissement.",
+    "Saisir en même temps l'école, le 147, la gendarmerie et le Centre Vonjy, pour multiplier les chances qu'un service réagisse."
+   ],
+   "a": 1,
+   "why": [
+    "Non : le fokontany est souvent le recours le plus rapide et le plus accessible, s'en priver d'emblée retarde la protection de l'enfant.",
+    "Oui : on utilise le recours de proximité sans renoncer au droit, et une seule personne tient le fil des démarches.",
+    "Non : un accord communautaire ne remplace pas un recours de droit quand un enfant est en danger ou a été frappé.",
+    "Non : tout déclencher en même temps oblige l'enfant à répéter son récit et disperse la responsabilité entre les adultes."
+   ],
+   "x": "Une même situation peut relever de plusieurs acteurs, et la règle qui évite les impasses est qu'un seul adulte soit désigné référent : c'est lui qui parle à l'école, qui appelle, qui note les dates et qui rappelle. Le recours communautaire n'est pas neutre pour autant : la recherche montre que le dina peut consacrer la domination des acteurs locaux les plus puissants autant que protéger le collectif <a class=\"cite\" data-ref=\"klein2024\"></a>. Ces travaux portent sur les ressources naturelles et non sur l'école, mais ils invitent à garder ouverte la voie de droit <a class=\"cite\" data-ref=\"loi2007023\"></a>. Voir <a href=\"#qui-fait-quoi-h\">Qui fait quoi</a>.",
+   "kind": "trancher",
+   "section": "qui-fait-quoi-h"
+  }
+ ]
+}

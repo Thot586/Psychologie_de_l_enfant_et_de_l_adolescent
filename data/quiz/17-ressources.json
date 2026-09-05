@@ -1,0 +1,158 @@
+{
+ "title": "Savoir vers qui orienter, et avec quels mots",
+ "intro": "Huit situations de terrain, du mur du fokontany à l'interview en direct. Répondez avant de lire la correction : chercher soi-même la réponse ancre bien mieux que relire la page.",
+ "questions": [
+  {
+   "q": "Une bénévole prépare une affiche pour le mur du fokontany : « 147 — appelez si votre enfant est en danger ou s'il pense à mourir ». Que lui proposez-vous de corriger ?",
+   "o": [
+    "Rien : le 147 est gratuit et joignable jour et nuit, autant qu'il serve à toutes les situations d'enfant en danger.",
+    "Écrire ce que le 147 fait vraiment — signaler et orienter une violence, jour et nuit — et mettre à part la conduite pour les idées de mort.",
+    "Retirer complètement le 147 de l'affiche, puisqu'il ne prend pas en charge les enfants qui vont mal psychiquement.",
+    "Garder la phrase et ajouter à côté un numéro d'hôpital psychiatrique trouvé sur internet, pour couvrir les deux cas."
+   ],
+   "a": 1,
+   "why": [
+    "Non : le 147 est une ligne de signalement des violences et d'orientation ; l'affiche promettrait pour une crise suicidaire une aide qui n'arrivera pas.",
+    "Oui : on affiche ce que le numéro fait réellement, et on écrit à part la conduite en cas d'idées de mort — ne pas laisser seul, écarter les moyens, accompagner.",
+    "Non : le 147 reste le seul recours national gratuit et continu vérifié pour un enfant en danger ; le supprimer priverait les familles du numéro le plus utile.",
+    "Non : un numéro repris d'internet, sans source datée et sans l'avoir appelé soi-même, est exactement ce qu'il ne faut jamais afficher."
+   ],
+   "x": "Le 147 est joignable jour et nuit depuis les réseaux des trois opérateurs, pour signaler maltraitance, violence, exploitation ou négligence concernant un enfant <a class=\"cite\" data-ref=\"moov2026ligne147,arozaza147\"></a>. Ce n'est pas une ligne de crise suicidaire : devant des idées de mort, on ne laisse pas l'enfant seul, on écarte calmement les moyens et on accompagne sans attendre vers un service d'urgence ou de psychiatrie. Une affiche juste dit ce que le numéro fait, et ce qu'il ne fait pas (voir <a href=\"#urgence-h\">Urgence et signalement à Madagascar</a>).",
+   "kind": "comprendre",
+   "section": "urgence-h"
+  },
+  {
+   "q": "En réunion, un responsable balaie le sujet : « 405 471 appels au 147 en 2025 et seulement 680 cas de violence confirmés et référés : cette ligne ne sert à rien. » Que lui répondez-vous ?",
+   "o": [
+    "Qu'il a raison sur le fond, et qu'il vaut mieux envoyer directement les familles à la gendarmerie plutôt que de leur faire perdre du temps.",
+    "Que les 405 471 appels étaient tous des signalements de violence, et que 680 seulement se sont révélés fondés après vérification.",
+    "Qu'un appel ne règle pas tout : entre l'appel et l'accompagnement réel, il faut des adultes de proximité qui décrivent les faits et restent joignables.",
+    "Que l'écart s'explique par les coupures de réseau, et qu'il suffit de rappeler plusieurs fois pour qu'un dossier finisse par aboutir."
+   ],
+   "a": 2,
+   "why": [
+    "Non : la gendarmerie est le bon recours pour une infraction, mais elle ne remplace pas une ligne nationale gratuite qui reçoit, trie et oriente.",
+    "Non : les appels reçus ne sont pas tous des signalements de violence, et cet écart ne dit rien sur la sincérité des personnes qui appellent.",
+    "Oui : c'est l'adulte de proximité qui transforme un appel en accompagnement réel, en décrivant les faits et en faisant le lien avec le réseau local.",
+    "Non : attribuer l'écart au réseau évite la vraie question, qui est le suivi du cas par des adultes identifiés et joignables."
+   ],
+   "x": "L'écart entre ces deux nombres ne prouve pas l'inutilité de la ligne <a class=\"cite\" data-ref=\"moov2026ligne147,2424mg2026\"></a> : il montre qu'un appel seul ne suffit pas. Ce qui fait aboutir un signalement, ce sont des adultes qui décrivent les faits avec précision, restent joignables et font le lien avec le réseau local. Et un signalement sans suite n'est pas la preuve qu'il n'y avait rien : en Atsimo-Andrefana, le réseau de protection a recensé 375 mineurs victimes en 2019 alors que la police n'enregistrait que 31 plaintes <a class=\"cite\" data-ref=\"tribune2020vonjy\"></a>.",
+   "kind": "comprendre",
+   "section": "urgence-h"
+  },
+  {
+   "q": "Une mère vous dit que sa fille de 12 ans a été agressée sexuellement il y a deux jours dans le quartier. Vers quoi l'orientez-vous en priorité ?",
+   "o": [
+    "Vers le Centre Vonjy le plus proche, qui reçoit gratuitement les enfants victimes de violences sexuelles.",
+    "Vers un médecin privé d'abord, puis vers la police plus tard, quand la famille se sentira prête à déposer une plainte.",
+    "Vers le chef d'établissement de la fille, qui décidera avec l'enseignante de ce qu'il convient de faire ensuite.",
+    "Vers le Réseau de Protection de l'Enfant de la région, qui recevra la famille et lui fixera un rendez-vous médical."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : c'est un guichet unique — soins, accompagnement psychosocial et démarche judiciaire au même endroit, et un récit que l'enfant n'a pas à répéter partout.",
+    "Non : commencer par le privé retarde l'examen médical et sépare le soin de la démarche judiciaire, au détriment de la fille.",
+    "Non : l'école pourra être informée plus tard, mais elle n'a ni la compétence ni le cadre pour recevoir des faits de cette nature.",
+    "Non : le réseau de protection est un partenaire précieux à connaître d'avance, mais ici il ajoute une étape là où un guichet unique existe."
+   ],
+   "x": "Les Centres Vonjy réunissent gratuitement, au même endroit, les soins médicaux, l'accompagnement psychosocial et la démarche judiciaire, ce qui évite à la famille de multiplier les déplacements et à l'enfant de répéter son récit <a class=\"cite\" data-ref=\"onu2020vonjy,tribune2020vonjy\"></a>. Six centres étaient opérationnels fin 2020 : Antananarivo, Toamasina, Mahajanga, Nosy Be, Toliara et Tolagnaro <a class=\"cite\" data-ref=\"onu2020vonjy\"></a>. Là où il n'y en a pas, on ne renonce pas : on appelle le 147 et on se tourne vers la gendarmerie, compétente hors des grandes villes (voir <a href=\"#urgence-h\">Urgence et signalement à Madagascar</a>).",
+   "kind": "appliquer",
+   "section": "urgence-h"
+  },
+  {
+   "q": "Des parents vous expliquent qu'ils ont d'abord consulté leur pasteur pour leur fils de 14 ans qui ne parle plus et ne mange plus. Ils hésitent maintenant à vous en parler. Que leur dites-vous ?",
+   "o": [
+    "Qu'ils ont perdu un temps précieux et que ce détour risque de compliquer la prise en charge de leur fils.",
+    "Qu'il faut désormais choisir clairement entre l'accompagnement religieux et l'avis médical, pour éviter les mélanges.",
+    "Qu'ils peuvent continuer avec leur pasteur, et que vous repasserez les voir dans quelques semaines si leur fils ne va pas mieux.",
+    "Que c'est le chemin le plus fréquent à Antananarivo, et qu'on peut prier et consulter : les deux ne s'opposent pas."
+   ],
+   "a": 3,
+   "why": [
+    "Non : reprocher le délai fait perdre la confiance de la famille, et les données disponibles ne permettent pas de dire que le recours religieux aggrave.",
+    "Non : demander de choisir place la famille devant un dilemme qu'elle ne tranchera pas, et le plus souvent elle cesse simplement de revenir.",
+    "Non : différer l'orientation par respect des croyances laisse passer des semaines, alors qu'orienter tôt est précisément ce qui fait gagner du temps à l'adolescent.",
+    "Oui : reconnaître le chemin réel des familles est ce qui permet d'y ajouter un avis médical sans les mettre en défaut."
+   ],
+   "x": "Dans une étude hospitalière conduite à Antananarivo, le premier recours face à un trouble psychique était religieux dans 40 % des cas, psychiatrique dans 32,5 % et un tradipraticien seul dans 2,5 % <a class=\"cite\" data-ref=\"bakohariliva2018\"></a>. Ce n'est ni une faute ni une bizarrerie : c'est ce que fait une famille qui cherche du sens et de l'aide là où elle en trouve. L'étude est rétrospective et monocentrique, donc elle ne permet pas de conclure que le recours religieux aggrave ; la bonne formulation devant des parents n'est pas « il faut choisir » mais « on peut prier et consulter » (voir <a href=\"#soins-h\">Structures de soins et de santé mentale</a>).",
+   "kind": "appliquer",
+   "section": "soins-h"
+  },
+  {
+   "q": "À Antananarivo, une famille vous demande où faire voir son adolescent de 15 ans par un psychiatre. Que faites-vous concrètement ?",
+   "o": [
+    "Vous l'envoyez à l'hôpital psychiatrique d'Anjanamasina, qui est selon vous l'établissement de référence pour tous les âges.",
+    "Vous donnez le numéro d'un cabinet privé trouvé en ligne, en précisant que la consultation sera sans doute payante.",
+    "Vous indiquez le service de psychiatrie du CHU Joseph Raseta de Befelatanana, après avoir appelé pour vérifier que l'accueil s'y fait toujours.",
+    "Vous attendez d'avoir obtenu vous-même un rendez-vous ferme avant de dire quoi que ce soit à la famille."
+   ],
+   "a": 2,
+   "why": [
+    "Non : selon l'établissement lui-même, la psychiatrie de l'enfant et de l'adolescent n'est pas assurée à Anjanamasina.",
+    "Non : orienter vers un cabinet privé sans avoir vérifié ni le coût ni la disponibilité expose la famille à un déplacement inutile et coûteux.",
+    "Oui : la bonne adresse plus un appel de vérification, c'est ce qui évite d'envoyer une famille pour rien.",
+    "Non : garder l'information laisse la famille sans repère ; on peut très bien dire ce qu'on sait et ce qu'on est en train de vérifier."
+   ],
+   "x": "Selon le site de l'établissement, la psychiatrie de l'enfant et de l'adolescent est assurée au service de psychiatrie du CHU Joseph Raseta de Befelatanana, et non à Anjanamasina <a class=\"cite\" data-ref=\"chusma_anjanamasina\"></a>. Cette source institutionnelle n'affiche pas de date de mise à jour : l'organisation des services a pu changer, d'où l'appel préalable. L'offre reste très limitée et concentrée dans la capitale, de l'ordre de 26 psychiatres pour tout le pays selon des chiffres de plaidoyer à présenter comme un ordre de grandeur <a class=\"cite\" data-ref=\"crr2022psykozy,raobelle2017rmm\"></a> : ne promettez jamais un rendez-vous que vous n'avez pas vérifié.",
+   "kind": "appliquer",
+   "section": "soins-h"
+  },
+  {
+   "q": "Un journaliste vous demande en direct : « Combien d'élèves sont harcelés à Madagascar ? » Quelle réponse est la plus juste ?",
+   "o": [
+    "Que le seul repère national est l'enquête scolaire de l'OMS : 27,2 % d'élèves de 13 à 17 ans harcelés à l'école dans l'année.",
+    "Que 38,8 % des élèves malgaches sont harcelés, comme le montre l'analyse portant sur onze pays d'Afrique subsaharienne.",
+    "Que près d'un élève sur deux est concerné, puisque la méta-analyse africaine donne une prévalence groupée de 46,35 %.",
+    "Que la presse parle de 700 000 élèves concernés et de 58 % de victimes, et que ces chiffres font autorité localement."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : c'est le seul repère national disponible, et il se cite avec sa population, ses écoles et sa période de rappel.",
+    "Non : 38,8 % est un ordre de grandeur régional pour onze pays d'Afrique subsaharienne, et Madagascar n'en fait pas partie.",
+    "Non : cette prévalence groupée vient d'une méta-analyse africaine dont Madagascar est absent, avec un intervalle large lié aux définitions.",
+    "Non : ces chiffres de presse n'ont pas pu être remontés jusqu'à une étude publiée ; les répéter fragilise tout le reste de votre propos."
+   ],
+   "x": "Madagascar ne figure ni dans l'analyse multi-pays d'Afrique subsaharienne <a class=\"cite\" data-ref=\"aboagye2021a\"></a>, ni dans la méta-analyse africaine la plus récente <a class=\"cite\" data-ref=\"rtbey2025\"></a> : reprendre ces pourcentages comme malgaches est une erreur d'attribution fréquente. La fiche de résultats de l'enquête scolaire de l'OMS porte sur 2 440 élèves de 13 à 17 ans dans 38 écoles et donne 27,2 % d'élèves harcelés à l'école dans l'année et 10,5 % de cyberharcelés <a class=\"cite\" data-ref=\"who2025\"></a>. Les chiffres qui circulent dans la presse malgache n'ont pas de source primaire identifiée <a class=\"cite\" data-ref=\"newsmada2024\"></a> : dire ce qu'on ne sait pas est plus solide que citer un chiffre invérifiable.",
+   "kind": "appliquer",
+   "section": "chiffres-h"
+  },
+  {
+   "q": "Vous finalisez l'affiche des contacts d'un quartier. Un bénévole veut y mettre le 3018 lu dans une brochure française, et le numéro d'une association locale trouvé sur une page Facebook. Que gardez-vous ?",
+   "o": [
+    "Les deux : sur une affiche, mieux vaut un numéro de trop qu'une case vide, et les familles feront le tri elles-mêmes.",
+    "Le 3018 seul : c'est le seul des deux dont la source soit écrite, datée et facilement vérifiable en ligne.",
+    "Le numéro local seul : une page Facebook active est une source suffisante, et un numéro étranger n'aide personne ici.",
+    "Ni l'un ni l'autre comme numéro à appeler : on garde les fiches du 3018 comme documentation et on écrit « à confirmer » à côté du contact local."
+   ],
+   "a": 3,
+   "why": [
+    "Non : une coordonnée fausse coûte plus cher qu'une case vide, parce qu'elle envoie une famille dans le vide au pire moment.",
+    "Non : la source du 3018 est solide, mais la ligne n'est pas joignable depuis Madagascar ; l'afficher comme numéro utile trompe les familles.",
+    "Non : une page Facebook n'est pas une source datée et vérifiée, et vous n'avez pas appelé ce numéro vous-même.",
+    "Oui : les documents du 3018 servent de modèle de procédure, et « à confirmer » reste écrit en clair tant que le contact local n'est pas vérifié."
+   ],
+   "x": "Le 3018 est un numéro gratuit et confidentiel contre le cyberharcèlement, sept jours sur sept de neuf à vingt-trois heures, mais depuis la France <a class=\"cite\" data-ref=\"eenfance3018\"></a> : ses fiches et ses vidéos voyagent, sa ligne non. Pour les contacts malgaches, la règle tient en une phrase : un numéro ne s'affiche qu'avec une source datée et la mention « vérifié le… », sinon on écrit « à confirmer », en clair, à côté. C'est une information honnête, alors qu'un faux numéro ne l'est pas (voir <a href=\"#organisations-h\">Organisations à Madagascar</a>).",
+   "kind": "trancher",
+   "section": "organisations-h"
+  },
+  {
+   "q": "Une bénévole formée sur internet propose de faire remplir un questionnaire de repérage à toute une classe de sixième, pour « identifier les cas ». Que décidez-vous ?",
+   "o": [
+    "Vous acceptez si les réponses sont anonymes : sans nom sur la feuille, aucun élève ne peut être étiqueté ensuite.",
+    "Vous refusez l'usage collectif : ces questionnaires repèrent, ils ne diagnostiquent pas, et ne servent jamais à trier des élèves.",
+    "Vous acceptez à condition que le chef d'établissement donne son accord écrit et reçoive ensuite la liste des scores.",
+    "Vous refusez pour l'instant, le temps de faire traduire les items en malgache, puis vous ferez passer le questionnaire à la classe."
+   ],
+   "a": 1,
+   "why": [
+    "Non : l'anonymat ne change pas la nature du geste — on fait passer en classe un outil conçu pour un entretien individuel avec un professionnel.",
+    "Oui : un score élevé ouvre une porte vers une consultation, il ne pose pas d'étiquette et ne classe pas des élèves entre eux.",
+    "Non : transmettre des scores à l'établissement sans l'accord de l'enfant et de sa famille revient à annoncer un résultat comme un diagnostic.",
+    "Non : la traduction ne règle rien ici, puisque le passage resterait collectif ; et traduire au pied levé donne un questionnaire dont personne ne connaît la valeur."
+   ],
+   "x": "Le questionnaire des points forts et des difficultés et le SCARED sont des outils de repérage, pas de diagnostic : ils se passent dans un cadre individuel, par un professionnel de santé ou du soin psychique, avec une explication à l'enfant et à sa famille <a class=\"cite\" data-ref=\"goodman1997,birmaher1997\"></a>. Un passage collectif transforme un outil d'aide en instrument de tri, et aucune validation malgache de ces échelles n'a été identifiée. Ce qui reste pleinement utile à un bénévole, c'est de croiser les regards — ce que dit l'enfant, ce que voient les parents, ce que voit l'école — puis d'orienter (voir <a href=\"#outils-h\">Outils de repérage</a>).",
+   "kind": "trancher",
+   "section": "outils-h"
+  }
+ ]
+}

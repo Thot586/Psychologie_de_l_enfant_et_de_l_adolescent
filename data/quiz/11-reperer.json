@@ -1,0 +1,158 @@
+{
+ "title": "Vérifier que la grille de repérage est bien en main",
+ "intro": "Huit situations concrètes, comme celles que vous rencontrerez. Répondez avant de lire la correction : chercher soi-même la réponse ancre bien mieux que relire la page.",
+ "questions": [
+  {
+   "q": "Fetra et Toky, même âge et même carrure, s'insultent presque chaque jour dans la cour depuis la rentrée ; chacun rend ce qu'il reçoit et aucun n'évite l'autre. Que concluez-vous avec les 3 R ?",
+   "o": [
+    "C'est du harcèlement : les insultes se répètent tous les jours depuis plusieurs semaines.",
+    "C'est un conflit entre égaux : la répétition est là, mais aucun des deux n'est empêché de se défendre.",
+    "C'est du harcèlement dès que l'un des deux rentre en pleurant chez lui le soir.",
+    "On ne peut rien dire tant qu'un adulte n'a pas assisté lui-même à une de ces scènes."
+   ],
+   "a": 1,
+   "why": [
+    "Non : la répétition seule ne suffit pas, sinon toute dispute qui dure deviendrait du harcèlement.",
+    "Oui : c'est le rapport de force qui manque ici ; on reste attentif et on note, car un conflit peut évoluer.",
+    "Non : le retentissement se note et compte, mais il ne remplace pas le rapport de force qui manque ici.",
+    "Non : le repérage ne demande pas d'avoir vu la scène, il demande de croiser des faits et des sources."
+   ],
+   "x": "Il y a harcèlement quand un comportement qui vise à blesser se répète et qu'un déséquilibre de pouvoir empêche celui qui le subit de se défendre à armes égales <a class=\"cite\" data-ref=\"olweus1993,gaffney2021a\"></a>. Ici la répétition est présente, mais pas le rapport de force : traiter ce conflit comme du harcèlement serait injuste pour les deux enfants. Cela n'interdit pas de rester attentif et de noter, car beaucoup de situations de harcèlement ont commencé comme un conflit ordinaire entre deux enfants de force comparable (voir <a href=\"#trois-r-h\">les 3 R</a>).",
+   "kind": "comprendre",
+   "section": "trois-r-h"
+  },
+  {
+   "q": "Vous demandez à Miora, 10 ans, « est-ce qu'on te harcèle ? ». Elle répond non, en baissant les yeux. Pourquoi cette réponse ne vous rassure-t-elle pas ?",
+   "o": [
+    "Parce qu'à cet âge, les enfants disent presque toujours le contraire de ce qu'ils vivent.",
+    "Parce qu'une question sur le harcèlement doit être posée en français pour être bien comprise.",
+    "Parce que le mot n'a pas d'équivalent proche en malgache et ne dit ni la répétition ni le déséquilibre.",
+    "Parce qu'il faut poser la même question à trois moments différents avant de pouvoir la croire."
+   ],
+   "a": 2,
+   "why": [
+    "Non : présumer le mensonge ferme la porte, alors qu'elle peut répondre non parce que le mot ne lui parle pas.",
+    "Non : la langue de la question n'est pas l'obstacle, c'est le mot lui-même qui ne recouvre pas la même réalité.",
+    "Oui : le mot ne dit pas pour elle ce qu'il dit pour vous ; demandez ce qui s'est passé et ce qu'elle a ressenti, pas si elle accepte une étiquette.",
+    "Non : reposer la même question revient à lui faire redire les faits, ce qui l'épuise sans rien apporter."
+   ],
+   "x": "Le terme anglais <em>bullying</em> n'a pas d'équivalent proche dans de nombreuses langues, et les mots voisins recouvrent des réalités partiellement différentes <a class=\"cite\" data-ref=\"smith2002\"></a> ; la périphrase employée en malgache ne contient ni l'idée de répétition ni celle de déséquilibre <a class=\"cite\" data-ref=\"newsmada2024\"></a>. Les enfants et adolescents d'Afrique subsaharienne n'emploient d'ailleurs presque jamais le mot « violence » : ils décrivent les actes à partir de ce qu'ils ressentent <a class=\"cite\" data-ref=\"turner2024\"></a>. D'où la consigne pratique : demander des faits et des sensations, jamais une étiquette (voir <a href=\"#trois-r-h\">les 3 R</a>).",
+   "kind": "comprendre",
+   "section": "trois-r-h"
+  },
+  {
+   "q": "Depuis trois semaines, Fanja, 8 ans, a mal au ventre chaque matin d'école mais jamais le samedi, a « perdu » deux cahiers et refuse d'y aller ; ses résultats chutent. Que dites-vous à sa mère ?",
+   "o": [
+    "Que plusieurs changements arrivent ensemble et s'écartent de l'enfant habituelle : on note des faits datés et on cherche une deuxième source.",
+    "Que ces maux de ventre du matin sont le signe typique d'un harcèlement subi à l'école.",
+    "Que c'est une mauvaise passe de début d'année, qui se réglera d'elle-même avant les vacances.",
+    "Que sa fille présente probablement une dépression et qu'il faut d'abord s'occuper de cela."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : c'est le faisceau de signes et l'écart avec l'enfant habituelle qui alertent, pas un symptôme isolé.",
+    "Non : aucun signe n'appartient au harcèlement en propre, ces douleurs se retrouvent dans bien d'autres situations.",
+    "Non : attendre que cela passe fait perdre précisément les semaines pendant lesquelles la situation s'installe.",
+    "Non : poser un diagnostic n'est ni votre rôle ni votre formation, et cela arrête l'observation trop tôt."
+   ],
+   "x": "Ce qui doit alerter n'est pas la présence d'un signe sur une liste, mais un changement net par rapport à l'enfant que vous connaissez et plusieurs signes qui apparaissent ensemble <a class=\"cite\" data-ref=\"catheline2023,has2017maltraitance\"></a>. Entre 6 et 10 ans, le corps parle avant l'enfant : plaintes des matins d'école, affaires abîmées ou perdues, refus d'y aller. Rien de tout cela ne prouve le harcèlement ; cela justifie de noter des faits datés et de chercher une deuxième source (voir <a href=\"#par-age-h\">les signaux par âge</a>).",
+   "kind": "appliquer",
+   "section": "par-age-h"
+  },
+  {
+   "q": "Un directeur vous répond : « ici il n'y a pas de harcèlement, la cour est surveillée à chaque récréation ». Que lui proposez-vous ?",
+   "o": [
+    "D'installer une surveillance permanente des élèves dans tous les espaces de l'établissement.",
+    "De le croire : une cour surveillée en permanence suffit en général à protéger les élèves.",
+    "De reprendre la carte des lieux à risque décrite en Afrique du Sud et de l'appliquer à son école.",
+    "De demander aux élèves où ils n'aiment pas aller : toilettes, salles vides, abords, trajet."
+   ],
+   "a": 3,
+   "why": [
+    "Non : rendre un lieu visible n'est pas la même chose qu'y installer une surveillance permanente des enfants.",
+    "Non : le harcèlement se concentre justement là où l'adulte n'est pas, donc en dehors de la cour surveillée.",
+    "Non : ces travaux portent sur un ou deux établissements de townships et ne se recopient pas tels quels ailleurs.",
+    "Oui : la carte se refait école par école, avec ceux qui savent quels endroits ils évitent."
+   ],
+   "x": "Dans les établissements sud-africains étudiés, les élèves désignent toujours les mêmes endroits sans adulte : toilettes, salles laissées libres, coins de cour éloignés, abords de l'école et arrêts de transport <a class=\"cite\" data-ref=\"ngidi2018,sikhakhane2018\"></a>. Le chemin de l'école est un autre angle mort classique des dispositifs scolaires <a class=\"cite\" data-ref=\"banquemondiale2020\"></a>. La question utile tient en une phrase : où n'aimes-tu pas aller, quand, et avec qui fais-tu le trajet (voir <a href=\"#par-lieu-h\">où regarder</a>).",
+   "kind": "appliquer",
+   "section": "par-lieu-h"
+  },
+  {
+   "q": "Un père vous dit de son fils de 14 ans : « c'est le téléphone qui l'abîme, il passe des heures dessus ». Que lui répondez-vous ?",
+   "o": [
+    "Qu'il a raison : confisquer l'appareil quelques semaines réglera l'essentiel du problème.",
+    "Que le signal n'est pas la durée d'écran mais la réaction : pâlir, l'éteindre d'un coup, le consulter la nuit.",
+    "Que le cyberharcèlement a remplacé le harcèlement de la cour et qu'il faut surtout surveiller les écrans.",
+    "Que tant qu'aucune menace écrite n'apparaît sur l'appareil, il n'y a pas de raison de s'inquiéter."
+   ],
+   "a": 1,
+   "why": [
+    "Non : retirer le téléphone coupe surtout l'adolescent de ses appuis, sans rien apprendre de ce qu'il reçoit.",
+    "Oui : c'est ce changement de comportement devant l'appareil qui mérite une question, pas le nombre d'heures.",
+    "Non : les attaques en ligne se superposent au harcèlement en face à face, elles ne le remplacent pas.",
+    "Non : attendre une preuve écrite fait perdre du temps, car beaucoup de messages sont effacés aussitôt lus."
+   ],
+   "x": "Le cyberharcèlement ajoute les traces qui restent, la diffusion très rapide et l'absence de refuge, mais il est rarement isolé : il se superpose au harcèlement en face à face plutôt qu'il ne le remplace <a class=\"cite\" data-ref=\"modecki2014\"></a>. Chez les élèves malgaches de 13 à 17 ans, 10,5 % déclarent avoir été cyberharcelés dans l'année, contre 27,2 % harcelés à l'école <a class=\"cite\" data-ref=\"who2025\"></a>. Le repère pratique reste la réaction de l'adolescent devant son téléphone, pas le temps qu'il y passe (voir <a href=\"#par-lieu-h\">où regarder</a>).",
+   "kind": "appliquer",
+   "section": "par-lieu-h"
+  },
+  {
+   "q": "Vous avez noté trois faits datés concernant un élève et vous allez en parler au responsable de son école. Par quoi commencez-vous ?",
+   "o": [
+    "Décrire les faits, leurs dates et leurs effets sur l'élève, puis demander ce qui peut être vérifié.",
+    "Annoncer d'emblée qu'il s'agit d'un harcèlement, pour que la gravité soit prise au sérieux.",
+    "Donner le nom de l'élève mis en cause et demander qu'une sanction soit prise cette semaine.",
+    "Passer plutôt par les parents de l'élève mis en cause, qui régleront cela plus vite que l'école."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : des faits datés et leurs effets se discutent, là où un mot peut être entendu tout autrement.",
+    "Non : près d'un membre du personnel scolaire sur deux voit ces violences comme un jeu, le mot seul ne suffira pas.",
+    "Non : désigner un coupable et réclamer une sanction sort de votre rôle, qui est d'observer et de transmettre.",
+    "Non : contacter la famille mise en cause de votre propre initiative expose l'élève à des représailles."
+   ],
+   "x": "Dans l'étude nationale malgache, 49 % du personnel scolaire perçoit la violence physique entre élèves comme un jeu <a class=\"cite\" data-ref=\"ibcr2018\"></a> : ce n'est pas de la mauvaise volonté, c'est une manière de voir répandue, qu'il vaut mieux connaître avant d'entrer dans un bureau. Décrire des faits datés et leurs effets évite un désaccord de vocabulaire qui bloquerait l'échange. Contacter soi-même l'enfant mis en cause ou ses parents est, lui, explicitement déconseillé <a class=\"cite\" data-ref=\"defenseurdesdroits2023\"></a> (voir <a href=\"#croiser-h\">croiser les sources</a>).",
+   "kind": "appliquer",
+   "section": "croiser-h"
+  },
+  {
+   "q": "Un bénévole de votre association a trouvé en ligne un questionnaire de repérage du harcèlement en français et propose de le faire remplir à une classe de 40 élèves. Que décidez-vous ?",
+   "o": [
+    "D'accepter : l'outil a montré une bonne cohérence interne et il a été validé auprès d'adolescents.",
+    "D'accepter s'il le traduit en malgache la veille et lit chaque question à voix haute aux élèves.",
+    "De refuser, puisqu'aucun questionnaire de repérage du harcèlement n'existe réellement à ce jour.",
+    "De refuser : cela se prépare avec l'établissement, l'accord des familles et quelqu'un pour recevoir les élèves."
+   ],
+   "a": 3,
+   "why": [
+    "Non : une validation obtenue ailleurs ne se transporte pas telle quelle, et l'outil ne dit rien d'un enfant donné.",
+    "Non : une traduction improvisée la veille ne garantit pas que le sens des questions a survécu au passage.",
+    "Non : ces outils existent et sont bien documentés ; ce qui pose problème est leur cadre d'usage, pas leur existence.",
+    "Oui : distribuer un dépistage sans cadre sort de votre rôle et engage la responsabilité de votre association."
+   ],
+   "x": "Ces questionnaires servent à mesurer un phénomène dans un établissement, pas à évaluer un enfant, et la structure interne de ce type d'outil n'est pas démontrée équivalente d'une culture à l'autre <a class=\"cite\" data-ref=\"samara2019\"></a>. Aucun n'est validé sur une population malgache : un usage sérieux supposerait traduction puis rétro-traduction, passation d'essai et triangulation, selon une démarche d'adaptation structurée <a class=\"cite\" data-ref=\"mooreg2021\"></a>. Faire remplir un tel questionnaire sans personne pour recevoir ce qui en sortira peut faire du mal (voir <a href=\"#outils-h\">les questionnaires</a>).",
+   "kind": "trancher",
+   "section": "outils-h"
+  },
+  {
+   "q": "Un samedi soir, Tojo, 16 ans, mis à l'écart par sa classe depuis deux ans, vous dit qu'il pense parfois à disparaître. Que faites-vous ?",
+   "o": [
+    "Éviter le sujet pour ne pas lui mettre l'idée en tête, et repasser le voir en début de semaine prochaine.",
+    "Appeler le 147, qui est la ligne prévue pour les crises suicidaires, puis le laisser rentrer seul chez lui.",
+    "Rester avec lui, écarter sans dramatiser les moyens à sa portée et l'accompagner le jour même vers un service de soins.",
+    "Lui faire promettre de ne rien tenter ce week-end et prévenir seulement son établissement le lundi matin."
+   ],
+   "a": 2,
+   "why": [
+    "Non : parler du sujet directement ne fait pas naître l'idée chez un jeune qui ne l'avait pas.",
+    "Non : le 147 est une ligne de signalement des violences et d'orientation, ce n'est pas une ligne de crise.",
+    "Oui : ne pas le laisser seul et atteindre un service de soins sans délai, c'est la conduite qui ne se discute pas.",
+    "Non : une promesse ne protège personne, et attendre lundi laisse tout un week-end sans adulte auprès de lui."
+   ],
+   "x": "La conduite recommandée est de ne pas laisser le jeune seul, de réduire l'accès aux moyens et d'organiser sans délai l'accès à des soins ; aborder le sujet directement ne crée pas l'idée <a class=\"cite\" data-ref=\"mhgap2023\"></a>. Le lien entre harcèlement subi et idées suicidaires est documenté, y compris sur le continent africain <a class=\"cite\" data-ref=\"bezie2025\"></a>, ce qui rend cette phrase d'autant moins banale. C'est une augmentation de risque dans une population, pas une prédiction : la plupart des jeunes qui traversent ce moment vont mieux ensuite quand un adulte est resté avec eux (voir <a href=\"#par-age-h\">les signaux par âge</a>).",
+   "kind": "trancher",
+   "section": "par-age-h"
+  }
+ ]
+}

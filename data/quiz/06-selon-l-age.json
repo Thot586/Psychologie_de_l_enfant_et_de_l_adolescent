@@ -1,0 +1,158 @@
+{
+ "title": "Savoir quoi regarder, et quoi dire, à chaque âge",
+ "intro": "Huit situations concrètes, du primaire au lycée : une réunion avec un directeur, une voisine inquiète, un soir à la maison, une fin d'entretien. Le quiz vérifie ce que vous regardez, ce que vous dites et ce que vous décidez à chaque âge. Répondez d'abord, lisez la correction ensuite : se tromper puis comprendre pourquoi ancre mieux que relire la page.",
+ "questions": [
+  {
+   "q": "À une réunion, un directeur de lycée conclut : « les enquêtes le montrent, plus les élèves grandissent, moins il y a de harcèlement ; chez nous, en terminale, le problème est réglé. » Que lui répondez-vous ?",
+   "o": [
+    "Il a raison pour l'essentiel : à cet âge, ce qui reste relève surtout du conflit entre égaux.",
+    "Les enquêtes montrent l'inverse : la victimisation déclarée augmente régulièrement avec l'âge.",
+    "La victimisation déclarée baisse, mais les formes se déplacent et les grands se déclarent moins.",
+    "Ces enquêtes comptent les incidents signalés par les écoles, pas ce que disent les élèves eux-mêmes."
+   ],
+   "a": 2,
+   "why": [
+    "Non : c'est la confusion classique entre conflit et harcèlement, et la baisse des déclarations ne fait pas disparaître le noyau de grands adolescents qui vont le plus mal.",
+    "Non : c'est la pente inverse ; ce qui reste stable ou augmente avec l'âge, c'est le fait de harceler les autres.",
+    "Oui : la courbe descend, mais les formes changent et la parole se ferme à mesure qu'on grandit.",
+    "Non : ce sont des enquêtes déclaratives auprès des élèves eux-mêmes, pas un comptage d'incidents signalés par l'école."
+   ],
+   "x": "Dans une quarantaine de pays, la part d'élèves qui se déclarent harcelés diminue avec l'âge, alors que la part de ceux qui déclarent harceler reste stable ou augmente, surtout chez les garçons <a class=\"cite\" data-ref=\"craig2009\"></a>. Les agressions physiques reculent tandis que les formes indirectes et les atteintes en ligne progressent <a class=\"cite\" data-ref=\"lopezcastro2023\"></a>. Comme on interroge les élèves eux-mêmes, une partie de la baisse est probablement une baisse des déclarations : plus ils grandissent, plus ils redoutent de passer pour des rapporteurs. Voir <a href=\"#ce-qui-change-h\">ce qui change entre 7 et 17 ans</a>.",
+   "kind": "comprendre",
+   "section": "ce-qui-change-h"
+  },
+  {
+   "q": "Vous préparez une intervention devant des parents. Un bénévole vous propose d'annoncer « à Madagascar, un élève sur deux est harcelé ». Quels chiffres citez-vous à la place ?",
+   "o": [
+    "27,2 % des élèves de 13-17 ans harcelés à l'école dans l'année, 10,5 % cyberharcelés.",
+    "Un élève sur deux, chiffre issu de l'enquête nationale menée dans les écoles malgaches.",
+    "10,5 % harcelés à l'école et 27,2 % cyberharcelés, chez les élèves de 13 à 17 ans.",
+    "Aucun chiffre malgache n'existe : on cite donc les résultats des enquêtes internationales."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : ce sont les deux chiffres malgaches disponibles, datés, sourçables et vérifiables par n'importe qui dans la salle.",
+    "Non : « un sur deux » ne vient d'aucune enquête ; un chiffre gonflé fait perdre la confiance de la salle dès qu'on le vérifie.",
+    "Non : les deux chiffres sont intervertis ; c'est le cyberharcèlement qui est le plus faible des deux.",
+    "Non : une enquête nationale existe bien chez les 13-17 ans ; la lacune malgache porte sur l'évolution avec l'âge, pas sur l'existence d'un chiffre."
+   ],
+   "x": "L'enquête nationale conduite auprès d'élèves malgaches de 13 à 17 ans trouve 27,2 % d'élèves harcelés à l'école au cours de l'année et 10,5 % de cyberharcelés <a class=\"cite\" data-ref=\"who2025\"></a>. Les taux sont proches entre garçons et filles pour le harcèlement à l'école. Ce que ces chiffres mesurent, et ce qu'ils laissent de côté, est discuté dans le module sur la solidité des chiffres. Voir <a href=\"#ce-qui-change-h\">ce qui change entre 7 et 17 ans</a>.",
+   "kind": "comprendre",
+   "section": "ce-qui-change-h"
+  },
+  {
+   "q": "Une voisine vous parle de son fils de 8 ans : mal au ventre chaque matin d'école depuis trois semaines, rien le samedi, et il ne cite plus le nom d'aucun camarade. Par quoi commencer ?",
+   "o": [
+    "Lui demander s'il est harcelé à l'école, pour qu'il mette le bon mot dessus.",
+    "Attendre deux ou trois semaines : à cet âge, les maux de ventre passent souvent seuls.",
+    "Prévenir l'enseignant d'abord et ne rien demander à l'enfant, pour ne pas l'inquiéter.",
+    "Lui demander ce qui se passe à la récréation, puis lui proposer de dessiner ce qui arrive."
+   ],
+   "a": 3,
+   "why": [
+    "Non : le mot « harcèlement » ne parle pas à un enfant de 8 ans, qui raconte ce qui s'est passé et ce que ça lui a fait.",
+    "Non : des douleurs qui s'arrêtent le week-end depuis trois semaines ne sont plus un symptôme passager, c'est un changement durable.",
+    "Non : l'enseignant sera utile ensuite, mais l'enfant reste la première personne à qui demander ce qui se passe.",
+    "Oui : une question sur un moment précis, plus un support qui ne dépend pas de la capacité à mettre des mots."
+   ],
+   "x": "Une méta-synthèse d'études qualitatives en Afrique subsaharienne montre que les enfants n'emploient presque jamais le vocabulaire des adultes pour la violence : ils décrivent les actes à partir de ce qu'ils ont ressenti <a class=\"cite\" data-ref=\"turner2024\"></a>. Le dessin contourne la difficulté à verbaliser, comme les outils par images utilisés en recherche pour ne pas dépendre de la traduction du mot « harcèlement » <a class=\"cite\" data-ref=\"smith2016\"></a>. Aucun de ces signes n'est spécifique : la liste sert à déclencher une question, jamais à conclure <a class=\"cite\" data-ref=\"catheline2023,nasem2016\"></a>. Voir <a href=\"#age-6-10\">6-10 ans</a>.",
+   "kind": "appliquer",
+   "section": "age-6-10"
+  },
+  {
+   "q": "Une fille de 11 ans est arrivée il y a deux mois dans une nouvelle école, en même temps qu'elle est allée vivre chez sa grand-mère. Elle était déjà mise à l'écart dans l'école précédente. Que faites-vous ?",
+   "o": [
+    "Lui demander si ça va mieux maintenant qu'elle a changé d'école et de camarades.",
+    "Lui demander si c'est la même chose qu'avant, et regarder si elle reste seule en récréation.",
+    "Considérer que la nouvelle école remet les compteurs à zéro et revoir la question l'an prochain.",
+    "Expliquer sa situation familiale à sa classe pour que les autres élèves l'accueillent mieux."
+   ],
+   "a": 1,
+   "why": [
+    "Non : « ça va mieux ? » appelle un oui poli ; la question utile compare avec la situation d'avant la transition.",
+    "Oui : c'est exactement la question que suggère le suivi de cohorte, doublée d'une observation des premières semaines.",
+    "Non : la transition n'interrompt pas le harcèlement chez ceux qui étaient déjà visés ; attendre un an, c'est laisser s'installer une victimisation chronique.",
+    "Non : exposer son histoire devant la classe l'expose davantage et lui retire la maîtrise de ce qu'elle raconte d'elle-même."
+   ],
+   "x": "Dans une cohorte de 2 232 enfants suivis de part et d'autre du passage au secondaire, ce sont les victimes chroniques — harcelées avant et après — qui présentent le plus de troubles psychiques et de difficultés scolaires <a class=\"cite\" data-ref=\"bowes2013\"></a>. Le désavantage économique et une faible chaleur relationnelle augmentent ce risque de chronicité. À Madagascar, environ un tiers des enfants de moins de 18 ans ne vivent pas avec leurs deux parents : changer d'école s'accompagne souvent de changer d'adultes de référence <a class=\"cite\" data-ref=\"andriamaro2013\"></a>. Voir <a href=\"#transitions-h\">les changements d'école</a>.",
+   "kind": "appliquer",
+   "section": "transitions-h"
+  },
+  {
+   "q": "Le directeur d'un collège vous demande où placer le seul surveillant supplémentaire qu'il peut financer. Les élèves de 6e vous ont parlé de bousculades et d'argent qui disparaît. Que proposez-vous ?",
+   "o": [
+    "Placer un surveillant en classe pendant les cours, là où les élèves passent le plus de temps.",
+    "Organiser une séance qui explique la définition du harcèlement à toutes les classes du collège.",
+    "Demander aux enseignants de désigner les élèves qu'il faut surveiller pendant les récréations.",
+    "Demander aux élèves les endroits qu'ils évitent de traverser seuls, et y poster un adulte."
+   ],
+   "a": 3,
+   "why": [
+    "Non : c'est pendant les temps sans classe et dans les lieux à l'écart que les faits se concentrent, pas devant l'enseignant.",
+    "Non : une séance de définition informe, mais elle ne sécurise aucun des lieux que les élèves contournent chaque jour.",
+    "Non : désigner des élèves à surveiller les stigmatise et déplace l'attention des lieux vers les personnes.",
+    "Oui : les élèves savent où ça se passe mieux que quiconque, et un adulte présent à cet endroit change la situation."
+   ],
+   "x": "Interrogés en groupes de discussion, des élèves sud-africains désignent des lieux très précis comme les plus dangereux de leur école : toilettes, salles non surveillées, terrains à l'écart, abords de l'établissement <a class=\"cite\" data-ref=\"ngidi2018,sikhakhane2018\"></a>. Ces travaux sont qualitatifs et menés dans un autre pays : leur intérêt n'est pas le chiffre, c'est la méthode, directement transposable ici. Une surveillance réellement présente aux temps sans classe fait partie des mesures les plus régulièrement recommandées <a class=\"cite\" data-ref=\"oms2019manuel\"></a>. Voir <a href=\"#age-10-12\">10-12 ans</a>.",
+   "kind": "appliquer",
+   "section": "age-10-12"
+  },
+  {
+   "q": "Votre fille de 14 ans vous montre, un soir, des messages blessants envoyés par un groupe de sa classe. Elle dort mal depuis des semaines. Quelle est la meilleure conduite ?",
+   "o": [
+    "Lui dire qu'elle n'y est pour rien, parler du téléphone sans le confisquer, et agir sur le groupe.",
+    "Confisquer le téléphone le soir même et ne plus en reparler : sans téléphone, les messages s'arrêtent.",
+    "Lui conseiller de répondre fermement au groupe et de tenir bon, pour montrer qu'elle ne se laisse pas faire.",
+    "Attendre quelques semaines : le cyberharcèlement reste rare et touche surtout les familles connectées des villes."
+   ],
+   "a": 0,
+   "why": [
+    "Oui : on la déculpabilise, on garde l'accès à l'information, et on agit là où la situation se joue vraiment, dans la classe.",
+    "Non : la confiscation immédiate coupe la source d'information et lui apprend à ne plus rien montrer la prochaine fois.",
+    "Non : répondre relance l'échange et la laisse seule face à un groupe ; « il faut se défendre » est le raccourci le plus répandu.",
+    "Non : l'accès au téléphone est effectivement inégal, mais elle a déjà reçu ces messages ; la statistique ne dit rien de son cas."
+   ],
+   "x": "La plupart des jeunes visés en ligne le sont aussi en face à face : retirer le téléphone ne retire pas la classe <a class=\"cite\" data-ref=\"modecki2014,kowalski2014\"></a>. Ce sont les témoins qui font durer ou cesser une situation, d'où l'intérêt de travailler le groupe plutôt que le duel <a class=\"cite\" data-ref=\"salmivalli2010\"></a>. À Madagascar, 10,5 % des élèves de 13 à 17 ans déclarent avoir été cyberharcelés <a class=\"cite\" data-ref=\"who2025\"></a>. Voir <a href=\"#age-12-15\">12-15 ans</a>.",
+   "kind": "appliquer",
+   "section": "age-12-15"
+  },
+  {
+   "q": "Un enseignant excuse un élève de 14 ans qui a organisé la mise à l'écart d'un camarade : « à cet âge, le cerveau n'est pas mûr, il suit les autres, il n'y peut rien ». Comment trancher ?",
+   "o": [
+    "Il a raison : avant 18 ans le contrôle de soi n'est pas en place, la sanction n'a donc pas de sens.",
+    "Il a tort : à 14 ans la maturité psychosociale est complète, l'argument du développement ne tient pas.",
+    "La sensibilité au groupe rend l'influence plus forte ; elle n'efface ni la responsabilité ni le besoin de cadre.",
+    "Tout dépend s'il comprend mal les autres : s'il lit très bien les relations, il n'y a plus rien à faire."
+   ],
+   "a": 2,
+   "why": [
+    "Non : la maturation explique une vulnérabilité à l'influence, elle ne supprime pas la responsabilité de l'élève.",
+    "Non : la maturité psychosociale, elle, continue de progresser au-delà de 18 ans ; l'affirmation est inexacte.",
+    "Oui : comprendre pourquoi il suit le groupe sert à poser un cadre clair, pas à effacer les conséquences.",
+    "Non : les deux profils d'auteurs existent, et aucun des deux ne laisse l'adulte sans rien à faire."
+   ],
+   "x": "En laboratoire, la simple présence de camarades augmente la prise de risque chez l'adolescent alors qu'elle ne la modifie pas chez l'adulte <a class=\"cite\" data-ref=\"gardner2005\"></a>. La maturation est progressive et dépend de ce que l'on mesure : elle rend le jeune plus vulnérable à l'influence, elle ne le rend pas irresponsable <a class=\"cite\" data-ref=\"shulman2016,dahl2018\"></a>. Une partie des auteurs sont au contraire de fins lecteurs des relations, qui choisissent leur cible, leur moment et leurs alliés : eux aussi ont besoin d'un cadre, de conséquences et d'une réparation <a class=\"cite\" data-ref=\"sutton1999\"></a>. Voir <a href=\"#age-12-15\">12-15 ans</a>.",
+   "kind": "trancher",
+   "section": "age-12-15"
+  },
+  {
+   "q": "Un garçon de 17 ans, isolé depuis des mois après une atteinte à sa réputation, vous dit en fin d'entretien que sa famille irait mieux sans lui. Que faites-vous, aujourd'hui ?",
+   "o": [
+    "Lui donner le 147 et lui demander d'appeler lui-même s'il ne va pas mieux cette semaine.",
+    "Ne pas le laisser seul, écarter ce qui pourrait le blesser, et l'accompagner le jour même vers un soin.",
+    "Éviter de parler d'idées suicidaires pour ne pas les lui suggérer, et le revoir la semaine prochaine.",
+    "Lui promettre que cela restera entre vous, pour qu'il continue de se confier les prochaines fois."
+   ],
+   "a": 1,
+   "why": [
+    "Non : le 147 sert à signaler des violences et à orienter, ce n'est pas une ligne de crise, et il ne doit pas rester seul avec un numéro.",
+    "Oui : rester avec lui, écarter les moyens et l'accompagner le jour même, c'est la conduite complète, dans cet ordre.",
+    "Non : poser la question n'induit pas le geste, et reporter d'une semaine le laisse seul avec ce qu'il vient de dire.",
+    "Non : le secret absolu est une promesse impossible à tenir dès que la sécurité du jeune est engagée."
+   ],
+   "x": "Poser ouvertement la question des idées suicidaires n'induit pas le geste : elle ouvre au contraire une porte, et elle est recommandée dès qu'un doute existe <a class=\"cite\" data-ref=\"mhgap2023\"></a>. Chez des élèves africains, la victimisation par harcèlement multiplie par environ 1,7 les chances de déclarer des idées suicidaires, et les études qui suivent les jeunes dans le temps retrouvent ce lien <a class=\"cite\" data-ref=\"bezie2025,vangeel2022\"></a>. Ces situations se dénouent quand un adulte s'en occupe le jour même. Voir <a href=\"#age-15-18\">15-18 ans</a>.",
+   "kind": "trancher",
+   "section": "age-15-18"
+  }
+ ]
+}

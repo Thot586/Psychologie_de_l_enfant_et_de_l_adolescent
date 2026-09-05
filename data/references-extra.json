@@ -1,0 +1,1123 @@
+[
+ {
+  "key": "erikson1968",
+  "apa7": "Erikson, E. H. (1968). Identity: Youth and crisis. W. W. Norton.",
+  "doi_or_url": "https://archive.org/details/identityyouthcri0000erik",
+  "year": "1968",
+  "type": "ouvrage",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Aucune référence à Erikson dans l'index fourni. Notice bibliographique consultée et vérifiée sur Internet Archive le 4 septembre 2026 (https://archive.org/details/identityyouthcri0000erik) : Erik H. Erikson (1902-1994), « Identity, youth, and crisis », Norton, 1968, 336 p. L'article Wikipédia FR « Stades du développement psychosocial », également vérifié, confirme les huit stades et la tension identité / confusion des rôles à l'adolescence.",
+  "origins": [
+   "glossaire:stades-psychosociaux-erikson"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "rogers1957",
+  "apa7": "Rogers, C. R., et Farson, R. E. (1957). Active listening. Industrial Relations Center, University of Chicago.",
+  "doi_or_url": "https://search.worldcat.org/title/7022047",
+  "year": "1957",
+  "type": "rapport",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche web du 4 septembre 2026 : notice de catalogue WorldCat confirmant l'ouvrage et son éditeur, et texte intégral du fascicule accessible en PDF à l'adresse http://www.ask-force.org/web/Discourse/Rogers-Farson-ActiveListening-1957.pdf. Attribution confirmée par l'article Wikipédia FR Écoute active.",
+  "origins": [
+   "glossaire:ecoute-active"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "bellon2021",
+  "apa7": "Bellon, J.-P., Gardette, B., et Quartier, M. (2021). Harcèlement scolaire : le vaincre, c'est possible. La méthode de la préoccupation partagée (3e éd.). ESF Sciences Humaines.",
+  "doi_or_url": "https://esf-scienceshumaines.fr/education/20-harcelement-scolaire-le-vaincre-c-est-possible.html",
+  "year": "2021",
+  "type": "ouvrage",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche web « Bellon Gardette préoccupation partagée ESF » puis page éditeur ESF Sciences Humaines consultée le 4 septembre 2026 : titre, sous-titre, trois auteurs, 3e édition de juin 2021, ISBN 978-2-7101-4357-3, 168 pages. Contenu recoupé avec l'article Wikipédia FR sur la méthode.",
+  "origins": [
+   "glossaire:methode-de-la-preoccupation-partagee"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "page2021prisma",
+  "apa7": "Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ, 372, n71. https://doi.org/10.1136/bmj.n71",
+  "doi_or_url": "https://doi.org/10.1136/bmj.n71",
+  "year": "2021",
+  "type": "article de revue",
+  "language": "en",
+  "open_access": false,
+  "how_found": "DOI 10.1136/bmj.n71 ; le site de BMJ renvoyant une erreur 403, le texte intégral a été consulté le 4 septembre 2026 sur PubMed Central (PMC8005924), qui confirme titre, auteurs, revue, année, numéro d'article et donne la définition de la méta-analyse dans le glossaire de l'encadré 1.",
+  "origins": [
+   "glossaire:meta-analyse"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "przybylski2013",
+  "apa7": "Przybylski, A. K., Murayama, K., DeHaan, C. R., et Gladwell, V. (2013). Motivational, emotional, and behavioral correlates of fear of missing out. Computers in Human Behavior, 29(4), 1841-1848. https://doi.org/10.1016/j.chb.2013.02.014",
+  "doi_or_url": "https://doi.org/10.1016/j.chb.2013.02.014",
+  "year": "2013",
+  "type": "article de revue",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Aucune référence de l'index ne portait spécifiquement sur le FOMO. Article fondateur identifié via l'article Wikipédia FR « Syndrome FOMO », puis vérifié le 4 septembre 2026 : le DOI 10.1016/j.chb.2013.02.014 renvoie (302) vers linkinghub.elsevier.com/retrieve/pii/S0747563213000800, et la référence complète (Computers in Human Behavior, 29(4), 1841-1848) est confirmée par le tiré à part déposé sur selfdeterminationtheory.org.",
+  "origins": [
+   "glossaire:syndrome-fomo"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "cnil2019reseaux",
+  "apa7": "Commission nationale de l'informatique et des libertés. (2019, 30 août). 5 conseils pour protéger ma vie privée sur les réseaux sociaux. CNIL. https://www.cnil.fr/fr/5-conseils-pour-proteger-ma-vie-privee-sur-les-reseaux-sociaux",
+  "doi_or_url": "https://www.cnil.fr/fr/5-conseils-pour-proteger-ma-vie-privee-sur-les-reseaux-sociaux",
+  "year": "2019",
+  "type": "page web institutionnelle",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Aucune référence de l'index ne portait sur les réglages de confidentialité. Page identifiée par recherche sur cnil.fr puis vérifiée par WebFetch le 4 septembre 2026 : elle existe, porte ce titre exact, est datée du 30 août 2019 et recommande explicitement de « régler mes paramètres de confidentialité pour limiter l'accès à mon profil ou à mes publications ». Le lien candidat initial (page d'accueil cnil.fr/fr/reseaux-sociaux) n'était qu'une page de rubrique sans contenu de définition.",
+  "origins": [
+   "glossaire:parametres-de-confidentialite"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "legripregnier2014",
+  "apa7": "Legrip-Randriambelo, O., & Regnier, D. (2014). The place of healers-diviners (ombiasa) in Betsileo medical pluralism. Health, Culture and Society, 7(1), 28-37. https://doi.org/10.5195/hcs.2014.188",
+  "doi_or_url": "https://doi.org/10.5195/hcs.2014.188",
+  "year": "2014",
+  "type": "article de revue",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Recherche web « Legrip-Randriambelo Regnier ombiasa Betsileo medical pluralism », puis consultation de la notice de l'article en accès libre sur https://hcs.pitt.edu/ojs/index.php/hcs/article/view/188 le 4 septembre 2026 : auteurs, titre, revue, volume 7, numéro 1, année 2014 et DOI 10.5195/hcs.2014.188 confirmés.",
+  "origins": [
+   "glossaire:ombiasy"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "ikpeh2025",
+  "apa7": "Ikpeh, C., & Federico Awi, I. (2025). \"I am because we are\": Ubuntu as a framework for social capital building among Black Women in the academy. Frontiers in Sociology, 10, 1555236. https://doi.org/10.3389/fsoc.2025.1555236",
+  "doi_or_url": "https://doi.org/10.3389/fsoc.2025.1555236",
+  "year": "2025",
+  "type": "article de revue",
+  "language": "en",
+  "open_access": false,
+  "how_found": "DOI consulté le 4 septembre 2026 via https://www.frontiersin.org/articles/10.3389/fsoc.2025.1555236/full : article d'opinion en libre accès, référence et définition de l'ubuntu (« I am because we are », relationalité, responsabilité collective) vérifiées sur la page de l'éditeur.",
+  "origins": [
+   "glossaire:ubuntu"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "ryandeci2000",
+  "apa7": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68-78. https://doi.org/10.1037/0003-066X.55.1.68",
+  "doi_or_url": "https://api.crossref.org/works/10.1037/0003-066X.55.1.68",
+  "year": "2000",
+  "type": "article",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Source indispensable demandée explicitement par le cahier des charges (« autonomie, compétence, relation selon Ryan et Deci ») et absente de refs-index. Métadonnées vérifiées par WebFetch sur l'enregistrement Crossref du DOI 10.1037/0003-066X.55.1.68 : titre, auteurs, American Psychologist, 2000, 55(1), 68-78 confirmés.",
+  "origins": [
+   "module:02-besoins-emotions-corps"
+  ],
+  "modules_cibles": [
+   "02-besoins-emotions-corps"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "rubin2009",
+  "apa7": "Rubin, K. H., Coplan, R. J., & Bowker, J. C. (2009). Social withdrawal in childhood. Annual Review of Psychology, 60, 141-171. https://doi.org/10.1146/annurev.psych.60.110707.163642",
+  "doi_or_url": "https://api.crossref.org/works/10.1146/annurev.psych.60.110707.163642",
+  "year": "2009",
+  "type": "revue systématique",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Nécessaire pour la section « six situations » : refs-index ne contient aucune source distinguant la timidité (désir de contact bloqué par l'anxiété) de la préférence pour la solitude, ni documentant le lien entre retrait social, rejet par les pairs et difficultés émotionnelles. Métadonnées et résumé vérifiés par WebFetch sur l'enregistrement Crossref du DOI 10.1146/annurev.psych.60.110707.163642.",
+  "origins": [
+   "module:02-besoins-emotions-corps"
+  ],
+  "modules_cibles": [
+   "02-besoins-emotions-corps"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "sommer2016",
+  "apa7": "Sommer, M., Caruso, B. A., Sahin, M., Calderon, T., Cavill, S., Mahon, T., & Phillips-Howard, P. A. (2016). A time for global action: Addressing girls' menstrual hygiene management needs in schools. PLOS Medicine, 13(2), e1001962. https://doi.org/10.1371/journal.pmed.1001962",
+  "doi_or_url": "https://api.crossref.org/works/10.1371/journal.pmed.1001962",
+  "year": "2016",
+  "type": "article",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Le cahier des charges demande de traiter « les règles à l'école » ; refs-index ne contient aucune source sur la gestion de l'hygiène menstruelle en milieu scolaire. Métadonnées vérifiées par WebFetch sur l'enregistrement Crossref du DOI 10.1371/journal.pmed.1001962 : titre, sept auteurs, PLOS Medicine, 2016, 13(2), e1001962 confirmés.",
+  "origins": [
+   "module:02-besoins-emotions-corps"
+  ],
+  "modules_cibles": [
+   "02-besoins-emotions-corps"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "hennegan2016",
+  "apa7": "Hennegan, J., & Montgomery, P. (2016). Do menstrual hygiene management interventions improve education and psychosocial outcomes for women and girls in low and middle income countries? A systematic review. PLOS ONE, 11(2), e0146985. https://doi.org/10.1371/journal.pone.0146985",
+  "doi_or_url": "https://api.crossref.org/works/10.1371/journal.pone.0146985",
+  "year": "2016",
+  "type": "revue systématique",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Ajoutée en contrepoint de sommer2016 pour ne pas surestimer l'effet des seules protections hygiéniques sur l'absentéisme et le bien-être : cette revue systématique conclut à des données insuffisantes et de faible qualité. Métadonnées vérifiées par WebFetch sur l'enregistrement Crossref du DOI 10.1371/journal.pone.0146985.",
+  "origins": [
+   "module:02-besoins-emotions-corps"
+  ],
+  "modules_cibles": [
+   "02-besoins-emotions-corps"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "cddr2024",
+  "apa7": "Organisation mondiale de la Santé. (2024). Clinical descriptions and diagnostic requirements for ICD-11 mental, behavioural and neurodevelopmental disorders (CDDR). Organisation mondiale de la Santé.",
+  "doi_or_url": "https://www.who.int/publications/i/item/9789240077263",
+  "year": "2024",
+  "type": "recommandation officielle",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Recherche d'une source primaire pour le TSPT complexe (CIM-11, code 6B41), signalé comme le seul diagnostic officiel de trauma répété dans lacunes.md (point 7 du plan traumatisme). Description du code 6B41 vérifiée par WebFetch sur https://www.findacode.com/icd-11/code-585833559.html le 4 septembre 2026 (titre « Complex post traumatic stress disorder » et les trois groupes de symptômes additionnels : troubles sévères de la régulation des affects, croyances négatives sur soi avec honte et culpabilité, difficultés relationnelles). La référence citable elle-même — le manuel de descriptions cliniques et exigences diagnostiques de la CIM-11 — a été vérifiée par WebFetch sur la page éditeur de l'OMS https://www.who.int/publications/i/item/9789240077263 le 4 septembre 2026 : titre exact, éditeur Organisation mondiale de la Santé, publication du 8 mars 2024, ISBN 9789240077263, 852 pages. La page iris.who.int correspondante renvoie un HTTP 403 depuis cet environnement et n'a pas pu être ouverte.",
+  "origins": [
+   "module:03-traumatisme-et-resilience"
+  ],
+  "modules_cibles": [
+   "03-traumatisme-et-resilience"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "wolke2015",
+  "apa7": "Wolke, D., Tippett, N., & Dantchev, S. (2015). Bullying in the family: Sibling bullying. The Lancet Psychiatry, 2(10), 917-929. https://doi.org/10.1016/S2215-0366(15)00262-X",
+  "doi_or_url": "https://doi.org/10.1016/S2215-0366(15)00262-X",
+  "year": "2015",
+  "type": "article",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Référence explicitement demandée par le cahier des charges du module et absente de refs-index.txt. Métadonnées confirmées par WebFetch le 4 septembre 2026 sur https://api.crossref.org/works/10.1016/S2215-0366(15)00262-X puis sur la transformation CSL-JSON du même enregistrement (titre exact, auteurs Dieter Wolke, Neil Tippett, Slava Dantchev, The Lancet Psychiatry, 2015, 2(10), 917-929). Contenu du résumé (exposition hebdomadaire fréquente au harcèlement dans la fratrie ; absence de refuge et détresse accrue chez les enfants harcelés à la fois par la fratrie et par les pairs ; le harcèlement dans la fratrie accroît l'implication dans le harcèlement entre pairs ; qualité de la parentalité comme principal facteur intrafamilial associé) confirmé via l'API Europe PMC, requête https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/S2215-0366(15)00262-X%22&resultType=core&format=json.",
+  "origins": [
+   "module:04-harcelement-ou-conflit"
+  ],
+  "modules_cibles": [
+   "04-harcelement-ou-conflit"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "dantchev2019",
+  "apa7": "Dantchev, S., & Wolke, D. (2019). Sibling bullying at 12 years and high-risk behavior in early adulthood: A prospective cohort study. Aggressive Behavior, 45(1), 18-32. https://doi.org/10.1002/ab.21793",
+  "doi_or_url": "https://doi.org/10.1002/ab.21793",
+  "year": "2019",
+  "type": "cohorte",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Référence explicitement demandée par le cahier des charges du module et absente de refs-index.txt. Métadonnées confirmées par WebFetch le 4 septembre 2026 sur https://api.crossref.org/works/10.1002/ab.21793 (titre exact, auteurs Slava Dantchev et Dieter Wolke, Aggressive Behavior, 2019, 45(1), 18-32). Résultats chiffrés (cohorte prospective britannique de 6 988 participants ; harcèlement fréquent dans la fratrie à 12 ans et conduites à risque à 18-20 ans ; rapport de cotes 1,74 pour le comportement antisocial chez les auteurs, 3,05 antisocial, 2,12 démêlés avec la justice et 2,11 usage de drogues illicites chez ceux qui harcèlent à la fois à la maison et à l'école ; 2,87 pour la dépendance nicotinique chez les victimes fréquentes ; ajustement sur le harcèlement par les pairs et la maltraitance parentale) confirmés via l'API Europe PMC, requête https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1002/ab.21793%22&resultType=core&format=json.",
+  "origins": [
+   "module:04-harcelement-ou-conflit"
+  ],
+  "modules_cibles": [
+   "04-harcelement-ou-conflit"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "nichter1981",
+  "apa7": "Nichter, M. (1981). Idioms of distress: Alternatives in the expression of psychosocial distress: A case study from South India. Culture, Medicine and Psychiatry, 5(4), 379-408. https://doi.org/10.1007/BF00054782",
+  "doi_or_url": "https://api.crossref.org/works?query.bibliographic=Idioms+of+distress+alternatives+in+the+expression+of+psychosocial+distress+Nichter&rows=3",
+  "year": "1981",
+  "type": "article",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Recherche bibliographique sur l'API Crossref le 4 septembre 2026 (requête query.bibliographic sur le titre et l'auteur). Crossref renvoie l'entrée déposée par l'éditeur Springer : titre exact, auteur unique Mark Nichter, revue Culture, Medicine and Psychiatry, 1981, volume 5, numéro 4, pages 379-408, DOI 10.1007/bf00054782. Référence fondatrice de la notion d'idiome de détresse, utilisée dans l'encadré Approfondir sur les approches etic et emic ; aucune référence de refs-index.txt ne couvrait cette notion, employée dans le texte.",
+  "origins": [
+   "module:05-nommer-la-violence-madagascar"
+  ],
+  "modules_cibles": [
+   "05-nommer-la-violence-madagascar"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "lewisfernandez2015",
+  "apa7": "Lewis-Fernández, R., Aggarwal, N. K., Hinton, L., Hinton, D. E., et Kirmayer, L. J. (dir.). (2015). DSM-5 handbook on the Cultural Formulation Interview. American Psychiatric Association Publishing. https://doi.org/10.1176/appi.books.9781615373567",
+  "doi_or_url": "https://api.crossref.org/works?query.bibliographic=Kirmayer+cultural+formulation+interview+DSM-5&rows=3",
+  "year": "2015",
+  "type": "livre",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche bibliographique sur l'API Crossref le 4 septembre 2026. Crossref renvoie l'ouvrage déposé par American Psychiatric Association Publishing : titre exact, cinq directeurs (Lewis-Fernández, Aggarwal, Hinton L., Hinton D. E., Kirmayer), année 2015, ISBN 9781585624928 (papier) et 9781615373567 (électronique), DOI 10.1176/appi.books.9781615373567, date de publication 6 mai 2015 ; les chapitres 1 (p. 1-26) et 6 (p. 267-288) apparaissent avec leurs propres DOI. Complète apa2013 en donnant la source de référence sur la conduite pratique de l'entretien de formulation culturelle, cité dans l'encadré Approfondir du module.",
+  "origins": [
+   "module:05-nommer-la-violence-madagascar"
+  ],
+  "modules_cibles": [
+   "05-nommer-la-violence-madagascar"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "inspchistorique",
+  "apa7": "Institut national de santé publique et communautaire. (s. d.). Historique. Consulté le 4 septembre 2026, à l'adresse https://www.inspc.mg/historique/",
+  "doi_or_url": "https://www.inspc.mg/historique/",
+  "year": "",
+  "type": "page web institutionnelle",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche web « INSPC Madagascar Institut National de Santé Publique et Communautaire site officiel », puis page https://www.inspc.mg/historique/ consultée par WebFetch le 4 septembre 2026 : dénomination complète, création par le décret n° 2002-234 du 28 mai 2002, tutelle du ministère de la Santé publique, missions de recherche, de formation et d'action sanitaire.",
+  "origins": [
+   "glossaire:inspc"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "szumilas2010",
+  "apa7": "Szumilas, M. (2010). Explaining odds ratios. Journal of the Canadian Academy of Child and Adolescent Psychiatry, 19(3), 227-229.",
+  "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2938757/",
+  "year": "2010",
+  "type": "article de revue",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Recherche d'une source méthodologique francophone ou anglophone en libre accès sur l'interprétation de l'odds ratio ; article consulté en texte intégral sur PubMed Central le 4 septembre 2026, qui confirme le titre, l'auteure, la revue, l'année, le volume et les pages, ainsi que la définition « les probabilités qu'un résultat survienne étant donné une exposition, comparées aux probabilités du résultat en l'absence d'exposition » et l'avertissement sur la signification statistique.",
+  "origins": [
+   "glossaire:odds-ratio"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "unesco2016outintheopen",
+  "apa7": "UNESCO. (2016). Out in the open: Education sector responses to violence based on sexual orientation and gender identity/expression. UNESCO.",
+  "doi_or_url": "https://unesdoc.unesco.org/ark:/48223/pf0000244756",
+  "year": "2016",
+  "type": "rapport institutionnel",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Recherche web puis vérification par WebFetch de la page éditoriale officielle https://www.unesco.org/en/articles/out-open-unesco-takes-school-related-homophobic-and-transphobic-violence, qui confirme le titre complet, l'éditeur (UNESCO), l'année (rapport lancé le 17 mai 2016) et le fait que des élèves perçus comme non conformes aux normes de genre sont également pris pour cible. La cote unesdoc ark:/48223/pf0000244756 est confirmée par les résultats de recherche ; le PDF unesdoc lui-même renvoie un blocage aux robots, à retélécharger manuellement avant mise en ligne.",
+  "origins": [
+   "module:09-qui-est-expose"
+  ],
+  "modules_cibles": [
+   "09-qui-est-expose"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "unicef2021disability",
+  "apa7": "UNICEF. (2021). Seen, counted, included: Using data to shed light on the well-being of children with disabilities. United Nations Children's Fund.",
+  "doi_or_url": "https://data.unicef.org/resources/children-with-disabilities-report-2021/",
+  "year": "2021",
+  "type": "rapport institutionnel",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Recherche web puis vérification des métadonnées (titre exact, éditeur UNICEF, année 2021, plus de 60 indicateurs dont la protection contre la violence, estimation d'environ 240 millions d'enfants soit près d'un sur dix) par WebFetch sur deux pages indépendantes : le dépôt de la Harvard Global Health Education and Learning Incubator (https://repository.gheli.harvard.edu/repository/13979/) et la fiche ressource DID4all (https://did4all.com.au/resources/unicef-2021-seen-counted-included-using-data-to-shed-light-on-the-well-being-of-children-with-disabilities). La page data.unicef.org et le PDF renvoient un HTTP 403 depuis cet environnement : les pourcentages détaillés du rapport n'ont pas été lus et ne sont donc pas cités dans le module, seule l'affirmation générale de surexposition à la violence l'est, en appui de eldred2025.",
+  "origins": [
+   "module:09-qui-est-expose"
+  ],
+  "modules_cibles": [
+   "09-qui-est-expose"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "hcc2016cyber",
+  "apa7": "Haute Cour Constitutionnelle de Madagascar. (2016). Décision n° 32-HCC/D3 du 12 août 2016 concernant la loi n° 2016-031 modifiant et complétant certaines dispositions de la loi n° 2014-006 du 17 juillet 2014 sur la lutte contre la cybercriminalité. Haute Cour Constitutionnelle. http://www.hcc.gov.mg/?p=2550",
+  "doi_or_url": "http://www.hcc.gov.mg/?p=2550",
+  "year": "2016",
+  "type": "autre",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche web « loi n° 2016-031 modifiant loi 2014-006 cybercriminalité Madagascar », puis vérification directe de la page officielle de la Haute Cour Constitutionnelle par WebFetch le 4 septembre 2026 : titre exact, organe émetteur, date du 12 août 2016 et contenu confirmés. La décision indique que la révision supprime la condamnation à l'emprisonnement sans retirer le caractère pénal de l'infraction, seule la peine d'amende subsistant, et déclare la loi conforme à la Constitution. Source primaire malgache, retenue de préférence aux relais de presse.",
+  "origins": [
+   "module:10-ecrans-et-vie-en-ligne"
+  ],
+  "modules_cibles": [
+   "10-ecrans-et-vie-en-ligne"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "fabermazlish2012",
+  "apa7": "Faber, A., et Mazlish, E. (2012). Parler pour que les enfants écoutent, écouter pour que les enfants parlent (R. Roy, trad.). Aux Éditions du Phare. (Ouvrage original publié en 1980)",
+  "doi_or_url": "https://www.lalibrairie.com/livres/parler-pour-que-les-enfants-ecoutent-ecouter-pour-que-les-enfants-parlent_1-289165_9782981161062.html",
+  "year": "2012",
+  "type": "livre",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Ouvrage signalé dans lacunes.md (plan:parents, point 1) comme boîte à outils de communication non évaluée, avec l'ISBN 9782981161062. Vérifié le 4 septembre 2026 par deux voies : notice du catalogue général de la BnF (auteurs Adele Faber et Elaine Mazlish, traduction de Roseline Roy, illustrations de Kimberly Ann Coe, titre original « How to talk so kids will listen and listen so kids will talk »), puis fiche libraire lalibrairie.com pour l'ISBN 978-2-9811610-6-2, l'éditeur (Aux Éditions du Phare), la date de parution (12 octobre 2012) et la pagination (408 p.).",
+  "origins": [
+   "module:12-parler-et-ecouter"
+  ],
+  "modules_cibles": [
+   "12-parler-et-ecouter"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "bezie2025",
+  "apa7": "Bezie, A. E., Yohannes, L., Yirdaw, A. A., Sergindo, M. T., Begena, B. B., et Keleb, A. (2025). The association between bullying victimization and suicidal ideation among students in Africa: A systematic review and meta-analysis. Frontiers in Public Health, 13, 1556211. https://doi.org/10.3389/fpubh.2025.1556211",
+  "doi_or_url": "https://doi.org/10.3389/fpubh.2025.1556211",
+  "year": "2025",
+  "type": "méta-analyse",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Clé déjà présente dans refs-index.txt (ligne bezie2025) mais sans référence APA complète ; métadonnées complétées et vérifiées le 4 septembre 2026 via l'API Crossref (requête bibliographique sur le titre) : auteurs, année 2025, revue Frontiers in Public Health, DOI 10.3389/fpubh.2025.1556211. L'apport indiqué dans refs-index (OR = 1,68 ; IC 95 % 1,56-1,81 ; 16 études ; 34 007 participants ; 11 pays) est celui utilisé dans le module.",
+  "origins": [
+   "module:12-parler-et-ecouter"
+  ],
+  "modules_cibles": [
+   "12-parler-et-ecouter"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "wilson2012",
+  "apa7": "Wilson, P., Rush, R., Hussey, S., Puckering, C., Sim, F., Allely, C. S., Doku, P., McConnachie, A., & Gillberg, C. (2012). How evidence-based is an 'evidence-based parenting program'? A PRISMA systematic review and meta-analysis of Triple P. BMC Medicine, 10, 130. https://doi.org/10.1186/1741-7015-10-130",
+  "doi_or_url": "https://doi.org/10.1186/1741-7015-10-130",
+  "year": "2012",
+  "type": "méta-analyse",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Référence explicitement demandée par le cahier des charges (« Triple P avec la critique de Wilson 2012 ») et absente de refs-index.txt. Métadonnées complètes (titre exact, neuf auteurs, revue, année, volume, numéro d'article, DOI) vérifiées le 4 septembre 2026 sur https://api.crossref.org/works/10.1186/1741-7015-10-130. Contenu du résumé (33 études éligibles, 31 comparaisons à une liste d'attente ou à une absence de traitement, effet 0,61 sur les rapports maternels contre 0,42 non significatif sur les rapports paternels, absence de différence entre groupes dans les deux essais à témoin actif, 32 des 33 études comptant un auteur affilié à Triple P) vérifié le 4 septembre 2026 sur l'enregistrement Europe PMC : https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1186/1741-7015-10-130%22&resultType=core&format=json (PMCID PMC3532197). Les pages BMC Medicine et Springer Link renvoient une redirection vers un portail d'authentification et n'ont pas pu être lues directement.",
+  "origins": [
+   "module:13-mon-enfant-est-concerne"
+  ],
+  "modules_cibles": [
+   "13-mon-enfant-est-concerne"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "consulatfr_urgence",
+  "apa7": "Consulat général de France à Antananarivo. (s. d.). En cas d'urgence. La France à Madagascar, ministère de l'Europe et des Affaires étrangères. Consulté le 4 septembre 2026, à l'adresse https://mg.diplomatie.gouv.fr/en-cas-durgence",
+  "doi_or_url": "https://mg.diplomatie.gouv.fr/en-cas-durgence",
+  "year": "",
+  "type": "page web officielle",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Page citée dans ressources-locales.json (fiche « structures d'urgence ») puis ouverte et vérifiée par WebFetch le 4 septembre 2026 : la page « En cas d'urgence » indique Police 17, Gendarmerie nationale 119, Pompiers 118 (mobiles uniquement) et renvoie à la liste de notoriété du consulat pour les ambulances et services d'urgence.",
+  "origins": [
+   "module:14-demander-de-l-aide"
+  ],
+  "modules_cibles": [
+   "14-demander-de-l-aide"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "policenationale_vbg",
+  "apa7": "Police nationale malgache. (s. d.). Plateforme nationale de signalement : violences basées sur le genre, enfants disparus, personnes disparues. Ministère de la Sécurité publique. Consulté le 4 septembre 2026, à l'adresse https://www.vbg.pn.gov.mg/",
+  "doi_or_url": "https://www.vbg.pn.gov.mg/",
+  "year": "",
+  "type": "page web officielle",
+  "language": "en",
+  "open_access": false,
+  "how_found": "URL indiquée dans ressources-locales.json comme seule adresse officielle fonctionnelle de la Police nationale ; page ouverte et vérifiée par WebFetch le 4 septembre 2026 : « Portail VBG-BFP », édité par le ministère de la Sécurité publique via la Direction des systèmes d'information et des transmissions et la Brigade féminine de police, avec signalement en ligne et suivi de dossier pour trois catégories (violences basées sur le genre, enfants disparus, personnes disparues).",
+  "origins": [
+   "module:14-demander-de-l-aide"
+  ],
+  "modules_cibles": [
+   "14-demander-de-l-aide"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "onumada2017spem",
+  "apa7": "Nations Unies Madagascar. (2017, 15 septembre). La gendarmerie nationale inaugure son service de protection de l'enfant et des mœurs. https://madagascar.un.org/fr/29803-la-gendarmerie-nationale-inaugure-son-service-de-protection-de-l%E2%80%99enfant-et-des-moeurs",
+  "doi_or_url": "https://madagascar.un.org/fr/29803-la-gendarmerie-nationale-inaugure-son-service-de-protection-de-l%E2%80%99enfant-et-des-moeurs",
+  "year": "2017",
+  "type": "communiqué institutionnel",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Source listée dans ressources-locales.json (fiche PMPM) ; page ouverte et vérifiée par WebFetch le 4 septembre 2026 : inauguration du service le 15 septembre 2017 à Toby Ratsimandrava, en présence de la représentante de l'UNICEF, avec environ 350 officiers-gradés et gendarmes formés depuis 2013 à l'accueil et aux techniques d'audition adaptées aux enfants.",
+  "origins": [
+   "module:14-demander-de-l-aide"
+  ],
+  "modules_cibles": [
+   "14-demander-de-l-aide"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "cda2026taz",
+  "apa7": "Conseil de Développement d'Andohatapenaka. (s. d.). Axe 1 : gouvernance locale, justice, changement climatique et jeunesse [Clinique juridique Trano Aro Zo]. Consulté le 4 septembre 2026, à l'adresse https://www.cda-andohatapenaka.mg/axe1/",
+  "doi_or_url": "https://www.cda-andohatapenaka.mg/axe1/",
+  "year": "",
+  "type": "page web d'organisme gestionnaire",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Page identifiée dans ressources-locales.json (fiche Trano Aro Zo) puis ouverte et vérifiée par WebFetch le 4 septembre 2026 : la clinique est présentée comme chargée de la réalisation d'un service public de la justice, rattachée au ministère de la Justice et supervisée par le président du tribunal, compétente pour les litiges civils n'exigeant pas le tribunal et pour les contraventions, incompétente pour une affaire déjà pendante devant une juridiction.",
+  "origins": [
+   "module:14-demander-de-l-aide"
+  ],
+  "modules_cibles": [
+   "14-demander-de-l-aide"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "newsmada2026psy",
+  "apa7": "Adnews. (2026, 25 juillet). Santé mentale : une soixantaine de psy pour 35 millions d'habitants. Newsmada. https://newsmada.com/2026/07/25/sante-mentale-une-soixantaine-de-psy-pour-35-millions-dhabitants/",
+  "doi_or_url": "https://newsmada.com/2026/07/25/sante-mentale-une-soixantaine-de-psy-pour-35-millions-dhabitants/",
+  "year": "2026",
+  "type": "presse nationale",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Article cité dans ressources-locales.json (fiche « structures d'urgence psychique ») puis ouvert et vérifié par WebFetch le 4 septembre 2026 : 67 psychologues dont un seul fonctionnaire, 13 psychiatres, 7 neuropsychiatres, 3 professeurs agrégés ; la psychiatrie n'existe qu'au niveau des CHU des six provinces et les centres de prévention et de diagnostic en santé mentale ne sont qu'à Antsirabe, Ambositra et Manakara.",
+  "origins": [
+   "module:14-demander-de-l-aide"
+  ],
+  "modules_cibles": [
+   "14-demander-de-l-aide"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "fraguas2021",
+  "apa7": "Fraguas, D., Díaz-Caneja, C. M., Ayora, M., Durán-Cutilla, M., Abregú-Crespo, R., Ezquiaga-Bravo, I., Martín-Babarro, J., & Arango, C. (2021). Assessment of school anti-bullying interventions: A meta-analysis of randomized clinical trials. JAMA Pediatrics, 175(1), 44-55. https://doi.org/10.1001/jamapediatrics.2020.3541",
+  "doi_or_url": "https://api.crossref.org/works/10.1001/jamapediatrics.2020.3541",
+  "year": "2021",
+  "type": "méta-analyse",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Source signalée comme vérifiée mais non retenue dans lacunes.md (section plan:sensibilisation, point 8). Métadonnées reconfirmées le 4 septembre 2026 par WebFetch sur l'API Crossref : titre exact, huit auteurs, JAMA Pediatrics, 2021, volume 175, numéro 1, page 44, DOI 10.1001/jamapediatrics.2020.3541.",
+  "origins": [
+   "module:15-prevenir-ce-qui-marche"
+  ],
+  "modules_cibles": [
+   "15-prevenir-ce-qui-marche"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "loi2014038",
+  "apa7": "République de Madagascar. (2015). Loi n° 2014-038 du 9 janvier 2015 sur la protection des données à caractère personnel. Journal officiel de la République de Madagascar.",
+  "doi_or_url": "https://www.afapdp.org/wp-content/uploads/2018/05/Madagascar-L-2014-038-du-09-01-15-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+  "year": "2015",
+  "type": "texte de loi",
+  "language": "en",
+  "open_access": false,
+  "how_found": "lacunes.md signalait l'existence et le contenu de cette loi comme non vérifiés. Recherche web « Madagascar loi n° 2014-038 protection des données à caractère personnel texte officiel » le 4 septembre 2026. Le texte intégral (PDF de 26 pages, 443 Ko) est hébergé par l'Association francophone des autorités de protection des données personnelles à l'URL indiquée : la récupération confirme l'existence et le volume du document, mais le PDF n'est pas extractible en texte par l'outil. Les éléments cités (intitulé exact, promulgation le 9 janvier 2015, publication au Journal officiel le 9 juin 2015, principes de licéité, de finalité, de proportionnalité et de sécurité, interdiction de principe du traitement des données sensibles, institution de la Commission malgache de l'informatique et des libertés, structurée par le décret n° 2023-1541 du 6 décembre 2023) ont été recoupés sur https://www.clym.io/regulations/law-no-2014-038-on-the-protection-of-personal-data-madagascar (consulté le 4 septembre 2026). Les pages digital.gov.mg et webapps.ilo.org/dyn/natlex (fiche NATLEX n° 99469) sont référencées pour ce texte mais renvoient respectivement un refus de connexion et un HTTP 403 depuis cet environnement : à rouvrir manuellement avant toute citation article par article.",
+  "origins": [
+   "module:16-kit-de-sensibilisation"
+  ],
+  "modules_cibles": [
+   "16-kit-de-sensibilisation"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "oms2023suicidemedias",
+  "apa7": "Organisation mondiale de la Santé. (2023). Preventing suicide: A resource for media professionals, update 2023. Organisation mondiale de la Santé.",
+  "doi_or_url": "https://www.who.int/publications/i/item/9789240076846",
+  "year": "2023",
+  "type": "recommandation officielle",
+  "language": "en",
+  "open_access": false,
+  "how_found": "conventions.md impose d'appliquer les « recommandations OMS 2023 » sur la communication autour du suicide, mais aucune clé correspondante ne figure dans refs-index.txt. Page éditeur de l'OMS consultée par WebFetch le 4 septembre 2026 : titre exact, éditeur, année 2023 et ISBN 978-92-4-007684-6 confirmés, ainsi que les recommandations principales (privilégier les récits de personnes ayant traversé une crise suicidaire, éviter la diffusion large de récits de décès par suicide, qui sont suivis d'une augmentation des suicides).",
+  "origins": [
+   "module:16-kit-de-sensibilisation"
+  ],
+  "modules_cibles": [
+   "16-kit-de-sensibilisation"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "sosvillages2026mdg",
+  "apa7": "SOS Children's Villages International. (s. d.). SOS Children's Villages in Madagascar. Consulté le 4 septembre 2026, à l'adresse https://www.sos-childrensvillages.org/where-we-help/africa/madagascar",
+  "doi_or_url": "https://www.sos-childrensvillages.org/where-we-help/africa/madagascar",
+  "year": "",
+  "type": "page web",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Structure demandée par le cahier des charges ; URL relevée dans ressources-locales.json puis page récupérée par WebFetch le 4 septembre 2026. La page confirme une présence à Madagascar depuis 1986 et le périmètre d'action (prévention familiale, prise en charge alternative, éducation, accès aux soins). Le domaine national www.sos-villages-enfants.mg ne résout pas : il n'est pas cité.",
+  "origins": [
+   "module:17-ressources"
+  ],
+  "modules_cibles": [
+   "17-ressources"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "actioneducation2026",
+  "apa7": "Action Education. (s. d.). Madagascar. Consulté le 4 septembre 2026, à l'adresse https://action-education.org/en/region/africa/madagascar/",
+  "doi_or_url": "https://action-education.org/en/region/africa/madagascar/",
+  "year": "",
+  "type": "page web",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Organisation demandée par le cahier des charges sous son ancien nom Aide et Action ; URL vérifiée dans lacunes.md puis page récupérée par WebFetch le 4 septembre 2026. La page confirme le nom actuel (Action Education, ex-Aide et Action) et les projets malgaches (petite enfance, environnement éducatif et protection, masculinités positives).",
+  "origins": [
+   "module:17-ressources"
+  ],
+  "modules_cibles": [
+   "17-ressources"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "consulatfr2026urgence",
+  "apa7": "Consulat général de France à Antananarivo. (s. d.). En cas d'urgence. Ministère de l'Europe et des Affaires étrangères. Consulté le 4 septembre 2026, à l'adresse https://mg.diplomatie.gouv.fr/en-cas-durgence",
+  "doi_or_url": "https://mg.diplomatie.gouv.fr/en-cas-durgence",
+  "year": "",
+  "type": "page web",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Le cahier des charges impose de ne publier un numéro que s'il repose sur une source datée. Aucun site officiel malgache accessible ne publiait les numéros d'urgence généraux ; cette page institutionnelle, récupérée par WebFetch le 4 septembre 2026, confirme police 17, gendarmerie nationale 119 et sapeurs-pompiers 118 depuis un mobile.",
+  "origins": [
+   "module:17-ressources"
+  ],
+  "modules_cibles": [
+   "17-ressources"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "revahlevy2007",
+  "apa7": "Revah-Levy, A., Birmaher, B., Gasquet, I., & Falissard, B. (2007). The Adolescent Depression Rating Scale (ADRS): A validation study. BMC Psychiatry, 7, 2. https://doi.org/10.1186/1471-244X-7-2",
+  "doi_or_url": "https://doi.org/10.1186/1471-244X-7-2",
+  "year": "2007",
+  "type": "article",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Le cahier des charges demande de citer l'échelle ADRS parmi les outils d'évaluation validés ; aucune référence primaire ne figurait dans refs-index. Métadonnées (titre, auteurs, revue, année, volume, numéro d'article, DOI) confirmées par interrogation de l'API Crossref le 4 septembre 2026.",
+  "origins": [
+   "module:17-ressources"
+  ],
+  "modules_cibles": [
+   "17-ressources"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "mhs2026cdi2",
+  "apa7": "Multi-Health Systems. (s. d.). CDI 2: Children's Depression Inventory, Second Edition. Consulté le 4 septembre 2026, à l'adresse https://storefront.mhs.com/collections/cdi-2",
+  "doi_or_url": "https://storefront.mhs.com/collections/cdi-2",
+  "year": "",
+  "type": "page web",
+  "language": "en",
+  "open_access": false,
+  "how_found": "lacunes.md signale que le CDI-2 est un instrument commercial qui ne doit pas être reproduit ni diffusé librement ; il fallait une source pour l'affirmer. Page de l'éditeur récupérée par WebFetch le 4 septembre 2026 : elle confirme l'édition par Multi-Health Systems, la tarification par passation et la tranche d'âge 7-17 ans.",
+  "origins": [
+   "module:17-ressources"
+  ],
+  "modules_cibles": [
+   "17-ressources"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "grade2008",
+  "apa7": "Guyatt, G. H., Oxman, A. D., Vist, G. E., Kunz, R., Falck-Ytter, Y., Alonso-Coello, P., & Schünemann, H. J. (2008). GRADE: An emerging consensus on rating quality of evidence and strength of recommendations. BMJ, 336(7650), 924-926. https://doi.org/10.1136/bmj.39489.470347.AD",
+  "doi_or_url": "https://doi.org/10.1136/bmj.39489.470347.AD",
+  "year": "2008",
+  "type": "recommandation méthodologique",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Référence indispensable pour justifier honnêtement l'échelle à six niveaux de preuve du site (la page doit dire d'où vient l'idée de graduer la preuve et préciser que son échelle n'est pas une gradation officielle). Métadonnées vérifiées le 4 septembre 2026 par WebFetch sur https://api.crossref.org/works/10.1136/bmj.39489.470347.AD : titre, sept auteurs, revue BMJ, 2008, volume 336, pages 924-926, DOI confirmés.",
+  "origins": [
+   "module:methode-et-limites"
+  ],
+  "modules_cibles": [
+   "methode-et-limites"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "loi2016018",
+  "apa7": "République de Madagascar. (2016). Loi n° 2016-018 du 22 août 2016 relative aux mesures et à la procédure applicables aux enfants en conflit avec la loi. Journal officiel de la République de Madagascar. https://clr.africanchildforum.org/Legislation%20Per%20Country/2018%20Update/Madagascar/madagascar_measuresandprocedureapplicabletochildreninconflictwiththelaw_2016_fr.pdf",
+  "doi_or_url": "https://clr.africanchildforum.org/Legislation%20Per%20Country/2018%20Update/Madagascar/madagascar_measuresandprocedureapplicabletochildreninconflictwiththelaw_2016_fr.pdf",
+  "year": "2016",
+  "type": "texte de loi",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Loi citée dans le brief et non présente dans refs-index (elle n'y figurait qu'indirectement via crc2022). WebSearch « loi n° 2016-018 justice des mineurs Madagascar texte » : titre et date (22 août 2016, « relative aux mesures et à la procédure applicables aux enfants en conflit avec la loi ») concordants sur NATLEX (OIT), Lexxika et l'Assemblée nationale malgache. Le PDF du Child Law Resources de l'African Child Policy Forum a été récupéré avec succès par WebFetch (505,9 Ko, URL vivante au 5 septembre 2026) ; le texte du PDF n'est pas extractible en clair, si bien que les numéros d'articles n'ont PAS pu être vérifiés — la page ne cite donc la loi qu'au niveau de son objet, avec une réserve explicite renvoyant à un juriste malgache. Les PDF de justice.mg (404) et de assemblee-nationale.mg (403) n'étaient pas accessibles.",
+  "origins": [
+   "page:ethique-et-confidentialite"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "newsmada2026cmil",
+  "apa7": "Newsmada. (2026, 30 janvier). Protection des données digitalisées : la Commission malagasy de l'informatique rassure. https://newsmada.com/2026/01/30/protection-des-donnees-digitalisees-la-commission-malagasy-de-linformatique-rassure/",
+  "doi_or_url": "https://newsmada.com/2026/01/30/protection-des-donnees-digitalisees-la-commission-malagasy-de-linformatique-rassure/",
+  "year": "2026",
+  "type": "presse nationale",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Aucune source de refs-index ne documentait l'existence ou le caractère opérationnel de la CMIL, autorité de contrôle prévue par la loi 2014-038. WebSearch « CMIL Madagascar opérationnelle 2025 membres prestation de serment décret 2023-1541 », puis WebFetch de l'article : confirme la création par décret en décembre 2023, le caractère désormais opérationnel de la commission, son président, les droits d'accès, de rectification et d'opposition, l'adhésion en novembre 2025 à l'AFAPDP et le projet de portail de déclaration en ligne pour 2026. Source de presse nationale, d'où la pastille « preuve faible ». Les pages de l'Assemblée nationale malgache et de digital.gov.mg n'étaient pas accessibles (403 et connexion refusée).",
+  "origins": [
+   "page:ethique-et-confidentialite"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "oms2000suicideecole",
+  "apa7": "Organisation mondiale de la Santé. (2000). Preventing suicide: A resource for teachers and other school staff (WHO/MNH/MBD/00.3). Organisation mondiale de la Santé. https://www.who.int/publications/i/item/WHO_MNH_MBD_00.3",
+  "doi_or_url": "https://www.who.int/publications/i/item/WHO_MNH_MBD_00.3",
+  "year": "2000",
+  "type": "recommandation officielle",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Le brief demande une section sur la postvention après un décès dans une école ; refs-index ne contient que le guide OMS 2023 destiné aux médias (oms2023suicidemedias), qui ne traite pas de la conduite scolaire. WebSearch « Preventing suicide: a resource for teachers and other school staff WHO iris » puis WebFetch de la fiche officielle who.int : titre, année (2000), éditeur et cote WHO/MNH/MBD/00.3 confirmés, ainsi que la mention explicite « how to act when there is a suicide attempt or suicide in the school community ». Document ancien : la page le présente comme un cadre de principes à adapter localement, et l'accompagne d'une pastille « Lacune » sur l'absence de protocole national malgache.",
+  "origins": [
+   "page:ethique-et-confidentialite"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "unicefethique",
+  "apa7": "UNICEF. (s. d.). Ethical reporting guidelines: Key principles for responsible reporting on children and young people. UNICEF. Consulté le 5 septembre 2026, à l'adresse https://www.unicef.org/media/reporting-guidelines",
+  "doi_or_url": "https://www.unicef.org/media/reporting-guidelines",
+  "year": "",
+  "type": "recommandation officielle",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Aucune source de refs-index ne couvrait la déontologie des images et des témoignages d'enfants, exigée par le brief. WebSearch « UNICEF Ethical Reporting Guidelines principles for ethical reporting on children consent images » : les extraits retournés citent textuellement les principes (consentement éclairé, changement de nom et occultation de l'identité visuelle, interdiction de publier une image mettant en danger l'enfant, sa fratrie ou ses camarades même identité modifiée, contexte exact). WebFetch direct de unicef.org, de la page miroir unicef.org/montenegro et du PDF bilingue hébergé par media-diversity.org : 403 ou PDF non extractible. Le contenu est donc confirmé par les extraits indexés de deux pages unicef.org distinctes, mais n'a pas pu être relu intégralement — la page n'en tire que des principes généraux, sans citation littérale ni numérotation.",
+  "origins": [
+   "page:ethique-et-confidentialite"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "ccbyncsa4",
+  "apa7": "Creative Commons. (s. d.). Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0). Consulté le 5 septembre 2026, à l'adresse https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr",
+  "doi_or_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr",
+  "year": "",
+  "type": "page web institutionnelle",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Le brief impose une section « licence CC BY-NC-SA 4.0 et attribution » ; aucune clé de refs-index ne couvrait les licences libres. WebFetch direct du résumé officiel en français de la licence : nom officiel complet, organisation émettrice et les trois conditions (Attribution avec lien vers la licence et signalement des modifications ; Pas d'Utilisation Commerciale ; Partage dans les Mêmes Conditions) vérifiés mot à mot sur creativecommons.org.",
+  "origins": [
+   "page:ethique-et-confidentialite"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "paez2017",
+  "apa7": "Paez, A. (2017). Gray literature: An important resource in systematic reviews. Journal of Evidence-Based Medicine, 10(3), 233-240. https://doi.org/10.1111/jebm.12266",
+  "doi_or_url": "https://doi.org/10.1111/jebm.12266",
+  "year": "2017",
+  "type": "article de revue",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Métadonnées confirmées via l'API Crossref (https://api.crossref.org/works/10.1111/jebm.12266) le 5 septembre 2026 : auteur Arsenio Paez, Journal of Evidence-Based Medicine, 2017, vol. 10, n° 3, p. 233-240.",
+  "origins": [
+   "glossaire:litterature-grise"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "kapp2013",
+  "apa7": "Kapp, S. K., Gillespie-Lynch, K., Sherman, L. E., et Hutman, T. (2013). Deficit, difference, or both? Autism and neurodiversity. Developmental Psychology, 49(1), 59-71. https://doi.org/10.1037/a0028353",
+  "doi_or_url": "https://doi.org/10.1037/a0028353",
+  "year": "2013",
+  "type": "article de revue",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Métadonnées confirmées via l'API Crossref (https://api.crossref.org/works/10.1037/a0028353) le 5 septembre 2026 : Kapp, Gillespie-Lynch, Sherman et Hutman, Developmental Psychology, 2013, vol. 49, n° 1, p. 59-71.",
+  "origins": [
+   "glossaire:neurodiversite"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "whoexpandnet2010",
+  "apa7": "Organisation mondiale de la Santé et ExpandNet. (2010). Nine steps for developing a scaling-up strategy. Organisation mondiale de la Santé. https://www.who.int/publications/i/item/9789241500319",
+  "doi_or_url": "https://www.who.int/publications/i/item/9789241500319",
+  "year": "2010",
+  "type": "rapport institutionnel",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche web « ExpandNet OMS mise à l'échelle neuf étapes », puis page de publication de l'OMS consultée le 5 septembre 2026 : le titre « Nine steps for developing a scaling-up strategy » y est confirmé (ISBN 978 92 4 150031 9). La notice figure aussi dans le dépôt institutionnel IRIS de l'OMS (handle 10665/44432).",
+  "origins": [
+   "glossaire:passage-a-l-echelle"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "heyne2019",
+  "apa7": "Heyne, D., Gren-Landell, M., Melvin, G., et Gentle-Genitty, C. (2019). Differentiation between school attendance problems: Why and how? Cognitive and Behavioral Practice, 26(1), 8-34. https://doi.org/10.1016/j.cbpra.2018.03.006",
+  "doi_or_url": "https://doi.org/10.1016/j.cbpra.2018.03.006",
+  "year": "2019",
+  "type": "article de revue",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche web sur le titre exact ; référence complète confirmée par la notice du dépôt institutionnel de Monash University (research.monash.edu) et le dépôt en accès libre de l'Université d'Indiana (scholarworks.indianapolis.iu.edu/bitstream/1805/17089/1/Heyne-2018-Differentiation.pdf), consultés le 5 septembre 2026. La page ScienceDirect renvoie un code 403 aux robots mais l'article y est bien référencé.",
+  "origins": [
+   "glossaire:refus-scolaire-anxieux"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "icmje_peerreview",
+  "apa7": "International Committee of Medical Journal Editors. (s. d.). Responsibilities in the submission and peer-review process. Dans Recommendations for the conduct, reporting, editing, and publication of scholarly work in medical journals. Consulté le 5 septembre 2026, à l'adresse https://www.icmje.org/recommendations/browse/roles-and-responsibilities/responsibilities-in-the-submission-and-peer-peview-process.html",
+  "doi_or_url": "https://www.icmje.org/recommendations/browse/roles-and-responsibilities/responsibilities-in-the-submission-and-peer-peview-process.html",
+  "year": "",
+  "type": "page institutionnelle",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Page consultée directement le 5 septembre 2026 : elle contient la définition « Peer review is the critical assessment of manuscripts submitted to journals by experts who are usually not part of the editorial staff ». L'URL comporte une coquille d'origine (peer-peview) mais est bien l'adresse officielle en ligne.",
+  "origins": [
+   "glossaire:revue-par-les-pairs"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "iiep2025madagascar",
+  "apa7": "Institut international de planification de l'éducation. (2025, 15 janvier). In Madagascar, educational planners embrace the future. IIPE-UNESCO. https://www.iiep.unesco.org/en/articles/madagascar-educational-planners-embrace-future",
+  "doi_or_url": "https://www.iiep.unesco.org/en/articles/madagascar-educational-planners-embrace-future",
+  "year": "2025",
+  "type": "page institutionnelle",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Recherche web sur l'organisation déconcentrée du système éducatif malgache, puis page consultée par WebFetch le 5 septembre 2026 : l'article, publié par l'IIPE-UNESCO, mentionne explicitement les DREN et « the CISCO (school district level) ». Les pages du ministère malgache education.gov.mg et la version française de cet article n'étaient pas accessibles.",
+  "origins": [
+   "glossaire:circonscription-scolaire-cisco"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "paley2022",
+  "apa7": "Paley, B., et Hajal, N. J. (2022). Conceptualizing emotion regulation and coregulation as family-level phenomena. Clinical Child and Family Psychology Review, 25(1), 19-43. https://doi.org/10.1007/s10567-022-00378-4",
+  "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8801237/",
+  "year": "2022",
+  "type": "article de revue",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche web sur la définition scientifique de la corégulation, puis texte intégral consulté sur PubMed Central le 5 septembre 2026 : titre, auteurs, revue, volume, pages, DOI et définition de la corégulation vérifiés directement sur la page.",
+  "origins": [
+   "glossaire:co-regulation"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "funder2019",
+  "apa7": "Funder, D. C., et Ozer, D. J. (2019). Evaluating effect size in psychological research: Sense and nonsense. Advances in Methods and Practices in Psychological Science, 2(2), 156-168. https://doi.org/10.1177/2515245919847202",
+  "doi_or_url": "https://doi.org/10.1177/2515245919847202",
+  "year": "2019",
+  "type": "article de revue",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche web sur les repères d'interprétation de r, puis copie du texte intégral consultée le 5 septembre 2026 sur le serveur de l'Université de Colombie-Britannique : titre, auteurs, revue, volume, pages, DOI et seuils 0,10 / 0,20 / 0,30 / 0,40 vérifiés dans le document. La page de l'éditeur SAGE renvoie une erreur 403 aux robots.",
+  "origins": [
+   "glossaire:coefficient-de-correlation"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "eduscolintervenants",
+  "apa7": "Éduscol. (s. d.). Le recours aux intervenants extérieurs durant le temps scolaire. Ministère de l'Éducation nationale, Direction générale de l'enseignement scolaire. https://eduscol.education.gouv.fr/5076/le-recours-aux-intervenants-exterieurs-durant-le-temps-scolaire",
+  "doi_or_url": "https://eduscol.education.gouv.fr/5076/le-recours-aux-intervenants-exterieurs-durant-le-temps-scolaire",
+  "year": "",
+  "type": "page institutionnelle",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Recherche web le 5 septembre 2026 sur le cadre des interventions associatives en milieu scolaire. Existence de la page confirmée par la redirection 301 de l'ancienne adresse eduscol.education.fr/2271 vers cette URL ; le contenu — agrément académique de cinq ans renouvelable, autorisation préalable du directeur ou du chef d'établissement, conventions signées définissant axes de travail et modalités de suivi — a été vérifié via l'index de recherche, l'accès direct étant refusé aux robots par le pare-feu du site.",
+  "origins": [
+   "glossaire:convention-partenariat-ecole"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "doifoundation2025handbook",
+  "apa7": "DOI Foundation. (2025). DOI handbook (version de décembre 2025). DOI Foundation. https://www.doi.org/the-identifier/resources/handbook/",
+  "doi_or_url": "https://www.doi.org/the-identifier/resources/handbook/",
+  "year": "2025",
+  "type": "document technique",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Page officielle du site doi.org ouverte par WebFetch le 5 septembre 2026 : titre « DOI Handbook », éditeur DOI Foundation, version de décembre 2025, mention d'une révision en cours pour tenir compte de la norme ISO 26324:2022. La page « What is a DOI ? » du même site a également été ouverte et confirme la définition et la normalisation ISO 26324.",
+  "origins": [
+   "glossaire:doi"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "krumpal2013",
+  "apa7": "Krumpal, I. (2013). Determinants of social desirability bias in sensitive surveys: A literature review. Quality & Quantity, 47(4), 2025-2047. https://doi.org/10.1007/s11135-011-9640-9",
+  "doi_or_url": "https://doi.org/10.1007/s11135-011-9640-9",
+  "year": "2013",
+  "type": "article de revue",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Métadonnées Crossref interrogées le 5 septembre 2026 à l'adresse https://api.crossref.org/works/10.1007/s11135-011-9640-9 : titre « Determinants of social desirability bias in sensitive surveys: a literature review », auteur Ivar Krumpal, revue Quality & Quantity, volume 47, numéro 4, pages 2025-2047. Le DOI résout vers la page éditeur Springer.",
+  "origins": [
+   "glossaire:desirabilite-sociale"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "corrigan2011",
+  "apa7": "Corrigan, F. M., Fisher, J. J., et Nutt, D. J. (2011). Autonomic dysregulation and the Window of Tolerance model of the effects of complex emotional trauma. Journal of Psychopharmacology, 25(1), 17-25. https://doi.org/10.1177/0269881109354930",
+  "doi_or_url": "https://doi.org/10.1177/0269881109354930",
+  "year": "2011",
+  "type": "article de revue",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Métadonnées Crossref interrogées le 5 septembre 2026 à l'adresse https://api.crossref.org/works/10.1177/0269881109354930 : titre, auteurs F. M. Corrigan, J. J. Fisher et D. J. Nutt, Journal of Psychopharmacology, volume 25, numéro 1, pages 17-25, mise en ligne le 21 janvier 2010 pour le numéro de janvier 2011. Le DOI résout vers la page SAGE de l'article. L'attribution du modèle à Daniel Siegel, dans The developing mind (1999), a été recoupée sur plusieurs ressources cliniques concordantes.",
+  "origins": [
+   "glossaire:fenetre-de-tolerance"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "holzer2006",
+  "apa7": "Holzer, L., et Halfon, O. (2006). Le refus scolaire. Archives de Pédiatrie, 13(9), 1252-1258. https://doi.org/10.1016/j.arcped.2006.05.010",
+  "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S0929693X06003319",
+  "year": "2006",
+  "type": "article de revue",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche web du 5 septembre 2026 sur « Holzer Halfon 2006 Le refus scolaire Archives de Pediatrie » ; notice bibliographique confirmee par le depot institutionnel IRIS de l'Universite de Lausanne, https://iris.unil.ch/entities/publication/590d67fb-78a9-47ac-8fb7-86f64461cabb, et par la fiche ScienceDirect pii S0929693X06003319, qui donnent volume 13, numero 9, pages 1252-1258.",
+  "origins": [
+   "glossaire:refus-scolaire-anxieux"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "kelly2014",
+  "apa7": "Kelly, J., Sadeghieh, T., et Adeli, K. (2014). Peer review in scientific publications: Benefits, critiques, & a survival guide. EJIFCC, 25(3), 227-243.",
+  "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4975196/",
+  "year": "2014",
+  "type": "article de revue",
+  "language": "fr",
+  "open_access": false,
+  "how_found": "Recherche web du 5 septembre 2026 sur « Kelly Sadeghieh Adeli 2014 Peer review in scientific publications EJIFCC » ; notice confirmee par PubMed, PMID 27683470, et par PubMed Central, PMCID PMC4975196, article en acces libre publie le 24 octobre 2014, volume 25, numero 3, pages 227-243.",
+  "origins": [
+   "glossaire:revue-par-les-pairs"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "lexpress2018zap",
+  "apa7": "L'Express de Madagascar. (2018, 3 avril). Encadrement – Rude mission des chefs ZAP dans la brousse. https://lexpress.mg/03/04/2018/encadrement-rude-mission-des-chefs-zap-dans-la-brousse/",
+  "doi_or_url": "https://lexpress.mg/03/04/2018/encadrement-rude-mission-des-chefs-zap-dans-la-brousse/",
+  "year": "2018",
+  "type": "article de presse",
+  "language": "en",
+  "open_access": false,
+  "how_found": "Recherche web sur « chef ZAP Madagascar zone administrative et pédagogique », puis page ouverte et vérifiée par WebFetch le 5 septembre 2026 : titre exact, date (mardi 3 avril 2018), nombre de 1 769 chefs ZAP réunis à Antananarivo, rôle de collecte de données et de remontée vers la CISCO confirmés.",
+  "origins": [
+   "glossaire:zone-administrative-et-pedagogique"
+  ],
+  "modules_cibles": [],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "actutana2017police",
+  "apa7": "Actutana. (2017, 13 juillet). <i>117 : numéro unique pour appeler la Police</i>. https://actutana.com/depeche/117-numero-unique-pour-appeler-la-police/",
+  "doi_or_url": "https://actutana.com/depeche/117-numero-unique-pour-appeler-la-police/",
+  "year": "2017",
+  "type": "presse",
+  "language": "fr",
+  "open_access": true,
+  "how_found": "vérification numéros d'urgence / statut OPIC, 5 septembre 2026",
+  "origins": [
+   "fix_117"
+  ],
+  "modules_cibles": [
+   "14-demander-de-l-aide",
+   "17-ressources"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "mada360_2026urgences",
+  "apa7": "Mada360. (2026). <i>Annuaire des services essentiels à Antananarivo et Madagascar (2026) : santé, banques, ambassades, urgences</i>. Consulté le 5 septembre 2026, à l'adresse https://www.mada360.mg/guide/services-madagascar/",
+  "doi_or_url": "https://www.mada360.mg/guide/services-madagascar/",
+  "year": "2026",
+  "type": "site",
+  "language": "fr",
+  "open_access": true,
+  "how_found": "vérification numéros d'urgence / statut OPIC, 5 septembre 2026",
+  "origins": [
+   "fix_117"
+  ],
+  "modules_cibles": [
+   "14-demander-de-l-aide",
+   "17-ressources"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ },
+ {
+  "key": "untc_opic",
+  "apa7": "Nations Unies. (s. d.). <i>Chapitre IV.11.d : Protocole facultatif à la Convention relative aux droits de l'enfant établissant une procédure de présentation de communications</i>. Recueil des Traités des Nations Unies. Consulté le 5 septembre 2026, à l'adresse https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-d&chapter=4&clang=_fr",
+  "doi_or_url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-d&chapter=4&clang=_fr",
+  "year": "",
+  "type": "officiel",
+  "language": "fr",
+  "open_access": true,
+  "how_found": "vérification numéros d'urgence / statut OPIC, 5 septembre 2026",
+  "origins": [
+   "fix_117"
+  ],
+  "modules_cibles": [
+   "14-demander-de-l-aide",
+   "17-ressources"
+  ],
+  "discipline": "",
+  "what_it_teaches": "",
+  "evidence_level": ""
+ }
+]

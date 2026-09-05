@@ -1,0 +1,4388 @@
+{
+ "frise-developpement-0-18": {
+  "type": "timeline",
+  "scroll": true,
+  "title": "Quatre lignes de développement, de 0 à 18 ans",
+  "desc": "Frise horizontale de 0 à 18 ans avec quatre bandes : corps (marche vers 1 an, puberté entre 8 et 14 ans), pensée (intelligence sensori-motrice 0-2 ans, pensée préopératoire 2-6 ans, opérations concrètes 6-12 ans, raisonnement sur des hypothèses à partir de 11-12 ans, d'après Piaget nuancé par Barrouillet), émotions et relations (attachement 0-2 ans, contrôle avec effort 3-7 ans, théorie de l'esprit 4-5 ans, comparaison sociale 6-12 ans, statut dans le groupe 10-12 ans, influence des pairs 12-18 ans), autonomie (premiers choix 3-6 ans, responsabilités 6-12 ans, identité et affiliations 15-18 ans). Les âges sont des moyennes indicatives, pas des normes à atteindre.",
+  "axis": {
+   "start": 0,
+   "end": 18,
+   "ticks": [
+    0,
+    2,
+    6,
+    10,
+    12,
+    15,
+    18
+   ],
+   "format": "{} ans"
+  },
+  "zones": [
+   {
+    "from": 6,
+    "to": 10,
+    "label": "6-10",
+    "tone": "s"
+   },
+   {
+    "from": 10,
+    "to": 12,
+    "label": "10-12",
+    "tone": "p"
+   },
+   {
+    "from": 12,
+    "to": 15,
+    "label": "12-15",
+    "tone": "b"
+   },
+   {
+    "from": 15,
+    "to": 18,
+    "label": "15-18",
+    "tone": "a"
+   }
+  ],
+  "lane_height": 56,
+  "lanes": [
+   {
+    "title": "Corps",
+    "tone": "",
+    "events": [
+     {
+      "at": 1,
+      "label": "marche"
+     },
+     {
+      "at": 8,
+      "label": "puberté : début entre 8 et 14 ans"
+     },
+     {
+      "at": 14,
+      "label": "fin de la poussée"
+     }
+    ]
+   },
+   {
+    "title": "Pensée",
+    "tone": "p",
+    "events": [
+     {
+      "at": 0.2,
+      "label": "sens et action"
+     },
+     {
+      "at": 2,
+      "label": "images et mots"
+     },
+     {
+      "at": 6,
+      "label": "logique du concret"
+     },
+     {
+      "at": 11.5,
+      "label": "raisonner sur des hypothèses"
+     }
+    ]
+   },
+   {
+    "title": "Émotions et relations",
+    "tone": "a",
+    "events": [
+     {
+      "at": 0.3,
+      "label": "attachement"
+     },
+     {
+      "at": 3,
+      "label": "contrôle de soi"
+     },
+     {
+      "at": 4.5,
+      "label": "théorie de l'esprit"
+     },
+     {
+      "at": 10,
+      "label": "statut dans le groupe"
+     },
+     {
+      "at": 13,
+      "label": "poids des pairs"
+     }
+    ]
+   },
+   {
+    "title": "Autonomie",
+    "tone": "s",
+    "events": [
+     {
+      "at": 3,
+      "label": "premiers choix"
+     },
+     {
+      "at": 7,
+      "label": "responsabilités"
+     },
+     {
+      "at": 15,
+      "label": "identité, affiliations"
+     }
+    ]
+   }
+  ],
+  "note": "Âges moyens indicatifs, pas des normes à atteindre : chaque enfant suit la même séquence à son rythme (Piaget ; Barrouillet, 2015 ; Bowlby ; Wellman et al., 2001 ; Pouwels et al., 2018)."
+ },
+ "cerveau-deux-vitesses": {
+  "type": "curves",
+  "title": "Les deux vitesses du cerveau adolescent (schéma qualitatif)",
+  "desc": "Deux courbes sans unité sur un axe des âges de 10 à 25 ans : la sensibilité à la récompense et au regard des pairs monte vite dès la puberté, culmine vers 15-17 ans puis redescend lentement ; le contrôle de soi monte lentement et régulièrement jusque vers 20-25 ans. L'écart entre les deux, entre 13 et 20 ans, est étiqueté écart de maturité. Schéma qualitatif d'après le modèle à deux systèmes (Shulman et al., 2016 ; Icenogle et al., 2019) : il explique une vulnérabilité et un besoin de cadre, il ne déresponsabilise personne.",
+  "x": {
+   "start": 10,
+   "end": 25,
+   "ticks": [
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    25
+   ],
+   "label": "âge (années)"
+  },
+  "y_label": "niveau (sans unité)",
+  "bands": [
+   {
+    "from": 13,
+    "to": 20,
+    "label": "écart de maturité"
+   }
+  ],
+  "series": [
+   {
+    "label": "sensibilité à la récompense et aux pairs",
+    "points": [
+     [
+      10,
+      20
+     ],
+     [
+      12,
+      45
+     ],
+     [
+      14,
+      80
+     ],
+     [
+      16,
+      92
+     ],
+     [
+      18,
+      85
+     ],
+     [
+      20,
+      72
+     ],
+     [
+      22,
+      62
+     ],
+     [
+      25,
+      55
+     ]
+    ]
+   },
+   {
+    "label": "contrôle de soi",
+    "points": [
+     [
+      10,
+      18
+     ],
+     [
+      12,
+      26
+     ],
+     [
+      14,
+      36
+     ],
+     [
+      16,
+      48
+     ],
+     [
+      18,
+      60
+     ],
+     [
+      20,
+      72
+     ],
+     [
+      22,
+      82
+     ],
+     [
+      25,
+      90
+     ]
+    ]
+   }
+  ],
+  "note": "Schéma qualitatif, pas des mesures. Vers 16 ans, les capacités de raisonnement approchent celles de l'adulte ; la maturité psychosociale progresse encore entre 18 et 21 ans (Icenogle et al., 2019). Il explique une vulnérabilité et un besoin de cadre ; il ne déresponsabilise personne."
+ },
+ "normal-vs-alerte": {
+  "type": "grid",
+  "title": "Comportement attendu ou signal d'alerte : ce n'est pas le comportement qui alerte, c'est la trajectoire",
+  "desc": "Grille par tranche d'âge : comportements attendus à 2-5 ans (colères, morsures, peurs du noir), 6-8 ans (mensonges, disputes, peur de l'école les premiers jours), 9-12 ans (souci de l'apparence, secrets, contestation des règles), 13-18 ans (opposition, besoin d'intimité, coucher tardif). Pour tous les âges, trois critères d'alerte communs : cela dure dans le temps, l'enfant perd des acquis déjà installés, le sommeil, l'école, les repas ou les relations en souffrent. Règle d'orientation : des signes dans au moins deux domaines de vie, qui durent, justifient un avis (HAS, 2020).",
+  "cols": [
+   "Comportements attendus à cet âge",
+   "Ce qui doit alerter, à tout âge"
+  ],
+  "rows": [
+   {
+    "label": "2-5 ans",
+    "cells": [
+     "Colères, morsures, peurs du noir",
+     {
+      "text": "Cela dure dans le temps",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "6-8 ans",
+    "cells": [
+     "Mensonges, disputes, peur de l'école les premiers jours",
+     {
+      "text": "L'enfant perd des acquis déjà installés",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "9-12 ans",
+    "cells": [
+     "Souci de l'apparence, secrets, contestation des règles",
+     {
+      "text": "Le sommeil, l'école, les repas ou les relations en souffrent",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "13-18 ans",
+    "cells": [
+     "Opposition, besoin d'intimité, coucher tardif",
+     {
+      "text": "Des signes dans au moins deux domaines de vie, qui durent : demander un avis",
+      "tone": "a"
+     }
+    ]
+   }
+  ],
+  "note": "Le comportement seul n'alerte pas ; sa durée, la perte d'acquis et le retentissement sur la vie quotidienne, oui (HAS, 2020 ; OMS, 2025)."
+ },
+ "besoins-cercle": {
+  "type": "columns",
+  "title": "Pas une pyramide : des besoins simultanés",
+  "desc": "Deux panneaux. À gauche, la pyramide de Maslow à cinq étages, barrée : la hiérarchie n'est pas confirmée par les données, les besoins ne se satisfont pas dans l'ordre (Tay et Diener, 2011, enquête dans 123 pays). À droite, un cercle de cinq composantes égales des soins attentifs, simultanées et non empilées : santé, nutrition, sécurité et sûreté, soins bienveillants, possibilités d'apprentissage précoce (OMS, UNICEF et Banque mondiale, 2018), avec au centre trois besoins psychologiques : autonomie, compétence, relation (Ryan et Deci, 2000).",
+  "columns": [
+   {
+    "title": "Pyramide barrée : hiérarchie non confirmée",
+    "tone": "",
+    "items": [
+     "Accomplissement",
+     "Estime",
+     "Appartenance",
+     "Sécurité",
+     "Besoins physiologiques",
+     "—",
+     "Les besoins ne se satisfont pas dans l'ordre : enquête dans 123 pays (Tay et Diener, 2011)"
+    ]
+   },
+   {
+    "title": "Cercle : cinq composantes simultanées",
+    "tone": "s",
+    "items": [
+     "Santé",
+     "Nutrition",
+     "Sécurité et sûreté",
+     "Soins bienveillants",
+     "Possibilités d'apprentissage précoce",
+     "—",
+     "Au centre : autonomie, compétence, relation (Ryan et Deci, 2000)",
+     "Cadre des soins attentifs (OMS, UNICEF, Banque mondiale, 2018)"
+    ]
+   }
+  ],
+  "note": "Simultanés, pas empilés : on n'attend pas qu'un besoin soit comblé pour s'occuper des autres."
+ },
+ "iceberg-besoins": {
+  "type": "iceberg",
+  "title": "Ce que je vois, ce qui se passe dessous",
+  "desc": "Iceberg : au-dessus de la ligne d'eau, ce que l'adulte voit (colère et cris, mensonge, refus d'obéir, repli et silence) ; en dessous, plus grand, ce qui se passe dessous : des émotions (peur, honte, tristesse, jalousie), des besoins (dormir, manger, être en sécurité, être reconnu, décider un peu, réussir quelque chose) et des compétences pas encore là (attendre son tour, perdre, entrer dans un groupe, demander de l'aide, se calmer). Trois questions pour l'adulte : de quoi a-t-il besoin maintenant, qu'est-ce qu'il ressent, qu'est-ce qu'il ne sait pas encore faire. Schéma pédagogique sans valeur diagnostique.",
+  "above_label": "Ce que je vois",
+  "below_label": "Ce qui se passe dessous",
+  "above": [
+   "Colère et cris",
+   "Mensonge",
+   "Refus d'obéir",
+   "Repli et silence"
+  ],
+  "below": [
+   "Émotions : peur, honte, tristesse, jalousie",
+   "Besoins : dormir, manger, être en sécurité",
+   "être reconnu, décider un peu, réussir quelque chose",
+   "Compétences pas encore là : attendre son tour, perdre,",
+   "entrer dans un groupe, demander de l'aide, se calmer"
+  ],
+  "links": [],
+  "note": "Trois questions : de quoi a-t-il besoin maintenant ? qu'est-ce qu'il ressent ? qu'est-ce qu'il ne sait pas encore faire ? Schéma pédagogique, sans valeur diagnostique (Compas et al., 2017 ; Rothbart, 2007)."
+ },
+ "calendrier-puberte": {
+  "type": "timeline",
+  "title": "La puberté n'arrive pas au même moment pour tout le monde",
+  "desc": "Deux bandes sur un axe de 7 à 18 ans : chez les filles, le début de la puberté se situe en moyenne entre 8 et 13 ans ; chez les garçons, entre 9 et 14 ans ; le processus se poursuit plusieurs années. Dans une même classe de 11 ans, certains ont déjà terminé leur poussée, d'autres n'ont pas commencé. Être en avance ou en retard sur son groupe expose davantage aux moqueries, à un regard sexualisé et aux difficultés psychologiques (Patton et Viner, 2007 ; Sawyer et al., 2018).",
+  "axis": {
+   "start": 7,
+   "end": 18,
+   "ticks": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   "format": "{}"
+  },
+  "lane_height": 52,
+  "lanes": [
+   {
+    "title": "Filles : début entre 8 et 13 ans, puis plusieurs années",
+    "tone": "a",
+    "events": [
+     {
+      "at": 8,
+      "label": "début possible"
+     },
+     {
+      "at": 13,
+      "label": "début tardif"
+     }
+    ]
+   },
+   {
+    "title": "Garçons : début entre 9 et 14 ans, puis plusieurs années",
+    "tone": "p",
+    "events": [
+     {
+      "at": 9,
+      "label": "début possible"
+     },
+     {
+      "at": 14,
+      "label": "début tardif"
+     }
+    ]
+   }
+  ],
+  "milestones": [
+   {
+    "at": 11,
+    "label": "Dans une classe de 11 ans : certains ont fini, d'autres n'ont pas commencé",
+    "tone": "b"
+   }
+  ],
+  "note": "Être en avance ou en retard sur son groupe expose davantage aux moqueries, à un regard sexualisé et aux difficultés psychologiques (Patton et Viner, 2007 ; Sawyer et al., 2018)."
+ },
+ "fourche-comportement": {
+  "type": "fork",
+  "title": "Deux lectures du même comportement, deux résultats",
+  "desc": "Un élève de 9 ans refuse de rendre son cahier et répond mal. Lecture par le caractère : je vois un enfant insolent, je punis physiquement ou j'humilie devant la classe, il obéit sur l'instant ; à moyen terme, plus d'agressivité et de troubles du comportement, aucun gain durable d'obéissance, et l'enfant apprend que le plus fort a le droit de faire mal (Gershoff et Grogan-Kaylor, 2016 ; Heilmann et al., 2021). Lecture par le besoin : je vois un enfant qui ne veut pas montrer un cahier vide, je l'écarte du regard du groupe, je nomme l'émotion, je demande ce qui bloque, je pose une règle annoncée et une réparation ; à moyen terme, la règle tient, l'enfant sait quoi refaire, le lien est préservé (Jeong et al., 2021).",
+  "root": {
+   "title": "Un élève de 9 ans refuse de rendre son cahier et répond mal",
+   "lines": [],
+   "tone": "p"
+  },
+  "branches": [
+   {
+    "title": "Lecture par le caractère",
+    "tone": "",
+    "lines": [
+     "Je vois un enfant insolent → je punis physiquement ou j'humilie devant la classe → il obéit sur l'instant.",
+     "À moyen terme : plus d'agressivité, aucun gain durable, et l'enfant apprend que le plus fort a le droit de faire mal (Gershoff et Grogan-Kaylor, 2016 ; Heilmann et al., 2021)."
+    ]
+   },
+   {
+    "title": "Lecture par le besoin",
+    "tone": "s",
+    "lines": [
+     "Je vois un enfant qui ne veut pas montrer un cahier vide → je l'écarte du regard du groupe, je nomme l'émotion, je demande ce qui bloque → règle annoncée et réparation.",
+     "À moyen terme : la règle tient, l'enfant sait quoi refaire, le lien est préservé (Jeong et al., 2021)."
+    ]
+   }
+  ],
+  "note": "Le contraste tient aux conséquences mesurées, pas à un jugement sur l'adulte."
+ },
+ "stress-tampon": {
+  "type": "columns",
+  "title": "Stress positif, stress tolérable, stress toxique : ce qui change, c'est la protection",
+  "desc": "Trois colonnes. Stress positif : brève difficulté surmontée, montée modérée de l'activation et retour rapide au calme, un adulte présent. Stress tolérable : événement grave amorti par des adultes soutenants, montée forte, retour plus lent mais complet. Stress toxique : adversité prolongée sans protection relationnelle, activation qui ne redescend pas, place de l'adulte vide. Ce n'est pas l'événement seul, c'est l'événement moins la protection relationnelle (Harvard Center on the Developing Child ; Masten et Barnes, 2018 ; Bethell et al., 2019).",
+  "columns": [
+   {
+    "title": "Stress positif",
+    "tone": "s",
+    "items": [
+     "Brève difficulté surmontée",
+     "Activation modérée, retour rapide au calme",
+     "Un adulte présent"
+    ]
+   },
+   {
+    "title": "Stress tolérable",
+    "tone": "a",
+    "items": [
+     "Événement grave, amorti",
+     "Activation forte, retour plus lent mais complet",
+     "Des adultes qui soutiennent : le tampon"
+    ]
+   },
+   {
+    "title": "Stress toxique",
+    "tone": "b",
+    "items": [
+     "Adversité prolongée",
+     "Activation qui ne redescend pas",
+     "Place de l'adulte vide"
+    ]
+   }
+  ],
+  "note": "Ce n'est pas l'événement seul, c'est l'événement moins la protection relationnelle : un adulte fiable transforme un stress potentiellement toxique en stress tolérable (Harvard Center on the Developing Child ; Masten et Barnes, 2018)."
+ },
+ "de-l-evenement-a-la-trace": {
+  "type": "chain",
+  "title": "De l'événement à la trace : quatre temps, et ce que fait l'adulte",
+  "desc": "Chaîne en quatre temps. L'événement : l'adulte sécurise et arrête l'exposition. Réaction immédiate normale, jours 0 à 7 : sursauts, sommeil perturbé, images qui reviennent, repli ou agitation ; l'adulte écoute sans forcer. Réorganisation, semaines 2 à 4 : les signes s'atténuent chez la majorité des enfants ; l'adulte restaure les routines. Persistance au-delà d'un mois : seuil d'orientation vers un professionnel (NICE, 2018 ; Inserm, 2020 ; Trickey et al., 2012).",
+  "steps": [
+   {
+    "title": "1. L'événement",
+    "tone": "b",
+    "lines": [
+     "Adulte : sécuriser, arrêter l'exposition"
+    ]
+   },
+   {
+    "title": "2. Jours 0 à 7",
+    "tone": "a",
+    "lines": [
+     "Sursauts, sommeil, images qui reviennent, repli ou agitation : réaction normale",
+     "Adulte : écouter sans forcer"
+    ]
+   },
+   {
+    "title": "3. Semaines 2 à 4",
+    "tone": "",
+    "lines": [
+     "Les signes s'atténuent chez la majorité",
+     "Adulte : restaurer les routines"
+    ]
+   },
+   {
+    "title": "4. Au-delà d'un mois",
+    "tone": "p",
+    "lines": [
+     "Seuil d'orientation",
+     "Adulte : orienter vers un professionnel"
+    ]
+   }
+  ],
+  "note": "La majorité des enfants exposés récupèrent avec le soutien de l'entourage ; la persistance au-delà d'un mois est le repère d'orientation (NICE, 2018 ; Inserm, 2020 ; Trickey et al., 2012 ; OMS, 2011)."
+ },
+ "dose-ene": {
+  "type": "grid",
+  "title": "Effet dose des expériences négatives de l'enfance : quatre expériences ou plus, comparées à aucune",
+  "desc": "Grille en quatre bandes de rapports de cotes (Hughes et al., 2017, méta-analyse de 37 études et 253 719 participants). Rapport de cotes inférieur à 2 : inactivité physique, surpoids ou obésité, diabète. Entre 2 et 3 : tabagisme, alcool excessif, mauvaise santé perçue, cancer, maladie cardiaque, maladie respiratoire. Entre 3 et 6 : conduites sexuelles à risque, maladie mentale, usage problématique d'alcool. Supérieur à 7 : usage problématique de drogues, violence interpersonnelle, violence auto-infligée. Un score élevé ne prédit pas le destin d'un enfant : ce sont des risques de population, pas un test individuel.",
+  "cols": [
+   "Rapport de cotes < 2",
+   "Entre 2 et 3",
+   "Entre 3 et 6",
+   "Supérieur à 7"
+  ],
+  "rows": [
+   {
+    "label": "Ce qui est plus fréquent",
+    "cells": [
+     {
+      "text": "Inactivité physique, surpoids ou obésité, diabète",
+      "tone": ""
+     },
+     {
+      "text": "Tabagisme, alcool excessif, mauvaise santé perçue, cancer, maladie cardiaque, maladie respiratoire",
+      "tone": "a"
+     },
+     {
+      "text": "Conduites sexuelles à risque, maladie mentale, usage problématique d'alcool",
+      "tone": "a"
+     },
+     {
+      "text": "Usage problématique de drogues, violence interpersonnelle, violence auto-infligée",
+      "tone": "b"
+     }
+    ]
+   }
+  ],
+  "note": "Hughes et al. (2017) : risques de population, rétrospectifs et auto-déclarés. Un score élevé ne prédit pas le destin d'un enfant ; le score n'est pas un outil de tri individuel."
+ },
+ "cercles-resilience": {
+  "type": "rings",
+  "title": "Où se fabrique la résilience",
+  "desc": "Cinq cercles emboîtés, l'influence circulant dans les deux sens. Au centre, l'enfant : autorégulation, sentiment d'efficacité, sens donné à l'expérience. Puis la famille et la famille élargie ; l'école et les pairs, avec un enseignant de confiance et au moins un ami ; la communauté : voisinage, communauté religieuse, association ; le système : santé, protection de l'enfance. La résilience se fabrique surtout dans les cercles extérieurs, autour de l'enfant (Masten et Barnes, 2018 ; Ungar, 2011). À Madagascar, les ressources communautaires nommées relèvent de l'opinion d'expert : aucune étude locale ne les a mesurées.",
+  "rings": [
+   {
+    "title": "L'enfant",
+    "tone": "p",
+    "items": [
+     "autorégulation, sentiment d'efficacité, sens donné à l'expérience"
+    ]
+   },
+   {
+    "title": "Famille",
+    "tone": "s",
+    "items": [
+     "famille élargie, au moins un adulte fiable"
+    ]
+   },
+   {
+    "title": "École et pairs",
+    "tone": "a",
+    "items": [
+     "un enseignant de confiance, au moins un ami"
+    ]
+   },
+   {
+    "title": "Communauté",
+    "tone": "",
+    "items": [
+     "voisinage, communauté religieuse, association"
+    ]
+   },
+   {
+    "title": "Système",
+    "tone": "",
+    "items": [
+     "santé, protection de l'enfance"
+    ]
+   }
+  ],
+  "note": "L'influence circule dans les deux sens ; la résilience se fabrique surtout autour de l'enfant (Masten et Barnes, 2018 ; Ungar, 2011). Ressources malgaches : opinion d'expert, non mesurées localement."
+ },
+ "quand-orienter": {
+  "type": "flow",
+  "title": "Quand orienter, et vers quoi",
+  "desc": "Organigramme, dans l'ordre : la sécurité n'est pas assurée → arrêt immédiat de l'exposition avant toute autre démarche ; idées suicidaires ou automutilations → ne pas laisser seul, retirer les moyens de se blesser, accompagner sans attendre vers un service d'urgence ou de psychiatrie ; symptômes persistant au-delà d'un mois, déscolarisation, consommation de substances ou régression durable → orientation vers un professionnel formé à la psychothérapie centrée sur le trauma, ou à défaut vers un soignant formé au programme de l'OMS pour les non-spécialistes ; aucun de ces signes → surveillance active avec soutien de l'entourage et date de réévaluation (NICE, 2018 ; OMS mhGAP, 2023 ; Inserm, 2020).",
+  "steps": [
+   {
+    "title": "La sécurité est-elle assurée ?",
+    "tone": "p",
+    "lines": [
+     "Si non : arrêt immédiat de l'exposition, avant toute autre démarche."
+    ]
+   },
+   {
+    "title": "Idées suicidaires ou automutilations ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : question suivante",
+      "tone": "",
+      "lines": []
+     },
+     {
+      "title": "Oui : ne pas laisser seul",
+      "tone": "b",
+      "lines": [
+       "retirer les moyens de se blesser, accompagner sans attendre vers un service d'urgence ou de psychiatrie"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Symptômes au-delà d'un mois, déscolarisation, substances, régression durable ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : surveillance active",
+      "tone": "s",
+      "lines": [
+       "soutien de l'entourage, date de réévaluation fixée"
+      ]
+     },
+     {
+      "title": "Oui : orienter",
+      "tone": "a",
+      "lines": [
+       "professionnel formé à la psychothérapie centrée sur le trauma, ou soignant formé au programme mhGAP de l'OMS"
+      ]
+     }
+    ]
+   }
+  ],
+  "note": "Portes d'entrée à Madagascar : Centres Vonjy pour les violences sexuelles, Ligne Verte 147 pour le signalement et l'orientation, services d'urgence et de psychiatrie (NICE, 2018 ; OMS, 2023 ; Inserm, 2020)."
+ },
+ "fourche-trois-questions": {
+  "type": "flow",
+  "title": "Trois questions pour trancher",
+  "desc": "Organigramme. Un enfant me raconte quelque chose. Question 1 : un adulte est-il l'auteur des faits ? Si oui, ce n'est pas du harcèlement entre élèves : châtiment corporel ou discipline, voir le tableau des cinq situations. Question 2 : cela se répète-t-il ? Si non, agression isolée ou conflit : on soigne, on protège, on traite le fait. Question 3 : l'enfant peut-il faire cesser ou se défendre à armes égales ? Si oui, conflit : faire parler les deux enfants avec un adulte. Si non, harcèlement : écouter seul, tracer par écrit, protéger, saisir l'établissement, travailler le groupe, jamais de face-à-face (Olweus, 1993 ; Gaffney et al., 2021a ; National Academies, 2016). Quelle que soit la sortie, on ne laisse pas la situation sans réponse.",
+  "steps": [
+   {
+    "title": "Un adulte est-il l'auteur des faits ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : question suivante",
+      "tone": "",
+      "lines": []
+     },
+     {
+      "title": "Oui : pas un harcèlement entre élèves",
+      "tone": "a",
+      "lines": [
+       "châtiment corporel ou discipline : voir le tableau des cinq situations"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Cela se répète-t-il ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Oui : question suivante",
+      "tone": "",
+      "lines": []
+     },
+     {
+      "title": "Non : agression isolée ou conflit",
+      "tone": "a",
+      "lines": [
+       "on soigne, on protège, on traite le fait"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "L'enfant peut-il faire cesser, ou se défendre à armes égales ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Oui : conflit",
+      "tone": "s",
+      "lines": [
+       "faire parler les deux enfants avec un adulte"
+      ]
+     },
+     {
+      "title": "Non : harcèlement",
+      "tone": "b",
+      "lines": [
+       "écouter seul, tracer par écrit, protéger, saisir l'établissement, travailler le groupe ; jamais de face-à-face"
+      ]
+     }
+    ]
+   }
+  ],
+  "note": "Quelle que soit la sortie, on ne laisse pas la situation sans réponse (Olweus, 1993 ; Gaffney et al., 2021a ; National Academies, 2016)."
+ },
+ "fratrie-refuge-venn": {
+  "type": "venn2",
+  "title": "Quand il n'y a plus de refuge",
+  "desc": "Deux disques qui se recouvrent : harcelé à l'école, et harcelé par un frère, une sœur ou un enfant de la maison. L'intersection : plus aucun lieu sûr, détresse émotionnelle nettement plus forte. Le harcèlement dans la fratrie augmente la probabilité d'être ensuite impliqué dans le harcèlement entre camarades (Wolke, Tippett et Dantchev, 2015 ; Dantchev et Wolke, 2019 : cohorte de 6 988 jeunes, rapports de cotes 1,74 pour les conduites antisociales et 3,05 pour le cumul maison et école). Ces résultats viennent de cohortes britanniques ; aucune donnée malgache n'existe sur la fratrie.",
+  "sets": [
+   {
+    "label": "Harcelé à l'école",
+    "tone": "p"
+   },
+   {
+    "label": "Harcelé par un frère, une sœur ou un enfant de la maison",
+    "tone": "a"
+   }
+  ],
+  "center": "Plus aucun lieu sûr",
+  "pairs": [
+   {
+    "x": 320,
+    "y": 250,
+    "label": "détresse émotionnelle nettement plus forte"
+   }
+  ],
+  "note": "Le harcèlement dans la fratrie augmente la probabilité d'être impliqué ensuite entre camarades (Wolke et al., 2015 ; Dantchev et Wolke, 2019, cohorte britannique de 6 988 jeunes). Lacune : aucune donnée malgache sur la fratrie."
+ },
+ "mots-et-criteres": {
+  "type": "grid",
+  "title": "Ce que chaque mot met en avant, ce qu'il laisse de côté",
+  "desc": "Comparateur : herisetra an-tsekoly (malgache) met en avant la violence à l'école, toutes violences confondues, y compris celles des adultes ; ne dit ni la répétition ni le déséquilibre de pouvoir ; ajouter les deux questions : est-ce que cela se répète, peut-il se défendre. Bullying (anglais) : relation de domination répétée, bien reconnu en Europe du Nord, sans équivalent proche dans les langues latines ; ajouter une description de la scène. Harcèlement (français) : répétition et intention ; recouvre aussi le harcèlement au travail et sexuel, peut paraître juridique et effrayant ; ajouter le contexte scolaire. Ijime (japonais) : exclusion par le groupe, sens partiellement différent. « C'est un jeu » : absence d'intention supposée ; 49 % du personnel scolaire malgache le pense (IBCR et UNICEF, 2018) ; ajouter les trois critères (Smith et al., 2002 ; Smith et al., 2016 ; Olweus, 1993).",
+  "cols": [
+   "Ce que le mot met en avant",
+   "Ce qu'il ne dit pas",
+   "Ce qu'il faut ajouter"
+  ],
+  "rows": [
+   {
+    "label": "herisetra an-tsekoly",
+    "cells": [
+     "La violence à l'école, toutes violences confondues, y compris celles des adultes",
+     "Ni la répétition, ni le déséquilibre de pouvoir",
+     {
+      "text": "Deux questions : est-ce que cela se répète ? peut-il se défendre ?",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "bullying",
+    "cells": [
+     "Une relation de domination répétée",
+     "Reconnu en Europe du Nord, sans équivalent proche dans les langues latines",
+     {
+      "text": "Une description de la scène",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "harcèlement",
+    "cells": [
+     "La répétition et l'intention",
+     "Recouvre aussi le travail et le sexuel : peut paraître juridique, effrayant",
+     {
+      "text": "Le contexte scolaire",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "ijime",
+    "cells": [
+     "L'exclusion par le groupe",
+     "Sens partiellement différent du bullying",
+     {
+      "text": "Les traductions ne se superposent pas",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "« c'est un jeu »",
+    "cells": [
+     "L'absence d'intention supposée",
+     "49 % du personnel scolaire malgache le pense (IBCR et UNICEF, 2018)",
+     {
+      "text": "Les trois critères, énoncés à voix haute",
+      "tone": "b"
+     }
+    ]
+   }
+  ],
+  "note": "Sources : Smith et al. (2002) ; Smith et al. (2016) ; Newsmada (2024) ; Olweus (1993) ; Gaffney et al. (2021a) ; IBCR et UNICEF (2018)."
+ },
+ "frise-ecole-malgache": {
+  "type": "timeline",
+  "scroll": true,
+  "title": "L'école malgache et ses habitudes de discipline : deux siècles",
+  "desc": "Frise à jalons : 1810-1828, écoles des missions protestantes britanniques sous Radama Ier, naissance de l'école à Madagascar ; 1899, obligation scolaire proclamée par Gallieni, école coloniale formant des auxiliaires de l'administration, hiérarchies entre enseignants selon le sexe et l'origine ; années 1940, école missionnaire prise entre christianiser, franciser, malgachiser ; années 1970, malgachisation de l'enseignement ; 1996, arrêté ministériel 5246-96 MEN interdisant le châtiment corporel à l'école, complété par une note de 2017 ; 2018, étude nationale sur les violences envers les enfants ; 2025, première enquête GSHS. Le châtiment corporel reste licite au domicile (Rakotozafindrasambo, 2022 ; Duteil, 2011 ; Rosnes, 2017 ; Koerner, 1999 ; Randriamasinony, 2007 ; End Corporal Punishment, 2019 ; IBCR et UNICEF, 2018 ; OMS, 2025).",
+  "axis": {
+   "start": 1800,
+   "end": 2030,
+   "ticks": [
+    1810,
+    1850,
+    1899,
+    1940,
+    1975,
+    1996,
+    2018,
+    2025
+   ],
+   "format": "{}"
+  },
+  "lanes": [],
+  "milestones": [
+   {
+    "at": 1815,
+    "label": "Écoles des missions protestantes (1810-1828)",
+    "tone": ""
+   },
+   {
+    "at": 1899,
+    "label": "Obligation scolaire, école coloniale (1899)",
+    "tone": ""
+   },
+   {
+    "at": 1945,
+    "label": "Christianiser, franciser, malgachiser (années 1940)",
+    "tone": ""
+   },
+   {
+    "at": 1975,
+    "label": "Malgachisation (années 1970)",
+    "tone": ""
+   },
+   {
+    "at": 1996,
+    "label": "Arrêté 5246-96 : châtiment corporel interdit à l'école ; note de 2017",
+    "tone": "p"
+   },
+   {
+    "at": 2018,
+    "label": "Étude nationale sur les violences (2018)",
+    "tone": "a"
+   },
+   {
+    "at": 2025,
+    "label": "Première enquête GSHS (2025)",
+    "tone": "a"
+   }
+  ],
+  "note": "Le châtiment corporel reste licite au domicile. Sources : Rakotozafindrasambo (2022) ; Duteil (2011) ; Rosnes (2017) ; Koerner (1999) ; Randriamasinony (2007) ; End Corporal Punishment (2019) ; IBCR et UNICEF (2018) ; OMS (2025)."
+ },
+ "fihavanana-deux-effets": {
+  "type": "fork",
+  "title": "Fihavanana et henatra : deux effets possibles sur un enfant harcelé",
+  "desc": "Un enfant est humilié à l'école, la famille l'apprend. Ce qui protège : le réseau d'entraide se met en mouvement, les aînés interviennent auprès de l'autre famille, l'enfant est accompagné à l'école, le lien est réparé, la scolarité continue. Ce qui fait taire : la paix du groupe passe avant l'enfant, la honte du regard d'autrui empêche de dire ce qui touche au corps, la plainte est vécue comme une atteinte à l'honneur de la famille, l'enfant se plaint de maux de ventre au lieu de raconter. Ce qui décide de la branche, c'est l'usage qu'un adulte en fait, pas la culture. Lecture raisonnée, non mesurée à Madagascar (Sandron, 2008 ; Kneitz, 2014 ; Rakotomalala, 2012 ; Ottino, 1998).",
+  "root": {
+   "title": "Un enfant est humilié à l'école ; la famille l'apprend",
+   "lines": [
+    "Ce qui décide de la branche : l'usage qu'un adulte en fait, pas la culture"
+   ],
+   "tone": "p"
+  },
+  "branches": [
+   {
+    "title": "Ce qui protège",
+    "tone": "s",
+    "lines": [
+     "Le réseau d'entraide se met en mouvement ; les aînés interviennent auprès de l'autre famille ; l'enfant est accompagné à l'école ; le lien est réparé ; la scolarité continue."
+    ]
+   },
+   {
+    "title": "Ce qui fait taire",
+    "tone": "a",
+    "lines": [
+     "La paix du groupe passe avant l'enfant ; la honte du regard d'autrui empêche de dire ce qui touche au corps ; la plainte est vécue comme une atteinte à l'honneur ; l'enfant se plaint de maux de ventre au lieu de raconter."
+    ]
+   }
+  ],
+  "note": "Lecture raisonnée, non mesurée à Madagascar (Sandron, 2008 ; Kneitz, 2014 ; Rakotomalala, 2012 ; Ottino, 1998)."
+ },
+ "chaine-des-recours": {
+  "type": "chain",
+  "title": "À qui la famille parle d'abord, et où l'enfant peut être perdu",
+  "desc": "Chaîne des recours dans l'ordre réel : la famille et les ray aman-dreny ; le fokontany, héritier administratif du fokonolona, et le cas échéant le dina ; l'Église ou le responsable religieux, souvent aussi l'établissement quand l'école est confessionnelle ; l'école et son responsable ; le Réseau de Protection de l'Enfant et la Ligne Verte 147 ; les soins, consultation ou service de psychiatrie. À chaque maillon, la démarche peut s'arrêter. Un dispositif communautaire n'est pas automatiquement protecteur : un dina peut être capté par les puissants du lieu. On peut prier et consulter : ne demandez jamais à une famille de choisir. Le 147 signale et oriente, ce n'est pas une ligne de crise (Condominas, 1961 ; Andriamalala, 2010 ; Klein, 2024 ; Bakohariliva et al., 2018).",
+  "steps": [
+   {
+    "title": "1. Famille, ray aman-dreny",
+    "tone": "p",
+    "lines": [
+     "peut s'arrêter ici"
+    ]
+   },
+   {
+    "title": "2. Fokontany, dina",
+    "tone": "",
+    "lines": [
+     "peut s'arrêter ici"
+    ]
+   },
+   {
+    "title": "3. Église, responsable religieux",
+    "tone": "",
+    "lines": [
+     "premier recours fréquent"
+    ]
+   },
+   {
+    "title": "4. École, direction",
+    "tone": "",
+    "lines": [
+     "peut s'arrêter ici"
+    ]
+   },
+   {
+    "title": "5. RPE, Ligne Verte 147",
+    "tone": "a",
+    "lines": [
+     "signale et oriente"
+    ]
+   },
+   {
+    "title": "6. Soins, psychiatrie",
+    "tone": "s",
+    "lines": [
+     "consultation, urgence"
+    ]
+   }
+  ],
+  "note": "Un dispositif communautaire n'est pas automatiquement protecteur : un dina peut être capté par les puissants du lieu (Klein, 2024). On peut prier et consulter : ne demandez jamais à une famille de choisir (Bakohariliva et al., 2018). Le 147 signale et oriente ; ce n'est pas une ligne de crise."
+ },
+ "etic-emic-croisement": {
+  "type": "venn2",
+  "title": "Croiser le questionnaire et les mots de l'enfant",
+  "desc": "Deux disques. Etic, de l'extérieur : concepts définis à l'avance, trois critères énoncés à voix haute, questionnaire standardisé, permet de compter et de suivre dans le temps ; limite : ne se compare pas d'un pays à l'autre. Emic, de l'intérieur : mots de l'enfant et de la famille, idiomes de détresse (mal de ventre, fatigue, attaque d'un esprit), explication que la famille donne, aide qu'elle attend ; limite : ne permet pas de compter. Intersection : l'entretien utile, décrire la scène, poser les trois questions sans jargon, puis demander à l'enfant comment il appelle cela. Quatre questions de l'entretien de formulation culturelle : comment appelez-vous ce qui arrive à votre enfant ; qu'est-ce qui, selon vous, l'a causé ; que disent vos proches ; qu'attendez-vous de nous (Smith et al., 2002 ; Samara et al., 2019 ; Nichter, 1981 ; APA, 2013).",
+  "sets": [
+   {
+    "label": "Etic : de l'extérieur",
+    "note": "concepts définis, trois critères, questionnaire ; limite : ne se compare pas d'un pays à l'autre",
+    "tone": "p"
+   },
+   {
+    "label": "Emic : de l'intérieur",
+    "note": "mots de l'enfant et de la famille, idiomes de détresse ; limite : ne permet pas de compter",
+    "tone": "a"
+   }
+  ],
+  "center": "L'entretien utile",
+  "pairs": [
+   {
+    "x": 320,
+    "y": 246,
+    "label": "décrire la scène, poser les trois questions sans jargon, demander à l'enfant comment il appelle cela"
+   }
+  ],
+  "note": "Quatre questions : comment appelez-vous ce qui arrive à votre enfant ? qu'est-ce qui, selon vous, l'a causé ? que disent vos proches ? qu'attendez-vous de nous ? (Smith et al., 2002 ; Samara et al., 2019 ; Nichter, 1981 ; APA, 2013)."
+ },
+ "courbes-victimisation-age": {
+  "type": "curves",
+  "title": "Ce qui baisse et ce qui ne baisse pas quand l'âge augmente (allure générale)",
+  "desc": "Deux courbes qualitatives de 11 à 15 ans, sans échelle chiffrée : déclarer être harcelé décroît avec l'âge ; déclarer harceler les autres reste stable ou augmente légèrement, surtout chez les garçons (Craig et al., 2009, enquêtes auprès d'élèves de 11, 13 et 15 ans dans une quarantaine de pays). Les formes changent : physique dominant chez les plus jeunes, indirect (rumeurs, mise à l'écart) au milieu, en ligne et à connotation sexuelle chez les plus âgés (López-Castro et al., 2023). Allure générale observée dans les enquêtes internationales ; pas de valeurs malgaches.",
+  "x": {
+   "start": 11,
+   "end": 15,
+   "ticks": [
+    11,
+    13,
+    15
+   ],
+   "label": "âge (années) · formes : physique → indirect (rumeurs, mise à l'écart) → en ligne, sexuel"
+  },
+  "y_label": "allure, sans échelle",
+  "series": [
+   {
+    "label": "déclarer être harcelé",
+    "points": [
+     [
+      11,
+      80
+     ],
+     [
+      13,
+      62
+     ],
+     [
+      15,
+      44
+     ]
+    ]
+   },
+   {
+    "label": "déclarer harceler (garçons)",
+    "points": [
+     [
+      11,
+      40
+     ],
+     [
+      13,
+      46
+     ],
+     [
+      15,
+      50
+     ]
+    ]
+   },
+   {
+    "label": "déclarer harceler (filles)",
+    "points": [
+     [
+      11,
+      30
+     ],
+     [
+      13,
+      32
+     ],
+     [
+      15,
+      33
+     ]
+    ]
+   }
+  ],
+  "note": "Allure générale observée dans les enquêtes internationales (Craig et al., 2009 ; López-Castro et al., 2023) ; pas de valeurs malgaches, pas d'échelle chiffrée."
+ },
+ "transition-college": {
+  "type": "chain",
+  "title": "Le changement d'école : ce qui se joue de part et d'autre",
+  "desc": "Trois temps : avant la transition (groupe d'amis constitué, adultes connus), la transition (changement d'établissement, souvent aussi de foyer), après (réseaux à reconstruire). Deux trajectoires : l'une s'interrompt (l'enfant harcelé avant ne l'est plus après), l'autre se poursuit (victime chronique) ; ce sont les trajectoires qui se poursuivent qui s'accompagnent du plus de difficultés psychiques et scolaires. Facteurs associés à la chronicité dans une cohorte britannique de 2 232 enfants : désavantage socio-économique, faible chaleur maternelle, maltraitance (Bowes et al., 2013). À Madagascar, environ un tiers des enfants de moins de 18 ans ne vivent pas avec leurs deux parents (Andriamaro, 2013).",
+  "steps": [
+   {
+    "title": "Avant la transition",
+    "tone": "s",
+    "lines": [
+     "Groupe d'amis constitué, adultes connus"
+    ]
+   },
+   {
+    "title": "La transition",
+    "tone": "a",
+    "lines": [
+     "Changement d'établissement, souvent aussi de foyer"
+    ]
+   },
+   {
+    "title": "Après",
+    "tone": "",
+    "lines": [
+     "Réseaux à reconstruire : une trajectoire s'interrompt, l'autre se poursuit (victime chronique)"
+    ]
+   }
+  ],
+  "feedback": {
+   "title": "Chronicité : facteurs associés",
+   "tone": "b",
+   "lines": [
+    "désavantage socio-économique, faible chaleur maternelle, maltraitance (Bowes et al., 2013, cohorte de 2 232 enfants)"
+   ],
+   "label": "les trajectoires qui se poursuivent s'accompagnent du plus de difficultés psychiques et scolaires",
+   "to": 2
+  },
+  "note": "À Madagascar, environ un tiers des enfants de moins de 18 ans ne vivent pas avec leurs deux parents ; la circulation des enfants entre parents, grands-parents et familles d'accueil est fréquente (Andriamaro, 2013)."
+ },
+ "deux-profils-auteurs": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Deux enfants qui harcèlent, deux réponses différentes",
+  "desc": "Deux colonnes. Profil 1 : comprend mal les intentions des autres, rejeté par les camarades, frappe et bouscule ; il a besoin d'apprendre à lire les autres et d'être réintégré dans un groupe (Zhou et al., 2024). Profil 2 : lit très bien les relations, choisit sa cible, son moment, ses alliés, organise l'exclusion et dirige les autres ; il a besoin d'un cadre, de conséquences et d'une réparation (Sutton et al., 1999). Comprendre autrui n'est pas être bienveillant.",
+  "columns": [
+   {
+    "title": "Comprend mal les autres",
+    "tone": "a",
+    "items": [
+     "1. comprend mal les intentions des autres",
+     "2. rejeté par les camarades",
+     "3. frappe, bouscule",
+     "→ a besoin d'apprendre à lire les autres et d'être réintégré dans un groupe (Zhou et al., 2024)"
+    ]
+   },
+   {
+    "title": "Lit très bien les relations",
+    "tone": "b",
+    "items": [
+     "1. lit très bien les relations",
+     "2. choisit sa cible, son moment, ses alliés",
+     "3. organise l'exclusion, dirige les autres",
+     "→ a besoin d'un cadre, de conséquences et d'une réparation (Sutton et al., 1999)"
+    ]
+   }
+  ],
+  "note": "Comprendre autrui n'est pas être bienveillant : il n'existe pas un profil unique de harceleur."
+ },
+ "boucle-escalade-desescalade": {
+  "type": "cycle",
+  "title": "Escalade et désescalade",
+  "desc": "Deux boucles. Escalade : ordre, refus, punition, refus plus fort, et retour au début. Désescalade : nommer l'émotion, proposer un choix, laisser réparer, revenir sur ce qui s'est passé, et retour au début.",
+  "cycles": [
+   {
+    "title": "Escalade",
+    "tone": "b",
+    "steps": [
+     "Ordre",
+     "Refus",
+     "Punition",
+     "Refus plus fort"
+    ]
+   },
+   {
+    "title": "Désescalade",
+    "tone": "s",
+    "steps": [
+     "Nommer l'émotion",
+     "Proposer un choix",
+     "Laisser réparer",
+     "Revenir sur ce qui s'est passé"
+    ]
+   }
+  ],
+  "note": "La boucle de gauche se referme sur plus de tension ; celle de droite sur un apprentissage."
+ },
+ "fenetre-de-tolerance": {
+  "type": "bands",
+  "title": "La fenêtre de tolérance",
+  "desc": "Trois zones empilées : en haut, hyperactivation (agitation, colère, fuite) ; au milieu, la fenêtre de tolérance, où l'on peut réfléchir, parler, apprendre ; en bas, hypoactivation (figement, repli, absence). Une ligne oscille entre les zones avec trois repères : une moquerie fait sortir vers le haut, le retour d'un adulte fiable ramène dans la fenêtre, une nouvelle menace fait basculer vers le bas. La fenêtre s'élargit avec un adulte fiable.",
+  "band_height": 66,
+  "bands": [
+   {
+    "title": "Hyperactivation",
+    "lines": [
+     "agitation",
+     "colère",
+     "fuite"
+    ],
+    "tone": "b",
+    "weight": 1
+   },
+   {
+    "title": "Fenêtre de tolérance : on peut réfléchir, parler, apprendre",
+    "lines": [
+     "la fenêtre s'élargit avec un adulte fiable"
+    ],
+    "tone": "s",
+    "weight": 1.5
+   },
+   {
+    "title": "Hypoactivation",
+    "lines": [
+     "figement",
+     "repli",
+     "absence"
+    ],
+    "tone": "b",
+    "weight": 1
+   }
+  ],
+  "line": [
+   [
+    0,
+    50
+   ],
+   [
+    15,
+    45
+   ],
+   [
+    28,
+    14
+   ],
+   [
+    42,
+    40
+   ],
+   [
+    55,
+    55
+   ],
+   [
+    68,
+    50
+   ],
+   [
+    80,
+    88
+   ],
+   [
+    92,
+    60
+   ],
+   [
+    100,
+    52
+   ]
+  ],
+  "markers": [
+   {
+    "x": 28,
+    "y": 14,
+    "label": "moquerie"
+   },
+   {
+    "x": 55,
+    "y": 55,
+    "label": "retour d'un adulte fiable"
+   },
+   {
+    "x": 80,
+    "y": 88,
+    "label": "nouvelle menace"
+   }
+  ],
+  "note": "Repère clinique d'usage courant ; la fenêtre s'élargit avec un adulte fiable."
+ },
+ "balance-risques-protections": {
+  "type": "balance",
+  "title": "Adversités et protections : une balance, pas un destin",
+  "desc": "Balance à fléau. Plateau gauche, adversités : harcèlement répété, violence à la maison, isolement, pauvreté. Plateau droit, protections : au moins un adulte fiable, des amis, une école qui protège, des compétences, un sens. Le pivot : au moins un adulte fiable. La résilience se construit ; elle n'est ni un don ni une obligation.",
+  "pivot": "au moins un adulte fiable",
+  "tilt": -6,
+  "left": {
+   "title": "Adversités",
+   "items": [
+    "harcèlement répété",
+    "violence à la maison",
+    "isolement",
+    "pauvreté"
+   ]
+  },
+  "right": {
+   "title": "Protections",
+   "items": [
+    "au moins un adulte fiable",
+    "des amis",
+    "une école qui protège",
+    "des compétences, un sens"
+   ]
+  },
+  "note": "La résilience se construit ; elle n'est ni un don ni une obligation de s'en sortir (Masten et Barnes, 2018)."
+ },
+ "cercle-des-roles": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Le harcèlement est une scène avec un public",
+  "desc": "Quatre rôles autour de l'auteur et de la victime, d'après Salmivalli et al. (1996) : les assistants aident l'auteur ; les renforçateurs rient et encouragent ; les spectateurs passifs, dont le silence vaut permission ; les défenseurs protègent la victime. Faire basculer les témoins vers la défense est le levier central des programmes efficaces.",
+  "columns": [
+   {
+    "title": "Assistants",
+    "tone": "b",
+    "items": [
+     "aident l'auteur",
+     "→ renforcent"
+    ]
+   },
+   {
+    "title": "Renforçateurs",
+    "tone": "b",
+    "items": [
+     "rient, encouragent",
+     "→ renforcent"
+    ]
+   },
+   {
+    "title": "Spectateurs passifs",
+    "tone": "a",
+    "items": [
+     "regardent sans agir",
+     "silence = permission"
+    ]
+   },
+   {
+    "title": "Défenseurs",
+    "tone": "s",
+    "items": [
+     "protègent la victime",
+     "→ arrêtent"
+    ]
+   }
+  ],
+  "note": "Au centre de la scène : la victime et l'auteur. Faire basculer les témoins vers la défense est le levier central (Salmivalli et al., 1996 ; Kärnä et al., 2011)."
+ },
+ "recouvrement-quatre-mots": {
+  "type": "grid",
+  "title": "Quatre mots, quatre réalités",
+  "desc": "Quatre notions comparées : harcèlement (entre pairs, répété, avec déséquilibre de pouvoir) ; herisetra an-tsekoly, violence à l'école (tout acte violent, y compris des adultes, sans distinguer répétition ni pouvoir) ; châtiment corporel (d'un adulte vers un enfant, interdit à l'école, licite au domicile) ; discipline (cadre sans violence : règles, conséquences logiques, dialogue).",
+  "cols": [
+   "Qui ?",
+   "Répété ?",
+   "Déséquilibre ?",
+   "Cadre"
+  ],
+  "rows": [
+   {
+    "label": "Harcèlement",
+    "cells": [
+     {
+      "text": "entre pairs (élèves)",
+      "tone": "b"
+     },
+     {
+      "text": "oui",
+      "tone": "b"
+     },
+     {
+      "text": "oui",
+      "tone": "b"
+     },
+     {
+      "text": "protection de l'enfant",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Herisetra an-tsekoly",
+    "cells": [
+     {
+      "text": "tout le monde, adultes compris",
+      "tone": "a"
+     },
+     {
+      "text": "non précisé",
+      "tone": "a"
+     },
+     {
+      "text": "non précisé",
+      "tone": "a"
+     },
+     {
+      "text": "toute violence à l'école",
+      "tone": "a"
+     }
+    ]
+   },
+   {
+    "label": "Châtiment corporel",
+    "cells": [
+     {
+      "text": "adulte → enfant",
+      "tone": "p"
+     },
+     {
+      "text": "variable",
+      "tone": "p"
+     },
+     {
+      "text": "oui, par nature",
+      "tone": "p"
+     },
+     {
+      "text": "interdit à l'école, licite au domicile",
+      "tone": "p"
+     }
+    ]
+   },
+   {
+    "label": "Discipline",
+    "cells": [
+     {
+      "text": "adulte → enfant",
+      "tone": "s"
+     },
+     {
+      "text": "—",
+      "tone": "s"
+     },
+     {
+      "text": "—",
+      "tone": "s"
+     },
+     {
+      "text": "règles, conséquences logiques, dialogue",
+      "tone": "s"
+     }
+    ]
+   }
+  ],
+  "note": "Le mot malgache ne contient ni la répétition ni le déséquilibre de pouvoir : il englobe harcèlement et châtiment sans les distinguer."
+ },
+ "modele-ecologique": {
+  "type": "rings",
+  "title": "Quatre couches : l'enfant, la famille, l'école, la société",
+  "desc": "Quatre anneaux concentriques : l'enfant (tempérament, handicap, statut), la famille (soutien, violence, enfants confiés), l'école (surveillance, classes surchargées, adultes formés), la société (pauvreté, normes, lois). Les facteurs de l'enfant et de la famille sont documentés par des études solides ; ceux de l'école et de la société à Madagascar relèvent souvent de l'hypothèse.",
+  "rings": [
+   {
+    "title": "L'enfant",
+    "tone": "p",
+    "items": [
+     "tempérament, handicap, statut"
+    ]
+   },
+   {
+    "title": "La famille",
+    "tone": "s",
+    "items": [
+     "soutien, violence, enfants confiés"
+    ]
+   },
+   {
+    "title": "L'école",
+    "tone": "a",
+    "items": [
+     "surveillance, classes surchargées, adultes formés"
+    ]
+   },
+   {
+    "title": "La société",
+    "tone": "",
+    "items": [
+     "pauvreté, normes, lois"
+    ]
+   }
+  ],
+  "note": "Niveau de preuve : données solides pour l'enfant et la famille ; hypothèses pour l'école et la société à Madagascar."
+ },
+ "ligne-24h-cyber": {
+  "type": "timeline",
+  "title": "Le harcèlement en ligne ne s'arrête pas à la sortie de l'école",
+  "desc": "Ligne de 24 heures : le harcèlement en face à face peut se produire à l'école, de 7 h à 17 h ; en ligne, il couvre toute la journée, avec par exemple un message reçu à 22 h et une capture partagée à 6 h, sans que l'école ne voie rien. Anonymat, permanence, audience sans limite.",
+  "axis": {
+   "start": 0,
+   "end": 24,
+   "ticks": [
+    0,
+    6,
+    12,
+    18,
+    24
+   ],
+   "format": "{} h"
+  },
+  "lane_height": 56,
+  "lanes": [
+   {
+    "title": "École : face à face possible de 7 h à 17 h",
+    "tone": "p",
+    "events": [
+     {
+      "at": 7,
+      "label": "entrée"
+     },
+     {
+      "at": 17,
+      "label": "sortie"
+     }
+    ]
+   },
+   {
+    "title": "En ligne : 24 h sur 24",
+    "tone": "b",
+    "events": [
+     {
+      "at": 22,
+      "label": "message reçu à 22 h"
+     },
+     {
+      "at": 6,
+      "label": "capture partagée à 6 h"
+     },
+     {
+      "at": 13,
+      "label": "l'école ne voit rien"
+     }
+    ]
+   }
+  ],
+  "note": "Anonymat, permanence des contenus, audience sans limite : trois choses que le harcèlement en ligne ajoute (Modecki et al., 2014)."
+ },
+ "triangle-3r": {
+  "type": "triangle",
+  "title": "Les 3 R : Répétition, Rapport de force, Retentissement",
+  "desc": "Triangle avec un R à chaque sommet et une question en langage courant : Répétition, est-ce que ça se reproduit ? Rapport de force, l'enfant peut-il se défendre à armes égales ? Retentissement, souffre-t-il, évite-t-il, ses résultats chutent-ils ? Au centre : harcèlement présumé si les trois sont présents.",
+  "vertices": [
+   {
+    "title": "Répétition",
+    "question": "est-ce que ça se reproduit ?"
+   },
+   {
+    "title": "Rapport de force",
+    "question": "l'enfant peut-il se défendre à armes égales ?"
+   },
+   {
+    "title": "Retentissement",
+    "question": "souffre-t-il, évite-t-il, ses résultats chutent-ils ?"
+   }
+  ],
+  "center": {
+   "title": "Harcèlement présumé",
+   "lines": [
+    "si les trois sont présents"
+   ],
+   "tone": "b"
+  },
+  "note": "Les 3 R reformulent les critères d'Olweus en langage de terrain ; un seul incident sans déséquilibre relève du conflit."
+ },
+ "escalier-ecoute": {
+  "type": "stairs",
+  "title": "L'escalier de l'écoute",
+  "desc": "Cinq marches : accueillir (merci de m'en parler) ; écouter sans couper (raconte-moi) ; reformuler (si je comprends bien…) ; ne pas promettre le secret (je ne garderai pas ça pour moi si tu es en danger) ; orienter et revenir (on va voir ensemble qui peut aider).",
+  "steps": [
+   {
+    "title": "Accueillir",
+    "line": "« merci de m'en parler »"
+   },
+   {
+    "title": "Écouter sans couper",
+    "line": "« raconte-moi »"
+   },
+   {
+    "title": "Reformuler",
+    "line": "« si je comprends bien… »"
+   },
+   {
+    "title": "Ne pas promettre le secret",
+    "line": "« je ne garderai pas ça pour moi si tu es en danger »"
+   },
+   {
+    "title": "Orienter et revenir",
+    "line": "« on va voir ensemble qui peut aider »"
+   }
+  ],
+  "note": "Cinq gestes qui ouvrent la parole ; aucun ne demande de compétence technique."
+ },
+ "fourche-six-chemins": {
+  "type": "fork",
+  "title": "J'ai remarqué quelque chose : six chemins, une règle commune",
+  "desc": "À partir de « j'ai remarqué quelque chose », six chemins : mon enfant est harcelé ; mon enfant harcèle ; mon enfant est témoin ; j'encadre un groupe où ça se passe ; ce n'est pas mon enfant (voisin, neveu, enfant confié) ; l'auteur est un adulte de l'école. Règle commune : protéger d'abord, qualifier ensuite.",
+  "common": {
+   "title": "Règle commune : protéger d'abord, qualifier ensuite",
+   "lines": [],
+   "tone": "s"
+  },
+  "root": {
+   "title": "J'ai remarqué quelque chose",
+   "lines": [],
+   "tone": "p"
+  },
+  "branches": [
+   {
+    "title": "1. Mon enfant est harcelé",
+    "lines": []
+   },
+   {
+    "title": "2. Mon enfant harcèle",
+    "lines": []
+   },
+   {
+    "title": "3. Mon enfant est témoin",
+    "lines": []
+   },
+   {
+    "title": "4. J'encadre un groupe où ça se passe",
+    "lines": []
+   },
+   {
+    "title": "5. Ce n'est pas mon enfant",
+    "lines": [
+     "voisin, neveu, enfant confié"
+    ]
+   },
+   {
+    "title": "6. L'auteur est un adulte de l'école",
+    "lines": []
+   }
+  ],
+  "note": "Chaque chemin est détaillé dans le module ; la règle commune vaut pour tous."
+ },
+ "cercles-qui-fait-quoi": {
+  "type": "rings",
+  "title": "Qui fait quoi autour d'un enfant harcelé",
+  "desc": "Cinq cercles concentriques : la famille et les proches (protègent, écoutent, notent) ; l'école (directeur, enseignants, FRAM : cadre, sanctions éducatives, plan d'action) ; la protection de l'enfance (Réseau de Protection de l'Enfant, Ligne Verte 147, Trano Aro Zo : signalement, orientation) ; la santé (centre de santé, urgences, psychiatrie : soins) ; la justice et la police (Police des mœurs et protection des mineurs, gendarmerie, procureur : violences graves).",
+  "rings": [
+   {
+    "title": "Famille, proches",
+    "tone": "s",
+    "items": [
+     "protègent, écoutent, notent"
+    ]
+   },
+   {
+    "title": "École",
+    "tone": "p",
+    "items": [
+     "directeur, enseignants, FRAM : cadre, sanctions éducatives, plan d'action"
+    ]
+   },
+   {
+    "title": "Protection de l'enfance",
+    "tone": "a",
+    "items": [
+     "RPE, Ligne Verte 147, Trano Aro Zo : signalement, orientation"
+    ]
+   },
+   {
+    "title": "Santé",
+    "tone": "",
+    "items": [
+     "centre de santé, urgences, psychiatrie : soins"
+    ]
+   },
+   {
+    "title": "Justice, police",
+    "tone": "b",
+    "items": [
+     "Police des mœurs et protection des mineurs, gendarmerie, procureur : violences graves"
+    ]
+   }
+  ],
+  "note": "Chaque cercle a sa fonction ; aucun ne remplace les autres."
+ },
+ "arbre-decisionnel": {
+  "type": "flow",
+  "title": "Du signal au signalement",
+  "desc": "Organigramme en six étapes : signal repéré ; entretien avec l'enfant, répétition, rapport de force et retentissement ? si non, conflit ou agression isolée : médiation éducative, suivi, réévaluation datée ; si oui, danger immédiat ? (idées suicidaires, violences sexuelles ou graves) si oui, urgence : ne pas laisser seul, mettre à l'abri, accompagner vers les soins, signaler ; sinon plan d'action coordonné (école, protection de la victime, travail avec l'auteur, témoins, parents) ; signalement selon le cas (Réseau de Protection de l'Enfant, 147, arozaza.mg si dimension en ligne ou sexuelle) ; suivi et réévaluation datés.",
+  "steps": [
+   {
+    "title": "Signal repéré",
+    "tone": "p",
+    "lines": [
+     "somatisations, isolement, chute scolaire, propos inquiétants"
+    ]
+   },
+   {
+    "title": "Entretien avec l'enfant : répétition, rapport de force, retentissement ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : conflit ou agression isolée",
+      "tone": "s",
+      "lines": [
+       "médiation éducative, suivi, réévaluation datée"
+      ]
+     },
+     {
+      "title": "Oui : harcèlement présumé",
+      "tone": "a",
+      "lines": [
+       "passer à l'étape suivante"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Danger immédiat ? idées suicidaires, violences sexuelles ou graves",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : plan d'action",
+      "tone": "s",
+      "lines": [
+       "étape suivante"
+      ]
+     },
+     {
+      "title": "Oui : urgence",
+      "tone": "b",
+      "lines": [
+       "ne pas laisser seul, mettre à l'abri, accompagner vers les soins, signaler"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Plan d'action coordonné",
+    "tone": "p",
+    "lines": [
+     "informer l'école, protéger la victime, travailler avec l'auteur, mobiliser les témoins, associer les parents"
+    ]
+   },
+   {
+    "title": "Signalement selon le cas",
+    "tone": "p",
+    "lines": [
+     "Réseau de Protection de l'Enfant ; 147 ; arozaza.mg si dimension en ligne ou sexuelle"
+    ]
+   },
+   {
+    "title": "Suivi et réévaluation datés",
+    "tone": "s",
+    "lines": [
+     "documenter par écrit"
+    ]
+   }
+  ],
+  "note": "Le 147 signale et oriente ; en cas d'idées suicidaires, la conduite est d'accompagner l'enfant vers un service d'urgence ou de psychiatrie."
+ },
+ "chaine-adversite-stress": {
+  "type": "chain",
+  "title": "Des adversités répétées à la santé : une chaîne que les protections peuvent interrompre",
+  "desc": "Chaîne de quatre maillons : adversités répétées (harcèlement, violence à la maison, négligence) ; stress qui déborde (corps en alerte, sommeil, concentration) ; ce qui se voit (repli, colère, maux de ventre, chute scolaire) ; à long terme, si rien ne change (anxiété, dépression, santé). Les protections (adulte fiable, école qui protège, soins) atténuent, parfois inversent. Associations observées dans les études ; aucun destin individuel.",
+  "steps": [
+   {
+    "title": "Adversités répétées",
+    "tone": "b",
+    "lines": [
+     "harcèlement, violence à la maison, négligence"
+    ]
+   },
+   {
+    "title": "Stress qui déborde",
+    "tone": "a",
+    "lines": [
+     "corps en alerte, sommeil, concentration"
+    ]
+   },
+   {
+    "title": "Ce qui se voit",
+    "tone": "",
+    "lines": [
+     "repli, colère, maux de ventre, chute scolaire"
+    ]
+   },
+   {
+    "title": "À long terme, si rien ne change",
+    "tone": "b",
+    "lines": [
+     "anxiété, dépression, santé"
+    ]
+   }
+  ],
+  "feedback": {
+   "title": "Protections",
+   "tone": "s",
+   "lines": [
+    "adulte fiable, école qui protège, soins"
+   ],
+   "label": "atténuent, parfois inversent",
+   "to": 2
+  },
+  "note": "Associations observées dans les études (Hughes et al., 2017 ; Arseneault, 2018) ; aucun destin individuel."
+ },
+ "cinq-questions-chiffre": {
+  "type": "flow",
+  "title": "Cinq questions à poser devant n'importe quel chiffre",
+  "desc": "Organigramme vertical en six paliers numérotés, sans aucune donnée chiffrée. Point de départ : un chiffre entendu ou lu. Chacun des cinq premiers paliers pose une question et se divise en deux : une réponse acceptable, une réponse manquante. 1. Qui a été interrogé ? acceptable : effectif, âge et régions donnés ; manquante : « des élèves », sans effectif. 2. Quelle définition ? acceptable : la question posée est reproduite ; manquante : « harcèlement », sans définition. 3. Quelle période ? acceptable : une période de rappel annoncée ; manquante : période non précisée. 4. Quelle méthode ? acceptable : écoles tirées au sort, questionnaire anonyme ; manquante : aucun protocole publié. 5. Où est-ce publié ? acceptable : rapport téléchargeable ou article relu par des pairs ; manquante : presse seulement. 6. Ce que je fais du chiffre, avec deux sorties : si les cinq réponses sont là, chiffre citable avec ses étiquettes ; s'il en manque, chiffre à mentionner en disant son statut.",
+  "steps": [
+   {
+    "title": "Qui a été interrogé ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Réponse acceptable",
+      "tone": "s",
+      "lines": [
+       "effectif, âge et régions donnés"
+      ]
+     },
+     {
+      "title": "Réponse manquante",
+      "tone": "b",
+      "lines": [
+       "« des élèves », sans effectif"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Quelle définition ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Réponse acceptable",
+      "tone": "s",
+      "lines": [
+       "la question posée est reproduite"
+      ]
+     },
+     {
+      "title": "Réponse manquante",
+      "tone": "b",
+      "lines": [
+       "« harcèlement », sans définition"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Quelle période ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Réponse acceptable",
+      "tone": "s",
+      "lines": [
+       "une période de rappel annoncée"
+      ]
+     },
+     {
+      "title": "Réponse manquante",
+      "tone": "b",
+      "lines": [
+       "période non précisée"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Quelle méthode ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Réponse acceptable",
+      "tone": "s",
+      "lines": [
+       "écoles tirées au sort, anonyme"
+      ]
+     },
+     {
+      "title": "Réponse manquante",
+      "tone": "b",
+      "lines": [
+       "aucun protocole publié"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Où est-ce publié ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Réponse acceptable",
+      "tone": "s",
+      "lines": [
+       "rapport ou article relu"
+      ]
+     },
+     {
+      "title": "Réponse manquante",
+      "tone": "b",
+      "lines": [
+       "presse seulement"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Ce que je fais du chiffre",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Les cinq réponses sont là",
+      "tone": "s",
+      "lines": [
+       "citable, avec ses étiquettes"
+      ]
+     },
+     {
+      "title": "Des réponses manquent",
+      "tone": "a",
+      "lines": [
+       "à mentionner avec son statut"
+      ]
+     }
+    ]
+   }
+  ],
+  "note": "Point de départ : un chiffre entendu ou lu. Le schéma porte sur la façon de juger un chiffre, pas sur une valeur : aucune donnée chiffrée n'y figure."
+ },
+ "comparateur-27-58": {
+  "type": "grid",
+  "title": "Deux chiffres malgaches, deux statuts",
+  "desc": "Tableau à deux colonnes comparant, ligne par ligne, l'enquête scolaire nationale de 2025 (27,2 % d'élèves harcelés) et le chiffre de 58 % qui circule dans la presse. Qui a été interrogé : 2 440 élèves de 13 à 17 ans dans 38 écoles, taux de réponse de 87,2 % pour l'enquête, contre des élèves de 10 à 21 ans d'effectif non précisé pour le chiffre de presse. Définition : harcèlement à l'école, question standardisée, contre non précisé. Période : les 12 derniers mois, contre non précisé. Méthode : tirage au sort à deux degrés, contre méthode non publiée. Publication : fiche de résultats publiée (OMS, 2025), contre aucun rapport primaire retrouvé, seulement des articles de presse (L'Express de Madagascar, 2025 ; Newsmada, 2024). Cinq réponses manquantes sur cinq à droite.",
+  "cols": [
+   "Enquête nationale 2025 · 27,2 %",
+   "Chiffre de presse · 58 %"
+  ],
+  "rows": [
+   {
+    "label": "Qui a été interrogé",
+    "cells": [
+     {
+      "text": "2 440 élèves de 13 à 17 ans, 38 écoles, taux de réponse 87,2 %",
+      "tone": "s"
+     },
+     {
+      "text": "élèves de 10 à 21 ans, effectif non précisé",
+      "tone": "a"
+     }
+    ]
+   },
+   {
+    "label": "Quelle définition",
+    "cells": [
+     {
+      "text": "harcèlement à l'école, question standardisée",
+      "tone": "s"
+     },
+     {
+      "text": "non précisé",
+      "tone": "a"
+     }
+    ]
+   },
+   {
+    "label": "Quelle période",
+    "cells": [
+     {
+      "text": "les 12 derniers mois",
+      "tone": "s"
+     },
+     {
+      "text": "non précisé",
+      "tone": "a"
+     }
+    ]
+   },
+   {
+    "label": "Quelle méthode",
+    "cells": [
+     {
+      "text": "tirage au sort à deux degrés",
+      "tone": "s"
+     },
+     {
+      "text": "non précisé, aucun protocole publié",
+      "tone": "a"
+     }
+    ]
+   },
+   {
+    "label": "Où est-ce publié",
+    "cells": [
+     {
+      "text": "fiche de résultats publiée (OMS, 2025)",
+      "tone": "s"
+     },
+     {
+      "text": "aucun rapport primaire retrouvé, articles de presse seulement",
+      "tone": "a"
+     }
+    ]
+   }
+  ],
+  "note": "Ces deux chiffres ne se contredisent pas : ils n'ont pas le même statut. Sources : OMS, 2025 ; L'Express de Madagascar, 2025 ; Newsmada, 2024."
+ },
+ "perimetre-enquete-2025": {
+  "type": "rings",
+  "title": "Ce que l'enquête de 2025 voit, et ce qu'elle ne voit pas",
+  "desc": "Trois ensembles emboîtés, du plus large au plus étroit. Ensemble extérieur : tous les enfants et adolescents de Madagascar ; les enfants non scolarisés en font partie et restent invisibles pour l'enquête, alors qu'ils sont souvent les plus exposés. Ensemble intermédiaire : les élèves scolarisés ; les élèves de moins de 13 ans ne sont pas couverts et les élèves absents le jour de la passation ne sont pas vus. Ensemble intérieur, ce que l'enquête mesure réellement : 2 440 élèves de 13 à 17 ans, de la septième à la terminale, dans 38 écoles, présents le jour de la passation, interrogés sur les 12 derniers mois, avec un taux de réponse des élèves de 87,2 % (OMS, 2025). Tout repose sur ce que les élèves déclarent eux-mêmes. Repère de contexte : 47 % des élèves achèvent le cycle primaire (INSTAT et UNICEF, 2026).",
+  "rings": [
+   {
+    "title": "L'enquête de 2025",
+    "tone": "s",
+    "items": [
+     "2 440 élèves de 13 à 17 ans, 38 écoles",
+     "de la septième à la terminale",
+     "présents le jour de la passation",
+     "rappel sur les 12 derniers mois"
+    ]
+   },
+   {
+    "title": "Élèves scolarisés",
+    "tone": "a",
+    "items": [
+     "élèves de moins de 13 ans : non couverts",
+     "élèves absents ce jour-là : non vus"
+    ]
+   },
+   {
+    "title": "Tous les enfants",
+    "tone": "",
+    "items": [
+     "enfants non scolarisés : invisibles",
+     "souvent les plus exposés"
+    ]
+   }
+  ],
+  "note": "Tout repose sur ce que les élèves déclarent eux-mêmes. Repère de contexte : 47 % des élèves achèvent le cycle primaire (INSTAT et UNICEF, 2026). Source de l'enquête : OMS, 2025."
+ },
+ "jalons-sources-malgaches": {
+  "type": "timeline",
+  "title": "Ce dont on dispose à Madagascar, et depuis quand",
+  "desc": "Frise de 2010 à 2028 portant cinq sources malgaches, chacune avec sa date, ce qu'elle mesure et son niveau de preuve. 2012, enquête par grappes dans les régions du Sud : 64 % des enfants de 2 à 14 ans punis physiquement dans le mois et 84 % soumis à une punition physique ou psychologique, preuve établie (INSTAT et UNICEF, 2013 ; End Corporal Punishment, 2019). 2018, étude nationale sur les violences envers les enfants, 2 523 personnes et 701 jeunes sur 12 sites : plus d'un jeune sur deux déclare au moins une violence en milieu scolaire et 49 % du personnel scolaire y voit un jeu, preuve établie (IBCR et UNICEF, 2018). 2025, enquête scolaire nationale auprès de 2 440 élèves de 38 écoles : 27,2 % harcelés et 10,5 % cyberharcelés, preuve établie (OMS, 2025). 2026, enquête nationale auprès de 19 785 ménages dans les 23 régions : environ 85 % des enfants subissent une discipline violente, preuve établie (INSTAT et UNICEF, 2026). 2025, chiffre de presse de 58 %, méthode non publiée et aucun rapport primaire retrouvé, preuve faible (L'Express de Madagascar, 2025 ; Newsmada, 2024). Une bande traverse toute la frise : aucune publication scientifique malgache sur le harcèlement entre élèves n'a pu être identifiée.",
+  "axis": {
+   "start": 2010,
+   "end": 2028,
+   "ticks": [
+    2012,
+    2018,
+    2025
+   ],
+   "format": "{}"
+  },
+  "zones": [
+   {
+    "from": 2010,
+    "to": 2028,
+    "label": "aucune publication scientifique malgache sur le harcèlement entre élèves",
+    "tone": ""
+   }
+  ],
+  "lane_height": 66,
+  "lanes": [
+   {
+    "title": "2012 · enquête par grappes, Sud : 64 % des 2-14 ans punis physiquement",
+    "tone": "p",
+    "events": [
+     {
+      "at": 2012,
+      "label": "preuve établie · 2-14 ans, Sud"
+     }
+    ]
+   },
+   {
+    "title": "2018 · violences envers les enfants : plus d'un jeune sur deux à l'école",
+    "tone": "p",
+    "events": [
+     {
+      "at": 2018,
+      "label": "preuve établie · 701 jeunes, 12 sites"
+     }
+    ]
+   },
+   {
+    "title": "2025 · enquête scolaire nationale : 27,2 % harcelés, 10,5 % cyberharcelés",
+    "tone": "s",
+    "events": [
+     {
+      "at": 2025,
+      "label": "preuve établie · 2 440 élèves, 38 écoles"
+     }
+    ]
+   },
+   {
+    "title": "2026 · enquête auprès des ménages : environ 85 % de discipline violente",
+    "tone": "p",
+    "events": [
+     {
+      "at": 2026,
+      "label": "preuve établie · 19 785 ménages, 23 régions"
+     }
+    ]
+   },
+   {
+    "title": "2025 · chiffre de presse : 58 %, méthode non publiée",
+    "tone": "a",
+    "events": [
+     {
+      "at": 2025,
+      "label": "preuve faible · aucun rapport primaire"
+     }
+    ]
+   }
+  ],
+  "milestones": [],
+  "note": "Aucune publication scientifique relue par des pairs sur le harcèlement entre élèves à Madagascar n'a pu être identifiée. Sources : INSTAT et UNICEF, 2013 ; End Corporal Punishment, 2019 ; IBCR et UNICEF, 2018 ; OMS, 2025 ; INSTAT et UNICEF, 2026 ; L'Express de Madagascar, 2025 ; Newsmada, 2024."
+ },
+ "frise-consequences-temps": {
+  "type": "chain",
+  "title": "Ce qui est observé, et quand",
+  "desc": "Quatre blocs se succédant dans le temps, de gauche à droite. Semaines qui suivent : anxiété, sommeil difficile, maux de ventre et de tête, évitement de lieux et de moments, chute de la concentration (Moore et al., 2017, 165 études retenues sur 317 évaluées). Mois à 2 ans : symptômes dépressifs et anxieux encore mesurables entre jumeaux identiques dont un seul a été harcelé (Singham et al., 2017, cohorte TEDS, 11 108 jumeaux). Vers 5 ans : la plupart des écarts ne sont plus mesurables ; seules persistent la désorganisation cognitive et les pensées de type paranoïde. Début de l'âge adulte : dépression, anxiété, trouble panique, agoraphobie et idées suicidaires plus fréquents chez les anciennes victimes, dans trois cohortes suivies en Finlande, aux États-Unis et au Royaume-Uni (Arseneault, 2017 et 2018). Ce qui pèse le plus n'est pas d'avoir été harcelé une fois, mais de l'être longtemps (Bowes et al., 2013, cohorte E-Risk, 2 232 enfants). Repères de groupe, pas de pronostic individuel.",
+  "steps": [
+   {
+    "title": "Semaines qui suivent",
+    "tone": "b",
+    "lines": [
+     "anxiété, sommeil difficile",
+     "maux de ventre et de tête",
+     "évitement de lieux et de moments",
+     "chute de la concentration"
+    ]
+   },
+   {
+    "title": "Mois à 2 ans",
+    "tone": "a",
+    "lines": [
+     "symptômes dépressifs et anxieux encore mesurables",
+     "entre jumeaux dont un seul a été harcelé"
+    ]
+   },
+   {
+    "title": "Vers 5 ans",
+    "tone": "s",
+    "lines": [
+     "la plupart des écarts ne sont plus mesurables",
+     "persistent : désorganisation cognitive, pensées de type paranoïde"
+    ]
+   },
+   {
+    "title": "Début de l'âge adulte",
+    "tone": "b",
+    "lines": [
+     "dépression, anxiété, trouble panique, agoraphobie",
+     "idées suicidaires plus fréquentes"
+    ]
+   }
+  ],
+  "note": "Ce qui pèse le plus n'est pas d'avoir été harcelé une fois, mais de l'être longtemps (Bowes et al., 2013). Repères de groupe, pas de pronostic individuel. Sources : Moore et al., 2017 ; Singham et al., 2017 ; Arseneault, 2017 et 2018."
+ },
+ "schema-trois-pieges": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Trois pièges avant de conclure qu'une chose en a causé une autre",
+  "desc": "Trois panneaux côte à côte. La causalité inverse : une flèche va du harcèlement vers la souffrance, une autre revient de la souffrance vers le harcèlement, car un enfant déjà isolé ou anxieux est plus souvent pris pour cible. Les facteurs partagés : la pauvreté, un climat familial dur, un handicap ou une différence visible mènent à la fois au harcèlement et aux troubles psychiques, si bien que ce qu'on attribue au harcèlement appartient en partie à ce qui l'entoure. Les biais de mémoire : beaucoup d'études interrogent des adultes sur leur enfance, et une personne qui va mal aujourd'hui se souvient plus facilement de ce qui a fait mal. Dans les trois cas, faire cesser le harcèlement reste utile. Schéma conceptuel, sans données chiffrées (Moore et al., 2017 ; Aboagye et al., 2021a ; Rtbey et al., 2025).",
+  "columns": [
+   {
+    "title": "La causalité inverse",
+    "tone": "a",
+    "items": [
+     "harcèlement → souffrance",
+     "souffrance → harcèlement",
+     "un enfant déjà isolé ou anxieux est plus souvent pris pour cible"
+    ]
+   },
+   {
+    "title": "Les facteurs partagés",
+    "tone": "a",
+    "items": [
+     "pauvreté, climat familial dur, handicap, différence visible",
+     "→ harcèlement",
+     "→ troubles psychiques",
+     "ce qu'on attribue au harcèlement appartient en partie à ce qui l'entoure"
+    ]
+   },
+   {
+    "title": "Les biais de mémoire",
+    "tone": "a",
+    "items": [
+     "on interroge des adultes sur leur enfance",
+     "les souvenirs douloureux ressortent davantage",
+     "une personne qui va mal aujourd'hui se souvient plus facilement de ce qui a fait mal"
+    ]
+   }
+  ],
+  "note": "Dans les trois cas, faire cesser le harcèlement reste utile. Schéma conceptuel, sans données chiffrées (Moore et al., 2017 ; Aboagye et al., 2021a ; Rtbey et al., 2025)."
+ },
+ "schema-jumeaux-discordants": {
+  "type": "fork",
+  "title": "Ce que les jumeaux permettent de trancher",
+  "desc": "Schéma en deux temps. À gauche, deux jumeaux identiques élevés dans la même famille : mêmes gènes, même famille, même quartier ; tout ce qui est partagé est ainsi neutralisé. L'un des deux a été harcelé à 11 ans, l'autre non. À droite, trois temps de mesure. À court terme : écarts d'anxiété, de dépression, d'hyperactivité, d'inattention et de troubles des conduites. À 2 ans : anxiété encore mesurable. À 5 ans : seules persistent la désorganisation cognitive et les pensées de type paranoïde. Source : Singham et al., 2017, cohorte britannique TEDS, 11 108 jumeaux, effets compatibles avec une contribution causale du harcèlement. Prudence : chez 1 116 familles de jumeaux de 10 ans, les facteurs génétiques rendent compte de 73 % de la variation du statut de victime et de 61 % de celle du statut d'auteur (Ball et al., 2008) ; des caractéristiques en partie héritées modifient la probabilité d'être pris pour cible, mais il n'existe pas de gène du harcèlement. La victimation qui dure d'une école à l'autre est prédite par la pauvreté, le manque de chaleur parentale et la maltraitance (Bowes et al., 2013, cohorte E-Risk, 2 232 enfants).",
+  "common": {
+   "title": "Mêmes gènes, même famille, même quartier",
+   "tone": "s",
+   "lines": [
+    "tout ce qui est partagé par les deux jumeaux est neutralisé"
+   ]
+  },
+  "root": {
+   "title": "Deux jumeaux identiques",
+   "tone": "p",
+   "lines": [
+    "l'un harcelé à 11 ans, l'autre non"
+   ]
+  },
+  "branches": [
+   {
+    "title": "À court terme",
+    "tone": "b",
+    "lines": [
+     "écarts d'anxiété, de dépression, d'hyperactivité",
+     "d'inattention et de troubles des conduites"
+    ]
+   },
+   {
+    "title": "À 2 ans",
+    "tone": "a",
+    "lines": [
+     "anxiété encore mesurable"
+    ]
+   },
+   {
+    "title": "À 5 ans",
+    "tone": "s",
+    "lines": [
+     "seules persistent la désorganisation cognitive et les pensées de type paranoïde"
+    ]
+   }
+  ],
+  "note": "Cohorte TEDS, 11 108 jumeaux (Singham et al., 2017). Des caractéristiques en partie héritées modifient la probabilité d'être pris pour cible : 73 % de la variation du statut de victime chez 1 116 familles de jumeaux (Ball et al., 2008). Il n'existe pas de gène du harcèlement. La victimation qui dure d'une école à l'autre est prédite par la pauvreté, le manque de chaleur parentale et la maltraitance (Bowes et al., 2013)."
+ },
+ "fourche-idees-noires": {
+  "type": "flow",
+  "title": "Ce soir : de la parole de l'enfant à la mise en sécurité",
+  "desc": "Organigramme vertical à lire de haut en bas, en une seule colonne. Point de départ : un enfant dit qu'il pense à mourir, ou je le soupçonne. 1. Rester avec l'enfant : ne pas le laisser seul, même quelques minutes ; si je dois m'absenter, faire venir un autre adulte de confiance. 2. Écouter sans corriger : ne pas discuter ses raisons, ne pas faire promettre, reformuler pour qu'il sache que j'ai entendu. 3. Mettre calmement hors de portée ce qui peut servir à se faire du mal, sans commenter ce geste. 4. Évaluer l'urgence, avec deux sorties : s'il n'y a pas de danger immédiat, consultation rapide avec un adulte présent et contact tous les jours ; si l'inquiétude est forte ou si l'enfant ne peut pas s'engager sur la suite, l'accompagner le soir même vers un service d'urgence ou de psychiatrie, sans l'y envoyer seul. 5. Dans les deux cas, prévenir les personnes qui peuvent protéger : les parents ou tuteurs, et l'établissement pour ce qui se passe en classe. Le 147 signale les violences faites aux enfants et oriente ; ce n'est pas une ligne de crise suicidaire. Conduite fondée sur les recommandations de l'Organisation mondiale de la santé (mhGAP, 2023 ; premiers secours psychologiques, 2011). Aucun moyen et aucun lieu ne sont nommés.",
+  "steps": [
+   {
+    "title": "Rester avec l'enfant",
+    "tone": "a",
+    "lines": [
+     "ne pas le laisser seul, même quelques minutes",
+     "si je dois m'absenter, faire venir un autre adulte de confiance"
+    ]
+   },
+   {
+    "title": "Écouter sans corriger",
+    "tone": "p",
+    "lines": [
+     "ne pas discuter ses raisons, ne pas faire promettre",
+     "reformuler pour qu'il sache que j'ai entendu"
+    ]
+   },
+   {
+    "title": "Mettre hors de portée ce qui peut servir à se faire du mal",
+    "tone": "p",
+    "lines": [
+     "calmement, et sans commenter ce geste"
+    ]
+   },
+   {
+    "title": "Évaluer l'urgence, ce soir",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Pas de danger immédiat",
+      "tone": "s",
+      "lines": [
+       "consultation rapide, un adulte présent",
+       "on reste en contact tous les jours"
+      ]
+     },
+     {
+      "title": "Inquiétude forte, ou il ne peut pas s'engager sur la suite",
+      "tone": "b",
+      "lines": [
+       "accompagner le soir même vers un service d'urgence ou de psychiatrie",
+       "ne pas l'y envoyer seul"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Prévenir les personnes qui peuvent protéger",
+    "tone": "p",
+    "lines": [
+     "les parents ou tuteurs",
+     "l'établissement, pour ce qui se passe en classe"
+    ]
+   }
+  ],
+  "note": "Point de départ : un enfant dit qu'il pense à mourir, ou je le soupçonne. Le 147 signale les violences faites aux enfants et oriente ; ce n'est pas une ligne de crise suicidaire (Moov.mg, 2026). Ne pas organiser de confrontation avec l'enfant auteur, ne pas contacter sa famille (Défenseur des droits, 2023 ; National Academies of Sciences, 2016). Conduite fondée sur mhGAP, 2023 et sur les premiers secours psychologiques, OMS, 2011."
+ },
+ "albinisme-trois-reponses": {
+  "type": "grid",
+  "title": "Albinisme : trois problèmes, trois réponses",
+  "desc": "Tableau à trois lignes et deux colonnes : ce que vit l'enfant, ce que fait l'adulte. Apparence : moqueries sur la peau et les cheveux, surnoms ; l'adulte interdit les surnoms, nomme le fait et n'en fait pas un sujet public. Croyances : croyances magiques sur le corps, pouvant aller jusqu'au danger physique ; l'adulte parle avec les adultes de la communauté, ne ridiculise pas la croyance et sécurise les trajets. Basse vision : l'enfant ne lit pas le tableau de loin ; l'adulte le place devant, agrandit les documents et le protège du soleil. Ces trois problèmes sont distincts et n'appellent pas la même réponse : le troisième se règle en changeant l'enfant de place, les deux autres non (Tambala-Kaliati et Adomako, 2021 ; Cimpric, 2010). Ces élèves figurent souvent parmi les meilleurs de leur classe quand la stigmatisation ne les pousse pas au décrochage (Ayangma Bonoho, 2025) ; harcèlement et exclusion sont aussi rapportés en école inclusive (Stein et al., 2025). Les données viennent du Malawi, de Tanzanie, du Cameroun et du Congo ; la situation malgache n'a pas été étudiée (Comité des droits de l'enfant, 2022).",
+  "cols": [
+   "Ce que vit l'enfant",
+   "Ce que fait l'adulte"
+  ],
+  "rows": [
+   {
+    "label": "Apparence",
+    "cells": [
+     {
+      "text": "moqueries sur la peau et les cheveux, surnoms",
+      "tone": "a"
+     },
+     {
+      "text": "interdire les surnoms, nommer le fait, ne pas en faire un sujet public",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "Croyances",
+    "cells": [
+     {
+      "text": "croyances magiques sur le corps, pouvant aller jusqu'au danger physique",
+      "tone": "b"
+     },
+     {
+      "text": "parler avec les adultes de la communauté, ne pas ridiculiser la croyance, sécuriser les trajets",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "Basse vision",
+    "cells": [
+     {
+      "text": "ne lit pas le tableau de loin",
+      "tone": "a"
+     },
+     {
+      "text": "placer l'enfant devant, agrandir les documents, protéger du soleil",
+      "tone": "s"
+     }
+    ]
+   }
+  ],
+  "note": "Données du Malawi, de Tanzanie, du Cameroun et du Congo ; la situation malgache n'a pas été étudiée (Comité des droits de l'enfant, 2022)."
+ },
+ "angles-morts-reperage": {
+  "type": "iceberg",
+  "title": "Les enfants que les enquêtes ne comptent pas",
+  "desc": "Iceberg. Au-dessus de la ligne d'eau, la partie mesurée : les élèves présents à l'école le jour de l'enquête, dont 27,2 % déclarent avoir été harcelés à l'école dans l'année (OMS, 2025). En dessous, la partie non mesurée, plus grande : les enfants absents le jour de l'enquête, sachant que 24,6 % des élèves déclarent avoir manqué l'école sans permission (OMS, 2025) ; les enfants qui travaillent, dont la scolarisation est inférieure de trente points à celle des autres enfants (INSTAT, 2008) ; les enfants confiés récemment arrivés ; les filles mariées ou en union avant 18 ans ; les enfants jamais scolarisés ; les enfants en situation de handicap non scolarisés. Ne pas être à l'école est en soi un facteur d'exposition (Morano, 2022), et ces groupes sont nommés officiellement sans être mesurés (Comité des droits de l'enfant, 2022). Les prévalences publiées sont donc probablement des sous-estimations, sans qu'on sache de combien.",
+  "above_label": "Ce que les enquêtes comptent",
+  "below_label": "Ce qu'elles ne comptent pas",
+  "above": [
+   "Les élèves présents",
+   "le jour de l'enquête",
+   "27,2 % harcelés dans l'année",
+   "(OMS, 2025)"
+  ],
+  "below": [
+   "Enfants absents le jour de l'enquête",
+   "Enfants qui travaillent",
+   "Enfants confiés récemment arrivés",
+   "Filles mariées ou en union avant 18 ans",
+   "Enfants jamais scolarisés, dont handicap"
+  ],
+  "links": [],
+  "note": "Les prévalences publiées sont probablement des sous-estimations, sans qu'on sache de combien (OMS, 2025 ; INSTAT, 2008 ; Morano, 2022 ; Comité des droits de l'enfant, 2022)."
+ },
+ "genre-deux-violences": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Filles et garçons : même fréquence, formes différentes",
+  "desc": "Trois colonnes. À gauche, les garçons : 26,3 % harcelés à l'école dans l'année, davantage de violences physiques, et l'injonction à se défendre seul, qui freine le signalement. Au centre, ce qui est commun : 27,2 % des élèves harcelés dans l'année, garçons et filles ensemble, donc une fréquence quasi identique, et un signalement rare des deux côtés pour des raisons différentes. À droite, les filles : 28,1 % harcelées à l'école dans l'année, des pressions à caractère sexuel très majoritairement subies par elles, et un retrait des rôles de responsabilité par crainte des représailles. Chiffres malgaches : OMS, 2025. Repères venus d'ailleurs : au Sénégal, 9,6 % de 2 707 collégiens et lycéens déclarent avoir été importunés pour des motifs sexuels, dont 62 % de filles (Coulibaly, 2013) ; en Afrique australe et orientale, deux directeurs d'école primaire sur cinq reconnaissent du harcèlement sexuel entre élèves (UNESCO, 2016 ; Sikhakhane et Muthukrishna, 2018) ; dans douze écoles primaires de six régions malgaches, filles et garçons ne reçoivent pas le même traitement (Gastineau, 2011) ; formes différenciées décrites au Cameroun (Ébonguè, 2025). Les données sénégalaises, camerounaises et régionales ne décrivent pas Madagascar.",
+  "columns": [
+   {
+    "title": "Garçons",
+    "tone": "p",
+    "items": [
+     "26,3 % harcelés dans l'année (OMS, 2025)",
+     "violences physiques plus fréquentes",
+     "injonction à se défendre seul",
+     "→ cette attente freine le signalement"
+    ]
+   },
+   {
+    "title": "Ce qui est commun",
+    "tone": "",
+    "items": [
+     "27,2 % harcelés dans l'année, filles et garçons ensemble",
+     "même fréquence, formes différentes",
+     "les deux signalent peu, pour des raisons différentes"
+    ]
+   },
+   {
+    "title": "Filles",
+    "tone": "a",
+    "items": [
+     "28,1 % harcelées dans l'année (OMS, 2025)",
+     "pressions à caractère sexuel très majoritairement subies par les filles",
+     "retrait des rôles de responsabilité par crainte des représailles"
+    ]
+   }
+  ],
+  "note": "Sénégal : 9,6 % des élèves importunés pour des motifs sexuels, dont 62 % de filles (Coulibaly, 2013). Les données sénégalaises, camerounaises et régionales ne décrivent pas Madagascar."
+ },
+ "echelle-conflit-cyberharcelement": {
+  "type": "grid",
+  "title": "Où passe la limite ? Du conflit au cyberharcèlement",
+  "desc": "Tableau à cinq lignes et deux colonnes qui compare, critère par critère, un conflit entre enfants et une situation de harcèlement ou de cyberharcèlement. Rapport de force : équilibré d'un côté, déséquilibre de pouvoir de l'autre. Fréquence : épisode unique, ou répétition. Intention : pas d'intention de blesser, ou intention de blesser. Diffusion : échange privé qui peut s'arrêter, ou contenu public et persistant que la victime ne peut plus effacer. Conduite à tenir : devant un conflit on peut réunir et réconcilier ; devant du harcèlement on protège, on trace, on signale et on n'organise pas de face-à-face. Entre les deux se trouve une zone à surveiller, quand tous les critères ne sont pas réunis. Schéma de critères, sans chiffre (Modecki et al., 2014 ; Kowalski et al., 2014). Le harcèlement par les pairs et le cyberharcèlement sont associés à une augmentation des idées suicidaires : on prend au sérieux et on oriente (van Geel et al., 2014).",
+  "cols": [
+   "Conflit entre enfants",
+   "Harcèlement ou cyberharcèlement"
+  ],
+  "rows": [
+   {
+    "label": "Rapport de force",
+    "cells": [
+     {
+      "text": "forces équilibrées",
+      "tone": "s"
+     },
+     {
+      "text": "déséquilibre de pouvoir",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Fréquence",
+    "cells": [
+     {
+      "text": "épisode unique",
+      "tone": "s"
+     },
+     {
+      "text": "cela se répète",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Intention",
+    "cells": [
+     {
+      "text": "pas d'intention de blesser",
+      "tone": "s"
+     },
+     {
+      "text": "intention de blesser",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Diffusion",
+    "cells": [
+     {
+      "text": "échange privé, qui peut s'arrêter",
+      "tone": "s"
+     },
+     {
+      "text": "public et persistant, on ne peut plus effacer",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Conduite",
+    "cells": [
+     {
+      "text": "on peut réunir et réconcilier",
+      "tone": "s"
+     },
+     {
+      "text": "protéger, tracer, signaler, pas de face-à-face",
+      "tone": "b"
+     }
+    ]
+   }
+  ],
+  "note": "Entre les deux, une zone à surveiller quand tous les critères ne sont pas réunis. Le harcèlement par les pairs et le cyberharcèlement sont associés à une augmentation des idées suicidaires : on prend au sérieux, on oriente (van Geel et al., 2014)."
+ },
+ "recouvrement-cyber-face-a-face": {
+  "type": "venn2",
+  "title": "Harcèlement en face à face et cyberharcèlement",
+  "desc": "Deux disques qui se recouvrent largement. À gauche, le harcèlement en face à face, nettement plus fréquent ; à droite, le cyberharcèlement, plus rare. La large intersection signifie que la majorité des enfants cyberharcelés sont aussi harcelés à l'école (Modecki et al., 2014). Trois aggravants sont propres au numérique : l'anonymat possible, la persistance des contenus et une audience potentiellement illimitée (Kowalski et al., 2014). Repères malgaches, élèves de 13 à 17 ans : 27,2 % harcelés à l'école dans l'année et 10,5 % cyberharcelés (OMS, 2025). Les tailles des disques sont schématiques et ne représentent pas une mesure exacte. Traiter l'écran sans traiter la cour et la classe est inefficace.",
+  "sets": [
+   {
+    "label": "Harcèlement en face à face",
+    "note": "27,2 % des élèves, Madagascar",
+    "tone": "p"
+   },
+   {
+    "label": "Cyberharcèlement",
+    "note": "10,5 % des élèves ; plus rare, jamais isolé",
+    "tone": "a"
+   }
+  ],
+  "center": "Souvent les deux",
+  "pairs": [
+   {
+    "x": 320,
+    "y": 250,
+    "label": "la majorité des enfants cyberharcelés sont aussi harcelés à l'école (Modecki et al., 2014)"
+   },
+   {
+    "x": 320,
+    "y": 270,
+    "label": "aggravants propres au numérique : anonymat possible, persistance des contenus, audience illimitée (Kowalski et al., 2014)"
+   },
+   {
+    "x": 320,
+    "y": 290,
+    "label": "Madagascar, 13-17 ans : 27,2 % harcelés à l'école, 10,5 % cyberharcelés dans l'année (OMS, 2025)"
+   }
+  ],
+  "note": "Proportions schématiques, pas une mesure. Traiter l'écran sans traiter la cour et la classe est inefficace."
+ },
+ "spirale-sextorsion": {
+  "type": "flow",
+  "title": "La spirale de la sextorsion et ses six sorties de secours",
+  "desc": "Cinq étapes en cascade, chacune accompagnée d'une sortie de secours. Étape 1, un inconnu entre en contact et flatte ; sortie : ne pas répondre à un inconnu. Étape 2, mise en confiance rapide et passage en message privé ; sortie : en parler à un adulte de confiance. Étape 3, demande d'une image intime ; sortie : ne jamais envoyer d'image. Étape 4, menace de diffusion ; deux sorties : capturer les preuves, c'est-à-dire les messages, le pseudonyme, la date et l'adresse de la page, jamais l'image, puis bloquer et signaler. Étape 5, demande d'argent qui se répète sans fin ; sortie : arrêter de payer, car payer ne fait pas cesser la demande. Le scénario peut passer du premier message à la menace en quelques heures et vise surtout des garçons adolescents (WeProtect Global Alliance, 2023). Au Kenya, 5 à 13 % des enfants internautes de 12 à 17 ans ont subi une exploitation ou un abus sexuel en ligne dans l'année, 7 % ont vu des images sexuelles d'eux partagées sans consentement et 4 % ont subi des menaces ou du chantage (INTERPOL, 2021 ; ECPAT International, 2021). Les signalements de sextorsion financière ont augmenté de 7 200 % entre 2021 et 2022 : c'est une hausse de signalements, pas une mesure de prévalence (WeProtect Global Alliance, 2023). L'enfant n'est jamais le coupable. Trois voies de signalement à Madagascar : la ligne verte 147, arozaza.mg et report.iwf.org.uk/mg (Internet Watch Foundation, 2020 ; Arozaza.mg).",
+  "steps": [
+   {
+    "title": "Un inconnu entre en contact et flatte",
+    "tone": "b",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Sortie : ne pas répondre à un inconnu",
+      "tone": "s",
+      "lines": [
+       "la plupart des approches passent par un message privé d'inconnu"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Mise en confiance rapide, passage en message privé",
+    "tone": "b",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Sortie : en parler à un adulte de confiance",
+      "tone": "s",
+      "lines": [
+       "en parler tôt, avant qu'une image soit envoyée"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Demande d'une image intime",
+    "tone": "b",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Sortie : ne jamais envoyer d'image",
+      "tone": "s",
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Menace de diffusion",
+    "tone": "b",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Sortie : capturer les preuves",
+      "tone": "s",
+      "lines": [
+       "messages, pseudonyme, date, adresse de la page ; jamais l'image"
+      ]
+     },
+     {
+      "title": "Sortie : bloquer et signaler",
+      "tone": "s",
+      "lines": [
+       "plateforme, 147, arozaza.mg, report.iwf.org.uk/mg"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Demande d'argent qui se répète sans fin",
+    "tone": "b",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Sortie : arrêter de payer",
+      "tone": "s",
+      "lines": [
+       "payer ne fait pas cesser la demande"
+      ]
+     }
+    ]
+   }
+  ],
+  "note": "L'enfant n'est jamais le coupable. Signaler à Madagascar : ligne verte 147, arozaza.mg, report.iwf.org.uk/mg (WeProtect Global Alliance, 2023 ; Internet Watch Foundation, 2020 ; Arozaza.mg)."
+ },
+ "carte-lieux-invisibles": {
+  "type": "rings",
+  "title": "Où le harcèlement se produit : la carte des endroits sans adulte",
+  "desc": "Plan concentrique de l'environnement d'un élève, du centre vers l'extérieur. Au centre le bâtiment : salles de classe, couloirs, des adultes passent. Autour, la cour : coins éloignés, toilettes, salles laissées sans surveillance. Puis les abords de l'établissement : portail, rue, arrêt de transport. Puis le trajet école-maison, angle mort des dispositifs de surveillance scolaire. Enfin la maison et les activités encadrées de l'association, qui sont des lieux d'observation pour un adulte. Le téléphone traverse tous les cercles : il suit l'enfant de l'école à la maison et ne laisse pas de refuge. Le harcèlement se concentre là où aucun adulte ne regarde. Lieux désignés par les élèves dans des études sud-africaines portant sur un à deux établissements de townships (Ngidi, 2018 ; Sikhakhane, 2018) ; trajet école-maison décrit par une étude qualitative à Kinshasa et au Sud-Kivu (Banque mondiale, 2020) ; superposition du harcèlement en ligne et en face à face (Modecki et al., 2014).",
+  "rings": [
+   {
+    "title": "Le bâtiment",
+    "tone": "",
+    "items": [
+     "salles de classe, couloirs",
+     "des adultes passent"
+    ]
+   },
+   {
+    "title": "La cour",
+    "tone": "a",
+    "items": [
+     "coins éloignés, sans adulte",
+     "toilettes",
+     "salles laissées sans surveillance"
+    ]
+   },
+   {
+    "title": "Les abords",
+    "tone": "b",
+    "items": [
+     "portail et rue",
+     "arrêt de transport"
+    ]
+   },
+   {
+    "title": "Le trajet",
+    "tone": "b",
+    "items": [
+     "chemin école-maison",
+     "angle mort de la surveillance scolaire"
+    ]
+   },
+   {
+    "title": "La maison",
+    "tone": "s",
+    "items": [
+     "lieu d'observation pour un adulte",
+     "activités encadrées de l'association",
+     "le téléphone y suit l'enfant"
+    ]
+   }
+  ],
+  "note": "Le harcèlement se concentre là où aucun adulte ne regarde. Carte établie en Afrique du Sud et en RDC : à refaire par chaque école avec ses propres élèves ; rendre un lieu visible n'est pas y installer une surveillance permanente."
+ },
+ "fourche-un-indice-ou-un-faisceau": {
+  "type": "flow",
+  "title": "Un seul indice, ou un faisceau ?",
+  "desc": "Organigramme de raisonnement en quatre étapes. Départ : je remarque quelque chose chez un enfant, je note par écrit ce que j'ai vu et entendu, avec la date. Premier embranchement : un seul signe et une seule source ? Si oui, je note, je reste attentif et je reviens voir dans quelques jours. Si non, plusieurs signes ou plusieurs sources, je passe aux trois R. Second embranchement : les trois R sont-ils réunis, répétition, rapport de force, retentissement ? Si non, conflit ou situation à surveiller, avec suivi et réévaluation à une date fixée. Si oui, harcèlement probable : protéger, transmettre à la personne responsable, vérifier à une date fixée. Branche prioritaire, valable à tout moment du raisonnement : idées de mort, blessures auto-infligées, violence sexuelle ou danger immédiat, ne pas laisser l'enfant seul, écarter les moyens, accompagner le jour même vers un service d'urgence ou de psychiatrie. Schéma de raisonnement sans donnée chiffrée : opinion d'expert et recommandations officielles (NASEM, 2016 ; OMS, 2019 ; Défenseur des droits, 2023), branche d'urgence d'après le guide mhGAP (2023).",
+  "steps": [
+   {
+    "title": "Je remarque quelque chose chez un enfant",
+    "tone": "p",
+    "lines": [
+     "noter par écrit ce qui a été vu et entendu, avec la date"
+    ]
+   },
+   {
+    "title": "Un seul signe, une seule source ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Oui : un seul indice",
+      "tone": "s",
+      "lines": [
+       "je note avec la date, je reste attentif, je reviens voir dans quelques jours"
+      ]
+     },
+     {
+      "title": "Non : plusieurs signes ou plusieurs sources",
+      "tone": "a",
+      "lines": [
+       "passer aux trois R"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Les trois R sont-ils réunis ?",
+    "tone": "p",
+    "lines": [
+     "répétition, rapport de force, retentissement"
+    ],
+    "branches": [
+     {
+      "title": "Non : conflit ou situation à surveiller",
+      "tone": "s",
+      "lines": [
+       "suivi, réévaluation à une date fixée"
+      ]
+     },
+     {
+      "title": "Oui : harcèlement probable",
+      "tone": "a",
+      "lines": [
+       "protéger, transmettre à la personne responsable, vérifier à une date fixée"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "À tout moment, priorité sur le reste",
+    "tone": "b",
+    "lines": [
+     "idées de mort, blessures auto-infligées, violence sexuelle ou danger immédiat",
+     "ne pas laisser seul, écarter les moyens, accompagner le jour même vers un service d'urgence ou de psychiatrie"
+    ]
+   }
+  ],
+  "note": "Schéma de raisonnement, sans donnée chiffrée : opinion d'expert et recommandations officielles (NASEM, 2016 ; OMS, 2019 ; Défenseur des droits, 2023). La dernière étape prime à tout moment sur les précédentes (mhGAP, 2023)."
+ },
+ "frise-signaux-age": {
+  "type": "timeline",
+  "title": "Ce qui se voit, selon l'âge (6 à 18 ans)",
+  "desc": "Frise horizontale de 6 à 18 ans en quatre blocs, avec deux lignes superposées. Ligne du haut, formes dominantes : de 6 à 10 ans, physique et exclusion simple ; de 10 à 12 ans, relationnel et physique, début des atteintes en ligne ; de 12 à 15 ans, formes indirectes, en ligne, sur l'apparence et le genre ; de 15 à 18 ans, indirect, en ligne, à connotation sexuelle. Ligne du bas, signaux à repérer : de 6 à 10 ans, maux de ventre ou de tête les matins d'école, affaires abîmées ou perdues, régressions, chute des résultats ; de 10 à 12 ans, isolement nouveau, perte du groupe d'amis, évitement de lieux et d'horaires, demandes d'argent inhabituelles ; de 12 à 15 ans, absences, chute des notes, repli, changements brusques d'humeur, réactions vives au téléphone, blessures auto-infligées ; de 15 à 18 ans, découragement installé, désinvestissement scolaire, conduites à risque, propos sur la mort. La victimisation déclarée diminue avec l'âge alors que la perpétration reste stable ou augmente (Craig et al., 2009 ; López-Castro et al., 2023) ; les formes se déplacent du physique vers l'indirect et le numérique (López-Castro et al., 2023 ; Modecki et al., 2014) ; la transition d'établissement est un moment de vulnérabilité (Bowes et al., 2013) ; un noyau reste concerné en fin de secondaire, avec davantage de conduites auto-agressives (Barker et al., 2008 ; Wilson et al., 2023). Les listes de signaux relèvent de l'opinion d'expert (Catheline, 2023 ; HAS, 2017).",
+  "axis": {
+   "start": 6,
+   "end": 18,
+   "ticks": [
+    6,
+    10,
+    12,
+    15,
+    18
+   ],
+   "format": "{} ans"
+  },
+  "zones": [
+   {
+    "from": 6,
+    "to": 10,
+    "label": "6-10",
+    "tone": "s"
+   },
+   {
+    "from": 10,
+    "to": 12,
+    "label": "10-12",
+    "tone": "p"
+   },
+   {
+    "from": 12,
+    "to": 15,
+    "label": "12-15",
+    "tone": "a"
+   },
+   {
+    "from": 15,
+    "to": 18,
+    "label": "15-18",
+    "tone": "p"
+   }
+  ],
+  "lane_height": 78,
+  "lanes": [
+   {
+    "title": "Formes dominantes",
+    "tone": "",
+    "events": [
+     {
+      "at": 8,
+      "label": "physique, exclusion simple"
+     },
+     {
+      "at": 11,
+      "label": "relationnel, début en ligne"
+     },
+     {
+      "at": 13.5,
+      "label": "indirect, apparence, genre"
+     },
+     {
+      "at": 16.5,
+      "label": "en ligne, connotation sexuelle"
+     }
+    ]
+   },
+   {
+    "title": "Signaux à repérer",
+    "tone": "p",
+    "events": [
+     {
+      "at": 8,
+      "label": "maux de ventre, régressions"
+     },
+     {
+      "at": 11,
+      "label": "isolement, lieux évités"
+     },
+     {
+      "at": 13.5,
+      "label": "absences, notes en chute"
+     },
+     {
+      "at": 16.5,
+      "label": "découragement, conduites à risque"
+     }
+    ]
+   }
+  ],
+  "note": "Aucun signe n'est propre au harcèlement : ce qui alerte, c'est le changement par rapport à l'enfant habituel et plusieurs signes en même temps (Catheline, 2023 ; HAS, 2017)."
+ },
+ "ouvrir-fermer": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Phrases qui ouvrent, phrases qui ferment",
+  "desc": "Deux colonnes face à face. Colonne de gauche, ce qui ouvre la parole : « Raconte-moi ta journée » ; « Avec qui tu as mangé ? » ; « Qu'est-ce qui s'est passé ensuite ? » ; « Tu as l'air fatigué, j'aimerais comprendre » ; « Prends ton temps », le silence est toléré. Colonne de droite, ce qui la referme : « Est-ce qu'on te harcèle ? » ; « Pourquoi tu n'as rien dit ? » ; « Tu exagères » ; « Défends-toi » ; « Qu'est-ce que tu as fait pour ça ? ». À gauche, question ouverte, mot de l'enfant, silence toléré ; à droite, question fermée, mot d'adulte, reproche. Contenu non chiffré, niveau de preuve opinion d'expert (OMS, 2023 ; Défenseur des droits, 2023 ; Turner et al., 2024 ; Smith et al., 2016).",
+  "columns": [
+   {
+    "title": "Ouvre la parole",
+    "tone": "s",
+    "items": [
+     "« Raconte-moi ta journée »",
+     "« Avec qui tu as mangé ? »",
+     "« Qu'est-ce qui s'est passé ensuite ? »",
+     "« Tu as l'air fatigué, j'aimerais comprendre »",
+     "« Prends ton temps » — le silence est toléré"
+    ]
+   },
+   {
+    "title": "Ferme la parole",
+    "tone": "b",
+    "items": [
+     "« Est-ce qu'on te harcèle ? »",
+     "« Pourquoi tu n'as rien dit ? »",
+     "« Tu exagères »",
+     "« Défends-toi »",
+     "« Qu'est-ce que tu as fait pour ça ? »"
+    ]
+   }
+  ],
+  "note": "À gauche : question ouverte, mot de l'enfant, silence toléré. À droite : question fermée, mot d'adulte, reproche. Opinion d'expert (OMS, 2023 ; Défenseur des droits, 2023 ; Turner et al., 2024 ; Smith et al., 2016)."
+ },
+ "phrases-par-age": {
+  "type": "timeline",
+  "title": "Comment ouvrir la conversation selon l'âge",
+  "desc": "Frise horizontale en trois segments, 6-10 ans, 11-14 ans et 15-18 ans, avec trois lignes. Ce qui domine : de 6 à 10 ans, coups, bousculades, affaires prises ou abîmées ; de 11 à 14 ans, exclusion, rumeurs, entrée du téléphone dans le jeu ; de 15 à 18 ans, formes indirectes, en ligne, à connotation sexuelle. La porte d'entrée : de 6 à 10 ans, le concret et le dessin ; de 11 à 14 ans, le détour, parler des autres élèves, des lieux et des horaires ; de 15 à 18 ans, la franchise et l'association aux décisions. La phrase : de 6 à 10 ans, « Tu peux me dessiner ce qui arrive ? » ; de 11 à 14 ans, « Y a-t-il des endroits que tu évites ? » ; de 15 à 18 ans, « Est-ce que certaines situations te pèsent au point d'avoir des idées noires ? ». Âges indicatifs, pas des seuils : la victimation déclarée décline avec l'âge alors que les conduites d'agression restent stables ou augmentent (López-Castro et al., 2023). Le recours au dessin vient des tâches par dessins utilisées en recherche transculturelle (Smith et al., 2016) ; formes dominantes et formulations d'après Catheline (2023) et NASEM (2016).",
+  "axis": {
+   "start": 6,
+   "end": 18,
+   "ticks": [
+    6,
+    11,
+    15,
+    18
+   ],
+   "format": "{} ans"
+  },
+  "zones": [
+   {
+    "from": 6,
+    "to": 11,
+    "label": "6-10 ans",
+    "tone": "s"
+   },
+   {
+    "from": 11,
+    "to": 15,
+    "label": "11-14 ans",
+    "tone": "p"
+   },
+   {
+    "from": 15,
+    "to": 18,
+    "label": "15-18 ans",
+    "tone": "a"
+   }
+  ],
+  "lane_height": 78,
+  "lanes": [
+   {
+    "title": "Ce qui domine",
+    "tone": "",
+    "events": [
+     {
+      "at": 8,
+      "label": "coups, affaires prises"
+     },
+     {
+      "at": 12.5,
+      "label": "exclusion, rumeurs, téléphone"
+     },
+     {
+      "at": 16.5,
+      "label": "en ligne, connotation sexuelle"
+     }
+    ]
+   },
+   {
+    "title": "La porte d'entrée",
+    "tone": "p",
+    "events": [
+     {
+      "at": 8,
+      "label": "le concret et le dessin"
+     },
+     {
+      "at": 12.5,
+      "label": "le détour : les autres, les lieux"
+     },
+     {
+      "at": 16.5,
+      "label": "la franchise, décider avec lui"
+     }
+    ]
+   },
+   {
+    "title": "La phrase",
+    "tone": "s",
+    "events": [
+     {
+      "at": 8,
+      "label": "« tu peux me dessiner ce qui arrive ? »"
+     },
+     {
+      "at": 12.5,
+      "label": "« des endroits que tu évites ? »"
+     },
+     {
+      "at": 16.5,
+      "label": "« … au point d'avoir des idées noires ? »"
+     }
+    ]
+   }
+  ],
+  "note": "Âges indicatifs, pas des seuils. La victimation déclarée décline avec l'âge, les conduites d'agression non (López-Castro et al., 2023) ; le dessin contourne le vocabulaire (Smith et al., 2016)."
+ },
+ "premiers-gestes-frise": {
+  "type": "flow",
+  "title": "Mon enfant me dit qu'il est harcelé : les six premiers gestes",
+  "desc": "Six étapes numérotées en colonne unique. 1. Écouter et croire : dire « je te crois », « ce n'est pas ta faute », « tu as bien fait de m'en parler ». 2. Ne pas agir à chaud : ne pas contacter l'enfant auteur ni ses parents, pas de confrontation, pas de retrait de l'école en première intention. 3. Consigner les faits : dates, lieux, personnes présentes, mots exacts, captures d'écran, photos des affaires abîmées. 4. Saisir l'école par écrit : rendez-vous avec la direction, demander explicitement quelles mesures de protection sont prises, confirmer par un écrit daté. 5. Vérifier après huit à quinze jours : ce qui a changé pour l'enfant, et écrire au niveau supérieur si rien n'a bougé. 6. Demander de l'aide extérieure : à Madagascar la ligne verte 147, gratuite, 24 heures sur 24 et 7 jours sur 7 ; en France le 3020 pour le harcèlement scolaire et le 3018 pour le cyberharcèlement. Les étapes 1 à 4 relèvent de la première semaine, les étapes 5 et 6 de la suite. Aucune durée chiffrée en dehors du délai de vérification (Défenseur des droits, 2023 ; NASEM, 2016 ; e-Enfance et 3018 ; Arozaza et ligne 147).",
+  "steps": [
+   {
+    "title": "Écouter et croire",
+    "tone": "p",
+    "lines": [
+     "« je te crois », « ce n'est pas ta faute », « tu as bien fait de m'en parler »"
+    ]
+   },
+   {
+    "title": "Ne pas agir à chaud",
+    "tone": "p",
+    "lines": [
+     "ne pas contacter l'enfant auteur ni ses parents, pas de confrontation",
+     "pas de retrait de l'école en première intention"
+    ]
+   },
+   {
+    "title": "Consigner les faits",
+    "tone": "p",
+    "lines": [
+     "dates, lieux, personnes présentes, mots exacts",
+     "captures d'écran, photos des affaires abîmées"
+    ]
+   },
+   {
+    "title": "Saisir l'école par écrit",
+    "tone": "p",
+    "lines": [
+     "rendez-vous avec la direction : quelles mesures de protection sont prises ?",
+     "confirmer par un écrit daté"
+    ]
+   },
+   {
+    "title": "Vérifier après huit à quinze jours",
+    "tone": "a",
+    "lines": [
+     "ce qui a changé pour l'enfant, pas ce qui a été promis",
+     "si rien n'a bougé, écrire au niveau supérieur"
+    ]
+   },
+   {
+    "title": "Demander de l'aide extérieure",
+    "tone": "a",
+    "lines": [
+     "Madagascar : ligne verte 147, gratuite, 24 heures sur 24, 7 jours sur 7",
+     "France : 3020 pour le harcèlement scolaire, 3018 pour le cyberharcèlement"
+    ]
+   }
+  ],
+  "note": "Étapes 1 à 4 : la première semaine. Étapes 5 et 6 : la suite. Aucune durée chiffrée en dehors du délai de vérification (Défenseur des droits, 2023 ; NASEM, 2016 ; e-Enfance et 3018 ; Arozaza et ligne 147)."
+ },
+ "protege-aggrave": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Ce qui protège, ce qui aggrave : l'influence réelle des parents",
+  "desc": "Deux colonnes de coefficients de corrélation r entre pratiques parentales et victimation de l'enfant par ses pairs, toutes de petite taille. Côté protecteur, valeurs négatives : soutien à l'autonomie r = -0,16 ; chaleur parentale r = -0,14 ; style parental démocratique r = -0,10 ; supervision r = -0,06. Côté risque, valeurs positives : hostilité ou aversivité r = +0,20 ; sur-implication ou surprotection r = +0,17 ; style autoritaire r = +0,14 ; style permissif r = +0,12. Toutes ces associations sont de petite taille et vont dans les deux sens : les parents ont une influence réelle mais partielle, et le comportement de l'enfant modifie aussi celui du parent. Sources : méta-analyse des facteurs parentaux de la victimation (Grama et al., 2024) et bidirectionnalité de la relation parent-enfant (Pinquart, 2017).",
+  "columns": [
+   {
+    "title": "Ce qui protège",
+    "tone": "s",
+    "items": [
+     "soutien à l'autonomie : r = -0,16",
+     "chaleur parentale : r = -0,14",
+     "style parental démocratique : r = -0,10",
+     "supervision : r = -0,06"
+    ]
+   },
+   {
+    "title": "Ce qui augmente le risque",
+    "tone": "b",
+    "items": [
+     "hostilité ou aversivité : r = +0,20",
+     "sur-implication, surprotection : r = +0,17",
+     "style autoritaire : r = +0,14",
+     "style permissif : r = +0,12"
+    ]
+   }
+  ],
+  "note": "Toutes ces associations sont de petite taille et vont dans les deux sens : les parents ont une influence réelle mais partielle (Grama et al., 2024 ; Pinquart, 2017)."
+ },
+ "quatre-reflexes": {
+  "type": "cycle",
+  "title": "Les quatre réflexes de l'écoute",
+  "desc": "Une boucle de quatre étapes qui recommence tant que l'enfant parle. 1. Nommer l'émotion, par exemple « tu as eu honte devant toute la classe ». 2. Reformuler et vérifier : « si j'ai bien compris, ils sont trois, c'est ça ? ». 3. Question ouverte : « qu'est-ce qui s'est passé ensuite ? ». 4. Silence : compter lentement jusqu'à dix avant de relancer. Au centre de la boucle, ce qu'il ne faut pas faire tout de suite : chercher la solution. Contenu conceptuel non chiffré, bonne pratique partagée et non évaluée par essai contrôlé (OMS, 2023 ; OMS, 2011 ; Défenseur des droits, 2023).",
+  "cycles": [
+   {
+    "title": "La boucle recommence tant que l'enfant parle",
+    "tone": "p",
+    "steps": [
+     "1. Nommer l'émotion",
+     "2. Reformuler et vérifier",
+     "3. Question ouverte",
+     "4. Silence"
+    ]
+   }
+  ],
+  "note": "Au centre de la boucle, chercher la solution : pas tout de suite. Exemples : « tu as eu honte devant toute la classe » ; « si j'ai bien compris, ils sont trois, c'est ça ? » ; « qu'est-ce qui s'est passé ensuite ? » ; compter lentement jusqu'à dix avant de relancer. Bonne pratique partagée, non évaluée par essai contrôlé (OMS, 2023 ; OMS, 2011 ; Défenseur des droits, 2023)."
+ },
+ "secret-fourche": {
+  "type": "fork",
+  "title": "Ce que je promets, ce que je transmets, ce que je tais",
+  "desc": "Une entrée unique, l'enfant me demande de n'en parler à personne, se divise en trois branches. Première branche, ce que je peux promettre : te croire, ne rien faire sans t'avoir prévenu, te dire à qui je parle, ne pas te laisser seul, ne pas te punir ni confisquer ton téléphone. Deuxième branche, ce que je dois transmettre : coups et blessures, atteinte sexuelle, extorsion ou menaces, idées de mort, situation qui persiste, avec pour destinataires la direction de l'école et les services de protection de l'enfance. Troisième branche, ce que je dois taire : la famille élargie, les voisins, les groupes de discussion en ligne, les publications, les réunions où l'enfant est nommé. La phrase à dire figure en bandeau : « Je ne peux pas te promettre de me taire, parce que mon travail d'adulte est de te protéger. Mais je te promets de ne rien faire sans t'en parler avant. » Contenu conceptuel non chiffré, consensus des guides de conduite à tenir (HAS, 2017 ; OMS, 2019 ; Défenseur des droits, 2023 ; NASEM, 2016 ; HBSC, 2024 ; e-Enfance et 3018).",
+  "common": {
+   "title": "La phrase à dire",
+   "lines": [
+    "« Je ne peux pas te promettre de me taire, parce que mon travail d'adulte est de te protéger. Mais je te promets de ne rien faire sans t'en parler avant. »"
+   ],
+   "tone": "s"
+  },
+  "root": {
+   "title": "L'enfant me demande de n'en parler à personne",
+   "lines": [],
+   "tone": "p"
+  },
+  "branches": [
+   {
+    "title": "Ce que je peux promettre",
+    "tone": "s",
+    "lines": [
+     "te croire",
+     "ne rien faire sans t'avoir prévenu, et te dire à qui je parle",
+     "ne pas te laisser seul",
+     "ne pas te punir ni confisquer ton téléphone"
+    ]
+   },
+   {
+    "title": "Ce que je dois transmettre",
+    "tone": "a",
+    "lines": [
+     "coups et blessures, atteinte sexuelle, extorsion ou menaces",
+     "idées de mort, situation qui persiste",
+     "à la direction de l'école, aux services de protection de l'enfance"
+    ]
+   },
+   {
+    "title": "Ce que je dois taire",
+    "tone": "p",
+    "lines": [
+     "la famille élargie, les voisins",
+     "les groupes de discussion en ligne, les publications",
+     "les réunions où l'enfant est nommé"
+    ]
+   }
+  ],
+  "note": "Ne jamais promettre le secret absolu, et expliquer l'obligation de protection : consensus des guides de conduite à tenir (HAS, 2017 ; OMS, 2019 ; Défenseur des droits, 2023 ; NASEM, 2016)."
+ },
+ "signaux-par-age": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Les signaux d'alerte se lisent différemment selon l'âge",
+  "desc": "Trois blocs d'âge, quatre signaux chacun. De 6 à 10 ans : maux de ventre ou de tête le matin ; refus d'aller à l'école ; régressions du sommeil, de la propreté ou du langage ; affaires perdues ou abîmées. De 11 à 14 ans : repli sur soi ; chute des résultats scolaires ; perte du groupe d'amis ; irritabilité. De 15 à 18 ans : retrait des réseaux ou au contraire surveillance permanente du téléphone ; troubles du sommeil ; conduites à risque ; idées noires. Aucun de ces signes n'est spécifique : c'est le changement par rapport à l'enfant habituel qui alerte. Signaux d'urgence, à tout âge : blessures que l'enfant s'inflige, propos de mort, refus scolaire durable, perte de poids, et il faut alors demander de l'aide sans attendre. Sources : NASEM (2016), Catheline (2023), HBSC (2024), Défenseur des droits (2023).",
+  "columns": [
+   {
+    "title": "6-10 ans",
+    "tone": "p",
+    "items": [
+     "maux de ventre ou de tête le matin",
+     "refus d'aller à l'école",
+     "régressions : sommeil, propreté, langage",
+     "affaires perdues ou abîmées"
+    ]
+   },
+   {
+    "title": "11-14 ans",
+    "tone": "p",
+    "items": [
+     "repli sur soi",
+     "chute des résultats scolaires",
+     "perte du groupe d'amis",
+     "irritabilité"
+    ]
+   },
+   {
+    "title": "15-18 ans",
+    "tone": "p",
+    "items": [
+     "retrait des réseaux, ou téléphone surveillé en permanence",
+     "troubles du sommeil",
+     "conduites à risque",
+     "idées noires"
+    ]
+   }
+  ],
+  "note": "Aucun de ces signes n'est spécifique : c'est le changement par rapport à l'enfant habituel qui alerte. Signaux d'urgence à tout âge : blessures que l'enfant s'inflige, propos de mort, refus scolaire durable, perte de poids — demander de l'aide sans attendre (NASEM, 2016 ; Catheline, 2023 ; HBSC, 2024 ; Défenseur des droits, 2023)."
+ },
+ "triangle-sources": {
+  "type": "venn3",
+  "title": "Croiser trois sources avant de conclure",
+  "desc": "Trois disques qui se recouvrent. L'enfant lui-même : il connaît les faits, minimise souvent, manque de mots. Les autres enfants : ils savent presque toujours, ne dénoncent pas volontiers, mais répondent aux questions sur les lieux et les moments. Les adultes qui le côtoient, enseignant, voisin, entraîneur, personne qui l'accueille après l'école : chacun voit un morceau. La zone centrale de recouvrement est le faisceau d'indices : c'est là que l'on peut parler de harcèlement probable. Une source seule ne suffit pas, et les auteurs en particulier se déclarent peu. La triangulation entre l'élève, ses camarades et l'enseignant est une recommandation officielle (OMS, 2019 ; NASEM, 2016). Obstacle documenté à Madagascar : 49 % du personnel scolaire perçoit la violence physique entre élèves comme un jeu (IBCR et UNICEF, 2018).",
+  "sets": [
+   {
+    "label": "L'enfant lui-même",
+    "note": "connaît les faits, minimise souvent, manque de mots",
+    "tone": "p"
+   },
+   {
+    "label": "Les autres enfants",
+    "note": "savent presque toujours, dénoncent peu, répondent sur les lieux et les moments",
+    "tone": "a"
+   },
+   {
+    "label": "Les autres adultes",
+    "tone": "s"
+   }
+  ],
+  "center": "Faisceau d'indices : harcèlement probable",
+  "note": "Les autres adultes qui le côtoient — enseignant, voisin, entraîneur, personne qui l'accueille après l'école — voient chacun un morceau. Une source seule ne suffit pas ; les auteurs, en particulier, se déclarent peu. À Madagascar, 49 % du personnel scolaire perçoit la violence physique entre élèves comme un jeu (IBCR et UNICEF, 2018)."
+ },
+ "trois-enfants-trois-reponses": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Trois enfants, trois réponses",
+  "desc": "Trois colonnes de largeur égale. Mon enfant est victime : écouter et croire ; consigner les faits ; saisir l'école par écrit ; protéger et reconstruire le réseau d'amis. Mon enfant harcèle : nommer le comportement et son effet ; refuser les justifications, « il l'a cherché », « c'était pour rire » ; organiser une réparation ; chercher la cause, et ne pas frapper. Mon enfant est témoin : ne pas rire ni filmer ; aller vers l'enfant visé après coup ; prévenir un adulte nommé à l'avance ; ne pas s'interposer physiquement. Commun aux trois chemins : parler avant que cela arrive, et nommer d'avance l'adulte à qui l'on peut se confier. Sources : NASEM (2016), Gini et al. (2014), Gershoff et Grogan-Kaylor (2016), Zych et al. (2019).",
+  "columns": [
+   {
+    "title": "Mon enfant est victime",
+    "tone": "p",
+    "items": [
+     "écouter et croire",
+     "consigner les faits",
+     "saisir l'école par écrit",
+     "protéger et reconstruire le réseau d'amis"
+    ]
+   },
+   {
+    "title": "Mon enfant harcèle",
+    "tone": "a",
+    "items": [
+     "nommer le comportement et son effet",
+     "refuser les justifications : « il l'a cherché », « c'était pour rire »",
+     "organiser une réparation",
+     "chercher la cause, et ne pas frapper"
+    ]
+   },
+   {
+    "title": "Mon enfant est témoin",
+    "tone": "s",
+    "items": [
+     "ne pas rire ni filmer",
+     "aller vers l'enfant visé après coup",
+     "prévenir un adulte nommé à l'avance",
+     "ne pas s'interposer physiquement"
+    ]
+   }
+  ],
+  "note": "Commun aux trois chemins : parler avant que cela arrive, et nommer d'avance l'adulte à qui l'on peut se confier (NASEM, 2016 ; Gini et al., 2014 ; Gershoff et Grogan-Kaylor, 2016 ; Zych et al., 2019)."
+ },
+ "adapter-pas-copier": {
+  "type": "fork",
+  "title": "Adapter un programme, plutôt que le copier",
+  "desc": "Fourche partant d'un programme évalué ailleurs — environ 19 à 20 % de faits de harcèlement en moins et 15 à 16 % de victimes en moins, sur 100 évaluations presque toutes menées en Europe et en Amérique du Nord (Gaffney et al., 2021a). Bandeau commun : on adapte la forme, la langue, les exemples, le format des séances et le calendrier, jamais le mécanisme qui produit l'effet (Moore et al., 2021). Première branche, copier tel quel : au pays de Galles, 22 écoles et 3 214 élèves de 7 à 11 ans, aucun effet significatif sur la victimation (Axford et al., 2020) ; au Chili, 39 écoles socialement vulnérables, effet pour une seule version du programme, taille d'effet -0,13 (Valenzuela et al., 2022). Deuxième branche, adapter puis mesurer : analyser le contexte, décider des adaptations, tester à petite échelle, mesurer (Moore et al., 2021) ; en Ouganda, 42 écoles primaires, violence physique du personnel dans la semaine écoulée 48,7 % dans les écoles témoins contre 31,0 % dans les écoles d'intervention à 18 mois (Devries et al., 2015) ; en Tanzanie, 12 écoles primaires, 173 enseignants et 914 élèves, baisse de la discipline physique violente avec effet de débordement sur la violence entre élèves (Masath et al., 2023) ; aboutit à une décision fondée sur une mesure locale. Troisième branche, signaux d'alerte : travail par les pairs et médiation entre élèves associés à une hausse de la victimation dans des analyses corrélationnelles (Ttofi et Farrington, 2011) ; tolérance zéro et confrontation directe déconseillées (National Academies of Sciences, 2016) ; sensibilisation par la peur ayant aggravé les conduites visées dans un champ voisin (Petrosino et al., 2013).",
+  "common": {
+   "title": "On adapte la forme, jamais le mécanisme qui produit l'effet",
+   "lines": [
+    "la langue, les exemples, le format des séances, le calendrier"
+   ],
+   "tone": "s"
+  },
+  "root": {
+   "title": "Programme évalué ailleurs",
+   "lines": [
+    "19-20 % de faits en moins",
+    "15-16 % de victimes en moins",
+    "100 évaluations, presque toutes en Europe et en Amérique du Nord"
+   ],
+   "tone": "p"
+  },
+  "branches": [
+   {
+    "title": "Copier tel quel",
+    "tone": "b",
+    "lines": [
+     "pays de Galles : 22 écoles, 3 214 élèves de 7-11 ans, aucun effet significatif",
+     "Chili : 39 écoles vulnérables, une seule version efficace, taille d'effet -0,13"
+    ]
+   },
+   {
+    "title": "Analyser, décider, tester, mesurer",
+    "tone": "s",
+    "lines": [
+     "Ouganda : 42 écoles, violence du personnel 48,7 % contre 31,0 % à 18 mois",
+     "Tanzanie : 12 écoles, 173 enseignants, 914 élèves, discipline violente en baisse",
+     "aboutit à une décision fondée sur une mesure locale"
+    ]
+   },
+   {
+    "title": "Signaux d'alerte",
+    "tone": "a",
+    "lines": [
+     "travail par les pairs et médiation entre élèves : hausse de la victimation",
+     "tolérance zéro et confrontation directe déconseillées",
+     "sensibilisation par la peur : conduites aggravées dans un champ voisin"
+    ]
+   }
+  ],
+  "note": "Sources : Gaffney et al. (2021a) ; Moore et al. (2021) ; Axford et al. (2020) ; Valenzuela et al. (2022) ; Devries et al. (2015) ; Masath et al. (2023) ; Ttofi et Farrington (2011) ; National Academies of Sciences (2016) ; Petrosino et al. (2013). Les essais africains cités visaient la violence des adultes envers les élèves, non le harcèlement entre camarades."
+ },
+ "arbre-decision-adulte": {
+  "type": "fork",
+  "title": "Je m'inquiète pour un enfant : par où commencer",
+  "desc": "Arbre de décision à une entrée et trois branches. Bandeau commun, valable avant tout le reste : devant des idées suicidaires, ne pas laisser l'enfant seul, écarter les moyens de se faire du mal, l'accompagner le jour même vers un service d'urgence ou de psychiatrie. Entrée : je m'inquiète pour un enfant. Première branche, danger immédiat — coups, menaces graves, enfant seul et en danger : appeler le 147, et la police au 17 ou la gendarmerie au 119 ; saisir la brigade spécialisée si l'enfant est victime d'une infraction. Deuxième branche, suspicion de violence sexuelle : 147, puis le Centre Vonjy le plus proche, gratuit, où médecin, travailleur social et policier travaillent au même endroit. Troisième branche, souffrance sans danger immédiat : écouter en privé sans promettre le secret, écrire les faits, saisir l'école par écrit, prévenir le Réseau de Protection de l'Enfant, proposer une consultation. Schéma de conduite à tenir ; appuis : le 147 signale et oriente (Moov.mg, 2026), le Centre Vonjy est un guichet unique gratuit (Nations Unies à Madagascar, 2020), le Réseau de Protection de l'Enfant coordonne à l'échelle régionale (Madagascar Tribune, 2016), police 17 et gendarmerie 119 (Consulat général de France à Antananarivo). Les questionnaires SDQ, SCARED et ADRS sont des outils de repérage et non de diagnostic (Goodman, 1997 ; Birmaher et al., 1997).",
+  "common": {
+   "title": "Idées suicidaires : avant tout le reste",
+   "lines": [
+    "ne pas laisser seul, écarter les moyens de se faire du mal",
+    "accompagner le jour même vers un service d'urgence ou de psychiatrie"
+   ],
+   "tone": "b"
+  },
+  "root": {
+   "title": "Je m'inquiète pour un enfant",
+   "lines": [],
+   "tone": "p"
+  },
+  "branches": [
+   {
+    "title": "Danger immédiat",
+    "tone": "b",
+    "lines": [
+     "coups, menaces graves, enfant seul et en danger",
+     "appeler le 147, et la police 17 ou la gendarmerie 119",
+     "brigade spécialisée si l'enfant est victime d'une infraction"
+    ]
+   },
+   {
+    "title": "Suspicion de violence sexuelle",
+    "tone": "a",
+    "lines": [
+     "147, puis le Centre Vonjy le plus proche, gratuit",
+     "médecin, travailleur social et policier au même endroit"
+    ]
+   },
+   {
+    "title": "Souffrance sans danger immédiat",
+    "tone": "p",
+    "lines": [
+     "écouter en privé, sans promettre le secret",
+     "écrire les faits, saisir l'école par écrit",
+     "prévenir le Réseau de Protection de l'Enfant, proposer une consultation"
+    ]
+   }
+  ],
+  "note": "Outils de repérage, pas de diagnostic : SDQ, SCARED, ADRS ; jamais en passation collective (Goodman, 1997 ; Birmaher et al., 1997). Appuis : Moov.mg (2026) ; Nations Unies à Madagascar (2020) ; Madagascar Tribune (2016) ; Consulat général de France à Antananarivo. Opinion d'expert : cette conduite est recommandée, elle n'a pas été comparée à une autre dans un essai."
+ },
+ "ou-appeler-madagascar": {
+  "type": "fork",
+  "title": "Où appeler, où aller à Madagascar",
+  "desc": "Schéma-annuaire : d'un point de départ, un enfant a besoin d'aide, partent quatre recours. Ligne Verte 147 : gratuite, jour et nuit, depuis les réseaux des trois opérateurs ; elle signale et oriente, ce n'est pas une ligne de crise suicidaire (Moov.mg, 2026 ; Arozaza.mg). Réseau de Protection de l'Enfant de votre région : environ 765 structures recensées en 2016, sous la tutelle du ministère chargé de la population (Madagascar Tribune, 2016). Centre Vonjy le plus proche : gratuit, soins médicaux, accompagnement psychosocial et démarche judiciaire au même endroit ; six centres, Antananarivo en 2015, Toamasina en 2016, Mahajanga et Nosy Be en 2017, Toliara et Tolagnaro en 2020 (Nations Unies à Madagascar, 2020). Forces de l'ordre et soins : police 17, gendarmerie 119, sapeurs-pompiers 118 depuis un téléphone mobile (Consulat général de France à Antananarivo) ; brigades spécialisées formées à l'audition de l'enfant victime avec l'appui de l'Organisation internationale de la Francophonie et de Francopol depuis 2019 (Organisation internationale de la Francophonie, 2022 ; Nations Unies Madagascar, 2017) ; soins psychiatriques, ordre de grandeur de 11 centres dont 6 dans la capitale et 4 avec hospitalisation, environ 26 psychiatres (Centre ressource de réhabilitation psychosociale, 2022 ; Raobelle et al., 2017). Informations vérifiées le 4 septembre 2026 ; adresses et lignes directes à confirmer localement.",
+  "root": {
+   "title": "Un enfant a besoin d'aide",
+   "lines": [],
+   "tone": "p"
+  },
+  "branches": [
+   {
+    "title": "Ligne Verte 147",
+    "tone": "s",
+    "lines": [
+     "gratuite, jour et nuit, depuis les réseaux des trois opérateurs",
+     "signale et oriente ; ce n'est pas une ligne de crise suicidaire"
+    ]
+   },
+   {
+    "title": "Réseau de Protection de l'Enfant de votre région",
+    "tone": "p",
+    "lines": [
+     "environ 765 structures recensées en 2016",
+     "tutelle du ministère chargé de la population"
+    ]
+   },
+   {
+    "title": "Centre Vonjy le plus proche",
+    "tone": "p",
+    "lines": [
+     "gratuit : soins, accompagnement psychosocial et démarche judiciaire au même endroit",
+     "6 centres : Antananarivo 2015, Toamasina 2016, Mahajanga et Nosy Be 2017, Toliara et Tolagnaro 2020"
+    ]
+   },
+   {
+    "title": "Police 17, gendarmerie 119, pompiers 118 depuis un mobile",
+    "tone": "a",
+    "lines": [
+     "brigades spécialisées formées à l'audition de l'enfant victime",
+     "soins psychiatriques : ordre de grandeur de 11 centres, dont 6 dans la capitale et 4 avec hospitalisation"
+    ]
+   }
+  ],
+  "note": "Informations vérifiées le 4 septembre 2026 ; adresses et lignes directes des services locaux à confirmer avant diffusion. Sources : Moov.mg (2026) ; Arozaza.mg ; Madagascar Tribune (2016) ; Nations Unies à Madagascar (2020) ; Consulat général de France à Antananarivo ; Organisation internationale de la Francophonie (2022) ; Centre ressource de réhabilitation psychosociale (2022) ; Raobelle et al. (2017). Les chiffres de l'offre psychiatrique sont un ordre de grandeur de plaidoyer, sans méthode publiée."
+ },
+ "ce-qui-marche": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Ce qui marche, ce qui ne marche pas ou nuit",
+  "desc": "Deux colonnes. À gauche, associé à une baisse, chaque ligne précédée d'un signe plus : formation des adultes de l'école ; travail avec les parents ; règles de classe et gestion de classe ; discipline ferme mais non punitive ; vidéos et jeux de rôle ; plus d'une vingtaine d'heures étalées sur l'année scolaire ; procédure écrite de suivi des cas. À droite, sans effet ou nuisible, chaque ligne précédée d'un signe moins : rencontre unique d'information ; témoignage choc ou récit dramatique ; regroupement des élèves dits à problèmes ; médiation entre élèves sans adulte ; apport d'information seul. Un programme complet obtient environ 19 à 20 % de faits en moins et 15 à 16 % de victimes en moins, sur une centaine d'évaluations (Gaffney et al., 2021a ; composantes : Gaffney et al., 2021b ; Ttofi et Farrington, 2011). À droite : les programmes de type Scared Straight ont un effet nul ou négatif et augmentent les comportements visés (Petrosino et al., 2013) ; regrouper des jeunes en difficulté produit une contagion déviante (Dishion et McCord, 1999) ; le travail par les pairs non encadré est associé à une hausse de la victimisation (Ttofi et Farrington, 2011). Les signes plus et moins permettent de lire la figure sans couleur.",
+  "columns": [
+   {
+    "title": "Associé à une baisse",
+    "tone": "s",
+    "items": [
+     "+ formation des adultes de l'école",
+     "+ travail avec les parents",
+     "+ règles de classe et gestion de classe",
+     "+ discipline ferme mais non punitive",
+     "+ vidéos et jeux de rôle",
+     "+ plus d'une vingtaine d'heures étalées sur l'année",
+     "+ procédure écrite de suivi des cas"
+    ]
+   },
+   {
+    "title": "Sans effet ou nuisible",
+    "tone": "b",
+    "items": [
+     "− rencontre unique d'information",
+     "− témoignage choc ou récit dramatique",
+     "− regroupement des « élèves à problèmes »",
+     "− médiation entre élèves sans adulte",
+     "− apport d'information seul"
+    ]
+   }
+  ],
+  "note": "Programme complet : environ 19-20 % de faits en moins et 15-16 % de victimes en moins, sur une centaine d'évaluations (Gaffney et al., 2021a ; Gaffney et al., 2021b ; Ttofi et Farrington, 2011). Effet nul ou négatif des programmes de type Scared Straight (Petrosino et al., 2013) ; contagion déviante quand on regroupe les jeunes en difficulté (Dishion et McCord, 1999) ; hausse de la victimisation avec le travail par les pairs non encadré (Ttofi et Farrington, 2011)."
+ },
+ "composants-efficaces": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Les ingrédients qui marchent, ceux qui peuvent nuire",
+  "desc": "Deux colonnes contrastées. À gauche, associé à de meilleurs résultats : approche mobilisant tout l'établissement ; politique anti-harcèlement écrite ; règles de classe ; information des parents ; implication informelle des camarades ; travail direct avec les victimes (Gaffney et al., 2021b) ; réunions de parents ; formation des enseignants ; durée et intensité plus élevées (Ttofi et Farrington, 2011). À droite, déconseillé ou potentiellement nuisible : médiation entre victime et auteur ; tolérance zéro et exclusions automatiques (National Academies of Sciences, 2016) ; travail confié aux pairs sans encadrement, associé à une augmentation de la victimisation (Ttofi et Farrington, 2011) ; regroupement des élèves dits difficiles (Dishion et McCord, 1999) ; séance choc unique fondée sur la peur (Petrosino et al., 2013). Résultat central : le nombre de composants ne prédit pas l'efficacité (Gaffney et al., 2021b) — empiler les activités ne sert à rien, mieux vaut trois éléments tenus toute l'année.",
+  "columns": [
+   {
+    "title": "Associé à de meilleurs résultats",
+    "tone": "s",
+    "items": [
+     "approche mobilisant tout l'établissement",
+     "politique anti-harcèlement écrite",
+     "règles de classe",
+     "information des parents",
+     "implication informelle des camarades",
+     "travail direct avec les victimes",
+     "réunions de parents",
+     "formation des enseignants",
+     "durée et intensité plus élevées"
+    ]
+   },
+   {
+    "title": "Déconseillé ou potentiellement nuisible",
+    "tone": "b",
+    "items": [
+     "médiation entre victime et auteur",
+     "tolérance zéro et exclusions automatiques",
+     "travail confié aux pairs sans encadrement",
+     "regroupement des élèves dits difficiles",
+     "séance choc unique fondée sur la peur"
+    ]
+   }
+  ],
+  "note": "Le nombre de composants ne prédit pas l'efficacité (Gaffney et al., 2021b). Colonne de gauche : Gaffney et al. (2021b) pour les six premiers éléments, Ttofi et Farrington (2011) pour les trois derniers. Colonne de droite : National Academies of Sciences (2016) ; Ttofi et Farrington (2011) ; Dishion et McCord (1999) ; Petrosino et al. (2013). Les mises en garde reposent sur des analyses corrélationnelles ou sur des champs voisins : ce sont des signaux de prudence."
+ },
+ "kiva-trois-pays": {
+  "type": "columns",
+  "arrows": true,
+  "title": "Le même programme, trois pays, trois résultats",
+  "desc": "Trois colonnes lues de gauche à droite, du résultat nul aux effets nets. Pays de Galles : 22 écoles, 3 214 élèves de 7 à 11 ans, aucun effet statistiquement significatif sur la victimation, dans un contexte où les élèves ont reçu moins de leçons que ce que le programme prévoit (Axford et al., 2020). Chili : 39 écoles socialement vulnérables de Santiago, seule la version sans jeu en ligne réduit le fait d'être harcelé, taille d'effet -0,13 (Valenzuela et al., 2022). Finlande : 78 écoles, 8 237 élèves de 10 à 12 ans, neuf mois de suivi, effets bénéfiques sur 7 des 11 mesures suivies (Kärnä et al., 2011). Lecture : la fidélité de mise en œuvre et le contexte décident du résultat. Le résultat gallois ne dit rien du pays : il dit la dose de leçons réellement reçue.",
+  "columns": [
+   {
+    "title": "Pays de Galles : aucun effet",
+    "tone": "",
+    "items": [
+     "22 écoles, 3 214 élèves de 7-11 ans",
+     "aucun effet statistiquement significatif",
+     "exposition aux leçons inférieure à la dose prévue"
+    ]
+   },
+   {
+    "title": "Chili : effet partiel",
+    "tone": "a",
+    "items": [
+     "39 écoles socialement vulnérables de Santiago",
+     "seule la version sans jeu en ligne réduit la victimisation",
+     "taille d'effet -0,13"
+    ]
+   },
+   {
+    "title": "Finlande : effets nets",
+    "tone": "s",
+    "items": [
+     "78 écoles, 8 237 élèves de 10-12 ans",
+     "9 mois de suivi",
+     "effets bénéfiques sur 7 des 11 mesures"
+    ]
+   }
+  ],
+  "note": "La fidélité de mise en œuvre et le contexte décident du résultat. Le résultat gallois désigne la dose reçue, pas le pays. Sources : Axford et al. (2020) ; Valenzuela et al. (2022) ; Kärnä et al. (2011)."
+ },
+ "inspire-sept-strategies": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Où une association agit vraiment dans les sept stratégies INSPIRE",
+  "desc": "Les sept stratégies INSPIRE réparties en deux colonnes selon qui peut réellement agir. Une association peut agir sur trois d'entre elles : normes et valeurs ; environnements sûrs ; éducation et compétences pratiques. Les quatre autres relèvent de l'État, de l'école ou de services spécialisés : mise en œuvre et application des lois ; soutien aux parents et aux personnes ayant la charge d'enfants ; renforcement économique ; services de réponse et de prise en charge. Les sept stratégies sont celles du cadre INSPIRE (Organisation mondiale de la Santé, 2016). La répartition entre les deux colonnes est une proposition éditoriale, à lire comme une opinion d'expert : une association agit sur trois cases sur sept, c'est réel et c'est limité.",
+  "columns": [
+   {
+    "title": "Une association peut agir",
+    "tone": "s",
+    "items": [
+     "normes et valeurs",
+     "environnements sûrs",
+     "éducation et compétences pratiques"
+    ]
+   },
+   {
+    "title": "Relève de l'État, de l'école ou de services spécialisés",
+    "tone": "",
+    "items": [
+     "mise en œuvre et application des lois",
+     "soutien aux parents et aux personnes ayant la charge d'enfants",
+     "renforcement économique",
+     "services de réponse et de prise en charge"
+    ]
+   }
+  ],
+  "note": "Une association agit sur trois cases sur sept : c'est réel, et c'est limité. Les sept stratégies : Organisation mondiale de la Santé (2016). La mise en évidence des trois secteurs est une proposition éditoriale, non évaluée : opinion d'expert."
+ },
+ "trois-pieges-causalite": {
+  "type": "columns",
+  "arrows": false,
+  "title": "Trois pièges entre une association et une cause",
+  "desc": "Trois panneaux côte à côte, chacun décrivant une raison pour laquelle un lien observé entre harcèlement et dépression n'est pas une preuve de cause. Causalité inverse : un enfant déjà anxieux, isolé ou en souffrance est plus souvent pris pour cible, la flèche peut aller de la souffrance vers le harcèlement. Facteurs communs : la pauvreté, les violences à la maison, un handicap ou une santé fragile augmentent à la fois le risque d'être harcelé et celui d'aller mal, et créent un lien apparent entre les deux. Biais de déclaration : quand le même adolescent fournit la mesure de l'exposition et celle du dommage, une partie du lien vient du narrateur, d'autant qu'un adolescent déprimé se souvient davantage des épisodes humiliants. Ce qui desserre les pièges : la comparaison de vrais jumeaux élevés ensemble dont un seul a été harcelé. Dans la cohorte britannique de jumeaux TEDS, 11 108 participants, ces comparaisons sont compatibles avec une contribution causale à l'anxiété, à la dépression et aux troubles du comportement, avec des effets qui s'atténuent, l'anxiété persistant à deux ans mais plus à cinq ans (Singham et al., 2017). Chez 1 116 familles de jumeaux de dix ans, des facteurs héréditaires expliquent 73 % de la variation du fait d'être victime et 61 % du fait de harceler (Ball et al., 2008). Une synthèse de 165 études appliquant des critères de causalité conclut que le lien est le mieux étayé avec la dépression, l'anxiété, la mauvaise santé perçue et les conduites suicidaires (Moore et al., 2017).",
+  "columns": [
+   {
+    "title": "Causalité inverse",
+    "tone": "a",
+    "items": [
+     "un enfant déjà anxieux ou isolé est plus souvent pris pour cible",
+     "la souffrance peut précéder le harcèlement autant que le suivre"
+    ]
+   },
+   {
+    "title": "Facteurs communs",
+    "tone": "a",
+    "items": [
+     "pauvreté, violences à la maison, handicap, santé fragile",
+     "ces facteurs augmentent les deux risques à la fois",
+     "le lien entre les deux peut n'être qu'apparent"
+    ]
+   },
+   {
+    "title": "Biais de déclaration",
+    "tone": "a",
+    "items": [
+     "même narrateur pour l'exposition et pour le dommage",
+     "un adolescent déprimé se souvient davantage des humiliations",
+     "une partie du lien vient du narrateur"
+    ]
+   }
+  ],
+  "note": "Ce qui desserre les pièges : comparer de vrais jumeaux élevés ensemble dont un seul a été harcelé. Cohorte britannique TEDS, 11 108 participants : contribution causale plausible à l'anxiété, à la dépression et aux troubles du comportement, effets qui s'atténuent, anxiété persistante à 2 ans mais plus à 5 ans (Singham et al., 2017). Chez 1 116 familles de jumeaux de 10 ans, des facteurs héréditaires expliquent 73 % de la variation de la victimation et 61 % de la perpétration (Ball et al., 2008). Sur 165 études passées au crible de critères de causalité, le lien est le mieux étayé avec la dépression, l'anxiété, la mauvaise santé perçue et les conduites suicidaires (Moore et al., 2017)."
+ },
+ "cinq-etapes-parcours": {
+  "type": "chain",
+  "title": "Les cinq étapes du parcours",
+  "desc": "Cinq jalons reliés par une flèche continue, de gauche à droite. Étape A, comprendre l'enfant, 3 modules : développement, besoins et émotions, traumatisme et résilience. Étape B, comprendre le harcèlement, 4 modules : définir, nommer à Madagascar, selon l'âge, les chiffres. Étape C, ce que ça fait et qui est exposé, 3 modules : conséquences, facteurs d'exposition, écrans et vie en ligne. Étape D, agir, 4 modules : repérer, parler et écouter, mon enfant est concerné, demander de l'aide. Étape E, transmettre, 4 modules : prévenir, sensibiliser, ressources, consolider. Chaque étape prépare la suivante : on ne qualifie pas un comportement sans connaître l'âge, on n'agit pas sans avoir qualifié. Schéma de la structure du site, 18 modules répartis en cinq étapes ; aucune donnée chiffrée.",
+  "steps": [
+   {
+    "title": "A · Comprendre l'enfant",
+    "tone": "p",
+    "lines": [
+     "3 modules",
+     "développement",
+     "besoins et émotions",
+     "traumatisme et résilience"
+    ]
+   },
+   {
+    "title": "B · Comprendre le harcèlement",
+    "tone": "p",
+    "lines": [
+     "4 modules",
+     "définir",
+     "nommer à Madagascar",
+     "selon l'âge",
+     "les chiffres"
+    ]
+   },
+   {
+    "title": "C · Ce que ça fait, qui est exposé",
+    "tone": "p",
+    "lines": [
+     "3 modules",
+     "conséquences",
+     "facteurs d'exposition",
+     "écrans et vie en ligne"
+    ]
+   },
+   {
+    "title": "D · Agir",
+    "tone": "a",
+    "lines": [
+     "4 modules",
+     "repérer",
+     "parler et écouter",
+     "mon enfant est concerné",
+     "demander de l'aide"
+    ]
+   },
+   {
+    "title": "E · Transmettre",
+    "tone": "s",
+    "lines": [
+     "4 modules",
+     "prévenir",
+     "sensibiliser",
+     "ressources",
+     "consolider"
+    ]
+   }
+  ],
+  "note": "Chaque étape prépare la suivante : on ne qualifie pas un comportement sans connaître l'âge, on n'agit pas sans avoir qualifié. Schéma de la structure du site : 18 modules répartis en cinq étapes, sans donnée chiffrée."
+ },
+ "sept-elements-rencontre": {
+  "type": "flow",
+  "title": "Les sept éléments d'une rencontre de sensibilisation",
+  "desc": "Sept blocs numérotés et reliés, sans aucune indication de durée. 1, accueil et règles du groupe. 2, poser les trois critères : intention de nuire, répétition, déséquilibre de pouvoir. 3, activité de tri adaptée à l'âge : classer des situations en harcèlement, conflit ordinaire ou punition, puis justifier avec les critères. 4, le pouvoir du témoin, en jeu de rôle : ne pas rire, ne pas partager, aller vers la cible après, prévenir un adulte nommé à l'avance. 5, les messages clés, en français et en malgache, à faire relire par un locuteur. 6, à qui parler et comment : nommer des personnes réelles dans cette école et un recours si l'école ne répond pas. 7, temps calme et disponibilité en aparté, après la rencontre, dans un lieu visible mais hors de portée d'oreille. Le protocole de dévoilement est actif du début à la fin, écrit avant la rencontre et montré à l'école. Éléments issus des composantes associées à un effet (Gaffney et al., 2021b ; Ttofi et Farrington, 2011) ; protocole de dévoilement (Organisation mondiale de la Santé, 2019 et 2016) ; les trois critères (service-public.fr, 2025 ; Salmivalli, 2010 ; UNESCO, 2019). Aucun minutage : leur agencement est une proposition raisonnée, non un dispositif évalué.",
+  "steps": [
+   {
+    "title": "Accueil et règles du groupe",
+    "tone": "p",
+    "lines": [
+     "ce qui se dit ici, et ce qui en sort"
+    ]
+   },
+   {
+    "title": "Poser les trois critères",
+    "tone": "p",
+    "lines": [
+     "intention de nuire, répétition, déséquilibre de pouvoir"
+    ]
+   },
+   {
+    "title": "Activité de tri adaptée à l'âge",
+    "tone": "p",
+    "lines": [
+     "classer des situations : harcèlement, conflit ordinaire, punition ; puis justifier"
+    ]
+   },
+   {
+    "title": "Le pouvoir du témoin, en jeu de rôle",
+    "tone": "p",
+    "lines": [
+     "ne pas rire, ne pas partager, aller vers la cible après, prévenir un adulte nommé"
+    ]
+   },
+   {
+    "title": "Les messages clés, en français et en malgache",
+    "tone": "p",
+    "lines": [
+     "formulations à faire relire par un locuteur"
+    ]
+   },
+   {
+    "title": "À qui parler et comment",
+    "tone": "p",
+    "lines": [
+     "nommer des personnes réelles dans cette école, et un recours si l'école ne répond pas"
+    ]
+   },
+   {
+    "title": "Temps calme et disponibilité en aparté",
+    "tone": "s",
+    "lines": [
+     "après la rencontre, dans un lieu visible mais hors de portée d'oreille"
+    ]
+   }
+  ],
+  "note": "Protocole de dévoilement : actif du début à la fin, écrit avant la rencontre et montré à l'école. Aucun minutage. Composantes associées à un effet (Gaffney et al., 2021b ; Ttofi et Farrington, 2011) ; dévoilement (Organisation mondiale de la Santé, 2019 et 2016) ; les trois critères (service-public.fr, 2025 ; Salmivalli, 2010 ; UNESCO, 2019). L'agencement est une proposition raisonnée, non un dispositif évalué."
+ },
+ "trois-echelles": {
+  "type": "flow",
+  "title": "Trois échéances, deux seuils écrits à l'avance",
+  "desc": "Trois échéances d'action, séparées par deux seuils décidés à l'avance. Immédiat, sans moyens supplémentaires : diffuser la distinction entre harcèlement, conflit et punition ; écrire et afficher une règle courte valable aussi pour les adultes ; désigner nommément l'adulte à qui un enfant peut parler ; vérifier les lieux à risque, à commencer par les toilettes (Ngidi, 2018). Seuil de réévaluation : aucun signalement au bout d'un trimestre alors qu'environ un élève sur quatre est concerné à l'échelle nationale, 27,2 % des 13-17 ans (OMS, 2025), signe une sous-détection et non une absence de problème ; on revoit alors qui reçoit la parole des enfants, on ne renforce pas les affiches. Court et moyen terme : former les adultes aux alternatives non violentes avec une supervision régulière ; adapter et piloter localement un outil de repérage ; informer et associer les parents ; créer des espaces d'écoute, comme cela a été recommandé à Madagascar (allAfrica, 2025). Bascule de stratégie : une réduction d'au moins 15 % du fait d'être harcelé mesurée localement, ordre de grandeur attendu d'un bon programme (Gaffney et al., 2021a), autorise la généralisation ; sinon on révise l'adaptation avant tout passage à l'échelle. Structurel : plaider pour du personnel psychosocial, le pays comptant environ 0,01 pédopsychiatre pour 100 000 habitants (Organisation mondiale de la Santé, 2017) et consacrant une part infime de sa dépense publique de santé à la santé mentale (Organisation mondiale de la Santé, 2022) ; encourager la recherche locale et la validation des outils ; inscrire la prévention dans les cadres internationaux existants (Organisation mondiale de la Santé, 2016 et 2019). Proposition raisonnée à partir des composants efficaces, non évaluée comme un ensemble.",
+  "steps": [
+   {
+    "title": "Immédiat, sans moyens supplémentaires",
+    "tone": "p",
+    "lines": [
+     "diffuser la distinction entre harcèlement, conflit et punition",
+     "écrire et afficher une règle courte, valable aussi pour les adultes",
+     "désigner nommément l'adulte-recours",
+     "vérifier les lieux à risque, à commencer par les toilettes"
+    ]
+   },
+   {
+    "title": "Seuil de réévaluation",
+    "tone": "a",
+    "lines": [
+     "aucun signalement en un trimestre alors qu'environ un élève sur quatre est concerné : c'est une sous-détection",
+     "on revoit qui reçoit la parole des enfants, on ne renforce pas les affiches"
+    ]
+   },
+   {
+    "title": "Court et moyen terme",
+    "tone": "p",
+    "lines": [
+     "former les adultes aux alternatives non violentes, avec supervision régulière",
+     "adapter et piloter localement un outil de repérage",
+     "informer et associer les parents",
+     "créer des espaces d'écoute dans les établissements"
+    ]
+   },
+   {
+    "title": "Bascule de stratégie",
+    "tone": "a",
+    "lines": [
+     "réduction d'au moins 15 % du fait d'être harcelé, mesurée localement : on généralise",
+     "sinon, on révise l'adaptation avant tout passage à l'échelle"
+    ]
+   },
+   {
+    "title": "Structurel",
+    "tone": "p",
+    "lines": [
+     "plaider pour du personnel psychosocial : environ 0,01 pédopsychiatre pour 100 000 habitants",
+     "encourager la recherche locale et la validation des outils",
+     "inscrire la prévention dans les cadres internationaux existants"
+    ]
+   }
+  ],
+  "note": "Prévalence de référence : 27,2 % des élèves de 13-17 ans harcelés à l'école dans l'année (OMS, 2025). Le seuil de 15 % est l'ordre de grandeur de la baisse attendue d'un bon programme (Gaffney et al., 2021a). Lieux à risque (Ngidi, 2018) ; espaces d'écoute (allAfrica, 2025) ; densité de pédopsychiatres (Organisation mondiale de la Santé, 2017) ; cadres internationaux (Organisation mondiale de la Santé, 2016 et 2019). Proposition raisonnée, non évaluée comme un ensemble : opinion d'expert."
+ },
+ "effet-selon-age": {
+  "type": "curves",
+  "title": "Deux effets qui vont en sens inverse selon l'âge",
+  "desc": "Deux courbes qualitatives sur un même axe des âges, de 6 à 18 ans, sans échelle chiffrée. La première, descendante, représente l'efficacité globale des programmes anti-harcèlement : élevée chez les plus jeunes, elle décline nettement à partir de 13-14 ans, repère marqué sur l'axe (Yeager et al., 2015). La seconde, montante, représente l'effet des programmes sur l'intervention des témoins : effet moyen g = 0,20, g = 0,14 chez les plus jeunes et g = 0,43 au lycée, sur 12 programmes et 12 874 élèves (Polanin et al., 2012). Les deux mesures ne portent pas sur la même chose : la première sur la prévalence du harcèlement, la seconde sur le comportement déclaré des témoins ; une hausse de l'intervention des témoins n'est pas une baisse du harcèlement (Polanin et al., 2012 ; Gaffney et al., 2021a). Lecture : avec les grands, ne pas expliquer le harcèlement, mais leur confier la norme.",
+  "x": {
+   "start": 6,
+   "end": 18,
+   "ticks": [
+    6,
+    10,
+    13,
+    15,
+    18
+   ],
+   "label": "âge (années)"
+  },
+  "y_label": "niveau, sans échelle",
+  "bands": [
+   {
+    "from": 13,
+    "to": 14,
+    "label": "13-14 ans"
+   }
+  ],
+  "series": [
+   {
+    "label": "efficacité des programmes anti-harcèlement",
+    "points": [
+     [
+      6,
+      86
+     ],
+     [
+      10,
+      74
+     ],
+     [
+      13,
+      56
+     ],
+     [
+      15,
+      30
+     ],
+     [
+      18,
+      22
+     ]
+    ]
+   },
+   {
+    "label": "effet sur l'intervention des témoins",
+    "points": [
+     [
+      6,
+      24
+     ],
+     [
+      10,
+      28
+     ],
+     [
+      13,
+      40
+     ],
+     [
+      15,
+      62
+     ],
+     [
+      18,
+      72
+     ]
+    ]
+   }
+  ],
+  "note": "Schéma qualitatif, sans échelle : les deux courbes ne mesurent pas la même chose. Déclin de l'efficacité des programmes après 13-14 ans (Yeager et al., 2015). Intervention des témoins : effet moyen g = 0,20, g = 0,14 chez les plus jeunes, g = 0,43 au lycée, 12 programmes et 12 874 élèves (Polanin et al., 2012). Une hausse de l'intervention des témoins n'est pas une baisse de la prévalence (Polanin et al., 2012 ; Gaffney et al., 2021a). Avec les grands : ne pas expliquer le harcèlement, leur confier la norme."
+ },
+ "entonnoir-sous-declaration": {
+  "type": "grid",
+  "title": "L'entonnoir de la sous-déclaration",
+  "desc": "Deux étages superposés, chacun comparant ce qui entre dans un dispositif et ce qui en ressort. Étage du haut, Ligne Verte 147 en 2025 : 405 471 appels reçus, 680 cas de violence confirmés et référés vers des structures compétentes (Moov.mg, 2026 ; 2424.mg, 2026). Étage du bas, région Atsimo-Andrefana en 2019 : 375 mineurs victimes recensés par le Réseau de Protection de l'Enfant, 31 plaintes enregistrées par la police (Madagascar Tribune, 2020). Chaque rétrécissement est un enfant qui n'a pas été accompagné jusqu'au bout. Les deux étages ne mesurent pas la même chose : un appel n'est pas un cas, une plainte n'est pas une victime ; la sous-déclaration est la règle, pas l'exception.",
+  "cols": [
+   "Ce qui entre",
+   "Ce qui ressort"
+  ],
+  "rows": [
+   {
+    "label": "Ligne Verte 147 · 2025",
+    "cells": [
+     "405 471 appels reçus",
+     {
+      "text": "680 cas de violence confirmés et référés",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Atsimo-Andrefana · 2019",
+    "cells": [
+     "375 mineurs victimes recensés par le Réseau de Protection de l'Enfant",
+     {
+      "text": "31 plaintes enregistrées par la police",
+      "tone": "b"
+     }
+    ]
+   }
+  ],
+  "note": "Chaque rétrécissement est un enfant qui n'a pas été accompagné jusqu'au bout. Un appel n'est pas un cas, une plainte n'est pas une victime : les deux étages ne mesurent pas la même chose. Sources : Moov.mg (2026) et 2424.mg (2026) pour le 147 ; Madagascar Tribune (2020) pour Atsimo-Andrefana."
+ },
+ "pyramide-preuve": {
+  "type": "grid",
+  "title": "Ce qui rend une affirmation solide",
+  "desc": "Six niveaux de preuve, du plus solide au plus fragile, avec pour chacun le type d'étude correspondant et un exemple tiré de ce site. Preuve établie : méta-analyses, essais randomisés, enquêtes nationales — environ 19 à 20 % de faits de harcèlement en moins et 15 à 16 % de victimes en moins, sur 100 évaluations (Gaffney et al., 2021a). Consensus : accord large des institutions — la définition en trois critères, intention de nuire, répétition, déséquilibre de pouvoir (Olweus, 1993 ; Centers for Disease Control and Prevention, 2024 ; UNESCO, 2019). Hypothèse : plausible mais non testé ici — transférer un programme finlandais à une école malgache (Moore et al., 2021). Opinion d'expert : bonne pratique non évaluée — la conduite à tenir lors d'un dévoilement (Organisation mondiale de la Santé, 2019 ; Haute Autorité de Santé, 2017). Preuve faible : presse, ONG, méthode non vérifiable — les 58 % relayés par la presse malgache (L'Express de Madagascar, 2025). Lacune : absence de donnée — aucune publication à comité de lecture sur le harcèlement entre élèves à Madagascar. Échelle de lecture propre à ce site, inspirée de la démarche GRADE (Guyatt et al., 2008) ; ce n'est pas une gradation officielle.",
+  "cols": [
+   "Type d'étude",
+   "Exemple tiré de ce site"
+  ],
+  "rows": [
+   {
+    "label": "Preuve établie",
+    "cells": [
+     {
+      "text": "méta-analyses, essais randomisés, enquêtes nationales",
+      "tone": "s"
+     },
+     {
+      "text": "19-20 % de faits en moins et 15-16 % de victimes en moins, sur 100 évaluations",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "Consensus",
+    "cells": [
+     {
+      "text": "accord large des institutions",
+      "tone": "p"
+     },
+     {
+      "text": "la définition en trois critères : intention, répétition, déséquilibre",
+      "tone": "p"
+     }
+    ]
+   },
+   {
+    "label": "Hypothèse",
+    "cells": [
+     {
+      "text": "plausible, mais non testé ici",
+      "tone": "a"
+     },
+     {
+      "text": "transférer un programme finlandais à une école malgache",
+      "tone": "a"
+     }
+    ]
+   },
+   {
+    "label": "Opinion d'expert",
+    "cells": [
+     {
+      "text": "bonne pratique recommandée, non évaluée",
+      "tone": "a"
+     },
+     {
+      "text": "la conduite à tenir lors d'un dévoilement",
+      "tone": "a"
+     }
+    ]
+   },
+   {
+    "label": "Preuve faible",
+    "cells": [
+     {
+      "text": "presse, ONG, méthode non vérifiable",
+      "tone": "b"
+     },
+     {
+      "text": "les 58 % relayés par la presse malgache",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Lacune",
+    "cells": [
+     {
+      "text": "absence de donnée",
+      "tone": ""
+     },
+     {
+      "text": "aucune publication à comité de lecture sur le harcèlement entre élèves à Madagascar",
+      "tone": ""
+     }
+    ]
+   }
+  ],
+  "note": "Du plus solide, en haut, au plus fragile, en bas. Échelle de lecture propre à ce site, inspirée de la démarche GRADE (Guyatt et al., 2008) ; ce n'est pas une gradation officielle. Exemples : Gaffney et al. (2021a) ; Olweus (1993), Centers for Disease Control and Prevention (2024), UNESCO (2019) ; Moore et al. (2021) ; Organisation mondiale de la Santé (2019) et Haute Autorité de Santé (2017) ; L'Express de Madagascar (2025)."
+ },
+ "sait-ignore-madagascar": {
+  "type": "grid",
+  "title": "Ce que l'on sait, ce que l'on ignore à Madagascar",
+  "desc": "Quatre thèmes, deux colonnes : ce qui est établi, et la lacune correspondante, en gris. Combien : 27,2 % des élèves de 13 à 17 ans harcelés à l'école dans l'année et 10,5 % cyberharcelés (OMS, 2025) ; aucune donnée par région, par âge fin, ni hors du milieu scolaire. Conséquences : association durable avec des troubles anxieux et dépressifs, dans les données internationales (Arseneault, 2018 ; Moore et al., 2017) ; aucune étude de suivi malgache. Ce qui marche : réduction d'environ 15 à 16 % de la victimation par des programmes complets, évalués surtout en Europe et en Amérique du Nord (Gaffney et al., 2021a), et 22 programmes de prévention des violences évalués en Afrique subsaharienne (Edwards et al., 2024) ; aucun programme anti-harcèlement évalué à Madagascar. Comment les enfants le disent : les enfants d'Afrique subsaharienne n'emploient presque jamais le mot violence et qualifient les actes à partir de leurs émotions (Turner et al., 2024) ; aucun outil de repérage traduit et validé en malgache (Smith et al., 2016). Une case grise n'est pas une opinion prudente, c'est une absence de donnée : la combler par de l'intuition serait une faute.",
+  "cols": [
+   "Établi",
+   "Lacune"
+  ],
+  "rows": [
+   {
+    "label": "Combien",
+    "cells": [
+     {
+      "text": "27,2 % harcelés et 10,5 % cyberharcelés chez les 13-17 ans (OMS, 2025)",
+      "tone": "s"
+     },
+     {
+      "text": "aucune donnée par région, par âge fin, ni hors milieu scolaire",
+      "tone": ""
+     }
+    ]
+   },
+   {
+    "label": "Conséquences",
+    "cells": [
+     {
+      "text": "association durable avec troubles anxieux et dépressifs, données internationales",
+      "tone": "s"
+     },
+     {
+      "text": "aucune étude de suivi malgache",
+      "tone": ""
+     }
+    ]
+   },
+   {
+    "label": "Ce qui marche",
+    "cells": [
+     {
+      "text": "environ 15-16 % de victimation en moins avec un programme complet ; 22 programmes évalués en Afrique subsaharienne",
+      "tone": "s"
+     },
+     {
+      "text": "aucun programme anti-harcèlement évalué à Madagascar",
+      "tone": ""
+     }
+    ]
+   },
+   {
+    "label": "Comment les enfants le disent",
+    "cells": [
+     {
+      "text": "les enfants d'Afrique subsaharienne n'emploient presque jamais le mot « violence » : ils décrivent leurs émotions",
+      "tone": "s"
+     },
+     {
+      "text": "aucun outil de repérage traduit et validé en malgache",
+      "tone": ""
+     }
+    ]
+   }
+  ],
+  "note": "Une case grise n'est pas une opinion prudente, c'est une absence de donnée : la combler par de l'intuition serait une faute. Sources : OMS (2025) ; Arseneault (2018) et Moore et al. (2017) ; Gaffney et al. (2021a) et Edwards et al. (2024) ; Turner et al. (2024) et Smith et al. (2016)."
+ },
+ "sources-madagascar": {
+  "type": "grid",
+  "title": "Ce que chaque source malgache mesure, et ce qu'elle ne mesure pas",
+  "desc": "Quatre sources malgaches et le vide qui reste, décrits par qui a été interrogé, ce que la source mesure vraiment, ce qu'elle ne mesure pas et son niveau de preuve. Enquête scolaire nationale de 2025, menée par l'Organisation mondiale de la Santé : 2 440 élèves de 38 écoles, de la classe de septième à la terminale, 13 à 17 ans, taux de réponse 87,2 % ; elle mesure le harcèlement déclaré à l'école dans l'année, 27,2 %, dont 26,3 % des garçons et 28,1 % des filles, et le cyberharcèlement, 10,5 % ; elle ne mesure ni les enfants déscolarisés ni le devenir à long terme ; preuve établie (OMS, 2025). Étude nationale sur les violences envers les enfants de 2018 : 2 523 personnes pour le volet quantitatif, 701 jeunes pour le volet qualitatif, 12 sites ; elle mesure les violences subies en milieu scolaire et familial, plus de la moitié des jeunes déclarant au moins une violence en milieu scolaire et 49 % du personnel scolaire percevant la violence physique entre élèves comme un jeu ; elle ne mesure pas le harcèlement au sens des trois critères ; preuve établie (IBCR et UNICEF, 2018). Enquêtes par grappes à indicateurs multiples, cycle 2025 diffusé en 2026 et cycle 2018 : ménages, enfants de 1 à 14 ans ; elles mesurent la discipline violente exercée par les adultes ; elles ne mesurent pas les violences entre élèves ; preuve établie (INSTAT et UNICEF, 2026 et 2019). Enquête par grappes du Sud de 2012 : enfants de 2 à 14 ans des régions du Sud, dont 64 % punis physiquement dans le mois précédent et 20 % sous une forme sévère ; portée régionale et non nationale ; preuve établie (INSTAT et UNICEF, 2013 ; End Corporal Punishment, 2022). Le vide, enfin : aucune publication à comité de lecture ni thèse identifiée sur le harcèlement entre élèves à Madagascar, aucun programme évalué, aucune donnée de suivi à long terme ; lacune.",
+  "cols": [
+   "Qui a été interrogé",
+   "Ce qu'elle mesure",
+   "Ce qu'elle ne mesure pas",
+   "Niveau de preuve"
+  ],
+  "rows": [
+   {
+    "label": "Enquête scolaire nationale 2025 (OMS)",
+    "cells": [
+     "2 440 élèves, 38 écoles, 7e à terminale, 13-17 ans, réponse 87,2 %",
+     "harcèlement à l'école dans l'année 27,2 % (garçons 26,3, filles 28,1) ; cyberharcèlement 10,5 %",
+     "les enfants déscolarisés ; le devenir à long terme",
+     {
+      "text": "Preuve établie",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "Étude nationale sur les violences 2018 (IBCR et UNICEF)",
+    "cells": [
+     "2 523 personnes, 701 jeunes, 12 sites",
+     "violences subies à l'école et en famille : plus de la moitié des jeunes en déclarent une ; 49 % du personnel y voit un jeu",
+     "le harcèlement au sens des trois critères",
+     {
+      "text": "Preuve établie",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "Enquêtes par grappes MICS (2018, 2025)",
+    "cells": [
+     "ménages, enfants de 1 à 14 ans",
+     "la discipline violente exercée par les adultes",
+     "les violences entre élèves",
+     {
+      "text": "Preuve établie",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "Enquête par grappes du Sud, 2012",
+    "cells": [
+     "enfants de 2 à 14 ans, régions du Sud",
+     "64 % punis physiquement dans le mois, dont 20 % sous forme sévère",
+     "la moyenne du pays : portée régionale",
+     {
+      "text": "Preuve établie",
+      "tone": "s"
+     }
+    ]
+   },
+   {
+    "label": "Le vide",
+    "cells": [
+     {
+      "text": "aucune publication à comité de lecture, aucune thèse identifiée",
+      "tone": ""
+     },
+     {
+      "text": "aucun programme évalué à Madagascar",
+      "tone": ""
+     },
+     {
+      "text": "aucune donnée de suivi à long terme",
+      "tone": ""
+     },
+     {
+      "text": "Lacune",
+      "tone": ""
+     }
+    ]
+   }
+  ],
+  "note": "Sources : OMS (2025) ; IBCR et UNICEF (2018) ; INSTAT et UNICEF (2026 et 2019) ; INSTAT et UNICEF (2013) et End Corporal Punishment (2022). Les chiffres du Sud décrivent des régions durement éprouvées, pas la moyenne du pays : les citer comme des chiffres malgaches serait une faute de méthode."
+ },
+ "frise-dispositifs": {
+  "type": "timeline",
+  "scroll": true,
+  "title": "Trente ans de construction des dispositifs malgaches",
+  "desc": "Frise chronologique à deux pistes. Piste protection de l'enfance : 1996, arrêté ministériel n° 5246-96 MEN interdisant les punitions physiques à l'école ; 2007, loi n° 2007-023 sur les droits et la protection des enfants ; 2012, création du comité national de protection de l'enfant ; 2015, premier Centre Vonjy à Antananarivo ; 2016, Centre Vonjy de Toamasina et environ 765 structures de Réseaux de protection de l'enfance recensées ; 2017, Centres Vonjy de Mahajanga et Nosy Be, note n° 234/MEN/SG rappelant l'interdiction scolaire et inauguration du service de protection de l'enfant et des mœurs de la gendarmerie ; 2020, Centres Vonjy de Toliara et Tolagnaro, 5 067 enfants pris en charge depuis 2015 ; 2022, formation des brigades spécialisées avec l'appui de l'Organisation internationale de la Francophonie et de Francopol ; 2025, 405 471 appels reçus par la Ligne Verte 147. Piste santé mentale et société civile : 1987, arrivée d'une organisation internationale de solidarité intervenant sur le handicap et le soutien psychosocial ; 2025, première enquête scolaire nationale, 27,2 % d'élèves harcelés. Sources : End Corporal Punishment (2019) ; République de Madagascar (2007) ; Comité des droits de l'enfant (2022) ; Nations Unies à Madagascar (2020) ; Madagascar Tribune (2016) ; Nations Unies Madagascar (2017) ; Organisation internationale de la Francophonie (2022) ; Moov.mg (2026) ; Humanité et Inclusion ; OMS (2025). Photographie des sources disponibles en septembre 2026 ; certains dispositifs ont pu évoluer.",
+  "axis": {
+   "start": 1985,
+   "end": 2027,
+   "ticks": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2025
+   ],
+   "format": "{}"
+  },
+  "lane_height": 62,
+  "lanes": [
+   {
+    "title": "Protection de l'enfance",
+    "tone": "p",
+    "events": [
+     {
+      "at": 1996,
+      "label": "punition interdite à l'école"
+     },
+     {
+      "at": 2007,
+      "label": "loi 2007-023"
+     },
+     {
+      "at": 2012,
+      "label": "comité national enfance"
+     },
+     {
+      "at": 2015,
+      "label": "1er Centre Vonjy"
+     },
+     {
+      "at": 2016,
+      "label": "765 structures RPE"
+     },
+     {
+      "at": 2017,
+      "label": "note MEN, brigade mœurs"
+     },
+     {
+      "at": 2020,
+      "label": "6 Centres Vonjy"
+     },
+     {
+      "at": 2022,
+      "label": "brigades formées"
+     },
+     {
+      "at": 2025,
+      "label": "405 471 appels au 147"
+     }
+    ]
+   },
+   {
+    "title": "Santé mentale et société civile",
+    "tone": "",
+    "events": [
+     {
+      "at": 1987,
+      "label": "ONG handicap et psychosocial"
+     },
+     {
+      "at": 2025,
+      "label": "enquête scolaire : 27,2 %"
+     }
+    ]
+   }
+  ],
+  "milestones": [],
+  "note": "Photographie des sources disponibles en septembre 2026 ; certains dispositifs ont pu évoluer. Sources : End Corporal Punishment (2019) ; République de Madagascar (2007) ; Comité des droits de l'enfant (2022) ; Madagascar Tribune (2016) ; Nations Unies à Madagascar (2020) ; Nations Unies Madagascar (2017) ; Organisation internationale de la Francophonie (2022) ; Moov.mg (2026) ; Humanité et Inclusion ; OMS (2025). Une structure annoncée n'est pas une structure active."
+ },
+ "cercles-qui-sait-quoi": {
+  "type": "rings",
+  "title": "Qui peut savoir quoi, et pourquoi",
+  "desc": "Quatre cercles emboîtés, du centre vers l'extérieur. L'enfant détient tout ce qui le concerne et est informé de chaque transmission. L'adulte référent, un seul, reçoit le récit complet : faits, dates, mots exacts. Le responsable de la structure et l'école reçoivent les faits, les dates et la mesure demandée, mais pas les confidences qui ne leur sont pas nécessaires. Les services — Ligne Verte 147, Réseau de Protection de l'Enfant, santé, police ou gendarmerie — reçoivent ce qui est nécessaire au signalement et à la protection. Hors des cercles, les autres parents, les voisins, les groupes de messagerie et les réseaux sociaux ne reçoivent rien. Principes tirés de la Convention relative aux droits de l'enfant (Nations Unies, 1989) et de la loi malgache n° 2014-038 sur la protection des données à caractère personnel.",
+  "rings": [
+   {
+    "title": "L'enfant",
+    "tone": "p",
+    "items": [
+     "détient tout ce qui le concerne",
+     "est informé de chaque transmission"
+    ]
+   },
+   {
+    "title": "L'adulte référent, un seul",
+    "tone": "s",
+    "items": [
+     "le récit complet : faits, dates, mots exacts"
+    ]
+   },
+   {
+    "title": "La structure et l'école",
+    "tone": "a",
+    "items": [
+     "les faits, les dates, la mesure demandée",
+     "pas les confidences non nécessaires"
+    ]
+   },
+   {
+    "title": "Les services",
+    "tone": "",
+    "items": [
+     "147, Réseau de Protection de l'Enfant, santé, police",
+     "ce qui est nécessaire au signalement"
+    ]
+   }
+  ],
+  "note": "Hors de ces cercles — autres parents, voisins, groupes de messagerie, réseaux sociaux — personne ne reçoit rien."
+ },
+ "jalons-vie-d-une-note": {
+  "type": "chain",
+  "title": "La vie d'une note : cinq jalons",
+  "desc": "Cinq étapes du cycle de vie d'un écrit concernant un enfant. Écrire : les faits, les dates, les lieux, les personnes présentes, les mots de l'enfant entre guillemets, sans interprétation ni diagnostic ni jugement sur la famille. Ranger : un support unique, sous clé ou protégé par un mot de passe, jamais sur un appareil partagé ni dans un groupe de messagerie. Donner accès : la personne référente et le responsable de la structure ; la famille peut consulter et faire corriger une erreur. Transmettre : seulement ce qui est nécessaire, seulement aux services qui peuvent agir, avec une trace de la remise. Détruire : à la date fixée à l'avance, à la fin de l'accompagnement. D'après la loi malgache n° 2014-038 du 9 janvier 2015 sur la protection des données à caractère personnel.",
+  "steps": [
+   {
+    "title": "1. Écrire",
+    "tone": "p",
+    "lines": [
+     "faits, dates, lieux, personnes présentes",
+     "mots de l'enfant entre guillemets",
+     "ni interprétation, ni diagnostic"
+    ]
+   },
+   {
+    "title": "2. Ranger",
+    "tone": "p",
+    "lines": [
+     "un seul support, sous clé ou mot de passe",
+     "jamais un appareil partagé"
+    ]
+   },
+   {
+    "title": "3. Donner accès",
+    "tone": "a",
+    "lines": [
+     "la personne référente et le responsable",
+     "la famille peut consulter et corriger"
+    ]
+   },
+   {
+    "title": "4. Transmettre",
+    "tone": "a",
+    "lines": [
+     "ce qui est nécessaire, à qui peut agir",
+     "garder une trace de la remise"
+    ]
+   },
+   {
+    "title": "5. Détruire",
+    "tone": "s",
+    "lines": [
+     "à la date fixée d'avance",
+     "à la fin de l'accompagnement"
+    ]
+   }
+  ],
+  "note": "Une note protège l'enfant ; elle ne le décrit pas. La durée de conservation est limitée à ce pour quoi elle a été écrite (loi n° 2014-038)."
+ },
+ "schema-triple-consentement": {
+  "type": "columns",
+  "title": "Trois accords, et un droit de retrait",
+  "desc": "Trois conditions cumulatives avant toute publication d'un témoignage ou d'une image. Le parent ou responsable légal donne un accord écrit précisant quoi, où, sous quelle forme et pour combien de temps. L'enfant donne son accord séparément, hors de la présence du parent, dans une langue qu'il comprend : l'hésitation, le silence ou le regard vers le parent valent refus. L'anonymisation est vérifiée : prénom changé, école, commune, fratrie, profession du parent et date exacte retirées, avec un test de reconnaissance par un tiers du même quartier. Le retrait reste possible à tout moment, sans motif, avec retrait effectif du support. Ne sont jamais publiés : le nom d'un enfant auteur, le nom d'un établissement mis en cause, le nom d'un enfant victime de violences sexuelles, et toute situation en cours devant l'école, la protection de l'enfance ou la justice. D'après la Convention relative aux droits de l'enfant, articles 12 et 16 (Nations Unies, 1989), et les principes de déontologie de l'UNICEF pour les reportages sur les enfants.",
+  "columns": [
+   {
+    "title": "1. Le parent",
+    "tone": "p",
+    "items": [
+     "accord écrit",
+     "quoi, où, sous quelle forme",
+     "pour combien de temps"
+    ]
+   },
+   {
+    "title": "2. L'enfant",
+    "tone": "p",
+    "items": [
+     "accord recueilli séparément",
+     "hors présence du parent",
+     "dans une langue qu'il comprend",
+     "hésitation ou silence = refus"
+    ]
+   },
+   {
+    "title": "3. L'anonymisation",
+    "tone": "p",
+    "items": [
+     "prénom changé",
+     "école, commune, fratrie retirées",
+     "profession du parent, date exacte retirées",
+     "un tiers du quartier ne reconnaît pas"
+    ]
+   }
+  ],
+  "note": "Les trois ensemble, ou rien. Le retrait reste possible à tout moment, sans motif. Jamais publiés : le nom d'un enfant auteur, celui d'un établissement mis en cause, celui d'un enfant victime de violences sexuelles, ni une situation en cours devant l'école, la protection de l'enfance ou la justice."
+ },
+ "fourche-avant-de-publier": {
+  "type": "flow",
+  "title": "Avant de publier quoi que ce soit",
+  "desc": "Six questions successives à partir de « j'ai envie de publier quelque chose sur cette situation ». Une image, une voix ou un nom d'enfant : ne pas publier, transmettre. Une capture d'écran de harcèlement : ne pas publier, la conserver datée dans le dossier et la remettre à l'école, à la police ou à la gendarmerie. Une image intime de mineur : ne jamais la transférer, noter où elle a été vue et signaler à la Ligne Verte 147 et au portail national de signalement. Nommer une personne, une famille, un enseignant ou une école : ne pas publier, l'injure et la diffamation restant des infractions au titre de la loi n° 2014-006 modifiée en 2016. Un habitant du quartier pourrait reconnaître l'enfant : ne pas publier. Situation en cours devant l'école, la protection de l'enfance ou la justice : attendre. Si aucune de ces conditions n'est remplie, la publication devient possible après accord écrit du parent, accord de l'enfant et vérification de l'anonymisation.",
+  "steps": [
+   {
+    "title": "Une image, une voix ou un nom d'enfant ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : question suivante",
+      "tone": "",
+      "lines": []
+     },
+     {
+      "title": "Oui : ne pas publier",
+      "tone": "b",
+      "lines": [
+       "transmettre à qui peut agir"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Une capture d'écran de harcèlement ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : question suivante",
+      "tone": "",
+      "lines": []
+     },
+     {
+      "title": "Oui : ne pas publier",
+      "tone": "b",
+      "lines": [
+       "la conserver datée dans le dossier, la remettre à l'école, à la police ou à la gendarmerie"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Une image intime de mineur ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : question suivante",
+      "tone": "",
+      "lines": []
+     },
+     {
+      "title": "Oui : ne jamais la transférer",
+      "tone": "b",
+      "lines": [
+       "noter où elle a été vue et signaler : Ligne Verte 147, portail national de signalement"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Je nomme une personne, une famille, un enseignant, une école ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : question suivante",
+      "tone": "",
+      "lines": []
+     },
+     {
+      "title": "Oui : ne pas publier",
+      "tone": "b",
+      "lines": [
+       "injure et diffamation restent des infractions (loi n° 2014-006 modifiée en 2016)"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Quelqu'un du quartier pourrait-il reconnaître l'enfant ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : question suivante",
+      "tone": "",
+      "lines": []
+     },
+     {
+      "title": "Oui : ne pas publier",
+      "tone": "b",
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "La situation est-elle en cours devant l'école, la protection de l'enfance ou la justice ?",
+    "tone": "p",
+    "lines": [],
+    "branches": [
+     {
+      "title": "Non : publication possible",
+      "tone": "s",
+      "lines": [
+       "après accord écrit du parent, accord de l'enfant et vérification de l'anonymisation"
+      ]
+     },
+     {
+      "title": "Oui : attendre",
+      "tone": "b",
+      "lines": []
+     }
+    ]
+   }
+  ],
+  "note": "Presque tous les chemins mènent à « ne pas publier, transmettre ». C'est normal : publier ne protège pas un enfant, transmettre si."
+ },
+ "comparateur-convocation": {
+  "type": "grid",
+  "title": "Une convocation qui protège, une convocation qui abîme",
+  "desc": "Six critères comparant la forme acceptable et la forme à éviter d'une convocation ou d'un conseil de discipline. Qui est reçu : chacun individuellement, à des moments différents, plutôt que tout le monde dans la même pièce. Confrontation : aucune entre la victime et l'auteur, plutôt que faire répéter les faits devant l'auteur ou devant les familles. Présence d'un tiers : un deuxième adulte à chaque entretien, plutôt qu'un tête-à-tête sans témoin. Trace : un écrit daté et factuel avec copie remise à la famille, plutôt qu'un accord verbal sans date de revoyure. Information de l'enfant : il sait ce qui va être fait et il est prévenu du résultat, plutôt que des décisions prises entre adultes qu'il apprend par la rumeur. Sanction : ferme, éducative et réparatrice, sans humiliation, plutôt qu'une punition physique, une exposition publique ou l'affichage du nom de l'enfant auteur. D'après la méthode de la préoccupation partagée (Bellon et Gardette, 2021), les recommandations du Défenseur des droits (2023) et End Corporal Punishment (2019) pour l'interdiction du châtiment corporel à l'école à Madagascar.",
+  "cols": [
+   "Ce qui protège",
+   "Ce qui abîme"
+  ],
+  "rows": [
+   {
+    "label": "Qui est reçu",
+    "cells": [
+     {
+      "text": "chacun individuellement, à des moments différents",
+      "tone": "s"
+     },
+     {
+      "text": "tout le monde réuni dans la même pièce",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Confrontation",
+    "cells": [
+     {
+      "text": "aucune entre la victime et l'auteur",
+      "tone": "s"
+     },
+     {
+      "text": "faire répéter les faits devant l'auteur ou les familles",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Présence d'un tiers",
+    "cells": [
+     {
+      "text": "un deuxième adulte à chaque entretien",
+      "tone": "s"
+     },
+     {
+      "text": "un tête-à-tête sans témoin",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Trace",
+    "cells": [
+     {
+      "text": "un écrit daté et factuel, copie remise à la famille",
+      "tone": "s"
+     },
+     {
+      "text": "un accord verbal, sans trace ni date de revoyure",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Information de l'enfant",
+    "cells": [
+     {
+      "text": "il sait ce qui va être fait, il est prévenu du résultat",
+      "tone": "s"
+     },
+     {
+      "text": "des décisions entre adultes, apprises par la rumeur",
+      "tone": "b"
+     }
+    ]
+   },
+   {
+    "label": "Sanction",
+    "cells": [
+     {
+      "text": "ferme, éducative, réparatrice, sans humiliation",
+      "tone": "s"
+     },
+     {
+      "text": "punition physique, exposition publique, nom affiché",
+      "tone": "b"
+     }
+    ]
+   }
+  ],
+  "note": "Le châtiment corporel est interdit à l'école à Madagascar. Aucune de ces règles ne demande de moyens supplémentaires : elles demandent une méthode."
+ }
+}

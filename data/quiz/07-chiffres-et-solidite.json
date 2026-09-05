@@ -1,0 +1,158 @@
+{
+ "title": "Savoir quel chiffre citer, et ce qu'il vaut",
+ "intro": "Huit situations où un chiffre est prononcé devant vous : une réunion de parents, une émission de radio, une affiche, un dossier de financement. Répondez avant de lire la correction, puis vérifiez ce qui vous manquait.",
+ "questions": [
+  {
+   "q": "À une réunion de parents d'élèves, une mère demande : « Et chez nous, à Madagascar, ça touche combien d'enfants ? » Quelle réponse pouvez-vous défendre si on vous demande la source ?",
+   "o": [
+    "Environ 32 % des élèves, harcelés au moins une fois dans le dernier mois, d'après la synthèse internationale portant sur 144 pays",
+    "38,8 % des adolescents scolarisés, moyenne établie sur onze pays d'Afrique subsaharienne",
+    "27,2 % des élèves de 13 à 17 ans, harcelés à l'école au cours des douze derniers mois",
+    "Près d'un adolescent sur deux, chiffre issu de la synthèse des études africaines disponibles"
+   ],
+   "a": 2,
+   "why": [
+    "Non : 32 % est le chiffre mondial, toutes régions confondues, et il porte sur le dernier mois seulement.",
+    "Non : cette moyenne régionale repose sur onze pays dont Madagascar ne fait pas partie ; elle donne un ordre de grandeur, pas une mesure malgache.",
+    "Oui : c'est la seule mesure nationale disponible, et vous l'annoncez avec l'âge et la période, ce qui la rend vérifiable.",
+    "Non : la prévalence groupée africaine mélange des définitions très différentes et n'inclut pas Madagascar."
+   ],
+   "x": "Depuis 2025, une enquête nationale donne 27,2 % d'élèves de 13 à 17 ans harcelés à l'école dans l'année et 10,5 % cyberharcelés <a class=\"cite\" data-ref=\"who2025\"></a>. Les autres chiffres sont exacts mais portent sur d'autres territoires : 32 % pour 144 pays et territoires <a class=\"cite\" data-ref=\"unesco2019fr\"></a>, puis 38,8 % pour onze pays d'Afrique subsaharienne et 46 % pour une synthèse de seize pays, deux ensembles africains dont Madagascar est absent <a class=\"cite\" data-ref=\"aboagye2021a,rtbey2025\"></a>. La tentation est de choisir le chiffre qui frappe le plus ; on choisit celui dont on peut nommer le territoire, l'âge et la période. Voir <a href=\"#quatre-chiffres-h\">Quatre chiffres à connaître</a>.",
+   "kind": "comprendre",
+   "section": "quatre-chiffres-h"
+  },
+  {
+   "q": "Un enseignant vous objecte en salle des professeurs : « Vos chiffres se contredisent, 27 %, 38 %, 46 % : donc au fond personne ne sait rien. » Que lui répondez-vous ?",
+   "o": [
+    "Que ces enquêtes ne posent pas la même question : la définition retenue, la période de rappel et le mode de recueil diffèrent",
+    "Que le chiffre le plus récent remplace les précédents, comme toujours en recherche, et qu'il faut donc retenir 46 %",
+    "Qu'il faut retenir la valeur intermédiaire, plus prudente que les deux extrêmes et donc plus honnête devant un public",
+    "Que les écarts viennent de la qualité inégale des équipes et des moyens dont elles disposent selon les pays"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : les trois causes de l'écart sont la définition, la période et le mode de recueil, pas un désaccord entre chercheurs.",
+    "Non : une enquête plus récente sur un autre territoire n'annule pas une mesure nationale plus ancienne ; ce ne sont pas des versions successives du même résultat.",
+    "Non : faire une moyenne ou choisir le milieu entre des chiffres qui ne mesurent pas la même chose produit un nombre qui ne mesure plus rien.",
+    "Non : l'écart ne vient pas d'un défaut des équipes ; il vient de ce que chaque enquête a choisi de mesurer, et disqualifier les auteurs dispense de le regarder."
+   ],
+   "x": "Trois causes expliquent presque tout l'écart : la définition retenue, la période de rappel de trente jours, douze mois ou toute la scolarité, et le mode de recueil, questionnaire anonyme ou entretien face à un adulte <a class=\"cite\" data-ref=\"barchi2025,benyishay2024\"></a>. S'y ajoute le fait que le mot « harcèlement » n'a pas d'équivalent exact d'une langue à l'autre, ce qui rend les comparaisons entre pays fragiles <a class=\"cite\" data-ref=\"smith2016,samara2019\"></a>. Dire cela n'affaiblit pas votre propos : cela montre que vous savez ce que chaque chiffre mesure. Voir <a href=\"#pourquoi-varie-h\">Pourquoi deux enquêtes sérieuses ne donnent pas le même chiffre</a>.",
+   "kind": "comprendre",
+   "section": "pourquoi-varie-h"
+  },
+  {
+   "q": "En direct à la radio, une intervenante annonce : « 70 % des élèves subissent des violences à l'école. » Vous avez une minute de réponse. Sur quoi portez-vous d'abord ?",
+   "o": [
+    "Sur la taille de l'échantillon, le seul élément qui rend vraiment un chiffre solide devant un public",
+    "Sur ce que ce chiffre appelle « violences » et sur la période qu'il couvre",
+    "Sur la région enquêtée, car un résultat recueilli dans le Sud ne dit rien de la capitale ni de la côte est",
+    "Sur l'absence de publication scientifique, qui suffit à écarter le chiffre le temps de l'émission"
+   ],
+   "a": 1,
+   "why": [
+    "Non : un grand échantillon ne rattrape pas une définition floue ; on peut interroger dix mille élèves et mesurer autre chose que le harcèlement.",
+    "Oui : la définition et la période sont les deux questions les plus rentables, celles qui expliquent l'essentiel des écarts.",
+    "Non : la région compte, mais elle vient après ; ici l'écart vient surtout de ce que le mot « violences » recouvre.",
+    "Non : exiger d'emblée une revue scientifique ferme la discussion et écarterait aussi des données locales utiles."
+   ],
+   "x": "Un chiffre de violences scolaires est mécaniquement plus élevé qu'un chiffre de harcèlement, et plus la période de rappel est longue, plus le taux monte sans que rien de nouveau ne se produise. Selon que l'on inclut ou non les moqueries à caractère sexiste, les mariages précoces ou la relation entre un enseignant et une élève, les taux de violences de genre en milieu scolaire varient du simple au triple <a class=\"cite\" data-ref=\"hofmann2021\"></a>. La question « D'où vient ce chiffre ? » posée sans agressivité transforme un échange d'opinions en recherche commune. Voir <a href=\"#cinq-questions-h\">Cinq questions à poser devant n'importe quel chiffre</a>.",
+   "kind": "appliquer",
+   "section": "cinq-questions-h"
+  },
+  {
+   "q": "Une bénévole a préparé une affiche pour la sortie des classes. En gros caractères : « 58 % des élèves harcelés à Madagascar. » Que faites-vous avant l'impression ?",
+   "o": [
+    "Le laisser tel quel : le chiffre a été repris par la presse nationale, il est donc déjà vérifié",
+    "Le remplacer par la moyenne entre 58 % et 27,2 %, plus équilibrée et moins contestable en public",
+    "Le barrer et prévenir l'équipe que ce chiffre est faux, pour éviter à l'association un démenti public",
+    "Le garder en indiquant sur l'affiche qu'il s'agit d'une estimation locale sans méthode publiée"
+   ],
+   "a": 3,
+   "why": [
+    "Non : la reprise par un journal ne vérifie rien ; la presse relaie ici une estimation dont aucun rapport primaire n'a été retrouvé.",
+    "Non : faire la moyenne de deux chiffres qui ne mesurent ni la même population, ni la même période produit un nombre sans signification.",
+    "Non : ce chiffre n'est pas démontré faux, il est invérifiable, et le déclarer faux décrédibilise inutilement une association de terrain.",
+    "Oui : on peut le mentionner à condition de dire dans la même phrase, ou sur le même support, ce qu'il est."
+   ],
+   "x": "Le chiffre de 58 % d'élèves de 10 à 21 ans est attribué à une étude associative de 2023-2024, sans nombre d'élèves interrogés, sans définition, sans période ni protocole publiés <a class=\"cite\" data-ref=\"lexpress2025,newsmada2024\"></a>. Cinq réponses manquent sur cinq, ce qui lui donne un statut différent de l'enquête nationale, sans pour autant en faire une invention <a class=\"cite\" data-ref=\"who2025\"></a>. Un rapport de quatre pages précisant les écoles, la question posée et la période suffirait à le rendre citable. Voir <a href=\"#cas-cinquante-huit-h\">Le cas du 58 %</a>.",
+   "kind": "appliquer",
+   "section": "cas-cinquante-huit-h"
+  },
+  {
+   "q": "Votre association accompagne des enfants déscolarisés d'un quartier. Un partenaire vous écrit : « Prenez 27,2 % pour estimer le nombre de harcelés parmi eux. » Que répondez-vous ?",
+   "o": [
+    "Que l'enquête n'a interrogé que des élèves présents en classe, de 13 à 17 ans : ces enfants-là n'y figurent pas",
+    "Que le calcul est valable, puisqu'une moyenne nationale s'applique par définition à tous les enfants du pays",
+    "Qu'il faut doubler le taux, les enfants déscolarisés étant reconnus deux fois plus exposés que les autres",
+    "Qu'il faut utiliser 10,5 %, le taux qui correspond aux enfants se trouvant hors de l'établissement scolaire"
+   ],
+   "a": 0,
+   "why": [
+    "Oui : une enquête menée dans les écoles ne voit pas les enfants qui n'y sont pas, et c'est une limite à énoncer soi-même.",
+    "Non : une moyenne nationale décrit la population effectivement interrogée, ici des élèves scolarisés de 13 à 17 ans.",
+    "Non : ce doublement est inventé ; on peut penser ces enfants plus exposés, mais aucune mesure ne le quantifie à Madagascar.",
+    "Non : 10,5 % est le taux de cyberharcèlement chez ces mêmes élèves scolarisés, pas un taux pour les enfants hors école."
+   ],
+   "x": "L'enquête de 2025 porte sur 2 440 élèves de 38 écoles tirées au sort, de 13 à 17 ans, sur les douze derniers mois <a class=\"cite\" data-ref=\"who2025\"></a>. Trois limites en découlent : les enfants non scolarisés sont invisibles, alors qu'une large part des élèves malgaches n'achève pas le cycle primaire <a class=\"cite\" data-ref=\"instat2026\"></a> ; tout repose sur la déclaration des élèves ; les moins de 13 ans ne sont pas couverts. Les enquêtes scolaires ne touchent d'ailleurs que les élèves présents le jour de la passation, ce qui exclut les plus absentéistes <a class=\"cite\" data-ref=\"aboagye2021a,osborne2023\"></a>. Voir <a href=\"#gshs-perimetre-h\">Ce que mesure, et ne mesure pas, l'enquête de 2025</a>.",
+   "kind": "appliquer",
+   "section": "gshs-perimetre-h"
+  },
+  {
+   "q": "Dans un dossier de financement, un collègue écrit : « À Madagascar, 85 % des enfants sont victimes de violence à l'école », en s'appuyant sur la grande enquête auprès des ménages. Que corrigez-vous ?",
+   "o": [
+    "Rien : 85 % est bien un chiffre national récent, produit par une enquête de grande taille et publié",
+    "Le pourcentage : la valeur exacte issue de cette enquête est de 64 %, et non de 85 %",
+    "Le lieu : cette enquête mesure la discipline violente à la maison, pas les violences à l'école",
+    "La date : ce résultat vient d'une enquête menée dans le Sud et remonte à plus de dix ans"
+   ],
+   "a": 2,
+   "why": [
+    "Non : le chiffre est réel et récent, mais il est ici sorti de son cadre ; le problème n'est pas sa solidité, c'est son objet.",
+    "Non : 64 % est le taux de châtiment corporel de l'enquête par grappes menée dans le Sud en 2012, une source différente.",
+    "Oui : cette enquête porte sur la discipline dans la famille et ne dit rien du harcèlement entre élèves.",
+    "Non : c'est l'enquête du Sud de 2012 qui est ancienne et régionale ; l'enquête auprès des ménages, elle, est récente et nationale."
+   ],
+   "x": "L'enquête auprès des ménages, menée dans les 23 régions auprès de 19 785 foyers, montre qu'environ 85 % des enfants subissent une forme de discipline violente à la maison <a class=\"cite\" data-ref=\"instat2026\"></a>. C'est l'enquête par grappes de 2012, limitée au Sud, qui donne 64 % de châtiments corporels dans le mois écoulé <a class=\"cite\" data-ref=\"instat2012micssud,endcorporalpunishment2019mg\"></a>. Confondre ces sources avec une mesure du harcèlement entre élèves est l'erreur la plus fréquente ; la parade tient en une habitude : donner l'année et la zone à chaque fois. Voir <a href=\"#autres-sources-h\">Les autres sources malgaches</a>.",
+   "kind": "appliquer",
+   "section": "autres-sources-h"
+  },
+  {
+   "q": "Un directeur vous montre son registre : zéro signalement de harcèlement cette année. Il en conclut que son établissement n'est pas concerné. Comment tranchez-vous, sans le braquer ?",
+   "o": [
+    "Un registre vide est un indicateur fiable : un enfant harcelé finit en général par se confier à un adulte de l'école",
+    "Un registre vide renseigne d'abord sur la capacité de l'école à détecter les faits et à recueillir la parole des élèves",
+    "Un registre vide se corrige en appliquant les 27,2 % nationaux à son effectif pour estimer le nombre réel de victimes",
+    "Un registre vide est crédible dans un petit établissement, où les adultes connaissent personnellement chaque élève"
+   ],
+   "a": 1,
+   "why": [
+    "Non : la plupart des enfants harcelés ne parlent pas spontanément, et l'absence de plainte ne prouve pas l'absence de faits.",
+    "Oui : le registre mesure d'abord le dispositif de recueil, ce qui ouvre une discussion utile plutôt qu'un procès.",
+    "Non : une moyenne nationale n'est pas un diagnostic d'établissement, et l'enquête n'a pas été conçue pour descendre à ce niveau.",
+    "Non : la taille de l'école ne garantit rien ; la proximité peut même rendre plus difficile de dénoncer un camarade ou un adulte connu."
+   ],
+   "x": "Un nombre de signalements nul renseigne sur la capacité d'un établissement à détecter et à recueillir la parole des élèves, pas sur la réalité des faits ; le même écart s'observe à l'échelle du pays entre le très grand nombre d'appels reçus par la ligne nationale de signalement et le nombre de situations effectivement identifiées et suivies <a class=\"cite\" data-ref=\"moov2026ligne147,2424mg2026\"></a>. Transposer les 27,2 % à une école précise est l'erreur symétrique : la prévalence varie fortement d'un établissement à l'autre <a class=\"cite\" data-ref=\"who2025\"></a>. La proposition utile est un questionnaire anonyme court, repassé chaque année dans les mêmes classes. Voir <a href=\"#vide-recherche-h\">Le vide de recherche malgache</a>.",
+   "kind": "trancher",
+   "section": "vide-recherche-h"
+  },
+  {
+   "q": "Vous rédigez une fiche pour vos bénévoles et vous écrivez : « À Madagascar, la violence éducative à la maison nourrit le harcèlement entre élèves. » Quelle pastille de niveau de preuve mettez-vous ?",
+   "o": [
+    "Preuve établie, puisque les enquêtes malgaches documentent séparément la violence éducative et le harcèlement",
+    "Consensus, puisque les institutions internationales recommandent partout de réduire la violence éducative",
+    "Preuve faible, puisque cette phrase circule surtout dans la presse et dans les témoignages de familles",
+    "Hypothèse, puisque le lien est cohérent avec les données mais n'a pas été testé à Madagascar"
+   ],
+   "a": 3,
+   "why": [
+    "Non : deux chiffres élevés mesurés séparément ne démontrent pas qu'un phénomène en produit un autre.",
+    "Non : le consensus signale un accord large des chercheurs sur un constat, pas la popularité d'une recommandation d'action.",
+    "Non : la preuve faible désigne une donnée dont la méthode n'est pas vérifiable, or ici le problème est l'absence de test du lien.",
+    "Oui : l'hypothèse dit exactement cela, plausible et cohérent avec les données, mais non testé, en particulier à Madagascar."
+   ],
+   "x": "Le lien entre violence éducative à la maison et harcèlement entre élèves est cohérent avec ce que l'on observe, mais il n'a pas été démontré à Madagascar <a class=\"cite\" data-ref=\"barchi2025\"></a>. La toile de fond, elle, est bien documentée : 86 % des personnes interrogées lors d'une enquête nationale estiment le châtiment corporel fréquemment utilisé au foyer <a class=\"cite\" data-ref=\"endcorporalpunishment2019mg\"></a>. La règle d'usage est simple : plus la pastille est faible, plus la phrase doit être prudente, et dire « on ne sait pas encore » inspire plus confiance qu'une affirmation trop ferme. Voir <a href=\"#pastilles-h\">Lire les pastilles de niveau de preuve</a>.",
+   "kind": "trancher",
+   "section": "pastilles-h"
+  }
+ ]
+}
