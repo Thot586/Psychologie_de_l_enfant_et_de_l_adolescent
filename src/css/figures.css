@@ -107,6 +107,12 @@ figure.fig .fig-alt { font-size: var(--fs-xs); color: var(--ink-2); margin-top: 
 :is(.fig, .fv-stage) svg .fa1 { fill: var(--a1); } :is(.fig, .fv-stage) svg .fa2 { fill: var(--a2); } :is(.fig, .fv-stage) svg .fa3 { fill: var(--a3); } :is(.fig, .fv-stage) svg .fa4 { fill: var(--a4); }
 :is(.fig, .fv-stage) svg .fa1s { fill: var(--a1-soft); } :is(.fig, .fv-stage) svg .fa2s { fill: var(--a2-soft); } :is(.fig, .fv-stage) svg .fa3s { fill: var(--a3-soft); } :is(.fig, .fv-stage) svg .fa4s { fill: var(--a4-soft); }
 :is(.fig, .fv-stage) svg .dot { fill: var(--d-muted); }
+/* Formes comparées : un étage de pyramide et une part d'anneau doivent se détacher de leur
+   panneau, sinon la forme disparaît et il ne reste que des mots flottants. */
+:is(.fig, .fv-stage) svg .etage { fill: var(--surface); stroke: var(--line-ui); stroke-width: 1.2; }
+:is(.fig, .fv-stage) svg .part { fill: var(--a1); stroke: var(--surface); stroke-width: 2; }
+/* trait qui barre une forme : ce qui est montré pour dire « pas comme ça » */
+:is(.fig, .fv-stage) svg .barre { stroke: var(--brick); stroke-width: 3.5; stroke-linecap: round; }
 :is(.fig, .fv-stage) svg .dot-ring { fill: var(--surface); stroke: var(--d-muted); stroke-width: 3; }
 :is(.fig, .fv-stage) svg .dot.on { fill: var(--d1); }
 :is(.fig, .fv-stage) svg .ci { stroke: var(--d1); stroke-width: 2; fill: none; }

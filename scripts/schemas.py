@@ -65,22 +65,85 @@ def svg(name, h, body, cls=''):
             f'font-family="Public Sans, Segoe UI, system-ui, sans-serif" font-size="13"><title id="{name}-t">__T__</title><desc id="{name}-d">__D__</desc>{body}</svg>')
 
 
-def titled_box(x, y, w, title, lines, tone='', width_chars=None, min_h=0):
+def decoupe_entree(l, width_chars):
+    """Une entrée « Intitulé : détail » se lit mal quand elle est coulée dans le même flot que la
+    suivante. On isole l'intitulé, qui sera mis en évidence, et on renvoie le détail à la ligne."""
+    if ' : ' not in l:
+        return None, wrap(l, width_chars)
+    tete, reste = l.split(' : ', 1)
+    if len(tete) > max(10, width_chars - 4) or not reste.strip():
+        return None, wrap(l, width_chars)
+    return tete, wrap(reste.strip(), width_chars)
+
+
+def motif_pyramide(x, y, w, etages):
+    """Une pyramide à étages, barrée. La figure disait « pyramide barrée » en toutes lettres :
+    autant la dessiner, c'est le propos même du panneau."""
+    h = 22 * len(etages) + 8
+    cx = x + w / 2
+    demi_bas, demi_haut = min(w / 2 - 6, 118), 16
+    out = []
+    n = len(etages)
+    for i, lib in enumerate(etages):
+        yt = y + 4 + i * 22
+        f = i / n
+        f2 = (i + 1) / n
+        h1 = demi_haut + (demi_bas - demi_haut) * f
+        h2 = demi_haut + (demi_bas - demi_haut) * f2
+        out.append(f'<polygon class="etage" points="{cx - h1:.1f},{yt} {cx + h1:.1f},{yt} {cx + h2:.1f},{yt + 20} {cx - h2:.1f},{yt + 20}"/>')
+        out.append(f'<text class="t-sm" x="{cx:.1f}" y="{yt + 14}" text-anchor="middle">{esc(lib)}</text>')
+    out.append(f'<line class="barre" x1="{cx - demi_bas - 6:.1f}" y1="{y + h - 4}" x2="{cx + demi_bas + 6:.1f}" y2="{y + 2}"/>')
+    return ''.join(out), h + 8
+
+
+def motif_cercle_egal(x, y, w, parts_lib, centre=''):
+    """Un anneau en parts strictement égales : la forme dit « simultanés », pas « empilés »."""
+    import math
+    n = max(1, len(parts_lib))
+    r_ext = min(w / 2 - 10, 74)
+    r_int = r_ext * 0.52
+    cx, cy = x + w / 2, y + r_ext + 6
+    out = []
+    for i, lib in enumerate(parts_lib):
+        a0 = -math.pi / 2 + 2 * math.pi * i / n + 0.035
+        a1 = -math.pi / 2 + 2 * math.pi * (i + 1) / n - 0.035
+        p = lambda r, a: f'{cx + r * math.cos(a):.1f},{cy + r * math.sin(a):.1f}'
+        grand = 1 if (a1 - a0) > math.pi else 0
+        out.append(f'<path class="part" d="M{p(r_int, a0)} L{p(r_ext, a0)} '
+                   f'A{r_ext},{r_ext} 0 {grand} 1 {p(r_ext, a1)} L{p(r_int, a1)} '
+                   f'A{r_int},{r_int} 0 {grand} 0 {p(r_int, a0)} Z"/>')
+        am = (a0 + a1) / 2
+        rl = (r_int + r_ext) / 2
+        out.append(f'<text class="t-sm t-b on-fill" x="{cx + rl * math.cos(am):.1f}" y="{cy + rl * math.sin(am) + 4:.1f}" text-anchor="middle">{esc(str(i + 1))}</text>')
+    if centre:
+        lignes = wrap(centre, 16)
+        for i, l in enumerate(lignes):
+            out.append(f'<text class="t-sm" x="{cx:.1f}" y="{cy - (len(lignes) - 1) * 6 + i * 13 + 4:.1f}" text-anchor="middle">{esc(l)}</text>')
+    return ''.join(out), 2 * r_ext + 14
+
+
+def titled_box(x, y, w, title, lines, tone='', width_chars=None, min_h=0, reserve=0):
     width_chars = width_chars or max(12, int(w / 7.2))
-    body_lines = []
-    for l in lines:
-        body_lines += wrap(l, width_chars)
+    entrees = [decoupe_entree(str(l), width_chars) for l in lines]
+    nb = sum((1 if e[0] else 0) + len(e[1]) for e in entrees)
+    espaces = sum(1 for e in entrees[:-1] if e[0]) * 5      # un blanc après chaque entrée intitulée
     tl = wrap(title, width_chars) if title else []
-    h = max(min_h, 14 + len(tl) * 16 + (len(body_lines) * 14 + (6 if body_lines else 0)) + 8)
+    h = max(min_h, 14 + len(tl) * 16 + reserve + (nb * 14 + espaces + (6 if entrees else 0)) + 8)
     out = [box(x, y, w, h, tone)]
     yy = y + 20
     for l in tl:
         out.append(f'<text class="t-b" x="{x + 10:.1f}" y="{yy:.1f}">{esc(l)}</text>')
         yy += 16
-    yy += 2
-    for l in body_lines:
-        out.append(f'<text class="t-sm" x="{x + 10:.1f}" y="{yy:.1f}">{esc(l)}</text>')
-        yy += 14
+    yy += 2 + reserve
+    for i, (tete, corps) in enumerate(entrees):
+        if tete:
+            out.append(f'<text class="t-sm t-b" x="{x + 10:.1f}" y="{yy:.1f}">{esc(tete)}</text>')
+            yy += 14
+        for l in corps:
+            out.append(f'<text class="t-sm" x="{x + (16 if tete else 10):.1f}" y="{yy:.1f}">{esc(l)}</text>')
+            yy += 14
+        if tete and i < len(entrees) - 1:
+            yy += 5
     return ''.join(out), h
 
 
@@ -119,24 +182,47 @@ def r_fork(name, s):
 
 
 def r_columns(name, s):
+    """Colonnes comparées. Une colonne peut porter un « motif » : une forme réellement dessinée
+    au-dessus de son texte, quand c'est la forme elle-même que la figure oppose."""
     cols = s['columns']
     n = len(cols)
     gap = 12
     cw = (W - 40 - gap * (n - 1)) / n
+
+    def dessin(c, x, y):
+        m = c.get('motif')
+        if not m:
+            return '', 0
+        libelles = c.get('motif_labels') or []
+        if m == 'pyramide-barree':
+            return motif_pyramide(x + 8, y, cw - 16, libelles)
+        if m == 'cercle-egal':
+            return motif_cercle_egal(x + 8, y, cw - 16, libelles, c.get('motif_centre', ''))
+        return '', 0
+
+    hauteurs_motif = []
     parts = []
     y = 16
     hmax = 0
     for i, c in enumerate(cols):
         x = 20 + i * (cw + gap)
-        b, h = titled_box(x, y, cw, c.get('title', ''), c.get('items', []), c.get('tone', ''))
+        _, hm = dessin(c, x, y + 26)
+        hauteurs_motif.append(hm)
+    hm_max = max(hauteurs_motif) if hauteurs_motif else 0
+    for i, c in enumerate(cols):
+        x = 20 + i * (cw + gap)
+        b, h = titled_box(x, y, cw, c.get('title', ''), c.get('items', []), c.get('tone', ''), reserve=hm_max)
         parts.append(b)
         hmax = max(hmax, h)
     # égalise les hauteurs
     parts2 = []
     for i, c in enumerate(cols):
         x = 20 + i * (cw + gap)
-        b, _ = titled_box(x, y, cw, c.get('title', ''), c.get('items', []), c.get('tone', ''), min_h=hmax)
+        b, _ = titled_box(x, y, cw, c.get('title', ''), c.get('items', []), c.get('tone', ''), min_h=hmax, reserve=hm_max)
         parts2.append(b)
+        if hauteurs_motif[i]:
+            d, _ = dessin(c, x, y + 26 + (hm_max - hauteurs_motif[i]) / 2)
+            parts2.append(d)
     y += hmax + 10
     if s.get('arrows'):
         parts2.insert(0, marker_defs(name))
@@ -521,15 +607,24 @@ def r_matrix(name, s):
 
 
 def r_iceberg(name, s):
+    """Une entrée peut être une chaîne, ou {label, detail} : l'intitulé est alors mis en évidence
+    et son détail posé en dessous, avec un blanc entre les groupes. Sans cela, trois familles de
+    même taille et de même couleur se lisent comme une seule phrase qui n'en finit pas."""
     parts = [marker_defs(name)]
     above = s.get('above', [])
     below = s.get('below', [])
-    # on coupe les lignes ici : sans cela il fallait couper les phrases à la main dans les données
-    lignes_h = [wrap(x, 34) for x in above]
-    lignes_b = [wrap(x, 46) for x in below]
-    top_h = 24 + sum(len(l) for l in lignes_h) * 22
+
+    def bloc(x, largeur):
+        if isinstance(x, dict):
+            return {'label': x.get('label', ''), 'lignes': wrap(x.get('detail', ''), largeur)}
+        return {'label': '', 'lignes': wrap(x, largeur)}
+
+    blocs_h = [bloc(x, 34) for x in above]
+    blocs_b = [bloc(x, 44) for x in below]
+    hauteur = lambda bs, esp: sum((22 if b['label'] else 0) + len(b['lignes']) * 20 + esp for b in bs)
+    top_h = 24 + hauteur(blocs_h, 2)
     wl = top_h + 26
-    bot_h = 40 + sum(len(l) for l in lignes_b) * 22
+    bot_h = 34 + hauteur(blocs_b, 14)
     # partie émergée : trapèze
     parts.append(f'<polygon class="box" points="205,{wl} 435,{wl} 395,{wl - top_h} 245,{wl - top_h}"/>')
     # partie immergée : trapèze large
@@ -537,16 +632,19 @@ def r_iceberg(name, s):
     parts.append(f'<line class="ref" x1="20" y1="{wl}" x2="620" y2="{wl}"/>')
     parts.append(f'<text class="t-sm" x="24" y="{wl - 8}">{esc(s.get("above_label", "ce que je vois"))}</text>')
     parts.append(f'<text class="t-sm" x="24" y="{wl + 18}">{esc(s.get("below_label", "ce qui se passe dessous"))}</text>')
-    yy = wl - top_h + 24
-    for lignes in lignes_h:
-        for l in lignes:
-            parts.append(f'<text class="t-b" x="320" y="{yy}" text-anchor="middle">{esc(l)}</text>')
-            yy += 22
-    yy = wl + 34
-    for lignes in lignes_b:
-        for l in lignes:
-            parts.append(f'<text x="320" y="{yy}" text-anchor="middle">{esc(l)}</text>')
-            yy += 22
+    def poser(blocs, y, cls_detail, esp):
+        for b in blocs:
+            if b['label']:
+                parts.append(f'<text class="t-b" x="320" y="{y}" text-anchor="middle">{esc(b["label"])}</text>')
+                y += 22
+            for l in b['lignes']:
+                parts.append(f'<text class="{cls_detail}" x="320" y="{y}" text-anchor="middle">{esc(l)}</text>')
+                y += 20
+            y += esp
+        return y
+
+    poser(blocs_h, wl - top_h + 24, 't-b', 2)
+    poser(blocs_b, wl + 30, 't-sm', 14)
     h = wl + bot_h + 14
     return svg(name, h + 6, ''.join(parts))
 

@@ -288,31 +288,37 @@
   "desc": "Deux panneaux. À gauche, la pyramide de Maslow à cinq étages, barrée : la hiérarchie n'est pas confirmée par les données, les besoins ne se satisfont pas dans l'ordre (Tay et Diener, 2011, enquête dans 123 pays). À droite, un cercle de cinq composantes égales des soins attentifs, simultanées et non empilées : santé, nutrition, sécurité et sûreté, soins bienveillants, possibilités d'apprentissage précoce (OMS, UNICEF et Banque mondiale, 2018), avec au centre trois besoins psychologiques : autonomie, compétence, relation (Ryan et Deci, 2000).",
   "columns": [
    {
-    "title": "Pyramide barrée : hiérarchie non confirmée",
+    "title": "La pyramide : une hiérarchie non confirmée",
     "tone": "",
     "items": [
+     "Les besoins ne se satisfont pas dans l'ordre : enquête dans 123 pays (Tay et Diener, 2011)"
+    ],
+    "motif": "pyramide-barree",
+    "motif_labels": [
      "Accomplissement",
      "Estime",
      "Appartenance",
      "Sécurité",
-     "Besoins physiologiques",
-     "—",
-     "Les besoins ne se satisfont pas dans l'ordre : enquête dans 123 pays (Tay et Diener, 2011)"
+     "Physiologiques"
     ]
    },
    {
-    "title": "Cercle : cinq composantes simultanées",
+    "title": "Le cercle : cinq composantes simultanées",
     "tone": "s",
     "items": [
-     "Santé",
-     "Nutrition",
-     "Sécurité et sûreté",
-     "Soins bienveillants",
-     "Possibilités d'apprentissage précoce",
-     "—",
+     "1 santé · 2 nutrition · 3 sécurité et sûreté · 4 soins bienveillants · 5 possibilités d'apprentissage précoce",
      "Au centre : autonomie, compétence, relation (Ryan et Deci, 2000)",
      "Cadre des soins attentifs (OMS, UNICEF, Banque mondiale, 2018)"
-    ]
+    ],
+    "motif": "cercle-egal",
+    "motif_labels": [
+     "Santé",
+     "Nutrition",
+     "Sécurité",
+     "Soins",
+     "Apprendre"
+    ],
+    "motif_centre": "autonomie · compétence · relation"
    }
   ],
   "note": "Simultanés, pas empilés : on n'attend pas qu'un besoin soit comblé pour s'occuper des autres."
@@ -330,11 +336,18 @@
    "Repli et silence"
   ],
   "below": [
-   "Émotions : peur, honte, tristesse, jalousie",
-   "Besoins : dormir, manger, être en sécurité",
-   "être reconnu, décider un peu, réussir quelque chose",
-   "Compétences pas encore là : attendre son tour, perdre,",
-   "entrer dans un groupe, demander de l'aide, se calmer"
+   {
+    "label": "Des émotions",
+    "detail": "peur, honte, tristesse, jalousie"
+   },
+   {
+    "label": "Des besoins",
+    "detail": "dormir, manger, être en sécurité, être reconnu, décider un peu, réussir quelque chose"
+   },
+   {
+    "label": "Des compétences pas encore là",
+    "detail": "attendre son tour, perdre, entrer dans un groupe, demander de l'aide, se calmer"
+   }
   ],
   "links": [],
   "note": "Trois questions : de quoi a-t-il besoin maintenant ? qu'est-ce qu'il ressent ? qu'est-ce qu'il ne sait pas encore faire ? Schéma pédagogique, sans valeur diagnostique (Compas et al., 2017 ; Rothbart, 2007)."
