@@ -1138,7 +1138,7 @@
  "fenetre-de-tolerance": {
   "type": "bands",
   "title": "La fenêtre de tolérance",
-  "desc": "Trois zones empilées : en haut, hyperactivation (agitation, colère, fuite) ; au milieu, la fenêtre de tolérance, où l'on peut réfléchir, parler, apprendre ; en bas, hypoactivation (figement, repli, absence). Une ligne oscille entre les zones avec trois repères : une moquerie fait sortir vers le haut, le retour d'un adulte fiable ramène dans la fenêtre, une nouvelle menace fait basculer vers le bas. La fenêtre s'élargit avec un adulte fiable.",
+  "desc": "Trois zones empilées : en haut, hyperactivation (agitation, colère, fuite) ; au milieu, la fenêtre de tolérance, où l'on peut réfléchir, parler, apprendre ; en bas, hypoactivation (figement, repli, absence). Une ligne oscille entre les zones avec trois repères : une moquerie fait sortir vers le haut, le retour d'un adulte fiable ramène dans la fenêtre, une nouvelle menace fait basculer vers le bas.",
   "band_height": 66,
   "bands": [
    {
@@ -1154,7 +1154,7 @@
    {
     "title": "Fenêtre de tolérance : on peut réfléchir, parler, apprendre",
     "lines": [
-     "la fenêtre s'élargit avec un adulte fiable"
+     "on y ramène l'enfant par la présence, le calme et la prévisibilité"
     ],
     "tone": "s",
     "weight": 1.5
@@ -1225,33 +1225,7 @@
     "label": "nouvelle menace"
    }
   ],
-  "note": "Repère clinique d'usage courant ; la fenêtre s'élargit avec un adulte fiable."
- },
- "balance-risques-protections": {
-  "type": "balance",
-  "title": "Adversités et protections : une balance, pas un destin",
-  "desc": "Balance à fléau. Plateau gauche, adversités : harcèlement répété, violence à la maison, isolement, pauvreté. Plateau droit, protections : au moins un adulte fiable, des amis, une école qui protège, des compétences, un sens. Le pivot : au moins un adulte fiable. La résilience se construit ; elle n'est ni un don ni une obligation.",
-  "pivot": "au moins un adulte fiable",
-  "tilt": -6,
-  "left": {
-   "title": "Adversités",
-   "items": [
-    "harcèlement répété",
-    "violence à la maison",
-    "isolement",
-    "pauvreté"
-   ]
-  },
-  "right": {
-   "title": "Protections",
-   "items": [
-    "au moins un adulte fiable",
-    "des amis",
-    "une école qui protège",
-    "des compétences, un sens"
-   ]
-  },
-  "note": "La résilience se construit ; elle n'est ni un don ni une obligation de s'en sortir (Masten et Barnes, 2018)."
+  "note": "Repère clinique d'usage courant, et non un résultat de recherche."
  },
  "cercle-des-roles": {
   "type": "columns",
@@ -1294,104 +1268,6 @@
   ],
   "note": "Au centre de la scène : la victime et l'auteur. Faire basculer les témoins vers la défense est le levier central (Salmivalli et al., 1996 ; Kärnä et al., 2011)."
  },
- "recouvrement-quatre-mots": {
-  "type": "grid",
-  "title": "Quatre mots, quatre réalités",
-  "desc": "Quatre notions comparées : harcèlement (entre pairs, répété, avec déséquilibre de pouvoir) ; herisetra an-tsekoly, violence à l'école (tout acte violent, y compris des adultes, sans distinguer répétition ni pouvoir) ; châtiment corporel (d'un adulte vers un enfant, interdit à l'école, licite au domicile) ; discipline (cadre sans violence : règles, conséquences logiques, dialogue).",
-  "cols": [
-   "Qui ?",
-   "Répété ?",
-   "Déséquilibre ?",
-   "Cadre"
-  ],
-  "rows": [
-   {
-    "label": "Harcèlement",
-    "cells": [
-     {
-      "text": "entre pairs (élèves)",
-      "tone": "b"
-     },
-     {
-      "text": "oui",
-      "tone": "b"
-     },
-     {
-      "text": "oui",
-      "tone": "b"
-     },
-     {
-      "text": "protection de l'enfant",
-      "tone": "b"
-     }
-    ]
-   },
-   {
-    "label": "Herisetra an-tsekoly",
-    "cells": [
-     {
-      "text": "tout le monde, adultes compris",
-      "tone": "a"
-     },
-     {
-      "text": "non précisé",
-      "tone": "a"
-     },
-     {
-      "text": "non précisé",
-      "tone": "a"
-     },
-     {
-      "text": "toute violence à l'école",
-      "tone": "a"
-     }
-    ]
-   },
-   {
-    "label": "Châtiment corporel",
-    "cells": [
-     {
-      "text": "adulte → enfant",
-      "tone": "p"
-     },
-     {
-      "text": "variable",
-      "tone": "p"
-     },
-     {
-      "text": "oui, par nature",
-      "tone": "p"
-     },
-     {
-      "text": "interdit à l'école, licite au domicile",
-      "tone": "p"
-     }
-    ]
-   },
-   {
-    "label": "Discipline",
-    "cells": [
-     {
-      "text": "adulte → enfant",
-      "tone": "s"
-     },
-     {
-      "text": "—",
-      "tone": "s"
-     },
-     {
-      "text": "—",
-      "tone": "s"
-     },
-     {
-      "text": "règles, conséquences logiques, dialogue",
-      "tone": "s"
-     }
-    ]
-   }
-  ],
-  "note": "Le mot malgache ne contient ni la répétition ni le déséquilibre de pouvoir : il englobe harcèlement et châtiment sans les distinguer."
- },
  "modele-ecologique": {
   "type": "rings",
   "title": "Quatre couches : l'enfant, la famille, l'école, la société",
@@ -1427,59 +1303,6 @@
    }
   ],
   "note": "Niveau de preuve : données solides pour l'enfant et la famille ; hypothèses pour l'école et la société à Madagascar."
- },
- "ligne-24h-cyber": {
-  "type": "timeline",
-  "title": "Le harcèlement en ligne ne s'arrête pas à la sortie de l'école",
-  "desc": "Ligne de 24 heures : le harcèlement en face à face peut se produire à l'école, de 7 h à 17 h ; en ligne, il couvre toute la journée, avec par exemple un message reçu à 22 h et une capture partagée à 6 h, sans que l'école ne voie rien. Anonymat, permanence, audience sans limite.",
-  "axis": {
-   "start": 0,
-   "end": 24,
-   "ticks": [
-    0,
-    6,
-    12,
-    18,
-    24
-   ],
-   "format": "{} h"
-  },
-  "lane_height": 56,
-  "lanes": [
-   {
-    "title": "École : face à face possible de 7 h à 17 h",
-    "tone": "p",
-    "events": [
-     {
-      "at": 7,
-      "label": "entrée"
-     },
-     {
-      "at": 17,
-      "label": "sortie"
-     }
-    ]
-   },
-   {
-    "title": "En ligne : 24 h sur 24",
-    "tone": "b",
-    "events": [
-     {
-      "at": 22,
-      "label": "message reçu à 22 h"
-     },
-     {
-      "at": 6,
-      "label": "capture partagée à 6 h"
-     },
-     {
-      "at": 13,
-      "label": "l'école ne voit rien"
-     }
-    ]
-   }
-  ],
-  "note": "Anonymat, permanence des contenus, audience sans limite : trois choses que le harcèlement en ligne ajoute (Modecki et al., 2014)."
  },
  "triangle-3r": {
   "type": "triangle",
@@ -1535,93 +1358,6 @@
    }
   ],
   "note": "Cinq gestes qui ouvrent la parole ; aucun ne demande de compétence technique."
- },
- "fourche-six-chemins": {
-  "type": "fork",
-  "title": "J'ai remarqué quelque chose : six chemins, une règle commune",
-  "desc": "À partir de « j'ai remarqué quelque chose », six chemins : mon enfant est harcelé ; mon enfant harcèle ; mon enfant est témoin ; j'encadre un groupe où ça se passe ; ce n'est pas mon enfant (voisin, neveu, enfant confié) ; l'auteur est un adulte de l'école. Règle commune : protéger d'abord, qualifier ensuite.",
-  "common": {
-   "title": "Règle commune : protéger d'abord, qualifier ensuite",
-   "lines": [],
-   "tone": "s"
-  },
-  "root": {
-   "title": "J'ai remarqué quelque chose",
-   "lines": [],
-   "tone": "p"
-  },
-  "branches": [
-   {
-    "title": "1. Mon enfant est harcelé",
-    "lines": []
-   },
-   {
-    "title": "2. Mon enfant harcèle",
-    "lines": []
-   },
-   {
-    "title": "3. Mon enfant est témoin",
-    "lines": []
-   },
-   {
-    "title": "4. J'encadre un groupe où ça se passe",
-    "lines": []
-   },
-   {
-    "title": "5. Ce n'est pas mon enfant",
-    "lines": [
-     "voisin, neveu, enfant confié"
-    ]
-   },
-   {
-    "title": "6. L'auteur est un adulte de l'école",
-    "lines": []
-   }
-  ],
-  "note": "Chaque chemin est détaillé dans le module ; la règle commune vaut pour tous."
- },
- "cercles-qui-fait-quoi": {
-  "type": "rings",
-  "title": "Qui fait quoi autour d'un enfant harcelé",
-  "desc": "Cinq cercles concentriques : la famille et les proches (protègent, écoutent, notent) ; l'école (directeur, enseignants, FRAM : cadre, sanctions éducatives, plan d'action) ; la protection de l'enfance (Réseau de Protection de l'Enfant, Ligne Verte 147, Trano Aro Zo : signalement, orientation) ; la santé (centre de santé, urgences, psychiatrie : soins) ; la justice et la police (Police des mœurs et protection des mineurs, gendarmerie, procureur : violences graves).",
-  "rings": [
-   {
-    "title": "Famille, proches",
-    "tone": "s",
-    "items": [
-     "protègent, écoutent, notent"
-    ]
-   },
-   {
-    "title": "École",
-    "tone": "p",
-    "items": [
-     "directeur, enseignants, FRAM : cadre, sanctions éducatives, plan d'action"
-    ]
-   },
-   {
-    "title": "Protection de l'enfance",
-    "tone": "a",
-    "items": [
-     "RPE, Ligne Verte 147, Trano Aro Zo : signalement, orientation"
-    ]
-   },
-   {
-    "title": "Santé",
-    "tone": "",
-    "items": [
-     "centre de santé, urgences, psychiatrie : soins"
-    ]
-   },
-   {
-    "title": "Justice, police",
-    "tone": "b",
-    "items": [
-     "Police des mœurs et protection des mineurs, gendarmerie, procureur : violences graves"
-    ]
-   }
-  ],
-  "note": "Chaque cercle a sa fonction ; aucun ne remplace les autres."
  },
  "arbre-decisionnel": {
   "type": "flow",
@@ -1700,51 +1436,6 @@
    }
   ],
   "note": "Le 147 signale et oriente ; en cas d'idées suicidaires, la conduite est d'accompagner l'enfant vers un service d'urgence ou de psychiatrie."
- },
- "chaine-adversite-stress": {
-  "type": "chain",
-  "title": "Des adversités répétées à la santé : une chaîne que les protections peuvent interrompre",
-  "desc": "Chaîne de quatre maillons : adversités répétées (harcèlement, violence à la maison, négligence) ; stress qui déborde (corps en alerte, sommeil, concentration) ; ce qui se voit (repli, colère, maux de ventre, chute scolaire) ; à long terme, si rien ne change (anxiété, dépression, santé). Les protections (adulte fiable, école qui protège, soins) atténuent, parfois inversent. Associations observées dans les études ; aucun destin individuel.",
-  "steps": [
-   {
-    "title": "Adversités répétées",
-    "tone": "b",
-    "lines": [
-     "harcèlement, violence à la maison, négligence"
-    ]
-   },
-   {
-    "title": "Stress qui déborde",
-    "tone": "a",
-    "lines": [
-     "corps en alerte, sommeil, concentration"
-    ]
-   },
-   {
-    "title": "Ce qui se voit",
-    "tone": "",
-    "lines": [
-     "repli, colère, maux de ventre, chute scolaire"
-    ]
-   },
-   {
-    "title": "À long terme, si rien ne change",
-    "tone": "b",
-    "lines": [
-     "anxiété, dépression, santé"
-    ]
-   }
-  ],
-  "feedback": {
-   "title": "Protections",
-   "tone": "s",
-   "lines": [
-    "adulte fiable, école qui protège, soins"
-   ],
-   "label": "atténuent, parfois inversent",
-   "to": 2
-  },
-  "note": "Associations observées dans les études (Hughes et al., 2017 ; Arseneault, 2018) ; aucun destin individuel."
  },
  "cinq-questions-chiffre": {
   "type": "flow",

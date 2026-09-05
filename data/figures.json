@@ -100,26 +100,12 @@
   ],
   "src": "OMS, 2025"
  },
- "points-100-personnel-jeu": {
-  "type": "dots100",
-  "title": "Sur 100 membres du personnel scolaire, 49 perçoivent la violence physique entre élèves comme un jeu",
-  "desc": "Pictogramme de 100 points dont 49 colorés. Source : IBCR et UNICEF, 2018, étude nationale sur les violences envers les enfants à Madagascar.",
-  "value": 49,
-  "src": "IBCR et UNICEF, 2018"
- },
  "points-100-harceles-madagascar": {
   "type": "dots100",
   "title": "Sur 100 élèves malgaches de 13 à 17 ans, 27 disent avoir été harcelés à l'école dans l'année",
   "desc": "Pictogramme de 100 points dont 27 colorés. Source : OMS, 2025 (27,2 %).",
   "value": 27,
   "src": "OMS, 2025"
- },
- "points-100-discipline-violente": {
-  "type": "dots100",
-  "title": "Sur 100 enfants de 1 à 14 ans, 85 ont subi une discipline violente dans le mois",
-  "desc": "Pictogramme de 100 points dont 85 colorés. Source : INSTAT et UNICEF, 2026, résultats préliminaires de l'enquête MICS-7 2025.",
-  "value": 85,
-  "src": "INSTAT et UNICEF, 2026"
  },
  "effet-programmes": {
   "type": "hbar",
