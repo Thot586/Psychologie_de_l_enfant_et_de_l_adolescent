@@ -8,6 +8,13 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* stockage indisponible */ } },
   del(k) { try { localStorage.removeItem(k); } catch { /* ignore */ } },
 };
+/* Préférences d'affichage : lues telles quelles par le script anti-scintillement du <head>,
+   donc écrites en texte brut, sans guillemets JSON. */
+const pref = {
+  get(k) { try { return (localStorage.getItem(k) || '').replace(/^"|"$/g, ''); } catch { return ''; } },
+  set(k, v) { try { localStorage.setItem(k, v); } catch { /* stockage indisponible */ } },
+  del(k) { try { localStorage.removeItem(k); } catch { /* ignore */ } },
+};
 const sstore = {
   get(k, d = null) { try { const v = sessionStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v) { try { sessionStorage.setItem(k, JSON.stringify(v)); } catch { /* ignore */ } },
@@ -58,17 +65,41 @@ function pumpBanner() {
 }
 window.peaBanner = showBanner;
 
-/* ---------- thème ---------- */
+/* ---------- thème ----------
+   Le choix vaut pour tout le site et pour tous les onglets ouverts : il est relu par le script du
+   <head> à chaque page, et l'événement « storage » le propage aux onglets déjà ouverts. */
 const themeBtn = $('#themeBtn');
-const currentTheme = () => root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+const systemDark = matchMedia('(prefers-color-scheme: dark)');
+const currentTheme = () => root.dataset.theme || (systemDark.matches ? 'dark' : 'light');
+function applyTheme(t) {
+  if (t === 'light' || t === 'dark') { root.dataset.theme = t; root.style.colorScheme = t; } else { delete root.dataset.theme; root.style.colorScheme = ''; }
+  const actif = currentTheme();
+  // la barre du navigateur suit le thème réel, pas seulement celui du système
+  $$('meta[name="theme-color"]').forEach((m) => { if (m.media) m.remove(); });
+  let meta = $('meta[name="theme-color"]:not([media])');
+  if (!meta) { meta = document.createElement('meta'); meta.name = 'theme-color'; document.head.appendChild(meta); }
+  meta.content = getComputedStyle(root).getPropertyValue('--paper').trim() || (actif === 'dark' ? '#14161C' : '#F7F3EC');
+  if (themeBtn) themeBtn.setAttribute('aria-label', actif === 'dark' ? 'Passer en mode clair' : 'Passer en mode sombre');
+}
+applyTheme(root.dataset.theme);
 if (themeBtn) {
   themeBtn.addEventListener('click', () => {
     const next = currentTheme() === 'dark' ? 'light' : 'dark';
-    root.dataset.theme = next;
-    store.set('theme', next);
-    themeBtn.setAttribute('aria-label', next === 'dark' ? 'Passer en mode clair' : 'Passer en mode sombre');
+    applyTheme(next);
+    pref.set('theme', next);
   });
 }
+// sans choix explicite, on suit le système ; la couleur de barre doit suivre aussi
+systemDark.addEventListener('change', () => { if (!root.dataset.theme) applyTheme(null); });
+// un autre onglet a changé un réglage : on s'aligne au lieu de rester en désaccord
+addEventListener('storage', (e) => {
+  if (e.storageArea !== localStorage) return;
+  const v = (e.newValue || '').replace(/^"|"$/g, '');
+  if (e.key === 'theme') applyTheme(v);
+  else if (e.key === 'fs') { if (v) root.dataset.fs = v; else delete root.dataset.fs; document.dispatchEvent(new CustomEvent('pea:reflow')); }
+  else if (e.key === 'reading') { if (v === 'essentiel') root.dataset.reading = 'essentiel'; else delete root.dataset.reading; document.dispatchEvent(new CustomEvent('pea:reflow')); }
+  else if (e.key === null) { applyTheme(null); delete root.dataset.fs; delete root.dataset.reading; }
+});
 
 /* ---------- réglages ---------- */
 const settings = $('#settings');
@@ -88,11 +119,11 @@ if (settings && settingsBtn) {
   };
   paint();
   $$('[data-fs]', settings).forEach((b) => b.addEventListener('click', () => {
-    if (b.dataset.fs) { root.dataset.fs = b.dataset.fs; store.set('fs', b.dataset.fs); } else { delete root.dataset.fs; store.del('fs'); }
+    if (b.dataset.fs) { root.dataset.fs = b.dataset.fs; pref.set('fs', b.dataset.fs); } else { delete root.dataset.fs; pref.del('fs'); }
     paint();
   }));
   $$('[data-reading]', settings).forEach((b) => b.addEventListener('click', () => {
-    if (b.dataset.reading === 'essentiel') { root.dataset.reading = 'essentiel'; store.set('reading', 'essentiel'); } else { delete root.dataset.reading; store.del('reading'); }
+    if (b.dataset.reading === 'essentiel') { root.dataset.reading = 'essentiel'; pref.set('reading', 'essentiel'); } else { delete root.dataset.reading; pref.del('reading'); }
     paint();
     showBanner({ id: 'reading', text: b.dataset.reading === 'essentiel' ? 'Lecture Essentiel : les encadrés Approfondir sont masqués sur tout le site.' : 'Lecture Complète : encadrés Approfondir affichés.', ttl: 4000 });
   }));
@@ -101,7 +132,7 @@ async function clearAllData() {
   try { localStorage.clear(); } catch { /* ignore */ }
   try { sessionStorage.clear(); } catch { /* ignore */ }
   if ('caches' in window) { try { const keys = await caches.keys(); await Promise.all(keys.map((k) => caches.delete(k))); } catch { /* ignore */ } }
-  delete root.dataset.theme; delete root.dataset.fs; delete root.dataset.reading;
+  applyTheme(null); delete root.dataset.fs; delete root.dataset.reading;
   paintProgress();
   showBanner({ text: 'Vos données sur cet appareil ont été effacées (progression, réglages, copie hors ligne).', ttl: 6000 });
 }
@@ -312,6 +343,8 @@ if ($('a.term') || $('#gloss-data')) imp('glossary');
 if ($('a.cite')) imp('cite');
 if ($('.qz')) imp('quiz');
 if ($('.tw table thead')) imp('tables');
+if ($('figure.fig .fig-box svg')) imp('figview');
+if ($('#ev-data') && $('.ev')) imp('evidence');
 if ($('.wiz[data-start]')) imp('wizard');
 if ($('[data-sort], [data-sim], [data-compare], [data-radar], [data-engagement], .agebar')) imp('interactives');
 const q = $('#q');

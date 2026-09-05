@@ -45,9 +45,13 @@
   --band: #F2EDE4;     /* bande de pied de page, distincte du corps */
   --ink: #1E2433;
   --ink-2: #4B5364;
-  --ink-3: #5C6474;
+  --ink-3: #545C6C;
   --line: #E3DDD2;
   --line-2: #EEE9E0;
+  --line-ui: #8C8579;   /* contour d'un élément que l'on manipule : 3:1 minimum sur son fond */
+  --rule: #C0B7A6;      /* filet d'un tableau : doit rester visible sans peser */
+  --head-band: #E9EDF7; /* bande d'en-tête de tableau, distincte de la cellule */
+  --zebra: #F6F2EA;     /* une ligne sur deux */
 
   --primary: #3B4B8C;
   --primary-2: #2C3A70;
@@ -60,11 +64,14 @@
   --accent-soft: #FBEFD9;
 
   --sage: #3F7D5C;
+  --sage-ink: #2F6B4B;
   --sage-soft: #E2F0E8;
   --brick: #B0432F;
+  --brick-ink: #9C3A29;
   --brick-soft: #F8E4DF;
 
   --a1: #3F7D5C; --a2: #2E7F94; --a3: #5B5FB8; --a4: #8E4E8E;
+  --a1-ink: #356B4E; --a2-ink: #256A7D; --a3-ink: #4B4FA6; --a4-ink: #7C427C;
   --a1-soft: #E2F0E8; --a2-soft: #E0F0F4; --a3-soft: #E8E8F7; --a4-soft: #F2E6F2;
 
   --ev-est: #2F6E4A; --ev-est-bg: #E1F1E6;
@@ -75,14 +82,14 @@
   --ev-gap: #55606A; --ev-gap-bg: #E9ECEE;
 
   --mark: #FFE9A8;
-  --focus: #D08A1C;
-  --focus-ring: rgba(208, 138, 28, 0.35);
+  --focus: #B8760F;
+  --focus-ring: rgba(184, 118, 15, 0.38);
   --scrim: rgba(30, 36, 51, 0.42);
 
   /* données (figures) : dérivées des tokens, contraste AA sur --surface */
   /* palette de données validée (dataviz) : ordre fixe, 4 séries au plus par graphique */
   --d1: #3B4B8C; --d2: #B8760F; --d3: #A0489E; --d4: #1E8449; --d5: #B0432F; --d6: #1F7A8C;
-  --d-muted: #C9C3B8; --d-grid: #E3DDD2; --d-ref: #6E7686;
+  --d-muted: #9F9887; --d-grid: #C0B7A6; --d-ref: #6E7686;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -94,9 +101,13 @@
     --band: #1C1F27;
     --ink: #ECE6DA;
     --ink-2: #BDB7AB;
-    --ink-3: #928D84;
+    --ink-3: #ADA79D;
     --line: #2C303B;
     --line-2: #252833;
+    --line-ui: #6A7180;
+    --rule: #4A5162;
+    --head-band: #262B3D;
+    --zebra: #20242E;
 
     --primary: #A5AEEA;
     --primary-2: #C3C9F3;
@@ -109,12 +120,15 @@
     --accent-soft: #3A2C12;
 
     --sage: #86C2A0;
+    --sage-ink: #A6D6BB;
     --sage-soft: #1E3328;
     --brick: #E8887A;
+    --brick-ink: #F0A79C;
     --brick-soft: #3B1F1A;
 
     --a1: #86C2A0; --a2: #79C1D3; --a3: #A9ACEC; --a4: #CD97CD;
-    --a1-soft: #1E3328; --a2-soft: #1A3138; --a3-soft: #262A48; --a4-soft: #3A2438;
+    --a1-ink: #86C2A0; --a2-ink: #79C1D3; --a3-ink: #A9ACEC; --a4-ink: #CD97CD;
+  --a1-soft: #1E3328; --a2-soft: #1A3138; --a3-soft: #262A48; --a4-soft: #3A2438;
 
     --ev-est: #9BD3B2; --ev-est-bg: #1F3A2B;
     --ev-cons: #9FC0EC; --ev-cons-bg: #1F2F49;
@@ -132,7 +146,7 @@
     --shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.6);
 
     --d1: #6F7FD3; --d2: #C28829; --d3: #B26DB2; --d4: #3F9C67; --d5: #D26A4E; --d6: #3FA7BF;
-    --d-muted: #4A4F5A; --d-grid: #2C303B; --d-ref: #928D84;
+    --d-muted: #676E7C; --d-grid: #4A5162; --d-ref: #BDB7AB;
   }
 }
 
@@ -144,9 +158,13 @@
   --band: #1C1F27;
   --ink: #ECE6DA;
   --ink-2: #BDB7AB;
-  --ink-3: #928D84;
+  --ink-3: #ADA79D;
   --line: #2C303B;
   --line-2: #252833;
+  --line-ui: #6A7180;
+  --rule: #4A5162;
+  --head-band: #262B3D;
+  --zebra: #20242E;
 
   --primary: #A5AEEA;
   --primary-2: #C3C9F3;
@@ -159,11 +177,14 @@
   --accent-soft: #3A2C12;
 
   --sage: #86C2A0;
+  --sage-ink: #A6D6BB;
   --sage-soft: #1E3328;
   --brick: #E8887A;
+  --brick-ink: #F0A79C;
   --brick-soft: #3B1F1A;
 
   --a1: #86C2A0; --a2: #79C1D3; --a3: #A9ACEC; --a4: #CD97CD;
+  --a1-ink: #86C2A0; --a2-ink: #79C1D3; --a3-ink: #A9ACEC; --a4-ink: #CD97CD;
   --a1-soft: #1E3328; --a2-soft: #1A3138; --a3-soft: #262A48; --a4-soft: #3A2438;
 
   --ev-est: #9BD3B2; --ev-est-bg: #1F3A2B;
@@ -182,5 +203,5 @@
   --shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.6);
 
   --d1: #6F7FD3; --d2: #C28829; --d3: #B26DB2; --d4: #3F9C67; --d5: #D26A4E; --d6: #3FA7BF;
-  --d-muted: #4A4F5A; --d-grid: #2C303B; --d-ref: #928D84;
+  --d-muted: #676E7C; --d-grid: #4A5162; --d-ref: #BDB7AB;
 }

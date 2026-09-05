@@ -160,13 +160,15 @@ def r_timeline(name, s):
     lanes = s.get('lanes', [])
     parts = []
     y = 26
-    if s.get('zones'):
-        for z in s['zones']:
-            parts.append(f'<rect class="{FILL.get(z.get("tone"), "f1")} area" x="{x_of(z["from"]):.1f}" y="{y - 12}" width="{x_of(z["to"]) - x_of(z["from"]):.1f}" height="16" rx="3"/>')
-            parts.append(f'<text class="t-sm" x="{(x_of(z["from"]) + x_of(z["to"])) / 2:.1f}" y="{y}" text-anchor="middle">{esc(z["label"])}</text>')
-        y += 22
+    zones = s.get('zones') or []
+
+    # Une seule chose est dite par la couleur : la tranche d'âge. Les tranches deviennent donc des
+    # bandes verticales qui traversent toutes les pistes, dans les teintes d'âge du reste du site ;
+    # les pistes, elles, ne sont plus colorées — leur intitulé suffit à les distinguer.
     base_h = s.get('lane_height', 54) + 14
-    ly = y
+    ly = y + (22 if zones else 0)
+    lane_top = ly
+    tracé = []
     for ln in lanes:
         # 1) placer les étiquettes : autant de rangées qu'il en faut pour qu'aucune ne se chevauche
         placed, rows = [], []
@@ -182,14 +184,25 @@ def r_timeline(name, s):
             placed.append((e, ex, anchor, row))
         # 2) la piste est aussi haute qu'il le faut pour ces rangées
         lane_h = max(base_h, 30 + max(0, len(rows) - 1) * 13 + 26)
-        parts.append(f'<rect class="{TONE.get(ln.get("tone"), "box")}" x="{x0}" y="{ly}" width="{x1 - x0}" height="{lane_h - 6}" rx="6"/>')
-        parts.append(f'<text class="t-b" x="{x0 + 8}" y="{ly + 16}">{esc(ln["title"])}</text>')
-        for e, ex, anchor, row in placed:
-            ey = ly + 30 + row * 13
-            parts.append(f'<circle class="{FILL.get(ln.get("tone") or e.get("tone"), "f1")}" cx="{ex:.1f}" cy="{ly + lane_h - 12}" r="4"/>')
-            parts.append(f'<line class="line-soft" x1="{ex:.1f}" y1="{ey + 3}" x2="{ex:.1f}" y2="{ly + lane_h - 16}"/>')
-            parts.append(f'<text class="t-sm" x="{ex + (6 if anchor == "start" else -6):.1f}" y="{ey:.1f}" text-anchor="{anchor}">{esc(e["label"])}</text>')
+        tracé.append((ln, placed, ly, lane_h))
         ly += lane_h
+
+    if zones:
+        hauteur = ly - (y - 14)
+        for i, z in enumerate(zones):
+            zx, zw = x_of(z['from']), x_of(z['to']) - x_of(z['from'])
+            parts.append(f'<rect class="fa{min(i + 1, 4)}s band" x="{zx:.1f}" y="{y - 14}" width="{zw:.1f}" height="{hauteur:.1f}" rx="4"/>')
+            parts.append(f'<text class="t-sm t-b ta{min(i + 1, 4)}" x="{zx + zw / 2:.1f}" y="{y}" text-anchor="middle">{esc(z["label"])}</text>')
+
+    for ln, placed, top, lane_h in tracé:
+        if top > lane_top:
+            parts.append(f'<line class="line-soft" x1="{x0}" y1="{top - 3}" x2="{x1}" y2="{top - 3}"/>')
+        parts.append(f'<text class="t-b" x="{x0 + 8}" y="{top + 16}">{esc(ln["title"])}</text>')
+        for e, ex, anchor, row in placed:
+            ey = top + 30 + row * 13
+            parts.append(f'<circle class="dot-ink" cx="{ex:.1f}" cy="{top + lane_h - 12}" r="4"/>')
+            parts.append(f'<line class="line-soft" x1="{ex:.1f}" y1="{ey + 3}" x2="{ex:.1f}" y2="{top + lane_h - 16}"/>')
+            parts.append(f'<text class="t-sm" x="{ex + (6 if anchor == "start" else -6):.1f}" y="{ey:.1f}" text-anchor="{anchor}">{esc(e["label"])}</text>')
     y = ly + 4
     parts.append(f'<line class="line" x1="{x0}" y1="{y}" x2="{x1}" y2="{y}"/>')
     last_tick = -1e9

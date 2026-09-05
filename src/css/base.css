@@ -66,7 +66,7 @@ a[target="_blank"]::after { content: ""; display: inline-block; width: 0.62em; h
 a.plain::after, .reflist a::after, .brand::after { display: none; }
 
 :focus { outline: none; }
-:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; box-shadow: 0 0 0 5px var(--focus-ring); }
 ::selection { background: var(--accent-soft); color: var(--ink); }
 mark { background: var(--mark); color: inherit; padding: 0 0.1em; border-radius: 2px; }
 
@@ -84,11 +84,14 @@ input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webki
 /* tableaux */
 .tw { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--r-md); margin: var(--sp-4) 0 var(--sp-5); background: var(--surface); -webkit-overflow-scrolling: touch; }
 table { border-collapse: collapse; width: 100%; font-size: var(--fs-sm); min-width: 480px; }
-caption { text-align: left; padding: var(--sp-2) var(--sp-3); font-size: var(--fs-xs); color: var(--ink-3); }
-th, td { padding: 9px 11px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line-2); }
-th { background: var(--primary-tint); color: var(--primary-2); font-weight: 700; font-size: var(--fs-xs); letter-spacing: 0.01em; }
+caption { text-align: left; padding: var(--sp-2) var(--sp-3); font-size: var(--fs-xs); color: var(--ink-2); }
+th, td { padding: 9px 11px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { background: var(--head-band); color: var(--primary-2); font-weight: 700; font-size: var(--fs-xs); letter-spacing: 0.01em; }
+thead th { border-bottom: 2px solid var(--rule); }
+/* une ligne sur deux : c'est ce qui fait lire un tableau comme un tableau, surtout en sombre */
+tbody tr:nth-child(even) td { background: var(--zebra); }
 tbody tr:last-child td { border-bottom: 0; }
-tbody tr:hover td { background: var(--surface-2); }
+tbody tr:hover td { background: var(--primary-tint); }
 th:first-child, td:first-child { font-weight: 600; }
 .tw--narrow table { min-width: 0; }
 

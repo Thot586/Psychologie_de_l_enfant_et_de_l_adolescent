@@ -19,6 +19,13 @@ import json
 import pathlib
 import posixpath
 import re
+import sys as _sys
+
+for _flux in (_sys.stdout, _sys.stderr):   # la console Windows n'est pas en UTF-8 par défaut
+    try:
+        _flux.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:  # noqa: BLE001
+        pass
 import sys
 import unicodedata
 from collections import OrderedDict, defaultdict
@@ -174,6 +181,13 @@ def build_page_list():
 FIG_ALIASES = load_json(SRC / 'figures' / 'aliases.json', {})
 # Légende visible : une phrase. La description complète reste dans le <desc> du SVG, pour les lecteurs d'écran.
 FIG_LEGENDES = load_json(DATA / 'legendes.json', {})
+# Les six niveaux de preuve : une seule définition, rendue dans la légende et rappelée au clic sur une pastille.
+NIVEAUX = load_json(DATA / 'niveaux-preuve.json', {})
+
+
+def render_evidence_legend():
+    lignes = ''.join(f'<div><span class="ev {c}">{esc(v["label"])}</span>{esc(v["def"])}</div>' for c, v in NIVEAUX.items())
+    return f'<div class="legend" aria-label="Niveaux de preuve">{lignes}</div>'
 
 
 def load_figure(name):
@@ -202,6 +216,31 @@ def load_figure(name):
 
 
 def expand_figures(body, page):
+    """Chaque figure porte un numéro, un titre et une note, comme dans un mémoire.
+
+    Le numéro court par page : on lit un module comme un document. L'appel « (Figure 3) »
+    posé dans le texte par <a class="figref" data-fig="nom"> renvoie à la figure ; le numéro
+    est résolu ici, après le comptage, pour qu'insérer une figure renumérote tout le reste.
+    """
+    numeros, ordre = {}, []
+
+    def prochain(name):
+        cle = FIG_ALIASES.get(name, name)
+        if cle not in numeros:
+            numeros[cle] = len(ordre) + 1
+            ordre.append(cle)
+        return numeros[cle]
+
+    def bloc(name, classes, n, svg, title, visible):
+        cap = (f'<figcaption class="fig-cap"><span class="fig-n">Figure&nbsp;{n}</span>'
+               f'<span class="fig-t">{esc(title)}</span></figcaption>') if title else ''
+        note = f'<p class="fig-note"><span class="fig-note-l">Note.</span> {esc(visible)}</p>' if visible else ''
+        agrandir = ('<button type="button" class="fig-zoom" aria-label="Agrandir la figure ' + esc(title or str(n))
+                    + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 15v5h-5M4 15v5h5M20 9V4h-5"/></svg>'
+                    '<span>Agrandir</span></button>')
+        return (f'<figure class="fig {classes}" id="fig-{slugify(name)}" data-fig-n="{n}">{cap}'
+                f'<div class="fig-box">{svg}{agrandir}</div>{note}</figure>')
+
     def marker(m):
         name = m.group(1).strip()
         classes = (m.group(2) or '').strip()
@@ -210,8 +249,7 @@ def expand_figures(body, page):
             err(f'{page["out"]} : figure introuvable « {name} »')
             return f'<!-- figure manquante : {name} -->'
         visible = FIG_LEGENDES.get(name) or FIG_LEGENDES.get(FIG_ALIASES.get(name, name)) or desc
-        cap = f'<figcaption><b>{esc(title)}</b>{(" " + esc(visible)) if visible else ""}</figcaption>' if title else ''
-        return f'<figure class="fig {classes}" id="fig-{slugify(name)}"><div class="fig-box">{svg}</div>{cap}</figure>'
+        return bloc(name, classes, prochain(name), svg, title, visible)
     body = re.sub(r'<!--\s*figure:\s*([\w./-]+)(?:\s+([\w\s-]+))?\s*-->', marker, body)
 
     def explicit(m):
@@ -221,8 +259,19 @@ def expand_figures(body, page):
         if svg is None:
             err(f'{page["out"]} : figure introuvable « {name} »')
             return m.group(0)
-        return f'<figure{attrs}><div class="fig-box">{svg}</div>{inner}</figure>'
+        return f'<figure{attrs} data-fig-n="{prochain(name)}"><div class="fig-box">{svg}</div>{inner}</figure>'
     body = re.sub(r'<figure((?:\s[^>]*)?\sdata-figure="[^"]+"[^>]*)>(.*?)</figure>', explicit, body, flags=re.S)
+
+    def appel(m):
+        name = m.group(1).strip()
+        cle = FIG_ALIASES.get(name, name)
+        if cle not in numeros:
+            err(f'{page["out"]} : appel « {name} » sans figure correspondante dans la page')
+            return ''
+        av = m.group(2) or ''
+        libelle = f'Figure&nbsp;{numeros[cle]}'
+        return f'<a class="figref" href="#fig-{slugify(name)}">{"voir la " + libelle.lower() if av == "voir" else libelle}</a>'
+    body = re.sub(r'<a\s+class="figref"\s+data-fig="([\w./-]+)"(?:\s+data-forme="(\w+)")?\s*></a>', appel, body)
     return body
 
 
@@ -371,6 +420,7 @@ def render_compare(key, page):
 
 
 def expand_markers(body, page):
+    body = re.sub(r'<!--\s*include:\s*evidence-legend\s*-->', lambda m: render_evidence_legend(), body)
     body = re.sub(r'<!--\s*include:\s*([\w-]+)\s*-->', lambda m: read(SHELL / 'partials' / f'{m.group(1)}.html').strip(), body)
     body = expand_figures(body, page)
     body = re.sub(r'<!--\s*quiz\s*-->', lambda m: render_quiz(page), body)
@@ -749,6 +799,8 @@ def wrap(page, content, refs_used, gloss_used):
         'author': esc(S['author']), 'license_url': S['license']['url'], 'license_name': S['license']['name'], 'footer_links': footer_links(page),
         'repo_url': S['repo_url'], 'build_id': BUILD_ID, 'root': root,
         'bottom_prev': bottom_link(page, page.get('_prev'), 'prev'), 'bottom_next': bottom_link(page, page.get('_next'), 'next'),
+        'ev_json': (json.dumps(NIVEAUX, ensure_ascii=False) if 'class="ev ev-' in content else '{}').replace('</', '<\/'),
+        'methode_url': root + ((page['session'] or site['sessions'][0])['slug'] + '/methode-et-limites.html'),
         'refs_json': refs_json.replace('</', '<\\/'), 'gloss_json': gloss_json.replace('</', '<\\/'),
     })
     main = ['<main id="main" class="main">', render_crumb(page), f'<article class="page{" has-margin" if page["type"] in ("module", "page") else ""}{" page--wide" if page["type"] in ("glossaire", "references", "session-index", "hub") else ""}">', content, '</article>', render_pager(page), '</main>']

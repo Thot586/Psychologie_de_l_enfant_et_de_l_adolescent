@@ -4,30 +4,74 @@
    ========================================================================== */
 figure.fig { margin: var(--sp-5) 0 var(--sp-6); max-width: var(--measure); }
 figure.fig.wide { max-width: none; }
-figure.fig .fig-box { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 14px 16px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-figure.fig svg { width: 100%; height: auto; max-height: 520px; display: block; margin: 0 auto; color: var(--ink); font-family: var(--font-sans); }
-figure.fig svg.narrow { max-width: 460px; }
-figure.fig figcaption { font-size: var(--fs-sm); color: var(--ink-2); margin-top: 10px; line-height: 1.5; }
+figure.fig .fig-box { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 14px 16px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+/* Un plancher de largeur : sous cette taille le dessin défile plutôt que de rapetisser
+   son texte au point de ne plus se lire. Le plein écran prend le relais pour le détail. */
+figure.fig svg { width: 100%; min-width: 480px; height: auto; max-height: 520px; display: block; margin: 0 auto; color: var(--ink); font-family: var(--font-sans); }
+figure.fig svg.narrow { max-width: 460px; min-width: 0; }
+
+/* Titre au-dessus, note en dessous : la disposition des mémoires. */
+figure.fig .fig-cap { display: block; font-size: var(--fs-sm); line-height: 1.45; margin: 0 0 8px; color: var(--ink); }
+figure.fig .fig-n { font-weight: 700; font-family: var(--font-sans); letter-spacing: 0.01em; }
+figure.fig .fig-n::after { content: "."; }
+figure.fig .fig-t { font-family: var(--font-serif); font-style: italic; margin-left: 0.4em; }
+figure.fig .fig-note { font-size: var(--fs-xs); color: var(--ink-2); margin: 8px 0 0; line-height: 1.5; max-width: none; }
+figure.fig .fig-note-l { font-style: italic; color: var(--ink); }
+figure.fig figcaption { font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.5; }
 figure.fig figcaption b { color: var(--ink); }
-figure.fig figcaption .src { display: block; font-size: var(--fs-xs); color: var(--ink-3); margin-top: 3px; }
-figure.fig .fig-alt { font-size: var(--fs-xs); color: var(--ink-3); margin-top: 6px; }
+
+/* Appel dans le texte : « (Figure 3) » cliquable, sans souligné qui alourdirait la phrase. */
+a.figref { color: var(--primary); text-decoration: none; white-space: nowrap; border-bottom: 1px dotted var(--primary); }
+a.figref::before { content: "("; }
+a.figref::after { content: ")"; }
+a.figref:hover, a.figref:focus-visible { background: var(--primary-tint); }
+
+/* Bouton d'agrandissement : discret, présent au clavier, invisible à l'impression. */
+.fig-zoom { position: absolute; right: 10px; top: 10px; display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--line-ui); background: var(--surface); color: var(--ink-2); border-radius: 999px;
+  padding: 5px 11px 5px 9px; font-size: var(--fs-xs); cursor: zoom-in; opacity: 0; transition: opacity var(--dur) var(--ease), border-color var(--dur-fast) var(--ease); }
+.fig-zoom svg { width: 15px; height: 15px; min-width: 0; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+figure.fig:hover .fig-zoom, .fig-zoom:focus-visible { opacity: 1; }
+.fig-zoom:hover { border-color: var(--primary); color: var(--ink); }
+@media (hover: none) { .fig-zoom { opacity: 1; } }
+@media print { .fig-zoom { display: none; } }
+
+/* Plein écran : le dessin occupe l'écran, se déplace et se grossit. */
+.figview[hidden] { display: none; }
+.figview { position: fixed; inset: 0; z-index: 120; background: var(--paper); display: grid; grid-template-rows: auto 1fr auto auto; }
+.figview:fullscreen { background: var(--paper); }
+.figview .fv-bar { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-bottom: 1px solid var(--line); background: var(--surface); }
+.figview .fv-title { flex: 1 1 auto; min-width: 0; font-size: var(--fs-sm); color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.figview .fv-title b { font-weight: 700; }
+.figview button { min-width: var(--tap); min-height: var(--tap); border: 1px solid var(--line-ui); background: var(--surface); color: var(--ink); border-radius: 10px; font-size: 1rem; display: grid; place-items: center; }
+.figview button:hover { border-color: var(--primary); background: var(--primary-tint); }
+.figview button[disabled] { opacity: 0.45; }
+.figview .fv-close { font-size: 1.35rem; line-height: 1; }
+.figview .fv-stage { overflow: auto; -webkit-overflow-scrolling: touch; background: var(--surface); display: grid; place-items: center; touch-action: pan-x pan-y pinch-zoom; }
+.figview .fv-stage svg { display: block; width: calc(var(--fv-z, 1) * 100%); min-width: 0; max-width: none; max-height: none; height: auto; color: var(--ink); font-family: var(--font-sans); margin: auto; }
+.figview .fv-astuce { margin: 0; padding: 8px 14px; background: var(--primary-tint); color: var(--ink); font-size: var(--fs-xs); text-align: center; border-top: 1px solid var(--line); }
+.figview .fv-note { padding: 10px 14px; border-top: 1px solid var(--line); background: var(--surface); font-size: var(--fs-xs); color: var(--ink-2); max-height: 30vh; overflow: auto; }
+.figview .fv-note b { color: var(--ink); }
+body.fv-open { overflow: hidden; }
+figure.fig figcaption .src { display: block; font-size: var(--fs-xs); color: var(--ink-2); margin-top: 3px; }
+figure.fig .fig-alt { font-size: var(--fs-xs); color: var(--ink-2); margin-top: 6px; }
 
 /* primitives : classes utilisées dans les SVG */
 .fig svg text { fill: currentColor; font-size: 13px; }
-.fig svg .t-sm { font-size: 11px; fill: var(--ink-3); }
+.fig svg .t-sm { font-size: 12px; fill: var(--ink-2); }
 .fig svg .t-b { font-weight: 700; }
 .fig svg .t-serif { font-family: var(--font-serif); font-size: 15px; }
 .fig svg .t-num { font-variant-numeric: tabular-nums; font-weight: 700; }
-.fig svg .t-muted { fill: var(--ink-3); }
+.fig svg .t-muted { fill: var(--ink-2); }
 .fig svg .line { stroke: currentColor; stroke-width: 1.5; fill: none; }
 .fig svg .line-soft { stroke: var(--line); stroke-width: 1; fill: none; }
 .fig svg .grid { stroke: var(--d-grid); stroke-width: 1; fill: none; }
 .fig svg .ref { stroke: var(--d-ref); stroke-width: 1; stroke-dasharray: 4 4; fill: none; }
 .fig svg .arrow { stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
-.fig svg .arrow-soft { stroke: var(--ink-3); stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.fig svg .arrow-soft { stroke: var(--ink-2); stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
 .fig svg .box { fill: var(--surface-2); stroke: var(--line); stroke-width: 1; }
 .fig svg .box-p { fill: var(--primary-tint); stroke: var(--primary); stroke-width: 1.2; }
-.fig svg .box-a { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.2; }
+.fig svg .box-a { fill: var(--accent-soft); stroke: var(--accent-ink); stroke-width: 1.2; }
 .fig svg .box-s { fill: var(--sage-soft); stroke: var(--sage); stroke-width: 1.2; }
 .fig svg .box-b { fill: var(--brick-soft); stroke: var(--brick); stroke-width: 1.2; }
 .fig svg .f1 { fill: var(--d1); } .fig svg .f2 { fill: var(--d2); } .fig svg .f3 { fill: var(--d3); }
@@ -41,6 +85,11 @@ figure.fig .fig-alt { font-size: var(--fs-xs); color: var(--ink-3); margin-top: 
 .fig svg .ci { stroke: var(--d1); stroke-width: 2; fill: none; }
 .fig svg .curve { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
 .fig svg .area { opacity: 0.16; }
+/* Bande de période traversant un graphique : la couleur y désigne la tranche d'âge, rien d'autre. */
+.fig svg .band { opacity: 0.85; }
+.fig svg .ta1 { fill: var(--a1-ink); } .fig svg .ta2 { fill: var(--a2-ink); }
+.fig svg .ta3 { fill: var(--a3-ink); } .fig svg .ta4 { fill: var(--a4-ink); }
+.fig svg .dot-ink { fill: var(--ink-2); }
 .fig svg .on-fill { fill: var(--on-primary); }
 .fig svg .halo { fill: var(--surface); stroke: var(--line); }
 .fig svg .lbl-bg { fill: var(--surface); opacity: 0.9; }

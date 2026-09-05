@@ -9,7 +9,8 @@
 <link rel="icon" href="/Psychologie_de_l_enfant_et_de_l_adolescent/assets/icons/favicon.svg" type="image/svg+xml">
 <style>
   :root{color-scheme:light dark;--paper:#F7F3EC;--ink:#1E2433;--ink-2:#4B5364;--line:#E3DDD2;--primary:#3B4B8C;--surface:#FFFDF9}
-  @media (prefers-color-scheme:dark){:root{--paper:#14161C;--ink:#ECE6DA;--ink-2:#BDB7AB;--line:#2C303B;--primary:#A5AEEA;--surface:#1C1F27}}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#14161C;--ink:#ECE6DA;--ink-2:#BDB7AB;--line:#2C303B;--primary:#A5AEEA;--surface:#1C1F27}}
+  :root[data-theme="dark"]{--paper:#14161C;--ink:#ECE6DA;--ink-2:#BDB7AB;--line:#2C303B;--primary:#A5AEEA;--surface:#1C1F27}
   body{margin:0;background:var(--paper);color:var(--ink);font-family:'Public Sans','Segoe UI',system-ui,sans-serif;line-height:1.6;display:grid;min-height:100vh;place-items:center;padding:24px}
   .card{max-width:520px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px 28px}
   h1{font-family:Literata,Georgia,serif;font-size:1.6rem;margin:0 0 10px;line-height:1.25}
@@ -17,6 +18,7 @@
   a{color:var(--primary)}
   .links{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:14px}
 </style>
+<script>(function(){try{var d=document.documentElement,L=function(k){var v=localStorage.getItem(k);return v===null?'':(''+v).replace(/^"|"$/g,'');},t=L('theme');if(t==='light'||t==='dark'){d.dataset.theme=t;d.style.colorScheme=t;}var f=L('fs');if(f==='s'||f==='l'||f==='xl')d.dataset.fs=f;if(L('reading')==='essentiel')d.dataset.reading='essentiel';}catch(e){}})();</script>
 </head>
 <body>
 <main class="card">
