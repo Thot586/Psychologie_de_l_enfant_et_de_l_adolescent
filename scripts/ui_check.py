@@ -134,6 +134,49 @@ def main():
         bulle = evaluate(ws, '(document.querySelector(".ev-tip .ev-tip-d")||{}).textContent || ""')
         dit('la définition s’affiche au clic', len(bulle) > 30, bulle[:64])
 
+        print('\n5. Le service worker sert-il la bonne version des ressources ?')
+        va(ws, BASE + MOD, 3.0)
+        pret = evaluate(ws, '''(async () => { const r = await navigator.serviceWorker.ready;
+            for (let i = 0; i < 40 && !navigator.serviceWorker.controller; i++) await new Promise(r => setTimeout(r, 250));
+            return !!navigator.serviceWorker.controller; })()''')
+        dit('le service worker contrôle la page', bool(pret))
+        # on glisse une fausse ancienne feuille dans le cache, puis on demande la version courante :
+        # avec l'ancien comportement (ignoreSearch), c'est la fausse qui revenait
+        r = evaluate(ws, '''(async () => {
+            const lien = document.querySelector('link[rel="stylesheet"][href*="styles.css"]');
+            const url = new URL(lien.getAttribute('href'), location.href);
+            const vieille = new URL(url); vieille.searchParams.set('v', 'version-perimee');
+            const noms = await caches.keys();
+            const c = await caches.open(noms.find((n) => n.startsWith('pea-shell')) || noms[0]);
+            await c.put(vieille.href, new Response('/* MARQUEUR-PERIME */', {headers: {'Content-Type': 'text/css'}}));
+            const res = await fetch(url.href, {cache: 'no-store'});
+            const txt = await res.text();
+            await c.delete(vieille.href);
+            return JSON.stringify({perime: txt.includes('MARQUEUR-PERIME'), taille: txt.length}); })()''')
+        d = json.loads(r or '{}')
+        dit('une feuille périmée ne remplace pas la version demandée', not d.get('perime'), f"{d.get('taille', 0)} octets reçus")
+
+        # la page doit détecter une feuille périmée et se réparer d'elle-même
+        r = evaluate(ws, '''(() => {
+            const attendu = document.documentElement.dataset.build || '';
+            const applique = (getComputedStyle(document.documentElement).getPropertyValue('--build') || '').trim().replace(/^"|"$/g, '');
+            return JSON.stringify({attendu, applique}); })()''')
+        d = json.loads(r or '{}')
+        dit('la page et sa feuille de styles portent la même version',
+            bool(d.get('attendu')) and d.get('attendu') == d.get('applique'),
+            f"page {d.get('attendu')} · feuille {d.get('applique')}")
+
+        print('\n6. Le bouton d’agrandissement garde-t-il sa taille ?')
+        va(ws, BASE + MOD, 2.6)
+        r = evaluate(ws, '''(() => { const b = document.querySelector('.fig-zoom'), s = b.querySelector('svg');
+            const rb = b.getBoundingClientRect(), rs = s.getBoundingClientRect();
+            return JSON.stringify({bouton: Math.round(rb.width) + 'x' + Math.round(rb.height),
+                                   icone: Math.round(rs.width) + 'x' + Math.round(rs.height),
+                                   dansLaLegende: !!b.closest('figcaption')}); })()''')
+        d = json.loads(r or '{}')
+        dit('l’icône reste petite', d.get('icone', '') in ('17x17', '18x18', '17x18', '18x17'), f"bouton {d.get('bouton')} · icône {d.get('icone')}")
+        dit('le bouton est sur la ligne de légende, hors du dessin', bool(d.get('dansLaLegende')))
+
         if SORTIE:
             SORTIE.mkdir(parents=True, exist_ok=True)
             print('\n5. Captures')

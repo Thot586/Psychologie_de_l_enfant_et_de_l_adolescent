@@ -1,8 +1,8 @@
-/* Service worker · généré par scripts/build.py · version 2026-09-05.1855
+/* Service worker · généré par scripts/build.py · version 2026-09-05.2249
    Coquille et données : cache d'abord. Pages HTML : réseau d'abord, avec délai de garde
    de 3 s seulement si une copie en cache existe ; repli hors-ligne.html sinon.
    Toutes les URL sont relatives à la portée d'enregistrement (self.registration.scope). */
-const VERSION = '2026-09-05.1855';
+const VERSION = '2026-09-05.2249';
 const SHELL = 'pea-shell-' + VERSION;
 const PAGES = 'pea-pages-' + VERSION;
 const PRECACHE = ["./", "index.html", "hors-ligne.html", "assets/css/styles.css", "manifest.webmanifest", "data/search-index.json", "assets/icons/favicon.svg", "assets/js/app.js", "assets/js/cite.js", "assets/js/evidence.js", "assets/js/figview.js", "assets/js/glossary.js", "assets/js/interactives.js", "assets/js/pwa.js", "assets/js/quiz.js", "assets/js/search.js", "assets/js/tables.js", "assets/js/wizard.js", "assets/fonts/literata-italic-latin-ext.woff2", "assets/fonts/literata-italic-latin.woff2", "assets/fonts/literata-normal-latin-ext.woff2", "assets/fonts/literata-normal-latin.woff2", "assets/fonts/public-sans-italic-latin-ext.woff2", "assets/fonts/public-sans-italic-latin.woff2", "assets/fonts/public-sans-normal-latin-ext.woff2", "assets/fonts/public-sans-normal-latin.woff2", "harcelement-scolaire/index.html", "glossaire.html", "references.html"];
@@ -56,13 +56,21 @@ self.addEventListener('fetch', (event) => {
 });
 
 async function cacheFirst(req) {
-  const cached = await caches.match(req, { ignoreSearch: true });
+  // Les ressources versionnées (?v=BUILD_ID) doivent correspondre EXACTEMENT : sans cela, tant que
+  // le nouveau service worker n'a pas pris la main, une page fraîche recevait l'ancienne feuille de
+  // styles — figures sans couleur, boutons hors gabarit. Le repli « au plus proche » ne sert qu'hors ligne.
+  const versionnee = new URL(req.url).searchParams.has('v');
+  const cached = await caches.match(req, { ignoreSearch: !versionnee });
   if (cached) return cached;
   try {
     const res = await fetch(req);
     if (res.ok) { const c = await caches.open(SHELL); c.put(req, res.clone()); }
     return res;
   } catch (e) {
+    if (versionnee) {
+      const proche = await caches.match(req, { ignoreSearch: true });
+      if (proche) return proche;
+    }
     return new Response('', { status: 504, statusText: 'hors ligne' });
   }
 }

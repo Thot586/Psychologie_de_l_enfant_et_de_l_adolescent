@@ -65,6 +65,26 @@ function pumpBanner() {
 }
 window.peaBanner = showBanner;
 
+/* ---------- feuille de styles périmée ----------
+   Un cache de service worker a pu servir une ancienne feuille à une page neuve : le site s'affiche
+   alors à moitié (figures sans couleur, boutons hors gabarit). La feuille déclare la version qui l'a
+   produite ; si elle ne correspond pas à celle de la page, on vide les caches et on recharge — une
+   seule fois par session, pour ne jamais boucler. */
+(function verifierStyles() {
+  const attendu = root.dataset.build;
+  if (!attendu) return;
+  const applique = (getComputedStyle(root).getPropertyValue('--build') || '').trim().replace(/^"|"$/g, '');
+  if (!applique || applique === attendu) return;
+  let deja = false;
+  try { deja = sessionStorage.getItem('pea:styles') === attendu; sessionStorage.setItem('pea:styles', attendu); } catch { /* stockage indisponible */ }
+  if (deja) return;
+  (async () => {
+    try { if ('caches' in window) { const k = await caches.keys(); await Promise.all(k.filter((x) => x.startsWith('pea-')).map((x) => caches.delete(x))); } } catch { /* ignore */ }
+    try { const r = await navigator.serviceWorker.getRegistration(); if (r) await r.update(); } catch { /* ignore */ }
+    location.reload();
+  })();
+})();
+
 /* ---------- thème ----------
    Le choix vaut pour tout le site et pour tous les onglets ouverts : il est relu par le script du
    <head> à chaque page, et l'événement « storage » le propage aux onglets déjà ouverts. */

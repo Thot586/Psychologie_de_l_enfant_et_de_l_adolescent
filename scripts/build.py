@@ -1043,7 +1043,9 @@ def main():
     for out, html in rendered.items():
         changed += write_if_changed(ROOT / out, html)
     css = '\n\n'.join(read(SRC / 'css' / n) for n in CSS_ORDER if (SRC / 'css' / n).exists())
-    changed += write_if_changed(ROOT / 'assets' / 'css' / 'styles.css', f'/* généré par scripts/build.py {BUILD_ID} : modifier src/css/ */\n' + css)
+    # la version est lisible depuis la page : de quoi détecter une feuille périmée servie par un cache
+    entete_css = f'/* généré par scripts/build.py {BUILD_ID} : modifier src/css/ */\n:root {{ --build: "{BUILD_ID}"; }}\n'
+    changed += write_if_changed(ROOT / 'assets' / 'css' / 'styles.css', entete_css + css)
     for js in (SRC / 'js').glob('*.js'):
         changed += write_if_changed(ROOT / 'assets' / 'js' / js.name, read(js))
     changed += write_if_changed(DATA / 'search-index.json', json.dumps(group_index(search_index), ensure_ascii=False, separators=(',', ':')))

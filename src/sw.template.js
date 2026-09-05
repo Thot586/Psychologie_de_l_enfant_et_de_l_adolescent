@@ -56,13 +56,21 @@ self.addEventListener('fetch', (event) => {
 });
 
 async function cacheFirst(req) {
-  const cached = await caches.match(req, { ignoreSearch: true });
+  // Les ressources versionnées (?v=BUILD_ID) doivent correspondre EXACTEMENT : sans cela, tant que
+  // le nouveau service worker n'a pas pris la main, une page fraîche recevait l'ancienne feuille de
+  // styles — figures sans couleur, boutons hors gabarit. Le repli « au plus proche » ne sert qu'hors ligne.
+  const versionnee = new URL(req.url).searchParams.has('v');
+  const cached = await caches.match(req, { ignoreSearch: !versionnee });
   if (cached) return cached;
   try {
     const res = await fetch(req);
     if (res.ok) { const c = await caches.open(SHELL); c.put(req, res.clone()); }
     return res;
   } catch (e) {
+    if (versionnee) {
+      const proche = await caches.match(req, { ignoreSearch: true });
+      if (proche) return proche;
+    }
     return new Response('', { status: 504, statusText: 'hors ligne' });
   }
 }

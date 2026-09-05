@@ -33,7 +33,7 @@ a.figref:hover, a.figref:focus-visible { background: var(--primary-tint); }
   border: 0; background: none; color: var(--ink-3); padding: 0; cursor: zoom-in;
   transition: color var(--dur-fast) var(--ease); }
 .fig-zoom::after { content: ""; position: absolute; inset: -9px; }   /* zone tactile de 44 px, sans boîte visible */
-.fig-zoom svg { width: 17px; height: 17px; min-width: 0; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; }
+figure.fig .fig-zoom svg, .fig-zoom svg { width: 17px; height: 17px; min-width: 0; max-height: none; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; }
 .fig-zoom:hover, .fig-zoom:focus-visible { color: var(--primary); }
 figure.fig .fig-box .fig-zoom { position: absolute; right: 8px; top: 8px; align-self: auto; }  /* figure sans titre : dans le coin */
 figure.fig .fig-box { cursor: zoom-in; }
