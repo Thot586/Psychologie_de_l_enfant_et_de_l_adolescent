@@ -1,3 +1,4 @@
 Escalade et désescalade
 Deux boucles. Escalade : ordre, refus, punition, refus plus fort, et retour au début. Désescalade : nommer l'émotion, proposer un choix, laisser réparer, revenir sur ce qui s'est passé, et retour au début.
 La boucle de gauche se referme sur plus de tension ; celle de droite sur un apprentissage.
+Schéma construit pour ce site

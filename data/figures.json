@@ -35,7 +35,8 @@
     "range_label": "IC 95 % : 8,9 à 12,4",
     "src": "OMS, 2025"
    }
-  ]
+  ],
+  "source": "UNESCO, 2019 ; Aboagye et al., 2021a ; OMS, 2025"
  },
  "gshs-madagascar-par-sexe": {
   "type": "gbar",
@@ -98,7 +99,8 @@
     ]
    }
   ],
-  "src": "OMS, 2025"
+  "src": "OMS, 2025",
+  "source": "OMS, 2025 (GSHS Madagascar, 2 440 élèves)"
  },
  "effet-programmes": {
   "type": "hbar",
@@ -123,7 +125,8 @@
     "range_label": "18 à 19 % selon les études",
     "src": "Gaffney et al., 2021a"
    }
-  ]
+  ],
+  "source": "Gaffney et al., 2021a"
  },
  "good-school-toolkit": {
   "type": "dumbbell",
@@ -142,7 +145,8 @@
   "series": [
    "Écoles témoins",
    "Écoles avec le programme"
-  ]
+  ],
+  "source": "Devries et al., 2015"
  },
  "rapports-de-cotes": {
   "type": "dotplot",
@@ -175,7 +179,8 @@
     "value": 2.98,
     "src": "Huang et al., 2022"
    }
-  ]
+  ],
+  "source": "van Geel et al., 2014 ; Huang et al., 2022"
  },
  "trajectoires-pepler": {
   "type": "hbar",
@@ -204,7 +209,8 @@
     "value": 9.9,
     "src": "Pepler et al., 2008"
    }
-  ]
+  ],
+  "source": "Pepler et al., 2008"
  },
  "harcelement-onze-pays": {
   "type": "hbar",
@@ -262,7 +268,8 @@
     "label": "Sierra Leone",
     "value": 54.6
    }
-  ]
+  ],
+  "source": "Aboagye et al., 2021a"
  },
  "attachement-repartition": {
   "type": "hbar",
@@ -288,7 +295,8 @@
     "label": "Résistant (ambivalent)",
     "value": 10.2
    }
-  ]
+  ],
+  "source": "Madigan et al., 2023"
  },
  "punition-madagascar": {
   "type": "hbar",
@@ -320,7 +328,8 @@
     "label": "Adultes : « le châtiment corporel est acceptable » · 2018",
     "value": 65
    }
-  ]
+  ],
+  "source": "INSTAT et UNICEF, 2013 ; INSTAT et UNICEF, 2026 ; End Corporal Punishment, 2022"
  },
  "barres-afrique-suicidalite": {
   "type": "dotplot",
@@ -348,7 +357,8 @@
     "value": 1.53,
     "src": "Aboagye et al., 2021a"
    }
-  ]
+  ],
+  "source": "Bezie et al., 2025 ; Aboagye et al., 2021a"
  },
  "exposition-madagascar-gshs": {
   "type": "hbar",
@@ -382,7 +392,8 @@
     "value": 3.5,
     "src": "OMS, 2025"
    }
-  ]
+  ],
+  "source": "OMS, 2025"
  },
  "surexposition-handicap": {
   "type": "dotplot",
@@ -400,7 +411,8 @@
     "value": 6.5,
     "src": "Musizvingoza et al., 2022"
    }
-  ]
+  ],
+  "source": "Eldred et al., 2025 ; Musizvingoza et al., 2022"
  },
  "numerique-madagascar-2025": {
   "type": "hbar",
@@ -444,7 +456,8 @@
     "value": 94,
     "src": "UIT, 2025"
    }
-  ]
+  ],
+  "source": "Kemp, 2025 ; UIT, 2024 ; UIT, 2025"
  },
  "usage-problematique-hbsc": {
   "type": "hbar",
@@ -493,7 +506,8 @@
     "value": 22,
     "src": "OMS Europe, 2024"
    }
-  ]
+  ],
+  "source": "OMS Europe, 2024"
  },
  "ici-et-ailleurs": {
   "type": "hbar",
@@ -525,7 +539,8 @@
     "value": 27.2,
     "src": "OMS, 2025"
    }
-  ]
+  ],
+  "source": "L'Express, 2025 ; Aboagye et al., 2021a ; UNESCO, 2019 ; OMS, 2025"
  },
  "prevalences-comparees": {
   "type": "hbar",
@@ -577,7 +592,8 @@
     "value": 54.6,
     "src": "Aboagye et al., 2021a"
    }
-  ]
+  ],
+  "source": "Aboagye et al., 2021a ; OMS, 2025 ; UNESCO, 2019 ; Rtbey et al., 2025"
  },
  "comparateur-prevalences": {
   "type": "hbar",
@@ -617,7 +633,8 @@
     "value": 58,
     "src": "L'Express de Madagascar, 2025"
    }
-  ]
+  ],
+  "source": "OMS, 2025 ; UNESCO, 2019 ; Aboagye et al., 2021a ; Rtbey et al., 2025 ; L'Express de Madagascar, 2025"
  },
  "chiffres-madagascar-gshs": {
   "type": "hbar",
@@ -661,7 +678,8 @@
     "value": 3.5,
     "src": "OMS, 2025"
    }
-  ]
+  ],
+  "source": "OMS, 2025"
  },
  "premier-recours-antananarivo": {
   "type": "hbar",
@@ -695,6 +713,7 @@
     "value": 2.5,
     "src": "Bakohariliva et al., 2018"
    }
-  ]
+  ],
+  "source": "Bakohariliva et al., 2018"
  }
 }

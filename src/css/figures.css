@@ -18,6 +18,7 @@ figure.fig .fig-n::after { content: "."; }
 figure.fig .fig-t { font-family: var(--font-serif); font-style: italic; margin-left: 0.4em; }
 figure.fig .fig-note { font-size: var(--fs-xs); color: var(--ink-2); margin: 8px 0 0; line-height: 1.5; max-width: none; }
 figure.fig .fig-note-l { font-style: italic; color: var(--ink); }
+figure.fig .fig-src { display: block; margin-top: 4px; color: var(--ink-2); }
 figure.fig figcaption { font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.5; }
 figure.fig figcaption b { color: var(--ink); }
 

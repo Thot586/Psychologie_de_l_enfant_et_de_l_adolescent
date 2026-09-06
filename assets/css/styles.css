@@ -1,5 +1,5 @@
-/* généré par scripts/build.py 2026-09-05.2335 : modifier src/css/ */
-:root { --build: "2026-09-05.2335"; }
+/* généré par scripts/build.py 2026-09-06.1856 : modifier src/css/ */
+:root { --build: "2026-09-06.1856"; }
 /* Polices auto-hébergées : Literata et Public Sans (SIL OFL 1.1). Généré par scripts/fetch_fonts.py */
 @font-face {
   font-family: 'Literata';
@@ -996,6 +996,7 @@ figure.fig .fig-n::after { content: "."; }
 figure.fig .fig-t { font-family: var(--font-serif); font-style: italic; margin-left: 0.4em; }
 figure.fig .fig-note { font-size: var(--fs-xs); color: var(--ink-2); margin: 8px 0 0; line-height: 1.5; max-width: none; }
 figure.fig .fig-note-l { font-style: italic; color: var(--ink); }
+figure.fig .fig-src { display: block; margin-top: 4px; color: var(--ink-2); }
 figure.fig figcaption { font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.5; }
 figure.fig figcaption b { color: var(--ink); }
 

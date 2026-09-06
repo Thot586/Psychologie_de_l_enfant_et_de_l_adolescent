@@ -131,7 +131,8 @@
     ]
    }
   ],
-  "note": "Le langage, cinquième ligne annoncée par le texte, n'est pas figuré ici : ses repères se lisent au tableau des signes d'alerte. Âges moyens indicatifs, pas des normes à atteindre : chaque enfant suit la même séquence à son rythme (Piaget ; Barrouillet, 2015 ; Bowlby ; Wellman et al., 2001 ; Pouwels et al., 2018)."
+  "note": "Le langage, cinquième ligne annoncée par le texte, n'est pas figuré ici : ses repères se lisent au tableau des signes d'alerte. Âges moyens indicatifs, pas des normes à atteindre : chaque enfant suit la même séquence à son rythme.",
+  "source": "Piaget ; Barrouillet, 2015 ; Bowlby ; Wellman et al., 2001 ; Pouwels et al., 2018"
  },
  "cerveau-deux-vitesses": {
   "type": "curves",
@@ -321,7 +322,8 @@
     "motif_centre": "autonomie · compétence · relation"
    }
   ],
-  "note": "Simultanés, pas empilés : on n'attend pas qu'un besoin soit comblé pour s'occuper des autres."
+  "note": "Simultanés, pas empilés : on n'attend pas qu'un besoin soit comblé pour s'occuper des autres.",
+  "source": "Ryan et Deci, 2000"
  },
  "iceberg-besoins": {
   "type": "iceberg",
@@ -350,7 +352,8 @@
    }
   ],
   "links": [],
-  "note": "Trois questions : de quoi a-t-il besoin maintenant ? qu'est-ce qu'il ressent ? qu'est-ce qu'il ne sait pas encore faire ? Schéma pédagogique, sans valeur diagnostique (Compas et al., 2017 ; Rothbart, 2007)."
+  "note": "Trois questions : de quoi a-t-il besoin maintenant ? qu'est-ce qu'il ressent ? qu'est-ce qu'il ne sait pas encore faire ? Schéma pédagogique, sans valeur diagnostique.",
+  "source": "Compas et al., 2017 ; Rothbart, 2007"
  },
  "calendrier-puberte": {
   "type": "timeline",
@@ -413,7 +416,8 @@
     "tone": "b"
    }
   ],
-  "note": "Être en avance ou en retard sur son groupe expose davantage aux moqueries, à un regard sexualisé et aux difficultés psychologiques (Patton et Viner, 2007 ; Sawyer et al., 2018)."
+  "note": "Être en avance ou en retard sur son groupe expose davantage aux moqueries, à un regard sexualisé et aux difficultés psychologiques.",
+  "source": "Patton et Viner, 2007 ; Sawyer et al., 2018"
  },
  "fourche-comportement": {
   "type": "fork",
@@ -442,7 +446,8 @@
     ]
    }
   ],
-  "note": "Le contraste tient aux conséquences mesurées, pas à un jugement sur l'adulte."
+  "note": "Le contraste tient aux conséquences mesurées, pas à un jugement sur l'adulte.",
+  "source": "Gershoff et Grogan-Kaylor, 2016 ; Heilmann et al., 2021 ; Jeong et al., 2021"
  },
  "stress-tampon": {
   "type": "columns",
@@ -477,7 +482,8 @@
     ]
    }
   ],
-  "note": "Ce n'est pas l'événement seul, c'est l'événement moins la protection relationnelle : un adulte fiable transforme un stress potentiellement toxique en stress tolérable (Harvard Center on the Developing Child ; Masten et Barnes, 2018)."
+  "note": "Ce n'est pas l'événement seul, c'est l'événement moins la protection relationnelle : un adulte fiable transforme un stress potentiellement toxique en stress tolérable.",
+  "source": "Harvard Center on the Developing Child ; Masten et Barnes, 2018"
  },
  "de-l-evenement-a-la-trace": {
   "type": "chain",
@@ -516,7 +522,8 @@
     ]
    }
   ],
-  "note": "La majorité des enfants exposés récupèrent avec le soutien de l'entourage ; la persistance au-delà d'un mois est le repère d'orientation (NICE, 2018 ; Inserm, 2020 ; Trickey et al., 2012 ; OMS, 2011)."
+  "note": "La majorité des enfants exposés récupèrent avec le soutien de l'entourage ; la persistance au-delà d'un mois est le repère d'orientation.",
+  "source": "NICE, 2018 ; Inserm, 2020 ; Trickey et al., 2012 ; OMS, 2011"
  },
  "dose-ene": {
   "type": "grid",
@@ -649,7 +656,8 @@
     ]
    }
   ],
-  "note": "Portes d'entrée à Madagascar : Centres Vonjy pour les violences sexuelles, Ligne Verte 147 pour le signalement et l'orientation, services d'urgence et de psychiatrie (NICE, 2018 ; OMS, 2023 ; Inserm, 2020)."
+  "note": "Portes d'entrée à Madagascar : Centres Vonjy pour les violences sexuelles, Ligne Verte 147 pour le signalement et l'orientation, services d'urgence et de psychiatrie.",
+  "source": "NICE, 2018 ; OMS, 2023 ; Inserm, 2020"
  },
  "fourche-trois-questions": {
   "type": "flow",
@@ -716,7 +724,8 @@
     ]
    }
   ],
-  "note": "Quelle que soit la sortie, on ne laisse pas la situation sans réponse (Olweus, 1993 ; Gaffney et al., 2021a ; National Academies, 2016)."
+  "note": "Quelle que soit la sortie, on ne laisse pas la situation sans réponse.",
+  "source": "Olweus, 1993 ; Gaffney et al., 2021a ; National Academies, 2016"
  },
  "fratrie-refuge-venn": {
   "type": "venn2",
@@ -897,7 +906,8 @@
     ]
    }
   ],
-  "note": "Lecture raisonnée, non mesurée à Madagascar (Sandron, 2008 ; Kneitz, 2014 ; Rakotomalala, 2012 ; Ottino, 1998)."
+  "note": "Lecture raisonnée, non mesurée à Madagascar.",
+  "source": "Sandron, 2008 ; Kneitz, 2014 ; Rakotomalala, 2012 ; Ottino, 1998"
  },
  "chaine-des-recours": {
   "type": "chain",
@@ -973,7 +983,8 @@
     "label": "décrire la scène, poser les trois questions sans jargon, demander à l'enfant comment il appelle cela"
    }
   ],
-  "note": "Quatre questions : comment appelez-vous ce qui arrive à votre enfant ? qu'est-ce qui, selon vous, l'a causé ? que disent vos proches ? qu'attendez-vous de nous ? (Smith et al., 2002 ; Samara et al., 2019 ; Nichter, 1981 ; APA, 2013)."
+  "note": "Quatre questions : comment appelez-vous ce qui arrive à votre enfant ? qu'est-ce qui, selon vous, l'a causé ? que disent vos proches ? qu'attendez-vous de nous ?.",
+  "source": "Smith et al., 2002 ; Samara et al., 2019 ; Nichter, 1981 ; APA, 2013"
  },
  "courbes-victimisation-age": {
   "type": "curves",
@@ -1081,7 +1092,8 @@
    "label": "les trajectoires qui se poursuivent s'accompagnent du plus de difficultés psychiques et scolaires",
    "to": 2
   },
-  "note": "À Madagascar, environ un tiers des enfants de moins de 18 ans ne vivent pas avec leurs deux parents ; la circulation des enfants entre parents, grands-parents et familles d'accueil est fréquente (Andriamaro, 2013)."
+  "note": "À Madagascar, environ un tiers des enfants de moins de 18 ans ne vivent pas avec leurs deux parents ; la circulation des enfants entre parents, grands-parents et familles d'accueil est fréquente.",
+  "source": "Andriamaro, 2013"
  },
  "deux-profils-auteurs": {
   "type": "columns",
@@ -1110,7 +1122,8 @@
     ]
    }
   ],
-  "note": "Comprendre autrui n'est pas être bienveillant : il n'existe pas un profil unique de harceleur."
+  "note": "Comprendre autrui n'est pas être bienveillant : il n'existe pas un profil unique de harceleur.",
+  "source": "Sutton et al., 1999"
  },
  "boucle-escalade-desescalade": {
   "type": "cycle",
@@ -1138,7 +1151,8 @@
     ]
    }
   ],
-  "note": "La boucle de gauche se referme sur plus de tension ; celle de droite sur un apprentissage."
+  "note": "La boucle de gauche se referme sur plus de tension ; celle de droite sur un apprentissage.",
+  "source": "Schéma construit pour ce site"
  },
  "fenetre-de-tolerance": {
   "type": "bands",
@@ -1230,7 +1244,8 @@
     "label": "nouvelle menace"
    }
   ],
-  "note": "Repère clinique d'usage courant, et non un résultat de recherche."
+  "note": "Repère clinique d'usage courant, et non un résultat de recherche.",
+  "source": "Schéma construit pour ce site"
  },
  "cercle-des-roles": {
   "type": "columns",
@@ -1271,7 +1286,8 @@
     ]
    }
   ],
-  "note": "Au centre de la scène : la victime et l'auteur. Faire basculer les témoins vers la défense est le levier central (Salmivalli et al., 1996 ; Kärnä et al., 2011)."
+  "note": "Au centre de la scène : la victime et l'auteur. Faire basculer les témoins vers la défense est le levier central.",
+  "source": "Salmivalli et al., 1996 ; Kärnä et al., 2011"
  },
  "modele-ecologique": {
   "type": "rings",
@@ -1307,7 +1323,8 @@
     ]
    }
   ],
-  "note": "Niveau de preuve : données solides pour l'enfant et la famille ; hypothèses pour l'école et la société à Madagascar."
+  "note": "Niveau de preuve : données solides pour l'enfant et la famille ; hypothèses pour l'école et la société à Madagascar.",
+  "source": "Schéma construit pour ce site"
  },
  "triangle-3r": {
   "type": "triangle",
@@ -1334,7 +1351,8 @@
    ],
    "tone": "b"
   },
-  "note": "Les 3 R reformulent les critères d'Olweus en langage de terrain ; un seul incident sans déséquilibre relève du conflit."
+  "note": "Les 3 R reformulent les critères d'Olweus en langage de terrain ; un seul incident sans déséquilibre relève du conflit.",
+  "source": "Schéma construit pour ce site, à partir des trois critères (Smith et al., 2002)"
  },
  "arbre-decisionnel": {
   "type": "flow",
@@ -1412,7 +1430,8 @@
     ]
    }
   ],
-  "note": "Le 147 signale et oriente ; en cas d'idées suicidaires, la conduite est d'accompagner l'enfant vers un service d'urgence ou de psychiatrie."
+  "note": "Le 147 signale et oriente ; en cas d'idées suicidaires, la conduite est d'accompagner l'enfant vers un service d'urgence ou de psychiatrie.",
+  "source": "Schéma construit pour ce site"
  },
  "cinq-questions-chiffre": {
   "type": "flow",
@@ -1546,7 +1565,8 @@
     ]
    }
   ],
-  "note": "Point de départ : un chiffre entendu ou lu. Le schéma porte sur la façon de juger un chiffre, pas sur une valeur : aucune donnée chiffrée n'y figure."
+  "note": "Point de départ : un chiffre entendu ou lu. Le schéma porte sur la façon de juger un chiffre, pas sur une valeur : aucune donnée chiffrée n'y figure.",
+  "source": "Schéma construit pour ce site"
  },
  "comparateur-27-58": {
   "type": "grid",
@@ -1814,7 +1834,8 @@
     ]
    }
   ],
-  "note": "Dans les trois cas, faire cesser le harcèlement reste utile. Schéma conceptuel, sans données chiffrées (Moore et al., 2017 ; Aboagye et al., 2021a ; Rtbey et al., 2025)."
+  "note": "Dans les trois cas, faire cesser le harcèlement reste utile. Schéma conceptuel, sans données chiffrées.",
+  "source": "Moore et al., 2017 ; Aboagye et al., 2021a ; Rtbey et al., 2025"
  },
  "schema-jumeaux-discordants": {
   "type": "fork",
@@ -1858,7 +1879,8 @@
     ]
    }
   ],
-  "note": "Cohorte TEDS, 11 108 jumeaux (Singham et al., 2017). Des caractéristiques en partie héritées modifient la probabilité d'être pris pour cible : 73 % de la variation du statut de victime chez 1 116 familles de jumeaux (Ball et al., 2008). Il n'existe pas de gène du harcèlement. La victimation qui dure d'une école à l'autre est prédite par la pauvreté, le manque de chaleur parentale et la maltraitance (Bowes et al., 2013)."
+  "note": "Cohorte TEDS, 11 108 jumeaux (Singham et al., 2017). Des caractéristiques en partie héritées modifient la probabilité d'être pris pour cible : 73 % de la variation du statut de victime chez 1 116 familles de jumeaux (Ball et al., 2008). Il n'existe pas de gène du harcèlement. La victimation qui dure d'une école à l'autre est prédite par la pauvreté, le manque de chaleur parentale et la maltraitance.",
+  "source": "Bowes et al., 2013"
  },
  "fourche-idees-noires": {
   "type": "flow",
@@ -1971,7 +1993,8 @@
     ]
    }
   ],
-  "note": "Données du Malawi, de Tanzanie, du Cameroun et du Congo ; la situation malagasy n'a pas été étudiée (Comité des droits de l'enfant, 2022)."
+  "note": "Données du Malawi, de Tanzanie, du Cameroun et du Congo ; la situation malagasy n'a pas été étudiée.",
+  "source": "Comité des droits de l'enfant, 2022"
  },
  "angles-morts-reperage": {
   "type": "iceberg",
@@ -1993,7 +2016,8 @@
    "Enfants jamais scolarisés, dont handicap"
   ],
   "links": [],
-  "note": "Les prévalences publiées sont probablement des sous-estimations, sans qu'on sache de combien (OMS, 2025 ; INSTAT, 2008 ; Morano, 2022 ; Comité des droits de l'enfant, 2022)."
+  "note": "Les prévalences publiées sont probablement des sous-estimations, sans qu'on sache de combien.",
+  "source": "OMS, 2025 ; INSTAT, 2008 ; Morano, 2022 ; Comité des droits de l'enfant, 2022"
  },
  "genre-deux-violences": {
   "type": "columns",
@@ -2107,7 +2131,8 @@
     ]
    }
   ],
-  "note": "Entre les deux, une zone à surveiller quand tous les critères ne sont pas réunis. Le harcèlement par les pairs et le cyberharcèlement sont associés à une augmentation des idées suicidaires : on prend au sérieux, on oriente (van Geel et al., 2014)."
+  "note": "Entre les deux, une zone à surveiller quand tous les critères ne sont pas réunis. Le harcèlement par les pairs et le cyberharcèlement sont associés à une augmentation des idées suicidaires : on prend au sérieux, on oriente.",
+  "source": "van Geel et al., 2014"
  },
  "recouvrement-cyber-face-a-face": {
   "type": "venn2",
@@ -2143,7 +2168,8 @@
     "label": "Madagascar, 13-17 ans : 27,2 % harcelés à l'école, 10,5 % cyberharcelés dans l'année (OMS, 2025)"
    }
   ],
-  "note": "Proportions schématiques, pas une mesure. Traiter l'écran sans traiter la cour et la classe est inefficace."
+  "note": "Proportions schématiques, pas une mesure. Traiter l'écran sans traiter la cour et la classe est inefficace.",
+  "source": "OMS, 2025"
  },
  "spirale-sextorsion": {
   "type": "flow",
@@ -2226,7 +2252,8 @@
     ]
    }
   ],
-  "note": "L'enfant n'est jamais le coupable. Signaler à Madagascar : ligne verte 147, arozaza.mg, report.iwf.org.uk/mg (WeProtect Global Alliance, 2023 ; Internet Watch Foundation, 2020 ; Arozaza.mg)."
+  "note": "L'enfant n'est jamais le coupable. Signaler à Madagascar : ligne verte 147, arozaza.mg, report.iwf.org.uk/mg.",
+  "source": "WeProtect Global Alliance, 2023 ; Internet Watch Foundation, 2020 ; Arozaza.mg"
  },
  "carte-lieux-invisibles": {
   "type": "rings",
@@ -2276,7 +2303,8 @@
     ]
    }
   ],
-  "note": "Le harcèlement se concentre là où aucun adulte ne regarde. Carte établie en Afrique du Sud et en RDC : à refaire par chaque école avec ses propres élèves ; rendre un lieu visible n'est pas y installer une surveillance permanente."
+  "note": "Le harcèlement se concentre là où aucun adulte ne regarde. Carte établie en Afrique du Sud et en RDC : à refaire par chaque école avec ses propres élèves ; rendre un lieu visible n'est pas y installer une surveillance permanente.",
+  "source": "Modecki et al., 2014"
  },
  "fourche-un-indice-ou-un-faisceau": {
   "type": "flow",
@@ -2343,7 +2371,8 @@
     ]
    }
   ],
-  "note": "Schéma de raisonnement, sans donnée chiffrée : opinion d'expert et recommandations officielles (NASEM, 2016 ; OMS, 2019 ; Défenseur des droits, 2023). La dernière étape prime à tout moment sur les précédentes (mhGAP, 2023)."
+  "note": "Schéma de raisonnement, sans donnée chiffrée : opinion d'expert et recommandations officielles (NASEM, 2016 ; OMS, 2019 ; Défenseur des droits, 2023). La dernière étape prime à tout moment sur les précédentes.",
+  "source": "mhGAP, 2023"
  },
  "frise-signaux-age": {
   "type": "timeline",
@@ -2434,7 +2463,8 @@
     ]
    }
   ],
-  "note": "Aucun signe n'est propre au harcèlement : ce qui alerte, c'est le changement par rapport à l'enfant habituel et plusieurs signes en même temps (Catheline, 2023 ; HAS, 2017)."
+  "note": "Aucun signe n'est propre au harcèlement : ce qui alerte, c'est le changement par rapport à l'enfant habituel et plusieurs signes en même temps.",
+  "source": "Catheline, 2023 ; HAS, 2017"
  },
  "ouvrir-fermer": {
   "type": "columns",
@@ -2465,7 +2495,8 @@
     ]
    }
   ],
-  "note": "À gauche : question ouverte, mot de l'enfant, silence toléré. À droite : question fermée, mot d'adulte, reproche. Opinion d'expert (OMS, 2023 ; Défenseur des droits, 2023 ; Turner et al., 2024 ; Smith et al., 2016)."
+  "note": "À gauche : question ouverte, mot de l'enfant, silence toléré. À droite : question fermée, mot d'adulte, reproche. Opinion d'expert.",
+  "source": "OMS, 2023 ; Défenseur des droits, 2023 ; Turner et al., 2024 ; Smith et al., 2016"
  },
  "phrases-par-age": {
   "type": "timeline",
@@ -2559,7 +2590,8 @@
     ]
    }
   ],
-  "note": "Âges indicatifs, pas des seuils. La victimation déclarée décline avec l'âge, les conduites d'agression non (López-Castro et al., 2023) ; le dessin contourne le vocabulaire (Smith et al., 2016)."
+  "note": "Âges indicatifs, pas des seuils. La victimation déclarée décline avec l'âge, les conduites d'agression non (López-Castro et al., 2023) ; le dessin contourne le vocabulaire.",
+  "source": "Smith et al., 2016"
  },
  "premiers-gestes-frise": {
   "type": "flow",
@@ -2614,7 +2646,8 @@
     ]
    }
   ],
-  "note": "Étapes 1 à 4 : la première semaine. Étapes 5 et 6 : la suite. Aucune durée chiffrée en dehors du délai de vérification (Défenseur des droits, 2023 ; NASEM, 2016 ; e-Enfance et 3018 ; Arozaza et ligne 147)."
+  "note": "Étapes 1 à 4 : la première semaine. Étapes 5 et 6 : la suite. Aucune durée chiffrée en dehors du délai de vérification.",
+  "source": "Défenseur des droits, 2023 ; NASEM, 2016 ; e-Enfance et 3018 ; Arozaza et ligne 147"
  },
  "protege-aggrave": {
   "type": "columns",
@@ -2643,7 +2676,8 @@
     ]
    }
   ],
-  "note": "Toutes ces associations sont de petite taille et vont dans les deux sens : les parents ont une influence réelle mais partielle (Grama et al., 2024 ; Pinquart, 2017)."
+  "note": "Toutes ces associations sont de petite taille et vont dans les deux sens : les parents ont une influence réelle mais partielle.",
+  "source": "Grama et al., 2024 ; Pinquart, 2017"
  },
  "quatre-reflexes": {
   "type": "cycle",
@@ -2661,7 +2695,8 @@
     ]
    }
   ],
-  "note": "Au centre de la boucle, chercher la solution : pas tout de suite. Exemples : « tu as eu honte devant toute la classe » ; « si j'ai bien compris, ils sont trois, c'est ça ? » ; « qu'est-ce qui s'est passé ensuite ? » ; compter lentement jusqu'à dix avant de relancer. Bonne pratique partagée, non évaluée par essai contrôlé (OMS, 2023 ; OMS, 2011 ; Défenseur des droits, 2023)."
+  "note": "Au centre de la boucle, chercher la solution : pas tout de suite. Exemples : « tu as eu honte devant toute la classe » ; « si j'ai bien compris, ils sont trois, c'est ça ? » ; « qu'est-ce qui s'est passé ensuite ? » ; compter lentement jusqu'à dix avant de relancer. Bonne pratique partagée, non évaluée par essai contrôlé.",
+  "source": "OMS, 2023 ; OMS, 2011 ; Défenseur des droits, 2023"
  },
  "secret-fourche": {
   "type": "fork",
@@ -2709,7 +2744,8 @@
     ]
    }
   ],
-  "note": "Ne jamais promettre le secret absolu, et expliquer l'obligation de protection : consensus des guides de conduite à tenir (HAS, 2017 ; OMS, 2019 ; Défenseur des droits, 2023 ; NASEM, 2016)."
+  "note": "Ne jamais promettre le secret absolu, et expliquer l'obligation de protection : consensus des guides de conduite à tenir.",
+  "source": "HAS, 2017 ; OMS, 2019 ; Défenseur des droits, 2023 ; NASEM, 2016"
  },
  "signaux-par-age": {
   "type": "columns",
@@ -2748,7 +2784,8 @@
     ]
    }
   ],
-  "note": "Aucun de ces signes n'est spécifique : c'est le changement par rapport à l'enfant habituel qui alerte. Signaux d'urgence à tout âge : blessures que l'enfant s'inflige, propos de mort, refus scolaire durable, perte de poids — demander de l'aide sans attendre (NASEM, 2016 ; Catheline, 2023 ; HBSC, 2024 ; Défenseur des droits, 2023)."
+  "note": "Aucun de ces signes n'est spécifique : c'est le changement par rapport à l'enfant habituel qui alerte. Signaux d'urgence à tout âge : blessures que l'enfant s'inflige, propos de mort, refus scolaire durable, perte de poids — demander de l'aide sans attendre.",
+  "source": "NASEM, 2016 ; Catheline, 2023 ; HBSC, 2024 ; Défenseur des droits, 2023"
  },
  "triangle-sources": {
   "type": "venn3",
@@ -2771,7 +2808,8 @@
    }
   ],
   "center": "Faisceau d'indices : harcèlement probable",
-  "note": "Les autres adultes qui le côtoient — enseignant, voisin, entraîneur, personne qui l'accueille après l'école — voient chacun un morceau. Une source seule ne suffit pas ; les auteurs, en particulier, se déclarent peu.(IBCR et UNICEF, 2018)."
+  "note": "Les autres adultes qui le côtoient — enseignant, voisin, entraîneur, personne qui l'accueille après l'école — voient chacun un morceau. Une source seule ne suffit pas ; les auteurs, en particulier, se déclarent peu.",
+  "source": "IBCR et UNICEF, 2018"
  },
  "trois-enfants-trois-reponses": {
   "type": "columns",
@@ -2810,7 +2848,8 @@
     ]
    }
   ],
-  "note": "Commun aux trois chemins : parler avant que cela arrive, et nommer d'avance l'adulte à qui l'on peut se confier (NASEM, 2016 ; Gini et al., 2014 ; Gershoff et Grogan-Kaylor, 2016 ; Zych et al., 2019)."
+  "note": "Commun aux trois chemins : parler avant que cela arrive, et nommer d'avance l'adulte à qui l'on peut se confier.",
+  "source": "NASEM, 2016 ; Gini et al., 2014 ; Gershoff et Grogan-Kaylor, 2016 ; Zych et al., 2019"
  },
  "adapter-pas-copier": {
   "type": "fork",
@@ -2826,7 +2865,7 @@
   "root": {
    "title": "Programme évalué ailleurs",
    "lines": [
-    "19-20 % de faits en moins",
+    "18-19 % de faits en moins",
     "15-16 % de victimes en moins",
     "100 évaluations, presque toutes en Europe et en Amérique du Nord"
    ],
@@ -2985,7 +3024,8 @@
     ]
    }
   ],
-  "note": "Programme complet : environ 19-20 % de faits en moins et 15-16 % de victimes en moins, sur une centaine d'évaluations (Gaffney et al., 2021a ; Gaffney et al., 2021b ; Ttofi et Farrington, 2011). Effet nul ou négatif des programmes de type Scared Straight (Petrosino et al., 2013) ; contagion déviante quand on regroupe les jeunes en difficulté (Dishion et McCord, 1999) ; hausse de la victimisation avec le travail par les pairs non encadré (Ttofi et Farrington, 2011)."
+  "note": "Programme complet : environ 18-19 % de faits en moins et 15-16 % de victimes en moins, sur une centaine d'évaluations. Effet nul ou négatif des programmes de type Scared Straight (Petrosino et al., 2013) ; contagion déviante quand on regroupe les jeunes en difficulté (Dishion et McCord, 1999) ; hausse de la victimisation avec le travail par les pairs non encadré.",
+  "source": "Gaffney et al., 2021a ; Gaffney et al., 2021b ; Ttofi et Farrington, 2011"
  },
  "composants-efficaces": {
   "type": "columns",
@@ -3119,7 +3159,8 @@
     ]
    }
   ],
-  "note": "Ce qui desserre les pièges : comparer de vrais jumeaux élevés ensemble dont un seul a été harcelé. Cohorte britannique TEDS, 11 108 participants : contribution causale plausible à l'anxiété, à la dépression et aux troubles du comportement, effets qui s'atténuent, anxiété persistante à 2 ans mais plus à 5 ans (Singham et al., 2017). Chez 1 116 familles de jumeaux de 10 ans, des facteurs héréditaires expliquent 73 % de la variation de la victimation et 61 % de la perpétration (Ball et al., 2008). Sur 165 études passées au crible de critères de causalité, le lien est le mieux étayé avec la dépression, l'anxiété, la mauvaise santé perçue et les conduites suicidaires (Moore et al., 2017)."
+  "note": "Ce qui desserre les pièges : comparer de vrais jumeaux élevés ensemble dont un seul a été harcelé. Cohorte britannique TEDS, 11 108 participants : contribution causale plausible à l'anxiété, à la dépression et aux troubles du comportement, effets qui s'atténuent, anxiété persistante à 2 ans mais plus à 5 ans (Singham et al., 2017). Chez 1 116 familles de jumeaux de 10 ans, des facteurs héréditaires expliquent 73 % de la variation de la victimation et 61 % de la perpétration (Ball et al., 2008). Sur 165 études passées au crible de critères de causalité, le lien est le mieux étayé avec la dépression, l'anxiété, la mauvaise santé perçue et les conduites suicidaires.",
+  "source": "Moore et al., 2017"
  },
  "cinq-etapes-parcours": {
   "type": "chain",
@@ -3180,7 +3221,8 @@
     ]
    }
   ],
-  "note": "Chaque étape prépare la suivante : on ne qualifie pas un comportement sans connaître l'âge, on n'agit pas sans avoir qualifié. Schéma de la structure du site : 18 modules répartis en cinq étapes, sans donnée chiffrée."
+  "note": "Chaque étape prépare la suivante : on ne qualifie pas un comportement sans connaître l'âge, on n'agit pas sans avoir qualifié. Schéma de la structure du site : 18 modules répartis en cinq étapes, sans donnée chiffrée.",
+  "source": "Schéma construit pour ce site"
  },
  "sept-elements-rencontre": {
   "type": "flow",
@@ -3419,7 +3461,7 @@
       "tone": "s"
      },
      {
-      "text": "19-20 % de faits en moins et 15-16 % de victimes en moins, sur 100 évaluations",
+      "text": "18-19 % de faits en moins et 15-16 % de victimes en moins, sur 100 évaluations",
       "tone": "s"
      }
     ]
@@ -3755,7 +3797,8 @@
     ]
    }
   ],
-  "note": "Hors de ces cercles — autres parents, voisins, groupes de messagerie, réseaux sociaux — personne ne reçoit rien."
+  "note": "Hors de ces cercles — autres parents, voisins, groupes de messagerie, réseaux sociaux — personne ne reçoit rien.",
+  "source": "Nations Unies, 1989"
  },
  "jalons-vie-d-une-note": {
   "type": "chain",
@@ -3841,7 +3884,8 @@
     ]
    }
   ],
-  "note": "Les trois ensemble, ou rien. Le retrait reste possible à tout moment, sans motif. Jamais publiés : le nom d'un enfant auteur, celui d'un établissement mis en cause, celui d'un enfant victime de violences sexuelles, ni une situation en cours devant l'école, la protection de l'enfance ou la justice."
+  "note": "Les trois ensemble, ou rien. Le retrait reste possible à tout moment, sans motif. Jamais publiés : le nom d'un enfant auteur, celui d'un établissement mis en cause, celui d'un enfant victime de violences sexuelles, ni une situation en cours devant l'école, la protection de l'enfance ou la justice.",
+  "source": "Nations Unies, 1989"
  },
  "fourche-avant-de-publier": {
   "type": "flow",
@@ -3961,7 +4005,8 @@
     ]
    }
   ],
-  "note": "Presque tous les chemins mènent à « ne pas publier, transmettre ». C'est normal : publier ne protège pas un enfant, transmettre si."
+  "note": "Presque tous les chemins mènent à « ne pas publier, transmettre ». C'est normal : publier ne protège pas un enfant, transmettre si.",
+  "source": "Schéma construit pour ce site"
  },
  "comparateur-convocation": {
   "type": "grid",
@@ -4051,6 +4096,7 @@
     ]
    }
   ],
-  "note": "Le châtiment corporel est interdit à l'école à Madagascar. Aucune de ces règles ne demande de moyens supplémentaires : elles demandent une méthode."
+  "note": "Le châtiment corporel est interdit à l'école à Madagascar. Aucune de ces règles ne demande de moyens supplémentaires : elles demandent une méthode.",
+  "source": "2019"
  }
 }

@@ -749,6 +749,6 @@ for name, spec in SPECS.items():
     out = RENDER[spec['type']](name, spec).replace('__T__', esc(spec['title'])).replace('__D__', esc(spec['desc']))
     (OUT / f'{name}.svg').write_text(out, encoding='utf-8')
     # la note de figure (sources, mises en garde) n'est plus dessinée : troisième ligne du jumeau, rendue sous la figure
-    (OUT / f'{name}.txt').write_text(spec['title'] + '\n' + spec['desc'] + '\n' + (spec.get('note') or '') + chr(10), encoding='utf-8')
+    (OUT / f'{name}.txt').write_text(spec['title'] + '\n' + spec['desc'] + '\n' + (spec.get('note') or '') + chr(10) + (spec.get('source') or '') + chr(10), encoding='utf-8')
     n += 1
 print(f'{n} schémas générés dans {OUT.relative_to(ROOT)}')

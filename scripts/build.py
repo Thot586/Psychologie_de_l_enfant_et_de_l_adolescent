@@ -197,15 +197,13 @@ def load_figure(name):
             svg = read(cand).strip()
             txt = cand.with_suffix('.txt')
             title, desc = '', ''
-            note = ''
+            note, source = '', ''
             if txt.exists():
-                lines = read(txt).strip().splitlines()
-                title = lines[0].strip() if lines else ''
-                desc = lines[1].strip() if len(lines) > 1 else ''
-                # troisième ligne : la note de figure, sources et mises en garde
-                note = ' '.join(x.strip() for x in lines[2:]).strip()
-                if not note and len(lines) > 2:
-                    desc = ' '.join(x.strip() for x in lines[1:]).strip()
+                lignes = read(txt).split('\n')
+                title = lignes[0].strip() if lignes else ''
+                desc = lignes[1].strip() if len(lignes) > 1 else ''
+                note = lignes[2].strip() if len(lignes) > 2 else ''      # note de figure : mises en garde
+                source = lignes[3].strip() if len(lignes) > 3 else ''    # d'où viennent les données
             svg = re.sub(r'<\?xml[^>]*>\s*', '', svg)
             if '<title' not in svg and title:
                 tid = f'fig-{slugify(name)}-t'
@@ -216,8 +214,8 @@ def load_figure(name):
                 svg = re.sub(r'<svg\b', '<svg role="img"' + labelled, svg, count=1)
             elif 'role=' not in svg[:200]:
                 svg = re.sub(r'<svg\b', '<svg role="img"', svg, count=1)
-            return svg, title, desc, note
-    return None, '', '', ''
+            return svg, title, desc, note, source
+    return None, '', '', '', ''
 
 
 def expand_figures(body, page):
@@ -236,33 +234,38 @@ def expand_figures(body, page):
             ordre.append(cle)
         return numeros[cle]
 
-    def bloc(name, classes, n, svg, title, visible):
+    def bloc(name, classes, n, svg, title, visible, source=''):
         # Le bouton d'agrandissement se pose sur la ligne de légende, jamais sur le dessin.
         agrandir = ('<button type="button" class="fig-zoom" title="Agrandir" aria-label="Agrandir la figure ' + esc(title or str(n))
                     + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 15v5h-5M4 15v5h5M20 9V4h-5"/></svg></button>')
         cap = (f'<figcaption class="fig-cap"><span class="fig-lib"><span class="fig-n">Figure&nbsp;{n}</span>'
                f'<span class="fig-t">{esc(title)}</span></span>{agrandir}</figcaption>') if title else ''
-        note = f'<p class="fig-note"><span class="fig-note-l">Note.</span> {esc(visible)}</p>' if visible else ''
+        # la source est portée par la figure : on ne doit pas avoir à la chercher dans le texte
+        if not source and not re.search(r'(19|20)[0-9]{2}', visible or ''):
+            err(f'{page["out"]} : la figure « {name} » n\'indique pas d\'où viennent ses données')
+        src = f'<span class="fig-src">{esc(source if source.startswith("Schéma") else "Source : " + source)}</span>' if source else ''
+        note = (f'<p class="fig-note"><span class="fig-note-l">Note.</span> {esc(visible)}{(" " + src) if src else ""}</p>'
+                if (visible or src) else '')
         return (f'<figure class="fig {classes}" id="fig-{slugify(name)}" data-fig-n="{n}">{cap}'
                 f'<div class="fig-box">{svg}{"" if title else agrandir}</div>{note}</figure>')
 
     def marker(m):
         name = m.group(1).strip()
         classes = (m.group(2) or '').strip()
-        svg, title, desc, note_fig = load_figure(name)
+        svg, title, desc, note_fig, source_fig = load_figure(name)
         if svg is None:
             err(f'{page["out"]} : figure introuvable « {name} »')
             return f'<!-- figure manquante : {name} -->'
         visible = FIG_LEGENDES.get(name) or FIG_LEGENDES.get(FIG_ALIASES.get(name, name)) or desc
         if note_fig:
             visible = (visible + ' ' + note_fig).strip()
-        return bloc(name, classes, prochain(name), svg, title, visible)
+        return bloc(name, classes, prochain(name), svg, title, visible, source_fig)
     body = re.sub(r'<!--\s*figure:\s*([\w./-]+)(?:\s+([\w\s-]+))?\s*-->', marker, body)
 
     def explicit(m):
         attrs, inner = m.group(1), m.group(2)
         name = tag_attr('<figure' + attrs + '>', 'data-figure')
-        svg, title, desc, note_fig = load_figure(name)
+        svg, title, desc, note_fig, source_fig = load_figure(name)
         if svg is None:
             err(f'{page["out"]} : figure introuvable « {name} »')
             return m.group(0)

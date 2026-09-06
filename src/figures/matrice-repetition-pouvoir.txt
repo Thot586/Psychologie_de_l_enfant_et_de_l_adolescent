@@ -1,2 +1,4 @@
 Conflit ou harcèlement : deux questions, quatre situations
 Matrice à quatre cases. Les colonnes répondent à la question du rapport de force : « forces comparables » (chacun peut répondre à l'autre) ou « déséquilibre de pouvoir » (l'un ne peut pas se défendre). Les lignes répondent à la question de la fréquence : « une fois » ou « répété ». Une fois entre forces comparables : conflit ponctuel, deux amis se disputent un ballon puis se réconcilient. Une fois avec déséquilibre : agression isolée, un grand frappe un petit une seule fois. Répété entre forces comparables : conflit répété, deux élèves se chamaillent chaque semaine à forces égales. Répété avec déséquilibre, la seule case en teinte d'alerte : harcèlement, le même élève est visé chaque jour par un groupe sans pouvoir se défendre.
+
+Schéma construit pour ce site, à partir des trois critères (Smith et al., 2002)
